@@ -51,8 +51,7 @@
 	Добавьте следующую строку для Wily:
 	<I>deb http://notesalexp.org/debian/wily/ wily main</I><DT>
 	Сохраните и закройте sources.list<DT>
-	<I>wget -O - </I><I>http://notesalexp.org/debian/alexp_key.asc</I><I>
-	| apt-key add - </I><FONT COLOR="#808080">#Добавьте gpg ключ</FONT><DT>
+	<I>apt-get update && apt-get install notesalexp-keyring</I><FONT COLOR="#808080"> #Добавьте gpg ключ</FONT><DT>
 	<I>apt-get update</I> <FONT COLOR="#808080">#Обновите список пакетов</FONT><DT>
 	<I>apt-get install пакет</I><DT>
 	<strong>Внимание:</strong> Необходимо обновить gpg ключ.(2015-09-20)<DT>
@@ -685,7 +684,7 @@
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <p></p>
 <!--
-timestamp: 1456071435
+timestamp: 1456083678
 -->
 </body>
 </html>

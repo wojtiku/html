@@ -51,8 +51,7 @@
 	Add this line for Wily:
 	<I>deb http://notesalexp.org/debian/wily/ wily main</I><DT>
 	Save and close sources.list<DT>
-	<I>wget -O - </I><I>http://notesalexp.org/debian/alexp_key.asc</I><I>
-	| apt-key add - </I><FONT COLOR="#808080">#to add gpg key</FONT><DT>
+	<I>apt-get update && apt-get install notesalexp-keyring</I><FONT COLOR="#808080"> #to add gpg key</FONT><DT>
 	<I>apt-get update</I> <FONT COLOR="#808080">#to update package list</FONT><DT>
 	<I>apt-get install package</I><DT>
 	<strong>Warning:</strong> Need to update the gpg-key.(2015-09-20)<DT>
@@ -685,7 +684,7 @@ Blog:   <a href="http://notesalexp.blogspot.com/">http://notesalexp.blogspot.com
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <p></p>
 <!--
-timestamp: 1456071435
+timestamp: 1456083678
 -->
 </body>
 </html>
