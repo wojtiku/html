@@ -267,6 +267,21 @@
       "md5": " 402150b02616e0ac275f663a006bc6b9 ada6ab9564b0b259e57a4ab55d7a1695 1399c28f099becbf1c94d33308595a20",
       "size": " 16KiB 4KiB 3.57MiB"
     },
+    "leptonlib": 
+    {
+      "version": "1.73-5+nmu1",
+      "description": " image processing library",
+      "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+      "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+      "homepage": "",
+      "depends": "debhelper(>=5.0.0) libtiff-dev libpng-dev libgif-dev(>=4.1.6) libwebp-dev(>=0.4.0) libopenjp2-7-dev dh-autoreconf ",
+      "binary": "libleptonica-dev liblept5 leptonica-progs",
+      "description_libleptonicadev": "image processing library",
+      "description_liblept5": "image processing library",
+      "description_leptonicaprogs": "sample programs for Leptonica image processing library",
+      "md5": " 88c42736bce4a4866d9492361e347b42 3617d3d0f774ac88824f46411c931d3d 269ebeb3de8f1465e4bc1ea074b54875",
+      "size": " 12KiB 4KiB 10.30MiB"
+    },
     "libgtk2imageviewperl": 
     {
       "version": "0.05-2+nmu2",
@@ -358,6 +373,27 @@
       "description_ocrfeeder": "Document layout analysis and optical character recognition system",
       "md5": " 5533b53b553194edcc320980eaf83bc0 c5dc8c7e2747ecf0f9928bbbdff08d51 bb8d642a83a373332b5a6238e4045892",
       "size": " 4KiB 4KiB 760KiB"
+    },
+    "openjpeg2": 
+    {
+      "version": "2.1.2-1+nmu1",
+      "description": " JPEG 2000 image compression/decompression library",
+      "sourceurl": "http://notesalexp.org/source/main/o/openjpeg2",
+      "sourcefile": "openjpeg2_2.1.2-1+nmu1.debian.tar.gz openjpeg2_2.1.2-1+nmu1.dsc openjpeg2_2.1.2.orig.tar.gz ",
+      "homepage": "http://www.openjpeg.org",
+      "depends": "cmake(>=2.8.2) debhelper(>=9) default-jdk dh-apache2 help2man javahelper(>=0.37~) libcurl4-gnutls-dev|libcurl-ssl-dev libfcgi-dev liblcms2-dev libpng-dev libtiff-dev libxerces2-java zlib1g-dev ",
+      "binary": "libopenjp2-7-dev libopenjp2-7 libopenjpip7 libopenjp3d7 libopenjp2-7-dbg libopenjpip-dec-server libopenjpip-viewer libopenjpip-server libopenjp3d-tools libopenjp2-tools",
+      "description_libopenjp27dev": "development files for OpenJPEG, a JPEG 2000 image library",
+      "description_libopenjp27": "JPEG 2000 image compression/decompression library",
+      "description_libopenjpip7": "JPEG 2000 Interactive Protocol",
+      "description_libopenjp3d7": "JP3D (JPEG 2000 / Part 10) image compression/decompression library",
+      "description_libopenjpipdecserver": "tool to allow caching of JPEG 2000 files using JPIP protocol",
+      "description_libopenjpipviewer": "JPEG 2000 java based viewer for advanced remote JPIP access",
+      "description_libopenjpipserver": "JPIP server for JPEG 2000 files",
+      "description_libopenjp3dtools": "command-line tools using the JPEG 2000 - 3D library",
+      "description_libopenjp2tools": "command-line tools using the JPEG 2000 library",
+      "md5": " 102e51465227a12b03724d32fc6e91ab 0b39acf5368bc4e0e2eb4acaf8c13731 40a7bfdcc66280b3c1402a0eb1a27624",
+      "size": " 20KiB 4KiB 1.89MiB"
     },
     "ppastats": 
     {
@@ -569,20 +605,20 @@
     },
     "tesseract": 
     {
-      "version": "4.00~git1585-0c7ada4-1",
+      "version": "4.00~git1648-2d1decb-2",
       "description": " Open Source OCR Engine",
       "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-      "sourcefile": "tesseract_4.00~git1585-0c7ada4-1.debian.tar.xz tesseract_4.00~git1585-0c7ada4-1.dsc tesseract_4.00~git1585-0c7ada4.orig.tar.xz ",
+      "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
       "homepage": "https://github.com/tesseract-ocr/",
-      "depends": "debhelper(>=7.0.50~) libleptonica-dev(>=1.70~) automake libtool libpango1.0-dev libcairo2-dev libicu-dev ",
+      "depends": "debhelper(>=7.0.50~) libleptonica-dev(>=1.72~) automake libtool libpango1.0-dev libcairo2-dev libicu-dev libpng-dev libjpeg-dev libtiff-dev zlib1g-dev ",
       "binary": "tesseract-ocr-dev libtesseract-dev libtesseract4 tesseract-ocr tesseract-ocr-all",
       "description_tesseractocrdev": "transitional dummy package",
       "description_libtesseractdev": "Development files for the tesseract command line OCR tool",
       "description_libtesseract4": "Tesseract OCR library",
       "description_tesseractocr": " Open Source OCR Engine",
       "description_tesseractocrall": "Tesseract OCR with all language packages",
-      "md5": " a4c13d36e26124bd05c6b75e581e051b 138ed5859d9eb354a43b54032e59f315 73a89d9a128b5cf2dbb1c4e7120ae3cc",
-      "size": " 12KiB 4KiB 2.92MiB"
+      "md5": " 48ab133ceed9654450442859f6b64003 425e87aa90590b83e783df3d3c261a30 4aa5791e470d302e86eb9855ab5d7ac5",
+      "size": " 12KiB 4KiB 2.83MiB"
     },
     "tesseractlang": 
     {
