@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | FAQ</title>
+    <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
+    <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <meta name="generator" content="Pelican" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://notesalexp.org/html/">Home</a></li>
+                <li><a href="http://notesalexp.org/html/update.html">Update</a></li>
+                <li class="selected"><a href="http://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li><a href="http://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="http://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="http://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+    </header>
+    <div id="wrapper">
+        <div id="content">
+            <div class="page">
+                <p><strong>How to install one package ignoring others</strong></p>
+<p>As an example you don’t need all the repository packages but <em>clementine</em> only.
+It’s needed to create file <code>/etc/apt/preferences.d/notesalexp</code> containing:</p>
+<div class="highlight"><pre><span></span>Package: *
+Pin: release o=notesalexp.org
+Pin-Priority: 200
+
+Package: clementine
+Pin: release o=notesalexp.org
+Pin-Priority: 500
+</pre></div>
+
+
+<p>Now <em>clementine</em> will be installed from http://notesalexp.org/ the other packages from other sources.</p>
+<hr />
+<p><strong>Как установить только один пакет, не затрагивая другие пакеты?</strong></p>
+<p>Допустим Вам ненужны все пакеты из моего репозитория, а только <em>clementine</em>. 
+Тогда создадим файл <code>/etc/apt/preferences.d/notesalexp</code> со следующим содержанием:</p>
+<div class="highlight"><pre><span></span>Package: *
+Pin: release o=notesalexp.org
+Pin-Priority: 200
+
+Package: clementine
+Pin: release o=notesalexp.org
+Pin-Priority: 500
+</pre></div>
+
+
+<p>Теперь <em>clementine</em> будет устанавливаться с http://notesalexp.org/, а другие пакеты с других источников.</p>
+            </div>
+
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                Powered by <a href="http://getpelican.com">Pelican</a>
+                &middot;
+                <a href="http://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>notesalexp.org</title><link href="http://notesalexp.org/html/" rel="alternate"></link><link href="http://notesalexp.org/html/feeds/repozitorii.atom.xml" rel="self"></link><id>http://notesalexp.org/html/</id><updated>2016-12-10T22:46:00+03:00</updated><entry><title>Обновление от 2016.12.10</title><link href="http://notesalexp.org/html/2016/12/10/20161210/" rel="alternate"></link><published>2016-12-10T22:46:00+03:00</published><author><name>Aлексанр Поздняков</name></author><id>tag:notesalexp.org,2016-12-10:html/2016/12/10/20161210/</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;balsa-2.5.1+git20161209&lt;/li&gt;
+&lt;li&gt;fatrat-1.2.0+git20161204&lt;/li&gt;
+&lt;li&gt;gimp-2.8.18+git32435-77d6969&lt;/li&gt;
+&lt;li&gt;gimp-devel-2.9.4+git37718-619a885&lt;/li&gt;
+&lt;li&gt;goaccess-1.1.0+git2086-749ecc9&lt;/li&gt;
+&lt;li&gt;kvirc-4.9.2~git-7041-gd300312&lt;/li&gt;
+&lt;li&gt;librecad-2.1.0+git4264-8c02aac&lt;/li&gt;
+&lt;li&gt;psi-plus-0.16.568.608+git20161204&lt;/li&gt;
+&lt;li&gt;qcad-3.15.8.0+git4146-a67c9da&lt;/li&gt;
+&lt;li&gt;smplayer-16.11.0+svn8262&lt;/li&gt;
+&lt;li&gt;solvespace-2.2.0+git1069-3dd2fc0&lt;/li&gt;
+&lt;li&gt;tesseract-4.00~git1585-0c7ada4&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="deb"></category><category term="reps"></category><category term="update"></category></entry><entry><title>Обновление от 2016.12.05</title><link href="http://notesalexp.org/html/2016/12/05/20161205/" rel="alternate"></link><published>2016-12-05T22:38:00+03:00</published><author><name>Aлексанр Поздняков</name></author><id>tag:notesalexp.org,2016-12-05:html/2016/12/05/20161205/</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;solvespace-2.2.0+git1066-6fcf1bb&lt;/li&gt;
+&lt;li&gt;tesseract-4.00~git1562-798d79a&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="deb"></category><category term="reps"></category><category term="update"></category></entry><entry><title>Обновление от 2016.12.02</title><link href="http://notesalexp.org/html/2016/12/02/20161202/" rel="alternate"></link><published>2016-12-02T21:31:00+03:00</published><author><name>Aлексанр Поздняков</name></author><id>tag:notesalexp.org,2016-12-02:html/2016/12/02/20161202/</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;gimp-gtk3-2.9.4+git37883-447e734&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="deb"></category><category term="reps"></category><category term="update"></category></entry><entry><title>Обновление от 2016.11.26</title><link href="http://notesalexp.org/html/2016/11/26/20161126/" rel="alternate"></link><published>2016-11-26T22:45:00+03:00</published><author><name>Aлексанр Поздняков</name></author><id>tag:notesalexp.org,2016-11-26:html/2016/11/26/20161126/</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;balsa-2.5.1+git20161123&lt;/li&gt;
+&lt;li&gt;eiskaltdcpp-unstable-2.2.9+git20161119&lt;/li&gt;
+&lt;li&gt;fatrat-1.2.0+git20161121&lt;/li&gt;
+&lt;li&gt;gimp-2.8.18+git32434-f2e483d&lt;/li&gt;
+&lt;li&gt;gimp-devel-2.9.4+git37698-61475fb&lt;/li&gt;
+&lt;li&gt;goaccess-1.1.0+git2072-8953b13&lt;/li&gt;
+&lt;li&gt;kvirc-4.9.2~git-7028-g392d211&lt;/li&gt;
+&lt;li&gt;librecad-2.1.0+git4258-c19bd97&lt;/li&gt;
+&lt;li&gt;llpp-23.0.0+git2419-f15aac7&lt;/li&gt;
+&lt;li&gt;psi-plus-l10n-0.16.568.607.1+git20161125&lt;/li&gt;
+&lt;li&gt;qcad-3.15.8.0+git4102-38b6971&lt;/li&gt;
+&lt;li&gt;qcomicbook-0.9.1+git476-d0fc37d&lt;/li&gt;
+&lt;li&gt;smplayer-16.11.0+svn8247&lt;/li&gt;
+&lt;li&gt;tesseract-3.05.00~git20161125&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="deb"></category><category term="reps"></category><category term="update"></category></entry></feed>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | Home</title>
+    <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
+    <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <meta name="generator" content="Pelican" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="selected"><a href="http://notesalexp.org/html/">Home</a></li>
+                <li><a href="http://notesalexp.org/html/update.html">Update</a></li>
+                <li><a href="http://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li><a href="http://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="http://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="http://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+    </header>
+    <div id="wrapper">
+        <div id="content">
+            <div class="page">
+                <p><strong>notesalexp.org</strong> - Unofficial repository for <strong>Debian GNU/Linux</strong> and <strong>Ubuntu</strong>. 
+You can find the packages of this repository following this <a href="http://notesalexp.org/packages/">link</a>.</p>
+<p><strong>Instructions</strong></p>
+<p><em>1. Open a terminal</em></p>
+<div class="highlight"><pre><span></span>sudo nano /etc/apt/sources.list #to open repository file with a text editor
+</pre></div>
+
+
+<p>Add this line for <strong>Wheezy</strong>: <code>deb http://notesalexp.org/debian/wheezy/ wheezy main</code><br />
+Add this line for <strong>Jessie</strong>: <code>deb http://notesalexp.org/debian/jessie/ jessie main</code><br />
+Add this line for <strong>Stretch</strong>: <code>deb http://notesalexp.org/debian/stretch/ stretch main</code><br />
+Add this line for <strong>Sid</strong>: <code>deb http://notesalexp.org/debian/sid/ sid main</code><br />
+Add this line for <strong>Precise</strong>: <code>deb http://notesalexp.org/debian/precise/ precise main</code><br />
+Add this line for <strong>Trusty</strong>: <code>deb http://notesalexp.org/debian/trusty/ trusty main</code><br />
+Add this line for <strong>Xenial</strong>: <code>deb http://notesalexp.org/debian/xenial/ xenial main</code><br />
+Add this line for <strong>Yakkety</strong>: <code>deb http://notesalexp.org/debian/yakkety/ yakkety main</code><br />
+Save and close sources.list</p>
+<p><em>2.Fetch and install the GnuPG key</em></p>
+<div class="highlight"><pre><span></span>sudo apt-get update &amp;&amp; sudo apt-get install notesalexp-keyring #to add gpg key
+sudo apt-get update #to update package list
+</pre></div>
+
+
+<p>or</p>
+<div class="highlight"><pre><span></span>wget -O - http://notesalexp.org/debian/alexp_key.asc | sudo apt-key add -
+sudo apt-get update #to update package list
+</pre></div>
+
+
+<p><em>3. Enjoy</em></p>
+<div class="highlight"><pre><span></span>apt-get install package
+</pre></div>
+
+
+<p><strong>Warning</strong>: Need to update the gpg-key.(2015-09-20)<br />
+<strong>Warning</strong>: Some packages for Debian GNU/Linux require http://www.deb-multimedia.org/ repository to be connected.</p>
+            </div>
+
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                Powered by <a href="http://getpelican.com">Pelican</a>
+                &middot;
+                <a href="http://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>

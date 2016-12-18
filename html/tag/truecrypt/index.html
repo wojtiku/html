@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | articles tagged "truecrypt"</title>
+    <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
+    <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <meta name="generator" content="Pelican" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="ephemeral selected"><a href="http://notesalexp.org/html/tag/truecrypt/index.html">truecrypt</a></li>
+                <li><a href="http://notesalexp.org/html/">Home</a></li>
+                <li><a href="http://notesalexp.org/html/update.html">Update</a></li>
+                <li><a href="http://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li><a href="http://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="http://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="http://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+    </header>
+    <div id="wrapper">
+        <div id="content">            <h4 class="date">май 19, 2016</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="http://notesalexp.org/html/2016/05/19/truecrypt/" rel="bookmark" title="Permanent Link to &quot;Сборка truecrypt в Debian/Ubuntu.&quot;">Сборка truecrypt в Debian/Ubuntu.</a>
+                </h2>
+
+                <p>Эта статья написана для тех кто не хочет использовать сторонние сборки
+с различных репозиториев, или собранные сторонними людьми.</p>
+<p>Итак приступим:</p>
+<p>Нам необходимо скачать исходные коды <em>TrueCrypt</em>. Так как разработка официально закрыта и их нельзя скачать с  <a href="http://www.truecrypt.org/">http://www.truecrypt.org/</a>. Нам придется их качать с 
+других мест. Для примера приведу несколько:</p>
+<ol>
+<li><a href="https://github.com/DrWhax/truecrypt-archive">https://github.com/DrWhax/truecrypt-archive</a></li>
+<li><a href="https://www.grc.com/misc/truecrypt/truecrypt.htm">https://www.grc.com/misc/truecrypt/truecrypt.htm</a></li>
+</ol>
+<p>Скачиваем файл <em>TrueCrypt 7.1a Source.tar.gz</em> прежде чем распаковать его, мы можем <a href="https://github.com/DrWhax/truecrypt-archive#verifying-the-integrity">проверить цифровую подпись</a> и контрольную сумму файла. </p>
+<div class="highlight"><pre><span></span>SHA256
+=======
+e6214e911d0bbededba274a2f8f8d7b3f6f6951e20f1c3a598fc7a23af81c8dc  TrueCrypt 7.1a Source.tar.gz
+3de1be6ff4793c5d7269384a5739bb4c985068b15978d17d5bd71403e0f02177  TrueCrypt 7.1a Source.tar.gz.sig
+
+SHA1
+=======
+d43e0dbe05c04e316447d87413c4f74c68f5de24  TrueCrypt 7.1a Source.tar.gz
+caeb2bb1d5605d1fc960e936a06e52611033788c  TrueCrypt 7.1a Source.tar.gz.sig
+
+MD5
+=======
+102d9652681db11c813610882332ae48  TrueCrypt 7.1a Source.tar.gz
+5bca3d15b35d0725ff3317e568062ad8  TrueCrypt 7.1a Source.tar.gz.sig
+</pre></div>
+
+
+<p>Так как в <em>Debian GNU/Linux</em> начиная с версии 8 и в <em>Ubuntu</em> начиная с версии 16.04 не предоставляется библиотека <em>wxWidgets</em> версии 2.8 необходимая для сборки <em>TrueCrypt</em>. Заходим на сайт <a href="https://www.wxwidgets.org/downloads/">https://www.wxwidgets.org/downloads/</a> качаем исходники версии 2.8.12:</p>
+<div class="highlight"><pre><span></span>wget https://github.com/wxWidgets/wxWidgets/releases/download/v2.8.12/wxWidgets-2.8.12.tar.gz
+</pre></div>
+
+
+<p>Распакуем архивы в любую директорию например /home/user/build</p>
+<p>Так же нам понадобится заголовочный файлы <em>PKCS#11</em></p>
+<div class="highlight"><pre><span></span><span class="nb">cd</span> /home/user/build
+mkdir pkcs11
+<span class="nb">cd</span> pkcs11
+wget ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-11/v2-20/pkcs11.h
+wget ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-11/v2-20/pkcs11f.h
+wget ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-11/v2-20/pkcs11t.h
+</pre></div>
+
+
+<p>Удовлетворим зависимости для сборки</p>
+<div class="highlight"><pre><span></span>sudo aptitude install build-essential libgtk2.0-dev libfuse-dev fuse-utils mount dmsetup libsm6  nasm pkg-config libsm-dev
+</pre></div>
+
+
+<p>Переходим в папку <em>/home/user/build/truecrypt-7.1a-source</em></p>
+<p>Переносим исходники <em>wxWidgets</em> и заголовочный файлы <em>PKCS#11</em> в <em>/home/user/build/truecrypt-7.1a-source</em></p>
+<div class="highlight"><pre><span></span>mv ../wxWidgets-2.8.12 .
+mv ../pkcs11 .
+</pre></div>
+
+
+<p>Теперь самое интересное TrueCrypt не может монтировать разделы, если его собрать с помощью <em>gcc-5.x.</em> Связанно с изменением C++ ABI.</p>
+<p>Проверяем версию gcc:</p>
+<div class="highlight"><pre><span></span>gcc --version                                                                                                                       
+gcc (Debian 4.9.2-10) 4.9.2
+Copyright (C) 2014 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+</pre></div>
+
+
+<p>Если у нас в системе версия gcc 5.x. и выше, ставим gcc 4.9 и экспортируем переменные <em>CC</em> и <em>CXX</em></p>
+<div class="highlight"><pre><span></span>sudo aptitude install gcc-4.9 g++-4.9
+<span class="nb">export</span> <span class="nv">CC</span><span class="o">=</span>gcc-4.9
+<span class="nb">export</span> <span class="nv">CXX</span><span class="o">=</span>g++-4.9
+</pre></div>
+
+
+<p>Теперь определим еще две переменные PKCS11_INC и WX_ROOT</p>
+<div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">PKCS11_INC</span><span class="o">=</span>/home/user/build/truecrypt-7.1a-source/pkcs11
+<span class="nb">export</span> <span class="nv">WX_ROOT</span><span class="o">=</span>/home/user/build/truecrypt-7.1a-source/wxWidgets-2.8.12
+</pre></div>
+
+
+<p>Для сборки нам необходимо подправить строку <em>108</em> в файле <em>Main/Main.make</em>, 
+что бы линковка завершилась без ошибок, привести к такому виду </p>
+<div class="highlight"><pre><span></span>    <span class="k">$(</span>CXX<span class="k">)</span> -o <span class="k">$(</span>APPNAME<span class="k">)</span> <span class="k">$(</span>LFLAGS<span class="k">)</span> <span class="k">$(</span>OBJS<span class="k">)</span> <span class="k">$(</span>LIBS<span class="k">)</span> <span class="k">$(</span>FUSE_LIBS<span class="k">)</span> <span class="k">$(</span>WX_LIBS<span class="k">)</span> <span class="k">$(</span>EXTRA_LIBS<span class="k">)</span>
+</pre></div>
+
+
+<p>Определим переменную <em>EXTRA_LIBS</em></p>
+<div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">EXTRA_LIBS</span><span class="o">=</span><span class="s2">&quot;-lX11 -ldl&quot;</span>
+</pre></div>
+
+
+<p>Собираем библиотеку <em>wxWidgets</em></p>
+<div class="highlight"><pre><span></span>make wxbuild
+</pre></div>
+
+
+<p>Собираем <em>TrueCrypt</em></p>
+<div class="highlight"><pre><span></span>make <span class="nv">WXSTATIC</span><span class="o">=</span>1
+</pre></div>
+
+
+<p>Копируем truecrypt в /usr/local/bin</p>
+<div class="highlight"><pre><span></span>sudo cp Main/truecrypt /usr/local/bin/
+</pre></div>
+
+
+<p>Запускаем и пользуемся</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="http://notesalexp.org/html/2016/05/19/truecrypt/">posted at 10:40</a>
+                    &nbsp;&middot;&nbsp;<a href="http://notesalexp.org/html/category/blog" rel="tag">Блог</a>
+                    &nbsp;&middot;
+                    &nbsp;<a href="http://notesalexp.org/html/tag/truecrypt" class="tags selected">truecrypt</a>
+                    &nbsp;<a href="http://notesalexp.org/html/tag/make" class="tags">make</a>
+                </div>
+		<a href="http://notesalexp.org/html/2016/05/19/truecrypt/#disqus_thread">Click to read and post comments</a>
+            </article>
+
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                Powered by <a href="http://getpelican.com">Pelican</a>
+                &middot;
+                <a href="http://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+/*
+	http://www.debian.org Stylesheet
+
+	Copyright 2011 Kalle Söderman
+			  2016 Alexander Pozdnyakov
+
+	This stylesheet is free software; you can redistribute it and/or modify it
+	under the terms of the GNU General Public License, version 2, as published by
+	the Free Software Foundation.
+
+	This program is distributed in the hope that it will be useful, but WITHOUT ANY
+	WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+	PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License along with
+	this program; if not, write to the Free Software Foundation, Inc., 51 Franklin
+	Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+	The license text can also be found at http://www.gnu.org/copyleft/gpl.html and
+	/usr/share/common-licenses/GPL-2 on Debian GNU/Linux.  
+*/
+
+#pnavbar { 
+font-size: 0.9em; 
+margin:0; 
+padding: 6px 0.25em 7px  0.25em; 
+border-bottom: 1px solid #d2d3d7 ; 
+text-transform:lowercase; 
+line-height: 1; 
+} 
+
+#listp { 
+margin-left: 1cm 
+}
+
+#pothersdist { 
+font-size: 0.9em; 
+margin-top: 0.25em; 
+float: right; 
+}
+
+#potherssource { 
+font-size: 0.9em; 
+margin-top: 0.25em; 
+float: left; 
+}
+
+#pmoreinfo {
+width: 20em;
+float: right;
+padding: 0 0 0 0.5em;
+margin: 0 0 10px 0.5em;
+border-left: 1px solid #a9abb3;
+font-size: 0.75em;
+line-height: 1.5;
+}
+
+#pdeplegend {
+font-weight: bold;
+padding: 0 0.5em 0 0;
+border: 1px solid #a9abb3;
+}
+
+#pdeps ul.uldep, #pdeps ul.uladep {
+list-style-type: disc;
+color: red;
+}
+
+#pdeps ul.ulrec, #pdeps ul.ulidep {
+list-style-type: square;
+color: blue;
+}
+
+#pdeps ul.ulsug {
+list-style-type: disc;
+color: green;  
+}
+
+#pdeps ul.ulenh {
+list-style-type: square;
+color: orange;
+}
+
+#pdeps li span {
+color: black;
+}
+
+#pdeps ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+#pdeps table {
+display: table;
+border-collapse: separate;
+border-spacing: 2px;
+border-color: grey;
+}
+
+#pdeplegend td, #pdeplegend tr, #pdeplegend table, #pdeplegend ul, #pdeplegend li, #pdeplegend tbody {
+margin: 0;
+}
+
+#pdownload {
+text-align: left;
+margin-right: 18em;
+}
+#pdownload table {
+text-align: left;
+margin-bottom: 2em;
+border-bottom: 1px solid #a9abb3;
+border-top: 1px solid #a9abb3;
+width: 100%;
+font-size: 0.75em;
+}
