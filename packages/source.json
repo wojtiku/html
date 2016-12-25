@@ -269,18 +269,18 @@
     },
     "leptonlib": 
     {
-      "version": "1.73-5+nmu1",
+      "version": "1.74.0-1",
       "description": " image processing library",
       "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
-      "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+      "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
       "homepage": "",
       "depends": "debhelper(>=5.0.0) libtiff-dev libpng-dev libgif-dev(>=4.1.6) libwebp-dev(>=0.4.0) libopenjp2-7-dev dh-autoreconf ",
       "binary": "libleptonica-dev liblept5 leptonica-progs",
       "description_libleptonicadev": "image processing library",
       "description_liblept5": "image processing library",
       "description_leptonicaprogs": "sample programs for Leptonica image processing library",
-      "md5": " 88c42736bce4a4866d9492361e347b42 3617d3d0f774ac88824f46411c931d3d 269ebeb3de8f1465e4bc1ea074b54875",
-      "size": " 12KiB 4KiB 10.30MiB"
+      "md5": " df5dec66bea3f784044309de55cf4095 43192a02d97ffec861cfef1d06f508b3 31fe9c743ed8eecbc1405b1fb1506d01",
+      "size": " 12KiB 4KiB 10.39MiB"
     },
     "libgtk2imageviewperl": 
     {
@@ -481,15 +481,15 @@
     },
     "q4wine": 
     {
-      "version": "1.3.3-1",
+      "version": "1.3.4-1",
       "description": " Qt GUI for wine (WINE)",
       "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-      "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
+      "sourcefile": "q4wine_1.3.4-1.debian.tar.xz q4wine_1.3.4-1.dsc q4wine_1.3.4.orig.tar.gz ",
       "homepage": "https://github.com/brezerk/q4wine",
-      "depends": "cmake debhelper(>=9) icoutils libfuse-dev[!hurd-i386] libkvm-dev[kfreebsd-any] qtbase5-dev qttools5-dev-tools ",
+      "depends": "cmake debhelper(>=9) icoutils libfuse-dev[!hurd-i386] libkvm-dev[kfreebsd-any] libqt4-dev qt4-dev-tools ",
       "binary": "q4wine",
       "description_q4wine": "Qt GUI for wine (WINE)",
-      "md5": " 8c897c7d1c1f47948489e0d5db22edac 183f862555d6f1286f7d6a476f143dd8 dad7f1c033aced137986a884b2c98989",
+      "md5": " 4cc862d4f3bb2adb83e21176ad8e95dc fcfa7ffd9435c554b24639d0c3410715 12f5a07b4dd3e5b750d75b4892379304",
       "size": " 8KiB 4KiB 2.94MiB"
     },
     "qcad": 
@@ -605,20 +605,20 @@
     },
     "tesseract": 
     {
-      "version": "4.00~git1648-2d1decb-2",
+      "version": "4.00~git1674-c7caaaf-1",
       "description": " Open Source OCR Engine",
       "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-      "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+      "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
       "homepage": "https://github.com/tesseract-ocr/",
-      "depends": "debhelper(>=7.0.50~) libleptonica-dev(>=1.72~) automake libtool libpango1.0-dev libcairo2-dev libicu-dev libpng-dev libjpeg-dev libtiff-dev zlib1g-dev ",
+      "depends": "debhelper(>=7.0.50~) libleptonica-dev(>=1.72~) automake libtool libpango1.0-dev libcairo2-dev libicu-dev libpng-dev libjpeg-dev libtiff-dev zlib1g-dev git autoconf-archive ",
       "binary": "tesseract-ocr-dev libtesseract-dev libtesseract4 tesseract-ocr tesseract-ocr-all",
       "description_tesseractocrdev": "transitional dummy package",
       "description_libtesseractdev": "Development files for the tesseract command line OCR tool",
       "description_libtesseract4": "Tesseract OCR library",
       "description_tesseractocr": " Open Source OCR Engine",
       "description_tesseractocrall": "Tesseract OCR with all language packages",
-      "md5": " 48ab133ceed9654450442859f6b64003 425e87aa90590b83e783df3d3c261a30 4aa5791e470d302e86eb9855ab5d7ac5",
-      "size": " 12KiB 4KiB 2.83MiB"
+      "md5": " 24ff518df3a4e8368fddf43c6cce8f90 eb44d9b15aefae1d48af8f084c0137d1 2efdb8fde52440849fd4d952a7118abc",
+      "size": " 12KiB 4KiB 45.60MiB"
     },
     "tesseractlang": 
     {

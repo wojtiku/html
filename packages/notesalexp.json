@@ -4254,9 +4254,6 @@
           "suggests": "fuseiso winetricks ",
           "section": "otherosfs",
           "priority": "optional",
-          "source": "q4wine",
-          "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-          "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
           "homepage": "https://github.com/brezerk/q4wine",
           "description": "Qt GUI for wine (WINE)"
         },
@@ -4901,16 +4898,16 @@
         },
         "leptonicaprogs_amd64": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/l/leptonlib/leptonica-progs_1.73-5+nmu1_amd64.deb",
+          "packageurl": "http://notesalexp.org/jessie/main/l/leptonlib/leptonica-progs_1.74.0-1_amd64.deb",
           "size": "24KiB",
-          "version": "1.73-5+nmu1",
-          "isize": "161KiB",
+          "version": "1.74.0-1",
+          "isize": "118KiB",
           "depends": "libc6(>=2.7) liblept5 ",
           "section": "graphics",
           "priority": "optional",
           "source": "leptonlib",
           "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
-          "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
           "homepage": "",
           "description": "sample programs for Leptonica image processing library"
         },
@@ -5080,10 +5077,10 @@
         },
         "liblept5_amd64": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/l/leptonlib/liblept5_1.73-5+nmu1_amd64.deb",
-          "size": "868KiB",
-          "version": "1.73-5+nmu1",
-          "isize": "2.38MiB",
+          "packageurl": "http://notesalexp.org/jessie/main/l/leptonlib/liblept5_1.74.0-1_amd64.deb",
+          "size": "904KiB",
+          "version": "1.74.0-1",
+          "isize": "2.43MiB",
           "depends": "libc6(>=2.14) libgif4(>=4.1.4) libjpeg62-turbo(>=1.3.1) libopenjp2-7(>=2.0.0) libpng12-0(>=1.2.13-4) libtiff5(>=4.0.3) libwebp5 zlib1g(>=1:1.1.4) ",
           "breaks": "libleptonica(>=1.69~) ",
           "replaces": "libleptonica(>=1.69~) ",
@@ -5091,22 +5088,22 @@
           "priority": "optional",
           "source": "leptonlib",
           "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
-          "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
           "homepage": "",
           "description": "image processing library"
         },
         "libleptonicadev_amd64": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/l/leptonlib/libleptonica-dev_1.73-5+nmu1_amd64.deb",
-          "size": "1.17MiB",
-          "version": "1.73-5+nmu1",
-          "isize": "5.25MiB",
-          "depends": "liblept5(=1.73-5+nmu1) ",
+          "packageurl": "http://notesalexp.org/jessie/main/l/leptonlib/libleptonica-dev_1.74.0-1_amd64.deb",
+          "size": "1.21MiB",
+          "version": "1.74.0-1",
+          "isize": "5.39MiB",
+          "depends": "liblept5(=1.74.0-1) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "leptonlib",
           "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
-          "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
           "homepage": "",
           "description": "image processing library"
         },
@@ -5151,9 +5148,9 @@
         },
         "libtesseract4_amd64": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/libtesseract4_4.00~git1648-2d1decb-2_amd64.deb",
-          "size": "1.14MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/libtesseract4_4.00~git1674-c7caaaf-1_amd64.deb",
+          "size": "1.13MiB",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "3.30MiB",
           "depends": "libc6(>=2.14) libgcc1(>=1:4.1.1) libgomp1(>=4.9) liblept5 libstdc++6(>=4.9) ",
           "breaks": "libtesseract3 ocropus(<<0.4.0~) tesseract-ocr(<<3.01~) ",
@@ -5163,24 +5160,24 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR library"
         },
         "libtesseractdev_amd64": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/libtesseract-dev_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/libtesseract-dev_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "1.42MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "8.05MiB",
-          "depends": "libtesseract4(=4.00~git1648-2d1decb-2) ",
+          "depends": "libtesseract4(=4.00~git1674-c7caaaf-1) ",
           "breaks": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "replaces": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Development files for the tesseract command line OCR tool"
         },
@@ -5330,9 +5327,9 @@
         },
         "q4wine_amd64": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/q/q4wine/q4wine_1.3.3-1_amd64.deb",
-          "size": "3.05MiB",
-          "version": "1.3.3-1",
+          "packageurl": "http://notesalexp.org/jessie/main/q/q4wine/q4wine_1.3.4-1_amd64.deb",
+          "size": "3.06MiB",
+          "version": "1.3.4-1",
           "isize": "6.75MiB",
           "depends": "icoutils libqt4-sql-sqlite libc6(>=2.14) libgcc1(>=1:4.1.1) libqt4-dbus(>=4:4.5.3) libqt4-network(>=4:4.5.3) libqt4-sql(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.6.1) libstdc++6(>=4.1.1) ",
           "recommends": "sudo wget wine|wine-development|wine1.6|wine1.8|wine1.9 ",
@@ -5341,7 +5338,7 @@
           "priority": "optional",
           "source": "q4wine",
           "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-          "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
+          "sourcefile": "q4wine_1.3.4-1.debian.tar.xz q4wine_1.3.4-1.dsc q4wine_1.3.4.orig.tar.gz ",
           "homepage": "https://github.com/brezerk/q4wine",
           "description": "Qt GUI for wine (WINE)"
         },
@@ -5438,9 +5435,9 @@
         },
         "tesseractocr_amd64": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/tesseract-ocr_4.00~git1648-2d1decb-2_amd64.deb",
-          "size": "172KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/tesseract-ocr_4.00~git1674-c7caaaf-1_amd64.deb",
+          "size": "176KiB",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "718KiB",
           "depends": "libc6(>=2.14) libcairo2(>=1.2.4) libfontconfig1(>=2.11) libgcc1(>=1:4.1.1) libglib2.0-0(>=2.12.0) libgomp1(>=4.2.1) libicu52(>=52~m1-1~) liblept5 libpango-1.0-0(>=1.22.0) libpangocairo-1.0-0(>=1.22.0) libpangoft2-1.0-0(>=1.14.0) libstdc++6(>=4.9) libtesseract4(>=3.03~) libtiff5(>=4.0.3) tesseract-ocr-eng(>=3.01~) tesseract-ocr-osd tesseract-ocr-equ ",
           "replaces": "tesseract-ocr-data ",
@@ -5448,7 +5445,7 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": " Open Source OCR Engine"
         },
@@ -6224,16 +6221,16 @@
         },
         "tesseractocrall_all": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/tesseract-ocr-all_4.00~git1648-2d1decb-2_all.deb",
+          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/tesseract-ocr-all_4.00~git1674-c7caaaf-1_all.deb",
           "size": "16KiB",
-          "version": "4.00~git1648-2d1decb-2",
-          "isize": "14KiB",
+          "version": "4.00~git1674-c7caaaf-1",
+          "isize": "15KiB",
           "depends": "tesseract-ocr tesseract-ocr-afr tesseract-ocr-amh tesseract-ocr-ara tesseract-ocr-asm tesseract-ocr-aze tesseract-ocr-aze-cyrl tesseract-ocr-bel tesseract-ocr-ben tesseract-ocr-bod tesseract-ocr-bos tesseract-ocr-bul tesseract-ocr-cat tesseract-ocr-ceb tesseract-ocr-ces tesseract-ocr-chi-sim tesseract-ocr-chi-tra tesseract-ocr-chr tesseract-ocr-cym tesseract-ocr-dan tesseract-ocr-dan-frak tesseract-ocr-deu tesseract-ocr-deu-frak tesseract-ocr-dzo tesseract-ocr-ell tesseract-ocr-eng tesseract-ocr-enm tesseract-ocr-epo tesseract-ocr-equ tesseract-ocr-est tesseract-ocr-eus tesseract-ocr-fas tesseract-ocr-fin tesseract-ocr-fra tesseract-ocr-frk tesseract-ocr-frm tesseract-ocr-gle tesseract-ocr-glg tesseract-ocr-grc tesseract-ocr-guj tesseract-ocr-hat tesseract-ocr-heb tesseract-ocr-hin tesseract-ocr-hrv tesseract-ocr-hun tesseract-ocr-iku tesseract-ocr-ind tesseract-ocr-isl tesseract-ocr-ita tesseract-ocr-ita-old tesseract-ocr-jav tesseract-ocr-jpn tesseract-ocr-kan tesseract-ocr-kat tesseract-ocr-kat-old tesseract-ocr-kaz tesseract-ocr-khm tesseract-ocr-kir tesseract-ocr-kor tesseract-ocr-kur tesseract-ocr-lao tesseract-ocr-lat tesseract-ocr-lav tesseract-ocr-lit tesseract-ocr-mal tesseract-ocr-mar tesseract-ocr-mkd tesseract-ocr-mlt tesseract-ocr-msa tesseract-ocr-mya tesseract-ocr-nep tesseract-ocr-nld tesseract-ocr-nor tesseract-ocr-ori tesseract-ocr-osd tesseract-ocr-pan tesseract-ocr-pol tesseract-ocr-por tesseract-ocr-pus tesseract-ocr-ron tesseract-ocr-rus tesseract-ocr-san tesseract-ocr-sin tesseract-ocr-slk tesseract-ocr-slk-frak tesseract-ocr-slv tesseract-ocr-spa tesseract-ocr-spa-old tesseract-ocr-sqi tesseract-ocr-srp tesseract-ocr-srp-latn tesseract-ocr-swa tesseract-ocr-swe tesseract-ocr-syr tesseract-ocr-tam tesseract-ocr-tel tesseract-ocr-tgk tesseract-ocr-tgl tesseract-ocr-tha tesseract-ocr-tir tesseract-ocr-tur tesseract-ocr-uig tesseract-ocr-ukr tesseract-ocr-urd tesseract-ocr-uzb tesseract-ocr-uzb-cyrl tesseract-ocr-vie tesseract-ocr-yid ",
           "section": "graphics",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR with all language packages"
         },
@@ -6596,16 +6593,16 @@
         },
         "tesseractocrdev_all": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/tesseract-ocr-dev_4.00~git1648-2d1decb-2_all.deb",
+          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/tesseract-ocr-dev_4.00~git1674-c7caaaf-1_all.deb",
           "size": "20KiB",
-          "version": "4.00~git1648-2d1decb-2",
-          "isize": "19KiB",
+          "version": "4.00~git1674-c7caaaf-1",
+          "isize": "20KiB",
           "depends": "libtesseract-dev ",
           "section": "oldlibs",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "transitional dummy package"
         },
@@ -8525,16 +8522,16 @@
         },
         "leptonicaprogs_i386": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/l/leptonlib/leptonica-progs_1.73-5+nmu1_i386.deb",
-          "size": "24KiB",
-          "version": "1.73-5+nmu1",
-          "isize": "140KiB",
+          "packageurl": "http://notesalexp.org/jessie/main/l/leptonlib/leptonica-progs_1.74.0-1_i386.deb",
+          "size": "20KiB",
+          "version": "1.74.0-1",
+          "isize": "97KiB",
           "depends": "libc6(>=2.7) liblept5 ",
           "section": "graphics",
           "priority": "optional",
           "source": "leptonlib",
           "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
-          "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
           "homepage": "",
           "description": "sample programs for Leptonica image processing library"
         },
@@ -8704,10 +8701,10 @@
         },
         "liblept5_i386": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/l/leptonlib/liblept5_1.73-5+nmu1_i386.deb",
-          "size": "880KiB",
-          "version": "1.73-5+nmu1",
-          "isize": "2.73MiB",
+          "packageurl": "http://notesalexp.org/jessie/main/l/leptonlib/liblept5_1.74.0-1_i386.deb",
+          "size": "916KiB",
+          "version": "1.74.0-1",
+          "isize": "2.80MiB",
           "depends": "libc6(>=2.11) libgif4(>=4.1.4) libjpeg62-turbo(>=1.3.1) libopenjp2-7(>=2.0.0) libpng12-0(>=1.2.13-4) libtiff5(>=4.0.3) libwebp5 zlib1g(>=1:1.1.4) ",
           "breaks": "libleptonica(>=1.69~) ",
           "replaces": "libleptonica(>=1.69~) ",
@@ -8715,22 +8712,22 @@
           "priority": "optional",
           "source": "leptonlib",
           "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
-          "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
           "homepage": "",
           "description": "image processing library"
         },
         "libleptonicadev_i386": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/l/leptonlib/libleptonica-dev_1.73-5+nmu1_i386.deb",
-          "size": "1.21MiB",
-          "version": "1.73-5+nmu1",
-          "isize": "4.34MiB",
-          "depends": "liblept5(=1.73-5+nmu1) ",
+          "packageurl": "http://notesalexp.org/jessie/main/l/leptonlib/libleptonica-dev_1.74.0-1_i386.deb",
+          "size": "1.25MiB",
+          "version": "1.74.0-1",
+          "isize": "4.46MiB",
+          "depends": "liblept5(=1.74.0-1) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "leptonlib",
           "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
-          "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
           "homepage": "",
           "description": "image processing library"
         },
@@ -8775,10 +8772,10 @@
         },
         "libtesseract4_i386": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/libtesseract4_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/libtesseract4_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "1.18MiB",
-          "version": "4.00~git1648-2d1decb-2",
-          "isize": "3.33MiB",
+          "version": "4.00~git1674-c7caaaf-1",
+          "isize": "3.32MiB",
           "depends": "libc6(>=2.4) libgcc1(>=1:4.1.1) libgomp1(>=4.9) liblept5 libstdc++6(>=4.9) ",
           "breaks": "libtesseract3 ocropus(<<0.4.0~) tesseract-ocr(<<3.01~) ",
           "replaces": "libtesseract3 tesseract-ocr(<<3.01~) ",
@@ -8787,24 +8784,24 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR library"
         },
         "libtesseractdev_i386": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/libtesseract-dev_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/libtesseract-dev_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "1.48MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "6.88MiB",
-          "depends": "libtesseract4(=4.00~git1648-2d1decb-2) ",
+          "depends": "libtesseract4(=4.00~git1674-c7caaaf-1) ",
           "breaks": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "replaces": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Development files for the tesseract command line OCR tool"
         },
@@ -8954,10 +8951,10 @@
         },
         "q4wine_i386": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/q/q4wine/q4wine_1.3.3-1_i386.deb",
-          "size": "3.07MiB",
-          "version": "1.3.3-1",
-          "isize": "6.80MiB",
+          "packageurl": "http://notesalexp.org/jessie/main/q/q4wine/q4wine_1.3.4-1_i386.deb",
+          "size": "3.08MiB",
+          "version": "1.3.4-1",
+          "isize": "6.81MiB",
           "depends": "icoutils libqt4-sql-sqlite libc6(>=2.4) libgcc1(>=1:4.1.1) libqt4-dbus(>=4:4.5.3) libqt4-network(>=4:4.5.3) libqt4-sql(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.6.1) libstdc++6(>=4.1.1) ",
           "recommends": "sudo wget wine|wine-development|wine1.6|wine1.8|wine1.9 ",
           "suggests": "fuseiso winetricks ",
@@ -8965,7 +8962,7 @@
           "priority": "optional",
           "source": "q4wine",
           "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-          "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
+          "sourcefile": "q4wine_1.3.4-1.debian.tar.xz q4wine_1.3.4-1.dsc q4wine_1.3.4.orig.tar.gz ",
           "homepage": "https://github.com/brezerk/q4wine",
           "description": "Qt GUI for wine (WINE)"
         },
@@ -9062,9 +9059,9 @@
         },
         "tesseractocr_i386": 
         {
-          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/tesseract-ocr_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/jessie/main/t/tesseract/tesseract-ocr_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "180KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "691KiB",
           "depends": "libc6(>=2.4) libcairo2(>=1.2.4) libfontconfig1(>=2.11) libgcc1(>=1:4.1.1) libglib2.0-0(>=2.12.0) libgomp1(>=4.2.1) libicu52(>=52~m1-1~) liblept5 libpango-1.0-0(>=1.22.0) libpangocairo-1.0-0(>=1.22.0) libpangoft2-1.0-0(>=1.14.0) libstdc++6(>=4.9) libtesseract4(>=3.03~) libtiff5(>=4.0.3) tesseract-ocr-eng(>=3.01~) tesseract-ocr-osd tesseract-ocr-equ ",
           "replaces": "tesseract-ocr-data ",
@@ -9072,7 +9069,7 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": " Open Source OCR Engine"
         },
@@ -9632,6 +9629,21 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) modules"
         },
+        "leptonicaprogs_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/l/leptonlib/leptonica-progs_1.74.0-1_amd64.deb",
+          "size": "24KiB",
+          "version": "1.74.0-1",
+          "isize": "149KiB",
+          "depends": "libc6(>=2.7) liblept5 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "sample programs for Leptonica image processing library"
+        },
         "libeiskaltdcpp22_amd64": 
         {
           "packageurl": "http://notesalexp.org/stretch/main/e/eiskaltdcpp/libeiskaltdcpp2.2_2.2.9-4+nmu2_amd64.deb",
@@ -9760,6 +9772,38 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) base library"
         },
+        "liblept5_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/l/leptonlib/liblept5_1.74.0-1_amd64.deb",
+          "size": "904KiB",
+          "version": "1.74.0-1",
+          "isize": "2.45MiB",
+          "depends": "libc6(>=2.22) libgif7(>=5.1) libjpeg62-turbo(>=1.3.1) libopenjp2-7(>=2.0.0) libpng16-16(>=1.6.2-1) libtiff5(>=4.0.3) libwebp6(>=0.5.1) zlib1g(>=1:1.1.4) ",
+          "breaks": "libleptonica(>=1.69~) ",
+          "replaces": "libleptonica(>=1.69~) ",
+          "section": "libs",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
+        "libleptonicadev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/l/leptonlib/libleptonica-dev_1.74.0-1_amd64.deb",
+          "size": "1.24MiB",
+          "version": "1.74.0-1",
+          "isize": "5.61MiB",
+          "depends": "liblept5(=1.74.0-1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
         "libqpx0_amd64": 
         {
           "packageurl": "http://notesalexp.org/stretch/main/q/qpxtool/libqpx0_0.7.2-4+nmu2_amd64.deb",
@@ -9837,9 +9881,9 @@
         },
         "libtesseract4_amd64": 
         {
-          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/libtesseract4_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/libtesseract4_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "1.13MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "3.27MiB",
           "depends": "libc6(>=2.14) libgcc1(>=1:3.0) libgomp1(>=4.9) liblept5 libstdc++6(>=5.2) ",
           "breaks": "libtesseract3 ocropus(<<0.4.0~) tesseract-ocr(<<3.01~) ",
@@ -9849,24 +9893,24 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR library"
         },
         "libtesseractdev_amd64": 
         {
-          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/libtesseract-dev_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/libtesseract-dev_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "1.39MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "7.41MiB",
-          "depends": "libtesseract4(=4.00~git1648-2d1decb-2) ",
+          "depends": "libtesseract4(=4.00~git1674-c7caaaf-1) ",
           "breaks": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "replaces": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Development files for the tesseract command line OCR tool"
         },
@@ -10015,18 +10059,18 @@
         },
         "q4wine_amd64": 
         {
-          "packageurl": "http://notesalexp.org/stretch/main/q/q4wine/q4wine_1.3.3-1_amd64.deb",
+          "packageurl": "http://notesalexp.org/stretch/main/q/q4wine/q4wine_1.3.4-1_amd64.deb",
           "size": "2.94MiB",
-          "version": "1.3.3-1",
-          "isize": "6.48MiB",
-          "depends": "icoutils libqt5sql5-sqlite libc6(>=2.14) libgcc1(>=1:3.0) libqt5core5a(>=5.6.0~beta) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.0.2) libqt5network5(>=5.0.2) libqt5sql5(>=5.0.2) libqt5widgets5(>=5.6.0~beta) libqt5xml5(>=5.0.2) libstdc++6(>=5) ",
+          "version": "1.3.4-1",
+          "isize": "6.49MiB",
+          "depends": "icoutils libqt5sql5-sqlite libc6(>=2.14) libgcc1(>=1:3.0) libqt5core5a(>=5.7.0) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.0.2) libqt5network5(>=5.0.2) libqt5sql5(>=5.0.2) libqt5widgets5(>=5.7.0) libqt5xml5(>=5.0.2) libstdc++6(>=4.1.1) ",
           "recommends": "sudo wget wine|wine-development|wine1.6|wine1.8|wine1.9 ",
           "suggests": "fuseiso winetricks ",
           "section": "otherosfs",
           "priority": "optional",
           "source": "q4wine",
           "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-          "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
+          "sourcefile": "q4wine_1.3.4-1.debian.tar.xz q4wine_1.3.4-1.dsc q4wine_1.3.4.orig.tar.gz ",
           "homepage": "https://github.com/brezerk/q4wine",
           "description": "Qt GUI for wine (WINE)"
         },
@@ -10156,9 +10200,9 @@
         },
         "tesseractocr_amd64": 
         {
-          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/tesseract-ocr_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/tesseract-ocr_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "172KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "725KiB",
           "depends": "libc6(>=2.14) libcairo2(>=1.2.4) libfontconfig1(>=2.11) libgcc1(>=1:3.0) libglib2.0-0(>=2.12.0) libgomp1(>=4.2.1) libicu57(>=57.1-1~) liblept5 libpango-1.0-0(>=1.37.2) libpangocairo-1.0-0(>=1.22.0) libpangoft2-1.0-0(>=1.14.0) libstdc++6(>=5.2) libtesseract4(>=3.03~) libtiff5(>=4.0.3) tesseract-ocr-eng(>=3.01~) tesseract-ocr-osd tesseract-ocr-equ ",
           "replaces": "tesseract-ocr-data ",
@@ -10166,7 +10210,7 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": " Open Source OCR Engine"
         },
@@ -10926,16 +10970,16 @@
         },
         "tesseractocrall_all": 
         {
-          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/tesseract-ocr-all_4.00~git1648-2d1decb-2_all.deb",
+          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/tesseract-ocr-all_4.00~git1674-c7caaaf-1_all.deb",
           "size": "16KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "22KiB",
           "depends": "tesseract-ocr tesseract-ocr-afr tesseract-ocr-amh tesseract-ocr-ara tesseract-ocr-asm tesseract-ocr-aze tesseract-ocr-aze-cyrl tesseract-ocr-bel tesseract-ocr-ben tesseract-ocr-bod tesseract-ocr-bos tesseract-ocr-bul tesseract-ocr-cat tesseract-ocr-ceb tesseract-ocr-ces tesseract-ocr-chi-sim tesseract-ocr-chi-tra tesseract-ocr-chr tesseract-ocr-cym tesseract-ocr-dan tesseract-ocr-dan-frak tesseract-ocr-deu tesseract-ocr-deu-frak tesseract-ocr-dzo tesseract-ocr-ell tesseract-ocr-eng tesseract-ocr-enm tesseract-ocr-epo tesseract-ocr-equ tesseract-ocr-est tesseract-ocr-eus tesseract-ocr-fas tesseract-ocr-fin tesseract-ocr-fra tesseract-ocr-frk tesseract-ocr-frm tesseract-ocr-gle tesseract-ocr-glg tesseract-ocr-grc tesseract-ocr-guj tesseract-ocr-hat tesseract-ocr-heb tesseract-ocr-hin tesseract-ocr-hrv tesseract-ocr-hun tesseract-ocr-iku tesseract-ocr-ind tesseract-ocr-isl tesseract-ocr-ita tesseract-ocr-ita-old tesseract-ocr-jav tesseract-ocr-jpn tesseract-ocr-kan tesseract-ocr-kat tesseract-ocr-kat-old tesseract-ocr-kaz tesseract-ocr-khm tesseract-ocr-kir tesseract-ocr-kor tesseract-ocr-kur tesseract-ocr-lao tesseract-ocr-lat tesseract-ocr-lav tesseract-ocr-lit tesseract-ocr-mal tesseract-ocr-mar tesseract-ocr-mkd tesseract-ocr-mlt tesseract-ocr-msa tesseract-ocr-mya tesseract-ocr-nep tesseract-ocr-nld tesseract-ocr-nor tesseract-ocr-ori tesseract-ocr-osd tesseract-ocr-pan tesseract-ocr-pol tesseract-ocr-por tesseract-ocr-pus tesseract-ocr-ron tesseract-ocr-rus tesseract-ocr-san tesseract-ocr-sin tesseract-ocr-slk tesseract-ocr-slk-frak tesseract-ocr-slv tesseract-ocr-spa tesseract-ocr-spa-old tesseract-ocr-sqi tesseract-ocr-srp tesseract-ocr-srp-latn tesseract-ocr-swa tesseract-ocr-swe tesseract-ocr-syr tesseract-ocr-tam tesseract-ocr-tel tesseract-ocr-tgk tesseract-ocr-tgl tesseract-ocr-tha tesseract-ocr-tir tesseract-ocr-tur tesseract-ocr-uig tesseract-ocr-ukr tesseract-ocr-urd tesseract-ocr-uzb tesseract-ocr-uzb-cyrl tesseract-ocr-vie tesseract-ocr-yid ",
           "section": "graphics",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR with all language packages"
         },
@@ -11298,16 +11342,16 @@
         },
         "tesseractocrdev_all": 
         {
-          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/tesseract-ocr-dev_4.00~git1648-2d1decb-2_all.deb",
+          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/tesseract-ocr-dev_4.00~git1674-c7caaaf-1_all.deb",
           "size": "20KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "27KiB",
           "depends": "libtesseract-dev ",
           "section": "oldlibs",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "transitional dummy package"
         },
@@ -13234,6 +13278,21 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) modules"
         },
+        "leptonicaprogs_i386": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/l/leptonlib/leptonica-progs_1.74.0-1_i386.deb",
+          "size": "24KiB",
+          "version": "1.74.0-1",
+          "isize": "128KiB",
+          "depends": "libc6(>=2.7) liblept5 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "sample programs for Leptonica image processing library"
+        },
         "libeiskaltdcpp22_i386": 
         {
           "packageurl": "http://notesalexp.org/stretch/main/e/eiskaltdcpp/libeiskaltdcpp2.2_2.2.9-4+nmu2_i386.deb",
@@ -13362,6 +13421,38 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) base library"
         },
+        "liblept5_i386": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/l/leptonlib/liblept5_1.74.0-1_i386.deb",
+          "size": "928KiB",
+          "version": "1.74.0-1",
+          "isize": "2.83MiB",
+          "depends": "libc6(>=2.22) libgif7(>=5.1) libjpeg62-turbo(>=1.3.1) libopenjp2-7(>=2.0.0) libpng16-16(>=1.6.2-1) libtiff5(>=4.0.3) libwebp6(>=0.5.1) zlib1g(>=1:1.1.4) ",
+          "breaks": "libleptonica(>=1.69~) ",
+          "replaces": "libleptonica(>=1.69~) ",
+          "section": "libs",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
+        "libleptonicadev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/l/leptonlib/libleptonica-dev_1.74.0-1_i386.deb",
+          "size": "1.32MiB",
+          "version": "1.74.0-1",
+          "isize": "4.87MiB",
+          "depends": "liblept5(=1.74.0-1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
         "libqpx0_i386": 
         {
           "packageurl": "http://notesalexp.org/stretch/main/q/qpxtool/libqpx0_0.7.2-4+nmu2_i386.deb",
@@ -13439,9 +13530,9 @@
         },
         "libtesseract4_i386": 
         {
-          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/libtesseract4_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/libtesseract4_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "1.21MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "3.36MiB",
           "depends": "libc6(>=2.4) libgcc1(>=1:3.0) libgomp1(>=4.9) liblept5 libstdc++6(>=5.2) ",
           "breaks": "libtesseract3 ocropus(<<0.4.0~) tesseract-ocr(<<3.01~) ",
@@ -13451,24 +13542,24 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR library"
         },
         "libtesseractdev_i386": 
         {
-          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/libtesseract-dev_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/libtesseract-dev_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "1.49MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "6.52MiB",
-          "depends": "libtesseract4(=4.00~git1648-2d1decb-2) ",
+          "depends": "libtesseract4(=4.00~git1674-c7caaaf-1) ",
           "breaks": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "replaces": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Development files for the tesseract command line OCR tool"
         },
@@ -13617,18 +13708,18 @@
         },
         "q4wine_i386": 
         {
-          "packageurl": "http://notesalexp.org/stretch/main/q/q4wine/q4wine_1.3.3-1_i386.deb",
+          "packageurl": "http://notesalexp.org/stretch/main/q/q4wine/q4wine_1.3.4-1_i386.deb",
           "size": "2.98MiB",
-          "version": "1.3.3-1",
-          "isize": "6.53MiB",
-          "depends": "icoutils libqt5sql5-sqlite libc6(>=2.4) libgcc1(>=1:3.0) libqt5core5a(>=5.6.0~beta) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.0.2) libqt5network5(>=5.0.2) libqt5sql5(>=5.0.2) libqt5widgets5(>=5.6.0~beta) libqt5xml5(>=5.0.2) libstdc++6(>=5) ",
+          "version": "1.3.4-1",
+          "isize": "6.54MiB",
+          "depends": "icoutils libqt5sql5-sqlite libc6(>=2.4) libgcc1(>=1:3.0) libqt5core5a(>=5.7.0) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.0.2) libqt5network5(>=5.0.2) libqt5sql5(>=5.0.2) libqt5widgets5(>=5.7.0) libqt5xml5(>=5.0.2) libstdc++6(>=4.1.1) ",
           "recommends": "sudo wget wine|wine-development|wine1.6|wine1.8|wine1.9 ",
           "suggests": "fuseiso winetricks ",
           "section": "otherosfs",
           "priority": "optional",
           "source": "q4wine",
           "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-          "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
+          "sourcefile": "q4wine_1.3.4-1.debian.tar.xz q4wine_1.3.4-1.dsc q4wine_1.3.4.orig.tar.gz ",
           "homepage": "https://github.com/brezerk/q4wine",
           "description": "Qt GUI for wine (WINE)"
         },
@@ -13758,9 +13849,9 @@
         },
         "tesseractocr_i386": 
         {
-          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/tesseract-ocr_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/stretch/main/t/tesseract/tesseract-ocr_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "184KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "711KiB",
           "depends": "libc6(>=2.4) libcairo2(>=1.2.4) libfontconfig1(>=2.11) libgcc1(>=1:3.0) libglib2.0-0(>=2.12.0) libgomp1(>=4.2.1) libicu57(>=57.1-1~) liblept5 libpango-1.0-0(>=1.37.2) libpangocairo-1.0-0(>=1.22.0) libpangoft2-1.0-0(>=1.14.0) libstdc++6(>=5.2) libtesseract4(>=3.03~) libtiff5(>=4.0.3) tesseract-ocr-eng(>=3.01~) tesseract-ocr-osd tesseract-ocr-equ ",
           "replaces": "tesseract-ocr-data ",
@@ -13768,7 +13859,7 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": " Open Source OCR Engine"
         },
@@ -14338,6 +14429,21 @@
           "homepage": "http://www.launchy.net/",
           "description": "plugins for launchy, the smart search launcher"
         },
+        "leptonicaprogs_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/l/leptonlib/leptonica-progs_1.74.0-1_amd64.deb",
+          "size": "24KiB",
+          "version": "1.74.0-1",
+          "isize": "149KiB",
+          "depends": "libc6(>=2.7) liblept5 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "sample programs for Leptonica image processing library"
+        },
         "libeiskaltdcpp22_amd64": 
         {
           "packageurl": "http://notesalexp.org/sid/main/e/eiskaltdcpp/libeiskaltdcpp2.2_2.2.9-4+nmu2_amd64.deb",
@@ -14473,6 +14579,38 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) base library"
         },
+        "liblept5_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/l/leptonlib/liblept5_1.74.0-1_amd64.deb",
+          "size": "904KiB",
+          "version": "1.74.0-1",
+          "isize": "2.45MiB",
+          "depends": "libc6(>=2.22) libgif7(>=5.1) libjpeg62-turbo(>=1.3.1) libopenjp2-7(>=2.0.0) libpng16-16(>=1.6.2-1) libtiff5(>=4.0.3) libwebp6(>=0.5.1) zlib1g(>=1:1.1.4) ",
+          "breaks": "libleptonica(>=1.69~) ",
+          "replaces": "libleptonica(>=1.69~) ",
+          "section": "libs",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
+        "libleptonicadev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/l/leptonlib/libleptonica-dev_1.74.0-1_amd64.deb",
+          "size": "1.24MiB",
+          "version": "1.74.0-1",
+          "isize": "5.61MiB",
+          "depends": "liblept5(=1.74.0-1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
         "libqpx0_amd64": 
         {
           "packageurl": "http://notesalexp.org/sid/main/q/qpxtool/libqpx0_0.7.2-4+nmu2_amd64.deb",
@@ -14575,9 +14713,9 @@
         },
         "libtesseract4_amd64": 
         {
-          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/libtesseract4_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/libtesseract4_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "1.13MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "3.27MiB",
           "depends": "libc6(>=2.14) libgcc1(>=1:3.0) libgomp1(>=4.9) liblept5 libstdc++6(>=5.2) ",
           "breaks": "libtesseract3 ocropus(<<0.4.0~) tesseract-ocr(<<3.01~) ",
@@ -14587,24 +14725,24 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR library"
         },
         "libtesseractdev_amd64": 
         {
-          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/libtesseract-dev_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/libtesseract-dev_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "1.39MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "7.41MiB",
-          "depends": "libtesseract4(=4.00~git1648-2d1decb-2) ",
+          "depends": "libtesseract4(=4.00~git1674-c7caaaf-1) ",
           "breaks": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "replaces": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Development files for the tesseract command line OCR tool"
         },
@@ -14763,18 +14901,18 @@
         },
         "q4wine_amd64": 
         {
-          "packageurl": "http://notesalexp.org/sid/main/q/q4wine/q4wine_1.3.3-1_amd64.deb",
+          "packageurl": "http://notesalexp.org/sid/main/q/q4wine/q4wine_1.3.4-1_amd64.deb",
           "size": "2.94MiB",
-          "version": "1.3.3-1",
-          "isize": "6.48MiB",
-          "depends": "icoutils libqt5sql5-sqlite libc6(>=2.14) libgcc1(>=1:3.0) libqt5core5a(>=5.6.0~beta) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.0.2) libqt5network5(>=5.0.2) libqt5sql5(>=5.0.2) libqt5widgets5(>=5.6.0~beta) libqt5xml5(>=5.0.2) libstdc++6(>=5) ",
+          "version": "1.3.4-1",
+          "isize": "6.49MiB",
+          "depends": "icoutils libqt5sql5-sqlite libc6(>=2.14) libgcc1(>=1:3.0) libqt5core5a(>=5.7.0) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.0.2) libqt5network5(>=5.0.2) libqt5sql5(>=5.0.2) libqt5widgets5(>=5.7.0) libqt5xml5(>=5.0.2) libstdc++6(>=4.1.1) ",
           "recommends": "sudo wget wine|wine-development|wine1.6|wine1.8|wine1.9 ",
           "suggests": "fuseiso winetricks ",
           "section": "otherosfs",
           "priority": "optional",
           "source": "q4wine",
           "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-          "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
+          "sourcefile": "q4wine_1.3.4-1.debian.tar.xz q4wine_1.3.4-1.dsc q4wine_1.3.4.orig.tar.gz ",
           "homepage": "https://github.com/brezerk/q4wine",
           "description": "Qt GUI for wine (WINE)"
         },
@@ -14904,9 +15042,9 @@
         },
         "tesseractocr_amd64": 
         {
-          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/tesseract-ocr_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/tesseract-ocr_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "172KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "725KiB",
           "depends": "libc6(>=2.14) libcairo2(>=1.2.4) libfontconfig1(>=2.11) libgcc1(>=1:3.0) libglib2.0-0(>=2.12.0) libgomp1(>=4.2.1) libicu57(>=57.1-1~) liblept5 libpango-1.0-0(>=1.37.2) libpangocairo-1.0-0(>=1.22.0) libpangoft2-1.0-0(>=1.14.0) libstdc++6(>=5.2) libtesseract4(>=3.03~) libtiff5(>=4.0.3) tesseract-ocr-eng(>=3.01~) tesseract-ocr-osd tesseract-ocr-equ ",
           "replaces": "tesseract-ocr-data ",
@@ -14914,7 +15052,7 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": " Open Source OCR Engine"
         },
@@ -15698,16 +15836,16 @@
         },
         "tesseractocrall_all": 
         {
-          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/tesseract-ocr-all_4.00~git1648-2d1decb-2_all.deb",
+          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/tesseract-ocr-all_4.00~git1674-c7caaaf-1_all.deb",
           "size": "16KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "22KiB",
           "depends": "tesseract-ocr tesseract-ocr-afr tesseract-ocr-amh tesseract-ocr-ara tesseract-ocr-asm tesseract-ocr-aze tesseract-ocr-aze-cyrl tesseract-ocr-bel tesseract-ocr-ben tesseract-ocr-bod tesseract-ocr-bos tesseract-ocr-bul tesseract-ocr-cat tesseract-ocr-ceb tesseract-ocr-ces tesseract-ocr-chi-sim tesseract-ocr-chi-tra tesseract-ocr-chr tesseract-ocr-cym tesseract-ocr-dan tesseract-ocr-dan-frak tesseract-ocr-deu tesseract-ocr-deu-frak tesseract-ocr-dzo tesseract-ocr-ell tesseract-ocr-eng tesseract-ocr-enm tesseract-ocr-epo tesseract-ocr-equ tesseract-ocr-est tesseract-ocr-eus tesseract-ocr-fas tesseract-ocr-fin tesseract-ocr-fra tesseract-ocr-frk tesseract-ocr-frm tesseract-ocr-gle tesseract-ocr-glg tesseract-ocr-grc tesseract-ocr-guj tesseract-ocr-hat tesseract-ocr-heb tesseract-ocr-hin tesseract-ocr-hrv tesseract-ocr-hun tesseract-ocr-iku tesseract-ocr-ind tesseract-ocr-isl tesseract-ocr-ita tesseract-ocr-ita-old tesseract-ocr-jav tesseract-ocr-jpn tesseract-ocr-kan tesseract-ocr-kat tesseract-ocr-kat-old tesseract-ocr-kaz tesseract-ocr-khm tesseract-ocr-kir tesseract-ocr-kor tesseract-ocr-kur tesseract-ocr-lao tesseract-ocr-lat tesseract-ocr-lav tesseract-ocr-lit tesseract-ocr-mal tesseract-ocr-mar tesseract-ocr-mkd tesseract-ocr-mlt tesseract-ocr-msa tesseract-ocr-mya tesseract-ocr-nep tesseract-ocr-nld tesseract-ocr-nor tesseract-ocr-ori tesseract-ocr-osd tesseract-ocr-pan tesseract-ocr-pol tesseract-ocr-por tesseract-ocr-pus tesseract-ocr-ron tesseract-ocr-rus tesseract-ocr-san tesseract-ocr-sin tesseract-ocr-slk tesseract-ocr-slk-frak tesseract-ocr-slv tesseract-ocr-spa tesseract-ocr-spa-old tesseract-ocr-sqi tesseract-ocr-srp tesseract-ocr-srp-latn tesseract-ocr-swa tesseract-ocr-swe tesseract-ocr-syr tesseract-ocr-tam tesseract-ocr-tel tesseract-ocr-tgk tesseract-ocr-tgl tesseract-ocr-tha tesseract-ocr-tir tesseract-ocr-tur tesseract-ocr-uig tesseract-ocr-ukr tesseract-ocr-urd tesseract-ocr-uzb tesseract-ocr-uzb-cyrl tesseract-ocr-vie tesseract-ocr-yid ",
           "section": "graphics",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR with all language packages"
         },
@@ -16070,16 +16208,16 @@
         },
         "tesseractocrdev_all": 
         {
-          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/tesseract-ocr-dev_4.00~git1648-2d1decb-2_all.deb",
+          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/tesseract-ocr-dev_4.00~git1674-c7caaaf-1_all.deb",
           "size": "20KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "27KiB",
           "depends": "libtesseract-dev ",
           "section": "oldlibs",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "transitional dummy package"
         },
@@ -18016,6 +18154,21 @@
           "homepage": "http://www.launchy.net/",
           "description": "plugins for launchy, the smart search launcher"
         },
+        "leptonicaprogs_i386": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/l/leptonlib/leptonica-progs_1.74.0-1_i386.deb",
+          "size": "24KiB",
+          "version": "1.74.0-1",
+          "isize": "128KiB",
+          "depends": "libc6(>=2.7) liblept5 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "sample programs for Leptonica image processing library"
+        },
         "libeiskaltdcpp22_i386": 
         {
           "packageurl": "http://notesalexp.org/sid/main/e/eiskaltdcpp/libeiskaltdcpp2.2_2.2.9-4+nmu2_i386.deb",
@@ -18151,6 +18304,38 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) base library"
         },
+        "liblept5_i386": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/l/leptonlib/liblept5_1.74.0-1_i386.deb",
+          "size": "928KiB",
+          "version": "1.74.0-1",
+          "isize": "2.83MiB",
+          "depends": "libc6(>=2.22) libgif7(>=5.1) libjpeg62-turbo(>=1.3.1) libopenjp2-7(>=2.0.0) libpng16-16(>=1.6.2-1) libtiff5(>=4.0.3) libwebp6(>=0.5.1) zlib1g(>=1:1.1.4) ",
+          "breaks": "libleptonica(>=1.69~) ",
+          "replaces": "libleptonica(>=1.69~) ",
+          "section": "libs",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
+        "libleptonicadev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/l/leptonlib/libleptonica-dev_1.74.0-1_i386.deb",
+          "size": "1.32MiB",
+          "version": "1.74.0-1",
+          "isize": "4.87MiB",
+          "depends": "liblept5(=1.74.0-1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
         "libqpx0_i386": 
         {
           "packageurl": "http://notesalexp.org/sid/main/q/qpxtool/libqpx0_0.7.2-4+nmu2_i386.deb",
@@ -18253,9 +18438,9 @@
         },
         "libtesseract4_i386": 
         {
-          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/libtesseract4_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/libtesseract4_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "1.21MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "3.36MiB",
           "depends": "libc6(>=2.4) libgcc1(>=1:3.0) libgomp1(>=4.9) liblept5 libstdc++6(>=5.2) ",
           "breaks": "libtesseract3 ocropus(<<0.4.0~) tesseract-ocr(<<3.01~) ",
@@ -18265,24 +18450,24 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR library"
         },
         "libtesseractdev_i386": 
         {
-          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/libtesseract-dev_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/libtesseract-dev_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "1.49MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "6.52MiB",
-          "depends": "libtesseract4(=4.00~git1648-2d1decb-2) ",
+          "depends": "libtesseract4(=4.00~git1674-c7caaaf-1) ",
           "breaks": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "replaces": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Development files for the tesseract command line OCR tool"
         },
@@ -18441,18 +18626,18 @@
         },
         "q4wine_i386": 
         {
-          "packageurl": "http://notesalexp.org/sid/main/q/q4wine/q4wine_1.3.3-1_i386.deb",
+          "packageurl": "http://notesalexp.org/sid/main/q/q4wine/q4wine_1.3.4-1_i386.deb",
           "size": "2.98MiB",
-          "version": "1.3.3-1",
-          "isize": "6.53MiB",
-          "depends": "icoutils libqt5sql5-sqlite libc6(>=2.4) libgcc1(>=1:3.0) libqt5core5a(>=5.6.0~beta) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.0.2) libqt5network5(>=5.0.2) libqt5sql5(>=5.0.2) libqt5widgets5(>=5.6.0~beta) libqt5xml5(>=5.0.2) libstdc++6(>=5) ",
+          "version": "1.3.4-1",
+          "isize": "6.54MiB",
+          "depends": "icoutils libqt5sql5-sqlite libc6(>=2.4) libgcc1(>=1:3.0) libqt5core5a(>=5.7.0) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.0.2) libqt5network5(>=5.0.2) libqt5sql5(>=5.0.2) libqt5widgets5(>=5.7.0) libqt5xml5(>=5.0.2) libstdc++6(>=4.1.1) ",
           "recommends": "sudo wget wine|wine-development|wine1.6|wine1.8|wine1.9 ",
           "suggests": "fuseiso winetricks ",
           "section": "otherosfs",
           "priority": "optional",
           "source": "q4wine",
           "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-          "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
+          "sourcefile": "q4wine_1.3.4-1.debian.tar.xz q4wine_1.3.4-1.dsc q4wine_1.3.4.orig.tar.gz ",
           "homepage": "https://github.com/brezerk/q4wine",
           "description": "Qt GUI for wine (WINE)"
         },
@@ -18582,9 +18767,9 @@
         },
         "tesseractocr_i386": 
         {
-          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/tesseract-ocr_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/sid/main/t/tesseract/tesseract-ocr_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "184KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "711KiB",
           "depends": "libc6(>=2.4) libcairo2(>=1.2.4) libfontconfig1(>=2.11) libgcc1(>=1:3.0) libglib2.0-0(>=2.12.0) libgomp1(>=4.2.1) libicu57(>=57.1-1~) liblept5 libpango-1.0-0(>=1.37.2) libpangocairo-1.0-0(>=1.22.0) libpangoft2-1.0-0(>=1.14.0) libstdc++6(>=5.2) libtesseract4(>=3.03~) libtiff5(>=4.0.3) tesseract-ocr-eng(>=3.01~) tesseract-ocr-osd tesseract-ocr-equ ",
           "replaces": "tesseract-ocr-data ",
@@ -18592,7 +18777,7 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": " Open Source OCR Engine"
         },
@@ -22022,16 +22207,16 @@
         },
         "leptonicaprogs_amd64": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/l/leptonlib/leptonica-progs_1.73-5+nmu1_amd64.deb",
-          "size": "24KiB",
-          "version": "1.73-5+nmu1",
-          "isize": "122KiB",
+          "packageurl": "http://notesalexp.org/trusty/main/l/leptonlib/leptonica-progs_1.74.0-1_amd64.deb",
+          "size": "20KiB",
+          "version": "1.74.0-1",
+          "isize": "118KiB",
           "depends": "libc6(>=2.7) liblept5 ",
           "section": "graphics",
           "priority": "optional",
           "source": "leptonlib",
           "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
-          "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
           "homepage": "",
           "description": "sample programs for Leptonica image processing library"
         },
@@ -22228,10 +22413,10 @@
         },
         "liblept5_amd64": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/l/leptonlib/liblept5_1.73-5+nmu1_amd64.deb",
-          "size": "840KiB",
-          "version": "1.73-5+nmu1",
-          "isize": "2.24MiB",
+          "packageurl": "http://notesalexp.org/trusty/main/l/leptonlib/liblept5_1.74.0-1_amd64.deb",
+          "size": "872KiB",
+          "version": "1.74.0-1",
+          "isize": "2.32MiB",
           "depends": "libc6(>=2.14) libgif4(>=4.1.4) libjpeg8(>=8c) libopenjp2-7(>=2.0.0) libpng12-0(>=1.2.13-4) libtiff5(>=4.0.3) libwebp5 zlib1g(>=1:1.1.4) ",
           "breaks": "libleptonica(>=1.69~) ",
           "replaces": "libleptonica(>=1.69~) ",
@@ -22239,22 +22424,22 @@
           "priority": "optional",
           "source": "leptonlib",
           "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
-          "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
           "homepage": "",
           "description": "image processing library"
         },
         "libleptonicadev_amd64": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/l/leptonlib/libleptonica-dev_1.73-5+nmu1_amd64.deb",
-          "size": "1.15MiB",
-          "version": "1.73-5+nmu1",
-          "isize": "5.12MiB",
-          "depends": "liblept5(=1.73-5+nmu1) ",
+          "packageurl": "http://notesalexp.org/trusty/main/l/leptonlib/libleptonica-dev_1.74.0-1_amd64.deb",
+          "size": "1.19MiB",
+          "version": "1.74.0-1",
+          "isize": "5.30MiB",
+          "depends": "liblept5(=1.74.0-1) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "leptonlib",
           "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
-          "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
           "homepage": "",
           "description": "image processing library"
         },
@@ -22423,9 +22608,9 @@
         },
         "libtesseract4_amd64": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/libtesseract4_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/libtesseract4_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "1.08MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "3.08MiB",
           "depends": "libc6(>=2.15) libgcc1(>=1:4.1.1) libgomp1(>=4.2.1) liblept5 libstdc++6(>=4.8) ",
           "breaks": "libtesseract3 ocropus(<<0.4.0~) tesseract-ocr(<<3.01~) ",
@@ -22435,24 +22620,24 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR library"
         },
         "libtesseractdev_amd64": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/libtesseract-dev_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/libtesseract-dev_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "1.36MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "7.66MiB",
-          "depends": "libtesseract4(=4.00~git1648-2d1decb-2) ",
+          "depends": "libtesseract4(=4.00~git1674-c7caaaf-1) ",
           "breaks": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "replaces": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Development files for the tesseract command line OCR tool"
         },
@@ -22586,9 +22771,9 @@
         },
         "q4wine_amd64": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/q/q4wine/q4wine_1.3.3-1_amd64.deb",
-          "size": "3.04MiB",
-          "version": "1.3.3-1",
+          "packageurl": "http://notesalexp.org/trusty/main/q/q4wine/q4wine_1.3.4-1_amd64.deb",
+          "size": "3.05MiB",
+          "version": "1.3.4-1",
           "isize": "6.74MiB",
           "depends": "icoutils libqt4-sql-sqlite libc6(>=2.14) libgcc1(>=1:4.1.1) libqt4-dbus(>=4:4.5.3) libqt4-network(>=4:4.5.3) libqt4-sql(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.6.1) libstdc++6(>=4.1.1) ",
           "recommends": "sudo wget wine|wine-development|wine1.6|wine1.8|wine1.9 ",
@@ -22597,7 +22782,7 @@
           "priority": "optional",
           "source": "q4wine",
           "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-          "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
+          "sourcefile": "q4wine_1.3.4-1.debian.tar.xz q4wine_1.3.4-1.dsc q4wine_1.3.4.orig.tar.gz ",
           "homepage": "https://github.com/brezerk/q4wine",
           "description": "Qt GUI for wine (WINE)"
         },
@@ -22700,9 +22885,9 @@
         },
         "tesseractocr_amd64": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/tesseract-ocr_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/tesseract-ocr_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "164KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "681KiB",
           "depends": "libc6(>=2.14) libcairo2(>=1.2.4) libfontconfig1(>=2.9.0) libgcc1(>=1:4.1.1) libglib2.0-0(>=2.12.0) libicu52(>=52~m1-1~) liblept5 libpango-1.0-0(>=1.22.0) libpangocairo-1.0-0(>=1.22.0) libpangoft2-1.0-0(>=1.14.0) libstdc++6(>=4.8) libtesseract4(>=3.03~) tesseract-ocr-eng(>=3.01~) tesseract-ocr-osd tesseract-ocr-equ ",
           "replaces": "tesseract-ocr-data ",
@@ -22710,7 +22895,7 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": " Open Source OCR Engine"
         },
@@ -23472,16 +23657,16 @@
         },
         "tesseractocrall_all": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/tesseract-ocr-all_4.00~git1648-2d1decb-2_all.deb",
+          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/tesseract-ocr-all_4.00~git1674-c7caaaf-1_all.deb",
           "size": "12KiB",
-          "version": "4.00~git1648-2d1decb-2",
-          "isize": "9KiB",
+          "version": "4.00~git1674-c7caaaf-1",
+          "isize": "10KiB",
           "depends": "tesseract-ocr tesseract-ocr-afr tesseract-ocr-amh tesseract-ocr-ara tesseract-ocr-asm tesseract-ocr-aze tesseract-ocr-aze-cyrl tesseract-ocr-bel tesseract-ocr-ben tesseract-ocr-bod tesseract-ocr-bos tesseract-ocr-bul tesseract-ocr-cat tesseract-ocr-ceb tesseract-ocr-ces tesseract-ocr-chi-sim tesseract-ocr-chi-tra tesseract-ocr-chr tesseract-ocr-cym tesseract-ocr-dan tesseract-ocr-dan-frak tesseract-ocr-deu tesseract-ocr-deu-frak tesseract-ocr-dzo tesseract-ocr-ell tesseract-ocr-eng tesseract-ocr-enm tesseract-ocr-epo tesseract-ocr-equ tesseract-ocr-est tesseract-ocr-eus tesseract-ocr-fas tesseract-ocr-fin tesseract-ocr-fra tesseract-ocr-frk tesseract-ocr-frm tesseract-ocr-gle tesseract-ocr-glg tesseract-ocr-grc tesseract-ocr-guj tesseract-ocr-hat tesseract-ocr-heb tesseract-ocr-hin tesseract-ocr-hrv tesseract-ocr-hun tesseract-ocr-iku tesseract-ocr-ind tesseract-ocr-isl tesseract-ocr-ita tesseract-ocr-ita-old tesseract-ocr-jav tesseract-ocr-jpn tesseract-ocr-kan tesseract-ocr-kat tesseract-ocr-kat-old tesseract-ocr-kaz tesseract-ocr-khm tesseract-ocr-kir tesseract-ocr-kor tesseract-ocr-kur tesseract-ocr-lao tesseract-ocr-lat tesseract-ocr-lav tesseract-ocr-lit tesseract-ocr-mal tesseract-ocr-mar tesseract-ocr-mkd tesseract-ocr-mlt tesseract-ocr-msa tesseract-ocr-mya tesseract-ocr-nep tesseract-ocr-nld tesseract-ocr-nor tesseract-ocr-ori tesseract-ocr-osd tesseract-ocr-pan tesseract-ocr-pol tesseract-ocr-por tesseract-ocr-pus tesseract-ocr-ron tesseract-ocr-rus tesseract-ocr-san tesseract-ocr-sin tesseract-ocr-slk tesseract-ocr-slk-frak tesseract-ocr-slv tesseract-ocr-spa tesseract-ocr-spa-old tesseract-ocr-sqi tesseract-ocr-srp tesseract-ocr-srp-latn tesseract-ocr-swa tesseract-ocr-swe tesseract-ocr-syr tesseract-ocr-tam tesseract-ocr-tel tesseract-ocr-tgk tesseract-ocr-tgl tesseract-ocr-tha tesseract-ocr-tir tesseract-ocr-tur tesseract-ocr-uig tesseract-ocr-ukr tesseract-ocr-urd tesseract-ocr-uzb tesseract-ocr-uzb-cyrl tesseract-ocr-vie tesseract-ocr-yid ",
           "section": "graphics",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR with all language packages"
         },
@@ -23844,16 +24029,16 @@
         },
         "tesseractocrdev_all": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/tesseract-ocr-dev_4.00~git1648-2d1decb-2_all.deb",
+          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/tesseract-ocr-dev_4.00~git1674-c7caaaf-1_all.deb",
           "size": "12KiB",
-          "version": "4.00~git1648-2d1decb-2",
-          "isize": "14KiB",
+          "version": "4.00~git1674-c7caaaf-1",
+          "isize": "15KiB",
           "depends": "libtesseract-dev ",
           "section": "oldlibs",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "transitional dummy package"
         },
@@ -25712,16 +25897,16 @@
         },
         "leptonicaprogs_i386": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/l/leptonlib/leptonica-progs_1.73-5+nmu1_i386.deb",
-          "size": "24KiB",
-          "version": "1.73-5+nmu1",
-          "isize": "101KiB",
+          "packageurl": "http://notesalexp.org/trusty/main/l/leptonlib/leptonica-progs_1.74.0-1_i386.deb",
+          "size": "20KiB",
+          "version": "1.74.0-1",
+          "isize": "97KiB",
           "depends": "libc6(>=2.7) liblept5 ",
           "section": "graphics",
           "priority": "optional",
           "source": "leptonlib",
           "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
-          "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
           "homepage": "",
           "description": "sample programs for Leptonica image processing library"
         },
@@ -25918,10 +26103,10 @@
         },
         "liblept5_i386": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/l/leptonlib/liblept5_1.73-5+nmu1_i386.deb",
-          "size": "772KiB",
-          "version": "1.73-5+nmu1",
-          "isize": "2.39MiB",
+          "packageurl": "http://notesalexp.org/trusty/main/l/leptonlib/liblept5_1.74.0-1_i386.deb",
+          "size": "808KiB",
+          "version": "1.74.0-1",
+          "isize": "2.47MiB",
           "depends": "libc6(>=2.11) libgif4(>=4.1.4) libjpeg8(>=8c) libopenjp2-7(>=2.0.0) libpng12-0(>=1.2.13-4) libtiff5(>=4.0.3) libwebp5 zlib1g(>=1:1.1.4) ",
           "breaks": "libleptonica(>=1.69~) ",
           "replaces": "libleptonica(>=1.69~) ",
@@ -25929,22 +26114,22 @@
           "priority": "optional",
           "source": "leptonlib",
           "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
-          "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
           "homepage": "",
           "description": "image processing library"
         },
         "libleptonicadev_i386": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/l/leptonlib/libleptonica-dev_1.73-5+nmu1_i386.deb",
-          "size": "1.11MiB",
-          "version": "1.73-5+nmu1",
-          "isize": "4.02MiB",
-          "depends": "liblept5(=1.73-5+nmu1) ",
+          "packageurl": "http://notesalexp.org/trusty/main/l/leptonlib/libleptonica-dev_1.74.0-1_i386.deb",
+          "size": "1.15MiB",
+          "version": "1.74.0-1",
+          "isize": "4.16MiB",
+          "depends": "liblept5(=1.74.0-1) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "leptonlib",
           "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
-          "sourcefile": "leptonlib_1.73-5+nmu1.debian.tar.gz leptonlib_1.73-5+nmu1.dsc leptonlib_1.73.orig.tar.gz ",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
           "homepage": "",
           "description": "image processing library"
         },
@@ -26113,9 +26298,9 @@
         },
         "libtesseract4_i386": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/libtesseract4_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/libtesseract4_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "1.07MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "3.09MiB",
           "depends": "libc6(>=2.15) libgcc1(>=1:4.1.1) libgomp1(>=4.2.1) liblept5 libstdc++6(>=4.8) ",
           "breaks": "libtesseract3 ocropus(<<0.4.0~) tesseract-ocr(<<3.01~) ",
@@ -26125,24 +26310,24 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR library"
         },
         "libtesseractdev_i386": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/libtesseract-dev_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/libtesseract-dev_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "1.37MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "6.48MiB",
-          "depends": "libtesseract4(=4.00~git1648-2d1decb-2) ",
+          "depends": "libtesseract4(=4.00~git1674-c7caaaf-1) ",
           "breaks": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "replaces": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Development files for the tesseract command line OCR tool"
         },
@@ -26276,10 +26461,10 @@
         },
         "q4wine_i386": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/q/q4wine/q4wine_1.3.3-1_i386.deb",
-          "size": "3.05MiB",
-          "version": "1.3.3-1",
-          "isize": "6.82MiB",
+          "packageurl": "http://notesalexp.org/trusty/main/q/q4wine/q4wine_1.3.4-1_i386.deb",
+          "size": "3.06MiB",
+          "version": "1.3.4-1",
+          "isize": "6.83MiB",
           "depends": "icoutils libqt4-sql-sqlite libc6(>=2.4) libgcc1(>=1:4.1.1) libqt4-dbus(>=4:4.5.3) libqt4-network(>=4:4.5.3) libqt4-sql(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.6.1) libstdc++6(>=4.1.1) ",
           "recommends": "sudo wget wine|wine-development|wine1.6|wine1.8|wine1.9 ",
           "suggests": "fuseiso winetricks ",
@@ -26287,7 +26472,7 @@
           "priority": "optional",
           "source": "q4wine",
           "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-          "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
+          "sourcefile": "q4wine_1.3.4-1.debian.tar.xz q4wine_1.3.4-1.dsc q4wine_1.3.4.orig.tar.gz ",
           "homepage": "https://github.com/brezerk/q4wine",
           "description": "Qt GUI for wine (WINE)"
         },
@@ -26390,9 +26575,9 @@
         },
         "tesseractocr_i386": 
         {
-          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/tesseract-ocr_4.00~git1648-2d1decb-2_i386.deb",
-          "size": "164KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "packageurl": "http://notesalexp.org/trusty/main/t/tesseract/tesseract-ocr_4.00~git1674-c7caaaf-1_i386.deb",
+          "size": "168KiB",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "658KiB",
           "depends": "libc6(>=2.4) libcairo2(>=1.2.4) libfontconfig1(>=2.9.0) libgcc1(>=1:4.1.1) libglib2.0-0(>=2.12.0) libicu52(>=52~m1-1~) liblept5 libpango-1.0-0(>=1.22.0) libpangocairo-1.0-0(>=1.22.0) libpangoft2-1.0-0(>=1.14.0) libstdc++6(>=4.8) libtesseract4(>=3.03~) tesseract-ocr-eng(>=3.01~) tesseract-ocr-osd tesseract-ocr-equ ",
           "replaces": "tesseract-ocr-data ",
@@ -26400,7 +26585,7 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": " Open Source OCR Engine"
         },
@@ -26880,6 +27065,21 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) modules"
         },
+        "leptonicaprogs_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/l/leptonlib/leptonica-progs_1.74.0-1_amd64.deb",
+          "size": "24KiB",
+          "version": "1.74.0-1",
+          "isize": "149KiB",
+          "depends": "libc6(>=2.7) liblept5 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "sample programs for Leptonica image processing library"
+        },
         "libeiskaltdcpp22_amd64": 
         {
           "packageurl": "http://notesalexp.org/xenial/main/e/eiskaltdcpp/libeiskaltdcpp2.2_2.2.9-4+nmu1_amd64.deb",
@@ -26990,6 +27190,38 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) base library"
         },
+        "liblept5_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/l/leptonlib/liblept5_1.74.0-1_amd64.deb",
+          "size": "892KiB",
+          "version": "1.74.0-1",
+          "isize": "2.36MiB",
+          "depends": "libc6(>=2.22) libgif7(>=5.1) libjpeg8(>=8c) libopenjp2-7(>=2.0.0) libpng12-0(>=1.2.13-4) libtiff5(>=4.0.3) libwebp5(>=0.4.3) zlib1g(>=1:1.1.4) ",
+          "breaks": "libleptonica(>=1.69~) ",
+          "replaces": "libleptonica(>=1.69~) ",
+          "section": "libs",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
+        "libleptonicadev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/l/leptonlib/libleptonica-dev_1.74.0-1_amd64.deb",
+          "size": "1.20MiB",
+          "version": "1.74.0-1",
+          "isize": "5.39MiB",
+          "depends": "liblept5(=1.74.0-1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
         "libqpx0_amd64": 
         {
           "packageurl": "http://notesalexp.org/xenial/main/q/qpxtool/libqpx0_0.7.2-4+nmu2ppa1~xenial1_amd64.deb",
@@ -27061,9 +27293,9 @@
         },
         "libtesseract4_amd64": 
         {
-          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/libtesseract4_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/libtesseract4_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "1.11MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "3.14MiB",
           "depends": "libc6(>=2.15) libgcc1(>=1:3.0) libgomp1(>=4.9) liblept5 libstdc++6(>=5.2) ",
           "breaks": "libtesseract3 ocropus(<<0.4.0~) tesseract-ocr(<<3.01~) ",
@@ -27073,24 +27305,24 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR library"
         },
         "libtesseractdev_amd64": 
         {
-          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/libtesseract-dev_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/libtesseract-dev_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "1.40MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "7.77MiB",
-          "depends": "libtesseract4(=4.00~git1648-2d1decb-2) ",
+          "depends": "libtesseract4(=4.00~git1674-c7caaaf-1) ",
           "breaks": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "replaces": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Development files for the tesseract command line OCR tool"
         },
@@ -27230,10 +27462,10 @@
         },
         "q4wine_amd64": 
         {
-          "packageurl": "http://notesalexp.org/xenial/main/q/q4wine/q4wine_1.3.3-1_amd64.deb",
-          "size": "2.99MiB",
-          "version": "1.3.3-1",
-          "isize": "6.58MiB",
+          "packageurl": "http://notesalexp.org/xenial/main/q/q4wine/q4wine_1.3.4-1_amd64.deb",
+          "size": "3.00MiB",
+          "version": "1.3.4-1",
+          "isize": "6.59MiB",
           "depends": "icoutils libqt5sql5-sqlite libc6(>=2.14) libgcc1(>=1:3.0) libqt5core5a(>=5.5.0) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.0.2)|libqt5gui5-gles(>=5.0.2) libqt5network5(>=5.0.2) libqt5sql5(>=5.0.2) libqt5widgets5(>=5.2.0) libqt5xml5(>=5.0.2) libstdc++6(>=4.1.1) ",
           "recommends": "sudo wget wine|wine-development|wine1.6|wine1.8|wine1.9 ",
           "suggests": "fuseiso winetricks ",
@@ -27241,7 +27473,7 @@
           "priority": "optional",
           "source": "q4wine",
           "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-          "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
+          "sourcefile": "q4wine_1.3.4-1.debian.tar.xz q4wine_1.3.4-1.dsc q4wine_1.3.4.orig.tar.gz ",
           "homepage": "https://github.com/brezerk/q4wine",
           "description": "Qt GUI for wine (WINE)"
         },
@@ -27368,9 +27600,9 @@
         },
         "tesseractocr_amd64": 
         {
-          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/tesseract-ocr_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/tesseract-ocr_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "164KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "708KiB",
           "depends": "libc6(>=2.14) libcairo2(>=1.2.4) libfontconfig1(>=2.11.94) libgcc1(>=1:3.0) libglib2.0-0(>=2.12.0) libicu55(>=55.1-1~) liblept5 libpango-1.0-0(>=1.37.2) libpangocairo-1.0-0(>=1.22.0) libpangoft2-1.0-0(>=1.14.0) libstdc++6(>=5.2) libtesseract4(>=3.03~) tesseract-ocr-eng(>=3.01~) tesseract-ocr-osd tesseract-ocr-equ ",
           "replaces": "tesseract-ocr-data ",
@@ -27378,7 +27610,7 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": " Open Source OCR Engine"
         },
@@ -28007,16 +28239,16 @@
         },
         "tesseractocrall_all": 
         {
-          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/tesseract-ocr-all_4.00~git1648-2d1decb-2_all.deb",
+          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/tesseract-ocr-all_4.00~git1674-c7caaaf-1_all.deb",
           "size": "12KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "16KiB",
           "depends": "tesseract-ocr tesseract-ocr-afr tesseract-ocr-amh tesseract-ocr-ara tesseract-ocr-asm tesseract-ocr-aze tesseract-ocr-aze-cyrl tesseract-ocr-bel tesseract-ocr-ben tesseract-ocr-bod tesseract-ocr-bos tesseract-ocr-bul tesseract-ocr-cat tesseract-ocr-ceb tesseract-ocr-ces tesseract-ocr-chi-sim tesseract-ocr-chi-tra tesseract-ocr-chr tesseract-ocr-cym tesseract-ocr-dan tesseract-ocr-dan-frak tesseract-ocr-deu tesseract-ocr-deu-frak tesseract-ocr-dzo tesseract-ocr-ell tesseract-ocr-eng tesseract-ocr-enm tesseract-ocr-epo tesseract-ocr-equ tesseract-ocr-est tesseract-ocr-eus tesseract-ocr-fas tesseract-ocr-fin tesseract-ocr-fra tesseract-ocr-frk tesseract-ocr-frm tesseract-ocr-gle tesseract-ocr-glg tesseract-ocr-grc tesseract-ocr-guj tesseract-ocr-hat tesseract-ocr-heb tesseract-ocr-hin tesseract-ocr-hrv tesseract-ocr-hun tesseract-ocr-iku tesseract-ocr-ind tesseract-ocr-isl tesseract-ocr-ita tesseract-ocr-ita-old tesseract-ocr-jav tesseract-ocr-jpn tesseract-ocr-kan tesseract-ocr-kat tesseract-ocr-kat-old tesseract-ocr-kaz tesseract-ocr-khm tesseract-ocr-kir tesseract-ocr-kor tesseract-ocr-kur tesseract-ocr-lao tesseract-ocr-lat tesseract-ocr-lav tesseract-ocr-lit tesseract-ocr-mal tesseract-ocr-mar tesseract-ocr-mkd tesseract-ocr-mlt tesseract-ocr-msa tesseract-ocr-mya tesseract-ocr-nep tesseract-ocr-nld tesseract-ocr-nor tesseract-ocr-ori tesseract-ocr-osd tesseract-ocr-pan tesseract-ocr-pol tesseract-ocr-por tesseract-ocr-pus tesseract-ocr-ron tesseract-ocr-rus tesseract-ocr-san tesseract-ocr-sin tesseract-ocr-slk tesseract-ocr-slk-frak tesseract-ocr-slv tesseract-ocr-spa tesseract-ocr-spa-old tesseract-ocr-sqi tesseract-ocr-srp tesseract-ocr-srp-latn tesseract-ocr-swa tesseract-ocr-swe tesseract-ocr-syr tesseract-ocr-tam tesseract-ocr-tel tesseract-ocr-tgk tesseract-ocr-tgl tesseract-ocr-tha tesseract-ocr-tir tesseract-ocr-tur tesseract-ocr-uig tesseract-ocr-ukr tesseract-ocr-urd tesseract-ocr-uzb tesseract-ocr-uzb-cyrl tesseract-ocr-vie tesseract-ocr-yid ",
           "section": "graphics",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR with all language packages"
         },
@@ -28379,16 +28611,16 @@
         },
         "tesseractocrdev_all": 
         {
-          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/tesseract-ocr-dev_4.00~git1648-2d1decb-2_all.deb",
+          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/tesseract-ocr-dev_4.00~git1674-c7caaaf-1_all.deb",
           "size": "12KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "21KiB",
           "depends": "libtesseract-dev ",
           "section": "oldlibs",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "transitional dummy package"
         },
@@ -30241,6 +30473,21 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) modules"
         },
+        "leptonicaprogs_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/l/leptonlib/leptonica-progs_1.74.0-1_i386.deb",
+          "size": "20KiB",
+          "version": "1.74.0-1",
+          "isize": "124KiB",
+          "depends": "libc6(>=2.7) liblept5 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "sample programs for Leptonica image processing library"
+        },
         "libeiskaltdcpp22_i386": 
         {
           "packageurl": "http://notesalexp.org/xenial/main/e/eiskaltdcpp/libeiskaltdcpp2.2_2.2.9-4+nmu1_i386.deb",
@@ -30351,6 +30598,38 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) base library"
         },
+        "liblept5_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/l/leptonlib/liblept5_1.74.0-1_i386.deb",
+          "size": "916KiB",
+          "version": "1.74.0-1",
+          "isize": "2.76MiB",
+          "depends": "libc6(>=2.22) libgif7(>=5.1) libjpeg8(>=8c) libopenjp2-7(>=2.0.0) libpng12-0(>=1.2.13-4) libtiff5(>=4.0.3) libwebp5(>=0.4.3) zlib1g(>=1:1.1.4) ",
+          "breaks": "libleptonica(>=1.69~) ",
+          "replaces": "libleptonica(>=1.69~) ",
+          "section": "libs",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
+        "libleptonicadev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/l/leptonlib/libleptonica-dev_1.74.0-1_i386.deb",
+          "size": "1.25MiB",
+          "version": "1.74.0-1",
+          "isize": "4.47MiB",
+          "depends": "liblept5(=1.74.0-1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
         "libqpx0_i386": 
         {
           "packageurl": "http://notesalexp.org/xenial/main/q/qpxtool/libqpx0_0.7.2-4+nmu2ppa1~xenial1_i386.deb",
@@ -30422,9 +30701,9 @@
         },
         "libtesseract4_i386": 
         {
-          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/libtesseract4_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/libtesseract4_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "1.17MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "3.23MiB",
           "depends": "libc6(>=2.15) libgcc1(>=1:3.0) libgomp1(>=4.9) liblept5 libstdc++6(>=5.2) ",
           "breaks": "libtesseract3 ocropus(<<0.4.0~) tesseract-ocr(<<3.01~) ",
@@ -30434,24 +30713,24 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR library"
         },
         "libtesseractdev_i386": 
         {
-          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/libtesseract-dev_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/libtesseract-dev_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "1.48MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "6.71MiB",
-          "depends": "libtesseract4(=4.00~git1648-2d1decb-2) ",
+          "depends": "libtesseract4(=4.00~git1674-c7caaaf-1) ",
           "breaks": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "replaces": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Development files for the tesseract command line OCR tool"
         },
@@ -30591,10 +30870,10 @@
         },
         "q4wine_i386": 
         {
-          "packageurl": "http://notesalexp.org/xenial/main/q/q4wine/q4wine_1.3.3-1_i386.deb",
-          "size": "3.01MiB",
-          "version": "1.3.3-1",
-          "isize": "6.56MiB",
+          "packageurl": "http://notesalexp.org/xenial/main/q/q4wine/q4wine_1.3.4-1_i386.deb",
+          "size": "3.02MiB",
+          "version": "1.3.4-1",
+          "isize": "6.57MiB",
           "depends": "icoutils libqt5sql5-sqlite libc6(>=2.4) libgcc1(>=1:3.0) libqt5core5a(>=5.5.0) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.0.2)|libqt5gui5-gles(>=5.0.2) libqt5network5(>=5.0.2) libqt5sql5(>=5.0.2) libqt5widgets5(>=5.2.0) libqt5xml5(>=5.0.2) libstdc++6(>=4.1.1) ",
           "recommends": "sudo wget wine|wine-development|wine1.6|wine1.8|wine1.9 ",
           "suggests": "fuseiso winetricks ",
@@ -30602,7 +30881,7 @@
           "priority": "optional",
           "source": "q4wine",
           "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-          "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
+          "sourcefile": "q4wine_1.3.4-1.debian.tar.xz q4wine_1.3.4-1.dsc q4wine_1.3.4.orig.tar.gz ",
           "homepage": "https://github.com/brezerk/q4wine",
           "description": "Qt GUI for wine (WINE)"
         },
@@ -30729,9 +31008,9 @@
         },
         "tesseractocr_i386": 
         {
-          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/tesseract-ocr_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/xenial/main/t/tesseract/tesseract-ocr_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "172KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "695KiB",
           "depends": "libc6(>=2.4) libcairo2(>=1.2.4) libfontconfig1(>=2.11.94) libgcc1(>=1:3.0) libglib2.0-0(>=2.12.0) libicu55(>=55.1-1~) liblept5 libpango-1.0-0(>=1.37.2) libpangocairo-1.0-0(>=1.22.0) libpangoft2-1.0-0(>=1.14.0) libstdc++6(>=5.2) libtesseract4(>=3.03~) tesseract-ocr-eng(>=3.01~) tesseract-ocr-osd tesseract-ocr-equ ",
           "replaces": "tesseract-ocr-data ",
@@ -30739,7 +31018,7 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": " Open Source OCR Engine"
         },
@@ -31258,6 +31537,21 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) modules"
         },
+        "leptonicaprogs_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/l/leptonlib/leptonica-progs_1.74.0-1_amd64.deb",
+          "size": "24KiB",
+          "version": "1.74.0-1",
+          "isize": "136KiB",
+          "depends": "libc6(>=2.7) liblept5 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "sample programs for Leptonica image processing library"
+        },
         "libeiskaltdcpp22_amd64": 
         {
           "packageurl": "http://notesalexp.org/yakkety/main/e/eiskaltdcpp/libeiskaltdcpp2.2_2.2.9-4+nmu2_amd64.deb",
@@ -31374,6 +31668,38 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) base library"
         },
+        "liblept5_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/l/leptonlib/liblept5_1.74.0-1_amd64.deb",
+          "size": "896KiB",
+          "version": "1.74.0-1",
+          "isize": "2.36MiB",
+          "depends": "libc6(>=2.22) libgif7(>=5.1) libjpeg8(>=8c) libopenjp2-7(>=2.0.0) libpng16-16(>=1.6.2-1) libtiff5(>=4.0.3) libwebp6(>=0.5.1) zlib1g(>=1:1.1.4) ",
+          "breaks": "libleptonica(>=1.69~) ",
+          "replaces": "libleptonica(>=1.69~) ",
+          "section": "libs",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
+        "libleptonicadev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/l/leptonlib/libleptonica-dev_1.74.0-1_amd64.deb",
+          "size": "1.24MiB",
+          "version": "1.74.0-1",
+          "isize": "5.61MiB",
+          "depends": "liblept5(=1.74.0-1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
         "librecad_amd64": 
         {
           "packageurl": "http://notesalexp.org/yakkety/main/libr/librecad/librecad_2.1.0+git4264-8c02aac-1_amd64.deb",
@@ -31421,9 +31747,9 @@
         },
         "libtesseract4_amd64": 
         {
-          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/libtesseract4_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/libtesseract4_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "1.11MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "3.12MiB",
           "depends": "libc6(>=2.15) libgcc1(>=1:3.0) libgomp1(>=4.9) liblept5 libstdc++6(>=5.2) ",
           "breaks": "libtesseract3 ocropus(<<0.4.0~) tesseract-ocr(<<3.01~) ",
@@ -31433,24 +31759,24 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR library"
         },
         "libtesseractdev_amd64": 
         {
-          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/libtesseract-dev_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/libtesseract-dev_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "1.38MiB",
-          "version": "4.00~git1648-2d1decb-2",
-          "isize": "7.40MiB",
-          "depends": "libtesseract4(=4.00~git1648-2d1decb-2) ",
+          "version": "4.00~git1674-c7caaaf-1",
+          "isize": "7.41MiB",
+          "depends": "libtesseract4(=4.00~git1674-c7caaaf-1) ",
           "breaks": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "replaces": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Development files for the tesseract command line OCR tool"
         },
@@ -31569,10 +31895,10 @@
         },
         "q4wine_amd64": 
         {
-          "packageurl": "http://notesalexp.org/yakkety/main/q/q4wine/q4wine_1.3.3-1_amd64.deb",
+          "packageurl": "http://notesalexp.org/yakkety/main/q/q4wine/q4wine_1.3.4-1_amd64.deb",
           "size": "3.05MiB",
-          "version": "1.3.3-1",
-          "isize": "6.89MiB",
+          "version": "1.3.4-1",
+          "isize": "6.90MiB",
           "depends": "icoutils libqt4-sql-sqlite libc6(>=2.14) libgcc1(>=1:3.0) libqt4-dbus(>=4:4.5.3) libqt4-network(>=4:4.5.3) libqt4-sql(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.6.1) libstdc++6(>=5) ",
           "recommends": "sudo wget wine|wine-development|wine1.6|wine1.8|wine1.9 ",
           "suggests": "fuseiso winetricks ",
@@ -31580,7 +31906,7 @@
           "priority": "optional",
           "source": "q4wine",
           "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-          "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
+          "sourcefile": "q4wine_1.3.4-1.debian.tar.xz q4wine_1.3.4-1.dsc q4wine_1.3.4.orig.tar.gz ",
           "homepage": "https://github.com/brezerk/q4wine",
           "description": "Qt GUI for wine (WINE)"
         },
@@ -31694,9 +32020,9 @@
         },
         "tesseractocr_amd64": 
         {
-          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/tesseract-ocr_4.00~git1648-2d1decb-2_amd64.deb",
+          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/tesseract-ocr_4.00~git1674-c7caaaf-1_amd64.deb",
           "size": "164KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "719KiB",
           "depends": "libc6(>=2.14) libcairo2(>=1.2.4) libfontconfig1(>=2.11.94) libgcc1(>=1:3.0) libglib2.0-0(>=2.12.0) libicu57(>=57.1-1~) liblept5 libpango-1.0-0(>=1.37.2) libpangocairo-1.0-0(>=1.22.0) libpangoft2-1.0-0(>=1.14.0) libstdc++6(>=5.2) libtesseract4(>=3.03~) tesseract-ocr-eng(>=3.01~) tesseract-ocr-osd tesseract-ocr-equ ",
           "replaces": "tesseract-ocr-data ",
@@ -31704,7 +32030,7 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": " Open Source OCR Engine"
         },
@@ -32363,16 +32689,16 @@
         },
         "tesseractocrall_all": 
         {
-          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/tesseract-ocr-all_4.00~git1648-2d1decb-2_all.deb",
+          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/tesseract-ocr-all_4.00~git1674-c7caaaf-1_all.deb",
           "size": "12KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "16KiB",
           "depends": "tesseract-ocr tesseract-ocr-afr tesseract-ocr-amh tesseract-ocr-ara tesseract-ocr-asm tesseract-ocr-aze tesseract-ocr-aze-cyrl tesseract-ocr-bel tesseract-ocr-ben tesseract-ocr-bod tesseract-ocr-bos tesseract-ocr-bul tesseract-ocr-cat tesseract-ocr-ceb tesseract-ocr-ces tesseract-ocr-chi-sim tesseract-ocr-chi-tra tesseract-ocr-chr tesseract-ocr-cym tesseract-ocr-dan tesseract-ocr-dan-frak tesseract-ocr-deu tesseract-ocr-deu-frak tesseract-ocr-dzo tesseract-ocr-ell tesseract-ocr-eng tesseract-ocr-enm tesseract-ocr-epo tesseract-ocr-equ tesseract-ocr-est tesseract-ocr-eus tesseract-ocr-fas tesseract-ocr-fin tesseract-ocr-fra tesseract-ocr-frk tesseract-ocr-frm tesseract-ocr-gle tesseract-ocr-glg tesseract-ocr-grc tesseract-ocr-guj tesseract-ocr-hat tesseract-ocr-heb tesseract-ocr-hin tesseract-ocr-hrv tesseract-ocr-hun tesseract-ocr-iku tesseract-ocr-ind tesseract-ocr-isl tesseract-ocr-ita tesseract-ocr-ita-old tesseract-ocr-jav tesseract-ocr-jpn tesseract-ocr-kan tesseract-ocr-kat tesseract-ocr-kat-old tesseract-ocr-kaz tesseract-ocr-khm tesseract-ocr-kir tesseract-ocr-kor tesseract-ocr-kur tesseract-ocr-lao tesseract-ocr-lat tesseract-ocr-lav tesseract-ocr-lit tesseract-ocr-mal tesseract-ocr-mar tesseract-ocr-mkd tesseract-ocr-mlt tesseract-ocr-msa tesseract-ocr-mya tesseract-ocr-nep tesseract-ocr-nld tesseract-ocr-nor tesseract-ocr-ori tesseract-ocr-osd tesseract-ocr-pan tesseract-ocr-pol tesseract-ocr-por tesseract-ocr-pus tesseract-ocr-ron tesseract-ocr-rus tesseract-ocr-san tesseract-ocr-sin tesseract-ocr-slk tesseract-ocr-slk-frak tesseract-ocr-slv tesseract-ocr-spa tesseract-ocr-spa-old tesseract-ocr-sqi tesseract-ocr-srp tesseract-ocr-srp-latn tesseract-ocr-swa tesseract-ocr-swe tesseract-ocr-syr tesseract-ocr-tam tesseract-ocr-tel tesseract-ocr-tgk tesseract-ocr-tgl tesseract-ocr-tha tesseract-ocr-tir tesseract-ocr-tur tesseract-ocr-uig tesseract-ocr-ukr tesseract-ocr-urd tesseract-ocr-uzb tesseract-ocr-uzb-cyrl tesseract-ocr-vie tesseract-ocr-yid ",
           "section": "graphics",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR with all language packages"
         },
@@ -32735,16 +33061,16 @@
         },
         "tesseractocrdev_all": 
         {
-          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/tesseract-ocr-dev_4.00~git1648-2d1decb-2_all.deb",
+          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/tesseract-ocr-dev_4.00~git1674-c7caaaf-1_all.deb",
           "size": "12KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "21KiB",
           "depends": "libtesseract-dev ",
           "section": "oldlibs",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "transitional dummy package"
         },
@@ -34646,6 +34972,21 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) modules"
         },
+        "leptonicaprogs_i386": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/l/leptonlib/leptonica-progs_1.74.0-1_i386.deb",
+          "size": "20KiB",
+          "version": "1.74.0-1",
+          "isize": "124KiB",
+          "depends": "libc6(>=2.7) liblept5 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "sample programs for Leptonica image processing library"
+        },
         "libeiskaltdcpp22_i386": 
         {
           "packageurl": "http://notesalexp.org/yakkety/main/e/eiskaltdcpp/libeiskaltdcpp2.2_2.2.9-4+nmu2_i386.deb",
@@ -34762,6 +35103,38 @@
           "homepage": "http://www.kvirc.de/",
           "description": "KVIrc (IRC client) base library"
         },
+        "liblept5_i386": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/l/leptonlib/liblept5_1.74.0-1_i386.deb",
+          "size": "924KiB",
+          "version": "1.74.0-1",
+          "isize": "2.78MiB",
+          "depends": "libc6(>=2.22) libgif7(>=5.1) libjpeg8(>=8c) libopenjp2-7(>=2.0.0) libpng16-16(>=1.6.2-1) libtiff5(>=4.0.3) libwebp6(>=0.5.1) zlib1g(>=1:1.1.4) ",
+          "breaks": "libleptonica(>=1.69~) ",
+          "replaces": "libleptonica(>=1.69~) ",
+          "section": "libs",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
+        "libleptonicadev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/l/leptonlib/libleptonica-dev_1.74.0-1_i386.deb",
+          "size": "1.25MiB",
+          "version": "1.74.0-1",
+          "isize": "4.46MiB",
+          "depends": "liblept5(=1.74.0-1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "leptonlib",
+          "sourceurl": "http://notesalexp.org/source/main/l/leptonlib",
+          "sourcefile": "leptonlib_1.74.0-1.debian.tar.gz leptonlib_1.74.0-1.dsc leptonlib_1.74.0.orig.tar.gz ",
+          "homepage": "",
+          "description": "image processing library"
+        },
         "librecad_i386": 
         {
           "packageurl": "http://notesalexp.org/yakkety/main/libr/librecad/librecad_2.1.0+git4264-8c02aac-1_i386.deb",
@@ -34809,9 +35182,9 @@
         },
         "libtesseract4_i386": 
         {
-          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/libtesseract4_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/libtesseract4_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "1.19MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "3.26MiB",
           "depends": "libc6(>=2.15) libgcc1(>=1:3.0) libgomp1(>=4.9) liblept5 libstdc++6(>=5.2) ",
           "breaks": "libtesseract3 ocropus(<<0.4.0~) tesseract-ocr(<<3.01~) ",
@@ -34821,24 +35194,24 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Tesseract OCR library"
         },
         "libtesseractdev_i386": 
         {
-          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/libtesseract-dev_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/libtesseract-dev_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "1.49MiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "6.51MiB",
-          "depends": "libtesseract4(=4.00~git1648-2d1decb-2) ",
+          "depends": "libtesseract4(=4.00~git1674-c7caaaf-1) ",
           "breaks": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "replaces": "tesseract-ocr-dev(<<3.0.1-1~) ",
           "section": "libdevel",
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": "Development files for the tesseract command line OCR tool"
         },
@@ -34957,10 +35330,10 @@
         },
         "q4wine_i386": 
         {
-          "packageurl": "http://notesalexp.org/yakkety/main/q/q4wine/q4wine_1.3.3-1_i386.deb",
-          "size": "3.07MiB",
-          "version": "1.3.3-1",
-          "isize": "7.02MiB",
+          "packageurl": "http://notesalexp.org/yakkety/main/q/q4wine/q4wine_1.3.4-1_i386.deb",
+          "size": "3.08MiB",
+          "version": "1.3.4-1",
+          "isize": "7.03MiB",
           "depends": "icoutils libqt4-sql-sqlite libc6(>=2.4) libgcc1(>=1:3.0) libqt4-dbus(>=4:4.5.3) libqt4-network(>=4:4.5.3) libqt4-sql(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.6.1) libstdc++6(>=5) ",
           "recommends": "sudo wget wine|wine-development|wine1.6|wine1.8|wine1.9 ",
           "suggests": "fuseiso winetricks ",
@@ -34968,7 +35341,7 @@
           "priority": "optional",
           "source": "q4wine",
           "sourceurl": "http://notesalexp.org/source/main/q/q4wine",
-          "sourcefile": "q4wine_1.3.3-1.debian.tar.xz q4wine_1.3.3-1.dsc q4wine_1.3.3.orig.tar.gz ",
+          "sourcefile": "q4wine_1.3.4-1.debian.tar.xz q4wine_1.3.4-1.dsc q4wine_1.3.4.orig.tar.gz ",
           "homepage": "https://github.com/brezerk/q4wine",
           "description": "Qt GUI for wine (WINE)"
         },
@@ -35082,9 +35455,9 @@
         },
         "tesseractocr_i386": 
         {
-          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/tesseract-ocr_4.00~git1648-2d1decb-2_i386.deb",
+          "packageurl": "http://notesalexp.org/yakkety/main/t/tesseract/tesseract-ocr_4.00~git1674-c7caaaf-1_i386.deb",
           "size": "176KiB",
-          "version": "4.00~git1648-2d1decb-2",
+          "version": "4.00~git1674-c7caaaf-1",
           "isize": "703KiB",
           "depends": "libc6(>=2.4) libcairo2(>=1.2.4) libfontconfig1(>=2.11.94) libgcc1(>=1:3.0) libglib2.0-0(>=2.12.0) libicu57(>=57.1-1~) liblept5 libpango-1.0-0(>=1.37.2) libpangocairo-1.0-0(>=1.22.0) libpangoft2-1.0-0(>=1.14.0) libstdc++6(>=5.2) libtesseract4(>=3.03~) tesseract-ocr-eng(>=3.01~) tesseract-ocr-osd tesseract-ocr-equ ",
           "replaces": "tesseract-ocr-data ",
@@ -35092,7 +35465,7 @@
           "priority": "optional",
           "source": "tesseract",
           "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-          "sourcefile": "tesseract_4.00~git1648-2d1decb-2.debian.tar.xz tesseract_4.00~git1648-2d1decb-2.dsc tesseract_4.00~git1648-2d1decb.orig.tar.xz ",
+          "sourcefile": "tesseract_4.00~git1674-c7caaaf-1.debian.tar.xz tesseract_4.00~git1674-c7caaaf-1.dsc tesseract_4.00~git1674-c7caaaf.orig.tar.xz ",
           "homepage": "https://github.com/tesseract-ocr/",
           "description": " Open Source OCR Engine"
         },
