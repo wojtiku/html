@@ -4500,6 +4500,21 @@
           "homepage": "https://github.com/nsf/bmpanel2",
           "description": "BitMap Panel"
         },
+        "calculixccx_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/c/calculix-ccx/calculix-ccx_2.11-1+nmu1_amd64.deb",
+          "size": "1.28MiB",
+          "version": "2.11-1+nmu1",
+          "isize": "4.23MiB",
+          "depends": "libarpack2(>=2.1) libblas3|libblas.so.3 libc6(>=2.14) libgcc1(>=1:4.1.1) libgfortran3(>=4.6) libgomp1(>=4.9) liblapack3|liblapack.so.3 libquadmath0(>=4.6) libspooles2.2 ",
+          "section": "science",
+          "priority": "optional",
+          "source": "calculix-ccx",
+          "sourceurl": "http://notesalexp.org/source/main/c/calculix-ccx",
+          "sourcefile": "calculix-ccx_2.11-1+nmu1.debian.tar.gz calculix-ccx_2.11-1+nmu1.dsc calculix-ccx_2.11.orig.tar.bz2 ",
+          "homepage": "http://www.calculix.de",
+          "description": "Three-Dimensional Structural Finite Element Program"
+        },
         "clementine_amd64": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/c/clementine/clementine_1.3.1+git1784-g265f27a-1_amd64.deb",
@@ -4758,6 +4773,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "multi-protocol download manager, feature rich and extensible via plugin"
+        },
+        "freecad_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/f/freecad/freecad_0.16+git6707-5465bc4-1_amd64.deb",
+          "size": "20.45MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "98.62MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python:any(>=2.6.6-7~) python2.7 libboost-filesystem1.55.0 libboost-program-options1.55.0 libboost-python1.55.0 libboost-regex1.55.0 libboost-signals1.55.0 libboost-system1.55.0 libboost-thread1.55.0 libc6(>=2.14) libcoin80 libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libpyside1.2(>=1.0.0~beta3) libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.8.0) libqtwebkit4(>=2.1.0~2011week13) libshiboken1.2(>=1.1.0) libspnav0 libstdc++6(>=4.9) libx11-6 libxerces-c3.1 libxext6 libzipios++0c2a zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
         },
         "gegl_amd64": 
         {
@@ -5107,6 +5138,196 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libnglib4913_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/n/netgen/libnglib-4.9.13_4.9.13.dfsg-8+nmu1_amd64.deb",
+          "size": "1.08MiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "3.33MiB",
+          "depends": "libc6(>=2.14) libgcc1(>=1:4.1.1) liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libstdc++6(>=4.4.0) ",
+          "section": "libs",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator shared library"
+        },
+        "libnglibdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/n/netgen/libnglib-dev_4.9.13.dfsg-8+nmu1_amd64.deb",
+          "size": "16KiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "50KiB",
+          "depends": "libnglib-4.9.13(=4.9.13.dfsg-8+nmu1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator development files"
+        },
+        "libocefoundation10_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-foundation10_0.17.2-1+nmu1_amd64.deb",
+          "size": "1.16MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "4.50MiB",
+          "depends": "multiarch-support libc6(>=2.17) libgcc1(>=1:4.1.1) libstdc++6(>=4.4.0) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "libocefoundationdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-foundation-dev_0.17.2-1+nmu1_amd64.deb",
+          "size": "764KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "6.13MiB",
+          "depends": "liboce-foundation10(>=0.17.2) liboce-foundation10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-foundation-dev ",
+          "conflicts": "libopencascade-foundation-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "libocemodeling10_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-modeling10_0.17.2-1+nmu1_amd64.deb",
+          "size": "11.24MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "41.93MiB",
+          "depends": "multiarch-support libc6(>=2.14) libgcc1(>=1:4.1.1) liboce-foundation10 libstdc++6(>=4.4.0) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "libocemodelingdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-modeling-dev_0.17.2-1+nmu1_amd64.deb",
+          "size": "1.73MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "17.64MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling10(>=0.17.2) liboce-modeling10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-modeling-dev ",
+          "conflicts": "libopencascade-modeling-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "liboceocaf10_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-ocaf10_0.17.2-1+nmu1_amd64.deb",
+          "size": "712KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "3.11MiB",
+          "depends": "multiarch-support libc6(>=2.14) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-visualization10 libstdc++6(>=4.4.0) libx11-6 libxext6 ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "liboceocafdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-ocaf-dev_0.17.2-1+nmu1_amd64.deb",
+          "size": "108KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "1.12MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling-dev(>=0.17.2) liboce-modeling-dev(<<0.17.2+1~) liboce-ocaf-lite-dev(>=0.17.2) liboce-ocaf-lite-dev(<<0.17.2+1~) liboce-visualization-dev(>=0.17.2) liboce-visualization-dev(<<0.17.2+1~) liboce-ocaf10(>=0.17.2) liboce-ocaf10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-ocaf-dev ",
+          "conflicts": "libopencascade-ocaf-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "liboceocaflite10_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-ocaf-lite10_0.17.2-1+nmu1_amd64.deb",
+          "size": "1.01MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "5.26MiB",
+          "depends": "multiarch-support libc6(>=2.14) libgcc1(>=1:4.1.1) liboce-foundation10 liboce-modeling10 libstdc++6(>=4.4.0) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "liboceocaflitedev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-ocaf-lite-dev_0.17.2-1+nmu1_amd64.deb",
+          "size": "264KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "3.01MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling-dev(>=0.17.2) liboce-modeling-dev(<<0.17.2+1~) liboce-ocaf-lite10(>=0.17.2) liboce-ocaf-lite10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-ocaf-lite-dev ",
+          "conflicts": "libopencascade-ocaf-lite-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "libocevisualization10_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-visualization10_0.17.2-1+nmu1_amd64.deb",
+          "size": "2.90MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "8.79MiB",
+          "depends": "multiarch-support libc6(>=2.14) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libgl2ps0 libglu1-mesa|libglu1 liboce-foundation10 liboce-modeling10 libstdc++6(>=4.9) libx11-6 libxext6 ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "libocevisualizationdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-visualization-dev_0.17.2-1+nmu1_amd64.deb",
+          "size": "472KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "3.92MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling-dev(>=0.17.2) liboce-modeling-dev(<<0.17.2+1~) liboce-ocaf-lite-dev(>=0.17.2) liboce-ocaf-lite-dev(<<0.17.2+1~) liboce-visualization10(>=0.17.2) liboce-visualization10(<<0.17.2+1~) libx11-dev libxmu-dev libxext-dev libfreetype6-dev libgl1-mesa-dev|libgl-dev libglu1-mesa-dev|libglu-dev libgl2ps-dev libfreeimage-dev ",
+          "replaces": "libopencascade-ocaf-lite-dev ",
+          "conflicts": "libopencascade-ocaf-lite-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
         "libqpx0_amd64": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/q/qpxtool/libqpx0_0.7.2-4+nmu1_amd64.deb",
@@ -5249,6 +5470,53 @@
           "priority": "optional",
           "homepage": "http://myrulib.lintest.ru",
           "description": "Create your own collection of e-books"
+        },
+        "netgen_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/n/netgen/netgen_4.9.13.dfsg-8+nmu1_amd64.deb",
+          "size": "1.25MiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "3.92MiB",
+          "depends": "tix tix-dev libc6(>=2.14) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libjpeg62-turbo(>=1.3.1) libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libstdc++6(>=4.9) libtcl8.5(>=8.5.0) libtk8.5(>=8.5.0) libtogl1 libxmu6 ",
+          "section": "math",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator"
+        },
+        "netgenheaders_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/n/netgen/netgen-headers_4.9.13.dfsg-8+nmu1_amd64.deb",
+          "size": "124KiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "764KiB",
+          "depends": "libnglib-dev(=4.9.13.dfsg-8+nmu1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator internal headers"
+        },
+        "ocedraw_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/oce-draw_0.17.2-1+nmu1_amd64.deb",
+          "size": "1.96MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "6.99MiB",
+          "depends": "libc6(>=2.14) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libgl2ps0 libglu1-mesa|libglu1 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libstdc++6(>=4.6) libtcl8.5(>=8.5.0) libtk8.5(>=8.5.0) libx11-6 libxext6 libx11-dev libfreetype6-dev tcl8.5-dev tk8.5-dev ",
+          "replaces": "opencascade-draw ",
+          "conflicts": "opencascade-draw ",
+          "section": "science",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
         },
         "ppastats_amd64": 
         {
@@ -5857,6 +6125,22 @@
           "homepage": "http://fatrat.dolezel.info/",
           "description": "development files for fatrat"
         },
+        "freecaddoc_all": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/f/freecad/freecad-doc_0.16+git6707-5465bc4-1_all.deb",
+          "size": "77.62MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "78.39MiB",
+          "depends": "qt4-dev-tools ",
+          "recommends": "freecad(=0.16+git6707-5465bc4-1) ",
+          "section": "doc",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "FreeCAD documentation"
+        },
         "geeknote_all": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/g/geeknote/geeknote_0.01+git20150511-1_all.deb",
@@ -5944,6 +6228,38 @@
           "homepage": "http://gegl.org/babl/",
           "description": "Dynamic, any to any, pixel format conversion library (documentation)"
         },
+        "libeigen3dev_all": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/e/eigen3/libeigen3-dev_3.3.0-1+nmu1_all.deb",
+          "size": "820KiB",
+          "version": "3.3.0-1+nmu1",
+          "isize": "6.74MiB",
+          "depends": "pkg-config ",
+          "suggests": "libeigen3-doc libmrpt-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "eigen3",
+          "sourceurl": "http://notesalexp.org/source/main/e/eigen3",
+          "sourcefile": "eigen3_3.3.0-1+nmu1.debian.tar.gz eigen3_3.3.0-1+nmu1.dsc eigen3_3.3.0.orig.tar.bz2 ",
+          "homepage": "http://eigen.tuxfamily.org",
+          "description": "lightweight C++ template library for linear algebra"
+        },
+        "libeigen3doc_all": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/e/eigen3/libeigen3-doc_3.3.0-1+nmu1_all.deb",
+          "size": "7.79MiB",
+          "version": "3.3.0-1+nmu1",
+          "isize": "49.37MiB",
+          "depends": "libjs-jquery fonts-freefont-ttf ",
+          "suggests": "libeigen3-dev ",
+          "section": "doc",
+          "priority": "extra",
+          "source": "eigen3",
+          "sourceurl": "http://notesalexp.org/source/main/e/eigen3",
+          "sourcefile": "eigen3_3.3.0-1+nmu1.debian.tar.gz eigen3_3.3.0-1+nmu1.dsc eigen3_3.3.0.orig.tar.bz2 ",
+          "homepage": "http://eigen.tuxfamily.org",
+          "description": "eigen3 API documentation"
+        },
         "libgegldoc_all": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/g/gegl-dmo/libgegl-doc_0.2.0-dmo8_all.deb",
@@ -5985,6 +6301,21 @@
           "sourcefile": "librecad_2.1.0+git4264-8c02aac-1.debian.tar.xz librecad_2.1.0+git4264-8c02aac-1.dsc librecad_2.1.0+git4264-8c02aac.orig.tar.xz ",
           "homepage": "http://www.librecad.org/",
           "description": "Computer-aided design (CAD) system -- shared files"
+        },
+        "netgendoc_all": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/n/netgen/netgen-doc_4.9.13.dfsg-8+nmu1_all.deb",
+          "size": "152KiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "166KiB",
+          "suggests": "netgen ",
+          "section": "doc",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator documentation"
         },
         "notesalexpkeyring_all": 
         {
@@ -8124,6 +8455,21 @@
           "homepage": "https://github.com/nsf/bmpanel2",
           "description": "BitMap Panel"
         },
+        "calculixccx_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/c/calculix-ccx/calculix-ccx_2.11-1+nmu1_i386.deb",
+          "size": "1.13MiB",
+          "version": "2.11-1+nmu1",
+          "isize": "4.04MiB",
+          "depends": "libarpack2(>=2.1) libblas3|libblas.so.3 libc6(>=2.7) libgcc1(>=1:4.1.1) libgfortran3(>=4.6) libgomp1(>=4.9) liblapack3|liblapack.so.3 libquadmath0(>=4.6) libspooles2.2 ",
+          "section": "science",
+          "priority": "optional",
+          "source": "calculix-ccx",
+          "sourceurl": "http://notesalexp.org/source/main/c/calculix-ccx",
+          "sourcefile": "calculix-ccx_2.11-1+nmu1.debian.tar.gz calculix-ccx_2.11-1+nmu1.dsc calculix-ccx_2.11.orig.tar.bz2 ",
+          "homepage": "http://www.calculix.de",
+          "description": "Three-Dimensional Structural Finite Element Program"
+        },
         "clementine_i386": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/c/clementine/clementine_1.3.1+git1784-g265f27a-1_i386.deb",
@@ -8382,6 +8728,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "multi-protocol download manager, feature rich and extensible via plugin"
+        },
+        "freecad_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/f/freecad/freecad_0.16+git6707-5465bc4-1_i386.deb",
+          "size": "20.51MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "95.82MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python:any(>=2.6.6-7~) python2.7 libboost-filesystem1.55.0 libboost-program-options1.55.0 libboost-python1.55.0 libboost-regex1.55.0 libboost-signals1.55.0 libboost-system1.55.0 libboost-thread1.55.0 libc6(>=2.4) libcoin80 libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libpyside1.2(>=1.0.0~beta3) libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.8.0) libqtwebkit4(>=2.1.0~2011week13) libshiboken1.2(>=1.1.0) libspnav0 libstdc++6(>=4.9) libx11-6 libxerces-c3.1 libxext6 libzipios++0c2a zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
         },
         "gegl_i386": 
         {
@@ -8731,6 +9093,196 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libnglib4913_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/n/netgen/libnglib-4.9.13_4.9.13.dfsg-8+nmu1_i386.deb",
+          "size": "1.07MiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "3.29MiB",
+          "depends": "libc6(>=2.4) libgcc1(>=1:4.1.1) liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libstdc++6(>=4.4.0) ",
+          "section": "libs",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator shared library"
+        },
+        "libnglibdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/n/netgen/libnglib-dev_4.9.13.dfsg-8+nmu1_i386.deb",
+          "size": "16KiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "50KiB",
+          "depends": "libnglib-4.9.13(=4.9.13.dfsg-8+nmu1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator development files"
+        },
+        "libocefoundation10_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-foundation10_0.17.2-1+nmu1_i386.deb",
+          "size": "1.17MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "4.48MiB",
+          "depends": "multiarch-support libc6(>=2.17) libgcc1(>=1:4.1.1) libstdc++6(>=4.4.0) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "libocefoundationdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-foundation-dev_0.17.2-1+nmu1_i386.deb",
+          "size": "768KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "6.13MiB",
+          "depends": "liboce-foundation10(>=0.17.2) liboce-foundation10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-foundation-dev ",
+          "conflicts": "libopencascade-foundation-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "libocemodeling10_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-modeling10_0.17.2-1+nmu1_i386.deb",
+          "size": "11.35MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "42.12MiB",
+          "depends": "multiarch-support libc6(>=2.7) libgcc1(>=1:4.1.1) liboce-foundation10 libstdc++6(>=4.4.0) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "libocemodelingdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-modeling-dev_0.17.2-1+nmu1_i386.deb",
+          "size": "1.73MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "17.64MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling10(>=0.17.2) liboce-modeling10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-modeling-dev ",
+          "conflicts": "libopencascade-modeling-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "liboceocaf10_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-ocaf10_0.17.2-1+nmu1_i386.deb",
+          "size": "728KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "2.98MiB",
+          "depends": "multiarch-support libc6(>=2.4) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-visualization10 libstdc++6(>=4.4.0) libx11-6 libxext6 ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "liboceocafdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-ocaf-dev_0.17.2-1+nmu1_i386.deb",
+          "size": "108KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "1.12MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling-dev(>=0.17.2) liboce-modeling-dev(<<0.17.2+1~) liboce-ocaf-lite-dev(>=0.17.2) liboce-ocaf-lite-dev(<<0.17.2+1~) liboce-visualization-dev(>=0.17.2) liboce-visualization-dev(<<0.17.2+1~) liboce-ocaf10(>=0.17.2) liboce-ocaf10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-ocaf-dev ",
+          "conflicts": "libopencascade-ocaf-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "liboceocaflite10_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-ocaf-lite10_0.17.2-1+nmu1_i386.deb",
+          "size": "1.03MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "5.12MiB",
+          "depends": "multiarch-support libc6(>=2.4) libgcc1(>=1:4.1.1) liboce-foundation10 liboce-modeling10 libstdc++6(>=4.4.0) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "liboceocaflitedev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-ocaf-lite-dev_0.17.2-1+nmu1_i386.deb",
+          "size": "264KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "3.01MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling-dev(>=0.17.2) liboce-modeling-dev(<<0.17.2+1~) liboce-ocaf-lite10(>=0.17.2) liboce-ocaf-lite10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-ocaf-lite-dev ",
+          "conflicts": "libopencascade-ocaf-lite-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "libocevisualization10_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-visualization10_0.17.2-1+nmu1_i386.deb",
+          "size": "2.93MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "8.70MiB",
+          "depends": "multiarch-support libc6(>=2.4) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libgl2ps0 libglu1-mesa|libglu1 liboce-foundation10 liboce-modeling10 libstdc++6(>=4.9) libx11-6 libxext6 ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "libocevisualizationdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/liboce-visualization-dev_0.17.2-1+nmu1_i386.deb",
+          "size": "472KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "3.92MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling-dev(>=0.17.2) liboce-modeling-dev(<<0.17.2+1~) liboce-ocaf-lite-dev(>=0.17.2) liboce-ocaf-lite-dev(<<0.17.2+1~) liboce-visualization10(>=0.17.2) liboce-visualization10(<<0.17.2+1~) libx11-dev libxmu-dev libxext-dev libfreetype6-dev libgl1-mesa-dev|libgl-dev libglu1-mesa-dev|libglu-dev libgl2ps-dev libfreeimage-dev ",
+          "replaces": "libopencascade-ocaf-lite-dev ",
+          "conflicts": "libopencascade-ocaf-lite-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
         "libqpx0_i386": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/q/qpxtool/libqpx0_0.7.2-4+nmu1_i386.deb",
@@ -8873,6 +9425,53 @@
           "priority": "optional",
           "homepage": "http://myrulib.lintest.ru",
           "description": "Create your own collection of e-books"
+        },
+        "netgen_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/n/netgen/netgen_4.9.13.dfsg-8+nmu1_i386.deb",
+          "size": "1.25MiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "3.99MiB",
+          "depends": "tix tix-dev libc6(>=2.4) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libjpeg62-turbo(>=1.3.1) libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libstdc++6(>=4.9) libtcl8.5(>=8.5.0) libtk8.5(>=8.5.0) libtogl1 libxmu6 ",
+          "section": "math",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator"
+        },
+        "netgenheaders_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/n/netgen/netgen-headers_4.9.13.dfsg-8+nmu1_i386.deb",
+          "size": "124KiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "764KiB",
+          "depends": "libnglib-dev(=4.9.13.dfsg-8+nmu1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator internal headers"
+        },
+        "ocedraw_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/o/oce/oce-draw_0.17.2-1+nmu1_i386.deb",
+          "size": "2.01MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "6.99MiB",
+          "depends": "libc6(>=2.4) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libgl2ps0 libglu1-mesa|libglu1 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libstdc++6(>=4.6) libtcl8.5(>=8.5.0) libtk8.5(>=8.5.0) libx11-6 libxext6 libx11-dev libfreetype6-dev tcl8.5-dev tk8.5-dev ",
+          "replaces": "opencascade-draw ",
+          "conflicts": "opencascade-draw ",
+          "section": "science",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
         },
         "ppastats_i386": 
         {
@@ -9503,6 +10102,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "multi-protocol download manager, feature rich and extensible via plugin"
+        },
+        "freecad_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/f/freecad/freecad_0.16+git6707-5465bc4-1_amd64.deb",
+          "size": "20.39MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "98.51MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python2.7 python:any(>=2.6.6-7~) libboost-atomic1.62.0 libboost-chrono1.62.0 libboost-date-time1.62.0 libboost-filesystem1.62.0 libboost-program-options1.62.0 libboost-python1.62.0 libboost-regex1.62.0 libboost-signals1.62.0 libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.14) libcoin80v5 libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:3.4) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libpyside1.2(>=1.0.0~beta3) libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.8.0) libqtwebkit4(>=2.1.0~2011week13) libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libx11-6 libxerces-c3.1 libxext6 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
         },
         "gimp_amd64": 
         {
@@ -10648,6 +11263,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "development files for fatrat"
+        },
+        "freecaddoc_all": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/f/freecad/freecad-doc_0.16+git6707-5465bc4-1_all.deb",
+          "size": "77.64MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "78.40MiB",
+          "depends": "qt4-dev-tools ",
+          "recommends": "freecad(=0.16+git6707-5465bc4-1) ",
+          "section": "doc",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "FreeCAD documentation"
         },
         "geeknote_all": 
         {
@@ -13153,6 +13784,22 @@
           "homepage": "http://fatrat.dolezel.info/",
           "description": "multi-protocol download manager, feature rich and extensible via plugin"
         },
+        "freecad_i386": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/f/freecad/freecad_0.16+git6707-5465bc4-1_i386.deb",
+          "size": "20.91MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "97.02MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python2.7 python:any(>=2.6.6-7~) libboost-atomic1.62.0 libboost-chrono1.62.0 libboost-date-time1.62.0 libboost-filesystem1.62.0 libboost-program-options1.62.0 libboost-python1.62.0 libboost-regex1.62.0 libboost-signals1.62.0 libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.4) libcoin80v5 libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.2) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libpyside1.2(>=1.0.0~beta3) libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.8.0) libqtwebkit4(>=2.1.0~2011week13) libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libx11-6 libxerces-c3.1 libxext6 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
+        },
         "gimp_i386": 
         {
           "packageurl": "http://notesalexp.org/stretch/main/g/gimp/gimp_2.8.18+git32435-77d6969-1_i386.deb",
@@ -14278,6 +14925,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "multi-protocol download manager, feature rich and extensible via plugin"
+        },
+        "freecad_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/f/freecad/freecad_0.16+git6707-5465bc4-1_amd64.deb",
+          "size": "20.39MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "98.50MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python2.7 python:any(>=2.6.6-7~) libboost-atomic1.62.0 libboost-chrono1.62.0 libboost-date-time1.62.0 libboost-filesystem1.62.0 libboost-program-options1.62.0 libboost-python1.62.0 libboost-regex1.62.0 libboost-signals1.62.0 libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.14) libcoin80v5 libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:3.4) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libpyside1.2(>=1.0.0~beta3) libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.8.0) libqtwebkit4(>=2.1.0~2011week13) libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libx11-6 libxerces-c3.1 libxext6 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
         },
         "gimp_amd64": 
         {
@@ -15466,6 +16129,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "development files for fatrat"
+        },
+        "freecaddoc_all": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/f/freecad/freecad-doc_0.16+git6707-5465bc4-1_all.deb",
+          "size": "77.64MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "78.40MiB",
+          "depends": "qt4-dev-tools ",
+          "recommends": "freecad(=0.16+git6707-5465bc4-1) ",
+          "section": "doc",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "FreeCAD documentation"
         },
         "geeknote_all": 
         {
@@ -18003,6 +18682,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "multi-protocol download manager, feature rich and extensible via plugin"
+        },
+        "freecad_i386": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/f/freecad/freecad_0.16+git6707-5465bc4-1_i386.deb",
+          "size": "20.91MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "97.02MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python2.7 python:any(>=2.6.6-7~) libboost-atomic1.62.0 libboost-chrono1.62.0 libboost-date-time1.62.0 libboost-filesystem1.62.0 libboost-program-options1.62.0 libboost-python1.62.0 libboost-regex1.62.0 libboost-signals1.62.0 libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.4) libcoin80v5 libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.2) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libpyside1.2(>=1.0.0~beta3) libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.8.0) libqtwebkit4(>=2.1.0~2011week13) libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libx11-6 libxerces-c3.1 libxext6 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
         },
         "gimp_i386": 
         {
@@ -26965,6 +27660,22 @@
           "homepage": "http://fatrat.dolezel.info/",
           "description": "multi-protocol download manager, feature rich and extensible via plugin"
         },
+        "freecad_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/f/freecad/freecad_0.16+git6707-5465bc4-1_amd64.deb",
+          "size": "20.30MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "97.84MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python:any(>=2.6.6-7~) python2.7 libboost-program-options1.58.0 libboost-python1.58.0 libboost-regex1.58.0 libboost-signals1.58.0 libboost-system1.58.0 libc6(>=2.14) libcoin80v5 libfreetype6(>=2.2.1) libgcc1(>=1:3.4) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.8.0) libqtwebkit4 libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libx11-6 libxerces-c3.1 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
+        },
         "gimp_amd64": 
         {
           "packageurl": "http://notesalexp.org/xenial/main/g/gimp/gimp_2.8.18+git32435-77d6969-1_amd64.deb",
@@ -27222,6 +27933,166 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libocefoundation10_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-foundation10_0.17.2-1+nmu1_amd64.deb",
+          "size": "1.14MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "4.38MiB",
+          "depends": "libc6(>=2.17) libgcc1(>=1:3.0) libstdc++6(>=5.2) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "libocefoundationdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-foundation-dev_0.17.2-1+nmu1_amd64.deb",
+          "size": "764KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "6.74MiB",
+          "depends": "liboce-foundation10(>=0.17.2) liboce-foundation10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-foundation-dev ",
+          "conflicts": "libopencascade-foundation-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "libocemodeling10_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-modeling10_0.17.2-1+nmu1_amd64.deb",
+          "size": "11.14MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "40.85MiB",
+          "depends": "libc6(>=2.14) libgcc1(>=1:3.0) liboce-foundation10 libstdc++6(>=5.2) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "libocemodelingdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-modeling-dev_0.17.2-1+nmu1_amd64.deb",
+          "size": "1.71MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "20.61MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling10(>=0.17.2) liboce-modeling10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-modeling-dev ",
+          "conflicts": "libopencascade-modeling-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "liboceocaf10_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-ocaf10_0.17.2-1+nmu1_amd64.deb",
+          "size": "704KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "3.03MiB",
+          "depends": "libc6(>=2.14) libgcc1(>=1:3.0) liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-visualization10 libstdc++6(>=5.2) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "liboceocafdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-ocaf-dev_0.17.2-1+nmu1_amd64.deb",
+          "size": "108KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "1.41MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling-dev(>=0.17.2) liboce-modeling-dev(<<0.17.2+1~) liboce-ocaf-lite-dev(>=0.17.2) liboce-ocaf-lite-dev(<<0.17.2+1~) liboce-visualization-dev(>=0.17.2) liboce-visualization-dev(<<0.17.2+1~) liboce-ocaf10(>=0.17.2) liboce-ocaf10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-ocaf-dev ",
+          "conflicts": "libopencascade-ocaf-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "liboceocaflite10_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-ocaf-lite10_0.17.2-1+nmu1_amd64.deb",
+          "size": "1016KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "5.04MiB",
+          "depends": "libc6(>=2.14) libgcc1(>=1:3.0) liboce-foundation10 liboce-modeling10 libstdc++6(>=5.2) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "liboceocaflitedev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-ocaf-lite-dev_0.17.2-1+nmu1_amd64.deb",
+          "size": "260KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "3.68MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling-dev(>=0.17.2) liboce-modeling-dev(<<0.17.2+1~) liboce-ocaf-lite10(>=0.17.2) liboce-ocaf-lite10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-ocaf-lite-dev ",
+          "conflicts": "libopencascade-ocaf-lite-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "libocevisualization10_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-visualization10_0.17.2-1+nmu1_amd64.deb",
+          "size": "2.88MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "8.62MiB",
+          "depends": "libc6(>=2.14) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgl1-mesa-glx|libgl1 libgl2ps0 libglu1-mesa|libglu1 liboce-foundation10 liboce-modeling10 libstdc++6(>=5.2) libx11-6 ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "libocevisualizationdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-visualization-dev_0.17.2-1+nmu1_amd64.deb",
+          "size": "468KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "4.44MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling-dev(>=0.17.2) liboce-modeling-dev(<<0.17.2+1~) liboce-ocaf-lite-dev(>=0.17.2) liboce-ocaf-lite-dev(<<0.17.2+1~) liboce-visualization10(>=0.17.2) liboce-visualization10(<<0.17.2+1~) libx11-dev libxmu-dev libxext-dev libfreetype6-dev libgl1-mesa-dev|libgl-dev libglu1-mesa-dev|libglu-dev libgl2ps-dev libfreeimage-dev ",
+          "replaces": "libopencascade-ocaf-lite-dev ",
+          "conflicts": "libopencascade-ocaf-lite-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
         "libqpx0_amd64": 
         {
           "packageurl": "http://notesalexp.org/xenial/main/q/qpxtool/libqpx0_0.7.2-4+nmu2ppa1~xenial1_amd64.deb",
@@ -27384,6 +28255,23 @@
           "priority": "optional",
           "homepage": "http://myrulib.lintest.ru",
           "description": "Create your own collection of e-books"
+        },
+        "ocedraw_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/oce-draw_0.17.2-1+nmu1_amd64.deb",
+          "size": "1.93MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "6.85MiB",
+          "depends": "libc6(>=2.14) libgcc1(>=1:3.0) libgl1-mesa-glx|libgl1 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libstdc++6(>=5.2) libtcl8.5(>=8.5.0) libtk8.5(>=8.5.0) libx11-6 libx11-dev libfreetype6-dev tcl8.5-dev tk8.5-dev ",
+          "replaces": "opencascade-draw ",
+          "conflicts": "opencascade-draw ",
+          "section": "science",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
         },
         "ppastats_amd64": 
         {
@@ -27990,6 +28878,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "development files for fatrat"
+        },
+        "freecaddoc_all": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/f/freecad/freecad-doc_0.16+git6707-5465bc4-1_all.deb",
+          "size": "77.62MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "78.40MiB",
+          "depends": "qt4-dev-tools ",
+          "recommends": "freecad(=0.16+git6707-5465bc4-1) ",
+          "section": "doc",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "FreeCAD documentation"
         },
         "gimpdata_all": 
         {
@@ -30373,6 +31277,22 @@
           "homepage": "http://fatrat.dolezel.info/",
           "description": "multi-protocol download manager, feature rich and extensible via plugin"
         },
+        "freecad_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/f/freecad/freecad_0.16+git6707-5465bc4-1_i386.deb",
+          "size": "20.41MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "95.74MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python:any(>=2.6.6-7~) python2.7 libboost-program-options1.58.0 libboost-python1.58.0 libboost-regex1.58.0 libboost-signals1.58.0 libboost-system1.58.0 libc6(>=2.4) libcoin80v5 libfreetype6(>=2.2.1) libgcc1(>=1:4.2) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.8.0) libqtwebkit4 libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libx11-6 libxerces-c3.1 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
+        },
         "gimp_i386": 
         {
           "packageurl": "http://notesalexp.org/xenial/main/g/gimp/gimp_2.8.18+git32435-77d6969-1_i386.deb",
@@ -30630,6 +31550,166 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libocefoundation10_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-foundation10_0.17.2-1+nmu1_i386.deb",
+          "size": "1.16MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "4.42MiB",
+          "depends": "libc6(>=2.17) libgcc1(>=1:3.0) libstdc++6(>=5.2) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "libocefoundationdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-foundation-dev_0.17.2-1+nmu1_i386.deb",
+          "size": "760KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "6.74MiB",
+          "depends": "liboce-foundation10(>=0.17.2) liboce-foundation10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-foundation-dev ",
+          "conflicts": "libopencascade-foundation-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "libocemodeling10_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-modeling10_0.17.2-1+nmu1_i386.deb",
+          "size": "11.31MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "41.51MiB",
+          "depends": "libc6(>=2.7) libgcc1(>=1:3.0) liboce-foundation10 libstdc++6(>=5.2) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "libocemodelingdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-modeling-dev_0.17.2-1+nmu1_i386.deb",
+          "size": "1.71MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "20.61MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling10(>=0.17.2) liboce-modeling10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-modeling-dev ",
+          "conflicts": "libopencascade-modeling-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "liboceocaf10_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-ocaf10_0.17.2-1+nmu1_i386.deb",
+          "size": "724KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "2.97MiB",
+          "depends": "libc6(>=2.4) libgcc1(>=1:3.0) liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-visualization10 libstdc++6(>=5.2) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "liboceocafdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-ocaf-dev_0.17.2-1+nmu1_i386.deb",
+          "size": "108KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "1.41MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling-dev(>=0.17.2) liboce-modeling-dev(<<0.17.2+1~) liboce-ocaf-lite-dev(>=0.17.2) liboce-ocaf-lite-dev(<<0.17.2+1~) liboce-visualization-dev(>=0.17.2) liboce-visualization-dev(<<0.17.2+1~) liboce-ocaf10(>=0.17.2) liboce-ocaf10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-ocaf-dev ",
+          "conflicts": "libopencascade-ocaf-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "liboceocaflite10_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-ocaf-lite10_0.17.2-1+nmu1_i386.deb",
+          "size": "1.01MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "5.00MiB",
+          "depends": "libc6(>=2.4) libgcc1(>=1:3.0) liboce-foundation10 liboce-modeling10 libstdc++6(>=5.2) ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "liboceocaflitedev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-ocaf-lite-dev_0.17.2-1+nmu1_i386.deb",
+          "size": "260KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "3.68MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling-dev(>=0.17.2) liboce-modeling-dev(<<0.17.2+1~) liboce-ocaf-lite10(>=0.17.2) liboce-ocaf-lite10(<<0.17.2+1~) ",
+          "replaces": "libopencascade-ocaf-lite-dev ",
+          "conflicts": "libopencascade-ocaf-lite-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
+        "libocevisualization10_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-visualization10_0.17.2-1+nmu1_i386.deb",
+          "size": "2.92MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "8.60MiB",
+          "depends": "libc6(>=2.4) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgl1-mesa-glx|libgl1 libgl2ps0 libglu1-mesa|libglu1 liboce-foundation10 liboce-modeling10 libstdc++6(>=5.2) libx11-6 ",
+          "section": "libs",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
+        },
+        "libocevisualizationdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/liboce-visualization-dev_0.17.2-1+nmu1_i386.deb",
+          "size": "468KiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "4.44MiB",
+          "depends": "liboce-foundation-dev(>=0.17.2) liboce-foundation-dev(<<0.17.2+1~) liboce-modeling-dev(>=0.17.2) liboce-modeling-dev(<<0.17.2+1~) liboce-ocaf-lite-dev(>=0.17.2) liboce-ocaf-lite-dev(<<0.17.2+1~) liboce-visualization10(>=0.17.2) liboce-visualization10(<<0.17.2+1~) libx11-dev libxmu-dev libxext-dev libfreetype6-dev libgl1-mesa-dev|libgl-dev libglu1-mesa-dev|libglu-dev libgl2ps-dev libfreeimage-dev ",
+          "replaces": "libopencascade-ocaf-lite-dev ",
+          "conflicts": "libopencascade-ocaf-lite-dev ",
+          "section": "libdevel",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform library development files"
+        },
         "libqpx0_i386": 
         {
           "packageurl": "http://notesalexp.org/xenial/main/q/qpxtool/libqpx0_0.7.2-4+nmu2ppa1~xenial1_i386.deb",
@@ -30792,6 +31872,23 @@
           "priority": "optional",
           "homepage": "http://myrulib.lintest.ru",
           "description": "Create your own collection of e-books"
+        },
+        "ocedraw_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/o/oce/oce-draw_0.17.2-1+nmu1_i386.deb",
+          "size": "2.00MiB",
+          "version": "0.17.2-1+nmu1",
+          "isize": "6.92MiB",
+          "depends": "libc6(>=2.4) libgcc1(>=1:3.0) libgl1-mesa-glx|libgl1 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libstdc++6(>=5.2) libtcl8.5(>=8.5.0) libtk8.5(>=8.5.0) libx11-6 libx11-dev libfreetype6-dev tcl8.5-dev tk8.5-dev ",
+          "replaces": "opencascade-draw ",
+          "conflicts": "opencascade-draw ",
+          "section": "science",
+          "priority": "extra",
+          "source": "oce",
+          "sourceurl": "http://notesalexp.org/source/main/o/oce",
+          "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+          "homepage": "https://github.com/tpaviot/oce/wiki",
+          "description": "OpenCASCADE Community Edition CAE platform shared library"
         },
         "ppastats_i386": 
         {
@@ -31405,6 +32502,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "multi-protocol download manager, feature rich and extensible via plugin"
+        },
+        "freecad_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/f/freecad/freecad_0.16+git6707-5465bc4-1_amd64.deb",
+          "size": "20.26MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "97.70MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python:any(>=2.6.6-7~) python2.7 libboost-program-options1.61.0 libboost-python1.61.0 libboost-regex1.61.0 libboost-signals1.61.0 libboost-system1.61.0 libc6(>=2.14) libcoin80v5 libfreetype6(>=2.2.1) libgcc1(>=1:3.4) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.8.0) libqtwebkit4 libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libx11-6 libxerces-c3.1 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
         },
         "gimp_amd64": 
         {
@@ -32425,6 +33538,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "development files for fatrat"
+        },
+        "freecaddoc_all": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/f/freecad/freecad-doc_0.16+git6707-5465bc4-1_all.deb",
+          "size": "77.62MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "78.40MiB",
+          "depends": "qt4-dev-tools ",
+          "recommends": "freecad(=0.16+git6707-5465bc4-1) ",
+          "section": "doc",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "FreeCAD documentation"
         },
         "gimpdata_all": 
         {
@@ -34840,6 +35969,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "multi-protocol download manager, feature rich and extensible via plugin"
+        },
+        "freecad_i386": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/f/freecad/freecad_0.16+git6707-5465bc4-1_i386.deb",
+          "size": "20.69MiB",
+          "version": "0.16+git6707-5465bc4-1",
+          "isize": "96.60MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python:any(>=2.6.6-7~) python2.7 libboost-program-options1.61.0 libboost-python1.61.0 libboost-regex1.61.0 libboost-signals1.61.0 libboost-system1.61.0 libc6(>=2.4) libcoin80v5 libfreetype6(>=2.2.1) libgcc1(>=1:4.2) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.0) libqtgui4(>=4:4.8.0) libqtwebkit4 libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libx11-6 libxerces-c3.1 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+          "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
         },
         "gimp_i386": 
         {

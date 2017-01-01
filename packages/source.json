@@ -53,6 +53,19 @@
       "md5": " 249a3539c468db55c081e7a9220d4d2d df89c5dffe5e21d0bad7f6f722445fdc 0f9470e6249348ec18f456743c661aee",
       "size": " 8KiB 4KiB 352KiB"
     },
+    "calculixccx": 
+    {
+      "version": "2.11-1+nmu1",
+      "description": "",
+      "sourceurl": "http://notesalexp.org/source/main/c/calculix-ccx",
+      "sourcefile": "calculix-ccx_2.11-1+nmu1.debian.tar.gz calculix-ccx_2.11-1+nmu1.dsc calculix-ccx_2.11.orig.tar.bz2 ",
+      "homepage": "http://www.calculix.de",
+      "depends": "debhelper(>=9) gfortran libarpack2-dev libspooles-dev liblapack-dev ",
+      "binary": "calculix-ccx",
+      "description_calculixccx": "Three-Dimensional Structural Finite Element Program",
+      "md5": " 9d2720b30c1b4f2c42e30cb6e83a5ad2 0b9f60be59ff9a955d5800af8da705f3 0a8d206675155325017ade75ee04c0bd",
+      "size": " 32KiB 4KiB 1008KiB"
+    },
     "clementine": 
     {
       "version": "1.3.1+git1784-g265f27a-1",
@@ -108,6 +121,20 @@
       "description_deadbeef": "ultimate music player for GNU/Linux systems",
       "md5": " 4797f0721256297b5fc8c46ad3f0f92b e89e4aafd9058ed13deb7686fef4cd4b 3d36c7e85aec9af260a4da58a0e30653",
       "size": " 12KiB 4KiB 5.70MiB"
+    },
+    "eigen3": 
+    {
+      "version": "3.3.0-1+nmu1",
+      "description": "",
+      "sourceurl": "http://notesalexp.org/source/main/e/eigen3",
+      "sourcefile": "eigen3_3.3.0-1+nmu1.debian.tar.gz eigen3_3.3.0-1+nmu1.dsc eigen3_3.3.0.orig.tar.bz2 ",
+      "homepage": "http://eigen.tuxfamily.org",
+      "depends": "cmake debhelper(>=9) gfortran pkg-config ",
+      "binary": "libeigen3-dev libeigen3-doc",
+      "description_libeigen3dev": "lightweight C++ template library for linear algebra",
+      "description_libeigen3doc": "eigen3 API documentation",
+      "md5": " 7188de10bac5472174ded0f158db6eea d031cd34cd35f5a0986890d18e0474ae fd1ecefaacc9223958b6a66f9a348424",
+      "size": " 44KiB 4KiB 1.55MiB"
     },
     "eiskaltdcpp": 
     {
@@ -177,6 +204,20 @@
       "description_fatratdev": "development files for fatrat",
       "md5": " 4970ffb4283ac6b3c50e3d241b6446cd 1e3bffe14a05d856a37c5ed536779bfa 7409b9c5bc41c8233ba7604a9c79bd6b",
       "size": " 8KiB 4KiB 4.32MiB"
+    },
+    "freecad": 
+    {
+      "version": "0.16+git6707-5465bc4-1",
+      "description": "",
+      "sourceurl": "http://notesalexp.org/source/main/f/freecad",
+      "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+      "homepage": "http://freecadweb.org/",
+      "depends": "cmake debhelper(>=9) gfortran libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-signals-dev libboost-thread-dev libcoin80-dev libcv-dev libeigen3-dev libf2c2-dev libfltk1.3-dev libgts-bin libgts-dev libmed-dev libmedc-dev liboce-foundation-dev(>=0.17.1) liboce-modeling-dev(>=0.17.1) liboce-ocaf-dev(>=0.17.1) liboce-visualization-dev(>=0.17.1) libode-dev libpyside-dev libqt4-dev libqtwebkit-dev libshiboken-dev libsoqt4-dev(>=1.6) libspnav-dev libtool libx11-dev libxerces-c-dev libxext-dev libxi-dev libxmu-dev libxt-dev libzipios++-dev libvtk6-dev vtk6 oce-draw python-pyside pyside-tools python-cxx-dev python-dev swig zlib1g-dev mpi-default-dev netgen-headers|wget doxygen ",
+      "binary": "freecad freecad-doc",
+      "description_freecad": "Extensible Open Source CAx program (alpha)",
+      "description_freecaddoc": "FreeCAD documentation",
+      "md5": " 7766e73401aece350dd7a297cf6a5d65 9e316b47f8833ab3b3230288133483ae 1dcbf82af892608ec5d1c2c86c233d64",
+      "size": " 16KiB 4KiB 95.99MiB"
     },
     "geeknote": 
     {
@@ -348,6 +389,23 @@
       "md5": " 171d6d45cb9a506c1dba7dbf8b2f6a07 381d7d14014b1b0cd9f1773ab630e516 6ea29a68357862a192c3f9b15a1c7a79 e4c3a0f53ca1f8ef009ba61263070a76",
       "size": " 24KiB 4KiB 3.23MiB 15.98MiB"
     },
+    "netgen": 
+    {
+      "version": "4.9.13.dfsg-8+nmu1",
+      "description": "",
+      "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+      "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+      "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+      "depends": "cdbs debhelper(>=8.1.0~) autotools-dev automake libtool g++(>=4.0) tcl8.5-dev tk8.5-dev tix-dev(>=8.4.3-2) docbook-to-man libxmu-dev libglu1-mesa-dev libgl1-mesa-dev|nvidia-glx-dev liboce-foundation-dev(>=0.10) liboce-modeling-dev(>=0.10) liboce-visualization-dev(>=0.10) liboce-ocaf-dev(>=0.10) liboce-ocaf-lite-dev(>=0.10) libtogl-dev(>=1.7) libswscale-dev libjpeg-dev libbz2-dev ",
+      "binary": "netgen netgen-doc libnglib-dev libnglib-4.9.13 netgen-headers",
+      "description_netgen": "Automatic 3d tetrahedral mesh generator",
+      "description_netgendoc": "Automatic 3d tetrahedral mesh generator documentation",
+      "description_libnglibdev": "Automatic 3d tetrahedral mesh generator development files",
+      "description_libnglib4913": "Automatic 3d tetrahedral mesh generator shared library",
+      "description_netgenheaders": "Automatic 3d tetrahedral mesh generator internal headers",
+      "md5": " b9b952e4d8f7ed53036bfcacf2ca206e 520fe188fb3753213d3e287963900b65 2d56642ca673106837bcd08ff9913d57",
+      "size": " 24KiB 4KiB 1.74MiB"
+    },
     "obkey": 
     {
       "version": "1.0+git20111228-1",
@@ -360,6 +418,29 @@
       "description_obkey": "Graphical key editor for openbox",
       "md5": " 0fe379ae4ef5d507060355615214c8a5 015c382bb6beee028808af45d5b28d15 5d08713b8988a7136cfa5ddc97b94b4b",
       "size": " 4KiB 4KiB 16KiB"
+    },
+    "oce": 
+    {
+      "version": "0.17.2-1+nmu1",
+      "description": " Interactive post-processing tool for scanned pages",
+      "sourceurl": "http://notesalexp.org/source/main/o/oce",
+      "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
+      "homepage": "https://github.com/tpaviot/oce/wiki",
+      "depends": "debhelper(>=9) quilt cmake libx11-dev libxext-dev libfreetype6-dev tcl8.5-dev tk8.5-dev libgl1-mesa-dev|libgl-dev libglu1-mesa-dev|libglu-dev libgl2ps-dev libfreeimageplus-dev|libfreeimage-dev ",
+      "binary": "liboce-foundation10 liboce-modeling10 liboce-visualization10 liboce-ocaf-lite10 liboce-ocaf10 oce-draw liboce-foundation-dev liboce-modeling-dev liboce-ocaf-lite-dev liboce-ocaf-dev liboce-visualization-dev",
+      "description_libocefoundation10": "OpenCASCADE Community Edition CAE platform shared library",
+      "description_libocemodeling10": "OpenCASCADE Community Edition CAE platform shared library",
+      "description_libocevisualization10": "OpenCASCADE Community Edition CAE platform shared library",
+      "description_liboceocaflite10": "OpenCASCADE Community Edition CAE platform shared library",
+      "description_liboceocaf10": "OpenCASCADE Community Edition CAE platform shared library",
+      "description_ocedraw": "OpenCASCADE Community Edition CAE platform shared library",
+      "description_libocefoundationdev": "OpenCASCADE Community Edition CAE platform library development files",
+      "description_libocemodelingdev": "OpenCASCADE Community Edition CAE platform library development files",
+      "description_liboceocaflitedev": "OpenCASCADE Community Edition CAE platform library development files",
+      "description_liboceocafdev": "OpenCASCADE Community Edition CAE platform library development files",
+      "description_libocevisualizationdev": "OpenCASCADE Community Edition CAE platform library development files",
+      "md5": " 804ec31ef6ef2e59aa48a20679a4f0be e5806947f02a693e55927de9576f55fe 9f04f2d858f8708479d99e80ea3823d8",
+      "size": " 72KiB 4KiB 15.87MiB"
     },
     "ocrfeeder": 
     {
