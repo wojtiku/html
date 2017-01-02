@@ -56,7 +56,7 @@
     "calculixccx": 
     {
       "version": "2.11-1+nmu1",
-      "description": "",
+      "description": " Three-Dimensional Structural Finite Element Program",
       "sourceurl": "http://notesalexp.org/source/main/c/calculix-ccx",
       "sourcefile": "calculix-ccx_2.11-1+nmu1.debian.tar.gz calculix-ccx_2.11-1+nmu1.dsc calculix-ccx_2.11.orig.tar.bz2 ",
       "homepage": "http://www.calculix.de",
@@ -125,7 +125,7 @@
     "eigen3": 
     {
       "version": "3.3.0-1+nmu1",
-      "description": "",
+      "description": " lightweight C++ template library for linear algebra",
       "sourceurl": "http://notesalexp.org/source/main/e/eigen3",
       "sourcefile": "eigen3_3.3.0-1+nmu1.debian.tar.gz eigen3_3.3.0-1+nmu1.dsc eigen3_3.3.0.orig.tar.bz2 ",
       "homepage": "http://eigen.tuxfamily.org",
@@ -208,7 +208,7 @@
     "freecad": 
     {
       "version": "0.16+git6707-5465bc4-1",
-      "description": "",
+      "description": " Extensible Open Source CAx program (alpha)",
       "sourceurl": "http://notesalexp.org/source/main/f/freecad",
       "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
       "homepage": "http://freecadweb.org/",
@@ -218,6 +218,20 @@
       "description_freecaddoc": "FreeCAD documentation",
       "md5": " 7766e73401aece350dd7a297cf6a5d65 9e316b47f8833ab3b3230288133483ae 1dcbf82af892608ec5d1c2c86c233d64",
       "size": " 16KiB 4KiB 95.99MiB"
+    },
+    "freecaddaily": 
+    {
+      "version": "0.17~git9463-164b94c-1",
+      "description": " Extensible Open Source CAx program (beta)",
+      "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
+      "sourcefile": "freecad-daily_0.17~git9463-164b94c-1.debian.tar.xz freecad-daily_0.17~git9463-164b94c-1.dsc freecad-daily_0.17~git9463-164b94c.orig.tar.xz ",
+      "homepage": "http://freecadweb.org/",
+      "depends": "cmake debhelper(>=9) gfortran libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-signals-dev libboost-thread-dev libcoin80-dev libcv-dev libeigen3-dev libfreeimage-dev libfreetype6-dev libf2c2-dev libfltk1.3-dev libproj-dev libgts-bin libgts-dev libmed-dev libmedc-dev liboce-foundation-dev(>=0.17.1) liboce-modeling-dev(>=0.17.1) liboce-ocaf-dev(>=0.17.1) liboce-visualization-dev(>=0.17.1) libode-dev libpyside-dev libqt4-dev libqt4-opengl-dev libqtwebkit-dev libshiboken-dev libsoqt4-dev(>=1.6) libspnav-dev libtool libx11-dev libxerces-c-dev libxext-dev libxi-dev libxmu-dev libxt-dev libzipios++-dev libvtk6-dev vtk6 oce-draw python-pyside pyside-tools python-cxx-dev python-dev python-ply swig zlib1g-dev netgen-headers|wget doxygen mpi-default-dev ",
+      "binary": "freecad-daily freecad-daily-doc",
+      "description_freecaddaily": "Extensible Open Source CAx program (alpha)",
+      "description_freecaddailydoc": "FreeCAD documentation",
+      "md5": " 1183aeb83df0cee28134c31e8b658351 220ae3d26cfd28449ecda17abbea3b5d 1f4c798b403c1b716a2234ece5c9db99",
+      "size": " 12KiB 4KiB 98.53MiB"
     },
     "geeknote": 
     {
@@ -392,7 +406,7 @@
     "netgen": 
     {
       "version": "4.9.13.dfsg-8+nmu1",
-      "description": "",
+      "description": " Automatic 3d tetrahedral mesh generator",
       "sourceurl": "http://notesalexp.org/source/main/n/netgen",
       "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
       "homepage": "http://sourceforge.net/projects/netgen-mesher/",
@@ -422,7 +436,7 @@
     "oce": 
     {
       "version": "0.17.2-1+nmu1",
-      "description": " Interactive post-processing tool for scanned pages",
+      "description": " OpenCASCADE Community Edition CAE platform",
       "sourceurl": "http://notesalexp.org/source/main/o/oce",
       "sourcefile": "oce_0.17.2-1+nmu1.debian.tar.xz oce_0.17.2-1+nmu1.dsc oce_0.17.2.orig.tar.xz ",
       "homepage": "https://github.com/tpaviot/oce/wiki",

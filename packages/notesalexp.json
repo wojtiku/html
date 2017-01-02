@@ -4790,6 +4790,22 @@
           "homepage": "http://freecadweb.org/",
           "description": "Extensible Open Source CAx program (alpha)"
         },
+        "freecaddaily_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/f/freecad-daily/freecad-daily_0.17~git9463-164b94c-1_amd64.deb",
+          "size": "24.12MiB",
+          "version": "0.17~git9463-164b94c-1",
+          "isize": "113.27MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python:any(>=2.6.6-7~) python2.7 libboost-filesystem1.55.0 libboost-program-options1.55.0 libboost-python1.55.0 libboost-regex1.55.0 libboost-signals1.55.0 libboost-system1.55.0 libboost-thread1.55.0 libc6(>=2.14) libcoin80 libexpat1(>=2.0.1) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libhdf5-8 libhwloc5(>=1.10.0) libjsoncpp0 libmed1 libmedc1 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libopenmpi1.6 libpyside1.2(>=1.0.0~beta3) libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.4) libqtgui4(>=4:4.8.0) libqtwebkit4(>=2.1.0~2011week13) libshiboken1.2(>=1.1.0) libspnav0 libstdc++6(>=4.9) libvtk6.1 libx11-6 libxerces-c3.1 libxext6 libzipios++0c2a zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad-daily",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
+          "sourcefile": "freecad-daily_0.17~git9463-164b94c-1.debian.tar.xz freecad-daily_0.17~git9463-164b94c-1.dsc freecad-daily_0.17~git9463-164b94c.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
+        },
         "gegl_amd64": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/g/gegl-dmo/gegl_0.2.0-dmo8_amd64.deb",
@@ -6124,6 +6140,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "development files for fatrat"
+        },
+        "freecaddailydoc_all": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/f/freecad-daily/freecad-daily-doc_0.17~git9463-164b94c-1_all.deb",
+          "size": "77.62MiB",
+          "version": "0.17~git9463-164b94c-1",
+          "isize": "78.39MiB",
+          "depends": "qt4-dev-tools ",
+          "recommends": "freecad-daily(=0.17~git9463-164b94c-1) ",
+          "section": "doc",
+          "priority": "extra",
+          "source": "freecad-daily",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
+          "sourcefile": "freecad-daily_0.17~git9463-164b94c-1.debian.tar.xz freecad-daily_0.17~git9463-164b94c-1.dsc freecad-daily_0.17~git9463-164b94c.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "FreeCAD documentation"
         },
         "freecaddoc_all": 
         {
@@ -8745,6 +8777,22 @@
           "homepage": "http://freecadweb.org/",
           "description": "Extensible Open Source CAx program (alpha)"
         },
+        "freecaddaily_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/f/freecad-daily/freecad-daily_0.17~git9463-164b94c-1_i386.deb",
+          "size": "24.15MiB",
+          "version": "0.17~git9463-164b94c-1",
+          "isize": "109.70MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python:any(>=2.6.6-7~) python2.7 libboost-filesystem1.55.0 libboost-program-options1.55.0 libboost-python1.55.0 libboost-regex1.55.0 libboost-signals1.55.0 libboost-system1.55.0 libboost-thread1.55.0 libc6(>=2.7) libcoin80 libexpat1(>=2.0.1) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libhdf5-8 libhwloc5(>=1.10.0) libjsoncpp0 libmed1 libmedc1 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libopenmpi1.6 libpyside1.2(>=1.0.0~beta3) libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.4) libqtgui4(>=4:4.8.0) libqtwebkit4(>=2.1.0~2011week13) libshiboken1.2(>=1.1.0) libspnav0 libstdc++6(>=4.9) libvtk6.1 libx11-6 libxerces-c3.1 libxext6 libzipios++0c2a zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad-daily",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
+          "sourcefile": "freecad-daily_0.17~git9463-164b94c-1.debian.tar.xz freecad-daily_0.17~git9463-164b94c-1.dsc freecad-daily_0.17~git9463-164b94c.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
+        },
         "gegl_i386": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/g/gegl-dmo/gegl_0.2.0-dmo8_i386.deb",
@@ -10419,6 +10467,36 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libnglib4913_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/n/netgen/libnglib-4.9.13_4.9.13.dfsg-8+nmu1_amd64.deb",
+          "size": "1.05MiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "3.24MiB",
+          "depends": "libc6(>=2.14) libgcc1(>=1:3.0) liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libstdc++6(>=5.2) ",
+          "section": "libs",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator shared library"
+        },
+        "libnglibdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/n/netgen/libnglib-dev_4.9.13.dfsg-8+nmu1_amd64.deb",
+          "size": "16KiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "64KiB",
+          "depends": "libnglib-4.9.13(=4.9.13.dfsg-8+nmu1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator development files"
+        },
         "libqpx0_amd64": 
         {
           "packageurl": "http://notesalexp.org/stretch/main/q/qpxtool/libqpx0_0.7.2-4+nmu2_amd64.deb",
@@ -10590,6 +10668,36 @@
           "sourcefile": "myrulib_0.29.16+git20131116-6.debian.tar.xz myrulib_0.29.16+git20131116-6.dsc myrulib_0.29.16+git20131116.orig.tar.xz myrulib_0.29.16+git20131116.orig-wx.tar.xz ",
           "homepage": "http://myrulib.lintest.ru",
           "description": "Create your own collection of e-books"
+        },
+        "netgen_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/n/netgen/netgen_4.9.13.dfsg-8+nmu1_amd64.deb",
+          "size": "1.25MiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "4.18MiB",
+          "depends": "tix tix-dev libc6(>=2.14) libgcc1(>=1:3.0) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libjpeg62-turbo(>=1.3.1) libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libstdc++6(>=5.2) libtcl8.5(>=8.5.0) libtk8.5(>=8.5.0) libtogl1 libxmu6 ",
+          "section": "math",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator"
+        },
+        "netgenheaders_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/n/netgen/netgen-headers_4.9.13.dfsg-8+nmu1_amd64.deb",
+          "size": "124KiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "852KiB",
+          "depends": "libnglib-dev(=4.9.13.dfsg-8+nmu1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator internal headers"
         },
         "ppastats_amd64": 
         {
@@ -11382,6 +11490,21 @@
           "sourcefile": "librecad_2.1.0+git4264-8c02aac-1.debian.tar.xz librecad_2.1.0+git4264-8c02aac-1.dsc librecad_2.1.0+git4264-8c02aac.orig.tar.xz ",
           "homepage": "http://www.librecad.org/",
           "description": "Computer-aided design (CAD) system -- shared files"
+        },
+        "netgendoc_all": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/n/netgen/netgen-doc_4.9.13.dfsg-8+nmu1_all.deb",
+          "size": "156KiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "203KiB",
+          "suggests": "netgen ",
+          "section": "doc",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator documentation"
         },
         "notesalexpkeyring_all": 
         {
@@ -14100,6 +14223,36 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libnglib4913_i386": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/n/netgen/libnglib-4.9.13_4.9.13.dfsg-8+nmu1_i386.deb",
+          "size": "1.11MiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "3.34MiB",
+          "depends": "libc6(>=2.4) libgcc1(>=1:3.0) liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libstdc++6(>=5.2) ",
+          "section": "libs",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator shared library"
+        },
+        "libnglibdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/n/netgen/libnglib-dev_4.9.13.dfsg-8+nmu1_i386.deb",
+          "size": "16KiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "64KiB",
+          "depends": "libnglib-4.9.13(=4.9.13.dfsg-8+nmu1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator development files"
+        },
         "libqpx0_i386": 
         {
           "packageurl": "http://notesalexp.org/stretch/main/q/qpxtool/libqpx0_0.7.2-4+nmu2_i386.deb",
@@ -14271,6 +14424,36 @@
           "sourcefile": "myrulib_0.29.16+git20131116-6.debian.tar.xz myrulib_0.29.16+git20131116-6.dsc myrulib_0.29.16+git20131116.orig.tar.xz myrulib_0.29.16+git20131116.orig-wx.tar.xz ",
           "homepage": "http://myrulib.lintest.ru",
           "description": "Create your own collection of e-books"
+        },
+        "netgen_i386": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/n/netgen/netgen_4.9.13.dfsg-8+nmu1_i386.deb",
+          "size": "1.29MiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "4.18MiB",
+          "depends": "tix tix-dev libc6(>=2.4) libgcc1(>=1:3.0) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libjpeg62-turbo(>=1.3.1) libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libstdc++6(>=5.2) libtcl8.5(>=8.5.0) libtk8.5(>=8.5.0) libtogl1 libxmu6 ",
+          "section": "math",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator"
+        },
+        "netgenheaders_i386": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/n/netgen/netgen-headers_4.9.13.dfsg-8+nmu1_i386.deb",
+          "size": "124KiB",
+          "version": "4.9.13.dfsg-8+nmu1",
+          "isize": "852KiB",
+          "depends": "libnglib-dev(=4.9.13.dfsg-8+nmu1) ",
+          "section": "libdevel",
+          "priority": "optional",
+          "source": "netgen",
+          "sourceurl": "http://notesalexp.org/source/main/n/netgen",
+          "sourcefile": "netgen_4.9.13.dfsg-8+nmu1.debian.tar.xz netgen_4.9.13.dfsg-8+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
+          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
+          "description": "Automatic 3d tetrahedral mesh generator internal headers"
         },
         "ppastats_i386": 
         {
@@ -14939,6 +15122,22 @@
           "source": "freecad",
           "sourceurl": "http://notesalexp.org/source/main/f/freecad",
           "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
+        },
+        "freecaddaily_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/f/freecad-daily/freecad-daily_0.17~git9463-164b94c-1_amd64.deb",
+          "size": "24.11MiB",
+          "version": "0.17~git9463-164b94c-1",
+          "isize": "113.26MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python2.7 python:any(>=2.6.6-7~) libboost-atomic1.62.0 libboost-chrono1.62.0 libboost-date-time1.62.0 libboost-filesystem1.62.0 libboost-program-options1.62.0 libboost-python1.62.0 libboost-regex1.62.0 libboost-signals1.62.0 libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.14) libcoin80v5 libexpat1(>=2.0.1) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:3.4) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libhdf5-openmpi-100(>=1.8.13) libjpeg62-turbo(>=1.3.1) libjsoncpp1(>=1.7.4) libmed1v5 libmedc1v5 libnetcdf-c++4(>=4.2) libnetcdf11(>=3.6.1) libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libopenmpi2 libpng16-16(>=1.6.2-1) libpyside1.2(>=1.0.0~beta3) libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.7) libqtgui4(>=4:4.8.0) libqtwebkit4(>=2.1.0~2011week13) libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libsz2 libtiff5(>=4.0.3) libvtk6.3 libx11-6 libxerces-c3.1 libxext6 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad-daily",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
+          "sourcefile": "freecad-daily_0.17~git9463-164b94c-1.debian.tar.xz freecad-daily_0.17~git9463-164b94c-1.dsc freecad-daily_0.17~git9463-164b94c.orig.tar.xz ",
           "homepage": "http://freecadweb.org/",
           "description": "Extensible Open Source CAx program (alpha)"
         },
@@ -16129,6 +16328,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "development files for fatrat"
+        },
+        "freecaddailydoc_all": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/f/freecad-daily/freecad-daily-doc_0.17~git9463-164b94c-1_all.deb",
+          "size": "77.62MiB",
+          "version": "0.17~git9463-164b94c-1",
+          "isize": "78.39MiB",
+          "depends": "qt4-dev-tools ",
+          "recommends": "freecad-daily(=0.17~git9463-164b94c-1) ",
+          "section": "doc",
+          "priority": "extra",
+          "source": "freecad-daily",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
+          "sourcefile": "freecad-daily_0.17~git9463-164b94c-1.debian.tar.xz freecad-daily_0.17~git9463-164b94c-1.dsc freecad-daily_0.17~git9463-164b94c.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "FreeCAD documentation"
         },
         "freecaddoc_all": 
         {
@@ -18696,6 +18911,22 @@
           "source": "freecad",
           "sourceurl": "http://notesalexp.org/source/main/f/freecad",
           "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
+        },
+        "freecaddaily_i386": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/f/freecad-daily/freecad-daily_0.17~git9463-164b94c-1_i386.deb",
+          "size": "24.77MiB",
+          "version": "0.17~git9463-164b94c-1",
+          "isize": "111.42MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python2.7 python:any(>=2.6.6-7~) libboost-atomic1.62.0 libboost-chrono1.62.0 libboost-date-time1.62.0 libboost-filesystem1.62.0 libboost-program-options1.62.0 libboost-python1.62.0 libboost-regex1.62.0 libboost-signals1.62.0 libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.7) libcoin80v5 libexpat1(>=2.0.1) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.2) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libhdf5-openmpi-100(>=1.8.13) libjpeg62-turbo(>=1.3.1) libjsoncpp1(>=1.7.4) libmed1v5 libmedc1v5 libnetcdf-c++4(>=4.2) libnetcdf11(>=3.6.1) libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libopenmpi2 libpng16-16(>=1.6.2-1) libpyside1.2(>=1.0.0~beta3) libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.4) libqtgui4(>=4:4.8.0) libqtwebkit4(>=2.1.0~2011week13) libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libsz2 libtiff5(>=4.0.3) libvtk6.3 libx11-6 libxerces-c3.1 libxext6 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad-daily",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
+          "sourcefile": "freecad-daily_0.17~git9463-164b94c-1.debian.tar.xz freecad-daily_0.17~git9463-164b94c-1.dsc freecad-daily_0.17~git9463-164b94c.orig.tar.xz ",
           "homepage": "http://freecadweb.org/",
           "description": "Extensible Open Source CAx program (alpha)"
         },
@@ -27676,6 +27907,22 @@
           "homepage": "http://freecadweb.org/",
           "description": "Extensible Open Source CAx program (alpha)"
         },
+        "freecaddaily_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/f/freecad-daily/freecad-daily_0.17~git9463-164b94c-1_amd64.deb",
+          "size": "23.99MiB",
+          "version": "0.17~git9463-164b94c-1",
+          "isize": "113.32MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python:any(>=2.6.6-7~) python2.7 libboost-filesystem1.58.0 libboost-program-options1.58.0 libboost-python1.58.0 libboost-regex1.58.0 libboost-signals1.58.0 libboost-system1.58.0 libboost-thread1.58.0 libc6(>=2.14) libcoin80v5 libfreetype6(>=2.2.1) libgcc1(>=1:3.4) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libmed1v5 libmedc1v5 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.7) libqtgui4(>=4:4.8.0) libqtwebkit4 libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libvtk6.2 libx11-6 libxerces-c3.1 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad-daily",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
+          "sourcefile": "freecad-daily_0.17~git9463-164b94c-1.debian.tar.xz freecad-daily_0.17~git9463-164b94c-1.dsc freecad-daily_0.17~git9463-164b94c.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
+        },
         "gimp_amd64": 
         {
           "packageurl": "http://notesalexp.org/xenial/main/g/gimp/gimp_2.8.18+git32435-77d6969-1_amd64.deb",
@@ -28878,6 +29125,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "development files for fatrat"
+        },
+        "freecaddailydoc_all": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/f/freecad-daily/freecad-daily-doc_0.17~git9463-164b94c-1_all.deb",
+          "size": "77.62MiB",
+          "version": "0.17~git9463-164b94c-1",
+          "isize": "78.39MiB",
+          "depends": "qt4-dev-tools ",
+          "recommends": "freecad-daily(=0.17~git9463-164b94c-1) ",
+          "section": "doc",
+          "priority": "extra",
+          "source": "freecad-daily",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
+          "sourcefile": "freecad-daily_0.17~git9463-164b94c-1.debian.tar.xz freecad-daily_0.17~git9463-164b94c-1.dsc freecad-daily_0.17~git9463-164b94c.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "FreeCAD documentation"
         },
         "freecaddoc_all": 
         {
@@ -31293,6 +31556,22 @@
           "homepage": "http://freecadweb.org/",
           "description": "Extensible Open Source CAx program (alpha)"
         },
+        "freecaddaily_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/f/freecad-daily/freecad-daily_0.17~git9463-164b94c-1_i386.deb",
+          "size": "24.23MiB",
+          "version": "0.17~git9463-164b94c-1",
+          "isize": "110.15MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python:any(>=2.6.6-7~) python2.7 libboost-filesystem1.58.0 libboost-program-options1.58.0 libboost-python1.58.0 libboost-regex1.58.0 libboost-signals1.58.0 libboost-system1.58.0 libboost-thread1.58.0 libc6(>=2.7) libcoin80v5 libfreetype6(>=2.2.1) libgcc1(>=1:4.2) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libmed1v5 libmedc1v5 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.4) libqtgui4(>=4:4.8.0) libqtwebkit4 libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libvtk6.2 libx11-6 libxerces-c3.1 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad-daily",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
+          "sourcefile": "freecad-daily_0.17~git9463-164b94c-1.debian.tar.xz freecad-daily_0.17~git9463-164b94c-1.dsc freecad-daily_0.17~git9463-164b94c.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
+        },
         "gimp_i386": 
         {
           "packageurl": "http://notesalexp.org/xenial/main/g/gimp/gimp_2.8.18+git32435-77d6969-1_i386.deb",
@@ -32519,6 +32798,22 @@
           "homepage": "http://freecadweb.org/",
           "description": "Extensible Open Source CAx program (alpha)"
         },
+        "freecaddaily_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/f/freecad-daily/freecad-daily_0.17~git9463-164b94c-1_amd64.deb",
+          "size": "23.98MiB",
+          "version": "0.17~git9463-164b94c-1",
+          "isize": "113.26MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python:any(>=2.6.6-7~) python2.7 libboost-filesystem1.61.0 libboost-program-options1.61.0 libboost-python1.61.0 libboost-regex1.61.0 libboost-signals1.61.0 libboost-system1.61.0 libboost-thread1.61.0 libc6(>=2.14) libcoin80v5 libfreetype6(>=2.2.1) libgcc1(>=1:3.4) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libmed1v5 libmedc1v5 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libopenmpi1.10 libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.7) libqtgui4(>=4:4.8.0) libqtwebkit4 libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libvtk6.3 libx11-6 libxerces-c3.1 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad-daily",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
+          "sourcefile": "freecad-daily_0.17~git9463-164b94c-1.debian.tar.xz freecad-daily_0.17~git9463-164b94c-1.dsc freecad-daily_0.17~git9463-164b94c.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
+        },
         "gimp_amd64": 
         {
           "packageurl": "http://notesalexp.org/yakkety/main/g/gimp/gimp_2.8.18+git32435-77d6969-1_amd64.deb",
@@ -33538,6 +33833,22 @@
           "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
           "homepage": "http://fatrat.dolezel.info/",
           "description": "development files for fatrat"
+        },
+        "freecaddailydoc_all": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/f/freecad-daily/freecad-daily-doc_0.17~git9463-164b94c-1_all.deb",
+          "size": "77.62MiB",
+          "version": "0.17~git9463-164b94c-1",
+          "isize": "78.39MiB",
+          "depends": "qt4-dev-tools ",
+          "recommends": "freecad-daily(=0.17~git9463-164b94c-1) ",
+          "section": "doc",
+          "priority": "extra",
+          "source": "freecad-daily",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
+          "sourcefile": "freecad-daily_0.17~git9463-164b94c-1.debian.tar.xz freecad-daily_0.17~git9463-164b94c-1.dsc freecad-daily_0.17~git9463-164b94c.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "FreeCAD documentation"
         },
         "freecaddoc_all": 
         {
@@ -35983,6 +36294,22 @@
           "source": "freecad",
           "sourceurl": "http://notesalexp.org/source/main/f/freecad",
           "sourcefile": "freecad_0.16+git6707-5465bc4-1.debian.tar.xz freecad_0.16+git6707-5465bc4-1.dsc freecad_0.16+git6707-5465bc4.orig.tar.xz ",
+          "homepage": "http://freecadweb.org/",
+          "description": "Extensible Open Source CAx program (alpha)"
+        },
+        "freecaddaily_i386": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/f/freecad-daily/freecad-daily_0.17~git9463-164b94c-1_i386.deb",
+          "size": "24.64MiB",
+          "version": "0.17~git9463-164b94c-1",
+          "isize": "111.42MiB",
+          "depends": "libsoqt4-20(>=1.6) python-collada python-matplotlib python-pivy(>=0.5.0~v609hg-2) python-ply python-pyside pyside-tools gconf2(>=2.28.1-2) python:any(>=2.6.6-7~) python2.7 libboost-filesystem1.61.0 libboost-program-options1.61.0 libboost-python1.61.0 libboost-regex1.61.0 libboost-signals1.61.0 libboost-system1.61.0 libboost-thread1.61.0 libc6(>=2.7) libcoin80v5 libfreetype6(>=2.2.1) libgcc1(>=1:4.2) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libmed1v5 libmedc1v5 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-ocaf10 liboce-visualization10 libopenmpi1.10 libpython2.7(>=2.7) libqt4-network(>=4:4.5.3) libqt4-opengl(>=4:4.6.1) libqt4-svg(>=4:4.5.3) libqt4-xml(>=4:4.5.3) libqtcore4(>=4:4.8.4) libqtgui4(>=4:4.8.0) libqtwebkit4 libshiboken1.2v5(>=1.1.0) libspnav0(>=0.2.2) libstdc++6(>=5.2) libvtk6.3 libx11-6 libxerces-c3.1 libzipios++0v5 zlib1g(>=1:1.1.4) ",
+          "suggests": "freecad-doc ",
+          "section": "science",
+          "priority": "extra",
+          "source": "freecad-daily",
+          "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
+          "sourcefile": "freecad-daily_0.17~git9463-164b94c-1.debian.tar.xz freecad-daily_0.17~git9463-164b94c-1.dsc freecad-daily_0.17~git9463-164b94c.orig.tar.xz ",
           "homepage": "http://freecadweb.org/",
           "description": "Extensible Open Source CAx program (alpha)"
         },
