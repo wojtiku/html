@@ -138,10 +138,10 @@
     },
     "eiskaltdcpp": 
     {
-      "version": "2.2.9-4+nmu2",
+      "version": "2.2.9-4+nmu3",
       "description": " cross-platform program that uses the Direct Connect and ADC protocols",
       "sourceurl": "http://notesalexp.org/source/main/e/eiskaltdcpp",
-      "sourcefile": "eiskaltdcpp_2.2.9-4+nmu2.debian.tar.xz eiskaltdcpp_2.2.9-4+nmu2.dsc eiskaltdcpp_2.2.9.orig.tar.xz ",
+      "sourcefile": "eiskaltdcpp_2.2.9-4+nmu3.debian.tar.xz eiskaltdcpp_2.2.9-4+nmu3.dsc eiskaltdcpp_2.2.9.orig.tar.xz ",
       "homepage": "https://github.com/eiskaltdcpp/eiskaltdcpp",
       "depends": "chrpath cmake debhelper(>=9) libaspell-dev libattr1-dev libboost-dev libboost-system-dev libbz2-dev libglade2-dev libgtk-3-dev libgtk2.0-dev libidn11-dev liblua5.1-0-dev libminiupnpc-dev libnotify-dev libpcre3-dev libqt4-dev libssl-dev pkg-config po-debconf qt4-dev-tools zlib1g-dev ",
       "binary": "eiskaltdcpp eiskaltdcpp-common eiskaltdcpp-emoticons eiskaltdcpp-scripts eiskaltdcpp-sounds libeiskaltdcpp2.2 libeiskaltdcpp2.2-dbg libeiskaltdcpp-dev eiskaltdcpp-qt eiskaltdcpp-qt-mini eiskaltdcpp-qt-data eiskaltdcpp-qt-dbg eiskaltdcpp-qt-mini-dbg eiskaltdcpp-gtk eiskaltdcpp-gtk3 eiskaltdcpp-gtk-data eiskaltdcpp-gtk-dbg eiskaltdcpp-gtk3-dbg eiskaltdcpp-daemon eiskaltdcpp-daemon-dbg eiskaltdcpp-cli",
@@ -160,15 +160,15 @@
       "description_eiskaltdcppgtkdata": "data files for EiskaltDC++ Gtk",
       "description_eiskaltdcppdaemon": "EiskaltDC++ daemon",
       "description_eiskaltdcppcli": "EiskaltDC++ command-line interface",
-      "md5": " 9aee7726c3f2977333dc5c585094eeee 41defb12c9355a29b6d0dce31aed8b7f 215a1d823d4609820bb910ceffca7371",
+      "md5": " 2aef77b59ac0716b3a1fa4c932f672ac 82edf20a271e36f333cc9683c02b75b1 215a1d823d4609820bb910ceffca7371",
       "size": " 16KiB 4KiB 2.22MiB"
     },
     "eiskaltdcppunstable": 
     {
-      "version": "2.2.9+git20161119-1",
+      "version": "2.2.9+git20161119-2",
       "description": " cross-platform program that uses the Direct Connect and ADC protocols",
       "sourceurl": "http://notesalexp.org/source/main/e/eiskaltdcpp-unstable",
-      "sourcefile": "eiskaltdcpp-unstable_2.2.9+git20161119-1.debian.tar.xz eiskaltdcpp-unstable_2.2.9+git20161119-1.dsc eiskaltdcpp-unstable_2.2.9+git20161119.orig.tar.xz ",
+      "sourcefile": "eiskaltdcpp-unstable_2.2.9+git20161119-2.debian.tar.xz eiskaltdcpp-unstable_2.2.9+git20161119-2.dsc eiskaltdcpp-unstable_2.2.9+git20161119.orig.tar.xz ",
       "homepage": "https://github.com/eiskaltdcpp/eiskaltdcpp",
       "depends": "autotools-dev chrpath cmake debhelper(>=9) fakeroot libaspell-dev libattr1-dev libboost-dev libboost-system-dev libbz2-dev libglade2-dev libgtk-3-dev libgtk2.0-dev libidn11-dev liblua5.1-0-dev libminiupnpc-dev libnotify-dev libpcre3-dev libqt4-dev libssl-dev pkg-config po-debconf qt4-dev-tools qt4-qtconfig zlib1g-dev ",
       "binary": "eiskaltdcpp-unstable eiskaltdcpp-common-unstable eiskaltdcpp-emoticons-unstable eiskaltdcpp-scripts-unstable eiskaltdcpp-sounds-unstable libeiskaltdcpp2.3-unstable libeiskaltdcpp2.3-unstable-dbg libeiskaltdcpp-dev-unstable eiskaltdcpp-qt-unstable eiskaltdcpp-qt-mini-unstable eiskaltdcpp-qt-data-unstable eiskaltdcpp-qt-unstable-dbg eiskaltdcpp-qt-mini-unstable-dbg eiskaltdcpp-gtk-unstable eiskaltdcpp-gtk3-unstable eiskaltdcpp-gtk-data-unstable eiskaltdcpp-gtk-unstable-dbg eiskaltdcpp-gtk3-unstable-dbg eiskaltdcpp-daemon-unstable eiskaltdcpp-daemon-unstable-dbg eiskaltdcpp-cli-unstable",
@@ -187,7 +187,7 @@
       "description_eiskaltdcppgtkdataunstable": "data files for EiskaltDC++ Gtk",
       "description_eiskaltdcppdaemonunstable": "EiskaltDC++ daemon",
       "description_eiskaltdcppcliunstable": "EiskaltDC++ command-line interface",
-      "md5": " bea6abdd3889b98a08a6765c06156068 f802a50eedff577e99417fca63349365 971b63705dbadac9b877137a7ce69237",
+      "md5": " 1999313a47fa048e488866e06cd63cd4 edfabca90c3856256d4b261b2d5f4f70 971b63705dbadac9b877137a7ce69237",
       "size": " 12KiB 4KiB 2.21MiB"
     },
     "fatrat": 
@@ -308,10 +308,10 @@
     },
     "kvirc": 
     {
-      "version": "4:4.9.2~git-7042-g90a846a-1",
+      "version": "4:4.9.2~git-7044-ga70718f-1",
       "description": " Next generation IRC client with module support",
       "sourceurl": "http://notesalexp.org/source/main/k/kvirc",
-      "sourcefile": "kvirc_4.9.2~git-7042-g90a846a-1.debian.tar.xz kvirc_4.9.2~git-7042-g90a846a-1.dsc kvirc_4.9.2~git-7042-g90a846a.orig.tar.xz ",
+      "sourcefile": "kvirc_4.9.2~git-7044-ga70718f-1.debian.tar.xz kvirc_4.9.2~git-7044-ga70718f-1.dsc kvirc_4.9.2~git-7044-ga70718f.orig.tar.xz ",
       "homepage": "http://www.kvirc.de/",
       "depends": "debhelper(>=9) cmake(>=3.1) libperl-dev zlib1g-dev libx11-dev libxrender-dev libssl-dev qtbase5-dev qttools5-dev-tools libqt5x11extras5-dev libphonon4qt5-dev qttools5-dev libqt5svg5-dev qtmultimedia5-dev libqt5webkit5-dev libphonon4qt5experimental-dev pkg-config libxss-dev python-dev libqtwebkit-dev libenchant-dev ",
       "binary": "kvirc libkvilib4 kvirc-modules kvirc-data kvirc-dbg",
@@ -319,7 +319,7 @@
       "description_libkvilib4": "KVIrc (IRC client) base library",
       "description_kvircmodules": "KVIrc (IRC client) modules",
       "description_kvircdata": "Data files for KVIrc",
-      "md5": " 9ae6a24876e85b21e4953da10d9489fa cbbfd86cd22183ca957d105c844f9e4e bc4664809a109020cddbeac4c44106fd",
+      "md5": " b0da400d9888c536d7c6aa046386f75e 092267bbe43b220f22907e70003efae1 93e9ddac7192a848bd00c1b1a225e726",
       "size": " 16KiB 4KiB 3.57MiB"
     },
     "leptonlib": 
@@ -366,28 +366,28 @@
     },
     "linuxdcpp": 
     {
-      "version": "1.1.0+bzr424.101-2",
+      "version": "1.1.0+bzr424.101-3",
       "description": " Port of the Windows file-sharing program, DC++",
       "sourceurl": "http://notesalexp.org/source/main/l/linuxdcpp",
-      "sourcefile": "linuxdcpp_1.1.0+bzr424.101-2.debian.tar.xz linuxdcpp_1.1.0+bzr424.101-2.dsc linuxdcpp_1.1.0+bzr424.101.orig.tar.xz ",
+      "sourcefile": "linuxdcpp_1.1.0+bzr424.101-3.debian.tar.xz linuxdcpp_1.1.0+bzr424.101-3.dsc linuxdcpp_1.1.0+bzr424.101.orig.tar.xz ",
       "homepage": "https://launchpad.net/linuxdcpp",
       "depends": "debhelper(>=7.0.50~) scons libbz2-dev zlib1g-dev libgtk2.0-dev libglade2-dev libssl-dev libboost-dev libnotify-dev ",
       "binary": "linuxdcpp",
       "description_linuxdcpp": "Port of the Windows file-sharing program, DC++",
-      "md5": " 0a463811e79851fc6faa8d32d8c0e832 77985dcb22b87b9a343dcc5d8a9df4e2 7bc619faf4c62e07efa8afac13ccda08",
+      "md5": " 71e0e66631527937e6cd5fd53a6c20a1 1b008d3f4277168ae2bec901176b9f05 7bc619faf4c62e07efa8afac13ccda08",
       "size": " 12KiB 4KiB 504KiB"
     },
     "llpp": 
     {
-      "version": "23.0.0+git2419-f15aac7-1",
+      "version": "23.0.0+git2419-f15aac7-2",
       "description": " lightweight PDF viewer",
       "sourceurl": "http://notesalexp.org/source/main/l/llpp",
-      "sourcefile": "llpp_23.0.0+git2419-f15aac7-1.debian.tar.xz llpp_23.0.0+git2419-f15aac7-1.dsc llpp_23.0.0+git2419-f15aac7.orig.tar.xz ",
+      "sourcefile": "llpp_23.0.0+git2419-f15aac7-2.debian.tar.xz llpp_23.0.0+git2419-f15aac7-2.dsc llpp_23.0.0+git2419-f15aac7.orig.tar.xz ",
       "homepage": "http://repo.or.cz/w/llpp.git",
       "depends": "debhelper(>=8.0.0) ocaml git camlp4 mesa-common-dev libglu1-mesa-dev libfreetype6-dev pkg-config libjpeg-dev libjbig2dec0-dev libopenjpeg-dev|libopenjp2-7-dev libcrypto++-dev libssl-dev libxext-dev wget libxcursor-dev libxrandr-dev libxinerama-dev ocaml-native-compilers ",
       "binary": "llpp",
       "description_llpp": "lightweight PDF viewer",
-      "md5": " 96f4d2e61876805dc89a14b5a6e4cf13 ca3165db88ad4af594ac47476bb2a7f5 cc10009f048907cea850676901588a28",
+      "md5": " b2afb24bb6ce4ed3b3286aa214cc2693 e9fdbd044c9bb9be5b07a538bbbb55e4 cc10009f048907cea850676901588a28",
       "size": " 8KiB 4KiB 25.97MiB"
     },
     "myrulib": 
@@ -792,16 +792,16 @@
     },
     "uget": 
     {
-      "version": "2.0.8-1+nmu1",
+      "version": "2.0.8-1+nmu2",
       "description": " easy-to-use download manager written in GTK+",
       "sourceurl": "http://notesalexp.org/source/main/u/uget",
-      "sourcefile": "uget_2.0.8-1+nmu1.debian.tar.xz uget_2.0.8-1+nmu1.dsc uget_2.0.8.orig.tar.gz ",
+      "sourcefile": "uget_2.0.8-1+nmu2.debian.tar.xz uget_2.0.8-1+nmu2.dsc uget_2.0.8.orig.tar.gz ",
       "homepage": "http://urlget.sourceforge.net/",
       "depends": "debhelper(>=9) intltool dh-autoreconf libnotify-dev libgstreamer1.0-dev autotools-dev libgtk-3-dev libssl-dev libcurl4-openssl-dev ",
       "binary": "uget",
       "description_uget": "easy-to-use download manager written in GTK+",
-      "md5": " f0e18a463b2e7600ac8641abd6ba3d88 37d04867c33a4a2d9dee901ab01508ef ac02ad2a63b76d53c414b2249ff387c4",
-      "size": " 8KiB 4KiB 888KiB"
+      "md5": " f223ec070574597adc6372d2bde3f388 e7144f24744ebe0045cb3d0bfd351ec3 ac02ad2a63b76d53c414b2249ff387c4",
+      "size": " 12KiB 4KiB 888KiB"
     },
     "vacuum": 
     {
