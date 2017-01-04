@@ -43,13 +43,10 @@
 [<a href="http://notesalexp.org/packages/en/xenial/amd64/kvirc">xenial</a>]
 [<a href="http://notesalexp.org/packages/en/yakkety/amd64/kvirc">yakkety</a>]
 </div>
-<div id="potherssource">
-    [Source: <a href="http://notesalexp.org/packages/en/source/"></a>]
-</div>
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Package: kvirc () </h1>
+<h1>Package: kvirc ( 4:4.2.0+svn6324-1 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for kvirc</strong></p>
 <p><strong>Resources:</strong></p>
@@ -57,15 +54,12 @@
 <li><a href="http://notesalexp.org/packages/content/wheezy/amd64/kvirc.changelog.gz">Debian Changelog</a></li>
 <li><a href="http://notesalexp.org/packages/content/wheezy/amd64/kvirc.copyright.gz">Copyright File</a></li>
 </ul>
-<p><strong>Download Source Package <a href=""></a>:</strong></p>
-<ul>
-</ul>
 <p><strong>External Resources:</strong></p>
 <ul>
-<li><a href="">Homepage</a></li>
+<li><a href="http://www.kvirc.de/">Homepage</a></li>
 </ul>
 </div>
-<h4></h4>
+<h4> KDE-based next generation IRC client with module support </h4>
 <p>A highly configurable graphical IRC client with an MDI interface, built-in scripting language, support for IRC DCC, drag &amp; drop file browsing, and much more. KVIrc uses the KDE widget set, can be extended using its own scripting language, integrates with KDE, and supports custom plugins.</p>
 <p>If you're looking for a simple and plain IRC client, KVIrc is probably the wrong choice as it is rather big. But if you want a highly customizable client you won't regret the installation.</p>
 <div id="pdeps">
@@ -78,10 +72,84 @@
             </tr>
         </tbody></table>
 <ul class="uldep">
-</ul>
-<ul class="ulrec">
+<li><dl>
+<dt><span><strong>dep:</strong> multiarch-support </span></dt>
+<dt><span> Transitional package to ensure multiarch compatibility</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libkvilib4 (=4:4.2.0+svn6324-1)  </span></dt>
+<dt><span> KVIrc (IRC client) base library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> kvirc-modules (=4:4.2.0+svn6324-1)  </span></dt>
+<dt><span> KVIrc (IRC client) modules</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> kvirc-data (=4:4.2.0+svn6324-1)  </span></dt>
+<dt><span> Data files for KVIrc</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> kde-runtime </span></dt>
+<dt><span> runtime components from the official KDE release</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libc6 (&gt;=2.2.5)  </span></dt>
+<dt><span>armel installed</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libkdecore5 (&gt;=4:4.3.4)  </span></dt>
+<dt><span> KDE Platform Core Library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libkdeui5 (&gt;=4:4.4.0)  </span></dt>
+<dt><span> KDE Platform User Interface Library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libkio5 (&gt;=4:4.3.4)  </span></dt>
+<dt><span> Network-enabled File Management Library for the KDE Platform</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt4-dbus (&gt;=4:4.5.3)  </span></dt>
+<dt><span> Qt 4 D-Bus module</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt4-network (&gt;=4:4.5.3)  </span></dt>
+<dt><span> Qt 4 network module</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqtcore4 (&gt;=4:4.7.0~beta1)  </span></dt>
+<dt><span> Qt 4 core module</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqtgui4 (&gt;=4:4.8.0)  </span></dt>
+<dt><span> Qt 4 GUI module</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqtwebkit4 (&gt;=2.1.0~2011week13)  </span></dt>
+<dt><span> Web content engine library for Qt</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libssl1.0.0 (&gt;=1.0.0)  </span></dt>
+<dt><span> Secure Sockets Layer toolkit - shared libraries</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libstdc++6 (&gt;=4.1.1)  </span></dt>
+<dt><span> GNU Standard C++ Library v3</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libx11-6 </span></dt>
+<dt><span> X11 client-side library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> zlib1g (&gt;=1:1.1.4)  </span></dt>
+<dt><span> compression library - runtime</span></dt>
+</dl></li>
 </ul>
 <ul class="ulsug">
+<li><dl>
+<dt><span><strong>sug:</strong> kvirc-dbg (=4:4.2.0+svn6324-1)  </span></dt>
+<dt><span> KVIrc (IRC client) debugging symbols</span></dt>
+</dl></li>
 </ul>
     </div>
 <div id="pdownload">
@@ -96,17 +164,17 @@
         <th>Files</th>
     </tr>
 <tr>
-    <th><a href="">amd64</a></th>
-    <td></td>
-    <td class="size"></td>
-    <td class="size"></td>
+    <th><a href="http://notesalexp.org/wheezy/main/k/kvirc/kvirc_4.2.0+svn6324-1_amd64.deb">amd64</a></th>
+    <td> 4:4.2.0+svn6324-1 </td>
+    <td class="size"> 824KiB </td>
+    <td class="size"> 2.98MiB </td>
     <td>[<a href="http://notesalexp.org/packages/content/wheezy/amd64/kvirc.filelist.gz">list of files</a>]</td>
 </tr>
 <tr>
-    <th><a href="">i386</a></th>
-    <td></td>
-    <td class="size"></td>
-    <td class="size"></td>
+    <th><a href="http://notesalexp.org/wheezy/main/k/kvirc/kvirc_4.2.0+svn6324-1_i386.deb">i386</a></th>
+    <td> 4:4.2.0+svn6324-1 </td>
+    <td class="size"> 828KiB </td>
+    <td class="size"> 2.90MiB </td>
     <td>[<a href="http://notesalexp.org/packages/content/wheezy/i386/kvirc.filelist.gz">list of files</a>]</td>
 </tr>
 <tr>

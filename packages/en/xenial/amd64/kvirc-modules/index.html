@@ -44,12 +44,12 @@
 [<a href="http://notesalexp.org/packages/en/yakkety/amd64/kvirc-modules">yakkety</a>]
 </div>
 <div id="potherssource">
-    [Source: <a href="http://notesalexp.org/packages/en/source/"></a>]
+    [Source: <a href="http://notesalexp.org/packages/en/source/kvirc">kvirc</a>]
 </div>
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Package: kvirc-modules () </h1>
+<h1>Package: kvirc-modules ( 4:4.9.2~git-7044-ga70718f-1 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for kvirc-modules</strong></p>
 <p><strong>Resources:</strong></p>
@@ -57,15 +57,18 @@
 <li><a href="http://notesalexp.org/packages/content/xenial/amd64/kvirc-modules.changelog.gz">Debian Changelog</a></li>
 <li><a href="http://notesalexp.org/packages/content/xenial/amd64/kvirc-modules.copyright.gz">Copyright File</a></li>
 </ul>
-<p><strong>Download Source Package <a href=""></a>:</strong></p>
+<p><strong>Download Source Package <a href="http://notesalexp.org/source/main/k/kvirc">kvirc</a>:</strong></p>
 <ul>
+<li><a href="http://notesalexp.org/source/main/k/kvirc/kvirc_4.9.2~git-7044-ga70718f-1.debian.tar.xz">[kvirc_4.9.2~git-7044-ga70718f-1.debian.tar.xz]</a></li>
+<li><a href="http://notesalexp.org/source/main/k/kvirc/kvirc_4.9.2~git-7044-ga70718f-1.dsc">[kvirc_4.9.2~git-7044-ga70718f-1.dsc]</a></li>
+<li><a href="http://notesalexp.org/source/main/k/kvirc/kvirc_4.9.2~git-7044-ga70718f.orig.tar.xz">[kvirc_4.9.2~git-7044-ga70718f.orig.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
 <ul>
-<li><a href="">Homepage</a></li>
+<li><a href="http://www.kvirc.de/">Homepage</a></li>
 </ul>
 </div>
-<h4></h4>
+<h4> KVIrc (IRC client) modules </h4>
 <p>A highly configurable graphical IRC client,with powerful and flexible built-in scripting language, supports IRC DCC, DCC over SSL, Spell-checking, drag &amp; drop, file browsing, and much more. KVIrc can be extended using its own scripting language, integrate with KDE, and supports custom add-ons/scripts and themes.</p>
 <p>This package contains all modules for KVIrc.</p>
 <div id="pdeps">
@@ -78,10 +81,107 @@
             </tr>
         </tbody></table>
 <ul class="uldep">
-</ul>
-<ul class="ulrec">
+<li><dl>
+<dt><span><strong>dep:</strong> libkvilib4 (=4:4.9.2~git-7044-ga70718f-1)  </span></dt>
+<dt><span> KVIrc (IRC client) base library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libc6 (&gt;=2.15)  </span></dt>
+<dt><span>armel installed</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libenchant1c2a (&gt;=1.6.0)  </span></dt>
+<dt><span> Wrapper library for various spell checker engines (runtime libs)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libgcc1 (&gt;=1:3.0)  </span></dt>
+<dt><span> GCC support library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libperl5.22 (&gt;=5.22.1)  </span></dt>
+<dt><span></span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libphonon4qt5-4 (&gt;=4:4.8.0)  </span></dt>
+<dt><span> multimedia framework from KDE using Qt 5 - core library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libpython2.7 (&gt;=2.7)  </span></dt>
+<dt><span> Shared Python runtime library (version 2.7)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt5core5a (&gt;=5.5.0)  </span></dt>
+<dt><span> Qt 5 core module</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt5dbus5 (&gt;=5.0.2)  </span></dt>
+<dt><span> Qt 5 D-Bus module</span></dt>
+</dl></li>
+<li><dl><dt><span><strong>dep:</strong></span>
+<span>libqt5gui5 (&gt;=5.3.0) </span> </dt>
+<dt><span> Qt 5 GUI module</span></dt>
+<dt><span><strong>or </strong></span>
+<span>libqt5gui5-gles (&gt;=5.3.0) </span> </dt>
+<dt><span></span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt5multimedia5 (&gt;=5.0.2)  </span></dt>
+<dt><span> Qt 5 Multimedia module</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt5network5 (&gt;=5.0.2)  </span></dt>
+<dt><span> Qt 5 network module</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt5printsupport5 (&gt;=5.0.2)  </span></dt>
+<dt><span> Qt 5 print support module</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt5sql5 (&gt;=5.0.2)  </span></dt>
+<dt><span> Qt 5 SQL module</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt5webkit5 (&gt;=5.2.0)  </span></dt>
+<dt><span> Web content engine library for Qt</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt5widgets5 (&gt;=5.2.0)  </span></dt>
+<dt><span> Qt 5 widgets module</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt5x11extras5 (&gt;=5.1.0)  </span></dt>
+<dt><span> Qt 5 X11 extras</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt5xml5 (&gt;=5.2.0)  </span></dt>
+<dt><span> Qt 5 XML module</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libssl1.0.0 (&gt;=1.0.0)  </span></dt>
+<dt><span> Secure Sockets Layer toolkit - shared libraries</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libstdc++6 (&gt;=4.9)  </span></dt>
+<dt><span> GNU Standard C++ Library v3</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libx11-6 </span></dt>
+<dt><span> X11 client-side library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libxss1 </span></dt>
+<dt><span> X11 Screen Saver extension library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> zlib1g (&gt;=1:1.1.4)  </span></dt>
+<dt><span> compression library - runtime</span></dt>
+</dl></li>
 </ul>
 <ul class="ulsug">
+<li><dl>
+<dt><span><strong>sug:</strong> kvirc-dbg (=4:4.9.2~git-7044-ga70718f-1)  </span></dt>
+<dt><span> KVIrc (IRC client) debugging symbols</span></dt>
+</dl></li>
 </ul>
     </div>
 <div id="pdownload">
@@ -96,17 +196,17 @@
         <th>Files</th>
     </tr>
 <tr>
-    <th><a href="">amd64</a></th>
-    <td></td>
-    <td class="size"></td>
-    <td class="size"></td>
+    <th><a href="http://notesalexp.org/xenial/main/k/kvirc/kvirc-modules_4.9.2~git-7044-ga70718f-1_amd64.deb">amd64</a></th>
+    <td> 4:4.9.2~git-7044-ga70718f-1 </td>
+    <td class="size"> 1.49MiB </td>
+    <td class="size"> 8.55MiB </td>
     <td>[<a href="http://notesalexp.org/packages/content/xenial/amd64/kvirc-modules.filelist.gz">list of files</a>]</td>
 </tr>
 <tr>
-    <th><a href="">i386</a></th>
-    <td></td>
-    <td class="size"></td>
-    <td class="size"></td>
+    <th><a href="http://notesalexp.org/xenial/main/k/kvirc/kvirc-modules_4.9.2~git-7044-ga70718f-1_i386.deb">i386</a></th>
+    <td> 4:4.9.2~git-7044-ga70718f-1 </td>
+    <td class="size"> 1.50MiB </td>
+    <td class="size"> 7.35MiB </td>
     <td>[<a href="http://notesalexp.org/packages/content/xenial/i386/kvirc-modules.filelist.gz">list of files</a>]</td>
 </tr>
 <tr>
