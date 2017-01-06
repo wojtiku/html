@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+sitemap: http://notesalexp.org/sitemap.xml
+
+User-agent: *
+Disallow: /debian
+Disallow: /kvirc
+Disallow: /source
+Disallow: /wheezy
+Disallow: /jessie
+Disallow: /stretch
+Disallow: /sid
+Disallow: /precise
+Disallow: /trusty
+Disallow: /xenial
+Disallow: /yakkety
