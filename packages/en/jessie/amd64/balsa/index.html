@@ -49,7 +49,7 @@
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Package: balsa ( 2.5.1+git20161222-1 ) </h1>
+<h1>Package: balsa ( 2.5.1+git20170103-1 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for balsa</strong></p>
 <p><strong>Resources:</strong></p>
@@ -59,9 +59,9 @@
 </ul>
 <p><strong>Download Source Package <a href="http://notesalexp.org/source/main/b/balsa">balsa</a>:</strong></p>
 <ul>
-<li><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20161222-1.debian.tar.xz">[balsa_2.5.1+git20161222-1.debian.tar.xz]</a></li>
-<li><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20161222-1.dsc">[balsa_2.5.1+git20161222-1.dsc]</a></li>
-<li><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20161222.orig.tar.xz">[balsa_2.5.1+git20161222.orig.tar.xz]</a></li>
+<li><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20170103-1.debian.tar.xz">[balsa_2.5.1+git20170103-1.debian.tar.xz]</a></li>
+<li><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20170103-1.dsc">[balsa_2.5.1+git20170103-1.dsc]</a></li>
+<li><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20170103.orig.tar.xz">[balsa_2.5.1+git20170103.orig.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
 <ul>
@@ -93,21 +93,16 @@
             </tr>
         </tbody></table>
 <ul class="uldep">
-<li><dl>
-<dt><span><strong>dep:</strong> libassuan0 (&gt;=2.0.1)  </span></dt>
-<dt><span> IPC library for the GnuPG components</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libatk1.0-0 (&gt;=1.12.4)  </span></dt>
-<dt><span> ATK accessibility toolkit</span></dt>
+<li><dl><dt><span><strong>dep:</strong></span>
+<span>pinentry-gnome3</span> </dt>
+<dt><span> GNOME 3 PIN or pass-phrase entry dialog for GnuPG</span></dt>
+<dt><span><strong>or </strong></span>
+<span>pinentry-x11</span> </dt>
+<dt><span> GNOME 3 PIN or pass-phrase entry dialog for GnuPG</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libc6 (&gt;=2.16)  </span></dt>
 <dt><span> Embedded GNU C Library: Shared libraries</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libcairo-gobject2 (&gt;=1.10.0)  </span></dt>
-<dt><span> Cairo 2D vector graphics library (GObject library)</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libcairo2 (&gt;=1.2.4)  </span></dt>
@@ -120,10 +115,6 @@
 <li><dl>
 <dt><span><strong>dep:</strong> libcanberra0 (&gt;=0.2)  </span></dt>
 <dt><span> simple abstract interface for playing event sounds</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libcomerr2 (&gt;=1.01)  </span></dt>
-<dt><span> common error description library</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libcompfaceg1 </span></dt>
@@ -150,14 +141,6 @@
 <dt><span> MIME message parser and creator library</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libgnome-keyring0 (&gt;=2.22.2)  </span></dt>
-<dt><span> GNOME keyring services library</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libgpg-error0 (&gt;=1.14)  </span></dt>
-<dt><span> library for common error values and messages in GnuPG components</span></dt>
-</dl></li>
-<li><dl>
 <dt><span><strong>dep:</strong> libgpgme11 (&gt;=1.2.0)  </span></dt>
 <dt><span> GPGME - GnuPG Made Easy</span></dt>
 </dl></li>
@@ -172,18 +155,6 @@
 <li><dl>
 <dt><span><strong>dep:</strong> libgtksourceview-3.0-1 (&gt;=2.91.4)  </span></dt>
 <dt><span> shared libraries for the GTK+ syntax highlighting widget</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libjavascriptcoregtk-4.0-18 </span></dt>
-<dt><span> JavaScript engine library from WebKitGTK+</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libk5crypto3 (&gt;=1.6.dfsg.2)  </span></dt>
-<dt><span> MIT Kerberos runtime libraries - Crypto Library</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libkrb5-3 (&gt;=1.6.dfsg.2)  </span></dt>
-<dt><span> MIT Kerberos runtime libraries</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libldap-2.4-2 (&gt;=2.4.7)  </span></dt>
@@ -202,8 +173,8 @@
 <dt><span> Layout and rendering of internationalized text</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libsoup2.4-1 (&gt;=2.4.0)  </span></dt>
-<dt><span> HTTP library implementation in C -- Shared library</span></dt>
+<dt><span><strong>dep:</strong> libsecret-1-0 (&gt;=0.7)  </span></dt>
+<dt><span> Secret store</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libsqlite3-0 (&gt;=3.5.9)  </span></dt>
@@ -218,30 +189,12 @@
 <dt><span> Web content engine library for GTK+</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libx11-6 </span></dt>
-<dt><span> X11 client-side library</span></dt>
-</dl></li>
-<li><dl>
 <dt><span><strong>dep:</strong> libxml2 (&gt;=2.7.4)  </span></dt>
 <dt><span> GNOME XML library</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> zlib1g (&gt;=1:1.1.4)  </span></dt>
 <dt><span> compression library - runtime</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> gnome-icon-theme </span></dt>
-<dt><span> GNOME Desktop icon theme</span></dt>
-</dl></li>
-</ul>
-<ul class="ulsug">
-<li><dl>
-<dt><span><strong>sug:</strong> ca-certificates </span></dt>
-<dt><span> Common CA certificates</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>sug:</strong> lbdb </span></dt>
-<dt><span> Little Brother's DataBase for the mutt mail reader</span></dt>
 </dl></li>
 </ul>
     </div>
@@ -257,17 +210,17 @@
         <th>Files</th>
     </tr>
 <tr>
-    <th><a href="http://notesalexp.org/jessie/main/b/balsa/balsa_2.5.1+git20161222-1_amd64.deb">amd64</a></th>
-    <td> 2.5.1+git20161222-1 </td>
-    <td class="size"> 1.38MiB </td>
-    <td class="size"> 6.08MiB </td>
+    <th><a href="http://notesalexp.org/jessie/main/b/balsa/balsa_2.5.1+git20170103-1_amd64.deb">amd64</a></th>
+    <td> 2.5.1+git20170103-1 </td>
+    <td class="size"> 2.51MiB </td>
+    <td class="size"> 8.49MiB </td>
     <td>[<a href="http://notesalexp.org/packages/content/jessie/amd64/balsa.filelist.gz">list of files</a>]</td>
 </tr>
 <tr>
-    <th><a href="http://notesalexp.org/jessie/main/b/balsa/balsa_2.5.1+git20161222-1_i386.deb">i386</a></th>
-    <td> 2.5.1+git20161222-1 </td>
-    <td class="size"> 1.43MiB </td>
-    <td class="size"> 6.28MiB </td>
+    <th><a href="http://notesalexp.org/jessie/main/b/balsa/balsa_2.5.1+git20170103-1_i386.deb">i386</a></th>
+    <td> 2.5.1+git20170103-1 </td>
+    <td class="size"> 2.58MiB </td>
+    <td class="size"> 8.73MiB </td>
     <td>[<a href="http://notesalexp.org/packages/content/jessie/i386/balsa.filelist.gz">list of files</a>]</td>
 </tr>
 <tr>

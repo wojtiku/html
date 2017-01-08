@@ -49,7 +49,7 @@
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Package: balsa ( 2.5.1+git20161222-1 ) </h1>
+<h1>Package: balsa ( 2.5.1+git20170103-1 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for balsa</strong></p>
 <p><strong>Resources:</strong></p>
@@ -59,9 +59,9 @@
 </ul>
 <p><strong>Download Source Package <a href="http://notesalexp.org/source/main/b/balsa">balsa</a>:</strong></p>
 <ul>
-<li><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20161222-1.debian.tar.xz">[balsa_2.5.1+git20161222-1.debian.tar.xz]</a></li>
-<li><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20161222-1.dsc">[balsa_2.5.1+git20161222-1.dsc]</a></li>
-<li><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20161222.orig.tar.xz">[balsa_2.5.1+git20161222.orig.tar.xz]</a></li>
+<li><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20170103-1.debian.tar.xz">[balsa_2.5.1+git20170103-1.debian.tar.xz]</a></li>
+<li><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20170103-1.dsc">[balsa_2.5.1+git20170103-1.dsc]</a></li>
+<li><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20170103.orig.tar.xz">[balsa_2.5.1+git20170103.orig.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
 <ul>
@@ -93,6 +93,13 @@
             </tr>
         </tbody></table>
 <ul class="uldep">
+<li><dl><dt><span><strong>dep:</strong></span>
+<span>pinentry-gnome3</span> </dt>
+<dt><span> GNOME 3 PIN or pass-phrase entry dialog for GnuPG</span></dt>
+<dt><span><strong>or </strong></span>
+<span>pinentry-x11</span> </dt>
+<dt><span> GNOME 3 PIN or pass-phrase entry dialog for GnuPG</span></dt>
+</dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libc6 (&gt;=2.16)  </span></dt>
 <dt><span> Embedded GNU C Library: Shared libraries</span></dt>
@@ -114,10 +121,6 @@
 <dt><span> Compress/decompress images for mailheaders, libc6 runtime</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libenchant1c2a (&gt;=1.6.0)  </span></dt>
-<dt><span> Wrapper library for various spell checker engines (runtime libs)</span></dt>
-</dl></li>
-<li><dl>
 <dt><span><strong>dep:</strong> libesmtp6 </span></dt>
 <dt><span> LibESMTP SMTP client library</span></dt>
 </dl></li>
@@ -134,12 +137,12 @@
 <dt><span> MIME message parser and creator library</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libgnome-keyring0 (&gt;=2.22.2)  </span></dt>
-<dt><span> GNOME keyring services library</span></dt>
-</dl></li>
-<li><dl>
 <dt><span><strong>dep:</strong> libgpgme11 (&gt;=1.2.0)  </span></dt>
 <dt><span> GPGME - GnuPG Made Easy</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libgspell-1-1 (&gt;=1.0.0)  </span></dt>
+<dt><span> spell-checking library for GTK+ applications</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libgssapi-krb5-2 (&gt;=1.14+dfsg)  </span></dt>
@@ -170,6 +173,10 @@
 <dt><span> Layout and rendering of internationalized text</span></dt>
 </dl></li>
 <li><dl>
+<dt><span><strong>dep:</strong> libsecret-1-0 (&gt;=0.7)  </span></dt>
+<dt><span> Secret store</span></dt>
+</dl></li>
+<li><dl>
 <dt><span><strong>dep:</strong> libsqlite3-0 (&gt;=3.5.9)  </span></dt>
 <dt><span> SQLite 3 shared library</span></dt>
 </dl></li>
@@ -189,20 +196,6 @@
 <dt><span><strong>dep:</strong> zlib1g (&gt;=1:1.1.4)  </span></dt>
 <dt><span> compression library - runtime</span></dt>
 </dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> gnome-icon-theme </span></dt>
-<dt><span> GNOME Desktop icon theme</span></dt>
-</dl></li>
-</ul>
-<ul class="ulsug">
-<li><dl>
-<dt><span><strong>sug:</strong> ca-certificates </span></dt>
-<dt><span> Common CA certificates</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>sug:</strong> lbdb </span></dt>
-<dt><span> Little Brother's DataBase for the mutt mail reader</span></dt>
-</dl></li>
 </ul>
     </div>
 <div id="pdownload">
@@ -217,17 +210,17 @@
         <th>Files</th>
     </tr>
 <tr>
-    <th><a href="http://notesalexp.org/yakkety/main/b/balsa/balsa_2.5.1+git20161222-1_amd64.deb">amd64</a></th>
-    <td> 2.5.1+git20161222-1 </td>
-    <td class="size"> 1.40MiB </td>
-    <td class="size"> 6.34MiB </td>
+    <th><a href="http://notesalexp.org/yakkety/main/b/balsa/balsa_2.5.1+git20170103-1_amd64.deb">amd64</a></th>
+    <td> 2.5.1+git20170103-1 </td>
+    <td class="size"> 2.50MiB </td>
+    <td class="size"> 8.83MiB </td>
     <td>[<a href="http://notesalexp.org/packages/content/yakkety/amd64/balsa.filelist.gz">list of files</a>]</td>
 </tr>
 <tr>
-    <th><a href="http://notesalexp.org/yakkety/main/b/balsa/balsa_2.5.1+git20161222-1_i386.deb">i386</a></th>
-    <td> 2.5.1+git20161222-1 </td>
-    <td class="size"> 1.43MiB </td>
-    <td class="size"> 6.48MiB </td>
+    <th><a href="http://notesalexp.org/yakkety/main/b/balsa/balsa_2.5.1+git20170103-1_i386.deb">i386</a></th>
+    <td> 2.5.1+git20170103-1 </td>
+    <td class="size"> 2.57MiB </td>
+    <td class="size"> 9.07MiB </td>
     <td>[<a href="http://notesalexp.org/packages/content/yakkety/i386/balsa.filelist.gz">list of files</a>]</td>
 </tr>
 <tr>

@@ -35,7 +35,7 @@
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Source Package: balsa ( 2.5.1+git20161222-1 ) </h1>
+<h1>Source Package: balsa ( 2.5.1+git20170103-1 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for balsa</strong></p>
 <p><strong>Resources:</strong></p>
@@ -64,7 +64,7 @@ The following binary packages are built from this source package:
 <dt><span> Update infrastructure for config.{guess,sub} files</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> debhelper (&gt;=7.0.50~)  </span></dt>
+<dt><span><strong>dep:</strong> debhelper (&gt;=9)  </span></dt>
 <dt><span> helper programs for debian/rules</span></dt>
 </dl></li>
 <li><dl>
@@ -76,16 +76,24 @@ The following binary packages are built from this source package:
 <dt><span> Tools for the Debian GNOME Packaging Team</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> gnome-icon-theme </span></dt>
-<dt><span> GNOME Desktop icon theme</span></dt>
+<dt><span><strong>dep:</strong> intltool </span></dt>
+<dt><span> Utility scripts for internationalizing XML</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> rarian-compat </span></dt>
-<dt><span> Documentation meta-data library (compatibility tools)</span></dt>
+<dt><span><strong>dep:</strong> libcanberra-gtk3-dev </span></dt>
+<dt><span> simple abstract interface for playing event sounds</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libcompfaceg1-dev </span></dt>
+<dt><span> Compress/decompress images for mailheaders, libc6 devel</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libesmtp-dev </span></dt>
 <dt><span> LibESMTP SMTP client library (development files)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libglib2.0-dev </span></dt>
+<dt><span> Development files for the GLib library</span></dt>
 </dl></li>
 <li><dl><dt><span><strong>dep:</strong></span>
 <span>libgmime-2.6-dev</span> </dt>
@@ -95,20 +103,23 @@ The following binary packages are built from this source package:
 <dt><span></span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libnm-glib-dev </span></dt>
-<dt><span> network management framework (GLib interface)</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libcompfaceg1-dev </span></dt>
-<dt><span> Compress/decompress images for mailheaders, libc6 devel</span></dt>
-</dl></li>
-<li><dl>
 <dt><span><strong>dep:</strong> libgpgme11-dev </span></dt>
 <dt><span> GPGME - GnuPG Made Easy</span></dt>
 </dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libgtkspell-dev </span></dt>
+<li><dl><dt><span><strong>dep:</strong></span>
+<span>libgspell-1-dev</span> </dt>
+<dt><span> spell-checking library for GTK+ applications - development files</span></dt>
+<dt><span><strong>or </strong></span>
+<span>libgtkspell3-3-dev</span> </dt>
 <dt><span> Development files for GtkSpell</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libgtk-3-dev </span></dt>
+<dt><span> development files for the GTK+ library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libgtksourceview-3.0-dev </span></dt>
+<dt><span> development files for the GTK+ syntax highlighting widget</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libkrb5-dev </span></dt>
@@ -119,16 +130,12 @@ The following binary packages are built from this source package:
 <dt><span> OpenLDAP development libraries</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libltdl-dev </span></dt>
-<dt><span> A system independent dlopen wrapper for GNU libtool</span></dt>
+<dt><span><strong>dep:</strong> libnotify-dev </span></dt>
+<dt><span> sends desktop notifications to a notification daemon (Development files)</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libpcre3-dev </span></dt>
-<dt><span> Old Perl 5 Compatible Regular Expression Library - development files</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libpspell-dev (&gt;=0.50)  </span></dt>
-<dt><span> Development files for applications with pspell support</span></dt>
+<dt><span><strong>dep:</strong> libsecret-1-dev </span></dt>
+<dt><span> Secret store (development files)</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libsqlite3-dev </span></dt>
@@ -139,68 +146,28 @@ The following binary packages are built from this source package:
 <dt><span> Secure Sockets Layer toolkit - development files</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libxml-parser-perl </span></dt>
-<dt><span> Perl module for parsing XML files</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libgnome2-dev </span></dt>
-<dt><span> The GNOME library - development files</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libgnomeui-dev </span></dt>
-<dt><span> GNOME user interface library - development files</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libunique-dev </span></dt>
-<dt><span> Library for writing single instance applications - development files</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libglib2.0-dev (&gt;=2.16.0)  </span></dt>
-<dt><span> Development files for the GLib library</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libgtk-3-dev </span></dt>
-<dt><span> development files for the GTK+ library</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> liborbit2-dev </span></dt>
-<dt><span> development files for ORBit2 - a CORBA ORB</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libnotify-dev </span></dt>
-<dt><span> sends desktop notifications to a notification daemon (Development files)</span></dt>
+<dt><span><strong>dep:</strong> libwebkit2gtk-4.0-dev </span></dt>
+<dt><span> Web content engine library for GTK+ - development files</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libxml2-dev </span></dt>
 <dt><span> Development files for the GNOME XML library</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> intltool </span></dt>
-<dt><span> Utility scripts for internationalizing XML</span></dt>
+<dt><span><strong>dep:</strong> pkg-config </span></dt>
+<dt><span> manage compile and link flags for libraries</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libcanberra-gtk3-dev </span></dt>
-<dt><span> simple abstract interface for playing event sounds</span></dt>
+<dt><span><strong>dep:</strong> python3-html2text </span></dt>
+<dt><span> Python module for converting HTML to Markdown text (Python3 version)</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libsecret-1-dev </span></dt>
-<dt><span> Secret store (development files)</span></dt>
+<dt><span><strong>dep:</strong> yelp-tools </span></dt>
+<dt><span> Yelp documentation tools</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> gnome-doc-utils </span></dt>
-<dt><span> collection of documentation utilities for the GNOME project</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libgtksourceview-3.0-dev </span></dt>
-<dt><span> development files for the GTK+ syntax highlighting widget</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libgtkspell3-3-dev </span></dt>
-<dt><span> Development files for GtkSpell</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libwebkit2gtk-4.0-dev </span></dt>
-<dt><span> Web content engine library for GTK+ - development files</span></dt>
+<dt><span><strong>dep:</strong> zlib1g-dev </span></dt>
+<dt><span> compression library - development</span></dt>
 </dl></li>
 </ul>
     </div>
@@ -213,19 +180,19 @@ The following binary packages are built from this source package:
         <th>MD5 checksum</th>
     </tr>
 <tr>
-    <th><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20161222-1.debian.tar.xz">balsa_2.5.1+git20161222-1.debian.tar.xz</a></th>
-    <td class="size">12KiB</td>
-    <td class="size">e0c7f9c356898f11adcad789466f6c1d</td>
+    <th><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20170103-1.debian.tar.xz">balsa_2.5.1+git20170103-1.debian.tar.xz</a></th>
+    <td class="size">8KiB</td>
+    <td class="size">ea766c4874b997fd64e406d9f6258656</td>
 </tr>
 <tr>
-    <th><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20161222-1.dsc">balsa_2.5.1+git20161222-1.dsc</a></th>
+    <th><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20170103-1.dsc">balsa_2.5.1+git20170103-1.dsc</a></th>
     <td class="size">4KiB</td>
-    <td class="size">3952e778fb5ff8349308a5c548ea7015</td>
+    <td class="size">f8da80601a8ff69d22c195e365856d43</td>
 </tr>
 <tr>
-    <th><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20161222.orig.tar.xz">balsa_2.5.1+git20161222.orig.tar.xz</a></th>
+    <th><a href="http://notesalexp.org/source/main/b/balsa/balsa_2.5.1+git20170103.orig.tar.xz">balsa_2.5.1+git20170103.orig.tar.xz</a></th>
     <td class="size">3.34MiB</td>
-    <td class="size">89a36ae0865490162001f623bc848fca</td>
+    <td class="size">2c6198ae9bf591e2fb8099ebd60625d0</td>
 </tr>
 <tr>
         </tbody></table>
