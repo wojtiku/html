@@ -1,8 +1,6 @@
 User-agent: *
 Allow: /
-sitemap: http://notesalexp.org/sitemap.xml
-
-User-agent: *
+Sitemap: http://notesalexp.org/sitemap.xml
 Disallow: /debian
 Disallow: /kvirc
 Disallow: /source
@@ -14,3 +12,4 @@ Disallow: /precise
 Disallow: /trusty
 Disallow: /xenial
 Disallow: /yakkety
+Host: www.notesalexp.org
