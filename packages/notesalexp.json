@@ -368,6 +368,21 @@
           "homepage": "http://www.gimp.org/",
           "description": " The Free & Open Source Image Editor"
         },
+        "gimppluginbimp_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/wheezy/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_amd64.deb",
+          "size": "180KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "603KiB",
+          "depends": "libatk1.0-0(>=1.12.4) libc6(>=2.7) libcairo2(>=1.2.4) libfontconfig1(>=2.9.0) libfreetype6(>=2.2.1) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango1.0-0(>=1.14.0) libpcre3(>=8.10) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
+        },
         "goaccess_amd64": 
         {
           "packageurl": "http://notesalexp.org/wheezy/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_amd64.deb",
@@ -3170,6 +3185,21 @@
           "homepage": "http://www.gimp.org/",
           "description": " The Free & Open Source Image Editor"
         },
+        "gimppluginbimp_i386": 
+        {
+          "packageurl": "http://notesalexp.org/wheezy/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_i386.deb",
+          "size": "180KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "607KiB",
+          "depends": "libatk1.0-0(>=1.12.4) libc6(>=2.7) libcairo2(>=1.2.4) libfontconfig1(>=2.9.0) libfreetype6(>=2.2.1) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango1.0-0(>=1.14.0) libpcre3(>=8.10) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
+        },
         "goaccess_i386": 
         {
           "packageurl": "http://notesalexp.org/wheezy/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_i386.deb",
@@ -4948,6 +4978,21 @@
           "sourcefile": "gimp-devel_2.9.4+git37778-03185f8-1.debian.tar.xz gimp-devel_2.9.4+git37778-03185f8-1.dsc gimp-devel_2.9.4+git37778-03185f8.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
           "description": "Headers and other files for compiling plugins for GIMP"
+        },
+        "gimppluginbimp_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_amd64.deb",
+          "size": "128KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "603KiB",
+          "depends": "libatk1.0-0(>=1.12.4) libc6(>=2.14) libcairo2(>=1.2.4) libfontconfig1(>=2.11) libfreetype6(>=2.2.1) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango-1.0-0(>=1.14.0) libpangocairo-1.0-0(>=1.14.0) libpangoft2-1.0-0(>=1.14.0) libpcre3(>=1:8.35) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
         },
         "gir12gexiv2010_amd64": 
         {
@@ -9029,6 +9074,21 @@
           "homepage": "http://www.gimp.org/",
           "description": "Headers and other files for compiling plugins for GIMP"
         },
+        "gimppluginbimp_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_i386.deb",
+          "size": "132KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "626KiB",
+          "depends": "libatk1.0-0(>=1.12.4) libc6(>=2.7) libcairo2(>=1.2.4) libfontconfig1(>=2.11) libfreetype6(>=2.2.1) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango-1.0-0(>=1.14.0) libpangocairo-1.0-0(>=1.14.0) libpangoft2-1.0-0(>=1.14.0) libpcre3(>=1:8.35) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
+        },
         "gir12gexiv2010_i386": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/g/gexiv2/gir1.2-gexiv2-0.10_0.10.4-1+nmu1_i386.deb",
@@ -10489,6 +10549,21 @@
           "sourcefile": "gimp-gtk3_2.9.4+git37883-447e734-1.debian.tar.xz gimp-gtk3_2.9.4+git37883-447e734-1.dsc gimp-gtk3_2.9.4+git37883-447e734.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
           "description": "Headers and other files for compiling plugins for GIMP"
+        },
+        "gimppluginbimp_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_amd64.deb",
+          "size": "128KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "662KiB",
+          "depends": "libatk1.0-0(>=1.12.4) libc6(>=2.7) libcairo2(>=1.2.4) libfontconfig1(>=2.11) libfreetype6(>=2.2.1) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango-1.0-0(>=1.14.0) libpangocairo-1.0-0(>=1.14.0) libpangoft2-1.0-0(>=1.14.0) libpcre3 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
         },
         "goaccess_amd64": 
         {
@@ -14290,6 +14365,21 @@
           "homepage": "http://www.gimp.org/",
           "description": "Headers and other files for compiling plugins for GIMP"
         },
+        "gimppluginbimp_i386": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_i386.deb",
+          "size": "136KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "692KiB",
+          "depends": "libatk1.0-0(>=1.12.4) libc6(>=2.7) libcairo2(>=1.2.4) libfontconfig1(>=2.11) libfreetype6(>=2.2.1) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango-1.0-0(>=1.14.0) libpangocairo-1.0-0(>=1.14.0) libpangoft2-1.0-0(>=1.14.0) libpcre3 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
+        },
         "goaccess_i386": 
         {
           "packageurl": "http://notesalexp.org/stretch/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_i386.deb",
@@ -15529,6 +15619,21 @@
           "sourcefile": "gimp-gtk3_2.9.4+git37883-447e734-1.debian.tar.xz gimp-gtk3_2.9.4+git37883-447e734-1.dsc gimp-gtk3_2.9.4+git37883-447e734.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
           "description": "Headers and other files for compiling plugins for GIMP"
+        },
+        "gimppluginbimp_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_amd64.deb",
+          "size": "128KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "662KiB",
+          "depends": "libatk1.0-0(>=1.12.4) libc6(>=2.7) libcairo2(>=1.2.4) libfontconfig1(>=2.11) libfreetype6(>=2.2.1) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango-1.0-0(>=1.14.0) libpangocairo-1.0-0(>=1.14.0) libpangoft2-1.0-0(>=1.14.0) libpcre3 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
         },
         "goaccess_amd64": 
         {
@@ -19379,6 +19484,21 @@
           "homepage": "http://www.gimp.org/",
           "description": "Headers and other files for compiling plugins for GIMP"
         },
+        "gimppluginbimp_i386": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_i386.deb",
+          "size": "136KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "692KiB",
+          "depends": "libatk1.0-0(>=1.12.4) libc6(>=2.7) libcairo2(>=1.2.4) libfontconfig1(>=2.11) libfreetype6(>=2.2.1) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango-1.0-0(>=1.14.0) libpangocairo-1.0-0(>=1.14.0) libpangoft2-1.0-0(>=1.14.0) libpcre3 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
+        },
         "goaccess_i386": 
         {
           "packageurl": "http://notesalexp.org/sid/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_i386.deb",
@@ -20528,6 +20648,21 @@
           "sourcefile": "gimp_2.8.18+git32440-eb03ed0-1.debian.tar.xz gimp_2.8.18+git32440-eb03ed0-1.dsc gimp_2.8.18+git32440-eb03ed0.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
           "description": " The Free & Open Source Image Editor"
+        },
+        "gimppluginbimp_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/precise/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_amd64.deb",
+          "size": "180KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "601KiB",
+          "depends": "libc6(>=2.7) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango1.0-0(>=1.14.0) libpcre3(>=8.10) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
         },
         "goaccess_amd64": 
         {
@@ -22548,6 +22683,21 @@
           "homepage": "http://www.gimp.org/",
           "description": " The Free & Open Source Image Editor"
         },
+        "gimppluginbimp_i386": 
+        {
+          "packageurl": "http://notesalexp.org/precise/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_i386.deb",
+          "size": "180KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "607KiB",
+          "depends": "libc6(>=2.7) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango1.0-0(>=1.14.0) libpcre3(>=8.10) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
+        },
         "goaccess_i386": 
         {
           "packageurl": "http://notesalexp.org/precise/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_i386.deb",
@@ -23557,6 +23707,21 @@
           "sourcefile": "gimp_2.8.18+git32440-eb03ed0-1.debian.tar.xz gimp_2.8.18+git32440-eb03ed0-1.dsc gimp_2.8.18+git32440-eb03ed0.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
           "description": " The Free & Open Source Image Editor"
+        },
+        "gimppluginbimp_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/trusty/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_amd64.deb",
+          "size": "124KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "601KiB",
+          "depends": "libc6(>=2.7) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango-1.0-0(>=1.14.0) libpcre3 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
         },
         "goaccess_amd64": 
         {
@@ -27294,6 +27459,21 @@
           "homepage": "http://www.gimp.org/",
           "description": " The Free & Open Source Image Editor"
         },
+        "gimppluginbimp_i386": 
+        {
+          "packageurl": "http://notesalexp.org/trusty/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_i386.deb",
+          "size": "124KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "603KiB",
+          "depends": "libc6(>=2.7) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango-1.0-0(>=1.14.0) libpcre3 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
+        },
         "goaccess_i386": 
         {
           "packageurl": "http://notesalexp.org/trusty/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_i386.deb",
@@ -28511,6 +28691,21 @@
           "sourcefile": "gimp-devel_2.9.4+git37778-03185f8-1.debian.tar.xz gimp-devel_2.9.4+git37778-03185f8-1.dsc gimp-devel_2.9.4+git37778-03185f8.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
           "description": "Headers and other files for compiling plugins for GIMP"
+        },
+        "gimppluginbimp_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_amd64.deb",
+          "size": "124KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "654KiB",
+          "depends": "libc6(>=2.7) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango-1.0-0(>=1.14.0) libpcre3 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
         },
         "goaccess_amd64": 
         {
@@ -32194,6 +32389,21 @@
           "homepage": "http://www.gimp.org/",
           "description": "Headers and other files for compiling plugins for GIMP"
         },
+        "gimppluginbimp_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_i386.deb",
+          "size": "128KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "680KiB",
+          "depends": "libc6(>=2.7) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango-1.0-0(>=1.14.0) libpcre3 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
+        },
         "goaccess_i386": 
         {
           "packageurl": "http://notesalexp.org/xenial/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_i386.deb",
@@ -33458,6 +33668,21 @@
           "sourcefile": "gimp-gtk3_2.9.4+git37883-447e734-1.debian.tar.xz gimp-gtk3_2.9.4+git37883-447e734-1.dsc gimp-gtk3_2.9.4+git37883-447e734.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
           "description": "Headers and other files for compiling plugins for GIMP"
+        },
+        "gimppluginbimp_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_amd64.deb",
+          "size": "124KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "655KiB",
+          "depends": "libc6(>=2.7) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango-1.0-0(>=1.14.0) libpcre3 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
         },
         "goaccess_amd64": 
         {
@@ -36963,6 +37188,21 @@
           "sourcefile": "gimp-gtk3_2.9.4+git37883-447e734-1.debian.tar.xz gimp-gtk3_2.9.4+git37883-447e734-1.dsc gimp-gtk3_2.9.4+git37883-447e734.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
           "description": "Headers and other files for compiling plugins for GIMP"
+        },
+        "gimppluginbimp_i386": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/g/gimp-plugin-bimp/gimp-plugin-bimp_1.17+git136-27cd6ec-1_i386.deb",
+          "size": "128KiB",
+          "version": "1.17+git136-27cd6ec-1",
+          "isize": "680KiB",
+          "depends": "libc6(>=2.7) libgdk-pixbuf2.0-0(>=2.22.0) libgimp2.0(>=2.8.0) libglib2.0-0(>=2.24.0) libgtk2.0-0(>=2.16.0) libpango-1.0-0(>=1.14.0) libpcre3 ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "gimp-plugin-bimp",
+          "sourceurl": "http://notesalexp.org/source/main/g/gimp-plugin-bimp",
+          "sourcefile": "gimp-plugin-bimp_1.17+git136-27cd6ec-1.debian.tar.xz gimp-plugin-bimp_1.17+git136-27cd6ec-1.dsc gimp-plugin-bimp_1.17+git136-27cd6ec.orig.tar.xz ",
+          "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
+          "description": "plugin for The GIMP to manipulations on groups of images"
         },
         "goaccess_i386": 
         {

@@ -12,4 +12,3 @@ Disallow: /precise
 Disallow: /trusty
 Disallow: /xenial
 Disallow: /yakkety
-Host: www.notesalexp.org
