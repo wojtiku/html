@@ -5011,6 +5011,21 @@
           "homepage": "https://wiki.gnome.org/Projects/gexiv2",
           "description": "GObject-based wrapper around the Exiv2 library - introspection data"
         },
+        "gir12libmypaint0_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "12KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "83KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "development files for libmypaint"
+        },
         "goaccess_amd64": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_amd64.deb",
@@ -5332,6 +5347,37 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libmypaint0_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/libm/libmypaint/libmypaint0_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "108KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "498KiB",
+          "depends": "libc6(>=2.14) libglib2.0-0(>=2.12.0) libjson-c2(>=0.10) ",
+          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "MyPaint brush engine library"
+        },
+        "libmypaintdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/libm/libmypaint/libmypaint-dev_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "8KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "22KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "Development files for libmypaint"
+        },
         "libnglib4913_amd64": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/n/netgen/libnglib-4.9.13_4.9.13.dfsg-8+nmu1_amd64.deb",
@@ -5651,6 +5697,23 @@
           "priority": "optional",
           "homepage": "http://www.muse-sequencer.org/",
           "description": "Qt4-based audio/MIDI sequencer"
+        },
+        "mypaint_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/m/mypaint/mypaint_1.3.0~git4568-3d92aa7-1_amd64.deb",
+          "size": "540KiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "2.71MiB",
+          "depends": "gir1.2-gtk-3.0(>=3.10) mypaint-data(>=1.3.0~git4568-3d92aa7-1) python-gi-cairo python-numpy python(<<2.8) python(>=2.7~) python2.7 python(>=2.7.5-5~) libatk1.0-0(>=1.12.4) libc6(>=2.14) libcairo-gobject2(>=1.10.0) libcairo2(>=1.2.4) libgcc1(>=1:4.1.1) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.16.0) libgomp1(>=4.9) libgtk-3-0(>=3.10) libjson-c2(>=0.10) liblcms2-2(>=2.2+git20110628) libmypaint0 libpango-1.0-0(>=1.14.0) libpangocairo-1.0-0(>=1.14.0) libpng12-0(>=1.2.13-4) libpython2.7(>=2.7) libstdc++6(>=4.1.1) ",
+          "recommends": "shared-mime-info ",
+          "suggests": "mypaint-data-extras ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "paint program for use with graphics tablets"
         },
         "myrulib_amd64": 
         {
@@ -6536,6 +6599,39 @@
           "sourcefile": "librecad_2.1.0+git4278-1f8d882-1.debian.tar.xz librecad_2.1.0+git4278-1f8d882-1.dsc librecad_2.1.0+git4278-1f8d882.orig.tar.xz ",
           "homepage": "http://www.librecad.org/",
           "description": "Computer-aided design (CAD) system -- shared files"
+        },
+        "mypaintdata_all": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/m/mypaint/mypaint-data_1.3.0~git4568-3d92aa7-1_all.deb",
+          "size": "3.43MiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "6.91MiB",
+          "breaks": "mypaint(<<1.1.0) ",
+          "replaces": "mypaint(<<1.1.0) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "runtime data files for MyPaint"
+        },
+        "mypaintdataextras_all": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/m/mypaint/mypaint-data-extras_1.3.0~git4568-3d92aa7-1_all.deb",
+          "size": "28.54MiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "28.87MiB",
+          "breaks": "mypaint-data(<<1.1.0) ",
+          "replaces": "mypaint-data(<<1.1.0) mypaint-data-hires ",
+          "conflicts": "mypaint-data-hires ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "high resolution backgrounds for mypaint"
         },
         "netgendoc_all": 
         {
@@ -9106,6 +9202,21 @@
           "homepage": "https://wiki.gnome.org/Projects/gexiv2",
           "description": "GObject-based wrapper around the Exiv2 library - introspection data"
         },
+        "gir12libmypaint0_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "12KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "83KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "development files for libmypaint"
+        },
         "goaccess_i386": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_i386.deb",
@@ -9427,6 +9538,37 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libmypaint0_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/libm/libmypaint/libmypaint0_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "108KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "500KiB",
+          "depends": "libc6(>=2.4) libglib2.0-0(>=2.12.0) libjson-c2(>=0.10) ",
+          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "MyPaint brush engine library"
+        },
+        "libmypaintdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/libm/libmypaint/libmypaint-dev_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "8KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "22KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "Development files for libmypaint"
+        },
         "libnglib4913_i386": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/n/netgen/libnglib-4.9.13_4.9.13.dfsg-8+nmu1_i386.deb",
@@ -9746,6 +9888,23 @@
           "priority": "optional",
           "homepage": "http://www.muse-sequencer.org/",
           "description": "Qt4-based audio/MIDI sequencer"
+        },
+        "mypaint_i386": 
+        {
+          "packageurl": "http://notesalexp.org/jessie/main/m/mypaint/mypaint_1.3.0~git4568-3d92aa7-1_i386.deb",
+          "size": "536KiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "2.70MiB",
+          "depends": "gir1.2-gtk-3.0(>=3.10) mypaint-data(>=1.3.0~git4568-3d92aa7-1) python-gi-cairo python-numpy python(<<2.8) python(>=2.7~) python2.7 python(>=2.7.5-5~) libatk1.0-0(>=1.12.4) libc6(>=2.11) libcairo-gobject2(>=1.10.0) libcairo2(>=1.2.4) libgcc1(>=1:4.1.1) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.16.0) libgomp1(>=4.9) libgtk-3-0(>=3.10) libjson-c2(>=0.10) liblcms2-2(>=2.2+git20110628) libmypaint0 libpango-1.0-0(>=1.14.0) libpangocairo-1.0-0(>=1.14.0) libpng12-0(>=1.2.13-4) libpython2.7(>=2.7) libstdc++6(>=4.1.1) ",
+          "recommends": "shared-mime-info ",
+          "suggests": "mypaint-data-extras ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "paint program for use with graphics tablets"
         },
         "myrulib_i386": 
         {
@@ -10565,6 +10724,21 @@
           "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
+        "gir12libmypaint0_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "12KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "94KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "development files for libmypaint"
+        },
         "goaccess_amd64": 
         {
           "packageurl": "http://notesalexp.org/stretch/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_amd64.deb",
@@ -10791,6 +10965,37 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libmypaint0_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/libm/libmypaint/libmypaint0_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "108KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "586KiB",
+          "depends": "libc6(>=2.14) libglib2.0-0(>=2.12.0) libjson-c3(>=0.10) ",
+          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "MyPaint brush engine library"
+        },
+        "libmypaintdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/libm/libmypaint/libmypaint-dev_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "8KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "42KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "Development files for libmypaint"
+        },
         "libnglib4913_amd64": 
         {
           "packageurl": "http://notesalexp.org/stretch/main/n/netgen/libnglib-4.9.13_4.9.13.dfsg-8+nmu1_amd64.deb",
@@ -10976,6 +11181,23 @@
           "sourcefile": "llpp_23.0.0+git2419-f15aac7-2.debian.tar.xz llpp_23.0.0+git2419-f15aac7-2.dsc llpp_23.0.0+git2419-f15aac7.orig.tar.xz ",
           "homepage": "http://repo.or.cz/w/llpp.git",
           "description": "lightweight PDF viewer"
+        },
+        "mypaint_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/m/mypaint/mypaint_1.3.0~git4568-3d92aa7-1_amd64.deb",
+          "size": "536KiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "2.79MiB",
+          "depends": "gir1.2-gtk-3.0(>=3.10) mypaint-data(>=1.3.0~git4568-3d92aa7-1) python-gi-cairo python-numpy python2.7 python(>=2.7.5-5~) libatk1.0-0(>=1.12.4) libc6(>=2.14) libcairo-gobject2(>=1.10.0) libcairo2(>=1.2.4) libgcc1(>=1:3.0) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.16.0) libgomp1(>=4.9) libgtk-3-0(>=3.10) libjson-c3(>=0.10) liblcms2-2(>=2.2+git20110628) libmypaint0 libpango-1.0-0(>=1.14.0) libpangocairo-1.0-0(>=1.14.0) libpng16-16(>=1.6.2-1) libpython2.7(>=2.7) libstdc++6(>=5.2) ",
+          "recommends": "shared-mime-info ",
+          "suggests": "mypaint-data-extras ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "paint program for use with graphics tablets"
         },
         "myrulib_amd64": 
         {
@@ -11834,6 +12056,39 @@
           "sourcefile": "librecad_2.1.0+git4278-1f8d882-1.debian.tar.xz librecad_2.1.0+git4278-1f8d882-1.dsc librecad_2.1.0+git4278-1f8d882.orig.tar.xz ",
           "homepage": "http://www.librecad.org/",
           "description": "Computer-aided design (CAD) system -- shared files"
+        },
+        "mypaintdata_all": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/m/mypaint/mypaint-data_1.3.0~git4568-3d92aa7-1_all.deb",
+          "size": "3.42MiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "7.34MiB",
+          "breaks": "mypaint(<<1.1.0) ",
+          "replaces": "mypaint(<<1.1.0) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "runtime data files for MyPaint"
+        },
+        "mypaintdataextras_all": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/m/mypaint/mypaint-data-extras_1.3.0~git4568-3d92aa7-1_all.deb",
+          "size": "28.55MiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "28.89MiB",
+          "breaks": "mypaint-data(<<1.1.0) ",
+          "replaces": "mypaint-data(<<1.1.0) mypaint-data-hires ",
+          "conflicts": "mypaint-data-hires ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "high resolution backgrounds for mypaint"
         },
         "netgendoc_all": 
         {
@@ -14380,6 +14635,21 @@
           "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
+        "gir12libmypaint0_i386": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "12KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "94KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "development files for libmypaint"
+        },
         "goaccess_i386": 
         {
           "packageurl": "http://notesalexp.org/stretch/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_i386.deb",
@@ -14606,6 +14876,37 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libmypaint0_i386": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/libm/libmypaint/libmypaint0_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "108KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "584KiB",
+          "depends": "libc6(>=2.4) libglib2.0-0(>=2.12.0) libjson-c3(>=0.10) ",
+          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "MyPaint brush engine library"
+        },
+        "libmypaintdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/libm/libmypaint/libmypaint-dev_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "8KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "42KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "Development files for libmypaint"
+        },
         "libnglib4913_i386": 
         {
           "packageurl": "http://notesalexp.org/stretch/main/n/netgen/libnglib-4.9.13_4.9.13.dfsg-8+nmu1_i386.deb",
@@ -14791,6 +15092,23 @@
           "sourcefile": "llpp_23.0.0+git2419-f15aac7-2.debian.tar.xz llpp_23.0.0+git2419-f15aac7-2.dsc llpp_23.0.0+git2419-f15aac7.orig.tar.xz ",
           "homepage": "http://repo.or.cz/w/llpp.git",
           "description": "lightweight PDF viewer"
+        },
+        "mypaint_i386": 
+        {
+          "packageurl": "http://notesalexp.org/stretch/main/m/mypaint/mypaint_1.3.0~git4568-3d92aa7-1_i386.deb",
+          "size": "536KiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "2.78MiB",
+          "depends": "gir1.2-gtk-3.0(>=3.10) mypaint-data(>=1.3.0~git4568-3d92aa7-1) python-gi-cairo python-numpy python2.7 python(>=2.7.5-5~) libatk1.0-0(>=1.12.4) libc6(>=2.11) libcairo-gobject2(>=1.10.0) libcairo2(>=1.2.4) libgcc1(>=1:4.2) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.16.0) libgomp1(>=4.9) libgtk-3-0(>=3.10) libjson-c3(>=0.10) liblcms2-2(>=2.2+git20110628) libmypaint0 libpango-1.0-0(>=1.14.0) libpangocairo-1.0-0(>=1.14.0) libpng16-16(>=1.6.2-1) libpython2.7(>=2.7) libstdc++6(>=5.2) ",
+          "recommends": "shared-mime-info ",
+          "suggests": "mypaint-data-extras ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "paint program for use with graphics tablets"
         },
         "myrulib_i386": 
         {
@@ -15635,6 +15953,21 @@
           "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
+        "gir12libmypaint0_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "12KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "94KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "development files for libmypaint"
+        },
         "goaccess_amd64": 
         {
           "packageurl": "http://notesalexp.org/sid/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_amd64.deb",
@@ -15899,6 +16232,37 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libmypaint0_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/libm/libmypaint/libmypaint0_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "108KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "586KiB",
+          "depends": "libc6(>=2.14) libglib2.0-0(>=2.12.0) libjson-c3(>=0.10) ",
+          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "MyPaint brush engine library"
+        },
+        "libmypaintdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/libm/libmypaint/libmypaint-dev_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "8KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "42KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "Development files for libmypaint"
+        },
         "libqpx0_amd64": 
         {
           "packageurl": "http://notesalexp.org/sid/main/q/qpxtool/libqpx0_0.7.2-4+nmu2_amd64.deb",
@@ -16092,6 +16456,23 @@
           "priority": "optional",
           "homepage": "http://www.muse-sequencer.org/",
           "description": "Qt4-based audio/MIDI sequencer"
+        },
+        "mypaint_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/m/mypaint/mypaint_1.3.0~git4568-3d92aa7-1_amd64.deb",
+          "size": "536KiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "2.79MiB",
+          "depends": "gir1.2-gtk-3.0(>=3.10) mypaint-data(>=1.3.0~git4568-3d92aa7-1) python-gi-cairo python-numpy python2.7 python(>=2.7.5-5~) libatk1.0-0(>=1.12.4) libc6(>=2.14) libcairo-gobject2(>=1.10.0) libcairo2(>=1.2.4) libgcc1(>=1:3.0) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.16.0) libgomp1(>=4.9) libgtk-3-0(>=3.10) libjson-c3(>=0.10) liblcms2-2(>=2.2+git20110628) libmypaint0 libpango-1.0-0(>=1.14.0) libpangocairo-1.0-0(>=1.14.0) libpng16-16(>=1.6.2-1) libpython2.7(>=2.7) libstdc++6(>=5.2) ",
+          "recommends": "shared-mime-info ",
+          "suggests": "mypaint-data-extras ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "paint program for use with graphics tablets"
         },
         "myrulib_amd64": 
         {
@@ -16945,6 +17326,39 @@
           "sourcefile": "librecad_2.1.0+git4278-1f8d882-1.debian.tar.xz librecad_2.1.0+git4278-1f8d882-1.dsc librecad_2.1.0+git4278-1f8d882.orig.tar.xz ",
           "homepage": "http://www.librecad.org/",
           "description": "Computer-aided design (CAD) system -- shared files"
+        },
+        "mypaintdata_all": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/m/mypaint/mypaint-data_1.3.0~git4568-3d92aa7-1_all.deb",
+          "size": "3.42MiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "7.34MiB",
+          "breaks": "mypaint(<<1.1.0) ",
+          "replaces": "mypaint(<<1.1.0) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "runtime data files for MyPaint"
+        },
+        "mypaintdataextras_all": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/m/mypaint/mypaint-data-extras_1.3.0~git4568-3d92aa7-1_all.deb",
+          "size": "28.55MiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "28.89MiB",
+          "breaks": "mypaint-data(<<1.1.0) ",
+          "replaces": "mypaint-data(<<1.1.0) mypaint-data-hires ",
+          "conflicts": "mypaint-data-hires ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "high resolution backgrounds for mypaint"
         },
         "notesalexpkeyring_all": 
         {
@@ -19499,6 +19913,21 @@
           "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
+        "gir12libmypaint0_i386": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "12KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "94KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "development files for libmypaint"
+        },
         "goaccess_i386": 
         {
           "packageurl": "http://notesalexp.org/sid/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_i386.deb",
@@ -19763,6 +20192,37 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libmypaint0_i386": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/libm/libmypaint/libmypaint0_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "108KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "584KiB",
+          "depends": "libc6(>=2.4) libglib2.0-0(>=2.12.0) libjson-c3(>=0.10) ",
+          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "MyPaint brush engine library"
+        },
+        "libmypaintdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/libm/libmypaint/libmypaint-dev_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "8KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "42KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "Development files for libmypaint"
+        },
         "libqpx0_i386": 
         {
           "packageurl": "http://notesalexp.org/sid/main/q/qpxtool/libqpx0_0.7.2-4+nmu2_i386.deb",
@@ -19956,6 +20416,23 @@
           "priority": "optional",
           "homepage": "http://www.muse-sequencer.org/",
           "description": "Qt4-based audio/MIDI sequencer"
+        },
+        "mypaint_i386": 
+        {
+          "packageurl": "http://notesalexp.org/sid/main/m/mypaint/mypaint_1.3.0~git4568-3d92aa7-1_i386.deb",
+          "size": "536KiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "2.78MiB",
+          "depends": "gir1.2-gtk-3.0(>=3.10) mypaint-data(>=1.3.0~git4568-3d92aa7-1) python-gi-cairo python-numpy python2.7 python(>=2.7.5-5~) libatk1.0-0(>=1.12.4) libc6(>=2.11) libcairo-gobject2(>=1.10.0) libcairo2(>=1.2.4) libgcc1(>=1:4.2) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.16.0) libgomp1(>=4.9) libgtk-3-0(>=3.10) libjson-c3(>=0.10) liblcms2-2(>=2.2+git20110628) libmypaint0 libpango-1.0-0(>=1.14.0) libpangocairo-1.0-0(>=1.14.0) libpng16-16(>=1.6.2-1) libpython2.7(>=2.7) libstdc++6(>=5.2) ",
+          "recommends": "shared-mime-info ",
+          "suggests": "mypaint-data-extras ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "paint program for use with graphics tablets"
         },
         "myrulib_i386": 
         {
@@ -23723,6 +24200,21 @@
           "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
+        "gir12libmypaint0_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/trusty/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "12KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "83KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "development files for libmypaint"
+        },
         "goaccess_amd64": 
         {
           "packageurl": "http://notesalexp.org/trusty/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_amd64.deb",
@@ -24009,6 +24501,37 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libmypaint0_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/trusty/main/libm/libmypaint/libmypaint0_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "108KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "493KiB",
+          "depends": "libc6(>=2.14) libglib2.0-0(>=2.12.0) libjson-c2(>=0.10) ",
+          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "MyPaint brush engine library"
+        },
+        "libmypaintdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/trusty/main/libm/libmypaint/libmypaint-dev_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "8KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "22KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "Development files for libmypaint"
+        },
         "libopenjp27_amd64": 
         {
           "packageurl": "http://notesalexp.org/trusty/main/o/openjpeg2/libopenjp2-7_2.1.2-1+nmu1_amd64.deb",
@@ -24249,6 +24772,23 @@
           "priority": "optional",
           "homepage": "http://repo.or.cz/w/llpp.git",
           "description": "lightweight PDF viewer"
+        },
+        "mypaint_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/trusty/main/m/mypaint/mypaint_1.3.0~git4568-3d92aa7-1_amd64.deb",
+          "size": "536KiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "2.70MiB",
+          "depends": "gir1.2-gtk-3.0(>=3.10) mypaint-data(>=1.3.0~git4568-3d92aa7-1) python-gi-cairo python-numpy python(>=2.7~) python2.7 python(<<2.8) python(>=2.7.5-5~) libc6(>=2.14) libgcc1(>=1:4.1.1) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.12.0) libgomp1(>=4.2.1) libgtk-3-0(>=3.10) liblcms2-2(>=2.2+git20110628) libmypaint0 libpng12-0(>=1.2.13-4) libpython2.7(>=2.7) libstdc++6(>=4.1.1) ",
+          "recommends": "shared-mime-info ",
+          "suggests": "mypaint-data-extras ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "paint program for use with graphics tablets"
         },
         "myrulib_amd64": 
         {
@@ -25028,6 +25568,39 @@
           "sourcefile": "librecad_2.1.0+git4278-1f8d882-1.debian.tar.xz librecad_2.1.0+git4278-1f8d882-1.dsc librecad_2.1.0+git4278-1f8d882.orig.tar.xz ",
           "homepage": "http://www.librecad.org/",
           "description": "Computer-aided design (CAD) system -- shared files"
+        },
+        "mypaintdata_all": 
+        {
+          "packageurl": "http://notesalexp.org/trusty/main/m/mypaint/mypaint-data_1.3.0~git4568-3d92aa7-1_all.deb",
+          "size": "3.42MiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "6.91MiB",
+          "breaks": "mypaint(<<1.1.0) ",
+          "replaces": "mypaint(<<1.1.0) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "runtime data files for MyPaint"
+        },
+        "mypaintdataextras_all": 
+        {
+          "packageurl": "http://notesalexp.org/trusty/main/m/mypaint/mypaint-data-extras_1.3.0~git4568-3d92aa7-1_all.deb",
+          "size": "28.54MiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "28.87MiB",
+          "breaks": "mypaint-data(<<1.1.0) ",
+          "replaces": "mypaint-data(<<1.1.0) mypaint-data-hires ",
+          "conflicts": "mypaint-data-hires ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "high resolution backgrounds for mypaint"
         },
         "notesalexpkeyring_all": 
         {
@@ -27474,6 +28047,21 @@
           "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
+        "gir12libmypaint0_i386": 
+        {
+          "packageurl": "http://notesalexp.org/trusty/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "12KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "83KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "development files for libmypaint"
+        },
         "goaccess_i386": 
         {
           "packageurl": "http://notesalexp.org/trusty/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_i386.deb",
@@ -27760,6 +28348,37 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libmypaint0_i386": 
+        {
+          "packageurl": "http://notesalexp.org/trusty/main/libm/libmypaint/libmypaint0_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "108KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "492KiB",
+          "depends": "libc6(>=2.4) libglib2.0-0(>=2.12.0) libjson-c2(>=0.10) ",
+          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "MyPaint brush engine library"
+        },
+        "libmypaintdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/trusty/main/libm/libmypaint/libmypaint-dev_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "8KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "22KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "Development files for libmypaint"
+        },
         "libopenjp27_i386": 
         {
           "packageurl": "http://notesalexp.org/trusty/main/o/openjpeg2/libopenjp2-7_2.1.2-1+nmu1_i386.deb",
@@ -28000,6 +28619,23 @@
           "priority": "optional",
           "homepage": "http://repo.or.cz/w/llpp.git",
           "description": "lightweight PDF viewer"
+        },
+        "mypaint_i386": 
+        {
+          "packageurl": "http://notesalexp.org/trusty/main/m/mypaint/mypaint_1.3.0~git4568-3d92aa7-1_i386.deb",
+          "size": "532KiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "2.68MiB",
+          "depends": "gir1.2-gtk-3.0(>=3.10) mypaint-data(>=1.3.0~git4568-3d92aa7-1) python-gi-cairo python-numpy python(>=2.7~) python(<<2.8) python2.7 python(>=2.7.5-5~) libc6(>=2.11) libgcc1(>=1:4.1.1) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.12.0) libgomp1(>=4.2.1) libgtk-3-0(>=3.10) liblcms2-2(>=2.2+git20110628) libmypaint0 libpng12-0(>=1.2.13-4) libpython2.7(>=2.7) libstdc++6(>=4.1.1) ",
+          "recommends": "shared-mime-info ",
+          "suggests": "mypaint-data-extras ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "paint program for use with graphics tablets"
         },
         "myrulib_i386": 
         {
@@ -28707,6 +29343,21 @@
           "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
+        "gir12libmypaint0_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "12KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "94KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "development files for libmypaint"
+        },
         "goaccess_amd64": 
         {
           "packageurl": "http://notesalexp.org/xenial/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_amd64.deb",
@@ -28917,6 +29568,37 @@
           "sourcefile": "leptonlib_1.74.1-1+nmu1.debian.tar.xz leptonlib_1.74.1-1+nmu1.dsc leptonlib_1.74.1.orig.tar.gz ",
           "homepage": "",
           "description": "image processing library"
+        },
+        "libmypaint0_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/libm/libmypaint/libmypaint0_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "108KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "581KiB",
+          "depends": "libc6(>=2.14) libglib2.0-0(>=2.12.0) libjson-c2(>=0.10) ",
+          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "MyPaint brush engine library"
+        },
+        "libmypaintdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/libm/libmypaint/libmypaint-dev_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "8KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "42KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "Development files for libmypaint"
         },
         "libocefoundation10_amd64": 
         {
@@ -29221,6 +29903,23 @@
           "sourcefile": "llpp_23.0.0+git2419-f15aac7-2.debian.tar.xz llpp_23.0.0+git2419-f15aac7-2.dsc llpp_23.0.0+git2419-f15aac7.orig.tar.xz ",
           "homepage": "http://repo.or.cz/w/llpp.git",
           "description": "lightweight PDF viewer"
+        },
+        "mypaint_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/m/mypaint/mypaint_1.3.0~git4568-3d92aa7-1_amd64.deb",
+          "size": "540KiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "2.80MiB",
+          "depends": "gir1.2-gtk-3.0(>=3.10) mypaint-data(>=1.3.0~git4568-3d92aa7-1) python-gi-cairo python-numpy python(<<2.8) python(>=2.7~) python2.7 python(>=2.7.5-5~) libc6(>=2.14) libgcc1(>=1:3.0) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.12.0) libgomp1(>=4.9) libgtk-3-0(>=3.10) liblcms2-2(>=2.2+git20110628) libmypaint0 libpng12-0(>=1.2.13-4) libpython2.7(>=2.7) libstdc++6(>=5.2) ",
+          "recommends": "shared-mime-info ",
+          "suggests": "mypaint-data-extras ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "paint program for use with graphics tablets"
         },
         "myrulib_amd64": 
         {
@@ -29984,6 +30683,39 @@
           "sourcefile": "librecad_2.1.0+git4278-1f8d882-1.debian.tar.xz librecad_2.1.0+git4278-1f8d882-1.dsc librecad_2.1.0+git4278-1f8d882.orig.tar.xz ",
           "homepage": "http://www.librecad.org/",
           "description": "Computer-aided design (CAD) system -- shared files"
+        },
+        "mypaintdata_all": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/m/mypaint/mypaint-data_1.3.0~git4568-3d92aa7-1_all.deb",
+          "size": "3.42MiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "7.34MiB",
+          "breaks": "mypaint(<<1.1.0) ",
+          "replaces": "mypaint(<<1.1.0) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "runtime data files for MyPaint"
+        },
+        "mypaintdataextras_all": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/m/mypaint/mypaint-data-extras_1.3.0~git4568-3d92aa7-1_all.deb",
+          "size": "28.54MiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "28.89MiB",
+          "breaks": "mypaint-data(<<1.1.0) ",
+          "replaces": "mypaint-data(<<1.1.0) mypaint-data-hires ",
+          "conflicts": "mypaint-data-hires ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "high resolution backgrounds for mypaint"
         },
         "notesalexpkeyring_all": 
         {
@@ -32404,6 +33136,21 @@
           "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
+        "gir12libmypaint0_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "12KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "94KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "development files for libmypaint"
+        },
         "goaccess_i386": 
         {
           "packageurl": "http://notesalexp.org/xenial/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_i386.deb",
@@ -32614,6 +33361,37 @@
           "sourcefile": "leptonlib_1.74.1-1+nmu1.debian.tar.xz leptonlib_1.74.1-1+nmu1.dsc leptonlib_1.74.1.orig.tar.gz ",
           "homepage": "",
           "description": "image processing library"
+        },
+        "libmypaint0_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/libm/libmypaint/libmypaint0_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "108KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "583KiB",
+          "depends": "libc6(>=2.4) libglib2.0-0(>=2.12.0) libjson-c2(>=0.10) ",
+          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "MyPaint brush engine library"
+        },
+        "libmypaintdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/libm/libmypaint/libmypaint-dev_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "8KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "42KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "Development files for libmypaint"
         },
         "libocefoundation10_i386": 
         {
@@ -32918,6 +33696,23 @@
           "sourcefile": "llpp_23.0.0+git2419-f15aac7-2.debian.tar.xz llpp_23.0.0+git2419-f15aac7-2.dsc llpp_23.0.0+git2419-f15aac7.orig.tar.xz ",
           "homepage": "http://repo.or.cz/w/llpp.git",
           "description": "lightweight PDF viewer"
+        },
+        "mypaint_i386": 
+        {
+          "packageurl": "http://notesalexp.org/xenial/main/m/mypaint/mypaint_1.3.0~git4568-3d92aa7-1_i386.deb",
+          "size": "536KiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "2.78MiB",
+          "depends": "gir1.2-gtk-3.0(>=3.10) mypaint-data(>=1.3.0~git4568-3d92aa7-1) python-gi-cairo python-numpy python(<<2.8) python(>=2.7~) python2.7 python(>=2.7.5-5~) libc6(>=2.11) libgcc1(>=1:4.2) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.12.0) libgomp1(>=4.9) libgtk-3-0(>=3.10) liblcms2-2(>=2.2+git20110628) libmypaint0 libpng12-0(>=1.2.13-4) libpython2.7(>=2.7) libstdc++6(>=5.2) ",
+          "recommends": "shared-mime-info ",
+          "suggests": "mypaint-data-extras ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "paint program for use with graphics tablets"
         },
         "myrulib_i386": 
         {
@@ -33684,6 +34479,21 @@
           "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
+        "gir12libmypaint0_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "12KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "94KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "development files for libmypaint"
+        },
         "goaccess_amd64": 
         {
           "packageurl": "http://notesalexp.org/yakkety/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_amd64.deb",
@@ -33895,6 +34705,37 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libmypaint0_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/libm/libmypaint/libmypaint0_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "108KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "581KiB",
+          "depends": "libc6(>=2.14) libglib2.0-0(>=2.12.0) libjson-c3(>=0.10) ",
+          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "MyPaint brush engine library"
+        },
+        "libmypaintdev_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/libm/libmypaint/libmypaint-dev_1.3.0+git704-6477ad3-1_amd64.deb",
+          "size": "8KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "42KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "Development files for libmypaint"
+        },
         "librecad_amd64": 
         {
           "packageurl": "http://notesalexp.org/yakkety/main/libr/librecad/librecad_2.1.0+git4278-1f8d882-1_amd64.deb",
@@ -34014,6 +34855,23 @@
           "sourcefile": "llpp_23.0.0+git2419-f15aac7-2.debian.tar.xz llpp_23.0.0+git2419-f15aac7-2.dsc llpp_23.0.0+git2419-f15aac7.orig.tar.xz ",
           "homepage": "http://repo.or.cz/w/llpp.git",
           "description": "lightweight PDF viewer"
+        },
+        "mypaint_amd64": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/m/mypaint/mypaint_1.3.0~git4568-3d92aa7-1_amd64.deb",
+          "size": "536KiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "2.80MiB",
+          "depends": "gir1.2-gtk-3.0(>=3.10) mypaint-data(>=1.3.0~git4568-3d92aa7-1) python-gi-cairo python-numpy python2.7 python(>=2.7.5-5~) libc6(>=2.14) libgcc1(>=1:3.0) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.12.0) libgomp1(>=4.9) libgtk-3-0(>=3.10) liblcms2-2(>=2.2+git20110628) libmypaint0 libpng16-16(>=1.6.2-1) libpython2.7(>=2.7) libstdc++6(>=5.2) ",
+          "recommends": "shared-mime-info ",
+          "suggests": "mypaint-data-extras ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "paint program for use with graphics tablets"
         },
         "myrulib_amd64": 
         {
@@ -34750,6 +35608,39 @@
           "sourcefile": "librecad_2.1.0+git4278-1f8d882-1.debian.tar.xz librecad_2.1.0+git4278-1f8d882-1.dsc librecad_2.1.0+git4278-1f8d882.orig.tar.xz ",
           "homepage": "http://www.librecad.org/",
           "description": "Computer-aided design (CAD) system -- shared files"
+        },
+        "mypaintdata_all": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/m/mypaint/mypaint-data_1.3.0~git4568-3d92aa7-1_all.deb",
+          "size": "3.42MiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "7.34MiB",
+          "breaks": "mypaint(<<1.1.0) ",
+          "replaces": "mypaint(<<1.1.0) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "runtime data files for MyPaint"
+        },
+        "mypaintdataextras_all": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/m/mypaint/mypaint-data-extras_1.3.0~git4568-3d92aa7-1_all.deb",
+          "size": "28.54MiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "28.89MiB",
+          "breaks": "mypaint-data(<<1.1.0) ",
+          "replaces": "mypaint-data(<<1.1.0) mypaint-data-hires ",
+          "conflicts": "mypaint-data-hires ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "high resolution backgrounds for mypaint"
         },
         "notesalexpkeyring_all": 
         {
@@ -37204,6 +38095,21 @@
           "homepage": "http://www.alessandrofrancesconi.it/projects/bimp/",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
+        "gir12libmypaint0_i386": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "12KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "94KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "development files for libmypaint"
+        },
         "goaccess_i386": 
         {
           "packageurl": "http://notesalexp.org/yakkety/main/g/goaccess/goaccess_1.1.0+git2113-cbde81d-1_i386.deb",
@@ -37415,6 +38321,37 @@
           "homepage": "",
           "description": "image processing library"
         },
+        "libmypaint0_i386": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/libm/libmypaint/libmypaint0_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "108KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "583KiB",
+          "depends": "libc6(>=2.4) libglib2.0-0(>=2.12.0) libjson-c3(>=0.10) ",
+          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "MyPaint brush engine library"
+        },
+        "libmypaintdev_i386": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/libm/libmypaint/libmypaint-dev_1.3.0+git704-6477ad3-1_i386.deb",
+          "size": "8KiB",
+          "version": "1.3.0+git704-6477ad3-1",
+          "isize": "42KiB",
+          "depends": "libmypaint0(=1.3.0+git704-6477ad3-1) ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "libmypaint",
+          "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
+          "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+          "homepage": "http://mypaint.org/",
+          "description": "Development files for libmypaint"
+        },
         "librecad_i386": 
         {
           "packageurl": "http://notesalexp.org/yakkety/main/libr/librecad/librecad_2.1.0+git4278-1f8d882-1_i386.deb",
@@ -37534,6 +38471,23 @@
           "sourcefile": "llpp_23.0.0+git2419-f15aac7-2.debian.tar.xz llpp_23.0.0+git2419-f15aac7-2.dsc llpp_23.0.0+git2419-f15aac7.orig.tar.xz ",
           "homepage": "http://repo.or.cz/w/llpp.git",
           "description": "lightweight PDF viewer"
+        },
+        "mypaint_i386": 
+        {
+          "packageurl": "http://notesalexp.org/yakkety/main/m/mypaint/mypaint_1.3.0~git4568-3d92aa7-1_i386.deb",
+          "size": "536KiB",
+          "version": "1.3.0~git4568-3d92aa7-1",
+          "isize": "2.78MiB",
+          "depends": "gir1.2-gtk-3.0(>=3.10) mypaint-data(>=1.3.0~git4568-3d92aa7-1) python-gi-cairo python-numpy python2.7 python(>=2.7.5-5~) libc6(>=2.11) libgcc1(>=1:4.2) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.12.0) libgomp1(>=4.9) libgtk-3-0(>=3.10) liblcms2-2(>=2.2+git20110628) libmypaint0 libpng16-16(>=1.6.2-1) libpython2.7(>=2.7) libstdc++6(>=5.2) ",
+          "recommends": "shared-mime-info ",
+          "suggests": "mypaint-data-extras ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "mypaint",
+          "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
+          "sourcefile": "mypaint_1.3.0~git4568-3d92aa7-1.debian.tar.xz mypaint_1.3.0~git4568-3d92aa7-1.dsc mypaint_1.3.0~git4568-3d92aa7.orig.tar.xz ",
+          "homepage": "http://mypaint.info/",
+          "description": "paint program for use with graphics tablets"
         },
         "myrulib_i386": 
         {
