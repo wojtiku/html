@@ -16,6 +16,12 @@
         <loc>http://notesalexp.org/packages/en/jessie/amd64/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/jessie/amd64/audacity/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/jessie/amd64/audacity-data/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/jessie/amd64/autopano-sift-c/</loc>
     </url>
     <url>
@@ -803,6 +809,12 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/jessie/i386/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/jessie/i386/audacity/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/jessie/i386/audacity-data/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/jessie/i386/autopano-sift-c/</loc>
@@ -2482,6 +2494,12 @@
         <loc>http://notesalexp.org/packages/en/sid/amd64/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/sid/amd64/audacity/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/sid/amd64/audacity-data/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/sid/amd64/autopano-sift-c/</loc>
     </url>
     <url>
@@ -3220,6 +3238,12 @@
         <loc>http://notesalexp.org/packages/en/sid/i386/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/sid/i386/audacity/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/sid/i386/audacity-data/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/sid/i386/autopano-sift-c/</loc>
     </url>
     <url>
@@ -3955,6 +3979,9 @@
         <loc>http://notesalexp.org/packages/en/source/aegisub/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/source/audacity/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/source/autopano-sift-c/</loc>
     </url>
     <url>
@@ -4136,6 +4163,12 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/amd64/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/stretch/amd64/audacity/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/stretch/amd64/audacity-data/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/amd64/autopano-sift-c/</loc>
@@ -4859,6 +4892,12 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/i386/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/stretch/i386/audacity/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/stretch/i386/audacity-data/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/i386/autopano-sift-c/</loc>
@@ -8272,6 +8311,12 @@
         <loc>http://notesalexp.org/packages/en/xenial/amd64/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/xenial/amd64/audacity/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/xenial/amd64/audacity-data/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/xenial/amd64/balsa/</loc>
     </url>
     <url>
@@ -8975,6 +9020,12 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/xenial/i386/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/xenial/i386/audacity/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/xenial/i386/audacity-data/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/xenial/i386/balsa/</loc>
@@ -9682,6 +9733,12 @@
         <loc>http://notesalexp.org/packages/en/yakkety/amd64/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/yakkety/amd64/audacity/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/yakkety/amd64/audacity-data/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/yakkety/amd64/balsa/</loc>
     </url>
     <url>
@@ -10346,6 +10403,12 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/yakkety/i386/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/yakkety/i386/audacity/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/yakkety/i386/audacity-data/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/yakkety/i386/balsa/</loc>
