@@ -11,7 +11,7 @@
       "description_aegisub": "Advanced subtitle editor",
       "description_aegisubl10n": "Aegisub language packages",
       "md5": " 0121f1db29cf9fad2e47a1241de85707 3820e2f104e2903bd6520d51e2a70620 90cc8ea2acb580479044527226a57ca2",
-      "size": " 8KiB 4KiB 48.54MiB"
+      "size": " 8 KiB  4 KiB  48.54 MiB "
     },
     "audacity": 
     {
@@ -25,7 +25,7 @@
       "description_audacity": "fast, cross-platform audio editor",
       "description_audacitydata": "fast, cross-platform audio editor (data)",
       "md5": " b78ccc94e72bd741a8da1871169235ba 15d609b4d4119295bef9c50501882137 4663713033fdfe0a5449dd11cac105f5",
-      "size": " 20KiB 4KiB 25.70MiB"
+      "size": " 20 KiB  4 KiB  25.70 MiB "
     },
     "autopanosiftc": 
     {
@@ -38,7 +38,7 @@
       "binary": "autopano-sift-c",
       "description_autopanosiftc": "Panorama images are wide-angle images that amaze people:",
       "md5": " 0ab4eceee96d300c3179ffc326bfdd32 8db6b312a7dfb30807cfc47e46e47303 7a97367308ed9e648c9093352102e116",
-      "size": " 4KiB 4KiB 200KiB"
+      "size": " 4 KiB  4 KiB  200 KiB "
     },
     "balsa": 
     {
@@ -51,7 +51,7 @@
       "binary": "balsa",
       "description_balsa": "e-mail client for GNOME",
       "md5": " 00e860868d5386436a823c83a7f25dac fa66e40a1a15ecb928724e9111a1bf05 5739efe943b993500c8872e189eecb86",
-      "size": " 8KiB 4KiB 3.34MiB"
+      "size": " 8 KiB  4 KiB  3.34 MiB "
     },
     "bmpanel2": 
     {
@@ -65,7 +65,7 @@
       "description_bmpanel2": "BitMap Panel",
       "description_bmpanel2cfg": "Preferences manager for BitMap Panel",
       "md5": " 249a3539c468db55c081e7a9220d4d2d df89c5dffe5e21d0bad7f6f722445fdc 0f9470e6249348ec18f456743c661aee",
-      "size": " 8KiB 4KiB 352KiB"
+      "size": " 8 KiB  4 KiB  352 KiB "
     },
     "calculixccx": 
     {
@@ -78,7 +78,7 @@
       "binary": "calculix-ccx",
       "description_calculixccx": "Three-Dimensional Structural Finite Element Program",
       "md5": " 9d2720b30c1b4f2c42e30cb6e83a5ad2 0b9f60be59ff9a955d5800af8da705f3 0a8d206675155325017ade75ee04c0bd",
-      "size": " 32KiB 4KiB 1008KiB"
+      "size": " 32 KiB  4 KiB  1008 KiB "
     },
     "clementine": 
     {
@@ -91,7 +91,7 @@
       "binary": "clementine",
       "description_clementine": "modern music player and library organizer",
       "md5": " 013c3c03e01842d4b6ce70b352614a42 bb78743752ef9288df78c442571def76 30a09f9676e981db18cd55da0965cc13",
-      "size": " 20KiB 4KiB 5.21MiB"
+      "size": " 20 KiB  4 KiB  5.21 MiB "
     },
     "compizboxmenu": 
     {
@@ -104,7 +104,7 @@
       "binary": "compizboxmenu",
       "description_compizboxmenu": "desktop menu for compiz",
       "md5": " 014af705df3fab5c0e8ec53c56f2e87c 10b4747d542ff6799b9d800d14cfabec 8d75a6dd86492157bab1ef23d1d7922f",
-      "size": " 8KiB 4KiB 64KiB"
+      "size": " 8 KiB  4 KiB  64 KiB "
     },
     "cuneiformlinux": 
     {
@@ -118,7 +118,7 @@
       "description_cuneiformlinux": "multi-language OCR system",
       "description_cuneiformcommon": "Data files for cuneiform-linux",
       "md5": " d822e4d7318799ca844bad0e9b07c82e ce76a77d36f2082e56c7a076385e7508 13a9cd8c13b910d1547c76857c743c3b",
-      "size": " 8KiB 4KiB 21.90MiB"
+      "size": " 8 KiB  4 KiB  21.90 MiB "
     },
     "deadbeef": 
     {
@@ -134,7 +134,7 @@
       "description_deadbeefgtk2": "GTK2 interface to DeaDBeeF",
       "description_deadbeef": "ultimate music player for GNU/Linux systems",
       "md5": " 02197f9131eabe9da94b2c3dd43d06e8 e93ef0fbe91083e0d8e262f92738e429 11e38a82f8221a462d049eda2db6d5af",
-      "size": " 12KiB 4KiB 5.84MiB"
+      "size": " 12 KiB  4 KiB  5.84 MiB "
     },
     "eigen3": 
     {
@@ -148,7 +148,7 @@
       "description_libeigen3dev": "lightweight C++ template library for linear algebra",
       "description_libeigen3doc": "eigen3 API documentation",
       "md5": " 7188de10bac5472174ded0f158db6eea d031cd34cd35f5a0986890d18e0474ae fd1ecefaacc9223958b6a66f9a348424",
-      "size": " 44KiB 4KiB 1.55MiB"
+      "size": " 44 KiB  4 KiB  1.55 MiB "
     },
     "eiskaltdcpp": 
     {
@@ -175,7 +175,7 @@
       "description_eiskaltdcppdaemon": "EiskaltDC++ daemon",
       "description_eiskaltdcppcli": "EiskaltDC++ command-line interface",
       "md5": " 2aef77b59ac0716b3a1fa4c932f672ac 82edf20a271e36f333cc9683c02b75b1 215a1d823d4609820bb910ceffca7371",
-      "size": " 16KiB 4KiB 2.22MiB"
+      "size": " 16 KiB  4 KiB  2.22 MiB "
     },
     "eiskaltdcppunstable": 
     {
@@ -202,7 +202,7 @@
       "description_eiskaltdcppdaemonunstable": "EiskaltDC++ daemon",
       "description_eiskaltdcppcliunstable": "EiskaltDC++ command-line interface",
       "md5": " 1999313a47fa048e488866e06cd63cd4 edfabca90c3856256d4b261b2d5f4f70 971b63705dbadac9b877137a7ce69237",
-      "size": " 12KiB 4KiB 2.21MiB"
+      "size": " 12 KiB  4 KiB  2.21 MiB "
     },
     "fatrat": 
     {
@@ -217,7 +217,7 @@
       "description_fatratdata": "data files for fatrat",
       "description_fatratdev": "development files for fatrat",
       "md5": " 4970ffb4283ac6b3c50e3d241b6446cd 1e3bffe14a05d856a37c5ed536779bfa 7409b9c5bc41c8233ba7604a9c79bd6b",
-      "size": " 8KiB 4KiB 4.32MiB"
+      "size": " 8 KiB  4 KiB  4.32 MiB "
     },
     "freecad": 
     {
@@ -231,7 +231,7 @@
       "description_freecad": "Extensible Open Source CAx program (alpha)",
       "description_freecaddoc": "FreeCAD documentation",
       "md5": " 7766e73401aece350dd7a297cf6a5d65 9e316b47f8833ab3b3230288133483ae 1dcbf82af892608ec5d1c2c86c233d64",
-      "size": " 16KiB 4KiB 95.99MiB"
+      "size": " 16 KiB  4 KiB  95.99 MiB "
     },
     "freecaddaily": 
     {
@@ -245,7 +245,7 @@
       "description_freecaddaily": "Extensible Open Source CAx program (beta)",
       "description_freecaddailydoc": "FreeCAD documentation",
       "md5": " a1bc573634d1f8af1a83ba7f148c15f1 86448e7dd6a90a43901e49e9906f94ca 440d4e8f8397bc554bfc7470385b7d86",
-      "size": " 20KiB 4KiB 97.90MiB"
+      "size": " 20 KiB  4 KiB  97.90 MiB "
     },
     "geeknote": 
     {
@@ -258,7 +258,7 @@
       "binary": "geeknote",
       "description_geeknote": "command line client for Evernote",
       "md5": " 01287492ca873de6f2b1cf1555439e30 73be300f4e0b2804d153862e82fa8fc7 5f9e3aae1a4323574395ef0fac1a9c8a",
-      "size": " 4KiB 4KiB 32KiB"
+      "size": " 4 KiB  4 KiB  32 KiB "
     },
     "gexiv2": 
     {
@@ -273,7 +273,7 @@
       "description_gir12gexiv2010": "GObject-based wrapper around the Exiv2 library - introspection data",
       "description_libgexiv2dev": "GObject-based wrapper around the Exiv2 library - development files",
       "md5": " 2e30e1b7748abac9a55f6d4e174cb9c2 23044bf308b938e978f15c9093141a08 7d6f7f76c0765a6911f9f9fa4b97cab8",
-      "size": " 12KiB 4KiB 264KiB"
+      "size": " 12 KiB  4 KiB  264 KiB "
     },
     "gimp": 
     {
@@ -290,7 +290,7 @@
       "description_libgimp20dev": "Headers and other files for compiling plugins for GIMP",
       "description_libgimp20doc": "Developers' Documentation for the GIMP library",
       "md5": " 0a0f0e717b9478cdd33f1943656cfb56 b230af68515a2ee40509917066a83eaf 5e9e806e0090ff0c87b5fd1205a1d08a",
-      "size": " 24KiB 4KiB 17.12MiB"
+      "size": " 24 KiB  4 KiB  17.12 MiB "
     },
     "gimpdevel": 
     {
@@ -305,7 +305,7 @@
       "description_gimpdeveldata": "Data files for GIMP",
       "description_gimpdeveldev": "Headers and other files for compiling plugins for GIMP",
       "md5": " 7bc6a0a4736eb1d3cb41eb85b6aa1fc6 f698e87d4bacd243fffe45218fa92456 10706db1253766a94cef782b85aa8bcf",
-      "size": " 60KiB 4KiB 93.25MiB"
+      "size": " 60 KiB  4 KiB  93.25 MiB "
     },
     "gimpgtk3": 
     {
@@ -320,7 +320,7 @@
       "description_gimpgtk3data": "Data files for GIMP",
       "description_gimpgtk3dev": "Headers and other files for compiling plugins for GIMP",
       "md5": " 6ec50060858d49aa40e30f7e5c366e41 d9e3c7fef1d343afa3831dda7c3bc7ef a84d15a8289f243eba85b5a30ae88878",
-      "size": " 40KiB 4KiB 92.89MiB"
+      "size": " 40 KiB  4 KiB  92.89 MiB "
     },
     "gimppluginbimp": 
     {
@@ -333,7 +333,7 @@
       "binary": "gimp-plugin-bimp",
       "description_gimppluginbimp": "plugin for The GIMP to manipulations on groups of images",
       "md5": " 9d31a814d5ab656b148320d941fadaab c993cdc95c8c08770536ff9c04f0c32a 3bee32e7984f88dd96a53bc5a785ae6a",
-      "size": " 4KiB 4KiB 452KiB"
+      "size": " 4 KiB  4 KiB  452 KiB "
     },
     "goaccess": 
     {
@@ -346,7 +346,7 @@
       "binary": "goaccess",
       "description_goaccess": "log analyzer and interactive viewer for the Apache Webserver",
       "md5": " 31be72a8a93500979084282c9c5ab05a ca7c6eaddcfc5a6c11c80d19c6bd29c5 bdcbcbf10eebd29b456721b3f70799ff",
-      "size": " 12KiB 4KiB 224KiB"
+      "size": " 12 KiB  4 KiB  224 KiB "
     },
     "kvirc": 
     {
@@ -362,7 +362,7 @@
       "description_kvircmodules": "KVIrc (IRC client) modules",
       "description_kvircdata": "Data files for KVIrc",
       "md5": " b4d8ebc2acedbc6692ba42647df0a489 dda64c4685b0d0a138336aafcebd7f2d 46af6b00aeb01f8ed7b5791579402451",
-      "size": " 16KiB 4KiB 3.57MiB"
+      "size": " 16 KiB  4 KiB  3.57 MiB "
     },
     "leptonlib": 
     {
@@ -377,7 +377,7 @@
       "description_liblept5": "image processing library",
       "description_leptonicaprogs": "sample programs for Leptonica image processing library",
       "md5": " 940994dd6f8a1778a75a6bf5b5ca04c7 83bd5f83458b3a1f107aec3282fb2725 b3de9ae35976fd4fc3f6dae5a4368bca",
-      "size": " 8KiB 4KiB 10.39MiB"
+      "size": " 8 KiB  4 KiB  10.39 MiB "
     },
     "libgtk2imageviewperl": 
     {
@@ -390,7 +390,7 @@
       "binary": "libgtk2-imageview-perl",
       "description_libgtk2imageviewperl": "Perl bindings for the GtkImageView image viewer widget",
       "md5": " 595f38dc84d031ff42c9162f4a9b8a46 9ac43e85ebee578fe9dc93b00391f5c4 7c961071b347b6a64b8351fdd87ec4c0",
-      "size": " 4KiB 4KiB 44KiB"
+      "size": " 4 KiB  4 KiB  44 KiB "
     },
     "libmypaint": 
     {
@@ -405,7 +405,7 @@
       "description_libmypaintdev": "Development files for libmypaint",
       "description_gir12libmypaint0": "development files for libmypaint",
       "md5": " f25fce6263d7cb15e070e296cc9a90b4 b6c2cb4b37899cb52e836ddff06e80cb b2c4cfb563abf445736be6853ebc1f0e",
-      "size": " 4KiB 4KiB 780KiB"
+      "size": " 4 KiB  4 KiB  780 KiB "
     },
     "librecad": 
     {
@@ -419,7 +419,7 @@
       "description_librecad": "Computer-aided design (CAD) system",
       "description_librecaddata": "Computer-aided design (CAD) system -- shared files",
       "md5": " ca53b7db5cbc55a7bc9315adb007a8c2 18830ae2ad6b740e3aad9399c29cdd80 feb253b642176fd1f4efc9f6abb646ec",
-      "size": " 8KiB 4KiB 5.74MiB"
+      "size": " 8 KiB  4 KiB  5.74 MiB "
     },
     "linuxdcpp": 
     {
@@ -432,7 +432,7 @@
       "binary": "linuxdcpp",
       "description_linuxdcpp": "Port of the Windows file-sharing program, DC++",
       "md5": " 386c7e2a035b22d833d291a22bc65866 6d2663ecd63851c63319c3cac4865606 64bda44a9e50a7aab5a3af09bde110b2",
-      "size": " 12KiB 4KiB 504KiB"
+      "size": " 12 KiB  4 KiB  504 KiB "
     },
     "llpp": 
     {
@@ -445,7 +445,7 @@
       "binary": "llpp",
       "description_llpp": "lightweight PDF viewer",
       "md5": " b2afb24bb6ce4ed3b3286aa214cc2693 e9fdbd044c9bb9be5b07a538bbbb55e4 cc10009f048907cea850676901588a28",
-      "size": " 8KiB 4KiB 25.97MiB"
+      "size": " 8 KiB  4 KiB  25.97 MiB "
     },
     "mypaint": 
     {
@@ -460,7 +460,7 @@
       "description_mypaintdata": "runtime data files for MyPaint",
       "description_mypaintdataextras": "high resolution backgrounds for mypaint",
       "md5": " 665f2e9499713b71337e24ced6734b24 0d6c657fa2b40cb6cda5adb81e6950cf fdbabd52ac29947b781fbcc02d565470",
-      "size": " 20KiB 4KiB 35.46MiB"
+      "size": " 20 KiB  4 KiB  35.46 MiB "
     },
     "myrulib": 
     {
@@ -473,7 +473,7 @@
       "binary": "myrulib",
       "description_myrulib": "Create your own collection of e-books",
       "md5": " 171d6d45cb9a506c1dba7dbf8b2f6a07 381d7d14014b1b0cd9f1773ab630e516 6ea29a68357862a192c3f9b15a1c7a79 e4c3a0f53ca1f8ef009ba61263070a76",
-      "size": " 24KiB 4KiB 3.23MiB 15.98MiB"
+      "size": " 24 KiB  4 KiB  3.23 MiB  15.98 MiB "
     },
     "netgen": 
     {
@@ -490,7 +490,7 @@
       "description_libnglib4913": "Automatic 3d tetrahedral mesh generator shared library",
       "description_netgenheaders": "Automatic 3d tetrahedral mesh generator internal headers",
       "md5": " b9b952e4d8f7ed53036bfcacf2ca206e 520fe188fb3753213d3e287963900b65 2d56642ca673106837bcd08ff9913d57",
-      "size": " 24KiB 4KiB 1.74MiB"
+      "size": " 24 KiB  4 KiB  1.74 MiB "
     },
     "obkey": 
     {
@@ -503,7 +503,7 @@
       "binary": "obkey",
       "description_obkey": "Graphical key editor for openbox",
       "md5": " 0fe379ae4ef5d507060355615214c8a5 015c382bb6beee028808af45d5b28d15 5d08713b8988a7136cfa5ddc97b94b4b",
-      "size": " 4KiB 4KiB 16KiB"
+      "size": " 4 KiB  4 KiB  16 KiB "
     },
     "oce": 
     {
@@ -526,7 +526,7 @@
       "description_liboceocafdev": "OpenCASCADE Community Edition CAE platform library development files",
       "description_libocevisualizationdev": "OpenCASCADE Community Edition CAE platform library development files",
       "md5": " 804ec31ef6ef2e59aa48a20679a4f0be e5806947f02a693e55927de9576f55fe 9f04f2d858f8708479d99e80ea3823d8",
-      "size": " 72KiB 4KiB 15.87MiB"
+      "size": " 72 KiB  4 KiB  15.87 MiB "
     },
     "ocrfeeder": 
     {
@@ -539,7 +539,7 @@
       "binary": "ocrfeeder",
       "description_ocrfeeder": "Document layout analysis and optical character recognition system",
       "md5": " 074863b7c6b146d1739343deda0b90e8 3d74a3a7007539083e005013a350e4c8 d3a6a113a514d4a7e5379c8327c2bd22",
-      "size": " 4KiB 4KiB 760KiB"
+      "size": " 4 KiB  4 KiB  760 KiB "
     },
     "openjpeg2": 
     {
@@ -560,7 +560,7 @@
       "description_libopenjp3dtools": "command-line tools using the JPEG 2000 - 3D library",
       "description_libopenjp2tools": "command-line tools using the JPEG 2000 library",
       "md5": " 102e51465227a12b03724d32fc6e91ab 0b39acf5368bc4e0e2eb4acaf8c13731 40a7bfdcc66280b3c1402a0eb1a27624",
-      "size": " 20KiB 4KiB 1.89MiB"
+      "size": " 20 KiB  4 KiB  1.89 MiB "
     },
     "ppastats": 
     {
@@ -573,7 +573,7 @@
       "binary": "ppastats",
       "description_ppastats": "Generates HTML pages containing statistics about a PPA",
       "md5": " aaf46f5062b5384665ab274f5d0def45 92da4abb6295130c2126f4472901badf a949783ccdaf7de16b44de762d0ec64f",
-      "size": " 4KiB 4KiB 260KiB"
+      "size": " 4 KiB  4 KiB  260 KiB "
     },
     "psiplus": 
     {
@@ -592,7 +592,7 @@
       "description_psiplussounds": "sound files for Psi+",
       "description_psiplusiconsnonfree": "additional icons for Psi+",
       "md5": " 6ad150d978ed85888e8fb9a6a54b2c4d 4cb16a792fc2eab4dc42b58bed8890c1 f05047ef3c08ec6a9fdca56c3be40435",
-      "size": " 12KiB 4KiB 16.49MiB"
+      "size": " 12 KiB  4 KiB  16.49 MiB "
     },
     "psiplusl10n": 
     {
@@ -605,7 +605,7 @@
       "binary": "psi-plus-l10n",
       "description_psiplusl10n": "localization files for Psi+",
       "md5": " dbbe6f8e4dc0c1ea00aac67c58e2be18 904ba14a5103ab4d609cc1d385e4160b 3164ac3346011c564e2bd283cc01d1c3",
-      "size": " 4KiB 4KiB 2.87MiB"
+      "size": " 4 KiB  4 KiB  2.87 MiB "
     },
     "pythonevernote": 
     {
@@ -618,7 +618,7 @@
       "binary": "python-evernote",
       "description_pythonevernote": "evernote-sdk for Python",
       "md5": " 0b028c79885fed1c97833205b4e5fa01 ec809f3232452794ef0ecb3d53f44dfc 7deded5f483b376b090e4cda20bf6449",
-      "size": " 4KiB 4KiB 628KiB"
+      "size": " 4 KiB  4 KiB  628 KiB "
     },
     "pythonmarkdown2": 
     {
@@ -631,7 +631,7 @@
       "binary": "python-markdown2",
       "description_pythonmarkdown2": "Python implementation of Markdown",
       "md5": " 5816edb4a11d48d228d93bb01638af20 2a3b251ab3949f88a42dc368d261ccdd 96ba85ea05d0e5388847a0b21cca9b83",
-      "size": " 4KiB 4KiB 1.01MiB"
+      "size": " 4 KiB  4 KiB  1.01 MiB "
     },
     "pythonoauth2": 
     {
@@ -644,7 +644,7 @@
       "binary": "python-oauth2",
       "description_pythonoauth2": "Library for OAuth version 1.0a (forked from python-oauth)",
       "md5": " 1e72ba398e72ffd69d4870bf76e2af72 55fc2432b07ad5049ddc3a896af34a7b 987ad7365a70e2286bd1cebb344debbc",
-      "size": " 4KiB 4KiB 20KiB"
+      "size": " 4 KiB  4 KiB  20 KiB "
     },
     "q4wine": 
     {
@@ -657,7 +657,7 @@
       "binary": "q4wine",
       "description_q4wine": "Qt GUI for wine (WINE)",
       "md5": " 4cc862d4f3bb2adb83e21176ad8e95dc fcfa7ffd9435c554b24639d0c3410715 12f5a07b4dd3e5b750d75b4892379304",
-      "size": " 8KiB 4KiB 2.94MiB"
+      "size": " 8 KiB  4 KiB  2.94 MiB "
     },
     "qcad": 
     {
@@ -671,7 +671,7 @@
       "description_qcad": "Computer Aided Drafting (CAD) software",
       "description_qcaddata": "Computer Aided Drafting (CAD) software -- shared files",
       "md5": " 329a6578076ea39b75982511f8e9ec1f 4b52a8b0e84c51d841eb4d5167ed1466 5c8157864d56ceb910ed42fbd2f0eb03",
-      "size": " 24KiB 4KiB 12.85MiB"
+      "size": " 24 KiB  4 KiB  12.85 MiB "
     },
     "qcomicbook": 
     {
@@ -684,7 +684,7 @@
       "binary": "qcomicbook",
       "description_qcomicbook": "qt viewer for comic book archives (cbr/cbz/cba/cbg/cbb)",
       "md5": " 4bdbd81d566fd3903c5b4798aa1fdb22 c1c67fe18c0deb849f3ca9418fbd7d98 9ea617c4e4917e8ee73163a1a2daee2a",
-      "size": " 8KiB 4KiB 644KiB"
+      "size": " 8 KiB  4 KiB  644 KiB "
     },
     "qpxtool": 
     {
@@ -700,7 +700,7 @@
       "description_libqpx0": "CD/DVD quality checker (shared libraries)",
       "description_libqpxdev": "CD/DVD quality checker (development files)",
       "md5": " d0f6f2f4e80d01c200f805f24963e005 50cb3ffd5dbd7c2769f385ee1c522acb b1235e74b8ef4fe087a6b64f5cfca14a",
-      "size": " 20KiB 4KiB 576KiB"
+      "size": " 20 KiB  4 KiB  576 KiB "
     },
     "qtboxeditor": 
     {
@@ -713,7 +713,7 @@
       "binary": "qt-box-editor",
       "description_qtboxeditor": "Tool for adjusting tesseract-ocr box files",
       "md5": " 2d0e72e7cf7f1f2b145408dd22c02cbf 62cc07c96894683cc811cb0393332508 8425892fdbcd5c8714856e02c60d1b01",
-      "size": " 4KiB 4KiB 9.10MiB"
+      "size": " 4 KiB  4 KiB  9.10 MiB "
     },
     "scantailor": 
     {
@@ -726,7 +726,7 @@
       "binary": "scantailor",
       "description_scantailor": "Interactive post-processing tool for scanned pages",
       "md5": " 989ffa397fd2a7761e52dbcb4651ee93 4e324190abaf40622a9b9177fa64ea08 b22eba9b6ad9943e8c8cc46bebaaf054",
-      "size": " 16KiB 4KiB 840KiB"
+      "size": " 16 KiB  4 KiB  840 KiB "
     },
     "smplayer": 
     {
@@ -740,7 +740,7 @@
       "description_smplayer": "Complete front-end for MPlayer, MPlayer2 and mpv",
       "description_smplayerl10n": "Complete front-end for MPlayer, MPlayer2 and mpv - translation files",
       "md5": " 24b4733d8fa825b500612408e673241f cba2977b9146a866757193cedd508c2f 97d0720c6d3f6d1b11ab99233f1164b9",
-      "size": " 12KiB 4KiB 3.42MiB"
+      "size": " 12 KiB  4 KiB  3.42 MiB "
     },
     "solvespace": 
     {
@@ -755,7 +755,7 @@
       "description_libslvs1": "SolveSpace geometric kernel",
       "description_libslvs1dev": "SolveSpace geometric kernel (development files)",
       "md5": " 9489ad7f69b08ef2a826bff2d5dda25d b1d052d12d7be3f8dec06db9de796fff 583bc28711a62313a8fc0cc9862a6d9a",
-      "size": " 12KiB 4KiB 19.37MiB"
+      "size": " 12 KiB  4 KiB  19.37 MiB "
     },
     "sz81": 
     {
@@ -768,7 +768,7 @@
       "binary": "sz81",
       "description_sz81": "Sinclair ZX80/ZX81 emulator",
       "md5": " 1a7e536836c71680e0eefabdd6143564 beb1338b804bd19a7326492bf2a217f3 cffb2dac04dac2eb7be1dfb13813665a",
-      "size": " 4KiB 4KiB 976KiB"
+      "size": " 4 KiB  4 KiB  976 KiB "
     },
     "tesseract": 
     {
@@ -785,7 +785,7 @@
       "description_tesseractocr": " Open Source OCR Engine",
       "description_tesseractocrall": "Tesseract OCR with all language packages",
       "md5": " 62ab6b29cc4ad1f515830dc3a60b7fed e9ecfd3df44ec7732cd64057cc5d1d2a 39be8331483ce5f7f4d6329895da22b0",
-      "size": " 12KiB 4KiB 6.50MiB"
+      "size": " 12 KiB  4 KiB  6.50 MiB "
     },
     "tesseractlang": 
     {
@@ -847,7 +847,7 @@
       "description_tesseractocrkatold": "tesseract-ocr language files for Old Georgian",
       "description_tesseractocrkaz": "tesseract-ocr language files for Kazakh",
       "md5": " 9935ce93497fc60d7c54dc955dba3961 c5eebba27bf8f291006f1262e21210eb aba926961360699e97eef5eb743103a7",
-      "size": " 8KiB 12KiB 942.91MiB"
+      "size": " 8 KiB  12 KiB  942.91 MiB "
     },
     "truecrypt": 
     {
@@ -860,7 +860,7 @@
       "binary": "truecrypt",
       "description_truecrypt": "Free open-source disk encryption software",
       "md5": " 633c097364ada43db13e017c1b31d599 5408fea1a8f2da4593e8755b7c995259 6b09f1fbd99c9914ebcd9b1209cf3ddc 102d9652681db11c813610882332ae48 e4c3a0f53ca1f8ef009ba61263070a76",
-      "size": " 16KiB 4KiB 20KiB 1.85MiB 15.98MiB"
+      "size": " 16 KiB  4 KiB  20 KiB  1.85 MiB  15.98 MiB "
     },
     "uget": 
     {
@@ -873,7 +873,7 @@
       "binary": "uget",
       "description_uget": "easy-to-use download manager written in GTK+",
       "md5": " f223ec070574597adc6372d2bde3f388 e7144f24744ebe0045cb3d0bfd351ec3 ac02ad2a63b76d53c414b2249ff387c4",
-      "size": " 12KiB 4KiB 888KiB"
+      "size": " 12 KiB  4 KiB  888 KiB "
     },
     "vacuum": 
     {
@@ -888,7 +888,7 @@
       "description_libvacuumutils37": "Jabber client using Qt (shared library)",
       "description_vacuumdev": "Development files for Vacuum",
       "md5": " fb614e7478abbb619a3b42a734cec7f7 7bc8b21bc871b386db16e68383bfac47 6ca67011038b262444c43f9fcb9e63b8",
-      "size": " 8KiB 4KiB 1.82MiB"
+      "size": " 8 KiB  4 KiB  1.82 MiB "
     },
     "veracrypt": 
     {
@@ -901,7 +901,7 @@
       "binary": "veracrypt",
       "description_veracrypt": "Free open-source disk encryption software",
       "md5": " ed258b5369d39dcad9e499cec55a2907 53d3c48080235da225211aff766dcc7a 06c2da461af62e78cc002e04c48b98cb",
-      "size": " 4KiB 4KiB 22.16MiB"
+      "size": " 4 KiB  4 KiB  22.16 MiB "
     },
     "yagf": 
     {
@@ -914,7 +914,7 @@
       "binary": "yagf",
       "description_yagf": "graphical interface for cuneiform and tesseract",
       "md5": " c8fcc671e6a9453d214734803ec53f19 e3fc35e3e7d26ffcc40a502a18eb8c7c c3405b9767ccd1376952ba69459ef49f",
-      "size": " 4KiB 4KiB 328KiB"
+      "size": " 4 KiB  4 KiB  328 KiB "
     },
     "znotes": 
     {
@@ -927,6 +927,6 @@
       "binary": "znotes",
       "description_znotes": "Simple lightweight application for notes",
       "md5": " 6d073097707efd8f774b7bcd6c8188c3 59a1da9d8d9a7f204a1709bca44f46e0 7b5a7b30c772057b24f0b0b52642a323",
-      "size": " 4KiB 4KiB 428KiB"
+      "size": " 4 KiB  4 KiB  428 KiB "
     }
 }
