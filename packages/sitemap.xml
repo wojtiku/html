@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>http://notesalexp.org/packages/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/</loc>
     </url>
     <url>
@@ -374,6 +377,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/jessie/amd64/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/jessie/amd64/pinta/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/jessie/amd64/ppastats/</loc>
@@ -1171,6 +1177,9 @@
         <loc>http://notesalexp.org/packages/en/jessie/i386/ocrfeeder/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/jessie/i386/pinta/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/jessie/i386/ppastats/</loc>
     </url>
     <url>
@@ -1855,6 +1864,9 @@
         <loc>http://notesalexp.org/packages/en/precise/amd64/ocrfeeder/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/precise/amd64/pinta/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/precise/amd64/psi-plus/</loc>
     </url>
     <url>
@@ -2297,6 +2309,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/precise/i386/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/precise/i386/pinta/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/precise/i386/psi-plus/</loc>
@@ -2795,6 +2810,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/sid/amd64/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/sid/amd64/pinta/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/sid/amd64/ppastats/</loc>
@@ -3541,6 +3559,9 @@
         <loc>http://notesalexp.org/packages/en/sid/i386/ocrfeeder/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/sid/i386/pinta/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/sid/i386/ppastats/</loc>
     </url>
     <url>
@@ -4084,6 +4105,9 @@
         <loc>http://notesalexp.org/packages/en/source/openjpeg2/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/source/pinta/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/source/ppastats/</loc>
     </url>
     <url>
@@ -4457,6 +4481,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/amd64/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/stretch/amd64/pinta/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/amd64/ppastats/</loc>
@@ -5186,6 +5213,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/i386/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/stretch/i386/pinta/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/i386/ppastats/</loc>
@@ -5920,6 +5950,9 @@
         <loc>http://notesalexp.org/packages/en/trusty/amd64/ocrfeeder/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/trusty/amd64/pinta/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/trusty/amd64/ppastats/</loc>
     </url>
     <url>
@@ -6650,6 +6683,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/trusty/i386/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/trusty/i386/pinta/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/trusty/i386/ppastats/</loc>
@@ -7504,6 +7540,9 @@
         <loc>http://notesalexp.org/packages/en/wheezy/amd64/obkey/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/wheezy/amd64/pinta/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/wheezy/amd64/psi-plus/</loc>
     </url>
     <url>
@@ -8116,6 +8155,9 @@
         <loc>http://notesalexp.org/packages/en/wheezy/i386/obkey/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/wheezy/i386/pinta/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/wheezy/i386/psi-plus/</loc>
     </url>
     <url>
@@ -8597,6 +8639,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/xenial/amd64/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/xenial/amd64/pinta/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/xenial/amd64/ppastats/</loc>
@@ -9310,6 +9355,9 @@
         <loc>http://notesalexp.org/packages/en/xenial/i386/ocrfeeder/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/xenial/i386/pinta/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/xenial/i386/ppastats/</loc>
     </url>
     <url>
@@ -9991,6 +10039,9 @@
         <loc>http://notesalexp.org/packages/en/yakkety/amd64/ocrfeeder/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/yakkety/amd64/pinta/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/yakkety/amd64/ppastats/</loc>
     </url>
     <url>
@@ -10661,6 +10712,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/yakkety/i386/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/yakkety/i386/pinta/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/yakkety/i386/ppastats/</loc>

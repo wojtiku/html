@@ -562,6 +562,19 @@
       "md5": " 102e51465227a12b03724d32fc6e91ab 0b39acf5368bc4e0e2eb4acaf8c13731 40a7bfdcc66280b3c1402a0eb1a27624",
       "size": " 20 KiB  4 KiB  1.89 MiB "
     },
+    "pinta": 
+    {
+      "version": "1.6+git1776-73a046e-1",
+      "description": " Simple drawing/painting program",
+      "sourceurl": "http://notesalexp.org/source/main/p/pinta",
+      "sourcefile": "pinta_1.6+git1776-73a046e-1.debian.tar.xz pinta_1.6+git1776-73a046e-1.dsc pinta_1.6+git1776-73a046e.orig.tar.xz ",
+      "homepage": "http://pinta-project.com/",
+      "depends": "debhelper(>=9) cli-common-dev(>=0.5.7~) autoconf automake dh-autoreconf gettext gtk-sharp2 yelp-tools libglib2.0-dev nunit-console mono-reference-assemblies-4.0|wget ",
+      "binary": "pinta",
+      "description_pinta": "Simple drawing/painting program",
+      "md5": " e708ab86433a2805f29cff6bd9a62ee2 26ccfd97788a69799a1914f71db466a5 29d8d2072ae89befd662ef8b3edf1ce2",
+      "size": " 16 KiB  4 KiB  11.49 MiB "
+    },
     "ppastats": 
     {
       "version": "1.3.3+git199-98899cb-1.1",
