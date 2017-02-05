@@ -337,15 +337,15 @@
     },
     "goaccess": 
     {
-      "version": "1:1.1.0+git2151-8e9e3a9-1",
+      "version": "1:1.1.0+git2151-8e9e3a9-2",
       "description": " log analyzer and interactive viewer for the Apache Webserver",
       "sourceurl": "http://notesalexp.org/source/main/g/goaccess",
-      "sourcefile": "goaccess_1.1.0+git2151-8e9e3a9-1.debian.tar.xz goaccess_1.1.0+git2151-8e9e3a9-1.dsc goaccess_1.1.0+git2151-8e9e3a9.orig.tar.xz ",
+      "sourcefile": "goaccess_1.1.0+git2151-8e9e3a9-2.debian.tar.xz goaccess_1.1.0+git2151-8e9e3a9-2.dsc goaccess_1.1.0+git2151-8e9e3a9.orig.tar.xz ",
       "homepage": "http://goaccess.prosoftcorp.com/",
       "depends": "debhelper(>=9) autotools-dev libncurses5-dev libglib2.0-dev libgeoip-dev autoconf automake libncursesw5-dev ",
       "binary": "goaccess",
       "description_goaccess": "log analyzer and interactive viewer for the Apache Webserver",
-      "md5": " 002c37a5c688883fc29361ab36b72333 cbc5f44c9a6633ce163167a8e30654df eee20205f342c34a888526dc2265c708",
+      "md5": " 2ea80e9c990b52bf69717d7afcfce97e 077b23f100440ab9bb04abeeb04660fd eee20205f342c34a888526dc2265c708",
       "size": " 12_KiB  4_KiB  228_KiB "
     },
     "kvirc": 
