@@ -1,16 +1,16 @@
 {
     "aegisub": 
     {
-      "version": "1:3.2.3~git7790-1042226-2",
+      "version": "1:3.2.3~git7790-1042226-3",
       "description": " Advanced subtitle editor",
       "sourceurl": "http://notesalexp.org/source/main/a/aegisub",
-      "sourcefile": "aegisub_3.2.3~git7790-1042226-2.debian.tar.xz aegisub_3.2.3~git7790-1042226-2.dsc aegisub_3.2.3~git7790-1042226.orig.tar.xz ",
+      "sourcefile": "aegisub_3.2.3~git7790-1042226-3.debian.tar.xz aegisub_3.2.3~git7790-1042226-3.dsc aegisub_3.2.3~git7790-1042226.orig.tar.xz ",
       "homepage": "http://www.aegisub.org/",
       "depends": "debhelper(>=9~) dh-autoreconf intltool libasound2-dev[linux-any] libass-dev libboost-dev libboost-filesystem-dev libboost-regex-dev libboost-system-dev libboost-thread-dev libffms2-dev libfftw3-dev libfontconfig1-dev libfreetype6-dev libgl1-mesa-dev|libgl-dev ccache libglu1-mesa-dev|libglu-dev libhunspell-dev libicu-dev libpulse-dev libwxgtk3.0-dev quilt libboost-locale-dev libboost-chrono-dev libavresample-dev liblua5.2-dev|liblua5.3-dev lua5.2|lua5.3 luajit git ",
       "binary": "aegisub aegisub-l10n",
       "description_aegisub": "Advanced subtitle editor",
       "description_aegisubl10n": "Aegisub language packages",
-      "md5": " 0121f1db29cf9fad2e47a1241de85707 3820e2f104e2903bd6520d51e2a70620 90cc8ea2acb580479044527226a57ca2",
+      "md5": " 96a3d2b3e6bacc79b7690cf6d04a782b c74e5a5b62ada8a0882ff408d109b49b 90cc8ea2acb580479044527226a57ca2",
       "size": " 8_KiB  4_KiB  48.54_MiB "
     },
     "audacity": 
