@@ -25,6 +25,9 @@
         <loc>http://notesalexp.org/packages/en/jessie/amd64/autopano-sift-c/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/jessie/amd64/azpainter/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/jessie/amd64/balsa/</loc>
     </url>
     <url>
@@ -821,6 +824,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/jessie/i386/autopano-sift-c/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/jessie/i386/azpainter/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/jessie/i386/balsa/</loc>
@@ -2515,6 +2521,9 @@
         <loc>http://notesalexp.org/packages/en/sid/amd64/autopano-sift-c/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/sid/amd64/azpainter/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/sid/amd64/balsa/</loc>
     </url>
     <url>
@@ -3262,6 +3271,9 @@
         <loc>http://notesalexp.org/packages/en/sid/i386/autopano-sift-c/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/sid/i386/azpainter/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/sid/i386/balsa/</loc>
     </url>
     <url>
@@ -4003,6 +4015,9 @@
         <loc>http://notesalexp.org/packages/en/source/autopano-sift-c/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/source/azpainter/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/source/balsa/</loc>
     </url>
     <url>
@@ -4193,6 +4208,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/amd64/autopano-sift-c/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/stretch/amd64/azpainter/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/amd64/balsa/</loc>
@@ -4927,6 +4945,9 @@
         <loc>http://notesalexp.org/packages/en/stretch/i386/autopano-sift-c/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/stretch/i386/azpainter/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/stretch/i386/balsa/</loc>
     </url>
     <url>
@@ -5651,6 +5672,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/trusty/amd64/autopano-sift-c/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/trusty/amd64/azpainter/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/trusty/amd64/balsa/</loc>
@@ -6386,6 +6410,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/trusty/i386/autopano-sift-c/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/trusty/i386/azpainter/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/trusty/i386/balsa/</loc>
@@ -8356,6 +8383,9 @@
         <loc>http://notesalexp.org/packages/en/xenial/amd64/audacity-data/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/xenial/amd64/azpainter/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/xenial/amd64/balsa/</loc>
     </url>
     <url>
@@ -9068,6 +9098,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/xenial/i386/audacity-data/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/xenial/i386/azpainter/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/xenial/i386/balsa/</loc>
@@ -9784,6 +9817,9 @@
         <loc>http://notesalexp.org/packages/en/yakkety/amd64/audacity-data/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/yakkety/amd64/azpainter/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/yakkety/amd64/balsa/</loc>
     </url>
     <url>
@@ -10457,6 +10493,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/yakkety/i386/audacity-data/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/yakkety/i386/azpainter/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/yakkety/i386/balsa/</loc>
