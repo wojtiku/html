@@ -42,16 +42,16 @@
     },
     "azpainter": 
     {
-      "version": "2.0.2-2",
+      "version": "2.0.2-3",
       "description": " 16bit RGB full color paint software",
       "sourceurl": "http://notesalexp.org/source/main/a/azpainter",
-      "sourcefile": "azpainter_2.0.2-2.debian.tar.xz azpainter_2.0.2-2.dsc azpainter_2.0.2.orig.tar.bz2 ",
+      "sourcefile": "azpainter_2.0.2-3.debian.tar.xz azpainter_2.0.2-3.dsc azpainter_2.0.2.orig.tar.bz2 ",
       "homepage": "https://osdn.net/projects/azpainter/",
       "depends": "debhelper(>=9) autotools-dev libx11-dev libxext-dev libxft-dev libxi-dev libjpeg-dev libpng-dev|libpng12-dev libfreetype6-dev libfontconfig1-dev zlib1g-dev ",
       "binary": "azpainter",
       "description_azpainter": "16bit RGB full color paint software.",
-      "md5": " aa630aff47f5f83f162d901c198bd589 d4390b0983577d6501c85a4a32cd90ab 90a01ec3e9355a28d4163f301380664f",
-      "size": " 16_KiB  4_KiB  744_KiB "
+      "md5": " e71f9e5458ce7afcbbc123bf51b17769 a79b162f730447f39f1f1c85e6f6f006 90a01ec3e9355a28d4163f301380664f",
+      "size": " 20_KiB  4_KiB  744_KiB "
     },
     "balsa": 
     {
@@ -248,16 +248,16 @@
     },
     "freecaddaily": 
     {
-      "version": "0.17~git10149-4169e94-1",
+      "version": "0.17~git10149-4169e94-2",
       "description": " Extensible Open Source CAx program (beta)",
       "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
-      "sourcefile": "freecad-daily_0.17~git10149-4169e94-1.debian.tar.xz freecad-daily_0.17~git10149-4169e94-1.dsc freecad-daily_0.17~git10149-4169e94.orig.tar.xz ",
+      "sourcefile": "freecad-daily_0.17~git10149-4169e94-2.debian.tar.xz freecad-daily_0.17~git10149-4169e94-2.dsc freecad-daily_0.17~git10149-4169e94.orig.tar.xz ",
       "homepage": "http://freecadweb.org/",
       "depends": "cmake debhelper(>=9) gfortran libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-signals-dev libboost-thread-dev libcoin80-dev libcv-dev libeigen3-dev libfreeimage-dev libfreetype6-dev libf2c2-dev libfltk1.3-dev libproj-dev libgts-bin libgts-dev libmed-dev libmedc-dev liboce-foundation-dev(>=0.17.1) liboce-modeling-dev(>=0.17.1) liboce-ocaf-dev(>=0.17.1) liboce-visualization-dev(>=0.17.1) libode-dev libpyside-dev libqt4-dev libqt4-opengl-dev libqtwebkit-dev libshiboken-dev libsoqt4-dev(>=1.6) libspnav-dev libtool libx11-dev libxerces-c-dev libxext-dev libxi-dev libxmu-dev libxt-dev libzipios++-dev libvtk6-dev vtk6 oce-draw python-pyside pyside-tools python-cxx-dev python-dev python-ply swig zlib1g-dev netgen-headers|wget doxygen mpi-default-dev ",
       "binary": "freecad-daily freecad-daily-doc",
       "description_freecaddaily": "Extensible Open Source CAx program (beta)",
       "description_freecaddailydoc": "FreeCAD documentation",
-      "md5": " 9b801d2fb9eece4d3002338edc55bfdd b47d4acd4e86cf89319f704151960f5b c24d83836d639c473b404297fe1292da",
+      "md5": " 82b3f6d1cc70bc63ac576aa422bbae7c 77d25d19a65c8b78fd3fa3e2d454303d c24d83836d639c473b404297fe1292da",
       "size": " 28_KiB  4_KiB  98.07_MiB "
     },
     "geeknote": 
@@ -687,16 +687,16 @@
     },
     "qcad": 
     {
-      "version": "3.16.5+git4362-745d320-1",
+      "version": "3.16.5+git4362-745d320-2",
       "description": " Computer Aided Drafting (CAD) software",
       "sourceurl": "http://notesalexp.org/source/main/q/qcad",
-      "sourcefile": "qcad_3.16.5+git4362-745d320-1.debian.tar.xz qcad_3.16.5+git4362-745d320-1.dsc qcad_3.16.5+git4362-745d320.orig.tar.xz ",
+      "sourcefile": "qcad_3.16.5+git4362-745d320-2.debian.tar.xz qcad_3.16.5+git4362-745d320-2.dsc qcad_3.16.5+git4362-745d320.orig.tar.xz ",
       "homepage": "http://www.qcad.org/",
       "depends": "debhelper(>=9) dh-exec libx11-dev libxext-dev libxrender-dev libglu1-mesa-dev libfreetype6-dev libfontconfig1-dev libssl-dev libdbus-1-dev libsm-dev qtbase5-dev libqt5svg5-dev qttools5-dev qtchooser qt5-qmake qtscript5-dev qttools5-dev-tools libqt5xmlpatterns5-dev libqt5webkit5-dev libqt5opengl5-dev imagemagick librsvg2-bin libqt5sql5-sqlite qt5-image-formats-plugins libqt5printsupport5 ",
       "binary": "qcad qcad-data",
       "description_qcad": "Computer Aided Drafting (CAD) software",
       "description_qcaddata": "Computer Aided Drafting (CAD) software -- shared files",
-      "md5": " c2b89a2a3d1b18470e66b396cf3d36d9 76904623925f49fda3482704a98e982f f785136a4965854d50e328a1b4af67e6",
+      "md5": " e29bf2220a70aebfe671f3d146008e81 214753f10ce25b0ab76de774e2897ccc f785136a4965854d50e328a1b4af67e6",
       "size": " 24_KiB  4_KiB  13.86_MiB "
     },
     "qcomicbook": 
