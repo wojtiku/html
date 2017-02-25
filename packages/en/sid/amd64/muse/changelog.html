@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | ChangeLog of package muse_2.1.2-1+nmu1_amd64.deb </title>
+    <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
+    <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="http://notesalexp.org/packages/css/package.css" type="text/css" />
+    <meta name="generator"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://notesalexp.org/html/">Home</a></li>
+                <li><a href="http://notesalexp.org/html/update.html">Update</a></li>
+                <li><a href="http://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li class="selected" ><a href="http://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="http://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="http://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+        <div id="pnavbar">
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages">Packages</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/sid/amd64">sid&nbsp;&#x2F;amd64</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/sid/amd64/muse"> muse </a>
+            &nbsp;&#x2F; ChangeLog
+        </div> <!-- end navbar -->
+    </header>
+    <div id="wrapper">
+        <div id="content">
+<div class="page">
+<h5>ChangeLog of package muse in sid of architecture amd64</h5>
+<div class="highlight"><pre><span></span>muse (2.1.2-1+nmu1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Backports from Sid
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 08 Sep 2013 18:38:11 +0400
+
+muse (2.1.2-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+  * Refresh patches.
+  * Fix doc links.
+
+ -- Alessio Treglia &lt;censored&gt;  Wed, 28 Aug 2013 16:25:57 +0100
+
+muse (2.1.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh patches.
+  * Remove unnecessary debian/patches/0001-es_locale_fix.patch.
+  * Fix Vcs fields.
+  * Refresh debian/copyright.
+  * Elaborate public-domain licensed code.
+  * Fix doc-base control file.
+  * Bump debhelper requirements.
+
+ -- Alessio Treglia &lt;censored&gt;  Thu, 31 Jan 2013 10:21:39 +0000
+
+muse (2.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh 1001-buildsystem.patch.
+
+ -- Alessio Treglia &lt;censored&gt;  Mon, 07 Jan 2013 10:27:14 +0000
+
+muse (2.1~rc2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Build-depend on libx11-dev.
+  * Refresh 1001-buildsystem.patch.
+
+ -- Alessio Treglia &lt;censored&gt;  Sat, 29 Dec 2012 15:09:36 +0000
+
+muse (2.1~rc1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Refresh 1001-buildsystem.patch.
+  * Bump Standards.
+
+ -- Alessio Treglia &lt;censored&gt;  Thu, 22 Nov 2012 01:16:59 +0000
+
+muse (2.0.1-1) unstable; urgency=low
+
+  [ Fabrice Coutadeur ]
+  * New stable bug fixing release.
+  * debian/compat: set compat to 9 to automatically get hardening flags
+
+  [ Alessio Treglia ]
+  * Add Fabrice Coutadeur to the Uploaders field.
+  * Refresh 1001-buildsystem.patch.
+
+ -- Fabrice Coutadeur &lt;censored&gt;  Sat, 04 Aug 2012 07:05:22 +0200
+
+muse (2.0-1) unstable; urgency=low
+
+  * New stable release.
+  * debian/rules: Exclude muse/widgets/arrangercolumns.{cpp,h}~ from being
+    deleted by dh_clean.
+  * Drop 0002-gcc_hardening.patch, applied upstream.
+  * Drop 0003-ftbfs_gcc47.patch, applied upstream.
+  * Refresh 1001-buildsystem.patch.
+
+ -- Alessio Treglia &lt;censored&gt;  Wed, 18 Jul 2012 16:07:06 +0200
+
+muse (2.0~rc2-2) unstable; urgency=low
+
+  * Fix build failure with GCC 4.6.
+    Thanks to Matthias Klose (Closes: #667290)
+  * Update debian/copyright.
+  * Update Standards.
+
+ -- Alessio Treglia &lt;censored&gt;  Tue, 17 Apr 2012 17:57:37 +0200
+
+muse (2.0~rc2-1) unstable; urgency=low
+
+  * New upstream RC.
+  * Refresh 1001-buildsystem.patch
+
+ -- Alessio Treglia &lt;censored&gt;  Mon, 09 Jan 2012 13:48:59 +0100
+
+muse (2.0~rc1-1) unstable; urgency=low
+
+  * New upstream RC release.
+  * Refresh patches, remove those patches not needed anymore.
+
+ -- Alessio Treglia &lt;censored&gt;  Sat, 03 Dec 2011 17:12:54 +0100
+
+muse (2.0~beta2-2) unstable; urgency=low
+
+  * Add patch to prevent FTBFS due to GCC's harden'd flags.
+
+ -- Alessio Treglia &lt;censored&gt;  Tue, 25 Oct 2011 11:00:24 +0200
+
+muse (2.0~beta2-1) unstable; urgency=low
+
+  * New maintainer (see bug 637185#12), thanks Daniel!
+  * New upstream release (Closes: #627371):
+    - New interface Qt4-based (Closes: #604584)
+  * Refresh packaging:
+    - Move to DH7 and source format 3.0 (quilt).
+    - Refresh patchset.
+    - Fix a bunch lintian warnings.
+    - debian/postinst:
+      + Use set -e in the body rather than pass -e on the #! line to make it
+        have actually effect if it is run by hand with "sh /path/to/script".
+    - Update instructions on how-to increase RTC clock frequency.
+      Thanks to Torquil Macdonald Sørensen for the report (Closes: #570833).
+    - Bump Standards.
+
+ -- Alessio Treglia &lt;censored&gt;  Fri, 12 Aug 2011 11:16:41 +0200
+
+muse (0.8.1a-7.2) unstable; urgency=low
+
+  * Non-maintainer upload.
+
+  [ Alessio Treglia ]
+  * debian/control, debian/rules:
+    - Drop LASH support (Closes: #628945).
+  * debian/rules:
+    - Do not ship *.la file (Closes: #622424).
+  * debian/patches/30_gcc46.dpatch:
+    - Fix FTBFS with gcc-4.6 (Closes: #628949)
+
+  [ Luca Falavigna ]
+  * debian/patches/30_whole-archive.dpatch:
+    - Handle --whole-archive as a linker flag.
+
+ -- Luca Falavigna &lt;censored&gt;  Sat, 18 Jun 2011 12:45:40 +0200
+
+muse (0.8.1a-7.1) unstable; urgency=high
+
+  * Non-maintainer upload.
+  * Removed ladcca-dev from Build-Dependencies (Closes: #606283)
+
+ -- Mehdi Dogguy &lt;censored&gt;  Fri, 10 Dec 2010 21:07:59 +0100
+
+muse (0.8.1a-7) unstable; urgency=high
+
+  * Added patches:
+    + [10_64bit_memcorruption_fix] New.
+      Fix memory corruption in Pool allocator on 64bit architectures.
+      Closes: #558285
+    + [10_es_locale_fix] New.
+      Fix character encoding in Spanish localization file. Patch thanks
+      to Christian Perrier. Closes: #415304
+
+ -- Daniel Kobras &lt;censored&gt;  Sun, 06 Dec 2009 19:04:05 +0100
+
+muse (0.8.1a-6.3) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Get ready for being built with GCC 4.4.
+    Thanks to Stefan Potyra for the patch
+    Closes: #548468
+
+ -- Christian Perrier &lt;censored&gt;  Sun, 27 Sep 2009 08:18:22 +0200
+
+muse (0.8.1a-6.2) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Build-Depends on libjack-dev. Closes: #527418
+  * Bump debhelper compatibility to 7 (4 is outdated)
+  * Replace deprecated "dh_clean -k" by dh_prep
+  * Fix pending l10n issues. Debconf translations:
+    - Italian (Vincenzo Campanella).  Closes: #502471
+    - Japanese (Hideki Yamane (Debian-JP)).  Closes: #512977
+    - Vietnamese (Clytie Siddall).  Closes: #513669
+
+ -- Christian Perrier &lt;censored&gt;  Sun, 13 Sep 2009 19:53:22 +0200
+
+muse (0.8.1a-6.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix pending l10n issues. Debconf translations:
+    - Swedish. Closes: #491951
+    - Russian. Closes: #501474
+    - Basque. Closes: #501611
+    - Arabic. Closes: #501633
+    - Finnish. Closes: #501711
+
+ -- Christian Perrier &lt;censored&gt;  Tue, 14 Oct 2008 07:15:10 +0200
+
+muse (0.8.1a-6) unstable; urgency=low
+
+  * Added patches:
+    + [10_gcc43_build_fixes] New.
+      Add various includes to fix build failures with g++ 4.3. Extended
+      version of original patch by Martin Michlmayr. Closes: #417452
+  * debian/control: Package complies with version 3.7.3 of Debian policy.
+  * debian/copyright: Recode as UTF-8.
+  * debian/menu: Move section from "Apps" to current "Applications".
+  * debian/muse.doc-base: Register documentation in section "Sound".
+  * debian/po/nl.po: Add Dutch translation of debconf messages.
+    Closes: #418901
+  * debian/rules: No longer ignore all errors from make clean.
+  * debian/rules: Forcibly convince libtool to not generate an rpath entry
+    on 64bit platforms.
+  * debian/rules: Specify corrent directory to wipe backup file .muse.bin.bak
+    from. Fixes errors when building package twice in a row. Closes: #424585
+
+ -- Daniel Kobras &lt;censored&gt;  Sun, 09 Mar 2008 15:33:08 +0100
+
+muse (0.8.1a-5) unstable; urgency=low
+
+  * Added patches:
+    + [10_lash_private_api_fix] New.
+      Don't use functions from LASH's internal API. Fixes build errors
+      with recent liblash. Closes: #431327
+
+ -- Daniel Kobras &lt;censored&gt;  Wed, 11 Jul 2007 20:11:14 +0200
+
+muse (0.8.1a-4) unstable; urgency=low
+
+  * debian/po/es.po: Include Spanish translation of debconf messages.
+    Closes: #409264
+  * debian/po/pt.po: Include Portuguese  translation of debconf messages.
+    Closes: #409699
+
+ -- Daniel Kobras &lt;censored&gt;  Tue,  6 Feb 2007 18:58:56 +0100
+
+muse (0.8.1a-3) unstable; urgency=medium
+
+  * debian/README.Debian: Refine documentation about how to run non-suid,
+    now that libpam-modules allows ordinary users to tweak realtime
+    priorities. Bump urgency so we hopefully can slip into testing shortly
+    after the PAM changes.
+  * debian/po/fr.po: Include updated French translation of debconf
+    messages. Closes: #378348
+  * debian/po/cs.po: Include updated Czech translation of debconf
+    messages. Closes: #389625
+
+ -- Daniel Kobras &lt;censored&gt;  Wed, 25 Oct 2006 16:48:53 +0200
+
+muse (0.8.1a-2) unstable; urgency=low
+
+  * Make sure README.Debian gets included in the package. Oops.
+  * debian/po/da.po: Updated translation of debconf messages.
+    Closes: #377669
+
+ -- Daniel Kobras &lt;censored&gt;  Mon, 10 Jul 2006 16:56:47 +0200
+
+muse (0.8.1a-1) unstable; urgency=low
+
+  * New upstream version. Closes: #362193
+  * Added patches:
+    + [10_log2f_aliasing_fix] New.
+      Replace old version of log2f() that breaks strict aliasing rules with
+      new implementation already provided elsewhere.
+    + [10_vamgui_init_fix] New.
+      Don't reference an uninitialised variable.
+  * Removed patches:
+    + [10_amd64_rtctimer_segfault_fix_CVS]
+      Included upstream.
+    + [20_allow_system_timer]
+      Breaks non-suid-root installations. Better alternatives exist.
+      Closes: #360487
+  * debian/README: New document elaborating on various alternatives to
+    suid-root installation. Kudos to Matthias Koenig for the original
+    German version.
+  * debian/control: Build-depend on liblash-dev instead of its
+    predecessor ladcca-dev. (For now, we still need to keep the ladcca-dev
+    build-dependency because of a bug in libfluidsynth-dev.)
+  * debian/control: Complies with version 3.7.2 of Debian policy. Bump
+    standards version accordingly.
+  * debian/grepmidi.1: New man page for grepmidi utility.
+  * debian/muse.1: Added man page for main executable. Closes: #367811
+  * debian/muse.desktop: Desktop entry file to register MusE with desktop
+    environments. Provided by Free Ekanayaka. Closes: #370018
+  * debian/muse-song-convert.1: Update FSF address.
+  * debian/rules: Install desktop entry file to proper location.
+  * debian/rules: Install new man pages.
+  * debian/rules: Configure with LASH support instead of obsolete LADCCA.
+  * debian/rules: Override output of LASH's pkg-config to get rid of a
+    bogus rpath.
+  * debian/rules: Add support for noopt in DEB_BUILD_OPTIONS.
+  * debian/rules: Pass build and host options to configure from dpkg-supplied
+    information.
+  * debian/templates: Tweaked explanation of suid-root installation now that
+    system timer patch has been removed.
+  * debian/watch: Unmaintained, buggy, doesn't belong into the package
+    itself in my opinion. Dropped.
+  * debian/po/de.po: Updated translation.
+
+ -- Daniel Kobras &lt;censored&gt;  Thu,  6 Jul 2006 13:10:26 +0200
+
+muse (0.7.1+0.7.2pre5-2) unstable; urgency=medium
+
+  * Added patches:
+    + [10_amd64_rtctimer_segfault_fix_CVS] From upstream CVS.
+      Do not read 64bits of input into a 32bit variable. Fixes a timer
+      related segfault on 64bit archs. Closes: #351477
+
+ -- Daniel Kobras &lt;censored&gt;  Mon,  6 Feb 2006 21:38:06 +0100
+
+muse (0.7.1+0.7.2pre5-1) unstable; urgency=low
+
+  * New upstream version.
+  * Updated patches:
+    + [20_allow_system_timer]
+      Rediffed for 0.7.2pre5.
+
+ -- Daniel Kobras &lt;censored&gt;  Tue,  3 Jan 2006 20:18:47 +0100
+
+muse (0.7.1+0.7.2pre4-1) unstable; urgency=low
+
+  * New upstream version.
+  * Updated patches:
+    + [20_allow_system_timer]
+      Rediffed for 0.7.2pre4.
+  * Removed patches:
+    + [30_deleted_signal_64bit_fix]
+      Merged upstream.
+
+ -- Daniel Kobras &lt;censored&gt;  Tue, 27 Dec 2005 12:06:48 +0100
+
+muse (0.7.1+0.7.2pre3-1) unstable; urgency=low
+
+  * New upstream version.
+    + Includes fix for timer-related crashes. Closes: #325064
+  * Updated patches:
+    + [30_deleted_signal_64bit_fix]
+      Rediffed for 0.7.2pre3.
+  * Removed patches:
+    + [10_checkbox_fix]
+    + [10_html_doc_cleanup]
+      Both merged upstream.
+  * debian/po/sv.po: Added Swedish translation of of debconf template.
+    Closes: #333198
+
+ -- Daniel Kobras &lt;censored&gt;  Thu,  8 Dec 2005 13:50:08 +0100
+
+muse (0.7.1+0.7.2pre2-4) unstable; urgency=low
+
+  * Updated patches:
+    + [30_deleted_signal_64bit_fix]
+      Need to include casts in Toplevel constructor calls as well.
+
+ -- Daniel Kobras &lt;censored&gt;  Tue, 23 Aug 2005 17:19:39 +0200
+
+muse (0.7.1+0.7.2pre2-3) unstable; urgency=low
+
+  * Updated patches:
+    + [30_deleted_signal_64bit_fix]
+      Use correct regexp to generate this patch so really all casts are
+      caught.
+
+ -- Daniel Kobras &lt;censored&gt;  Tue, 23 Aug 2005 13:13:41 +0200
+
+muse (0.7.1+0.7.2pre2-2) unstable; urgency=low
+
+  * Added patches:
+    + [30_deleted_signal_64bit_fix] New.
+      Cast pointers to properly sized integers only in order to fix
+      build breakage on 64bit architectures.
+
+ -- Daniel Kobras &lt;censored&gt;  Mon, 22 Aug 2005 23:52:10 +0200
+
+muse (0.7.1+0.7.2pre2-1) unstable; urgency=low
+
+  * New upstream version, fixing various build failures with g++ 4.0.
+    Closes: #318029, #323729
+  * Added patches:
+    + [20_allow_system_timer]
+      Reintroduced and upgraded to current upstream version.
+  * Updated patches:
+    + [10_html_doc_cleanup]
+      Update to 0.7.2pre2. Consistently use new location of upstream
+      homepage.
+  * debian/NEWS: Add note about incompatible change of song file format
+    between 0.6 and 0.7.
+  * debian/control: Change default libjack build-dependency to 0.100.0.
+    Closes: #317213
+  * debian/control: Add new build dependency on libsamplerate0-dev.
+  * debian/control: Depend on python for the sake of muse-song-convert.
+  * debian/control: Bump standards version to 3.6.2.
+  * debian/copyright: Update download location.
+  * debian/menu: Include icon in menu. Closes: #299389
+  * debian/muse.xpm: New menu icon by Tim Hall.
+  * debian/muse-song-convert.py: Add tool to convert songs from 0.6 to 0.7
+    file format. Meant to be distributed in upstream tarball but missing by
+    mistake.
+  * debian/muse-song-convert.1: Supply simple man page for conversion tool.
+  * debian/rules: Explicitly turn on ladcca support.
+  * debian/rules: Install menu icon.
+  * debian/rules: Install song conversion tool and man page.
+  * debian/templates: Improved wording and typo fixes. Closes: #312989
+  * debian/po/*: Unfuzz translations due to above changes.
+  * debian/po/vi.po: Added Vietnamese translation of debconf template.
+    Closes: #312990
+  * debian/po/de.po: Consistently use new German spelling. Closes: #313958
+
+ -- Daniel Kobras &lt;censored&gt;  Thu, 18 Aug 2005 15:52:36 +0200
+
+muse (0.7.0-1) UNRELEASED; urgency=low
+
+  * New upstream release Closes: #260482
+  * Removed patches:
+    + [10_alsa_init_fix]
+      Obsolete, only JACK is supported now.
+    + [10_canvas_translation_fix]
+      Merged upstream.
+    + [10_PIC_fixes]
+    + [11_PIC_fixes_fixup]
+    + [20_allow_system_timer]
+      Disabled as they didn't apply cleanly.. do we need them?
+  * Updated patches:
+    + [10_checkbox_fix]
+      Most parts merged upstream.
+  * debian/watch: Added.
+  
+ -- Free Ekanayaka &lt;censored&gt;  Wed, 13 Oct 2004 17:35:22 +0200
+
+muse (0.6.3-2) unstable; urgency=medium
+
+  * debian/po/fr.po: Added French translation of debconf template.
+    Closes: #232292
+  * debian/po/da.po: Added Danish translation of debconf template.
+    Closes: #262899
+  * debian/postinst: Handle transition of /usr/share/muse/html from a
+    directory to a symlink by hand as dpkg doesn't do so for us.
+    Closes: #234867
+  * debian/menu: Quote all strings to keep lintian happy.
+
+ -- Daniel Kobras &lt;censored&gt;  Thu, 26 Aug 2004 00:15:48 +0200
+
+muse (0.6.3-1) unstable; urgency=low
+
+  * New upstream version.
+  * Added patches:
+    + [10_alsa_init_fix] New, from upstream CVS.
+      Initialize direction variable when setting Alsa parameters.
+    + [10_canvas_translation_fix] New, from upstream CVS.
+      Do not translate tooltips twice in canvas popup.
+    + [10_checkbox_fix] New, from upstream CVS.
+      Use proper set/test methods on metronome checkboxes.
+    + [10_html_doc_cleanup] New.
+      Fix links and HTML errors in documentation.
+    + [20_allow_system_timer] New.
+      The new upstream version fails by default if the real-time clock
+      could not be accessed (usually the case when not running suid-root).
+      This patch reverts the old behaviour of falling back to the more
+      inaccurate system timer.
+  * Updated patches:
+    + [11_PIC_fixes_fixup] Rediffed.
+  * Removed patches:
+    + [20_no_atomic_asm] Merged upstream.
+  * debian/compat: Splice out debhelper compatibility level from rules file.
+  * debian/control: Build-depend on latest jack release by default.
+    Closes: #228788
+  * debian/control: Bump standards version.
+  * debian/control: Use auto-generated debconf dependency via misc:Depends.
+  * debian/control: Minor tweaks to the long description.
+  * debian/control: Tighten fluidsynth build dependency to sane version.
+  * debian/muse.doc-base: New. Register HTML documentation with doc-base.
+  * debian/templates: Tiny rewording, and typo fix.
+  * debian/templates, debian/po/*: Switch to po-debconf for translations.
+
+ -- Daniel Kobras &lt;censored&gt;  Sat,  7 Feb 2004 15:18:22 +0100
+
+muse (0.6.2-1) unstable; urgency=low
+
+  * New upstream version.
+  * Updated patches:
+    + [10_PIC_fixes], [11_PIC_fixes_fixup] Rediffed.
+      Most parts merged upstream. Still need to make sure we do not
+      build musewidgetsplugin.
+  * Removed patches:
+    + [10_debashify_autogen] Merged upstream.
+    + [10_qt_detection], [11_qt_detection_fixup] Merged upstream.
+    + [10_libtool_shrext] Obsolete.
+      Upstream now uses matching libtool m4 macros and ltmain.sh.
+    + [20_static_convenience_libs], [21_static_convenience_libs_fixup]
+      Merged upstream.
+    + [20_enable_shared], [21_enable_shared_fixup] Merged upstream.
+
+ -- Daniel Kobras &lt;censored&gt;  Mon, 10 Nov 2003 00:32:03 +0100
+
+muse (0.6.1deb1-2) unstable; urgency=low
+
+  * debian/control: Build depend on autotools-dev.
+  * debian/rules: Automatically update autotools helpers from autotools-dev.
+
+ -- Daniel Kobras &lt;censored&gt;  Tue, 12 Aug 2003 17:49:25 +0200
+
+muse (0.6.1deb1-1) unstable; urgency=low
+
+  * New upstream version.
+    + Removed soundfont 'MiniPiano' and stklib4 from upstream tarball
+      because of licensing problems. Closes: #203237
+    + Repackaged as version 0.6.1deb1 because of the above.
+  * Applied patches:
+    + [10_debashify_autogen] Taken from previous diff.gz.
+      Fix bashism in autogen.sh, and explicitly call automake-1.7.
+    + [10_qt_detection] Updated from previous diff.gz.
+      Search all lines of moc and uic output in qt.m4.
+    + [11_qt_detection_fixup] New.
+      Propagate m4 changes from 10_qt_detection to aclocal.m4 and configure.
+    + [10_PIC_fixes] New.
+      Build plugins as libtool libraries. Closes: #202364
+    + [11_PIC_fixes_fixup] New.
+      Propagate Makefile.am changes from 10_PIC_fixes to Makefile.ins.
+    + [10_libtool_shrext] New.
+      Tell libtool to add proper .so suffix to shared libs. Looks like
+      upstream used a buggy libtool.
+    + [20_no_atomic_asm] Updated from previous diff.gz.
+      Do not include asm/atomic.h. Use pthreads replacement instead.
+    + [20_static_convenience_libs] New.
+      Modify build system to always build convenience libs static only.
+    + [21_static_convenience_libs_fixup] New.
+      Propagate Makefile.am changes from 20_static_convenience_libs to
+      Makefile.ins.
+    + [20_enable_shared] New.
+      Build shared libraries by default.
+    + [21_enable_shared_fixup] New.
+      Propagate configure.ac changes from 20_enable_shared to configure.
+  * debian/control: Build depend on dpatch. Bump debhelper build dep.
+  * debian/control: Build depend on new ladcca-dev.
+  * debian/control: Build depend on uuid-dev until ladcca-dev does so itself.
+  * debian/control: docbook test fails anyway, remove build dep.
+  * debian/control: Versioned build dep on libfluidsynth that does not
+    induce an rpath. No longer need to build dep on readline and ncurses,
+    therefore.
+  * debian/control: Be less version happy about libjack build dep - added
+    libjack-dev alternative.
+  * debian/control: Build deps on libqt3-compat-headers and
+    libqt3-plugins-headers are no longer needed.
+  * debian/control: New maintainer.
+  * debian/copyright: Document removal of soundfont and stklib4 from
+    upstream tarball.
+  * debian/copyright: Detailed listing of copyrights and licenses.
+  * debian/dirs: Not needed, thus removed.
+  * debian/docs: TODO is no longer present in upstream dist.
+  * debian/postinst: Use dpkg-statoverride for suid installation.
+  * debian/rules: Switch to dpatch.
+  * debian/rules: Use debhelper compat level 4.
+  * debian/rules: Move on-line docs below /usr/share/doc/muse.
+    Closes: #183729
+  * debian/templates: Re-wrote suid info.
+
+ -- Daniel Kobras &lt;censored&gt;  Sun, 10 Aug 2003 16:58:27 +0200
+
+muse (0.6.0release-2.1) unstable; urgency=low
+
+  * NMU from the DebCamp BSP.
+  * Updated config.guess and config.sub to the latest versions in
+    autotools-dev (Closes: #165663).
+  * Removed -fPIC flags that upstream seems to have randomly put here and
+    there (Closes: #143985). The proper way to fix this is to use libtool.
+  * autogen.sh:
+    + Removed a "function" bashism.
+    + Replaced automake and aclocal with automake-1.7 and aclocal-1.7.
+    + Re-ran autogen.sh.
+  * debian/:
+    + control:
+      - Set policy to 3.6.0. No changes required.
+      - Added build-dependencies on libncurses5-dev and libreadline4-dev
+        because libfluidsynth-dev does not depend on them (Closes: #199088).
+    + rules:
+      - Added "touch" calls to avoid automake timestamp issues, because we
+        modify Makefile.am files in our diff.
+      - Removed leading "A" from the short description.
+      - Delete config.log in the clean rule.
+    + docs:
+      - Do not distribute AUTHORS, upstream's empty.
+  * m4/qt.m4:
+    + Get all lines from the uic output instead of just the first one, because
+      it outputs cruft to stdout when in a chroot (Closes: #172988).
+  * synti/stklib4/:
+    + Makefile.am Makefile.in: removed -D__LITTLE_ENDIAN__ (Closes: #165664).
+    + *.cpp: Replaced __LITTLE_ENDIAN__ tests with proper BYTE_ORDER tests.
+  * node.h node.cpp:
+    + Added replacements for atomic_set, atomic_read etc. for sparc32. Fixes
+      the sparc build.
+  * Include "config.h" in files that include "node.h".
+
+ -- Sam Hocevar (Debian packages) &lt;censored&gt;  Fri, 18 Jul 2003 15:05:49 +0200
+
+muse (0.6.0release-2) unstable; urgency=low
+
+  * Compiled against new version of libjack
+
+ -- Olaf Stetzer &lt;censored&gt;  Thu, 26 Jun 2003 21:04:12 +0200
+
+muse (0.6.0release-1) unstable; urgency=low
+
+  * New upstream release
+  * Added support for fluidsynth which is the 
+    successor of iiwusynth (closes: #187074)
+  * Defined QTDIR which hopefully enables the build
+    on some archs and possibly using pbuilder.
+  
+ -- Olaf Stetzer &lt;censored&gt;  Tue, 20 May 2003 22:47:03 +0200
+
+muse (0.6.0pre8-1) unstable; urgency=low
+
+  * New upstream release
+  * Added build-dep on libqt3-plugins-headers (closes: #187604)
+
+ -- Olaf Stetzer &lt;censored&gt;  Fri,  4 Apr 2003 22:20:19 +0200
+
+muse (0.6.0pre7-2) unstable; urgency=low
+
+  * Added build-dep on libqt3-compat-headers (closes: #186931)
+
+ -- Olaf Stetzer &lt;censored&gt;  Mon, 31 Mar 2003 22:11:31 +0200
+
+muse (0.6.0pre7-1) unstable; urgency=low
+
+  * New upstream version.
+  * Build using gcc 3.2 (closes: #181390)
+
+ -- Olaf Stetzer &lt;censored&gt;  Sun, 30 Mar 2003 13:51:42 +0200
+
+muse (0.5.3-1) unstable; urgency=low
+
+  * New upstream version. Applied the patches from Daniel to
+    widgets/Makefile.in and widgets/Makefile.am
+
+ -- Olaf Stetzer &lt;censored&gt;  Wed, 15 May 2002 21:29:54 +0200
+
+muse (0.5.2-1.2) unstable; urgency=medium
+
+  * NMU.
+  * widgets/Makefile.in, widgets/Makefile.am: Remove broken rules to
+    build files that aren't used anyway. Closes: #143985
+  * debian/control: More tiny formatting tweaks.
+
+ -- Daniel Kobras &lt;censored&gt;  Tue, 23 Apr 2002 17:28:23 +0200
+
+muse (0.5.2-1.1) unstable; urgency=medium
+
+  * NMU.
+  * themes/: Include private copy of qwindowsstyle from qt3 source.
+    The qt3 Debian packages ship it only as a plugin, but we derive our own
+    classes from QWindowsStyle and really need to link against it.
+    Closes: #141872
+  * app.cpp: Use proper QStyleFactory to access qt3's default styles. Makes
+    sure that muse will link even if the styles are built as plugins.
+  * sf/pcm.cpp: Change type of second argument in various read() methods to
+    match definition in header file. Fixes compile errors on 64bit archs.
+    Closes: #140184
+  * plugins/freeverb/Makefile.am, plugins/freeverb/Makefile.in: Remove
+    -mpentiumpro from AM_CXXFLAGS. Fixes compile errors on non-x86.
+    Closes: #139490
+  * globals.cpp, globals.h, mess.h, midiport.h, score/layout.cpp: Converted
+    char to signed char where appropriate. Fixes archs where char is
+    unsigned by default.
+  * debian/rules: pass --disable-shared to configure, so convenience libs
+    get built static-only. Cuts build time in half.
+  * debian/control: Fix indents in Description field. Closes: #139459
+  * debian/copyright: Add pointer to complete text of GPL. Add http:// to
+    download URL.
+  * debian/: Remove dh_make example files.
+
+ -- Daniel Kobras &lt;censored&gt;  Sat, 20 Apr 2002 01:25:35 +0200
+
+muse (0.5.2-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Olaf Stetzer &lt;censored&gt;  Thu,  07 Mar 2002 20:50:15 +0100
+</pre></div>
+</div></div>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                <a href="http://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
+

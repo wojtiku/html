@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | ChangeLog of package liboce-modeling-dev_0.17.2-1+nmu1_amd64.deb </title>
+    <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
+    <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="http://notesalexp.org/packages/css/package.css" type="text/css" />
+    <meta name="generator"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://notesalexp.org/html/">Home</a></li>
+                <li><a href="http://notesalexp.org/html/update.html">Update</a></li>
+                <li><a href="http://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li class="selected" ><a href="http://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="http://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="http://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+        <div id="pnavbar">
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages">Packages</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/xenial/amd64">xenial&nbsp;&#x2F;amd64</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/xenial/amd64/liboce-modeling-dev"> liboce-modeling-dev </a>
+            &nbsp;&#x2F; ChangeLog
+        </div> <!-- end navbar -->
+    </header>
+    <div id="wrapper">
+        <div id="content">
+<div class="page">
+<h5>ChangeLog of package liboce-modeling-dev in xenial of architecture amd64</h5>
+<div class="highlight"><pre><span></span>oce (0.17.2-1+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Backports from Sid
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 31 Dec 2016 13:04:03 +0300
+
+oce (0.17.2-1) unstable; urgency=medium
+
+  * [776089c] Imported Upstream version 0.17.2
+  * [b7ab920] Refresh patches, remove old ones.
+
+ -- Anton Gladky &lt;censored&gt;  Thu, 16 Jun 2016 23:05:30 +0200
+
+oce (0.17.1-2) unstable; urgency=medium
+
+  * [c0ec604] Build against libfreeimageplus-dev. (Closes: #823839)
+
+ -- Anton Gladky &lt;censored&gt;  Tue, 10 May 2016 22:33:27 +0200
+
+oce (0.17.1-1) unstable; urgency=medium
+
+  * Upload into unstable. Transition is not requested,
+    because 2 of 3 deps require source-uploads.
+
+ -- Anton Gladky &lt;censored&gt;  Fri, 29 Jan 2016 13:04:56 +0100
+
+oce (0.17.1-1~exp1) experimental; urgency=medium
+
+  * [d2d06db] Imported Upstream version 0.17.1
+  * [a230bfd] Update install-files for 0.17.1
+  * [5348aae] Apply cme fix dpkg.
+  * [4d2f6d2] Remove menu-file.
+  * [c046019] Add myself to uploaders.
+
+ -- Anton Gladky &lt;censored&gt;  Thu, 28 Jan 2016 10:51:19 +0100
+
+oce (0.15-8) unstable; urgency=medium
+
+  * Team upload.
+  * [98c68ad] Apply cme fix dpkg.
+
+ -- Anton Gladky &lt;censored&gt;  Mon, 25 Jan 2016 15:16:18 +0100
+
+oce (0.15-7) unstable; urgency=medium
+
+  * Team upload.
+  * Disable BRepAlgoAPI test. (Closes: #798760)
+
+ -- Anton Gladky &lt;censored&gt;  Thu, 08 Oct 2015 22:21:06 +0200
+
+oce (0.15-6) unstable; urgency=medium
+
+  * Team upload.
+  * Disable BRepOffsetAPI unittest. (Closes: #778032)
+
+ -- Anton Gladky &lt;censored&gt;  Mon, 13 Jul 2015 21:21:17 +0200
+
+oce (0.15-5) unstable; urgency=medium
+
+  * debian/patches/fix-Mesa-failures.patch: New patch, to fix
+    FTBFS failures with recent Mesa.  Closes: #768750
+
+ -- Denis Barbier &lt;censored&gt;  Mon, 10 Nov 2014 14:22:08 +0000
+
+oce (0.16-2) experimental; urgency=medium
+
+  * debian/liboce-foundation9.lintian-overrides: overrides
+    binary-or-shlib-defines-rpath lintian warning, libTKernel.so has
+    to dlopen shared libraries (a.k.a plugins) which have been put
+    into a private repository.
+
+ -- Denis Barbier &lt;censored&gt;  Tue, 22 Jul 2014 19:21:02 +0200
+
+oce (0.16-1) experimental; urgency=medium
+
+  * New upstream version.
+  * debian/control: drop dependency on libxmu-dev, it is no more used.
+  * debian/patches/NCollection-align-64bit.patch: Patch dropped,
+    applied upstream.
+  * debian/patches/include-oce-config.patch: Patch dropped, applied
+    upstream.
+
+ -- Denis Barbier &lt;censored&gt;  Sat, 19 Jul 2014 18:53:31 +0200
+
+oce (0.15-4) unstable; urgency=medium
+
+  * Fix multiarch: move oce-config.h into /usr/include/<triplet>.
+    Closes: #739558.
+
+ -- Denis Barbier &lt;censored&gt;  Mon, 03 Mar 2014 09:49:43 +0100
+
+oce (0.15-3) unstable; urgency=medium
+
+  * debian/rules: fix CMAKE_BUILD_TYPE.
+  * debian/control: add Build-Depends: libfreetype-dev
+  * debian/control: add various Depends in liboce-*-dev packages, since
+    libraries are referenced in CMake files shipped by these packages.
+
+ -- Denis Barbier &lt;censored&gt;  Thu, 20 Feb 2014 17:12:23 +0100
+
+oce (0.15-2) unstable; urgency=medium
+
+  * Upload into unstable.
+  * debian/patches/include-oce-config.patch: New patch, to fix
+    header files so that programs building against OCE do not
+    need to pass -DHAVE_CONFIG_H flag.
+
+ -- Denis Barbier &lt;censored&gt;  Wed, 19 Feb 2014 01:01:20 +0100
+
+oce (0.15-1) experimental; urgency=medium
+
+  * Package official OCE 0.15 release.
+  * debian/copyright: Update, several files were missing.
+
+ -- Denis Barbier &lt;censored&gt;  Thu, 13 Feb 2014 23:36:32 +0100
+
+oce (0.15~pre1-1) experimental; urgency=medium
+
+  * New upstream version.
+  * Relicensed to LGPL 2.1.  Closes: #736249
+
+ -- Denis Barbier &lt;censored&gt;  Sun, 09 Feb 2014 22:40:39 +0100
+
+oce (0.14.1-1) experimental; urgency=medium
+
+  * New upstream version.
+  * debian/patches/fix-FTBFS-armel.patch: Patch dropped, applied
+    upstream.
+  * debian/control: remove Build-Depends: libftgl-dev, FTGL is no
+    more used.
+  * debian/control: add Build-Depends: libfreeimage-dev, it was
+    missing.
+  * debian/control: Bump Standards-Version to 3.9.5.
+
+ -- Denis Barbier &lt;censored&gt;  Mon, 03 Feb 2014 17:31:57 +0100
+
+oce (0.13-4) experimental; urgency=low
+
+  * debian/rules: pass -DFREETYPE_INCLUDE_DIR_freetype2=/usr/include/freetype2
+    option to CMake in order to workaround bug #731089.  This allows
+    building with Freetype 2.4 and 2.5.
+
+ -- Denis Barbier &lt;censored&gt;  Mon, 02 Dec 2013 21:37:22 +0100
+
+oce (0.13-3) experimental; urgency=low
+
+  * testMeshTorus test timeouts on mips when building package; make
+    this test perform less checks in order to avoid this timeout.
+
+ -- Denis Barbier &lt;censored&gt;  Sat, 30 Nov 2013 18:55:04 +0100
+
+oce (0.13-2) experimental; urgency=low
+
+  * debian/patches/NCollection-align-64bit.patch: New patch, to align
+    words on 64 bit.  This fixes FTBFS on mips, mipsel and sparc.
+  * debian/patches/fix-FTBFS-armel.patch: New patch, to fix FTBFS
+    on armel.
+
+ -- Denis Barbier &lt;censored&gt;  Tue, 26 Nov 2013 21:59:30 +0100
+
+oce (0.13-1) experimental; urgency=low
+
+  * New upstream version, SONAME bumped.
+  * debian/patches/fix-Hurd.patch: Patch dropped, applied
+    upstream.
+
+ -- Denis Barbier &lt;censored&gt;  Mon, 23 Sep 2013 19:41:32 +0200
+
+oce (0.12-4) unstable; urgency=low
+
+  * debian/patches/split-export.patch: Fix find_package(oce) by
+    loading 'visualization' targets before 'ocaf' ones.  This
+    command currently spits out with this message:
+      The following imported targets are referenced, but are missing:
+        TKV3d TKService TKV2d
+  * debian/control: Also let liboce-ocaf-dev depend on liboce-visualization-dev.
+
+ -- Denis Barbier &lt;censored&gt;  Wed, 07 Aug 2013 22:47:40 +0200
+
+oce (0.12-3) unstable; urgency=low
+
+  * Uploaded into unstable
+  * debian/watch: Updated by Bart Martens, thanks.
+
+ -- Denis Barbier &lt;censored&gt;  Wed, 10 Jul 2013 23:59:31 +0200
+
+oce (0.12-2) experimental; urgency=low
+
+  * debian/rules: Set DART_TESTING_TIMEOUT to 3600 to
+    fix build failures on mips.
+
+ -- Denis Barbier &lt;censored&gt;  Fri, 14 Jun 2013 21:57:39 +0200
+
+oce (0.12-1) experimental; urgency=low
+
+  * New upstream version, SONAME bumped.
+  * debian/control: Append "-b debian" to Vcs-Git field.
+  * debian/control: Bump Standards-Version to 3.9.4.
+  * debian/patches/port-memalign.patch: Drop patch,
+    it has been incorporated upstream.
+  * debian/patches/fix-Hurd.patch: New patch, to fix test
+    failures on Hurd.
+
+ -- Denis Barbier &lt;censored&gt;  Wed, 13 Mar 2013 21:16:50 +0100
+
+oce (0.11-2) experimental; urgency=low
+
+  * debian/patches/port-memalign.patch: New patch to fix build
+    failures, mm_malloc.h is available only on x86 and amd64.
+
+ -- Denis Barbier &lt;censored&gt;  Sat, 15 Dec 2012 21:08:50 +0100
+
+oce (0.11-1) experimental; urgency=low
+
+  * New upstream version, SONAME bumped.
+  * debian/patches/add-TKQADraw.patch: Drop patch, incorporated upstream.
+
+ -- Denis Barbier &lt;censored&gt;  Wed, 12 Dec 2012 22:02:12 +0100
+
+oce (0.10-3) experimental; urgency=low
+
+  * debian/rules: Force parallel build.
+  * Move usr/include/oce/oce_build_config.defs into usr/include/oce/<triplet>/
+    so that liboce-foundation-dev packages are coinstallable.
+  * Split installed CMake targets file so that each -dev package
+    ships a targets file with the libraries it contains.  Currently
+    one must install all *-dev packages because otherwise CMake
+    complains about missing files referenced from an imported target.
+  * Flag *-dev packages as Multi-Arch: same and not foreign.
+
+ -- Denis Barbier &lt;censored&gt;  Sun, 05 Aug 2012 09:10:56 +0200
+
+oce (0.10-2) experimental; urgency=low
+
+  * debian/control: Version liboce*-dev dependencies.
+    Patch and report by Julien Cristau, thanks.  (Closes: #678403)
+  * Add support for multiarch.  (Closes: #682866)
+    All liboce-*-dev packages are now Arch: any.
+    Add multiarch dirs to CMAKE_PLATFORM_IMPLICIT_LINK_DIRECTORIES
+    so that multiarch directory is seen as a system library and
+    not added into RPATH.  See #683484.
+  * Allow using plugins when liboce-ocaf-lite-dev is not
+    installed.  (Closes: #683374)
+
+ -- Denis Barbier &lt;censored&gt;  Wed, 01 Aug 2012 01:12:32 +0200
+
+oce (0.10-1) experimental; urgency=low
+
+  [ Denis Barbier ]
+  * New upstream version, based on OCCT 6.5.3.
+  * debian/control: Bump sonames.
+  * debian/patches/ftbfs-alpha.patch: Drop patch,
+    it has been incorporated upstream.
+  * debian/control: liboce-foundation-dev contains
+    arch-dependent files, it must be declared
+    Architecture: any (Closes: 676776)
+    Thanks Sandro Knauß for the report.
+  * debian/patches/add-TKQADraw.patch: New patch,
+    add the TKQADraw module which had been forgotten
+    in OCE 0.10.
+  * debian/rules: Call dpkg-buildflags to set build flags.
+
+ -- Denis Barbier &lt;censored&gt;  Sat, 09 Jun 2012 11:35:27 +0200
+
+oce (0.9.1-2) unstable; urgency=low
+
+  [ Denis Barbier ]
+  * Add missing header files LDOMBasicString.hxx, LDOMParser.hxx
+    and LDOMString.hxx into liboce-ocaf-lite-dev.  Closes: #674021
+    Thanks to Julien Cristau for the report.
+  * Add myself to Uploaders.
+
+ -- Denis Barbier &lt;censored&gt;  Sun, 27 May 2012 08:21:17 +0200
+
+oce (0.9.1-1) unstable; urgency=low
+
+  [ Denis Barbier ]
+  * New upstream version, based on OCCT 6.5.2.
+  * debian/control: Bump sonames.
+  * Fix FTBFS on Alpha (Closes: #656838)
+    Thanks Michael Cree for the report and patch.
+
+  [ Adam C. Powell, IV ]
+  * Bumped Standards-Version
+  * Removed obsolete source/lintian-overrides since lintian no longer checks
+    for its two items.
+
+ -- "Adam C. Powell, IV" &lt;censored&gt;  Sun, 26 Feb 2012 09:04:26 -0500
+
+oce (0.8.0-1) unstable; urgency=low
+
+  [ Denis Barbier ]
+  * New upstream version.
+  * debian/rules: enable parallel builds.
+  * debian/control: With this version, we do no more need
+    to use chrpath, RPATH can be set to the right values.
+  * debian/control: Add "Community Edition" to all descriptions.
+
+ -- "Adam C. Powell, IV" &lt;censored&gt;  Sat, 07 Jan 2012 18:44:34 -0800
+
+oce (0.7.0-3) unstable; urgency=low
+
+  [ Denis Barbier ]
+  * debian/control: Add Build-Depends: tcl8.5-dev, tk8.5-dev
+    to fix FTBFS.  Closes: #651105
+  * debian/control: Fix Vcs-Browser field.
+
+ -- "Adam C. Powell, IV" &lt;censored&gt;  Mon, 12 Dec 2011 21:20:46 -0500
+
+oce (0.7.0-2) unstable; urgency=low
+
+  [ Denis Barbier ]
+  * debian/copyright: add missing stanzas for
+    test/gtest-1.6.0 and src/OSD/gettime_osx.h.
+
+ -- "Adam C. Powell, IV" &lt;censored&gt;  Sun, 04 Dec 2011 10:08:30 -0500
+
+oce (0.7.0-1) unstable; urgency=low
+
+  [ Denis Barbier ]
+  * Switch source package to OCE.  Closes: #644943
+    This is Opencascade Community Edition version 0.7.0,
+    based on Opencascade 6.5.1.
+    See opencascade package for previous releases.
+
+ -- "Adam C. Powell, IV" &lt;censored&gt;  Fri, 11 Nov 2011 14:15:48 -0500
+</pre></div>
+</div></div>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                <a href="http://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
+

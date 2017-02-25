@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | ChangeLog of package goaccess_1.1.0+git2179-d779612-1_amd64.deb </title>
+    <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
+    <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="http://notesalexp.org/packages/css/package.css" type="text/css" />
+    <meta name="generator"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://notesalexp.org/html/">Home</a></li>
+                <li><a href="http://notesalexp.org/html/update.html">Update</a></li>
+                <li><a href="http://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li class="selected" ><a href="http://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="http://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="http://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+        <div id="pnavbar">
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages">Packages</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/sid/amd64">sid&nbsp;&#x2F;amd64</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/sid/amd64/goaccess"> goaccess </a>
+            &nbsp;&#x2F; ChangeLog
+        </div> <!-- end navbar -->
+    </header>
+    <div id="wrapper">
+        <div id="content">
+<div class="page">
+<h5>ChangeLog of package goaccess in sid of architecture amd64</h5>
+<div class="highlight"><pre><span></span>goaccess (1:1.1.0+git2179-d779612-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: d7796129dca51f9adea0a38fe8ae8a47cffdebb1
+  * Date: 1487300207
+  * git changelog:
+  *  d779612 - Added --daemonize command line option to run goaccess as
+    a daemon (if --real-time-html enabled).
+  *  0e225f1 - Fixed clean up of invalid UTF-8 sequences in WebSocket
+    server.
+  *  3572704 - Perform UTF-8 validation prior to send buffer from the
+    server to the client.
+  *  47bbabf - Ensure UTF-8 validation is not performed in the JSON
+    output.
+  *  4049780 - Fixed implicit declaration of function warning of
+    ht_get_meta_data().
+  *  73b1ad2 - Ensure invalid JSON characters are stripped before sent
+    to the browser.
+  *  a772b98 - Changed ws_validate_string() scope to be used across
+    other source files.
+  *  8670442 - Changed verify_utf8() scope to be used across other
+    source files.
+  *  98438fd - Merge pull request #639 from da2x/patch-15
+  *  63caa40 - Merge pull request #653 from julianxhokaxhiu/bump_alpine
+  *  b115ec1 - Use the latest Alpine image
+  *  3c0759c - Merge pull request #650 from SjonHortensius/browsers-
+    fixes
+  *  d8b3f7e - Merge pull request #651 from julianxhokaxhiu/dockerfile
+  *  6469fe9 - Update README.md
+  *  744fe0d - Add HTTP binding
+  *  bdd3d43 - Fix supervisord.conf source file path
+  *  2740383 - Provide Dockerfile
+  *  4cfe5b3 - Updated man page for upcoming release.
+  *  1bff10d - Added PinRSS as a feed reader
+  *  bf5f97a - Update crawlers, fix Yandex/Baidu + add some more
+  *  cda3b8e - Added note about trailing forward-slash on default config
+    file.
+  *  38c4df9 - Ensure db-path uses trailing forward slash on default
+    config file.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 17 Feb 2017 17:26:20 +0300
+
+goaccess (1:1.1.0+git2151-8e9e3a9-2) unstable; urgency=medium
+
+  * Compile. add enable-geoip=legacy 
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 05 Feb 2017 22:35:35 +0300
+
+goaccess (1:1.1.0+git2151-8e9e3a9-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: 8e9e3a995a59fcf13077ff669cf1fc8563fdc93b
+  * Date: 1486087932
+  * git changelog:
+  *  8e9e3a9 - Changed percentage calculation to be based on the total
+    within each panel.
+  *  9189ec1 - Fixed percent issue when calculating visitors field in
+    CSV output.
+  *  bd08c35 - Fixed percent issue when calculating visitors field in
+    JSON output.
+  *  e3d43ca - Updated GeoIP source file comment description.
+  *  0ea4e03 - Updated GeoIP2 source file comment description.
+  *  22d2d7a - Ensure the --load-from-disk flag is enabled if no piped
+    data and no file is passed.
+  *  103ea4e - Ensure buffers for unknown geolocations are filled as
+    well.
+  *  bde3f39 - Reuse is_geoip_resource() function where applicable.
+  *  071cb07 - Updated GeoIP source file comment description.
+  *  d8830a4 - Added missing function comments to GeoIP2.
+  *  9f5fd64 - Added support for MaxMind GeoIP2.
+  *  4c0fecd - Removed unnecessary GeoIP include from header file.
+  *  a5fd1ba - Reuse is_geoip_resource() function where applicable.
+  *  ba65b12 - Reuse is_geoip_resource() function where applicable.
+  *  4c6acd3 - Reuse is_geoip_resource() function where applicable.
+  *  c1b15ef - Ensure is_geoip_resource() checks for a valid GeoIP
+    resource.
+  *  97629d3 - Made geo_location_data static and change scope of
+    +geoip_open_db().
+  *  61c4fe6 - Removed reference to unused global GeoIP object.
+  *  79c594f - Moved GeoIP function calls to its own source file.
+  *  92181d3 - Updated man page with latest X-Forwarded-For (XFF)
+    change.
+  *  b882c7d - Display the right number of parsed lines upon erroring
+    out.
+  *  bf8dde9 - Ensure the right type of IP (v4/6) for XFF is assigned to
+    logitem.
+  *  e30131b - Minor change to the code format on tcbtdb.c.
+  *  9651a3c - Added <sys/stat.h> to tcbtdb.c so the compiler doesn't
+    complain about it.
+  *  0d820fa - Added sanity check for db-path config variable
+  *  47066d4 - Fixed issue where parser couldn't read some X-Forwarded-
+    For formats.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 03 Feb 2017 17:32:40 +0300
+
+goaccess (1:1.1.0+git2125-d538408-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: d538408f9a6a9fc404da4e004ced1693572acad0
+  * Date: 1484798703
+  * git changelog:
+  *  d538408 - Fixed redundant condition 'tkn!=NULL' warning
+    [parser.c:1197].
+  *  22608fd - Added --process-and-exit command line option to the
+    config file.
+  *  adf98a8 - Ensure start/end dates are updated real-time in the HTML
+    output.
+  *  db50111 - Removed unused DOM elements from template.
+  *  f6aa238 - Ensure overall start/end dates are written to the JSON
+    output.
+  *  42a6378 - Added --process-and-exit command line option to the man
+    page.
+  *  d4ed7a7 - Ensure charts are reloaded when the scroll event is
+    triggered.
+  *  24d0a58 - Added namespace to scroll event to ensure event is not
+    rebound.
+  *  41629e7 - Added --process-and-exit command line option to
+    README.md.
+  *  831d0a8 - Render HTML report tables that are only within the
+    viewport.
+  *  3134984 - Render D3 charts that are only within the viewport.
+  *  dcc5bbd - Added --process-and-exit command line option to parse log
+    and exit.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 20 Jan 2017 21:45:09 +0300
+
+goaccess (1:1.1.0+git2113-cbde81d-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: cbde81d4ea0571b02ccde0afdb11fbcf26f61d09
+  * Date: 1483585406
+  * git changelog:
+  *  cbde81d - Ensure HTML report outputs a max of two decimals for all
+    byte sizes.
+  *  aab0faf - Ensure HTML report outputs a consistant precision for all
+    byte sizes.
+  *  6b800dd - Minor updates to clarify ChangeLog entries.
+  *  b677c3c - Minor updates to clarify ChangeLog entries.
+  *  d152184 - Renamed 'Processed Time' to 'Init. Proc. Time'.
+  *  2f733c8 - Added unit (seconds) to processed time in the terminal
+    output.
+  *  2f8ab8e - Added unit (seconds) to processed time in the HTML
+    report.
+  *  993d9fc - Ensure 'GoAccess' and 'GWSocket' labels are hidden on
+    small devices.
+  *  25ecc96 - Minor updates man page to clarify entry.
+  *  ec85d06 - Minor updates to clarify ChangeLog entries.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 06 Jan 2017 12:35:40 +0300
+
+goaccess (1:1.1.0+git2103-446c83d-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: 446c83d75d7002a3f12b2a887434ff96d1b2df80
+  * Date: 1482373523
+  * git changelog:
+  *  446c83d - Use window.location.hostname as the default WS server
+    host.
+  *  77d4093 - Updated man page log/date/time format notes.
+  *  8f2fd06 - Ensure window.location.hostname is used as the default WS
+    server host.
+  *  d9fe6b7 - Merge pull request #595 from chris-downs/patch-1
+  *  7c422c9 - fix comment
+  *  f853383 - Minor updates to clarify ChangeLog entries.
+  *  8faad6c - Minor updates to clarify ChangeLog entries.
+  *  3dddc74 - Minor updates to clarify ChangeLog entries.
+  *  44f8fc5 - Minor updates to clarify ChangeLog entries.
+  *  cfeeb28 - Minor updates to clarify ChangeLog entries.
+  *  3ab6949 - Minor updates to clarify ChangeLog entries.
+  *  b1a348e - Minor updates to clarify ChangeLog entries.
+  *  d8ced71 - Minor updates to clarify ChangeLog entries.
+  *  10554d8 - Minor updates to clarify ChangeLog entries.
+  *  74e590d - Minor update to clarify ChangeLog entry.
+  *  b4b4c7e - Minor updates to clarify ChangeLog entries.
+  *  69c2382 - Removed duplicate entry from the ChangeLog.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 24 Dec 2016 10:42:43 +0300
+
+goaccess (1:1.1.0+git2086-749ecc9-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: 749ecc954aaa6020501ba1ddbed9f3813137cb7a
+  * Date: 1481087994
+  * git changelog:
+  *  749ecc9 - Fixed typo on parser function comment.
+  *  316c9b3 - Added missing comment to INIT_BUF_SIZE definition.
+  *  8a14c63 - Moved INIT_BUF_SIZE def to commons.h so it can be reused
+    across the codebase.
+  *  47b9f96 - Updated set_default_static_files() function comments.
+  *  314ffd7 - Updated default static list of extensions.
+  *  0a4a678 - Removed unnecessary static file extensions from default
+    array.
+  *  52acb4b - Updated MTRC_UNIQMAP hash structure comment.
+  *  4188631 - Updated MTRC_UNIQMAP hash structure comment.
+  *  bca6d0c - Merge pull request #579 from rib3/aws-s3-bucket-as-
+    virtualhost
+  *  484dca4 - Use bucket name as virtualhost for Amazon S3
+  *  6c76ceb - Added comments to command line options code.
+  *  32c900d - Updated command line options code formatting.
+  *  9d82d10 - Updated command line options code structure.
+  *  2dffeff - Updated command line option comment.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 09 Dec 2016 21:23:24 +0300
+
+goaccess (1:1.1.0+git2072-8953b13-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: 8953b1332299630adae55365e79af5e96a4f9b8a
+  * Date: 1479966820
+  * git changelog:
+  *  8953b13 - Fixed issue where specifying fifo in/out wouldn't allow
+    real-time output.
+  *  ea292c4 - Updated README.md with latest changes.
+  *  c9876ea - Updated ChangeLog with latest changes.
+  *  50ea4eb - Updated README.md with latest changes.
+  *  5a38fe5 - Updated NEWS with latest changes.
+  *  a355ff9 - Updated ChangeLog with latest changes.
+  *  1d64dca - Version bumped to 1.1.1.
+  *  b5f86d9 - Version bumped to 1.1.1 (configure.ac).
+  *  01e3b1f - Updated NEWS with latest changes.
+  *  dd68cab - Use .rangeBands() for bar charts to avoid extra outer
+    padding.
+  *  8007a56 - Minimize number of calls to node.getTotalLength().
+  *  8c4b29e - Simplified tick distance logic when adding x-axis labels.
+  *  7c14cd8 - Ensure x-axis labels width is adjusted properly on svg
+    wrappers.
+  *  7569891 - Removed unused function in chart.js.
+  *  feb5af5 - Added data metric 'unique' total count per panel to the
+    HTML output.
+  *  18e41dd - Added data metric 'unique' count per panel to the
+    JSON/HTML outputs.
+  *  e7f3ac8 - Added data metric 'unique' count per panel to the
+    JSON/HTML outputs.
+  *  16e154e - Ensure a valid HTTP status code is parsed >=100 or <=
+    599.
+  *  46bd653 - Added minor changes to ChangeLog for readability.
+  *  d501893 - Added minor changes to ChangeLog for readability.
+  *  409d803 - Ensure x-axis labels offset is adjusted on existing  svg
+    wrappers.
+  *  f84910f - Changed how x-axis labels are rendered in the HTML
+    report.
+  *  8f17121 - Added minor changes to ChangeLog for readability.
+  *  5e9f65e - Added minor changes to ChangeLog for readability.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 25 Nov 2016 20:20:20 +0300
+
+goaccess (1:1.1.0+git2048-3a7b046-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: 3a7b046e99c4db7c0c1e53a212047a3200a823cc
+  * Date: 1478867568
+  * git changelog:
+  *  3a7b046 - Added minor changes to ChangeLog for readability.
+  *  ba6ecad - Minor formatting changes to the ChangeLog.
+  *  c7cfd59 - Minor formatting changes to the ChangeLog.
+  *  71a3567 - Merge pull request #567 from Seravo/feature-html-id-
+    attributes
+  *  3aca02b - Output in HTML id attributes for values (Closes:
+    allinurl/goaccess#566)
+  *  01f8e2f - Updated README.md.
+  *  b83c94c - Updated comments for with-output-resolver config option.
+  *  b808bad - Added crawlers-only command line option to config file.
+  *  86a0d57 - Updated README.md for upcoming version.
+  *  81f9a59 - Version bumped to 1.1 (configure.ac).
+  *  c191d02 - Version bumped to 1.1.
+  *  fec47d1 - Ensure time/date/log format are not cleared upon editing
+    existing format.
+  *  8264680 - Updated man page for the upcoming version.
+  *  e78872b - Use single gear icon for HTML preferences.
+  *  e1b1444 - Updated NEWS with latest changes.
+  *  e136c9e - Updated ChangeLog with latest changes.
+  *  9358b59 - Changed the default number of items to 7 on each HTML
+    table.
+  *  b651883 - Added the ability to display 7 items on each table per
+    panel.
+  *  28c85d7 - Updated man page for the upcoming version.
+  *  afa9377 - Added gear icon the panel options dropdown.
+  *  1f9d475 - Added command line option --html-prefs to README.md.
+  *  f971c56 - Updated bootstrap CSS using a custom build to minimize
+    output file size.
+  *  0d657cf - Added base64 font awesome to the HTML report.
+  *  826a9f9 - Added the ability to set default preferences for the HTML
+    report.
+  *  f280958 - Removed unnecessary call to console.log from app.js.
+  *  696519e - Added a new layout to the HTML output.
+  *  7415b9b - Minor changes to ChangeLog.
+  *  78ad511 - Made minor date format changes to ChangeLog.
+  *  a2628bd - Added --ssl-cert/key and --fifo-in/out to default config
+    file.
+  *  8234390 - Added numeric timezone to stdout reports.
+  *  8ebd9d8 - Updated man page for the upcoming version.
+  *  800e0ed - Updated authors list to reflect latest contributors.
+  *  08f1026 - Added command line options to the list.
+  *  711cfd1 - Merge pull request #564 from AndiDog/feature/url-path-in-
+    ws-url
+  *  cdc7a92 - Allow path other than "/" in web socket URL
+  *  fbc592b - Updated authors list to reflect latest contributors.
+  *  26b8ac4 - Updated man page for the upcoming version.
+  *  307883c - Removed FIPS_mode_set() from websocket.c to make it
+    compatible with LibreSSL.
+  *  84f736f - Ensure <openssl/crypto.h> is included on websocket.h.
+  *  85e772e - Ensure pthread.h is included under gwsocket.h.
+  *  dedf924 - Added command line option --crawlers-only to display
+    crawlers/bots only.
+  *  5c319e3 - Fixed (warning) logical disjunction evaluates to true:
+    !EXPR || EXPR.
+  *  bbd651b - Fixed integer to string key conversion for unique
+    visitors.
+  *  779eccd - Ensure geolocation returns unknown locations when
+    applicable.
+  *  1c2750b - Added  "Remote User" panel to capture HTTP authentication
+    requests.
+  *  95f9925 - Moved GEO_LOCATION config options to the right
+    index/position.
+  *  bfed9c9 - Moved GEO_LOCATION sort choice to the right
+    index/position.
+  *  8457998 - Minor formatting changes to commons.c
+  *  6855fa2 - Minor formatting changes to csv.c
+  *  9111443 - Moved GeoLocation panel (since it's optional) to the last
+    position.
+  *  a60d1b3 - Ensure unknown coutries/continents are listed.
+  *  ca365f9 - Ensure every version of iOS is broken down under the OS
+    panel.
+  *  2e9ac7b - Added details to real-time html report examples.
+  *  f2e7084 - Merge pull request #559 from zkf/patch-1
+  *  c31f9cd - Add SemrushBot to set of crawlers
+  *  0d7947b - Split 'Darwin' OS into its own category.
+  *  b18cbe3 - Moved OSs parsing code to its own function.
+  *  8e8b518 - Added command line options to set websocket FIFO in/out.
+  *  927df4d - Added 'Feed Wrangler' to the list of feeds.
+  *  137935d - Fixed possible race condition when pushing data to a
+    client.
+  *  73a5797 - Added TLS/SSL support to the HTML real-time report.
+  *  f5c35b0 - Fixed formatting on goaccess.c
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 12 Nov 2016 19:26:48 +0300
+
+goaccess (1:1.0.2+git1986-b8cebbc-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: b8cebbc9d677b438a4db6c14d5dc4b56699d3c3a
+  * Date: 1477627598
+  * git changelog:
+  *  b8cebbc - Fixed cppcheck (error) uninitialized variable: w/rfds
+    under goaccess.c.
+  *  0ecc9b4 - Fixed (warning) in format string for 'unsigned int' under
+    csv.c.
+  *  b6b47d3 - Fixed (warning) in format string for 'unsigned int' under
+    bin2c.c.
+  *  cda591c - Added 'Android 7.1 Nougat' to the list of OSs.
+  *  a3c2340 - Added 'Go-http-client' to the list of browsers.
+  *  e3309f4 - Fixed escape issue generating invalid JSON.
+  *  626da93 - Fixed warning: unused variable ‘status’ under bin2c.c
+  *  958546d - Added 'macOS Sierra' to the list of OSs.
+  *  556336f - Use getBoundingClientRect() to reliably determine the
+    width of the chart wrapper.
+  *  973188a - Removed container fadein animation.
+  *  7e49f06 - Ensure invalid format errors are dumped to stderr.
+  *  e95609a - Removed unused function parameter from renderTable().
+  *  476b691 - Ensure the stream is closed if unable to malloc buffer
+    under bin2c.c.
+  *  46309e9 - Ensure there's no memory leak if unable to compress
+    buffer.
+  *  500a618 - Properly check the return value of malloc in bin2c.c.
+  *  1474d33 - Properly check the return value of malloc in bin2c.c.
+  *  f281b6e - Removed unnecessary casting from malloc on bin2c.c.
+  *  54652ed - Removed unnecessary casting from malloc on bin2c.c.
+  *  577396d - Ensure buffer is freed on bin2c.c.
+  *  71dcdb8 - Ensure buffer is freed on bin2c.c.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 29 Oct 2016 10:31:19 +0300
+
+goaccess (1:1.0.2+git1966-ad547a8-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: ad547a88ecf5564b824941beb87e9ec34e46f764
+  * Date: 1476250096
+  * git changelog:
+  *  ad547a8 - Removed right double angle icon from HTML panels.
+  *  059dfd7 - Check for valid selectors when outputting an HTML report
+    w/o tables.
+  *  e53fc7c - Removed unnecessary D3 accessors from bar chart.
+  *  a5c562a - Ensure we break read_lines() loop when performing a dry
+    run (conf dialog).
+  *  82a12d1 - Ensure GW threads are not NULL when attempting to stop ws
+    server.
+  *  e94391f - Ensure read_lines() returns the right value.
+  *  3d29222 - Ensure read_line() returns the right value.
+  *  dd8614e - Added --num-tests command line option to README.md.
+  *  18158f6 - Updated deb repo section on README.md.
+  *  6d13aaa - Added --num-tests command line option to the config file.
+  *  4785dda - Moved relevant debug macros from commons.h to error.h.
+  *  dec8e2b - Added --num-tests command line option to the man page.
+  *  b2c1dce - Added additional error hint to format error ourput.
+  *  f4c0276 - Added the ability to show which token didn't match
+    log/date/time pattern.
+  *  33d4fd8 - Added missing function comment to goaccess.c.
+  *  9c1342f - Fixed month name abbreviation on app.js.
+  *  72cfe4c - Changed function name from read_line() to read_lines().
+  *  10212f9 - Changed buffer initialization for readability.
+  *  b55f1ac - Fixed memory leak when unable to URL decode %q specifier.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 14 Oct 2016 20:36:05 +0300
+
+goaccess (1:1.0.2+git1947-deeef2f-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: deeef2f8047f16a590afaf8161a9f8023b9840a9
+  * Date: 1475109612
+  * git changelog:
+  *  deeef2f - Fixed memory leak when unable to URL decode %U specifier.
+  *  51ee9f9 - Updated WebSocket structure comment.
+  *  5810b35 - Fixed a race condition on WebSocket named piped reader &
+    writer.
+  *  fb36a22 - Ensure we have a valid holder before returning JSON data.
+  *  c74af42 - Added on-disk .deb package details to README.md.
+  *  3785254 - Ensure latest JSON data is fast-forwarded when connection
+    is opened.
+  *  07fe383 - Updated code formatting under gdns_thread_create().
+  *  d03316c - Fixed type on function comment.
+  *  d94877e - Added --no-html-last-updated command line option to
+    README.md.
+  *  e6ebc49 - Updated deb repo notes on README.md.
+  *  d1b0dc3 - Update README.md
+  *  f8d4f0a - Updated man page response time note for Nginx and Apache.
+  *  c0eeeab - Added missing comments to various complex data types.
+  *  c9e85ae - Merge pull request #521 from ishitatsuyuki/patch-1
+  *  988699d - Ensure JSON data values are HTML escaped only when
+    outputting to an HTML file.
+  *  c687fa7 - Add a config flag to know if we are outputting HTML.
+  *  5539fca - Removed pointer null check since it can't be null at that
+    point.
+  *  5730cf1 - browser: classify google cloud clients
+  *  739d4a6 - Updated function get_delim() comment.
+  *  0b3eab4 - Ensure token parser extracts until 0x0 is found in log
+    line.
+  *  73699fd - Ensure log format parser can handle escaped optional
+    delimiter char .
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 30 Sep 2016 21:04:30 +0300
+
+goaccess (1:1.0.2+git1926-e42ac72-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: e42ac72965b419dafe736d7a4c75226471209a47
+  * Date: 1473986186
+  * git changelog:
+  *  e42ac72 - Added the ability to parse reverse proxy logs that have
+    multiple IPs.
+  *  1aa4f66 - Added 'Amazon Simple Storage Service (S3)' to README.md.
+  *  92205ae - Minor indentation change to util source file.
+  *  389e02f - Ensure first integer in percent calculation is casted to
+    float.
+  *  7cd7c88 - Fixed percent calculation due to integer division
+    rounding to zero.
+  *  3805b6f - Ensure config dialog log input fields are completely
+    cleared up.
+  *  3854204 - Changed terminal status bar help keyboard shortcut from
+    [h] -> [?].
+  *  1ca81b5 - Renamed GLog struct pointer name throughout the codebase.
+  *  f339184 - Added missing raw data enum type comment.
+  *  c4c0623 - Fixed function comment typo.
+  *  e1fdc29 - Moved all other JSON escape characters to their own
+    function.
+  *  232cb98 - Added 'MicroMessenger' (WeChat) to the list of browsers.
+  *  cfac823 - Fixed possible code injection when outputting an HTML
+    report.
+  *  4542d3e - Updated --ws-url command line with latest changes under
+    README.md.
+  *  10ea6e3 - Removed unnecessary casts from unit conversion functions.
+  *  1b47c49 - Added tebibyte unit to the byte to string function.
+  *  3aba1ff - Added details about WebSocket URI scheme to the default
+    config file.
+  *  eb0b73c - Added details about WebSocket URI scheme to the man page.
+  *  1608280 - Added the ability to specify a WebSocket protocol
+    (ws|wss) through --ws-url.
+  *  c0f7322 - Added --no-html-last-updated command line option to the
+    config file.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 16 Sep 2016 19:55:14 +0300
+
+goaccess (1:1.0.2+git1906-5fb710c-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: 5fb710c4f18453471262402f156a2ac679b023c3
+  * Date: 1472696693
+  * git changelog:
+  *  5fb710c - Added --no-html-last-updated command line option to the
+    man page.
+  *  6b4e756 - Added --no-html-last-updated command line option.
+  *  03cf277 - Added 'q' label to quit in multiple UI dialogs.
+  *  487a0eb - Added 'q' label to quit color scheme dialog.
+  *  cb053de - Added 'q' label to quit config log dialog.
+  *  27f348e - Updated ChangeLog formatting and wording.
+  *  a3c7ccb - Updated ChangeLog formatting and wording.
+  *  8dfc786 - Updated ChangeLog formatting and wording.
+  *  7d155ad - Updated ChangeLog formatting and wording.
+  *  94df6f5 - Updated ChangeLog formatting and wording.
+  *  b223d33 - Updated ChangeLog formatting and wording.
+  *  268368b - Updated ChangeLog formatting and wording.
+  *  f5bce3e - Updated ChangeLog formatting and wording.
+  *  dcb907d - Updated ChangeLog formatting and wording.
+  *  98be798 - Updated ChangeLog formatting and wording.
+  *  036d2e1 - Updated man page formatting.
+  *  723931a - Updated man page.
+  *  06bb7b0 - Updated man page.
+  *  7caa21b - Updated man page.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 01 Sep 2016 19:26:05 +0300
+
+goaccess (1:1.0.2+git1887-fe39aa3-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/allinurl/goaccess.git
+  * Branch: master
+  * Commit: fe39aa3f7feb511bea78801c2cf58f1e2b769125
+  * Date: 1471039724
+  * git changelog:
+  *  fe39aa3 - Remove timestamp from the HTML report title tag.
+  *  6fa94a2 - Added AWS S3 log format to the default config file.
+  *  0460a54 - Fixed ncurses build issue when checking for compilable
+    header file.
+  *  15c7612 - Updated log format order on config file.
+  *  31925a1 - Removed unnecessary comments from config file.
+  *  d469bec - Added Amazon S3 log format to the config file.
+  *  2a106f6 - Added Amazon S3 log format to the man page.
+  *  87a7b55 - Updated man page.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 19 Aug 2016 20:10:26 +0300
+
+goaccess (1:1.0.2+git1879-906812f-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 906812fffd255824fe411a21376361bbfc6c3c61
+  * Date: 1470360009
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 06 Aug 2016 14:45:06 +0300
+
+goaccess (1:1.0.2+git1876-aad9ce0-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: aad9ce076ad9afd440ddcf7fca347d09449e33b0
+  * Date: 1470009761
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 02 Aug 2016 16:34:44 +0300
+
+goaccess (1:1.0.2+git1863-3529e10-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 3529e10355b78eef2a7e12f326c85735acac114e
+  * Date: 1468553473
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 23 Jul 2016 12:40:54 +0300
+
+goaccess (1:1.0.2+git1857-0ab6387-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 0ab6387d9da46a74fe92988b6b0b0ed8e00395bb
+  * Date: 1468028292
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 09 Jul 2016 11:12:16 +0300
+
+goaccess (1:1.0.1+git1821-2f8ea3c-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 2f8ea3c7023c8becf0f3ea00a90de9245ae77786
+  * Date: 1466768794
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 24 Jun 2016 20:21:42 +0300
+
+goaccess (1:1.0.0+git1779-a8512b5-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: a8512b573f54a505ffd4861618a449b3a09e447c
+  * Date: 1465656367
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 11 Jun 2016 20:50:20 +0300
+
+goaccess (1:0.9.8+git1586-dbe208e-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: dbe208eae5258a0c169d9f26994e2efb92d5c786
+  * Date: 1464091355
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 27 May 2016 21:51:44 +0300
+
+goaccess (1:0.9.8+git1582-7a3b958-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 7a3b958616673e563363a28921dc1841b62a5ecb
+  * Date: 1463199040
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 15 May 2016 10:49:56 +0300
+
+goaccess (1:0.9.8+git1572-dce3175-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: dce31758c0a108c8483a5d23efc65e59b427d1ae
+  * Date: 1461499694
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 29 Apr 2016 21:30:35 +0300
+
+goaccess (1:0.9.8+git1557-305f1da-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 305f1dac0afb01f634c171de0e512ad9e9c29636
+  * Date: 1460693057
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 15 Apr 2016 22:29:54 +0300
+
+goaccess (1:0.9.8+git1538-6e43e54-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 6e43e54cb1d243d7a0563b8745466235e1e239d5
+  * Date: 1459175641
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 02 Apr 2016 09:28:19 +0300
+
+goaccess (1:0.9.8+git1534-bd37321-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: bd37321d4fa97a1ebebe63e24dc8f691e4aebd57
+  * Date: 1458828463
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 26 Mar 2016 21:52:54 +0300
+
+goaccess (0.9.8+git1530-bd37321-1) unstable; urgency=low
+
+  * Compile
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 26 Mar 2016 16:56:05 +0300
+
+goaccess (1:0.9.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump standards-version.
+  * Update debian/copyright.
+     - Update dates.
+  * Enabled geoip in build.
+
+ -- Chris Taylor &lt;censored&gt;  Tue, 06 Oct 2015 16:06:24 +0000
+
+goaccess (1:0.8.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update debian/copyright download location.
+  * Update address in debian/watch.
+
+ -- Chris Taylor &lt;censored&gt;  Sat, 30 Aug 2014 03:41:22 +0000
+
+goaccess (1:0.8-1) unstable; urgency=low
+
+  * New upstream release (Closes: #739719).
+  * Bump standards-version.
+  * Update debian/copyright.
+     - Update dates.
+  * Update debian/watch with new location.
+
+ -- Chris Taylor &lt;censored&gt;  Fri, 30 May 2014 10:04:35 -0700
+
+goaccess (1:0.6-1) unstable; urgency=low
+
+  * New upstream release 0.6
+  * Bump standards-version.
+  * Update debian/copyright
+    - Update dates.
+    - Update author's email address.
+
+ -- Chris Taylor &lt;censored&gt;  Sun, 28 Jul 2013 06:18:52 +0000
+
+goaccess (1:0.5-1) unstable; urgency=low
+
+  * New upstream release 0.5 
+  * Removed all patches as fixes are now upstream.
+
+ -- Chris Taylor &lt;censored&gt;  Tue, 05 Jun 2012 05:18:30 +0000
+
+goaccess (1:0.4.2-3) unstable; urgency=low
+
+  * Bump compat to 9.
+  * Bump versioned build-dep on dh.
+  * Cleanup debian/rules.
+  * Bump standards-version. 
+
+ -- Chris Taylor &lt;censored&gt;  Sun, 22 Apr 2012 19:17:59 +0000
+
+goaccess (1:0.4.2-2) unstable; urgency=low
+
+  * Remove patch 02-ld.
+  * Add patch 00-ld-as-needed (Closes: #606207). 
+  * Bump standards-version.
+  * Update debian/copyright.
+  * Remove config.status and config.log via debian/rules.
+
+ -- Chris Taylor &lt;censored&gt;  Wed, 24 Aug 2011 04:21:25 +0000
+
+goaccess (1:0.4.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Fix problems in manpage in 01-manpage.
+
+ -- Chris Taylor &lt;censored&gt;  Wed, 12 Jan 2011 10:07:19 +0000
+
+goaccess (1:0.4-1) unstable; urgency=low
+
+  * New upstream release. 
+
+ -- Chris Taylor &lt;censored&gt;  Tue, 07 Dec 2010 01:37:57 +0000
+
+goaccess (1:0.3.3-1) unstable; urgency=low
+
+  * New upstream release 0.3.3 
+  * Update debian/copyright.
+  * Bump epoch to fix versioning.
+
+ -- Chris Taylor &lt;censored&gt;  Sat, 23 Oct 2010 09:52:37 +0000
+
+goaccess (0.3-1) unstable; urgency=low
+
+  * New upstream release 0.3 
+
+ -- Chris Taylor &lt;censored&gt;  Mon, 30 Aug 2010 17:40:32 +0000
+
+goaccess (0.12-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Chris Taylor &lt;censored&gt;  Tue, 13 Jul 2010 17:51:09 +0000
+
+goaccess (0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #588499)
+
+ -- Chris Taylor &lt;censored&gt;  Sat, 10 Jul 2010 17:42:59 -0700
+</pre></div>
+</div></div>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                <a href="http://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
+
