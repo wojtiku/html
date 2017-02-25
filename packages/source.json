@@ -42,15 +42,15 @@
     },
     "azpainter": 
     {
-      "version": "2.0.2-3",
+      "version": "2.0.2-4",
       "description": " 16bit RGB full color paint software",
       "sourceurl": "http://notesalexp.org/source/main/a/azpainter",
-      "sourcefile": "azpainter_2.0.2-3.debian.tar.xz azpainter_2.0.2-3.dsc azpainter_2.0.2.orig.tar.bz2 ",
+      "sourcefile": "azpainter_2.0.2-4.debian.tar.xz azpainter_2.0.2-4.dsc azpainter_2.0.2.orig.tar.bz2 ",
       "homepage": "https://osdn.net/projects/azpainter/",
       "depends": "debhelper(>=9) autotools-dev libx11-dev libxext-dev libxft-dev libxi-dev libjpeg-dev libpng-dev|libpng12-dev libfreetype6-dev libfontconfig1-dev zlib1g-dev ",
       "binary": "azpainter",
       "description_azpainter": "16bit RGB full color paint software.",
-      "md5": " e71f9e5458ce7afcbbc123bf51b17769 a79b162f730447f39f1f1c85e6f6f006 90a01ec3e9355a28d4163f301380664f",
+      "md5": " 4003b06ccd42350fda6b44f39302fdbd 44ff0945225a01badcee97a398b590a7 90a01ec3e9355a28d4163f301380664f",
       "size": " 20_KiB  4_KiB  744_KiB "
     },
     "balsa": 
@@ -248,17 +248,17 @@
     },
     "freecaddaily": 
     {
-      "version": "0.17~git10149-4169e94-2",
+      "version": "0.17~git10275-b217fe2-1",
       "description": " Extensible Open Source CAx program (beta)",
       "sourceurl": "http://notesalexp.org/source/main/f/freecad-daily",
-      "sourcefile": "freecad-daily_0.17~git10149-4169e94-2.debian.tar.xz freecad-daily_0.17~git10149-4169e94-2.dsc freecad-daily_0.17~git10149-4169e94.orig.tar.xz ",
+      "sourcefile": "freecad-daily_0.17~git10275-b217fe2-1.debian.tar.xz freecad-daily_0.17~git10275-b217fe2-1.dsc freecad-daily_0.17~git10275-b217fe2.orig.tar.xz ",
       "homepage": "http://freecadweb.org/",
       "depends": "cmake debhelper(>=9) gfortran libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-signals-dev libboost-thread-dev libcoin80-dev libcv-dev libeigen3-dev libfreeimage-dev libfreetype6-dev libf2c2-dev libfltk1.3-dev libproj-dev libgts-bin libgts-dev libmed-dev libmedc-dev liboce-foundation-dev(>=0.17.1) liboce-modeling-dev(>=0.17.1) liboce-ocaf-dev(>=0.17.1) liboce-visualization-dev(>=0.17.1) libode-dev libpyside-dev libqt4-dev libqt4-opengl-dev libqtwebkit-dev libshiboken-dev libsoqt4-dev(>=1.6) libspnav-dev libtool libx11-dev libxerces-c-dev libxext-dev libxi-dev libxmu-dev libxt-dev libzipios++-dev libvtk6-dev vtk6 oce-draw python-pyside pyside-tools python-cxx-dev python-dev python-ply swig zlib1g-dev netgen-headers|wget doxygen mpi-default-dev ",
       "binary": "freecad-daily freecad-daily-doc",
       "description_freecaddaily": "Extensible Open Source CAx program (beta)",
       "description_freecaddailydoc": "FreeCAD documentation",
-      "md5": " 82b3f6d1cc70bc63ac576aa422bbae7c 77d25d19a65c8b78fd3fa3e2d454303d c24d83836d639c473b404297fe1292da",
-      "size": " 28_KiB  4_KiB  98.07_MiB "
+      "md5": " e588ed33411bab2f5e4a97814850bd53 c388d12fe0d4a19ee750f14bee8356db cfb6cb631766b1bed6bf529a263af8bb",
+      "size": " 32_KiB  4_KiB  98.13_MiB "
     },
     "geeknote": 
     {
@@ -290,35 +290,35 @@
     },
     "gimp": 
     {
-      "version": "2.8.20+git32468-203850d-1",
+      "version": "2.8.20+git32478-ff51d23-1",
       "description": " The Free & Open Source Image Editor",
       "sourceurl": "http://notesalexp.org/source/main/g/gimp",
-      "sourcefile": "gimp_2.8.20+git32468-203850d-1.debian.tar.xz gimp_2.8.20+git32468-203850d-1.dsc gimp_2.8.20+git32468-203850d.orig.tar.xz ",
+      "sourcefile": "gimp_2.8.20+git32478-ff51d23-1.debian.tar.xz gimp_2.8.20+git32478-ff51d23-1.dsc gimp_2.8.20+git32478-ff51d23.orig.tar.xz ",
       "homepage": "http://www.gimp.org/",
-      "depends": "debhelper(>=8) cdbs(>=0.4.97) autotools-dev dh-autoreconf gettext gnome-pkg-tools gtk-doc-tools(>=1.0) intltool(>=0.40.1) iso-codes libaa1-dev libart-2.0-dev libasound2-dev(>=1.0.0)[linux-any] libatk1.0-dev(>=2.2.0) libbabl-dev libbz2-dev libcairo2-dev(>=1.10.2) libcurl4-gnutls-dev(>=7.15.1) libdbus-glib-1-dev(>=0.70) libexif-dev(>=0.6.15) libfreetype6-dev(>=2.2) libfontconfig1-dev(>=2.2.0) libglib2.0-dev(>=2.30.2) libglib2.0-doc libgegl-dev(>=0.2.0) libgtk2.0-dev(>=2.24.10) libgtk2.0-doc libgdk-pixbuf2.0-dev(>=2.24.1) libgdk-pixbuf2.0-doc libgs-dev libgudev-1.0-dev(>=167)[linux-any] libice-dev libjasper-dev libjpeg-dev liblcms2-dev(>=2.2) libmng-dev libpango1.0-dev(>=1.29.4) libpng-dev libpoppler-glib-dev(>=0.12.4) librsvg2-dev(>=2.14.0) libsm-dev libtiff-dev libwebkitgtk-dev(>=1.6.1) libwmf-dev(>=0.2.8) libx11-dev libxcursor-dev libxmu-dev libxpm-dev libxt-dev zlib1g-dev patchutils python-dev(>=2.6.6-3) python-gtk2-dev(>=2.10.4) xsltproc python2.6|python2.7 libjson-glib-dev ",
+      "depends": "debhelper(>=8) cdbs(>=0.4.97) autotools-dev dh-autoreconf gettext gnome-pkg-tools gtk-doc-tools(>=1.0) intltool(>=0.40.1) iso-codes libaa1-dev libart-2.0-dev libasound2-dev(>=1.0.0)[linux-any] libatk1.0-dev(>=2.2.0) libbabl-dev libbz2-dev libcairo2-dev(>=1.10.2) libcurl4-gnutls-dev(>=7.15.1) libdbus-glib-1-dev(>=0.70) libexif-dev(>=0.6.15) libfreetype6-dev(>=2.2) libfontconfig1-dev(>=2.2.0) libglib2.0-dev(>=2.30.2) libglib2.0-doc libgegl-dev(>=0.2.0) libgtk2.0-dev(>=2.24.10) libgtk2.0-doc libgdk-pixbuf2.0-dev(>=2.24.1) libgdk-pixbuf2.0-doc libgs-dev libgudev-1.0-dev(>=167)[linux-any] libice-dev libjpeg-dev liblcms2-dev(>=2.2) libmng-dev libpango1.0-dev(>=1.29.4) libpng-dev libpoppler-glib-dev(>=0.12.4) librsvg2-dev(>=2.14.0) libsm-dev libtiff-dev libwebkitgtk-dev(>=1.6.1) libwmf-dev(>=0.2.8) libx11-dev libxcursor-dev libxmu-dev libxpm-dev libxt-dev zlib1g-dev patchutils python-dev(>=2.6.6-3) python-gtk2-dev(>=2.10.4) xsltproc python2.6|python2.7 libjson-glib-dev dh-python|wget ",
       "binary": "libgimp2.0 gimp gimp-data libgimp2.0-dev libgimp2.0-doc",
       "description_libgimp20": "Libraries for the GNU Image Manipulation Program",
       "description_gimp": " The Free & Open Source Image Editor",
       "description_gimpdata": "Data files for GIMP",
       "description_libgimp20dev": "Headers and other files for compiling plugins for GIMP",
       "description_libgimp20doc": "Developers' Documentation for the GIMP library",
-      "md5": " 4083191ec2f5626fcf42b03d5088d3a0 a9a31844a12a45100a9647f01a99a5f5 531d231a34fa8b1acc9bfa8709874753",
-      "size": " 24_KiB  4_KiB  17.12_MiB "
+      "md5": " 9e00662210cdfc694f6e711646ffcfc1 70ed953de2884f53bc5dcbe9b857261c 7ea05b8f0690df7dd124520e69452c6c",
+      "size": " 24_KiB  4_KiB  17.10_MiB "
     },
     "gimpdevel": 
     {
-      "version": "2.9.4+git38105-fdf7b24-1",
+      "version": "2.9.4+git38145-dc74ac9-1",
       "description": " The Free & Open Source Image Editor",
       "sourceurl": "http://notesalexp.org/source/main/g/gimp-devel",
-      "sourcefile": "gimp-devel_2.9.4+git38105-fdf7b24-1.debian.tar.xz gimp-devel_2.9.4+git38105-fdf7b24-1.dsc gimp-devel_2.9.4+git38105-fdf7b24.orig.tar.xz ",
+      "sourcefile": "gimp-devel_2.9.4+git38145-dc74ac9-1.debian.tar.xz gimp-devel_2.9.4+git38145-dc74ac9-1.dsc gimp-devel_2.9.4+git38145-dc74ac9.orig.tar.xz ",
       "homepage": "http://www.gimp.org/",
       "depends": "debhelper(>=9) autotools-dev dh-autoreconf gettext gnome-pkg-tools gtk-doc-tools(>=1.0) intltool(>=0.40.1) iso-codes libaa1-dev libart-2.0-dev libasound2-dev(>=1.0.0)[linux-any] libatk1.0-dev(>=2.2.0) libbz2-dev libcairo2-dev(>=1.10.2) libcurl4-gnutls-dev(>=7.15.1) libdbus-glib-1-dev(>=0.70) libexif-dev(>=0.6.15) libfreetype6-dev(>=2.2) libfontconfig1-dev(>=2.2.0) libglib2.0-dev(>=2.30.2) libglib2.0-doc libgtk2.0-dev(>=2.24.10) libgtk2.0-doc libgdk-pixbuf2.0-dev(>=2.24.1) libgdk-pixbuf2.0-doc libgs-dev libgudev-1.0-dev(>=167)[linux-any] libice-dev libjpeg-dev libmng-dev libpango1.0-dev(>=1.29.4) libpoppler-glib-dev(>=0.12.4) librsvg2-dev(>=2.14.0) libsm-dev libtiff-dev libwebkitgtk-dev(>=1.6.1) libwmf-dev(>=0.2.8) libx11-dev libxcursor-dev libxmu-dev libxpm-dev libxt-dev zlib1g-dev patchutils python-dev(>=2.6.6-3) python-gtk2-dev(>=2.10.4) xsltproc python2.6|python2.7 libjson-glib-dev libjson-c-dev libgtk2.0-bin libgexiv2-dev python-cairo-dev libopenexr-dev git libsdl1.2-dev libavcodec-dev libavformat-dev libsuitesparse-dev libexiv2-dev ccache libspiro-dev liblua5.1-dev libv4l-dev libswscale-dev libopenraw-dev libwebp-dev libgraphviz-dev libgirepository1.0-dev libraw-dev valac graphviz ",
       "binary": "gimp-devel gimp-devel-data gimp-devel-dev",
       "description_gimpdevel": " The Free & Open Source Image Editor",
       "description_gimpdeveldata": "Data files for GIMP",
       "description_gimpdeveldev": "Headers and other files for compiling plugins for GIMP",
-      "md5": " bade15286aac3a4917d1dea111b24128 bc2aa134ce5fd64b56251b30b4b3e3b7 df3f232ea84bf256d43179c621f057e5",
-      "size": " 64_KiB  4_KiB  93.51_MiB "
+      "md5": " 61da686aa7cf579a167f57ecffffd426 9b2f6cc208aa98e54f7a151b48772f73 7cc14957d7447012d2cd161e6ec0243e",
+      "size": " 64_KiB  4_KiB  93.63_MiB "
     },
     "gimpgtk3": 
     {
@@ -407,32 +407,32 @@
     },
     "libmypaint": 
     {
-      "version": "1.3.0+git704-6477ad3-1",
+      "version": "1.3.0+git709-b7377e2-1",
       "description": " MyPaint brush engine library",
       "sourceurl": "http://notesalexp.org/source/main/libm/libmypaint",
-      "sourcefile": "libmypaint_1.3.0+git704-6477ad3-1.debian.tar.gz libmypaint_1.3.0+git704-6477ad3-1.dsc libmypaint_1.3.0+git704-6477ad3.orig.tar.xz ",
+      "sourcefile": "libmypaint_1.3.0+git709-b7377e2-1.debian.tar.xz libmypaint_1.3.0+git709-b7377e2-1.dsc libmypaint_1.3.0+git709-b7377e2.orig.tar.xz ",
       "homepage": "http://mypaint.org/",
       "depends": "debhelper(>=9) autotools-dev autoconf libjson-c-dev intltool dpkg-dev(>=1.16.1~) gettext libgirepository1.0-dev libglib2.0-dev libtool-bin|libtool ",
       "binary": "libmypaint0 libmypaint-dev gir1.2-libmypaint0",
       "description_libmypaint0": "MyPaint brush engine library",
       "description_libmypaintdev": "Development files for libmypaint",
       "description_gir12libmypaint0": "development files for libmypaint",
-      "md5": " f25fce6263d7cb15e070e296cc9a90b4 b6c2cb4b37899cb52e836ddff06e80cb b2c4cfb563abf445736be6853ebc1f0e",
+      "md5": " 9a274b53f2579db4b8dc3c69e3a879d5 d4120d3190217caadef8dd59bec8413a 23e9aeb4557ac5d5417890bd4ecb84c8",
       "size": " 4_KiB  4_KiB  780_KiB "
     },
     "librecad": 
     {
-      "version": "2.1.0+git4279-3ab980c-1",
+      "version": "2.1.0+git4289-4c5a084-1",
       "description": " Computer-aided design (CAD) system",
       "sourceurl": "http://notesalexp.org/source/main/libr/librecad",
-      "sourcefile": "librecad_2.1.0+git4279-3ab980c-1.debian.tar.xz librecad_2.1.0+git4279-3ab980c-1.dsc librecad_2.1.0+git4279-3ab980c.orig.tar.xz ",
+      "sourcefile": "librecad_2.1.0+git4289-4c5a084-1.debian.tar.xz librecad_2.1.0+git4289-4c5a084-1.dsc librecad_2.1.0+git4289-4c5a084.orig.tar.xz ",
       "homepage": "http://www.librecad.org/",
       "depends": "debhelper(>=9) qtbase5-dev libqt5svg5-dev qttools5-dev qtchooser qttools5-dev-tools libmuparser-dev imagemagick librsvg2-bin libboost-dev libfreetype6-dev libicu-dev pkg-config ",
       "binary": "librecad librecad-data",
       "description_librecad": "Computer-aided design (CAD) system",
       "description_librecaddata": "Computer-aided design (CAD) system -- shared files",
-      "md5": " ca53b7db5cbc55a7bc9315adb007a8c2 18830ae2ad6b740e3aad9399c29cdd80 feb253b642176fd1f4efc9f6abb646ec",
-      "size": " 8_KiB  4_KiB  5.74_MiB "
+      "md5": " 11044ca0770fa9159dd7e1195a321b3c a9907bf7802c27d78f58ded9db7b1194 1e3e2a1b6c2a0e05f5404d4786a46165",
+      "size": " 8_KiB  4_KiB  5.75_MiB "
     },
     "linuxdcpp": 
     {
@@ -462,17 +462,17 @@
     },
     "mypaint": 
     {
-      "version": "1.3.0~git4595-9d59f18-1",
+      "version": "1.3.0~git4597-2dd8b50-1",
       "description": " MyPaint brush engine library",
       "sourceurl": "http://notesalexp.org/source/main/m/mypaint",
-      "sourcefile": "mypaint_1.3.0~git4595-9d59f18-1.debian.tar.xz mypaint_1.3.0~git4595-9d59f18-1.dsc mypaint_1.3.0~git4595-9d59f18.orig.tar.xz ",
+      "sourcefile": "mypaint_1.3.0~git4597-2dd8b50-1.debian.tar.xz mypaint_1.3.0~git4597-2dd8b50-1.dsc mypaint_1.3.0~git4597-2dd8b50.orig.tar.xz ",
       "homepage": "http://mypaint.info/",
       "depends": "debhelper(>=9) dh-python dpkg-dev(>=1.16.1~) gettext libgtk-3-dev(>=3.10) libjson-c-dev liblcms2-dev libpng-dev python(>=2.7) python-dev python-gi-dev python-matplotlib python-tk scons swig libmypaint-dev git ",
       "binary": "mypaint mypaint-data mypaint-data-extras",
       "description_mypaint": "paint program for use with graphics tablets",
       "description_mypaintdata": "runtime data files for MyPaint",
       "description_mypaintdataextras": "high resolution backgrounds for mypaint",
-      "md5": " 479d2b87c6a5b0189427da1c133a0b69 0295428c17fbbc0a88d8ee14ad2f6a51 955811d65421a84c345f2e4c3f695421",
+      "md5": " 7769b46b4006e2a19be890a74d258642 31744ca137ef9ce7b722568185dd72bf a74974a1f8f0aff1aad8979ebcb9d387",
       "size": " 20_KiB  4_KiB  35.47_MiB "
     },
     "myrulib": 
@@ -890,16 +890,16 @@
     },
     "uget": 
     {
-      "version": "2.0.8-1+nmu2",
+      "version": "2.0.9-0+nmu1",
       "description": " easy-to-use download manager written in GTK+",
       "sourceurl": "http://notesalexp.org/source/main/u/uget",
-      "sourcefile": "uget_2.0.8-1+nmu2.debian.tar.xz uget_2.0.8-1+nmu2.dsc uget_2.0.8.orig.tar.gz ",
+      "sourcefile": "uget_2.0.9-0+nmu1.debian.tar.xz uget_2.0.9-0+nmu1.dsc uget_2.0.9.orig.tar.gz ",
       "homepage": "http://urlget.sourceforge.net/",
       "depends": "debhelper(>=9) intltool dh-autoreconf libnotify-dev libgstreamer1.0-dev autotools-dev libgtk-3-dev libssl-dev libcurl4-openssl-dev ",
       "binary": "uget",
       "description_uget": "easy-to-use download manager written in GTK+",
-      "md5": " f223ec070574597adc6372d2bde3f388 e7144f24744ebe0045cb3d0bfd351ec3 ac02ad2a63b76d53c414b2249ff387c4",
-      "size": " 12_KiB  4_KiB  888_KiB "
+      "md5": " a6a6525dff4acfbd2be4f3675b325751 51bccb5ed76d3a296aeffd7f47727c35 0647d55c959d6a9bd9b09f166e63fc29",
+      "size": " 12_KiB  4_KiB  912_KiB "
     },
     "vacuum": 
     {
