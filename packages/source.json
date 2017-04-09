@@ -1,31 +1,31 @@
 {
     "aegisub": 
     {
-      "version": "1:3.2.3~git7792-b859ddb-1",
+      "version": "1:3.2.3~git7793-3594ade-1",
       "description": " Advanced subtitle editor",
       "sourceurl": "http://notesalexp.org/source/main/a/aegisub",
-      "sourcefile": "aegisub_3.2.3~git7792-b859ddb-1.debian.tar.xz aegisub_3.2.3~git7792-b859ddb-1.dsc aegisub_3.2.3~git7792-b859ddb.orig.tar.xz ",
+      "sourcefile": "aegisub_3.2.3~git7793-3594ade-1.debian.tar.xz aegisub_3.2.3~git7793-3594ade-1.dsc aegisub_3.2.3~git7793-3594ade.orig.tar.xz ",
       "homepage": "http://www.aegisub.org/",
       "depends": "debhelper(>=9~) dh-autoreconf intltool libasound2-dev[linux-any] libass-dev libboost-dev libboost-filesystem-dev libboost-regex-dev libboost-system-dev libboost-thread-dev libffms2-dev libfftw3-dev libfontconfig1-dev libfreetype6-dev libgl1-mesa-dev|libgl-dev ccache libglu1-mesa-dev|libglu-dev libhunspell-dev libicu-dev libpulse-dev libwxgtk3.0-dev quilt libboost-locale-dev libboost-chrono-dev libavresample-dev liblua5.2-dev|liblua5.3-dev lua5.2|lua5.3 luajit git ",
       "binary": "aegisub aegisub-l10n",
       "description_aegisub": "Advanced subtitle editor",
       "description_aegisubl10n": "Aegisub language packages",
-      "md5": " 542d4a72038969e0ac70b3af3602e1c2 dea263b7bf69563df533a161b50c6590 78c2f0ac18c9aedc84bd80a2b87141ae",
-      "size": " 8_KiB  4_KiB  11.58_MiB "
+      "md5": " c31fe555cb9f2d3499f67de9d21d6c46 bf91fa92af572d259663ab89569eff06 2fa2d8a9756a27db6bf6fe5b62682420",
+      "size": " 8_KiB  4_KiB  11.57_MiB "
     },
     "audacity": 
     {
-      "version": "1:2.1.3+git6327-78149bc-1",
+      "version": "1:2.1.3+git6553-c44e5a2-1",
       "description": " fast, cross-platform audio editor",
       "sourceurl": "http://notesalexp.org/source/main/a/audacity",
-      "sourcefile": "audacity_2.1.3+git6327-78149bc-1.debian.tar.xz audacity_2.1.3+git6327-78149bc-1.dsc audacity_2.1.3+git6327-78149bc.orig.tar.xz ",
+      "sourcefile": "audacity_2.1.3+git6553-c44e5a2-1.debian.tar.xz audacity_2.1.3+git6553-c44e5a2-1.dsc audacity_2.1.3+git6553-c44e5a2.orig.tar.xz ",
       "homepage": "http://audacityteam.org/",
       "depends": "autoconf automake debhelper(>=9) dh-autoreconf gettext libasound2-dev[linux-any] libavcodec-dev(>=6:0.8) libavformat-dev(>=6:0.8) libavutil-dev(>=6:0.8) libexpat1-dev libflac++-dev libgtk2.0-dev libid3tag0-dev libjack-dev liblilv-dev libmad0-dev(>=0.14.2b) libmp3lame-dev libogg-dev(>=1.0.0) libportsmf-dev libsbsms-dev(>=2.0.0) libsndfile1-dev(>=1.0.0) libsoundtouch-dev(>=1.3.1-2) libsoxr-dev(>=0.0.5) libsuil-dev libtwolame-dev(>=0.3.9) libvorbis-dev(>=1.0.0-3) libwxgtk3.0-dev lv2-dev portaudio19-dev(>=19+svn20101113-3~) vamp-plugin-sdk(>=2.0) git ",
       "binary": "audacity audacity-data",
       "description_audacity": "fast, cross-platform audio editor",
       "description_audacitydata": "fast, cross-platform audio editor (data)",
-      "md5": " 32329099b0d7ff04ee1f7e1b08ceec51 66c0e58482a5897bb751a8d25a62e177 c094a9d4bd63e82b6f73694fa085c52c",
-      "size": " 28_KiB  4_KiB  25.71_MiB "
+      "md5": " 5d9c23fa2fb4ae16c3104d53df38ddca d3e0f2205d12a076e867a2f3c00b91e1 7b8143ee528562d8fe31fe04cec04223",
+      "size": " 28_KiB  4_KiB  26.87_MiB "
     },
     "autopanosiftc": 
     {
@@ -55,15 +55,15 @@
     },
     "balsa": 
     {
-      "version": "2.5.1+git20170315-1",
+      "version": "2.5.1+git20170408-1",
       "description": " e-mail client for GNOME",
       "sourceurl": "http://notesalexp.org/source/main/b/balsa",
-      "sourcefile": "balsa_2.5.1+git20170315-1.debian.tar.xz balsa_2.5.1+git20170315-1.dsc balsa_2.5.1+git20170315.orig.tar.xz ",
+      "sourcefile": "balsa_2.5.1+git20170408-1.debian.tar.xz balsa_2.5.1+git20170408-1.dsc balsa_2.5.1+git20170408.orig.tar.xz ",
       "homepage": "http://pawsa.fedorapeople.org/balsa/",
       "depends": "autotools-dev debhelper(>=9) dh-autoreconf gnome-pkg-tools intltool libcanberra-gtk3-dev libcompfaceg1-dev libesmtp-dev libglib2.0-dev libgmime-2.6-dev|libgmime-2.4-dev libgpgme11-dev libgspell-1-dev|libgtkspell3-3-dev libgtk-3-dev libgtksourceview-3.0-dev libkrb5-dev libldap2-dev libnotify-dev libsecret-1-dev libsqlite3-dev libssl-dev(>=0.9.8) libwebkit2gtk-4.0-dev libxml2-dev pkg-config python3-html2text yelp-tools zlib1g-dev libgnutls30-dev|libgnutls28-dev ",
       "binary": "balsa",
       "description_balsa": "e-mail client for GNOME",
-      "md5": " a01199a7c012b066aa2ed35bf2e1acc5 772556b29040134a2b07550897c4d8cb 00130b3debf4c3a54f10ea3ec7263d9a",
+      "md5": " 0f8422e08022ce7f5bd71c015a61144a d4dadfa5c5687e82fe03b20ba58a55f8 95b90ab86709933e66065a9b8e47db39",
       "size": " 8_KiB  4_KiB  3.37_MiB "
     },
     "bmpanel2": 
@@ -95,15 +95,15 @@
     },
     "clementine": 
     {
-      "version": "1.3.1+git1835-ge3ece3d-1",
+      "version": "1.3.1+git1843-g2c60481-1",
       "description": " modern music player and library organizer",
       "sourceurl": "http://notesalexp.org/source/main/c/clementine",
-      "sourcefile": "clementine_1.3.1+git1835-ge3ece3d-1.debian.tar.xz clementine_1.3.1+git1835-ge3ece3d-1.dsc clementine_1.3.1+git1835-ge3ece3d.orig.tar.xz ",
+      "sourcefile": "clementine_1.3.1+git1843-g2c60481-1.debian.tar.xz clementine_1.3.1+git1843-g2c60481-1.dsc clementine_1.3.1+git1843-g2c60481.orig.tar.xz ",
       "homepage": "http://www.clementine-player.org/",
       "depends": "cmake(>=2.6) debhelper(>=7.0.50~) docbook-to-man libboost-dev libboost-serialization-dev libcdio-dev libchromaprint-dev libcrypto++-dev libechonest-dev libfftw3-dev libglew-dev libgpod-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libimobiledevice-dev liblastfm-dev libmtp-dev libplist-dev libprojectm-dev libqjson-dev libmygpo-qt-dev|libqt4-dev libqt4-opengl-dev libqxt-dev libsparsehash-dev libsqlite3-dev libtag1-dev(>=1.8) libusbmuxd-dev qt4-dev-tools libprotobuf-dev protobuf-compiler libqca2-dev libpulse-dev ",
       "binary": "clementine",
       "description_clementine": "modern music player and library organizer",
-      "md5": " 69e0c899bef8983420a6208e13271de2 9b1f8160ce6b3d5b459e47e48a47f216 68a83fa0b8f339135b1f53bad1323dcf",
+      "md5": " 4caa263fe35fb1af9f2ad160be868aee 14a4aa36dd50906148d59e9ae8af0fed 97925424c2e2d1d65be2697a33983a22",
       "size": " 20_KiB  4_KiB  5.21_MiB "
     },
     "compizboxmenu": 
@@ -135,10 +135,10 @@
     },
     "deadbeef": 
     {
-      "version": "0.7.2+git7067-1621307-1",
+      "version": "0.7.2+git7073-ad54496-1",
       "description": " ultimate music player for GNU/Linux systems",
       "sourceurl": "http://notesalexp.org/source/main/d/deadbeef",
-      "sourcefile": "deadbeef_0.7.2+git7067-1621307-1.debian.tar.xz deadbeef_0.7.2+git7067-1621307-1.dsc deadbeef_0.7.2+git7067-1621307.orig.tar.xz ",
+      "sourcefile": "deadbeef_0.7.2+git7073-ad54496-1.debian.tar.xz deadbeef_0.7.2+git7073-ad54496-1.dsc deadbeef_0.7.2+git7073-ad54496.orig.tar.xz ",
       "homepage": "http://deadbeef.sourceforge.net/",
       "depends": "debhelper(>=7.0.50~) libltdl-dev|libltdl7-dev libtool libasound2-dev libsamplerate0-dev libmad0-dev libmpg123-dev libavformat-dev libsndfile1-dev libx11-dev libvorbis-dev libavutil-dev libcddb2-dev libgtk2.0-dev libgtk-3-dev libcdio-dev libogg-dev libcurl4-gnutls-dev libflac-dev autotools-dev libwavpack-dev libavcodec-dev automake autoconf libnotify-dev libpulse-dev intltool libmpcdec-dev libmms-dev libfaad-dev bison libzip-dev libimlib2-dev quilt yasm autopoint libglu1-mesa-dev mesa-common-dev libgtkglext1-dev libjansson-dev ",
       "binary": "deadbeef-dev deadbeef-gtk3 deadbeef-gtk2 deadbeef",
@@ -146,7 +146,7 @@
       "description_deadbeefgtk3": "GTK3 interface to DeaDBeeF",
       "description_deadbeefgtk2": "GTK2 interface to DeaDBeeF",
       "description_deadbeef": "ultimate music player for GNU/Linux systems",
-      "md5": " bba5b4eae35da3a5fc550c14da9e2f9d b86cab0955f0db12c6de5c911405f4c1 e0fdf0b3a48c7bd4e67711bdf53e3797",
+      "md5": " 582b8bcb679d369c2b3688f22e78ebcf 08a7a8d18c4db5a04b0fad649f03ffc5 9124f127acd0b20b131deb1b98bed5a1",
       "size": " 16_KiB  4_KiB  5.84_MiB "
     },
     "eigen3": 
@@ -350,23 +350,23 @@
     },
     "goaccess": 
     {
-      "version": "1:1.2.0+git2247-246b8e5-1",
+      "version": "1:1.2.0+git2308-c9ebfc7-1",
       "description": " log analyzer and interactive viewer for the Apache Webserver",
       "sourceurl": "http://notesalexp.org/source/main/g/goaccess",
-      "sourcefile": "goaccess_1.2.0+git2247-246b8e5-1.debian.tar.xz goaccess_1.2.0+git2247-246b8e5-1.dsc goaccess_1.2.0+git2247-246b8e5.orig.tar.xz ",
+      "sourcefile": "goaccess_1.2.0+git2308-c9ebfc7-1.debian.tar.xz goaccess_1.2.0+git2308-c9ebfc7-1.dsc goaccess_1.2.0+git2308-c9ebfc7.orig.tar.xz ",
       "homepage": "http://goaccess.prosoftcorp.com/",
       "depends": "debhelper(>=9) autotools-dev libncurses5-dev libglib2.0-dev libgeoip-dev autoconf automake libncursesw5-dev ",
       "binary": "goaccess",
       "description_goaccess": "log analyzer and interactive viewer for the Apache Webserver",
-      "md5": " b69b23d05b88481c5cdc48a24c71aee8 bd438bfc6ee6430adb441c244f0e9db2 5badc412cd903dad95a829e7630fa0ae",
-      "size": " 12_KiB  4_KiB  232_KiB "
+      "md5": " 7362dff1056c36bbd8e81f2e8b34c79b 7cd541d194a6fddf5fa5391cd2eee052 5476dc256736abfc902f2d391abf255e",
+      "size": " 16_KiB  4_KiB  236_KiB "
     },
     "kvirc": 
     {
-      "version": "4:4.9.2~git-7100-g48a2865-1",
+      "version": "4:4.9.2~git-7102-gdb664a3-1",
       "description": " Next generation IRC client with module support",
       "sourceurl": "http://notesalexp.org/source/main/k/kvirc",
-      "sourcefile": "kvirc_4.9.2~git-7100-g48a2865-1.debian.tar.xz kvirc_4.9.2~git-7100-g48a2865-1.dsc kvirc_4.9.2~git-7100-g48a2865.orig.tar.xz ",
+      "sourcefile": "kvirc_4.9.2~git-7102-gdb664a3-1.debian.tar.xz kvirc_4.9.2~git-7102-gdb664a3-1.dsc kvirc_4.9.2~git-7102-gdb664a3.orig.tar.xz ",
       "homepage": "http://www.kvirc.de/",
       "depends": "debhelper(>=9) cmake(>=3.1) libperl-dev zlib1g-dev libx11-dev libxrender-dev libssl-dev qtbase5-dev qttools5-dev-tools libqt5x11extras5-dev libphonon4qt5-dev qttools5-dev libqt5svg5-dev qtmultimedia5-dev libqt5webkit5-dev libphonon4qt5experimental-dev pkg-config libxss-dev python-dev libqtwebkit-dev libenchant-dev ",
       "binary": "kvirc libkvilib4 kvirc-modules kvirc-data kvirc-dbg",
@@ -374,7 +374,7 @@
       "description_libkvilib4": "KVIrc (IRC client) base library",
       "description_kvircmodules": "KVIrc (IRC client) modules",
       "description_kvircdata": "Data files for KVIrc",
-      "md5": " e4cef88dd5c127b10e9463f1355417e8 00144c61be118914600201c9150f8f0e e367c8cf1cbdd93ceae7ba9da9997f4e",
+      "md5": " 5a4f109db18606b0a40db9ac2dcb4a6a f6e57f1fa6cdb4be83184017efb3c84f eea8a0cef6cd4809e5d230640f63762f",
       "size": " 16_KiB  4_KiB  3.49_MiB "
     },
     "leptonlib": 
@@ -603,10 +603,10 @@
     },
     "psiplus": 
     {
-      "version": "0.16.576.641+git20170321-1",
+      "version": "0.16.579.647+git20170406-1",
       "description": " Qt-based XMPP/Jabber client",
       "sourceurl": "http://notesalexp.org/source/main/p/psi-plus",
-      "sourcefile": "psi-plus_0.16.576.641+git20170321-1.debian.tar.xz psi-plus_0.16.576.641+git20170321-1.dsc psi-plus_0.16.576.641+git20170321.orig.tar.xz ",
+      "sourcefile": "psi-plus_0.16.579.647+git20170406-1.debian.tar.xz psi-plus_0.16.579.647+git20170406-1.dsc psi-plus_0.16.579.647+git20170406.orig.tar.xz ",
       "homepage": "http://psi-dev.googlecode.com/",
       "depends": "debhelper(>=9) libaspell-dev libidn11-dev libminizip-dev libotr5-dev|libotr2-dev libqca-qt5-2-dev libqt5webkit5-dev libqt5x11extras5-dev libsm-dev libtidy-dev libxss-dev qconf qtmultimedia5-dev zlib1g-dev ",
       "binary": "psi-plus psi-plus-dbg psi-plus-webkit psi-plus-webkit-dbg psi-plus-common psi-plus-plugins psi-plus-plugins-dbg psi-plus-skins psi-plus-sounds psi-plus-icons-nonfree",
@@ -617,7 +617,7 @@
       "description_psiplusskins": "skins for Psi+",
       "description_psiplussounds": "sound files for Psi+",
       "description_psiplusiconsnonfree": "additional icons for Psi+",
-      "md5": " d461a7a6a09b07255b02f9ca2f3f2f4c 0fe34f0f9f16a7a4818789338e561596 de6236961c514f3164635ac198971347",
+      "md5": " cea9b1e7f348057f14ae7166edce488d 129cdf42d46bbf0e7c82b701d8341707 ef496ffc9afd60ab4970d35e340b523b",
       "size": " 12_KiB  4_KiB  13.92_MiB "
     },
     "psiplusl10n": 
@@ -756,16 +756,16 @@
     },
     "smplayer": 
     {
-      "version": "17.3.0+svn8486-1",
+      "version": "17.3.0+svn8502-1",
       "description": " Complete front-end for MPlayer, MPlayer2 and mpv",
       "sourceurl": "http://notesalexp.org/source/main/s/smplayer",
-      "sourcefile": "smplayer_17.3.0+svn8486-1.debian.tar.xz smplayer_17.3.0+svn8486-1.dsc smplayer_17.3.0+svn8486.orig.tar.xz ",
+      "sourcefile": "smplayer_17.3.0+svn8502-1.debian.tar.xz smplayer_17.3.0+svn8502-1.dsc smplayer_17.3.0+svn8502.orig.tar.xz ",
       "homepage": "http://smplayer.sourceforge.net/",
       "depends": "debhelper(>=9) qtbase5-dev(>=5.1) qt5-qmake qtscript5-dev qttools5-dev-tools zlib1g-dev qtbase5-private-dev ",
       "binary": "smplayer smplayer-l10n",
       "description_smplayer": "Complete front-end for MPlayer, MPlayer2 and mpv",
       "description_smplayerl10n": "Complete front-end for MPlayer, MPlayer2 and mpv - translation files",
-      "md5": " 7035b75fc8a9478a1aeef9f165b5b54f 69f521a6217d827b379adc4233a0f004 587e73788e5028fe1c1b011a1f64874b",
+      "md5": " 707d20a8e540955c9191de3e4263565a 5a97b487e511b73c964b135804a85070 dbbc56cb424c124313d08cb67b5c0818",
       "size": " 12_KiB  4_KiB  3.87_MiB "
     },
     "solvespace": 
@@ -798,10 +798,10 @@
     },
     "tesseract": 
     {
-      "version": "4.00~git1805-cf245f8-1",
+      "version": "4.00~git1822-cf0b378-1",
       "description": " Open Source OCR Engine",
       "sourceurl": "http://notesalexp.org/source/main/t/tesseract",
-      "sourcefile": "tesseract_4.00~git1805-cf245f8-1.debian.tar.xz tesseract_4.00~git1805-cf245f8-1.dsc tesseract_4.00~git1805-cf245f8.orig.tar.xz ",
+      "sourcefile": "tesseract_4.00~git1822-cf0b378-1.debian.tar.xz tesseract_4.00~git1822-cf0b378-1.dsc tesseract_4.00~git1822-cf0b378.orig.tar.xz ",
       "homepage": "https://github.com/tesseract-ocr/",
       "depends": "debhelper(>=7.0.50~) libleptonica-dev(>=1.72~) automake libtool libpango1.0-dev libcairo2-dev libicu-dev libpng-dev libjpeg-dev libtiff-dev zlib1g-dev git autoconf-archive ",
       "binary": "tesseract-ocr-dev libtesseract-dev libtesseract4 tesseract-ocr tesseract-ocr-all",
@@ -810,8 +810,8 @@
       "description_libtesseract4": "Tesseract OCR library",
       "description_tesseractocr": " Open Source OCR Engine",
       "description_tesseractocrall": "Tesseract OCR with all language packages",
-      "md5": " a518a966dc5be8a6ae50da82d679b666 0f87822f9907aefa0fd3ac2de3df09b6 fa4b1b7116670ea03bfd9d4b578d147a",
-      "size": " 16_KiB  4_KiB  6.49_MiB "
+      "md5": " 176041d4de1d08f686b4d47f098be12c 2635553e3f0392b9526f413b2f7dbfcd d8e1cfb3b415273e751fed31ac8ef52e",
+      "size": " 16_KiB  4_KiB  6.50_MiB "
     },
     "tesseractlang": 
     {
@@ -903,17 +903,17 @@
     },
     "vacuum": 
     {
-      "version": "1.3.0+git20170116-1",
+      "version": "1.3.0+git20170406-1",
       "description": " Jabber client using Qt",
       "sourceurl": "http://notesalexp.org/source/main/v/vacuum",
-      "sourcefile": "vacuum_1.3.0+git20170116-1.debian.tar.xz vacuum_1.3.0+git20170116-1.dsc vacuum_1.3.0+git20170116.orig.tar.xz ",
+      "sourcefile": "vacuum_1.3.0+git20170406-1.debian.tar.xz vacuum_1.3.0+git20170406-1.dsc vacuum_1.3.0+git20170406.orig.tar.xz ",
       "homepage": "https://github.com/Vacuum-IM",
       "depends": "cmake debhelper(>=7.0.50~) openssl libqtwebkit-dev|libqt4-dev libx11-dev zlib1g-dev libidn11-dev libxss-dev libenchant-dev bc ",
       "binary": "vacuum libvacuumutils37 vacuum-dev vacuum-dbg",
       "description_vacuum": "Jabber client using Qt",
       "description_libvacuumutils37": "Jabber client using Qt (shared library)",
       "description_vacuumdev": "Development files for Vacuum",
-      "md5": " fb614e7478abbb619a3b42a734cec7f7 7bc8b21bc871b386db16e68383bfac47 6ca67011038b262444c43f9fcb9e63b8",
+      "md5": " 15e3c8f421ff2920a529e4750e5cce29 fd3bd7da2887841ac6f8ff8f7e28a183 e62b1085bea18ec25597f139cc858444",
       "size": " 8_KiB  4_KiB  1.82_MiB "
     },
     "veracrypt": 
