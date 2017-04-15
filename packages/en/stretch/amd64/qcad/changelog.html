@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package qcad_3.16.7+git4455-38120ee-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package qcad_3.16.7+git4513-ba931d5-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
     <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -39,14 +39,75 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package qcad in stretch of architecture amd64</h5>
-<div class="highlight"><pre><span></span>qcad (3.16.7+git4455-38120ee-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>qcad (3.16.7+git4513-ba931d5-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/qcad/qcad.git
   * Branch: master
-  * Commit: 38120eeae19b62f1e250dd80fcd7fc45987ebbb5
-  * Date: 1490367787
+  * Commit: ba931d5e7efe2f14a62273378be47a5f6f1d3f3b
+  * Date: 1491572240
   * git changelog:
+  *  ba931d5 - update workaround for Qt 5.6.1, 5.6.2 bug under macOS
+  *  7a81b3b - workaround for Qt 5.6.1, 5.6.2 bug under macOS
+  *  a36a1ac - fix FS#1569 - File > Print Preview: changing offset in
+    drawing preferences has no immediate effect
+  *  b1383ca - Merge branch 'master' of github.com:qcad/qcad
+  *  4b04ccf - Merge branch 'master' of github.com:qcad/qcad
+  *  4d4f92b - add RPATH ORIGIN under Linux
+  *  99d035d - update translations
+  *  4a2e7d3 - fix entity visibility in nested blocks / layer 0
+  *  f36172a - update dump
+  *  eb05f20 - add layer / visibility test cases
+  *  669ffd7 - add layer / visibility test cases
+  *  7322032 - add test data for layers, visibility, layer 0
+  *  d9cd766 - extend visibility check for entities on layer 0
+  *  021f9af - add RExporter::getBlockRefViewportStack
+  *  f67ae70 - fix check for special layer 0 handling
+  *  1f48207 - update script bindings
+  *  c7c8c1d - fix block attribute visibility / color in layer 0
+    compatibility mode
+  *  23bd42d - add RExporter::getColor to get color of current entity
+  *  9a0f364 - update comments
+  *  ffce774 - add QTextLayout meta type declaration
+  *  63da695 - add RTextLayout::getLayout
+  *  cf078d7 - clean up
+  *  285c208 - update comments
+  *  38d87d1 - Merge branch 'master' of github.com:qcad/qcad
+  *  5acb09f - update / add rendering test files
+  *  4d1673d - Update Slo translation
+  *  345c09b - update
+  *  b40a089 - update API doc
+  *  363fc41 - use REntity::isVisible when computing bounding box
+  *  8f8c3fe - make RTextLayout scriptable
+  *  f047b8a - add sanity checks
+  *  f31dc27 - add sanity checks
+  *  ba4da63 - only export sane labels
+  *  40352ae - add RTextBasedData::isSane
+  *  f9416ac - add isSane
+  *  e6fa54e - add isValid, isSane to dimension classes
+  *  947c6da - make RTextLayout scriptable, add RTextLayout::hasLayout
+  *  3236ceb - add REntity::isValid REntity::isSane
+  *  b961a68 - add comment
+  *  4c88a50 - update translations
+  *  18b8641 - update layer preferences
+  *  dd2ccfe - add TODOs, clean up
+  *  f1e43d8 - clean up
+  *  c351cdf - move visibility check for attributes to attribute class
+  *  0612e2f - don't delegate attribute color to block reference
+  *  50449df - make sure update reminder is shown after splash is closed
+  *  410b7ce - update
+  *  8c92fa4 - add user level warning when recursive block references
+    are detected
+  *  46e8cad - clean up
+  *  4f3c208 - set version to 3.16.7.4
+  *  0cc6668 - fix trackpad zooming under macOS with Qt 5
+  *  f992550 - clean up
+  *  c3d0b41 - add debugging info
+  *  357853a - Merge branch 'master' of github.com:qcad/qcad
+  *  c6a8a78 - add nativeGestureEvent
+  *  1ce1ee0 - set verion to 3.16.7.3
+  *  b39d7d1 - Merge branch 'master' of github.com:qcad/qcad
+  *  ad14ff3 - add xcbglintegrations to deployment
   *  38120ee - add more example script bindings
   *  021b26b - update script bindings
   *  7dcf010 - use REntity::isVisible for all visibility checks
@@ -150,7 +211,7 @@
   *  46cb829 - TextDialog: Fixed source focus.
   *  8f393c2 - Update Slo translation
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 25 Mar 2017 10:57:34 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 14 Apr 2017 07:16:54 +0300
 
 qcad (3.16.5+git4362-745d320-2) unstable; urgency=medium
 
