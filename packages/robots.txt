@@ -12,3 +12,4 @@ Disallow: /precise
 Disallow: /trusty
 Disallow: /xenial
 Disallow: /yakkety
+Disallow: /zesty

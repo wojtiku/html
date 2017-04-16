@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | ChangeLog of package qcad-data_3.16.7+git4513-ba931d5-1_all.deb </title>
+    <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
+    <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="http://notesalexp.org/packages/css/package.css" type="text/css" />
+    <meta name="generator"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://notesalexp.org/html/">Home</a></li>
+                <li><a href="http://notesalexp.org/html/update.html">Update</a></li>
+                <li><a href="http://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li class="selected" ><a href="http://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="http://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="http://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+        <div id="pnavbar">
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages">Packages</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/zesty/amd64">zesty&nbsp;&#x2F;amd64</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/zesty/amd64/qcad-data"> qcad-data </a>
+            &nbsp;&#x2F; ChangeLog
+        </div> <!-- end navbar -->
+    </header>
+    <div id="wrapper">
+        <div id="content">
+<div class="page">
+<h5>ChangeLog of package qcad-data in zesty of architecture amd64</h5>
+<div class="highlight"><pre><span></span>qcad (3.16.7+git4513-ba931d5-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: ba931d5e7efe2f14a62273378be47a5f6f1d3f3b
+  * Date: 1491572240
+  * git changelog:
+  *  ba931d5 - update workaround for Qt 5.6.1, 5.6.2 bug under macOS
+  *  7a81b3b - workaround for Qt 5.6.1, 5.6.2 bug under macOS
+  *  a36a1ac - fix FS#1569 - File > Print Preview: changing offset in
+    drawing preferences has no immediate effect
+  *  b1383ca - Merge branch 'master' of github.com:qcad/qcad
+  *  4b04ccf - Merge branch 'master' of github.com:qcad/qcad
+  *  4d4f92b - add RPATH ORIGIN under Linux
+  *  99d035d - update translations
+  *  4a2e7d3 - fix entity visibility in nested blocks / layer 0
+  *  f36172a - update dump
+  *  eb05f20 - add layer / visibility test cases
+  *  669ffd7 - add layer / visibility test cases
+  *  7322032 - add test data for layers, visibility, layer 0
+  *  d9cd766 - extend visibility check for entities on layer 0
+  *  021f9af - add RExporter::getBlockRefViewportStack
+  *  f67ae70 - fix check for special layer 0 handling
+  *  1f48207 - update script bindings
+  *  c7c8c1d - fix block attribute visibility / color in layer 0
+    compatibility mode
+  *  23bd42d - add RExporter::getColor to get color of current entity
+  *  9a0f364 - update comments
+  *  ffce774 - add QTextLayout meta type declaration
+  *  63da695 - add RTextLayout::getLayout
+  *  cf078d7 - clean up
+  *  285c208 - update comments
+  *  38d87d1 - Merge branch 'master' of github.com:qcad/qcad
+  *  5acb09f - update / add rendering test files
+  *  4d1673d - Update Slo translation
+  *  345c09b - update
+  *  b40a089 - update API doc
+  *  363fc41 - use REntity::isVisible when computing bounding box
+  *  8f8c3fe - make RTextLayout scriptable
+  *  f047b8a - add sanity checks
+  *  f31dc27 - add sanity checks
+  *  ba4da63 - only export sane labels
+  *  40352ae - add RTextBasedData::isSane
+  *  f9416ac - add isSane
+  *  e6fa54e - add isValid, isSane to dimension classes
+  *  947c6da - make RTextLayout scriptable, add RTextLayout::hasLayout
+  *  3236ceb - add REntity::isValid REntity::isSane
+  *  b961a68 - add comment
+  *  4c88a50 - update translations
+  *  18b8641 - update layer preferences
+  *  dd2ccfe - add TODOs, clean up
+  *  f1e43d8 - clean up
+  *  c351cdf - move visibility check for attributes to attribute class
+  *  0612e2f - don't delegate attribute color to block reference
+  *  50449df - make sure update reminder is shown after splash is closed
+  *  410b7ce - update
+  *  8c92fa4 - add user level warning when recursive block references
+    are detected
+  *  46e8cad - clean up
+  *  4f3c208 - set version to 3.16.7.4
+  *  0cc6668 - fix trackpad zooming under macOS with Qt 5
+  *  f992550 - clean up
+  *  c3d0b41 - add debugging info
+  *  357853a - Merge branch 'master' of github.com:qcad/qcad
+  *  c6a8a78 - add nativeGestureEvent
+  *  1ce1ee0 - set verion to 3.16.7.3
+  *  b39d7d1 - Merge branch 'master' of github.com:qcad/qcad
+  *  ad14ff3 - add xcbglintegrations to deployment
+  *  38120ee - add more example script bindings
+  *  021b26b - update script bindings
+  *  7dcf010 - use REntity::isVisible for all visibility checks
+  *  1aac0c5 - rename getType to getShapeType
+  *  9e3b52e - move getType to entity data classes
+  *  e4b4011 - fix detection of QCAD modules
+  *  5c90780 - clean up
+  *  868337e - update unit tests
+  *  5ff4164 - update unit tests
+  *  3137b9f - add script bindings for Qt 5.9
+  *  a12fe59 - Merge branch 'master' of github.com:qcad/qcad
+  *  612ca75 - set version to 3.16.7.2
+  *  093e905 - Merge pull request #14 from neomilium/fix-endless-make
+  *  199a139 - fix endless build problem
+  *  a04bf0a - update RObject::dump
+  *  de55da5 - update script bindings
+  *  9bf6f21 - add isLayerOff, isLayerOffOrFrozen
+  *  9f98f01 - add layer off flag
+  *  0f06e9f - add isLayerOff, isLayerOffOrFrozen
+  *  e5a996b - add support for off flag of layers (negative color value)
+  *  47f67d0 - add layer property off
+  *  17a80fa - set version to 3.16.7.1
+  *  ecc1993 - update translations
+  *  c4634d8 - update credits
+  *  d2bc7ac - update translations
+  *  5e9d153 - update translations
+  *  78ee4b7 - add preference to disable entity highlighting
+  *  5a6d77a - set version to 3.16.7
+  *  5ef7426 - fix FS#1560 - Main Menu not selectable (Ubuntu 16.04,
+    Unity)
+  *  a12714a - fix preferences, about menu placement (locale fr)
+  *  eef8157 - disable menu placement based on text heuristic by default
+    (macOS)
+  *  594fc13 - update credits
+  *  782b788 - update script bindings
+  *  de40681 - add space as decimal separator option
+  *  2ad4053 - decimal separator
+  *  13c22fa - decimal separator
+  *  31c8133 - update script bindings
+  *  6393f0d - use char instead of QChar for decimalSeparator
+  *  07d0ed1 - update templates
+  *  9328735 - set version to 3.16.6.0
+  *  18a3261 - avoid rendering of dots in hatch patterns not containing
+    dots
+  *  9f15cfe - render zero length segments in painter paths as one pixel
+    dots
+  *  93f8a94 - ignore zero length segment at end when rendering ellipse
+  *  944e134 - add option to ignore zero length lines
+  *  3c3e042 - add RPattern::hasDots
+  *  a78443b - update test file
+  *  92ad296 - fix FS#1559 - Font substitution in command line tools
+  *  b786096 - update translations
+  *  6b55cd7 - fix FS#1557 - Zero length lines not shown
+  *  4cc25cc - add unit tests for fill option
+  *  609e8cb - add fill option for shapes (rectangles, polygons)
+  *  768eb8f - update translations
+  *  33e4454 - don't translate key code
+  *  2aa1bc6 - add Ctrl+Return shortcut for text dialog
+  *  93c6ee4 - check if widget supports selectAll
+  *  9b0bafe - Merge pull request #13 from teegee/for-andrew
+  *  56487a7 - OptionsToolBarFocus: Select-all after control-space.
+  *  29c193c - Suppress qmake warning on Linux.
+  *  a88be56 - fix path of translations.pri
+  *  c1abb5d - set version to 3.16.5.5
+  *  75e0d4c - update translatable text
+  *  1a6bbc8 - update translations
+  *  7deb534 - update translations
+  *  323c655 - fix FS#1554 - Auto focus of options toolbar when entering
+    numbers broken after Esc
+  *  b6d69a3 - update translations
+  *  51f44e8 - add readTextFile, writeTextFile convenience functions
+  *  1183ea1 - fix FS#1553 - Modify > Break out Manual: exception with
+    circles
+  *  b891e89 - fix FS#1553 - Modify > Break out Manual: exception with
+    circles
+  *  a7f2d5d - update translations
+  *  856a582 - update translations
+  *  76cb8ba - fix problem with
+    RDocumentInterface::getLastKnownViewWithFocus returning secondary
+    views
+  *  4d981fc - set version to 3.16.5.4
+  *  0351541 - add hasOwnPropertyCI, getOwnPropertyCI
+  *  ce8cbf9 - update test data
+  *  46928d3 - update translations
+  *  855f19b - update test data
+  *  7de6d1c - initialize decimal separator setting
+  *  2aa8a2a - set version to 3.16.5.3
+  *  b21bdc9 - add workaround for QTBUG-57990
+  *  e449ce6 - fix compiler warning
+  *  f183833 - clean up
+  *  4e05f09 - fix compilation in DOS environment
+  *  8125bd7 - use copy instead of cp under windows
+  *  33f5fdf - update automatic detection of qcad modules
+  *  6a0f574 - set version 3.16.5.2
+  *  6509857 - auto detect and compile available modules
+  *  31dcebb - update
+  *  8b13cc6 - disable update check if it causes crash (QTBUG-56747)
+  *  8a82e8b - update error handling
+  *  7f84e69 - check for maximum image size
+  *  32e31fe - Merge pull request #12 from teegee/rob
+  *  46cb829 - TextDialog: Fixed source focus.
+  *  8f393c2 - Update Slo translation
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 14 Apr 2017 07:16:54 +0300
+
+qcad (3.16.5+git4362-745d320-2) unstable; urgency=medium
+
+  * fix icon desktop
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 21 Feb 2017 19:10:26 +0300
+
+qcad (3.16.5+git4362-745d320-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 745d3201f6a7d5eb9820c01f6473330a8d0a4f01
+  * Date: 1487315398
+  * git changelog:
+  *  745d320 - add template
+  *  61cda8b - Merge branch 'master' of github.com:qcad/qcad
+  *  c5c0590 - move LineDove to examples, LineDove2 > LineDove
+  *  b0aedd8 - add platforminputcontexts
+  *  65667fe - add platforminputcontexts
+  *  0a3be76 - add Misc > Draw > Dove tail from 2 points (Christian
+    Aigner)
+  *  47f389f - update script bindings
+  *  61713cd - refactor iso projection for future support of other
+    projections
+  *  881d0d5 - add app win property to disable close warning dialog
+  *  4f76e72 - update translations
+  *  45db2c0 - fix preview if dimscale != 1.0
+  *  c3d2d23 - fix preview if dimscale != 1.0
+  *  a6c75d9 - add support for DIMDSEP (decimal point for dimension
+    labels)
+  *  36a45ba - update qt translation files for Qt 5
+  *  9b2dbb7 - set version to 3.16.5.1
+  *  9b7adae - load qtbase translations (qt 5)
+  *  c241249 - add templates (DL3DL)
+  *  191b3e0 - update translations
+  *  43e36f1 - add support for call from command line
+  *  c51a76f - update user reference manual
+  *  62420f4 - add doc folder for zoom tools
+  *  27a7a2b - fix FS#1540 - Draw > Line > Parallel: Changing back to
+    Auto has no effect
+  *  9587ddc - re-add icon
+  *  e330186 - update user reference manual
+  *  fff5912 - update user reference manual
+  *  ad0db1e - update user reference manual
+  *  525900a - update translations
+  *  d264fb5 - remove standard edit menu items under macOS
+  *  22c2705 - fix order of multiple mixed short and long arguments
+    given
+  *  12fa4c7 - update Slovak translation
+  *  b1f4879 - update translations
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 17 Feb 2017 22:14:35 +0300
+
+qcad (3.16.4+git4331-5de0c91-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 5de0c91e8c1fdbccdeaadaa61be07ff281de63bd
+  * Date: 1486142329
+  * git changelog:
+  *  5de0c91 - set version to 3.16.5.0
+  *  fa43085 - set version to 3.16.4.7
+  *  8a03f19 - add script bindings for Qt 5.8.0
+  *  75254db - force deleting of entities / block references /
+    attributes if block is deleted
+  *  225868d - revert plugin disabling in QCAD3.ini
+  *  10ddb12 - update copyright year
+  *  2fd61f1 - update translations
+  *  b336973 - add unit tests
+  *  78112bb - update unit test data
+  *  ab10bd0 - update script bindings
+  *  d747a4f - refactor Apollonius.getSolutionsPLC to find all possible
+    solutions
+  *  9251e1f - fix potential exception
+  *  e0ec4eb - add moveTo to move line to given location using start
+    point as reference
+  *  04ed7ab - set version to 3.16.5
+  *  e35df4d - update translations
+  *  3abe5b5 - update script bindings
+  *  4519cc1 - update API doc
+  *  bf2a534 - use RPainterPath for glyphs
+  *  8e05fdf - allow RPainterPath to store original shapes if desired
+    (used for glyphs)
+  *  f55cd08 - store glyphs as RPainterPath, improve arc accuracy
+  *  896b297 - don't show shape fonts in font combo box
+  *  5875a75 - update generic usage info
+  *  9ada660 - update generic usage
+  *  1794427 - add scale property for ordinate dimensions
+  *  099ea42 - allow prepending of file exporters
+  *  92b1a5f - update script bindings
+  *  835cd58 - store disabled plugins in config file
+  *  3614e53 - add getApplicationNameOverride
+  *  8cfcb13 - fix compiler warnings with Qt 5
+  *  ae0f454 - set version to 3.16.4.4
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 03 Feb 2017 21:43:12 +0300
+
+qcad (3.16.3+git4301-08d8cc2-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 08d8cc2ab9a05fed3d46d26ec4a532a4805c76bc
+  * Date: 1484837790
+  * git changelog:
+  *  08d8cc2 - update cxf font format
+  *  6bd49ef - compile fix
+  *  1c26929 - update script bindings
+  *  0337e28 - display opengl related debugging messages in about dialog
+  *  c372fe1 - intercept opengl related debugging messages
+  *  ddcb157 - enable opengl related debugging messages
+  *  46cc26f - set version to 3.16.4.3
+  *  5b04502 - prevent infinite loop for invalid lines
+  *  6156203 - line is only valid if start and end point are sane
+  *  ce5aa4f - leave it to exporter if texts are rendered as paths
+  *  957c869 - update script bindings
+  *  ef875bb - clear background of view (fix export with transparent
+    background)
+  *  b0bbbd7 - add RGraphicsView::clear to clear background of graphics
+    view
+  *  39d7959 - set version to 3.16.4.2
+  *  bec3ab5 - update
+  *  b091890 - add unit tests
+  *  8043ef6 - fix potential exceptions
+  *  9cd9367 - update script bindings
+  *  6d3da55 - fix FS#1530 - Draw > Circle > 3 Tangents: solutions not
+    found
+  *  b06ab10 - move Circle2TR.getCircles2TR to Apollonius
+  *  1c74e69 - add RVector::getUnique
+  *  7db296f - fix FS#1530 - Circle from 3 Tangent not working in
+    special case
+  *  14ded2d - add unit tests
+  *  d7cb4c7 - update script bindings
+  *  2df190a - fix FS#1528 - Block attributes: relationship with block
+    reference lost after inserting from library
+  *  e1b4374 - set version to 3.16.4.1
+  *  a44f4bb - update API doc
+  *  49cb852 - add preference to (not) terminate snap to intersections
+    manual after one use
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 21 Jan 2017 12:17:36 +0300
+
+qcad (3.16.3+git4273-c83a1a0-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: c83a1a080a0ae2de87ad9a4c7a5d94d5eb626781
+  * Date: 1483706839
+  * git changelog:
+  *  c83a1a0 - update macOS SDK detection
+  *  33378c6 - add script bindings for Qt 5.7.1
+  *  bcd8911 - spelling
+  *  ef5eca5 - add generic usage info for command line tools
+  *  b777965 - update unit test data (exploding text glyphs into
+    polylines)
+  *  3e0c336 - set version to 3.16.4
+  *  df1de51 - fix QByteArray constructor wrapper
+  *  0e8ca78 - set version to 3.16.3.1
+  *  2514dae - set version to 3.16.4
+  *  0719e4e - update translations
+  *  e709b35 - update translations
+  *  aca79f2 - set version to 3.16.4.1
+  *  8dd8422 - enable tool matrix panel for flip tools
+  *  e38350d - let user set platform / fonts dir if desired
+  *  a8bbf73 - Merge branch 'master' of github.com:qcad/qcad
+  *  32724e8 - set version to 3.16.4
+  *  71db5e9 - add support for headless linux systems
+  *  3dd86ba - add / update licenses
+  *  d1bf9fd - clean up
+  *  d81dbfb - Merge branch 'master' of github.com:qcad/qcad
+  *  b76dbbd - add qt fonts (for command line tools)
+  *  36529a7 - Merge branch 'master' of github.com:qcad/qcad
+  *  8cf97a0 - deploy offscreen platform plugin
+  *  99908a3 - update debug output for local add-ons
+  *  fed0a3b - explode texts to polylines with arc segments
+  *  3550f01 - add preference to explode texts to polylines
+  *  63eab69 - add unit tests
+  *  32749b6 - update translations
+  *  f546066 - add missing explodable / circle intersection solution
+  *  2ee7223 - update translations
+  *  d5e6fb2 - set version to 3.16.3
+  *  f46a5ac - add additional options to bitmap export dialog
+  *  5f8da9f - add woraround for Qt/Linux bug (cannot enter @ sign in
+    command line)
+  *  1387a55 - fix -always-load-scripts
+  *  93e5f73 - fix -always-load-scripts
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 06 Jan 2017 16:15:44 +0300
+
+qcad (3.16.1.1+git4238-6940958-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 6940958fe82741b944deccee5793e43cfda9910e
+  * Date: 1482497932
+  * git changelog:
+  *  6940958 - set version to 3.16.2.4
+  *  24dc6c8 - set version to 3.16.2.3
+  *  56584ae - update script bindings
+  *  efb715b - add todo's for spline tangent support
+  *  f045f3f - update translations
+  *  016087b - spell check
+  *  2bb291a - update test data
+  *  20561be - spell check
+  *  a3d9ea3 - update tool titles
+  *  8f04a28 - add unit tests for rotation around center!=0/0
+  *  0b1f49a - add start/end tangents as properties
+  *  270dc88 - add RVector::isZero
+  *  82dffef - fix FS#1520 - Modify > Rotate: rotating splines changes
+    start/end tangents
+  *  4830cbf - update splashscreen
+  *  1a58e05 - add InvoluteSpur gear generator
+  *  a23db5f - merge changes from riverbuoy
+  *  18d69c7 - add translations for ConvertUnit
+  *  888443c - merge changes from riverbuoy
+  *  46138ab - use translated unit names
+  *  e2cc0dc - fix FS#1519 - Ruler precision always zero
+  *  c1b8c25 - set version to 3.16.2.2
+  *  fa21825 - update icon
+  *  eb556af - update icon
+  *  0b9bac6 - fix FS#1517 - Modify > Break out Segment: fails with
+    closed polyline
+  *  230c735 - add unit tests break out segment closed polyline
+  *  49f6e2c - add TODO for arc rendering with splines
+  *  cdf2ec2 - scan for add ons if that hasn't happend yet
+  *  addc823 - update credits
+  *  be76d5a - allow overriding of focus behaviour for RMathLineEdits
+    (ignoreEscape property)
+  *  e5bafc7 - add DXF header variable CLAYER
+  *  8350c74 - update tool title capitalization
+  *  f036fdc - update project file
+  *  0b3ca6c - update tool order
+  *  53194d8 - delete obsolete tool ConvertToInch
+  *  4aad868 - delete obsolete tool ArcChangeDirection
+  *  7d139dc - update tool order
+  *  cbdef0c - rename ExLayerAdd -> ExAddLayer
+  *  8d8ee72 - update tool title capitalization
+  *  60c4b92 - update credits
+  *  bc178f3 - add Edit > Convert Unit
+  *  3483e81 - Merge branch 'master' of github.com:qcad/qcad
+  *  a9341ab - set version to 3.16.2
+  *  a242661 - Merge branch 'master' of github.com:qcad/qcad
+  *  8a08f5e - deploy print support plugin for Linux
+  *  2c48821 - add preference to reset paste options on every tool start
+  *  c7068c4 - set version to 3.16.2.1
+  *  6540f37 - fix unit test
+  *  9960ccf - set version to 3.16.2
+  *  508906a - add unit test for copying block reference with attribute
+  *  11024a4 - make sure parent / child cache is updated when parent IDs
+    are set at end of transaction
+  *  7d21b28 - update splash screens
+  *  2b739ab - print debugging info when entity is clicked
+  *  ea00715 - set version to 3.16.1.2
+  *  abbb6ca - add unit test for snap middle manual
+  *  dfe5565 - add unit test for snap distance manual
+  *  008febb - add unit test for snap intersection manual
+  *  c34d7cb - set version to 3.16.1.1
+  *  e56f082 - port to qt 4
+  *  c33e44e - set version to 3.16.1
+  *  3d53349 - update script bindings
+  *  1846b73 - unify "2D" in API
+  *  7d804bd - revert to qt rendered patterns in screen-based linetype
+    mode
+  *  fa631c8 - improve precision in RSpline::createSplinesFromArc, unify
+    "2D" in API
+  *  4ea1e90 - revert to qt rendered patterns in screen-based linetype
+    mode
+  *  6cc361a - add RArc::splitAtQuadrantLines, unify "2D" in function
+    names
+  *  e841311 - revert to qt rendered patterns in screen-based linetype
+    mode
+  *  83606cd - fix screen-based linetypes for drawing units != mm or
+    inch
+  *  5d44559 - preserve polyline segment widths when modifying corner
+    (round, bevel)
+  *  c057b17 - update comments
+  *  15b938c - use exact resolution instead of auto zoom if resolution
+    is given for bitmap export
+  *  bb8beb0 - fix bitmap export exception
+  *  36eb9b5 - update translations
+  *  9c6f0e7 - clean up
+  *  7442501 - fine tune linux text rendering bug workaround
+  *  b4b6339 - Merge branch 'master' of github.com:qcad/qcad
+  *  ddf0675 - workaround for linux text rendering bug
+  *  f4154a1 - remove obsolete text threshold preference
+  *  15bfeb9 - copy platforms plugin to output dir/platforms
+  *  af56d4b - remove platforms from plugins (not in plugins subdir)
+  *  f5a1e49 - copy platforms xcb plugin
+  *  5c32cb5 - add platforms plugin subdir
+  *  1c2c86c - update autoZoom
+  *  9a736b4 - update script bindings
+  *  9a0f6f2 - update script bindings
+  *  6d3f2d9 - update meta types
+  *  7140a9e - fix compiler warnings
+  *  f932b8f - make adde margin for line weights optional for autoZoom
+  *  4d458c1 - add parameter noweightmargin
+  *  53a870b - update translations
+  *  4afd88e - update user reference manual
+  *  1b796a4 - update to version 3.16.0
+  *  3bbb4a1 - set version to 3.16.0.0
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 24 Dec 2016 13:19:33 +0300
+
+qcad (3.15.8.0+git4146-a67c9da-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: a67c9da826e912be63bcabadd7bd33877186283e
+  * Date: 1481278209
+  * git changelog:
+  *  a67c9da - update translations
+  *  5c3d022 - fix translation context
+  *  f9cda15 - fix Qt header warning
+  *  3eadf31 - fix compiler warnings
+  *  325b609 - fix compiler warnings
+  *  a6a93a5 - fix initialization of length
+  *  3b1e361 - set version to 3.15.6.3
+  *  360443c - change viewport rotation center
+  *  a007cb6 - add off property for viewports
+  *  2975ef8 - clean up
+  *  d63ba67 - use resolution for bitmap export if available
+  *  ec9a47f - improve rendering of line patterns in screen-based
+    linetypes mode
+  *  465f093 - set version to 3.15.6.2
+  *  dd6fcb1 - update script bindings
+  *  1a0cd03 - add rotation to viewport
+  *  70c588d - fix unit test
+  *  b4ceb6c - fix compiler warning
+  *  e4baea7 - increase tolerance for ellipse intersections
+  *  dcc3e29 - increase tolerance for ellipse intersections
+  *  bf46f4a - drag corners of viewports
+  *  b335267 - fix clipping during preview
+  *  f905e4f - add DrawBasedOnRectanglePP::getCenter, getWidth,
+    getHeight
+  *  027e2c3 - clean up
+  *  0b1b538 - fix FS#1508 - QCAD CE: Subscript and superscript
+    formatting lost when file re-opened
+  *  fff918c - rename Viewport to ViewportWidget
+  *  806978f - update script bindings
+  *  f10fce0 - add RPolyline::toLogicallyClosed/toLogicallyOpen
+  *  86ada32 - update example plugin info
+  *  b91e5a8 - update script bindings
+  *  ac75e1f - add RPluginLoader::getPluginInfo based on plugin ID
+  *  4e0b863 - fix compiler warning
+  *  b19c06b - fix import of SVG files without width / height attributes
+  *  02325ec - set version to 3.15.6.1
+  *  ed0beb3 - pass parameters from RHatchEntity::getShapes to
+    RHatchData::getShapes
+  *  889831b - update
+  *  578e2cd - fix range of allowed segment indices
+  *  2b8a833 - fix rounding polyline at start point with single click
+  *  0888186 - fix modify (round) corner of polyline with one click,
+    click positions
+  *  2772755 - fix modify (round) corner of polyline with one click
+  *  35ef7d8 - add calibration example
+  *  9ef8344 - fix compiler warnings
+  *  0a61455 - fix passing of parameters from RTextBasedEntity to
+    RTextBasedData
+  *  55f951b - update API doc
+  *  44e9958 - fix feet / inch value entry with negative signs
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 10 Dec 2016 10:53:44 +0300
+
+qcad (3.15.8.0+git4102-38b6971-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 38b69714d899031f0bd8e44ef0d1d4f3321df284
+  * Date: 1479844358
+  * git changelog:
+  *  38b6971 - add merge tool unit test data
+  *  ea547e6 - update translations
+  *  45a533b - update translations
+  *  9af3204 - update translations
+  *  b24c4cf - update translations
+  *  5783856 - update user reference manual
+  *  c8d73a6 - add cache of parent/child relations
+  *  6ec1b18 - update
+  *  171f940 - highlight start point of ellipse arcs
+  *  15226b7 - highlight start point of arcs, lines, splines
+  *  05603ad - add support for screen based linetypes per layer
+  *  2fffb2c - make sure vectors are both valid or both invalid when
+    comparing
+  *  ea28232 - add default values to coordinateToString
+  *  5c4921b - avoid unwanted signals when updating block / resource
+    lists
+  *  3ff220a - highlight start point of polylines when selected
+  *  1d6919c - update script bindings
+  *  0a7d4d9 - update warning
+  *  3f6c9c2 - add support for screen linetype patterns per layer
+  *  05a7cdf - add RVector::getUnion
+  *  6e1d2ee - update API doc
+  *  8c05536 - update user reference manual
+  *  ac78fb3 - add user reference manual entry for snap to center of
+    selection
+  *  190d469 - update script bindings
+  *  b7c07a6 - add scaling based on viewbox and width/height
+    (experimental)
+  *  8010ed0 - add isClosedSplineShape
+  *  10f97f7 - add RVector::equalsFuzzy2D
+  *  484094f - fix image references in user reference manual
+  *  2e6d2f4 - update user reference manual
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 26 Nov 2016 09:53:59 +0300
+
+qcad (3.15.8.0+git4074-2a74b87-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 2a74b87e2b8018e92941de2e5791e6b7945ca79d
+  * Date: 1478876731
+  * git changelog:
+  *  2a74b87 - update script bindings
+  *  1e2005b - make message escaping optional for user messages,
+    warnings, errors
+  *  15a939d - avoid "document drag error" when dragging floating dock
+    widget title icon under macOS
+  *  8a2697d - add script bindings for qt 5.6.2 (untested)
+  *  69f518c - fix compilation of example plugins
+  *  d039c89 - set version to 3.15.5.9
+  *  7ac32b1 - add qcaddoc.ico as windows resouce to exe
+  *  d8a48dc - fix hatch unit tests
+  *  2d844d5 - set version to 3.15.5.8
+  *  a8da16d - set click mode in base action for action overrides
+  *  9e9e497 - update script bindings
+  *  ce5a039 - fix copyCustomPropertiesFrom when overwriting existing
+    properties
+  *  5468b69 - add option to getShapes to segment splines
+  *  187ec6c - update script bindings
+  *  d653597 - fix capitalization in Italian translations
+  *  2fc9d98 - hide tagged resource blocks if internal blocks are hidden
+  *  2b2b899 - fix potential exception
+  *  ada6408 - fix saving of floating dock widget state under os x when
+    locale is not English
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 13 Nov 2016 10:02:51 +0300
+
+qcad (3.15.6.0+git4056-9e536f6-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 9e536f6323cd125f46637eea4432e3714a192499
+  * Date: 1477661909
+  * git changelog:
+  *  9e536f6 - ignore internal blocks
+  *  74c1a14 - explode solid fills into boundary entities
+  *  1a0104f - fix -exec switch for non-action scripts
+  *  e8c38ea - clean up
+  *  275186e - fix auto split for self intersecting splines
+  *  83ef0a2 - update script bindings
+  *  5d0db84 - fix end point precision when splitting splines
+  *  6837da9 - add RHatchData::clearBoundary
+  *  b562f06 - update script bindings
+  *  c82dfb5 - fix REntityData::getClosestShape for complex shapes in
+    block references
+  *  40bbefd - update command line to use RMath::parseCoordinate
+  *  8dbfeef - fix FS#1496 - Draw > Circle > Center, Point: coordinate
+    input interpreted as radius
+  *  3c445f2 - fix ShapeAlgorithms.getIntersectingShapes for shapes in
+    blocks
+  *  6d3df38 - use RMath.parseCoordinate in stringToCoordinate
+  *  b783422 - add RVector::isNaN
+  *  3904e59 - add RMath::parseCoordinate
+  *  3ff43fb - add RSettings::getCharValue
+  *  5694bf1 - fix compiler warnings
+  *  d3691fe - fix compiler warning
+  *  ba29db7 - update unit test data
+  *  b82340b - fix unit tests
+  *  00fbcbd - set version to 3.15.5.7
+  *  38209d0 - set version to 3.15.5.4
+  *  fb5569a - update script bindings
+  *  8c8c25b - refactor hatch from selection
+  *  2c7a281 - update trimming for ellipses
+  *  cbf0c8a - add RShape::equals to compare shapes
+  *  f0fd65e - clean up
+  *  9c485e1 - update simple API
+  *  5c74234 - update script bindings
+  *  17c39a6 - update unit test data
+  *  1896a46 - refactor trimming to use distances instead of positions
+  *  83978b4 - implement getDistanceFromStart
+  *  db40c1b - add getDistanceAtT, getDistanceFromStart
+  *  6486369 - add RShape::getSelfIntersectionPoints
+  *  4c23027 - add RPolyline::getSegmentsLength, relocateStartPoint with
+    distance
+  *  9bbc80f - add Math.sign polyfill
+  *  a0739c7 - add Math.sign polyfill
+  *  a95311d - several fixes in simple API
+  *  74055ba - update script bindings
+  *  baefa8a - fix hatch unit tests
+  *  dfe9f3d - merge RDirected into RShape
+  *  8929f55 - make sure getClosestIntersectionPoints does not reverse
+    shape
+  *  76aa5ea - refactor Hatch class to HatchFromBoundary
+  *  4f6f3f2 - move getIntersectingShapes and divideShape to
+    ShapeAlgorithms
+  *  65a2a9a - explode block reference arrays into separate block
+    references
+  *  020884f - update script bindings
+  *  ea2f79a - add RPolyline::getConcaveVertices,
+    RPolyline::getConvexVertices
+  *  007700d - fix potential null pointer segfault in
+    RShape::getOffsetLines
+  *  9294f44 - backport
+  *  1fe0f88 - set version to 3.15.6.0
+  *  73342e4 - remove obsolete file
+  *  365ea25 - performance update
+  *  b2504ff - update comment
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 29 Oct 2016 12:47:40 +0300
+
+qcad (3.15.5.6+git4002-898b13b-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 898b13b1d4ea02bd7e08a0344854ebd7e7ea439a
+  * Date: 1476444202
+  * git changelog:
+  *  898b13b - show context menu for selectable entities only
+  *  12859a3 - fix potential hang when using script debugger
+  *  dc28346 - update script bindings
+  *  8ff72ed - rename toBiArcPolyline to approximateWithArcs
+  *  8353a4c - add REllipse::approximateWithArcs
+  *  52c0371 - move approximateWithArcs to REllipse
+  *  ab1a7f2 - update script bindings
+  *  1578a0b - add API to get custom properties as int, double
+  *  817889c - ecmagenerator fix
+  *  c750698 - update unit parsing from strings
+  *  b0b123b - remove extra ;
+  *  de7c6eb - update script bindings
+  *  b89e564 - apply operation parameters to transaction
+  *  acbaa2c - add queryBlockDirect with given name
+  *  e331292 - apply block name filter before sorting
+  *  af8ee22 - save text dialog data if user cancels dialog (or presses
+    escape), FS#1490
+  *  70ba885 - update script bindings
+  *  1ff4c78 - remove obsolete code
+  *  a4cc7c9 - update script bindings
+  *  d648fb8 - stretch dimension point when stretching dimensions
+  *  5140649 - add asText parameter to RUnit::unitToSymbol
+  *  f4c4e1e - add support for entity ID links in command line history
+  *  2c2bcb0 - update qcad document icon
+  *  1a01e0d - add qcad document icon
+  *  f57f80c - take out Qt 5.7.0 wacom bug workaround
+  *  27db605 - minor update
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 15 Oct 2016 19:45:11 +0300
+
+qcad (3.15.5.6+git3976-6205b4e-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 6205b4e61c0d4597b5cdd0baf7accdd7619d1dd2
+  * Date: 1475223028
+  * git changelog:
+  *  6205b4e - update translations
+  *  b43fd18 - allow precision override for info labels
+  *  351dde7 - add removeIgnoreCase, containsIgnoreCase for Array
+    objects
+  *  a92b191 - update script bindings
+  *  658a952 - add REntity::to2D
+  *  328320f - allow precision override for RUnit::getLabel
+  *  93603a5 - set version to 3.15.5.6
+  *  2db7d32 - add identification for macOS 10.12
+  *  91eeed7 - no animated app win for Qt!=5.7
+  *  a5f9178 - update translations
+  *  5afbe07 - compile fix
+  *  ecc0ccf - compile fix for Qt 4
+  *  b8a536c - add warning when changing defaults for new drawings
+  *  263eeaa - update point display icons
+  *  e05f9f7 - update script bindings
+  *  4a94b97 - add option to allow action to interrupt other action
+  *  348933c - property editor: make labels selectable / copyable
+  *  cc26547 - update test data
+  *  a738bc5 - fix order of 100 / AcDb markers
+  *  33b84fe - add RTTI for all object types
+  *  9067911 - refactor queryInfiniteEntities
+  *  81166ec - update
+  *  1a00fc5 - return entity instead of entity ID
+  *  a9f2df5 - apply transaction to document or document interface
+  *  a1b0185 - formatting
+  *  9933335 - set version to 3.15.5.5
+  *  50e201a - fix output name of qtscript libraries
+  *  27a6655 - fix RMemoryStorage::queryAllVisibleEntities for frozen
+    parent layers
+  *  042f4bd - set version to 3.15.5.4
+  *  32bcf7a - use transaction document where appropriate to query
+    entities from IDs
+  *  379abf4 - update script bindings
+  *  d8ef0fd - add RLayer::isChildLayerOf
+  *  75485a0 - add -recompute-dim switch to override
+    Dim/ImportRecomputedDimBlocks setting per session
+  *  f1657d9 - fix scaling of dimensions in the context of a viewport
+  *  3775c83 - remove webkit / webengine dependency
+  *  931872d - clean up
+  *  c9e6f34 - rollback invalid changes for Qt 5.6.1
+  *  995adb1 - port to qt 5.6.x
+  *  19bbd92 - update
+  *  e9130b7 - add script bindings for Qt 5.6.1
+  *  5916f84 - update API doc
+  *  68908d2 - update Simple API paste doc
+  *  1a9672f - correct paths to license files
+  *  3ed3204 - add paste
+  *  3ce887d - use getTransactionDocument
+  *  3b647ef - apply transaction to off-screen document, add
+    getTransactionDocument
+  *  438922f - make document optional if shapes are passed to
+    getIntersectionPoints
+  *  b08aae5 - add createOffScreenDocument
+  *  773a848 - fix opaque zoom rectangle
+  *  f7a21aa - delegate import to Image tool if image file is imported
+  *  1541b2d - make Image startable from other tool contexts
+    (ImportFile)
+  *  949c6cb - enable multi-line pasting for ecma script shell
+  *  2b10059 - allow transactions to be applied to a specific document
+  *  fd14541 - fix potential exception when importing unsupported file
+    format
+  *  16c00f7 - set version to 3.15.6
+  *  9733ee3 - update user manual
+  *  e198579 - add lengthen to simple API
+  *  97aefc9 - update translations
+  *  b3d4d34 - update command line manual
+  *  6abb3b5 - minor update
+  *  28098c2 - update user manual
+  *  eb728d2 - allow passing coordinates as separate values for backward
+    compatibility
+  *  9b48e45 - allow passing coordinates as separate values for backward
+    compatibility
+  *  53b9f9e - keep selected item selected when updating block list
+  *  ac06c9b - hide block attributes if block is hidden and
+    GraphicsView/ HideAttributeWithBlock is set
+  *  373c160 - update script bindings
+  *  e318241 - add getTypeForVariable
+  *  f489733 - update script bindings
+  *  a1cbdad - allow multi line paste into command line
+  *  535fa53 - add dwg2maptiles testing
+  *  4cabf30 - update translations
+  *  e8f5a3c - allow user to leave angle input empty for an angle of 0
+  *  b6d4019 - port to Mac OS 10.12 SDK
+  *  9045fc5 - update script bindings
+  *  0a81ef8 - add constructor for arrays passed from scripts
+  *  50ab51d - pass all vectors as RVector or array
+  *  e4eebcb - remove obsolete code
+  *  4b4ec73 - fix potential endless loop in auto snap
+  *  d0001c8 - minor update
+  *  0267a91 - fix zoom box for 3d views
+  *  934bbb5 - refactor lengthen to allow use from other scripts
+  *  d263da0 - minor update
+  *  6d41b55 - backport to Qt 4
+  *  51a6549 - update translations
+  *  fc15b61 - minor update
+  *  5044213 - fix includes
+  *  a3242f4 - fix includes
+  *  99c9c7f - fix potential exception when closing document
+  *  040163d - separate last modification time from modified status
+  *  6ff5e4d - fix potential exception when running with script debugger
+    enabled
+  *  61a7ac2 - support exporting of dashed lines into 3d space
+  *  1975cea - update
+  *  8fc5b02 - Merge branch 'master' of github.com:qcad/qcad
+  *  30fb8df - add sprintf include
+  *  150c186 - update translations
+  *  8822a48 - refactor structure
+  *  21d95c4 - update script bindings
+  *  021545b - allow for custom correction factor per printer
+  *  159f320 - add printer list, default printer API
+  *  164596f - merge changes from tukuyomi (forum)
+  *  b5095e0 - add date.js to pro file
+  *  9aea300 - fix include path
+  *  4c1e75d - fix include path
+  *  b2ecda4 - fix include path
+  *  ad2043e - fix include problem with -always-load-scripts
+  *  90d907d - always re-include files with -always-load-scripts
+  *  a1941e2 - remove sprintf from libary includes
+  *  90b7846 - update icon
+  *  0dd4fca - update unit tests
+  *  866b1e4 - fix snap ranges if retina graphics view display is off
+  *  b4d3f58 - fix preferences default for minimum grid spacing
+  *  319bf2c - fix minimum grid spacing for graphics view if retina
+    resolution is off
+  *  51a3091 - update unit test
+  *  959cc16 - set version to 3.15.5.4
+  *  5ac386d - update script bindings
+  *  e4d88db - add last modification timestamp to RStorage / RDocument
+  *  58eccb3 - Add allowAll flag to operations to allow modifications on
+    all objects
+  *  a2cb18d - add convert to inch tool
+  *  9c738b3 - fix FS#1476 - Draw > Circle > 2 Tangents and Radius:
+    exception with arcs and circle entities
+  *  2d5ef39 - add test for circlectr from two circles
+  *  e46766f - update script bindings
+  *  77cf2b4 - treat layers as locked if parent layer is locked
+  *  6637eb7 - ignore invalid lines in pattern files
+  *  1a26416 - fix FS#1474 - Dimension > Leader: changing options breaks
+    tool
+  *  1116779 - fix FS#1474 - Dimension > Leader: changing options breaks
+    tool
+  *  9c49f08 - fix typo
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 01 Oct 2016 18:41:25 +0300
+
+qcad (3.15.5.3+git3850-407dd44-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 407dd44651c2be304b3120bdd99279f7c9aa3919
+  * Date: 1472828362
+  * git changelog:
+  *  407dd44 - update block list visible icons
+  *  6e90a08 - update script bindings
+  *  bcf44d8 - add RStorage::isParentLayerFrozen,
+    RDocument::isParentLayerFrozen
+  *  7bc31b2 - update gitignore
+  *  f23d99c - update gitignore
+  *  1fc2551 - update gitignore
+  *  70d0004 - add gitignore
+  *  1fa8872 - update script bindings
+  *  769e0d4 - add layer proxy header
+  *  ae0a81e - update script bindings
+  *  5d9076d - fix scriptable hierarchical layer support functions
+  *  41251be - update script bindings
+  *  c3d0b87 - move hierarchical layer support to C++
+  *  e5d0b7b - interpret configured snap range as pixels not device
+    pixels on retina displays
+  *  864359a - scale grid based on pixels, not device pixels for retina
+    displays
+  *  37ce7cf - fix FS#1466 - Toolbars on second screen cannot be
+    accessed if second screen is detached
+  *  080429e - add translation files for lithuanian (lt)
+  *  b069ac7 - update translations
+  *  bbea330 - remove doc file references from project file
+  *  e9ca109 - update script bindings
+  *  41360bc - Merge branch 'master' of github.com:qcad/qcad
+  *  de0d747 - fix FS#1461 - Zoom in / out: not centred under mouse
+    cursor if Retina resolution is enabled for graphics view
+  *  748e308 - Merge pull request #11 from plunky/man.edit
+  *  8251fd8 - Merge pull request #1 from plunky/plunky-patch-1
+  *  3dcde7c - Update qcad.1
+  *  0d1ec73 -     set version to 3.15.5.3
+  *  50ef420 - update script bindings
+  *  11eac95 - update polyline entity API
+  *  a06f745 - set version to 3.15.5.2
+  *  afd4631 - fix potential exception in getOrientation, fix simplify
+    for full circle polylines
+  *  3195757 - Merge branch 'master' of github.com:qcad/qcad
+  *  02232a9 - update API doc
+  *  19cedb4 - set version to 3.15.5.1
+  *  15ef1a1 - update translations
+  *  1e8dd2f - add preferences for both spline segments (QCAD CE) and
+    spline tolerance
+  *  f5975d6 - update translations
+  *  cad59c8 - update translations
+  *  8fd2d62 - add explode / spline unit tests
+  *  f5f7a64 - change explode preferences for splines from segments to
+    tolerance
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 03 Sep 2016 00:16:09 +0300
+
+qcad (3.15.4.4+git3811-a8a7353-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: a8a7353969e2b47d0783da2fb2dd845dcadece2b
+  * Date: 1471613988
+  * git changelog:
+  *  a8a7353 - update translations
+  *  197bbfc - update script bindings
+  *  421f5d4 - update unit test data
+  *  5104a27 - add RSplineEntity::toBiArcPolyline, toPolyline
+  *  7064e57 - add RSplineData::toBiArcPolyline
+  *  cc54018 - update script bindings
+  *  1a2001e - explode splines to polylines with arc segments if proxy
+    available
+  *  e605372 - allow flag combinations for getPointsWithDistanceToEnd
+  *  efdb653 - set version to 3.15.5
+  *  8f15657 - update comments
+  *  e53cdfc - avoid joining of consecutive arcs if resulting arc is
+    larger than half a circle
+  *  87b7dec - set version to 3.15.4.4
+  *  87e4ad9 - set version to 3.15.4.3
+  *  66271a9 - update API doc
+  *  bc9f7e5 - fix FS#1456 - Drag and drop: requires two clicks with
+    auto snap
+  *  006f80f - prevent erroneous preview with auto snap with free
+    positioning disabled
+  *  e83006f - update script bindings
+  *  3561b05 - treat layer as frozen is parent layer is frozen
+  *  a817cea - add RLayer::getParentLayerId/Name
+  *  706545e - update API doc
+  *  334f621 - update script bindings
+  *  eebd3cf - add snap status information for all snap tools
+  *  dbc2002 - minor update
+  *  65220cf - offer solution for PPS if one point is on shape
+  *  6686b6a - update
+  *  3c43206 - update script bindings
+  *  09011ff - update API doc
+  *  91ff500 - update API doc
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 20 Aug 2016 08:19:04 +0300
+
+qcad (3.15.4.1+git3783-2721757-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 27217570314da8d794aadc65387ad2c3c53f0baf
+  * Date: 1470396670
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 06 Aug 2016 19:23:41 +0300
+
+qcad (3.15.4.1+git3772-55a36cf-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 55a36cf7b685c75f537b29b2a7e4c6f12c8350e6
+  * Date: 1470148842
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 03 Aug 2016 13:40:41 +0300
+
+qcad (3.15.4.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #123456)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 17 Jul 2016 17:41:46 +0300
+</pre></div>
+</div></div>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                <a href="http://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
+

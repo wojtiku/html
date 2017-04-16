@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | ChangeLog of package deadbeef_0.7.2+git7073-ad54496-1_i386.deb </title>
+    <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
+    <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="http://notesalexp.org/packages/css/package.css" type="text/css" />
+    <meta name="generator"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://notesalexp.org/html/">Home</a></li>
+                <li><a href="http://notesalexp.org/html/update.html">Update</a></li>
+                <li><a href="http://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li class="selected" ><a href="http://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="http://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="http://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+        <div id="pnavbar">
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages">Packages</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/zesty/i386">zesty&nbsp;&#x2F;i386</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/zesty/i386/deadbeef"> deadbeef </a>
+            &nbsp;&#x2F; ChangeLog
+        </div> <!-- end navbar -->
+    </header>
+    <div id="wrapper">
+        <div id="content">
+<div class="page">
+<h5>ChangeLog of package deadbeef in zesty of architecture i386</h5>
+<div class="highlight"><pre><span></span>deadbeef (0.7.2+git7073-ad54496-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
+  * Branch: master
+  * Commit: ad5449650613f899c659d454bf3da53bbfd8018c
+  * Date: 1491564136
+  * git changelog:
+  *  ad54496 - streamer: fix crash when trying to play invalid file
+    (fixes #1741)
+  *  5ff6742 - logger: init/deinit order fix
+  *  07b4303 - [logger] make logger thread safe
+  *  5e84f48 - logger: added context pointer to logger APIs
+  *  c517553 - coreaudio: mutex-protected API calls, better state/error
+    checking, fix random audio thread freezes
+  *  ffa6813 - streamer: streaming audio init regression fix (fixes
+    #1737)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 08 Apr 2017 12:21:45 +0300
+
+deadbeef (0.7.2+git7067-1621307-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
+  * Branch: master
+  * Commit: 1621307f6b2c561ab17509f77374617e23a494f5
+  * Date: 1490303001
+  * git changelog:
+  *  1621307 - logger: fix bug in ddb_log_viewer_unregister
+  *  a7dd8a5 - Update deadbeef.desktop.in
+  *  87d3fd5 - playlist: log errors when a file could not be loaded
+    (issue #1727)
+  *  9e75074 - streamer: fix stop handling regression
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 24 Mar 2017 17:32:29 +0300
+
+deadbeef (0.7.2+git7063-3d4e089-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
+  * Branch: master
+  * Commit: 3d4e089b916b5c36b95c9a64eb81f3c129027397
+  * Date: 1489659847
+  * git changelog:
+  *  3d4e089 - dumb: fix seekpos regression
+  *  767423e - dumb: disable some of the most resource intensive parts
+    during initial_runthrough
+  *  a6cbe60 - streamer: refactored STR_EV_PLAY_TRACK_IDX handling
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 17 Mar 2017 12:58:13 +0300
+
+deadbeef (0.7.2+git7060-7a6106c-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
+  * Branch: master
+  * Commit: 7a6106c824aacb1aa6cdebbdc53cf22d2f40dddf
+  * Date: 1488537742
+  * git changelog:
+  *  7a6106c - streamer: don't stop playback on stream buffer starvation
+  *  1f93687 - streamer: playpos regression fix
+  *  3a18cf2 - coreaudio: fixed stop at end of stream handling
+  *  c29b5cd - alsa: cleanup; prevent stopping playback before all
+    samples are played
+  *  449edb1 - streamer: get rid of currtrack_mutex; fix race condition
+    causing crash
+  *  710026d - streamer: fix playback pos after resume regression
+  *  fbf337c - streamer: better output format management
+  *  c374a32 - streamer: improved output format setting
+  *  88b54b5 - streamer: remove asserts
+  *  d1d797c - alsa: ignore snd_pcm_start error (fixed #1717)
+  *  c5d1528 - streamer: stop after current refactored; better handling
+    of tiny files
+  *  5f769ab - streamer: reworked output format setting to no longer
+    need to query dsp plugins with 0 frames
+  *  d35a144 - streamer: fixed crash and playpos issues when looping
+    single track (fixed #1716)
+  *  1dfd44b - streamer: fixed playpos bug
+  *  180d564 - streamer: don't stop playback before playing selected
+    track
+  *  5635c62 - pulse: flush on play
+  *  559c47b - alsa: reduce mutex locking; cleanup/refactoring; flush on
+    play fix
+  *  5896239 - fixed tests
+  *  69b6022 - alsa: refactoring/cleanup to fix compat with the new
+    streamer
+  *  3db7621 - gtkui: remove potentially dangerous streamer call from
+    gtkui seekbar code
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 03 Mar 2017 18:10:59 +0300
+
+deadbeef (0.7.2+git7040-06c799d-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
+  * Branch: master
+  * Commit: 06c799d4698782fd479d57e7a9ec5d0476aa65e6
+  * Date: 1487187651
+  * git changelog:
+  *  06c799d - streamer: race condition fix
+  *  bd2a748 - pulse: fix compatibility with the new streamer
+  *  8415c64 - streamer: fixed resumed session seek position regression
+  *  6736674 - streamer: play_current refactoring
+  *  db9ccfb - streamer: next/prev track based on last played track,
+    when manually switching
+  *  c416ed8 - dumb: fix readpos immediately after seek
+  *  598b7e8 - main: send configchanged immediately on load, to notify
+    listeners
+  *  8f8dd0c - cocoaui: configchanged cleanup; fixed stop_after_album
+  *  ea51263 - license fix in dsp.* and streamreader.*
+  *  005e47f - streamer: moved stop_after_album_check to streamer_next
+  *  31bbd0d - streamer: fixed some glitches / regressions
+  *  5d79e5a - streamer: refactor / get rid of streamer_move_to_*
+    functions
+  *  7b97466 - streamer: locking fix
+  *  9c4eaa6 - linux compile fix
+  *  b9d54ad - gtkui: compile fix
+  *  4517516 - gtkui, cocoaui: track ref leak
+  *  3661654 - linux compile fix
+  *  a5d323e - gtkui, cocoaui: improved status bar tf
+  *  8257979 - streamer: jump to next track on error
+  *  22548a2 - Merge branch 'blockstreamer'
+  *  fa4db12 - streamer: handle case when streamer attempts to read
+    beyond end of track
+  *  14fd6f3 - streamer: increase buffer size
+  *  393387e - gtkui: use tf for statusbar
+  *  a7a9154 - streamer: refactor stop after end of playlist/queue
+  *  d1356ab - streamer: stop playback at the end of playlist
+  *  4c7618a - cocoaui: use title formatting for status bar
+  *  82930bb - tf: added %playback_bitrate% for getting immediate
+    bitrate
+  *  c95e674 - streamer: handling seeking at the end of track
+  *  1c9acf4 - mp3: division by zero error on corrupt file
+  *  9bf9af7 - mp3: division by zero error on corrupt file
+  *  f84d918 - streamer: further cleanup; better output format setting
+  *  738bf45 - streamer: fixed buffering state and immediate bitrate
+  *  3feda48 - main: fix seek to start of track (seekpos=0 regression)
+  *  a1bfd1e - streamer: only one format setting per block
+  *  a8f4240 - streamer: buffer readiness checking by counting blocks
+  *  fb0d1c6 - streamer: reset current track params after switching to
+    the next one
+  *  ae5237f - block streamer: fixed buffer management issues
+  *  33c121a - block streamer WIP
+  *  bf7556a - block streaming: plays some sound, but hangs on mutex
+    locks
+  *  d6377c2 - dsp and format conversion moved to streamer_read
+  *  8c5795a - streamer: move dsp code to a separate module
+  *  27de649 - block-based streaming WIP
+  *  d4bf09f - block-based streaming WIP
+  *  6f218a2 - playlist: load saved 64bit start/end sample values from
+    playlists
+  *  4613a6c - finish conversion to new startsample/endsample API
+  *  b207de4 - convert the code to use 64 bit start/end/current sample,
+    with some new APIs (WIP)
+  *  8201827 - gtkui: allow spaces in drag-drop URI lists (fixes #933)
+  *  d7596a0 - converter: merge existing metadata from the converted
+    files with source metadata (fixes #1016)
+  *  24fea7c - tf: handle vfs paths in %title% (fixed #1047)
+  *  a07b7aa - playlist: don't clear playlist on load failure (fixes
+    #1204)
+  *  280d82d - main: fix appending playlist from command line (fixes
+    #1554)
+  *  f822dd8 - gtkui: force column sizes to positive values on load
+    (workaround for bug #1672)
+  *  1175989 - mp3: don't trust xing header for calculating file
+    bitrate, as the file can be incomplete (fixes #1699)
+  *  c0ad757 - gtkui: fix column format index for year on edit
+  *  0bff431 - coreaudio: minor cleanup
+  *  ed28e1e - resume last session by default; fixed session resuming
+    regression
+  *  6a464fe - coreaudio: device_id cleanup
+  *  fe137e7 - coreaudio: fix device_id management bug
+  *  64a4250 - mp3: never guess duration from filesize based on 1st
+    frame
+  *  058853f - streamer: fixed autoplay in
+    streamer_play_current_track_real
+  *  e07d811 - streamer: better handling of seek errors
+  *  c802f0e - main: handle negative seeking position error
+  *  70250c0 - mp3: better handling of seek beyond end of file
+  *  3126bb0 - alac: fix mutex lock error
+  *  5940c53 - streamer: cleanup, additional fix for pausing near end of
+    track (fixes #1411)
+  *  a387764 - coreaudio: better unpause handling
+  *  92cfc20 - streamer: added streamer_yield function, to allow
+    sequential queries
+  *  a3a5ebb - streamer: fixed seeking to end of track glitch
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 17 Feb 2017 17:38:57 +0300
+
+deadbeef (0.7.2+git6972-de6cf82-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
+  * Branch: master
+  * Commit: de6cf821bf6b6ce9846466a85f5dfefa4efb49cf
+  * Date: 1486113583
+  * git changelog:
+  *  de6cf82 - gtkui: fixed trkproperties regression
+  *  dd8c2cb - gtkui: save playlist after reloading metadata (fixes
+    #1671)
+  *  513455c - gtkui: fix a regression in hardcoded index usage in
+    column format dialog
+  *  e817301 - tf: fix %path% crash when :URI is NULL
+  *  27f2783 - fix and enhance deadbeef.desktop.in (#1697)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 03 Feb 2017 17:41:18 +0300
+
+deadbeef (0.7.2+git6967-4c5af84-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
+  * Branch: master
+  * Commit: 4c5af84fc446965952fc33200001444c26fd9d92
+  * Date: 1485013850
+  * git changelog:
+  *  4c5af84 - artwork: load any first available cover from id3v2, if
+    front (type 3) is not found
+  *  c141ad4 - localize: split string extraction into a module, for
+    reusing in another script
+  *  1dc1e4d - aac: set stream info on init
+  *  30415b1 - tf: fix %codec% to use overriden filetype
+  *  512ab9e - aac: fix rdb count calculation
+  *  aeea14b - vfs_curl: use new logger
+  *  fbea273 - mp3: cleanup and improve stream parser
+  *  a5465cf - mp3: changed number of validation frames to 20
+  *  da9f4bc - mp3/vfs_curl: a set of mem corruption / stream parsing
+    fixes
+  *  1de50fd - mp3: cleanup
+  *  0350c0b - mp3: refactor mpeg parser
+  *  c72b218 - localize.pl: tabs -> spaces
+  *  512ba7b - localize: better string id generation
+  *  9b2298b - localize: remove unused function
+  *  9422d3b - localize: renamed action2pot to localize
+  *  cd1fc09 - action2pot: data extraction fixes; more cmdline options;
+    better android xml support; string id generation
+  *  34dc4c5 - artwork: fix cache path buffer size
+  *  3208fd9 - action2pot: tabs->spaces
+  *  360c083 - a tool for extracting text data from plugin actions and
+    config dialog scripts, and producing strings.pot, strings.c or
+    strings.xml from them
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 22 Jan 2017 11:46:55 +0300
+
+deadbeef (0.7.2+git6948-d6699ef-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
+  * Branch: master
+  * Commit: d6699eff4075aa74120ead96a269a2f65ce4c77f
+  * Date: 1484335115
+  * git changelog:
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 14 Jan 2017 17:47:37 +0300
+
+deadbeef (0.7.2+git6331-550488a-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
+  * Branch: 0.7
+  * Commit: 550488a10db0acfbe149a4910a9a7170da2a770a
+  * Date: 1476089249
+  * git changelog:
+  *  550488a - alac: fixed demuxer mdat/moov parser
+  *  0d269ed - alac: prevent crash on unrecognized/corrupt content
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 14 Oct 2016 20:47:40 +0300
+
+deadbeef (0.7.2+git6329-aa34db8-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
+  * Branch: 0.7
+  * Commit: aa34db82ba64cc5f8d29b5109ddefd2811ca23e5
+  * Date: 1470675569
+  * git changelog:
+  *  aa34db8 - flac: change embedded cue load order, to reduce a chance
+    of loading bad-formed native flac cuesheets
+  *  6aea913 - main: fix portable build detection
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 19 Aug 2016 20:27:40 +0300
+
+deadbeef (0.7.2+git6327-3c6efd6-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: 0.7
+  * Commit: 3c6efd6dae3a60e66377259dd0380e5602e85100
+  * Date: 1470055646
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 02 Aug 2016 16:52:24 +0300
+
+deadbeef (0.7.2+git6325-e92e6f6-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: 0.7
+  * Commit: e92e6f63a3a0d88501dfe7d314f72c333bb2844d
+  * Date: 1468226204
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 23 Jul 2016 12:56:18 +0300
+
+deadbeef (0.7.2+git6324-debc8fa-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: 0.7
+  * Commit: debc8fa8cb2bca9c139a1713340a63199d4f0331
+  * Date: 1467124952
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 09 Jul 2016 11:53:26 +0300
+
+deadbeef (0.7.2+git6323-045d8a7-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: 0.7
+  * Commit: 045d8a7d0ff3b8647ac42170672b574e42f9dc7e
+  * Date: 1465930932
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 24 Jun 2016 20:32:17 +0300
+
+deadbeef (0.7.2+git6322-d08efb4-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: 0.7
+  * Commit: d08efb4688ce231edf74e507a051379cc307722e
+  * Date: 1465588016
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 11 Jun 2016 20:10:39 +0300
+
+deadbeef (0.7.2+git6321-abe398c-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: 0.7
+  * Commit: abe398c35fabd1e19c397768fe88c907b24714fd
+  * Date: 1461703564
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 29 Apr 2016 21:39:37 +0300
+
+deadbeef (0.7.1+git6307-824c526-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: 0.7
+  * Commit: 824c52682293af005a2e2d0ac538951ba4a43aa5
+  * Date: 1460406402
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 15 Apr 2016 22:39:04 +0300
+
+deadbeef (0.7.1+git6278-abe6611-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: 0.7
+  * Commit: abe66111597a14a238d0732ef055d392ed88a64b
+  * Date: 1459339180
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 02 Apr 2016 09:38:18 +0300
+
+deadbeef (0.7.1+git6262-5a188ee-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: 0.7
+  * Commit: 5a188ee5f701990f69d52affdf7c729f6e76d363
+  * Date: 1458314102
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 19 Mar 2016 10:20:31 +0300
+
+deadbeef (0.7.1~git6245-f1a3563-3) unstable; urgency=medium
+
+  * lintian fix
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 25 Feb 2016 18:00:49 +0300
+
+deadbeef (0.7.1~git6245-f1a3563-2) unstable; urgency=medium
+
+  *Add Build-Depends - libmpg123-dev
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 24 Feb 2016 20:24:51 +0300
+
+deadbeef (0.7.1~git6245-f1a3563-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: 0.7
+  * Commit: f1a3563de4a14c7cca4a21bc5e9547474948e3d0
+  * Date: 1454948239
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 19 Feb 2016 21:39:10 +0300
+
+deadbeef (0.7.0+git20160205-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: 0.7
+  * Commit: e76beaf30503275505de8077782a702815187f6e
+  * Date: 1454681439
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 05 Feb 2016 22:47:58 +0300
+
+deadbeef (0.7.0+git20160131-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: 0.7
+  * Commit: 1d619e1cd30576ffbcdb3a9ead8d36b8bed99df3
+  * Date: 1454273252
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 01 Feb 2016 21:28:51 +0300
+
+deadbeef (0.6.2+git20160121-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 7c077c84e400c3a0f0bdd664d06c7d89422755a7
+  * Date: 1453387267
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 22 Jan 2016 22:03:58 +0300
+
+deadbeef (0.6.2+git20151225-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 84720134bbd3e27c559de2355019322d2216a77b
+  * Date: 1451041827
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 25 Dec 2015 22:28:26 +0300
+
+deadbeef (0.6.2+git20151211-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 152f6af3668327c8f13a6ba208804d5e88995cce
+  * Date: 1449847000
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 12 Dec 2015 10:45:33 +0300
+
+deadbeef (0.6.2+git20151127-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: cf48ddc37a4e86069a63eee30965c2a52802be22
+  * Date: 1448633655
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 27 Nov 2015 21:41:49 +0300
+
+deadbeef (0.6.2+git20151113-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: c5e4a9d1cb1613b8c830cf39220df984526711e6
+  * Date: 1447422523
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 14 Nov 2015 14:46:03 +0300
+
+deadbeef (0.6.2+git20151030-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 91154c0783a761cc64c5789ede5142bc92df7136
+  * Date: 1446216500
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 30 Oct 2015 23:36:54 +0300
+
+deadbeef (0.6.2+git20151005-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 6b2ec2c3933ba810e5d69efb51c5dd79b3210d33
+  * Date: 1444045636
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 17 Oct 2015 12:59:19 +0300
+
+deadbeef (0.6.2+git20150930-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 8630c40ef00e9d94e0a8131ed38781d68df48f0e
+  * Date: 1443643025
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 03 Oct 2015 17:03:18 +0300
+
+deadbeef (0.6.2+git20150916-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: a7988f46f0d8ac0c672edea283482af5b2496e85
+  * Date: 1442435820
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 19 Sep 2015 18:52:40 +0300
+
+deadbeef (0.6.2+git20150904-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 2b5b15716963bbeaca3a2f6449ccb59526d9378b
+  * Date: 1441374116
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 04 Sep 2015 21:42:35 +0300
+
+deadbeef (0.6.2+git20150814-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 16e4b485ecd129ddc4437be0f58c94ebe0b8da0f
+  * Date: 1439580290
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 14 Aug 2015 23:00:20 +0300
+
+deadbeef (0.6.2+git20150729-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 3eb4f07ea94ad2265a5a68b4f5dcdaf7bd5da23c
+  * Date: 1438175641
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 31 Jul 2015 23:04:03 +0300
+
+deadbeef (0.6.2+git20150715-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 593c1c1e5fb2aab32028e1fed3fe51481270f651
+  * Date: 1436944568
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 17 Jul 2015 21:51:11 +0300
+
+deadbeef (0.6.2+git20150702-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 5a1e1b6b729f847d798d28688cbf1bebddc3fa00
+  * Date: 1435865143
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 04 Jul 2015 22:35:30 +0300
+
+deadbeef (0.6.2+git20150619-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 50b9995659a83aeb79c62a20c029c5ccf6f53014
+  * Date: 1434742751
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 20 Jun 2015 21:12:08 +0300
+
+deadbeef (0.6.2+git20150607-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 21f1f0ef4893d08817e9271667e371fb8dc07a66
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 07 Jun 2015 21:17:11 +0300
+
+deadbeef (0.3.2+git20100201-1) unstable; urgency=low
+
+  * Initial release (Closes: #123456)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 01 Feb 2010 20:34:36 +0300
+</pre></div>
+</div></div>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                <a href="http://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
+
