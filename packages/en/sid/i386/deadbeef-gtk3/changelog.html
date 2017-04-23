@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package deadbeef-gtk3_0.7.2+git7073-ad54496-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package deadbeef-gtk3_0.7.2+git7097-bdc76c4-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
     <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -39,7 +39,48 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package deadbeef-gtk3 in sid of architecture i386</h5>
-<div class="highlight"><pre><span></span>deadbeef (0.7.2+git7073-ad54496-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>deadbeef (0.7.2+git7097-bdc76c4-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
+  * Branch: master
+  * Commit: bdc76c496ca93e3a526666ba3df00117fbb3efe3
+  * Date: 1492712103
+  * git changelog:
+  *  bdc76c4 - alsa: multithreading issues fix
+  *  2e6e9d2 - playlist: only display file errors when file type was
+    recognized, but could not be open by any of the decoders
+  *  879ec23 - streamer: set current playlist in play_index
+  *  fd6cb59 - gtkui: minor logviewer widgets fixups
+  *  1cc83dd - Gtk log viewer (#1748)
+  *  c9c4d0a - gtkui: selected time tf fix
+  *  0a4dcf5 - junklib: fixed BOM stripping when converting from UTF16
+  *  a4fccde - logger: fixed error layer check
+  *  ebdc20a - streamer: moved playqueue updating to after track starts
+    playing
+  *  4c3c4b5 - convert some of the info log messages to errors during
+    plugin loading
+  *  e496494 - logger: buffer initial error messages, and send them to
+    the first registered listener
+  *  7acd5f5 - selection_playback_time cleanup / naming
+  *  04d123e - dsp: downsampler fix and more tests
+  *  6f49cf4 - tests: added basic tests for downsampler
+  *  9a87229 - dsp: downsampler cleanup / refactor
+  *  e6a1a2a - Tests: fixed tagging tests regression caused by logger
+  *  43a21d9 - main: added comment about main_cleanup_and_quit
+  *  f8e93ac - streamer: cleanup play_index
+  *  a77e7ec - main: fix cleanup regression
+  *  53d86fe - main: move streamer/output free to after gui->stop is
+    called
+  *  e075671 - gtkui: make sure all widget are removed/destroyed on quit
+  *  01d3f0c - logger: fix mutex leak bug
+  *  ae6ad22 - gtkui: display total time of selected tracks in the
+    statusbar (Closes: #1575) (#1720)
+  *  e0e947f - blargg_endian: Fails to build on non-x86 with musl
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 21 Apr 2017 07:30:50 +0300
+
+deadbeef (0.7.2+git7073-ad54496-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/Alexey-Yakovenko/deadbeef.git

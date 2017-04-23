@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | ChangeLog of package libgmic-dev_1.7.9+zart-4+nmu1_amd64.deb </title>
+    <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
+    <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="http://notesalexp.org/packages/css/package.css" type="text/css" />
+    <meta name="generator"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://notesalexp.org/html/">Home</a></li>
+                <li><a href="http://notesalexp.org/html/update.html">Update</a></li>
+                <li><a href="http://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li class="selected" ><a href="http://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="http://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="http://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+        <div id="pnavbar">
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages">Packages</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/trusty/amd64">trusty&nbsp;&#x2F;amd64</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/trusty/amd64/libgmic-dev"> libgmic-dev </a>
+            &nbsp;&#x2F; ChangeLog
+        </div> <!-- end navbar -->
+    </header>
+    <div id="wrapper">
+        <div id="content">
+<div class="page">
+<h5>ChangeLog of package libgmic-dev in trusty of architecture amd64</h5>
+<div class="highlight"><pre><span></span>gmic (1.7.9+zart-4+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Backports from Sid
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 21 Apr 2017 18:18:08 +0300
+
+gmic (1.7.9+zart-4) unstable; urgency=medium
+
+  * [3dc818a] rise minimal memory, use -O0 on mips.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Fri, 16 Dec 2016 21:00:17 +0100
+
+gmic (1.7.9+zart-3) unstable; urgency=medium
+
+  * [86a3cfa] Ensure we disable optimization on slow arches
+    - and on those with small amounts of memory.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Fri, 16 Dec 2016 01:05:06 +0100
+
+gmic (1.7.9+zart-2) unstable; urgency=medium
+
+  * [c754567] Build-depend on bash-completion.
+    Quick fix for FTBFS where /etc/bash_completion.d only exists on a few
+    buildds.
+    Thanks to Adrian Bunk (Closes: #848185)
+
+ -- Bernd Zeimetz &lt;censored&gt;  Thu, 15 Dec 2016 00:51:47 +0100
+
+gmic (1.7.9+zart-1) unstable; urgency=medium
+
+  * [38a82aa] Fix build options
+  * [2ccfb41] Merge tag 'upstream/1.7.9'
+    Upstream version 1.7.9
+  * [dbfb447] Refreshing patches
+  * [b2ffc73] Support opencv 3.1.
+    Thanks to Nobuhiro Iwamatsu (Closes: #841246)
+  * [5d940c9] Updating changelog
+  * [513bdc7] Merge tag 'upstream/1.7.9+zart'
+    Upstream version 1.7.9+zart
+  * [4027a04] Add patch to fix gmic location in zart.pro
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sat, 03 Dec 2016 17:50:28 +0100
+
+gmic (1.6.8-3) unstable; urgency=medium
+
+  * [0e17dac] Add hardening flags.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sat, 16 Jan 2016 17:12:03 +0100
+
+gmic (1.6.8-2) unstable; urgency=medium
+
+  * [ab64ac5] Fix weird build/linker issues on powerpc.
+    Build with -O1 for now.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sat, 16 Jan 2016 15:10:49 +0100
+
+gmic (1.6.8-1) unstable; urgency=medium
+
+  * [08d10e9] Merge tag 'upstream/1.6.8'
+    Upstream version 1.6.8
+  * [0cee604] Refreshing patches.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Wed, 06 Jan 2016 20:42:40 +0100
+
+gmic (1.6.7-1) unstable; urgency=medium
+
+  * [2dd1114] Merge tag 'upstream/1.6.5.1'
+    Upstream version 1.6.5.1
+    Closes: #794877
+  * [e0668cb] Refreshing patches.
+  * [87212e9] Updating changelog.
+  * [aa8ea31] Using libcurl4-openssl-dev.
+  * [7d0fb49] Updating watch file.
+  * [8788de5] Merge tag 'upstream/1.6.7'
+    Upstream version 1.6.7
+  * [b603da3] refreshing patches.
+  * [9d0aea8] Use upstream NOSTRIP option.
+  * [e1a3182] Install CImg.h as gmic_CImg.h.
+    As discussed with upstream we ship gmic's CImg.h as
+    gmic_CImg.h as it is usually a pre-release / unfinished
+    version, compared to the one released and shipped in
+    the cimg-dev package. People who want to use gmic's
+    features and link with libglib need the version gmic
+    was built with - and building gmic with the released
+    version is not possible. (Closes: #801162)
+  * [56301b3] Use libopencv-dev instead of hand-picked OpenCV packages.
+  * [8b8009f] Fix dh_install for zart.
+
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sat, 28 Nov 2015 18:22:49 +0100
+
+gmic (1.6.2.0-1) unstable; urgency=medium
+
+  * [418ea338] Merge tag 'upstream/1.6.2.0'
+    Upstream version 1.6.2.0
+  * [7044920b] Refreshing patches.
+  * [1fde2913] Add libcv/libhighgui-dev as dependency.
+  * [6fd0cdcb] Add libcurl-dev
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sun, 19 Apr 2015 14:08:46 +0200
+
+gmic (1.6.0.1-1) unstable; urgency=medium
+
+  * [43756de5] Merge tag 'upstream/1.6.0.1'
+    Upstream version 1.6.0.1
+  * [4a698aee] refreshing patches.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Wed, 22 Oct 2014 23:04:52 +0200
+
+gmic (1.6.0.0-1) unstable; urgency=medium
+
+  * [2448f469] Merge tag 'upstream/1.5.8.6'
+    Upstream version 1.5.8.6
+  * [4207852d] Refreshing patches.
+  * [3a1b1d4d] Remove libav* build-dependencies.
+    They are not used right now.
+  * [192a118f] Keep building zart - was disable dby upstream.
+  * [3d668b4a] Merge tag 'upstream/1.6.0.0'
+    Upstream version 1.6.0.0
+  * [c369f4c8] Re-check build-dependencies.
+    libav-* were removed before already. (Closes: #755815)
+  * [a6ebfc17] Refreshing patches.
+  * [d056c91f] copy zart/Makefile only if it exists.
+  * [68d88091] Update gmic-zart.install
+
+ -- Bernd Zeimetz &lt;censored&gt;  Tue, 26 Aug 2014 17:36:19 +0200
+
+gmic (1.5.7.1-4) unstable; urgency=low
+
+  * [223f8c2f] Simplyfy optimization setting selection.
+    Low memory always results in -O0 now.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sun, 13 Oct 2013 14:34:39 +0200
+
+gmic (1.5.7.1-3) unstable; urgency=low
+
+  * [08debe3f] Build with -O1 on slow architectures.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sat, 12 Oct 2013 23:37:24 +0200
+
+gmic (1.5.7.1-2) unstable; urgency=low
+
+  * [6c37ae00] Updating description as suggested by upstream.
+  * [ef5bff79] Drop -mtune=generic option from upstream's Makefile.
+    Thanks to KiBi (Closes: #725525)
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sun, 06 Oct 2013 22:10:09 +0200
+
+gmic (1.5.7.1-1) unstable; urgency=low
+
+  * [8093b566] Merge tag 'upstream/1.5.5.2'
+    Upstream version 1.5.5.2
+  * [847b448f] Refreshing patches.
+  * [4c998e58] Updating changelog
+  * [a1021632] Drop kfreebsd-support patch, it was applied upstream.
+  * [fe31bbc1] Imported Upstream version 1.5.7.0
+  * [9c47c7df] Imported Upstream version 1.5.7.1
+    - Should build fine under hurd (Closes: #705708,
+      thanks to Pino Toscano).
+    - Upstream tarball doesn't need to be repackaged anymore, dropping
+      +dfsg from version number.
+  * [abd7c2cb] Different hack to enable building on machines with low ram.
+    Instead of disabling all optimizations, use
+    -fno-tree-pre on machines with low ram / slow cpus.
+  * [a8882c63] Use MANDATORY_LDFLAGS/MANDATORY_CFLAGS.
+  * [9507d072] Fix passing MANDATORY_* flags to make.
+  * [3af37ccf] Add missing library symlink for devel package.
+  * [b17c2c9a] Add libgmic1 and libgmic-dev.
+  * [d92ef057] Fix gmic.install and dh_install calls.
+  * [967b8767] Refreshing patches.
+  * [d81f1188] Remove special git-import-orig rules from debian/gbp.conf
+  * [0e043a5c] Remove dh_auto_configure override. zart/Makefile is not
+    being shipped in the tarball anymore.
+  * [33ae4a9b] Fixing various lintian warnings.
+  * [00ead79b] Merge branch 'upstream'
+    Upstream tarball re-release with fixes for our lintian errors.
+    Thanks, David!
+  * [ec797fd5] Revert "Remove dh_auto_configure override."
+    This reverts commit 0e043a5c876613884c3ace8ad7a7ebcbfb4deef9.
+  * [23229c12] Revert "Add missing library symlink for devel package."
+    This reverts commit 3af37ccfc8da06d5247e42e9bfb9149686cd2e5e.
+  * [9ed51a86] Add patch fixing ldconfig-symlink-referencing-wrong-file.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sun, 22 Sep 2013 21:43:33 +0200
+
+gmic (1.5.1.6+dfsg-4) unstable; urgency=low
+
+  * [4ed5416f] Fix author/copyright information in debian/copyright and zart.1
+
+ -- Bernd Zeimetz &lt;censored&gt;  Wed, 04 Jul 2012 18:43:34 +0200
+
+gmic (1.5.1.6+dfsg-3) unstable; urgency=low
+
+  * [152547f5] Add missing Breaks/Replaces.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Thu, 28 Jun 2012 19:55:47 +0200
+
+gmic (1.5.1.6+dfsg-2) unstable; urgency=low
+
+  * [4012fb0e] Split zart into its own package.
+    This avoids pulling QT and X for a command-line tool.
+  * [e420fdb0] Add a manpage for zart.
+  * [eff81582] Remove debian/dirs to avoid empty directories.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Fri, 22 Jun 2012 18:12:19 +0200
+
+gmic (1.5.1.6+dfsg-1) unstable; urgency=low
+
+  * [cfe57a54] Merge tag 'upstream/1.5.1.6+dfsg'
+    Upstream version 1.5.1.6+dfsg
+  * [fbc1e4d2] Refreshing patches.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Fri, 22 Jun 2012 17:03:21 +0200
+
+gmic (1.5.1.5+dfsg-1) unstable; urgency=low
+
+  * [d3cb2da4] Remove override_dh_clean from .PHONY.
+    Some debhelper versions still seem to recognize it as empty target...
+  * [982453de] Merge commit 'upstream/1.5.0.9+dfsg'
+  * [7c82f405] refreshing patches.
+  * [7093fa88] Updating changelog.
+  * [f8500c13] Merge tag 'upstream/1.5.1.0+dfsg'
+    Upstream version 1.5.1.0+dfsg
+  * [1e04612f] Rfreshing patches.
+  * [ffd49557] Updating changelog.
+  * [54eefb26] Merge tag 'upstream/1.5.1.5+dfsg'
+    Upstream version 1.5.1.5+dfsg
+  * [317788b2] Updating changelog.
+  * [03467dc0] Refreshing patches.
+  * [706f87a9] Backup zart/Makefile
+  * [95621201] Add build-dependencies, description and install files for zart.
+  * [eefe5f9b] Add patch to fix building with ne OpenCV.
+  * [bdadee8c] Updating changelog.
+  * [ccb14826] Add libopencv-objdetect-dev build-dependency.
+  * [6b6322ef] More opencv fixes.
+  * [303ff61c] Add libopencv-imgproc-dev as build-dependency.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Thu, 21 Jun 2012 12:23:27 +0200
+
+gmic (1.5.0.8+dfsg-1) unstable; urgency=low
+
+  * [b7ddf3a2] Merge commit 'upstream/1.5.0.8+dfsg'
+  * [a0dd17c6] Make GMIC build with recent OpenCV versions. (Closes: #652763)
+  * [7cb4a04f] Don't use configure, call src/Makefile directly.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sat, 21 Jan 2012 12:37:30 +0100
+
+gmic (1.5.0.7+dfsg-1) unstable; urgency=low
+
+  * [97e3ecbd] Merge commit 'upstream/1.5.0.7+dfsg'
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sun, 04 Dec 2011 19:55:28 +0100
+
+gmic (1.5.0.5+dfsg-1) unstable; urgency=low
+
+  * [4978288c] Removing Jakub Wilk from Uploaders as requested.
+    Thanks for your work Jakub!
+  * [b7314e4e] Merge commit 'upstream/1.5.0.5+dfsg'
+  * [866550ef] Refactoring debian/rules
+  * [fce14609] Bumping Standards-Version, no changes needed.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sun, 30 Oct 2011 19:06:34 +0100
+
+gmic (1.5.0.0+dfsg-1) unstable; urgency=low
+
+  * [20fc4583] Merge commit 'upstream/1.5.0.0+dfsg'
+  * [ec62b62d] Dropping patch for configure fixes, not necessary anymore.
+  * [87daddc5] Refreshing patches.
+  * [833f51b5] Remove lib*magick++*-dev build-deps, not needed anymore.
+  * [7592f26e] Add libopenexr-dev as build-dependency.
+  * [5a8d6059] Don't try to install upstream's changelog, not shipped anymore.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Tue, 26 Jul 2011 15:17:46 +0200
+
+gmic (1.4.8.1+dfsg-2) unstable; urgency=low
+
+  * [24dc0e58] Add patch to fix FTBFS on various architectures.
+    Thanks to Hector Oron (Closes: #614273)
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sun, 20 Feb 2011 22:52:04 +0100
+
+gmic (1.4.8.1+dfsg-1) unstable; urgency=low
+
+  * [fab6cc4d] Merge commit 'upstream/1.4.8.1+dfsg'
+
+ -- Bernd Zeimetz &lt;censored&gt;  Wed, 16 Feb 2011 22:37:42 +0100
+
+gmic (1.4.8.0+dfsg-1) unstable; urgency=low
+
+  * [33847b44] Merge commit 'upstream/1.4.8.0+dfsg'
+  * [6e771817] Refreshing patches.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Thu, 10 Feb 2011 13:13:22 +0100
+
+gmic (1.4.4.2+dfsg-1) experimental; urgency=low
+
+  * [3253ce08] Merge commit 'upstream/1.4.4.2+dfsg'
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sun, 07 Nov 2010 18:47:00 +0100
+
+gmic (1.4.2.0+dfsg-1) experimental; urgency=low
+
+  * [f93deb46] Merge commit 'upstream/1.4.2.0+dfsg'
+  * [00290d4f] Refreshing patches.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Wed, 20 Oct 2010 20:57:01 +0200
+
+gmic (1.4.0.0+dfsg-1) experimental; urgency=low
+
+  * [6fd356d5] Merge commit 'upstream/1.4.0.0+dfsg'
+  * [331aef59] Adding new build-dependencies.
+  * [86b49de0] Refreshing patches.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Fri, 03 Sep 2010 14:49:11 +0200
+
+gmic (1.3.9.0+dfsg-1) unstable; urgency=low
+
+  * [23ccb979] Merge commit 'upstream/1.3.9.0+dfsg'
+  * [bef99d90] Install upstream changelog.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Mon, 02 Aug 2010 10:26:51 +0200
+
+gmic (1.3.7.1+dfsg-1) unstable; urgency=low
+
+  * [b573582f] Merge commit 'upstream/1.3.7.1+dfsg'
+
+ -- Bernd Zeimetz &lt;censored&gt;  Mon, 19 Jul 2010 19:11:21 +0200
+
+gmic (1.3.6.0+dfsg-1) unstable; urgency=low
+
+  * [204cd64b] Merge commit 'upstream/1.3.6.0+dfsg'
+
+ -- Bernd Zeimetz &lt;censored&gt;  Wed, 30 Jun 2010 18:42:20 +0200
+
+gmic (1.3.5.7+dfsg-1) unstable; urgency=low
+
+  * [f733c366] Merge commit 'upstream/1.3.5.7+dfsg'
+  * [ee1cba19] Refreshing patches.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Wed, 23 Jun 2010 02:23:16 +0200
+
+gmic (1.3.5.4+dfsg-2) unstable; urgency=low
+
+  * [e14a94e2] Rise required amount of RAM to avoid FTBFS on s390.
+    (*sigh* - these machines should have neough RAM and swap....)
+
+ -- Bernd Zeimetz &lt;censored&gt;  Mon, 07 Jun 2010 19:37:02 +0200
+
+gmic (1.3.5.4+dfsg-1) unstable; urgency=low
+
+  * [821186d5] Fix dversionmangle in watch file.
+  * [8fab3d8a] Merge commit 'upstream/1.3.5.4+dfsg'
+    - This icludes a fix for the FTBFS on various archicetures.
+      (Closes: #584304)
+  * [7550bc35] Refresh patches.
+  * [d682b862] Don't gunzip manpages and create directories before make
+    install.
+  * [6dccd71b] Tidy debian/rules' clean target.
+  * [dba56977] Install bash completion
+
+ -- Bernd Zeimetz &lt;censored&gt;  Mon, 07 Jun 2010 13:53:22 +0200
+
+gmic (1.3.5.1+dfsg2-1) unstable; urgency=low
+
+  * Upstream released a bugfix-release for 1.3.5.1 - unfortunately with the
+    same version number.
+  * [0e506788] Merge commit 'upstream/1.3.5.1+dfsg2'
+
+ -- Bernd Zeimetz &lt;censored&gt;  Wed, 26 May 2010 16:48:40 +0200
+
+gmic (1.3.5.1+dfsg-1) unstable; urgency=low
+
+  * [97366020] Use -O0 in case the system we build on has less than 1GB
+    RAM.
+  * [6aca1038] Merge commit 'upstream/1.3.5.1+dfsg'
+  * [fe6b2057] Fix awk call to evaluate the available memory.
+  * [6806172f] Updating patches.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Wed, 26 May 2010 12:13:50 +0200
+
+gmic (1.3.5.0+dfsg-1) unstable; urgency=low
+
+  * [4efc6ba8] Add Enhances/Depends on gimp.
+  * [1cec005d] Merge commit 'upstream/1.3.5.0+dfsg'
+  * [4a1816e8] Don't use pristine-tar on git-import-orig. We need to
+    recreate the tarball after removing non-free material.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Sun, 16 May 2010 22:48:10 +0200
+
+gmic (1.3.5.0~beta1+dfsg-1) experimental; urgency=low
+
+  * Beta version of the upcoming upstream version.
+  * [55bc031b] Merge commit 'upstream/1.3.5.0.beta1+dfsg'
+  * [35c39744] Bumping Standards-Version to 3.8.4, no changes needed.
+  * [1e7913f6] debian/control: Adding VCS Information.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Wed, 28 Apr 2010 19:49:35 +0200
+
+gmic (1.3.4.1+dfsg-4) unstable; urgency=low
+
+  * [973d62d8] Small typo making the kfreebsd fix fail. Fixed now.
+  * [cd7344ee] Use -O0 on mips to avoid internal errors in g++.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Tue, 20 Apr 2010 22:58:25 +0200
+
+gmic (1.3.4.1+dfsg-3) unstable; urgency=low
+
+  * [045a2f86] Remove strip commands from src/Makefile. dh_strip takes
+    care of stripping if necessary.
+  * [d3740bdf] Add patch to make gmic build on kfreebsd.
+  * [61119501] Use -O0 on arm to stop g++ from using even more memory.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Tue, 20 Apr 2010 18:09:57 +0200
+
+gmic (1.3.4.1+dfsg-2) unstable; urgency=low
+
+  * [77f87ac2] Update jwilk's email address to jwilk@d.o
+  * [955493d8] Updating debian/copyright.
+  * [6f168dd4] Add additional information about src/gmic_def.h to
+    debian/copyright.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Tue, 20 Apr 2010 11:15:26 +0200
+
+gmic (1.3.4.1+dfsg-1) unstable; urgency=low
+
+  [ Jakub Wilk ]
+  * Initial release (closes: #532629).
+
+  [ Bernd Zeimetz ]
+  * Removing non-free content (the html documentation comes without
+    sources and was generated using a non-free album generator).
+  * Also removing upstream's debian folder.
+
+ -- Bernd Zeimetz &lt;censored&gt;  Tue, 13 Apr 2010 22:56:12 +0200
+</pre></div>
+</div></div>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                <a href="http://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
+
