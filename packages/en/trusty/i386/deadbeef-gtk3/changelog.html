@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package deadbeef-gtk3_0.7.2+git7105-81817d3-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package deadbeef-gtk3_0.7.2+git7122-ea91710-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
     <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -39,7 +39,43 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package deadbeef-gtk3 in trusty of architecture i386</h5>
-<div class="highlight"><pre><span></span>deadbeef (0.7.2+git7105-81817d3-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>deadbeef (0.7.2+git7122-ea91710-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
+  * Branch: master
+  * Commit: ea91710cecae4df0c87ef141e8e717c36bbf0d8e
+  * Date: 1494152617
+  * git changelog:
+  *  ea91710 - tf: added `dimmed` return value to the tf context, to
+    help determine whether the output needs to be searched for dimming
+    esc sequences
+  *  a9b28f2 - tf: added test for >>>text brighten<<<
+  *  8576c2f - tf: fixed all tests; increased single bytecode expression
+    size limit from 0x7f to 0xffff
+  *  57ee033 - tf: implemented <<<>>> prototype with escape sequence for
+    optional text dimming
+  *  e1158c9 - tf: added test for $len
+  *  d466c14 - tf: added $len
+  *  cfe879b - tf: better truncated output in $insert, more tests
+  *  7387d09 - tf: $left utf8 validity test, and fixed $left and $insert
+    to handle buffer overflow correctly
+  *  0460be2 - tf: undo u8_strnbcpy damage, add tests for that
+  *  f76baf2 - tf: u8_strncpy replaced with u8_strnbcpy; added tests for
+    $insert
+  *  4634b98 - tf: added $insert (#1759)
+  *  ccd602f - gtkui: remove retina.m from Makefile.am
+  *  5a2afa7 - tf: added $repeat tests; code styling fixes
+  *  e2320f1 - tf: added $repeat
+  *  81d73d2 - generate "Total tracks" field from cuesheet (closes #640)
+  *  c0a16c4 - ffmpeg: increase the supported file extension limit to
+    1024 (fixes #1755)
+  *  ba47881 - ffmpeg: buffer overflow fix when there are >= 256
+    extensions supported by ffmpeg(fixes #1755)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 07 May 2017 13:46:09 +0300
+
+deadbeef (0.7.2+git7105-81817d3-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
