@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://notesalexp.org/packages/</loc>
-    </url>
-    <url>
         <loc>http://notesalexp.org/packages/en/</loc>
     </url>
     <url>
@@ -4204,6 +4201,9 @@
         <loc>http://notesalexp.org/packages/en/source/qt-box-editor/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/source/rubyripper/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/source/scantailor/</loc>
     </url>
     <url>
@@ -4610,6 +4610,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/amd64/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/stretch/amd64/rubyripper/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/amd64/scantailor/</loc>
@@ -5348,6 +5351,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/i386/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/stretch/i386/rubyripper/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/stretch/i386/scantailor/</loc>
@@ -8824,6 +8830,9 @@
         <loc>http://notesalexp.org/packages/en/xenial/amd64/qt-box-editor/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/xenial/amd64/rubyripper/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/xenial/amd64/scantailor/</loc>
     </url>
     <url>
@@ -9559,6 +9568,9 @@
         <loc>http://notesalexp.org/packages/en/xenial/i386/qt-box-editor/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/xenial/i386/rubyripper/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/xenial/i386/scantailor/</loc>
     </url>
     <url>
@@ -10258,6 +10270,9 @@
         <loc>http://notesalexp.org/packages/en/yakkety/amd64/qt-box-editor/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/yakkety/amd64/rubyripper/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/yakkety/amd64/scantailor/</loc>
     </url>
     <url>
@@ -10954,6 +10969,9 @@
         <loc>http://notesalexp.org/packages/en/yakkety/i386/qt-box-editor/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/packages/en/yakkety/i386/rubyripper/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/packages/en/yakkety/i386/scantailor/</loc>
     </url>
     <url>
@@ -11606,6 +11624,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/zesty/amd64/qcomicbook/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/zesty/amd64/rubyripper/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/zesty/amd64/scantailor/</loc>
@@ -12263,6 +12284,9 @@
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/zesty/i386/qcomicbook/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/packages/en/zesty/i386/rubyripper/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/packages/en/zesty/i386/scantailor/</loc>

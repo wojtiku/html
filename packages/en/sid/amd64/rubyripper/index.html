@@ -20,6 +20,7 @@
                 <li><a href="http://notesalexp.org/html/">Home</a></li>
                 <li><a href="http://notesalexp.org/html/update.html">Update</a></li>
                 <li><a href="http://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li><a href="http://notesalexp.org/html/donate.html">Donate</a></li>
                 <li class="selected" ><a href="http://notesalexp.org/packages">Packages</a></li>
                 <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
                 <li><a href="http://notesalexp.org/html/blog/">Blog</a></li>
@@ -36,14 +37,21 @@
 <div id="pothersdist">
 [<a href="http://notesalexp.org/packages/en/wheezy/amd64/rubyripper">wheezy</a>]
 [<a href="http://notesalexp.org/packages/en/jessie/amd64/rubyripper">jessie</a>]
+[<a href="http://notesalexp.org/packages/en/stretch/amd64/rubyripper">stretch</a>]
 [<strong>sid</strong>]
 [<a href="http://notesalexp.org/packages/en/precise/amd64/rubyripper">precise</a>]
 [<a href="http://notesalexp.org/packages/en/trusty/amd64/rubyripper">trusty</a>]
+[<a href="http://notesalexp.org/packages/en/xenial/amd64/rubyripper">xenial</a>]
+[<a href="http://notesalexp.org/packages/en/yakkety/amd64/rubyripper">yakkety</a>]
+[<a href="http://notesalexp.org/packages/en/zesty/amd64/rubyripper">zesty</a>]
+</div>
+<div id="potherssource">
+    [Source: <a href="http://notesalexp.org/packages/en/source/rubyripper">rubyripper</a>]
 </div>
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Package: rubyripper ( 0.6.2-2 ) </h1>
+<h1>Package: rubyripper ( 0.6.2+git781-d71bba4-1 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for rubyripper</strong></p>
 <p><strong>Resources:</strong></p>
@@ -51,9 +59,15 @@
 <li><a href="http://notesalexp.org/packages/en/sid/amd64/rubyripper/changelog.html">Debian Changelog</a></li>
 <li><a href="http://notesalexp.org/packages/content/sid/all/rubyripper.copyright.gz">Copyright File</a></li>
 </ul>
+<p><strong>Download Source Package <a href="http://notesalexp.org/source/main/r/rubyripper">rubyripper</a>:</strong></p>
+<ul>
+<li><a href="http://notesalexp.org/source/main/r/rubyripper/rubyripper_0.6.2+git781-d71bba4-1.debian.tar.xz">[rubyripper_0.6.2+git781-d71bba4-1.debian.tar.xz]</a></li>
+<li><a href="http://notesalexp.org/source/main/r/rubyripper/rubyripper_0.6.2+git781-d71bba4-1.dsc">[rubyripper_0.6.2+git781-d71bba4-1.dsc]</a></li>
+<li><a href="http://notesalexp.org/source/main/r/rubyripper/rubyripper_0.6.2+git781-d71bba4.orig.tar.xz">[rubyripper_0.6.2+git781-d71bba4.orig.tar.xz]</a></li>
+</ul>
 <p><strong>External Resources:</strong></p>
 <ul>
-<li><a href="http://code.google.com/p/rubyripper/">Homepage</a></li>
+<li><a href="https://github.com/bleskodev/rubyripper">Homepage</a></li>
 </ul>
 </div>
 <h4> audio extraction tool for sampling CDs </h4>
@@ -76,18 +90,12 @@
 <dt><span><strong>dep:</strong> eject </span></dt>
 <dt><span> ejects CDs and operates CD-Changers under Linux</span></dt>
 </dl></li>
-<li><dl><dt><span><strong>dep:</strong></span>
-<span>libgettext-ruby-util</span> </dt>
-<dt><span> Gettext utilities for ruby (dummy package)</span></dt>
-<dt><span><strong>or </strong></span>
-<span>ruby-gettext</span> </dt>
+<li><dl>
+<dt><span><strong>dep:</strong> ruby-gettext </span></dt>
 <dt><span> gettext for Ruby</span></dt>
 </dl></li>
-<li><dl><dt><span><strong>dep:</strong></span>
-<span>libgtk2-ruby</span> </dt>
-<dt><span> Transitional package for ruby-gtk2</span></dt>
-<dt><span><strong>or </strong></span>
-<span>ruby-gtk2</span> </dt>
+<li><dl>
+<dt><span><strong>dep:</strong> ruby-gtk2 </span></dt>
 <dt><span> GTK+ 2 bindings for the Ruby language</span></dt>
 </dl></li>
 <li><dl>
@@ -97,6 +105,28 @@
 <li><dl>
 <dt><span><strong>dep:</strong> cdrdao </span></dt>
 <dt><span> records CDs in Disk-At-Once (DAO) mode</span></dt>
+</dl></li>
+</ul>
+<ul class="ulrec">
+<li><dl>
+<dt><span><strong>rec:</strong> flac </span></dt>
+<dt><span> Free Lossless Audio Codec - command line tools</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>rec:</strong> vorbis-tools </span></dt>
+<dt><span> several Ogg Vorbis tools</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>rec:</strong> vorbisgain </span></dt>
+<dt><span> add Replay Gain volume tags to Ogg Vorbis files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>rec:</strong> normalize-audio </span></dt>
+<dt><span> adjusts the volume of WAV, MP3 and OGG files to a standard volume level</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>rec:</strong> sox </span></dt>
+<dt><span> Swiss army knife of sound processing</span></dt>
 </dl></li>
 </ul>
 <ul class="ulsug">
@@ -123,9 +153,9 @@
     </tr>
 <tr>
     <th><a href="http://notesalexp.org/packages/en/sid/amd64/rubyripper/download.html">all</a></th>
-    <td class="size"> 0.6.2-2 </td>
-    <td class="size"> 60 KiB  </td>
-    <td class="size"> 251 KiB  </td>
+    <td class="size"> 0.6.2+git781-d71bba4-1 </td>
+    <td class="size"> 116 KiB  </td>
+    <td class="size"> 581 KiB  </td>
     <td>[<a href="http://notesalexp.org/packages/en/sid/amd64/rubyripper/filelist.html">list of files</a>]</td>
 </tr>
 <tr>

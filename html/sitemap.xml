@@ -5,28 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://notesalexp.org/html/</loc>
-<lastmod>2017-05-07T15:32:32-00:00</lastmod>
+<lastmod>2017-05-16T19:39:18-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://notesalexp.org/html/</loc>
-<lastmod>2017-05-07T15:32:32-00:00</lastmod>
+<lastmod>2017-05-16T19:39:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://notesalexp.org/html/update.html</loc>
-<lastmod>2017-05-07T15:32:32-00:00</lastmod>
+<lastmod>2017-05-16T19:39:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://notesalexp.org/html/faq.html</loc>
-<lastmod>2017-05-07T15:32:32-00:00</lastmod>
+<lastmod>2017-05-16T19:39:18-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://notesalexp.org/html/donate.html</loc>
+<lastmod>2017-05-16T19:39:18-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
