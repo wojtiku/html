@@ -135,10 +135,10 @@
     },
     "deadbeef": 
     {
-      "version": "0.7.2+git7140-d1387ca-1",
+      "version": "0.7.2+git7145-1e7dd68-1",
       "description": " ultimate music player for GNU/Linux systems",
       "sourceurl": "http://notesalexp.org/source/main/d/deadbeef",
-      "sourcefile": "deadbeef_0.7.2+git7140-d1387ca-1.debian.tar.xz deadbeef_0.7.2+git7140-d1387ca-1.dsc deadbeef_0.7.2+git7140-d1387ca.orig.tar.xz ",
+      "sourcefile": "deadbeef_0.7.2+git7145-1e7dd68-1.debian.tar.xz deadbeef_0.7.2+git7145-1e7dd68-1.dsc deadbeef_0.7.2+git7145-1e7dd68.orig.tar.xz ",
       "homepage": "http://deadbeef.sourceforge.net/",
       "depends": "debhelper(>=7.0.50~) libltdl-dev|libltdl7-dev libtool libasound2-dev libsamplerate0-dev libmad0-dev libmpg123-dev libavformat-dev libsndfile1-dev libx11-dev libvorbis-dev libavutil-dev libcddb2-dev libgtk2.0-dev libgtk-3-dev libcdio-dev libogg-dev libcurl4-gnutls-dev libflac-dev autotools-dev libwavpack-dev libavcodec-dev automake autoconf libnotify-dev libpulse-dev intltool libmpcdec-dev libmms-dev libfaad-dev bison libzip-dev libimlib2-dev quilt yasm autopoint libglu1-mesa-dev mesa-common-dev libgtkglext1-dev libjansson-dev ",
       "binary": "deadbeef-dev deadbeef-gtk3 deadbeef-gtk2 deadbeef",
@@ -146,7 +146,7 @@
       "description_deadbeefgtk3": "GTK3 interface to DeaDBeeF",
       "description_deadbeefgtk2": "GTK2 interface to DeaDBeeF",
       "description_deadbeef": "ultimate music player for GNU/Linux systems",
-      "md5": " 29a125547a3d939d629ada530ae41737 144ccfece18fb62db005bb7c8abfba4f 2662fad34ed95be836d55bba45ff825e",
+      "md5": " 3a32c40dc775044f80162e6e5d5622e2 85f7c44c054c80bcc5a466845a0a4709 657f7fac2a01bc857699b72b9a4171f1",
       "size": " 16_KiB  4_KiB  5.85_MiB "
     },
     "eigen3": 
@@ -607,16 +607,16 @@
     },
     "pinta": 
     {
-      "version": "1.6+git1776-73a046e-1",
+      "version": "1.6+git1781-2d58dc0-1",
       "description": " Simple drawing/painting program",
       "sourceurl": "http://notesalexp.org/source/main/p/pinta",
-      "sourcefile": "pinta_1.6+git1776-73a046e-1.debian.tar.xz pinta_1.6+git1776-73a046e-1.dsc pinta_1.6+git1776-73a046e.orig.tar.xz ",
+      "sourcefile": "pinta_1.6+git1781-2d58dc0-1.debian.tar.xz pinta_1.6+git1781-2d58dc0-1.dsc pinta_1.6+git1781-2d58dc0.orig.tar.xz ",
       "homepage": "http://pinta-project.com/",
       "depends": "debhelper(>=9) cli-common-dev(>=0.5.7~) autoconf automake dh-autoreconf gettext gtk-sharp2 yelp-tools libglib2.0-dev nunit-console mono-reference-assemblies-4.0|wget ",
       "binary": "pinta",
       "description_pinta": "Simple drawing/painting program",
-      "md5": " e708ab86433a2805f29cff6bd9a62ee2 26ccfd97788a69799a1914f71db466a5 29d8d2072ae89befd662ef8b3edf1ce2",
-      "size": " 16_KiB  4_KiB  11.49_MiB "
+      "md5": " d8a384c9617ff1f1af00de46de9726d3 4edbcd71cddbbd4e42459a10e15c6edc e2bcd202630e6568c7e8ca4539e44c9d",
+      "size": " 16_KiB  4_KiB  1.25_MiB "
     },
     "ppastats": 
     {
