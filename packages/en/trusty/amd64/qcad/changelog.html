@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package qcad_3.16.7+git4455-38120ee-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package qcad_3.17.0+git4594-214e279-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
     <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -40,14 +40,200 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package qcad in trusty of architecture amd64</h5>
-<div class="highlight"><pre><span></span>qcad (3.16.7+git4455-38120ee-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>qcad (3.17.0+git4594-214e279-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/qcad/qcad.git
   * Branch: master
-  * Commit: 38120eeae19b62f1e250dd80fcd7fc45987ebbb5
-  * Date: 1490367787
+  * Commit: 214e27993fbbadad4241b6bf4e1c5f23eea7a70d
+  * Date: 1496050310
   * git changelog:
+  *  214e279 - back port to qt 4
+  *  127a349 - update translations
+  *  73ce859 - update initialization of previous / current version
+    detection
+  *  a331045 - add preference to explode multiline texts into simple
+    text blocks
+  *  488f649 - update script bindings
+  *  8a7888f - add RTextProxy, RTextBasedData::getSimpleTextBlocks
+  *  8313361 - compile fix
+  *  66d5498 - update script bindings
+  *  457df7d - add more information to RTextLayout (text blocks with
+    same formatting)
+  *  475dc91 - update streaming format for RBox
+  *  a820025 - add bounding box and TTF flag for text layout
+  *  939b302 - add RColor::setCompat
+  *  a5a7461 - set version to 3.17.1.1
+  *  d5fa29c - update translations
+  *  c929f51 - set version to 3.17.1
+  *  4788633 - update script bindings
+  *  034fcdb - add additional info to RTextLayout
+  *  31aa0fe - add experimental code to explode multipline texts into
+    simple text blocks
+  *  92e97c7 - fix FS#1583 - Option / Rotation missing defaults for 15
+    and 345 degree
+  *  9d9a070 - fix FS#1582 - Layer > Show all Layers / Hide all Layers:
+    unexpected outcome when frozen column not shown
+  *  09971ec - set version to 3.17.0.1
+  *  2a31885 - set version to 3.17.0.0
+  *  3390732 - fix duplicate shortcut
+  *  9ba4003 - update image tool
+  *  aacb71c - update image tool
+  *  1aa6744 - refactor image tool to use getOperation, updatePreview
+  *  3447198 - update translations
+  *  e624528 - update api doc
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 29 May 2017 12:53:54 +0300
+
+qcad (3.16.7+git4566-e01bcb8-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: e01bcb890c67bb114237820d0580516561ac2208
+  * Date: 1494581457
+  * git changelog:
+  *  e01bcb8 - update translations
+  *  15ce451 - update user manual
+  *  48501ce - move Edit > Rotate preferences to rotation tool
+  *  afca430 - update user manual
+  *  281fed0 - update readme
+  *  f10e8b7 - update translations
+  *  2e26e5a - add inverse icon
+  *  8464182 - update splashscreen
+  *  af24208 - pass filename to constructor for unit tests
+  *  89bb882 - add icon for InsertScriptItem action
+  *  9915dd1 - refactor handing of URL
+  *  b01873f - fix initial state of InsertScriptItem action
+  *  e6568bb - refactor action visibility handling
+  *  8ca8ebf - add Layer.thawFreeze
+  *  1bbe71f - set version to 3.17.0
+  *  948aa29 - fix FS#1579 - Edit > Paste: rotation leads to wrong
+    position of block references if drawing units differ
+  *  cb3badc - update unit test
+  *  f98a519 - add comment
+  *  d892423 - add workaround for Qt keyboard focus problem after
+    showing file dialog
+  *  99ffc98 - correct data types, update API doc
+  *  0ce302f - set dxflib version to 3.16.8.0
+  *  2471db7 - clean up
+  *  eca188e - add arc aligned text stubs
+  *  6748b2e - add strings to arc aligned text entity
+  *  708a58e - add support for ARCALIGNEDTEXT entity type
+  *  0aa9511 - ignore tagged entities
+  *  040f6eb - add support for explicit reference point
+  *  dea0ff5 - update script bindings
+  *  1bac76b - remember and restore last used directory in library
+    browser
+  *  3fbc802 - add RShape::getAngleAtPoint
+  *  8a6b11a - update script bindings
+  *  c7d0d5e - add original cursor position (without snap) to
+    RInputEvent
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 14 May 2017 13:34:46 +0300
+
+qcad (3.16.7+git4534-53cce04-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 53cce04957313ae9004383c6b0ae8ea8bfe6314d
+  * Date: 1493314966
+  * git changelog:
+  *  53cce04 - set version to 3.16.7.6
+  *  b968a8d - fix preview when rotating on the fly
+  *  73dd1d1 - refactor to use getOperation (support on the fly
+    rotation)
+  *  d43c2ae - set version to 3.16.7.5
+  *  8fd033d - add RGraphicsView::isActive
+  *  ae216b1 - clean up
+  *  5eccec4 - add angle step to preferences
+  *  75d4f14 - refactor to use getOperation
+  *  db8bc00 - fix focus when inserting library items
+  *  f65adbf - spelling
+  *  375dd05 - fix temporary file creation (macos, qt 5.6)
+  *  5f093e3 - add support for theme icons
+  *  d21fac4 - update translations
+  *  a855e40 - update script bindings
+  *  fe48b7c - allow themes to override icons
+  *  930c035 - add RSettings::getThemePath
+  *  9b116e0 - separate layer list from current document
+  *  45c235d - clean up
+  *  766c0af - allow overriding of document interface
+  *  93f8a7b - update script bindings
+  *  fb7234e - add local layer listener for document interfaces
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 28 Apr 2017 07:54:47 +0300
+
+qcad (3.16.7+git4513-ba931d5-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: ba931d5e7efe2f14a62273378be47a5f6f1d3f3b
+  * Date: 1491572240
+  * git changelog:
+  *  ba931d5 - update workaround for Qt 5.6.1, 5.6.2 bug under macOS
+  *  7a81b3b - workaround for Qt 5.6.1, 5.6.2 bug under macOS
+  *  a36a1ac - fix FS#1569 - File > Print Preview: changing offset in
+    drawing preferences has no immediate effect
+  *  b1383ca - Merge branch 'master' of github.com:qcad/qcad
+  *  4b04ccf - Merge branch 'master' of github.com:qcad/qcad
+  *  4d4f92b - add RPATH ORIGIN under Linux
+  *  99d035d - update translations
+  *  4a2e7d3 - fix entity visibility in nested blocks / layer 0
+  *  f36172a - update dump
+  *  eb05f20 - add layer / visibility test cases
+  *  669ffd7 - add layer / visibility test cases
+  *  7322032 - add test data for layers, visibility, layer 0
+  *  d9cd766 - extend visibility check for entities on layer 0
+  *  021f9af - add RExporter::getBlockRefViewportStack
+  *  f67ae70 - fix check for special layer 0 handling
+  *  1f48207 - update script bindings
+  *  c7c8c1d - fix block attribute visibility / color in layer 0
+    compatibility mode
+  *  23bd42d - add RExporter::getColor to get color of current entity
+  *  9a0f364 - update comments
+  *  ffce774 - add QTextLayout meta type declaration
+  *  63da695 - add RTextLayout::getLayout
+  *  cf078d7 - clean up
+  *  285c208 - update comments
+  *  38d87d1 - Merge branch 'master' of github.com:qcad/qcad
+  *  5acb09f - update / add rendering test files
+  *  4d1673d - Update Slo translation
+  *  345c09b - update
+  *  b40a089 - update API doc
+  *  363fc41 - use REntity::isVisible when computing bounding box
+  *  8f8c3fe - make RTextLayout scriptable
+  *  f047b8a - add sanity checks
+  *  f31dc27 - add sanity checks
+  *  ba4da63 - only export sane labels
+  *  40352ae - add RTextBasedData::isSane
+  *  f9416ac - add isSane
+  *  e6fa54e - add isValid, isSane to dimension classes
+  *  947c6da - make RTextLayout scriptable, add RTextLayout::hasLayout
+  *  3236ceb - add REntity::isValid REntity::isSane
+  *  b961a68 - add comment
+  *  4c88a50 - update translations
+  *  18b8641 - update layer preferences
+  *  dd2ccfe - add TODOs, clean up
+  *  f1e43d8 - clean up
+  *  c351cdf - move visibility check for attributes to attribute class
+  *  0612e2f - don't delegate attribute color to block reference
+  *  50449df - make sure update reminder is shown after splash is closed
+  *  410b7ce - update
+  *  8c92fa4 - add user level warning when recursive block references
+    are detected
+  *  46e8cad - clean up
+  *  4f3c208 - set version to 3.16.7.4
+  *  0cc6668 - fix trackpad zooming under macOS with Qt 5
+  *  f992550 - clean up
+  *  c3d0b41 - add debugging info
+  *  357853a - Merge branch 'master' of github.com:qcad/qcad
+  *  c6a8a78 - add nativeGestureEvent
+  *  1ce1ee0 - set verion to 3.16.7.3
+  *  b39d7d1 - Merge branch 'master' of github.com:qcad/qcad
+  *  ad14ff3 - add xcbglintegrations to deployment
   *  38120ee - add more example script bindings
   *  021b26b - update script bindings
   *  7dcf010 - use REntity::isVisible for all visibility checks
@@ -151,7 +337,7 @@
   *  46cb829 - TextDialog: Fixed source focus.
   *  8f393c2 - Update Slo translation
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 25 Mar 2017 10:57:34 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 14 Apr 2017 07:16:54 +0300
 
 qcad (3.16.5+git4362-745d320-2) unstable; urgency=medium
 
