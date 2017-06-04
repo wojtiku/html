@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package kvirc_4.9.2~git-7110-g88ef901-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package kvirc_4.9.2~git-7115-g2c89201-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
     <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -40,7 +40,32 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package kvirc in sid of architecture i386</h5>
-<div class="highlight"><pre><span></span>kvirc (4:4.9.2~git-7110-g88ef901-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>kvirc (4:4.9.2~git-7115-g2c89201-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/kvirc/KVIrc.git
+  * Branch: master
+  * Commit: 2c89201e37740afd562333117f00ca53fe871fe3
+  * Date: 1496319570
+  * git changelog:
+  *  2c89201 - regenerate perl stuff from 5.26.0 - xs.inc using
+    ExtUtils::ParseXS 3.34 (compile warning fix) - ppport.h from
+    Devel::PPPort 3.36 (content unchanged, only relevant for people
+    using the default DEFAULT_INC_EXCLUDES_DOT value building this file)
+  *  775c885 - Merge branch 'master' of github.com:kvirc/KVIrc
+  *  6772507 - amend 0dbf448ab659b1967eb795f990735461b2c19fea remove a
+    line which is already handled in the if block before it
+  *  358cd58 - Ignore Visual Studio folders (#2225)
+  *  0dbf448 - [AV] update openssl, (hopefully short-term) hack for
+    handling msvc 12 dependency of it. remove xml from windeployqt as
+    its correctly detected now, use debug zlib on debug builds also
+    revert an erroneously committed change to the targeted windows
+    version in CMakeLists.txt (though it appeared to be still working, i
+    want to be sure)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 02 Jun 2017 08:10:05 +0300
+
+kvirc (4:4.9.2~git-7110-g88ef901-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/kvirc/KVIrc.git
