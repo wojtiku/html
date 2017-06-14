@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://notesalexp.org/packages/</loc>
-    </url>
-    <url>
         <loc>http://notesalexp.org/packages/en/</loc>
     </url>
     <url>
@@ -12670,6 +12667,18 @@
         <loc>http://notesalexp.org/html/2016/05/19/truecrypt/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/html/2017/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/html/2017/06/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/html/2017/06/04/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/html/2017/06/04/20170604/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/html/archives/</loc>
     </url>
     <url>
@@ -12685,12 +12694,24 @@
         <loc>http://notesalexp.org/html/category/blog/</loc>
     </url>
     <url>
+        <loc>http://notesalexp.org/html/category/repozitorii/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/html/tag/deb/</loc>
+    </url>
+    <url>
         <loc>http://notesalexp.org/html/tag/make/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/html/tag/reps/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/html/tags/</loc>
     </url>
     <url>
         <loc>http://notesalexp.org/html/tag/truecrypt/</loc>
+    </url>
+    <url>
+        <loc>http://notesalexp.org/html/tag/update/</loc>
     </url>
 </urlset> 
