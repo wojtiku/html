@@ -1,0 +1,2354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | ChangeLog of package audacity_2.1.3+git6967-8629363-1_amd64.deb </title>
+    <link rel="shortcut icon" type="image/png" href="http://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="http://notesalexp.org/html/favicon.ico">
+    <link href="http://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="http://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="http://notesalexp.org/packages/css/package.css" type="text/css" />
+    <meta name="generator"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://notesalexp.org/html/">Home</a></li>
+                <li><a href="http://notesalexp.org/html/update.html">Update</a></li>
+                <li><a href="http://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li><a href="http://notesalexp.org/html/donate.html">Donate</a></li>
+                <li class="selected" ><a href="http://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="http://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="http://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+        <div id="pnavbar">
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages">Packages</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/buster/amd64">buster&nbsp;&#x2F;amd64</a>
+            &nbsp;&#x2F;<a href="http://notesalexp.org/packages/en/buster/amd64/audacity"> audacity </a>
+            &nbsp;&#x2F; ChangeLog
+        </div> <!-- end navbar -->
+    </header>
+    <div id="wrapper">
+        <div id="content">
+<div class="page">
+<h5>ChangeLog of package audacity in buster of architecture amd64</h5>
+<div class="highlight"><pre><span></span>audacity (1:2.1.3+git6967-8629363-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/audacity/audacity.git
+  * Branch: master
+  * Commit: 8629363914c73e0279cae43db8aa818b90a315d7
+  * Date: 1497578970
+  * git changelog:
+  *  8629363 - Fix keystroke handling in TrackPanel (such as Shift+M)
+  *  a00b193 - Fix keystroke handling in TrackPanel (such as Shift+M)
+  *  d7bdaf8 - Merge branch 'master' into HEAD
+  *  333c0e3 - Fix for bug 1653 (Nyquist *Table* size limit)
+  *  1abd2b9 - Fix WaveTrack menu (ID collision, item names, enabling)
+  *  c1612d6 - Fix WaveTrack menu (ID collision, item names, enabling)
+  *  6eac877 - The great object-oriented rewrite of TrackPanel event
+    handling!  ...
+  *  3885436 - Update src/Makefile.in...
+  *  770b3b5 - TrackPanel no longer implements the selection tool or
+    MIDI stretch...
+  *  efdb988 - TrackPanel no longer implements label keystrokes, drags,
+    text selection...
+  *  bbfa574 - Move track resizing code out of TrackPanel.cpp, though it
+    still...
+  *  703abe8 - TrackPanel no longer implements track selection click or
+    rearrange drag...
+  *  46b9708 - Move note track control panel click handling out of
+    TrackPanel.cpp
+  *  e4627b1 - TrackPanel no longer implements other mouse wheel actions
+  *  8ef5f69 - Define BackgoundCell, move some things into it
+  *  674ccc5 - Clean up last bits of old popup menu code
+  *  91e6239 - Move code for vertical ruler clicks, drags, popup menus,
+    scroll wheel
+  *  a313bcd - Move code for Wave track menu items
+  *  ba5f6ce - Move code for Note track menu items
+  *  01d5d30 - Move code for Label track menu items
+  *  516d812 - Move code for Time track menu items
+  *  0e5e7b1 - Move code for common track menu items
+  *  bd0603b - Remove the duplicate button-drawing functions that are
+    now unused
+  *  1a317af - Move code for handling the menu button out of TrackPanel,
+    but...
+  *  c3f5fea - TrackPanel still draws Miminize and Close, but no longer
+    handles...
+  *  7cab380 - TrackPanel still draws Velocity, but no longer handles
+    clicks on it...
+  *  a569476 - TrackPanel still draws Gain and Pan, but no longer
+    handles clicks on them...
+  *  5ee73f9 - TrackPanel still draws Mute and Solo, but no longer
+    handles clicks on them...
+  *  c6e7e5d - Define a base class that will be useful for several track
+    control sliders
+  *  d28b8f0 - Define a base class that will be useful for several track
+    control buttons
+  *  f89cbef - Temporary hack lets us defer encapsulation of track
+    control panel drawing...
+  *  43968c4 - TrackPanel no longer implements clip joining or cutline
+    expansion/deletion...
+  *  2496b0d - TrackPanel no longer implements the envelope tool...
+  *  ef38af7 - Move more time-shifting functions out of TrackPanel.cpp
+  *  251976d - TrackPanel no longer implements the time shift tool...
+  *  f1f254f - TrackPanel no longer implements the draw tool...
+  *  85c03bb - TrackPanel no longer implements the zoom tool...
+  *  cba51e1 - Define class PopupMenuTable to make it easy to attach and
+    detach handlers...
+  *  14d45ed - Define and use the UIHandle and TrackPanelCell protocols,
+    but...
+  *  07b53b4 - Bug1659: make selection change from pick on label box
+    undo correctly
+  *  3e38f76 - Adjust details of hit tests on tracks, labels, vrulers...
+  *  fc2a371 - Compilable again without USE_MIDI
+  *  7641d08 - Bigger + and - on zoom buttons in Hi-Contrast theme.
+  *  3981a8c - Banish gray goo from the TCP
+  *  f67cc7a - Fix broken Windows build.
+  *  55dc096 - Lowered check for scrubbing into GetMessageForTool...
+  *  23e3aeb - TCP layout tables include draw functions...
+  *  5982dcc - Redo layout tables as std::vector
+  *  063c6c2 - Table includes draw functions for status items
+  *  ce77f17 - Table includes draw functions for Mute and Solo
+  *  4df84f1 - Table includes draw functions for sliders
+  *  329aa83 - Table includes draw function for Midi controls
+  *  8676334 - Table includes draw function for Minimize and Sync-lock
+    icon
+  *  b4e38c2 - Table includes draw function for Close and Title
+  *  ba014f0 - Add a slot for drawing functions to the TCP lines table
+  *  e554f0c - TrackPanel::HasSoloButton is static and public
+  *  98b24cd - Redo calculation of default track heights
+  *  18b3bc0 - Separate functions defining the horizontal bounds of TCP
+    items
+  *  b15bf44 - Static TrackInfo slider accessors, const Track* arguments
+  *  1d1dded - TrackInfo::SetTrackInfoFont is static
+  *  a4e57fc - Calculate font size for title button as before
+  *  1123ca2 - More tweaks to Nyquist debug output
+  *  1620feb - Simplify macros
+  *  b92866b - Nyquist debug handling tweaks
+  *  3197a6a - Tweak TCP for Mac
+  *  072a513 - New CHANGELOG.txt and (Linux) INSTALL files
+  *  ebd3517 - Remove changelog and compilation from README
+  *  f298bfc - Move track info below track controls
+  *  bf3f041 - Make TrackInfo routines that calculate rectangles static
+  *  e2d77b3 - Move one more selection function out of TrackPanel
+  *  ca4afd5 - Abstract the track selection, shift-click anchor;
+    simplify TrackPanel
+  *  6b5c5a0 - More simplifications by use of SelectionStateChanger
+  *  d834bcd - Move some command handlers for selection and focus out of
+    TrackPanel
+  *  a9f7cb2 - Move selection state into AudacityProject, out of
+    TrackPanel
+  *  4da881d - Define and use SelectionStateChanger
+  *  a594207 - Define class SelectionState; move some TrackPanel
+    functions into it
+  *  986f158 - Update mixer board for selection state change if MIDI
+    tracks too...
+  *  a3037b5 - Move drawing of snap guidelines out of TrackPanel.cpp
+  *  198dbc4 - Support screenshots of toolbar variants.
+  *  06e51ba - Remove recursion in DrawMuteSolo...
+  *  48ee622 - i18n-hint comments were wrongly swapped!
+  *  991819b - Remove #includes
+  *  500907f - Remove text explaining the 'Help Button'.
+  *  9363432 - Remove an #include
+  *  1fb2deb - Fix colours that were messed up by blending.
+  *  4db2fc3 - Fix small buttons too-intense problem.
+  *  d8a71c4 - Tweak TCP minimize button Position
+  *  cea3ed5 - Tweaks to Light theme
+  *  7341bff - Disallow AutoSelect on dangerous commands.
+  *  64a2886 - Make light theme default.
+  *  adc7312 - Auto-Select off by default.
+  *  0d899b0 - compiler warning fixed
+  *  c11fd1d - Fix positioning of solo button.
+  *  cecb704 - Stop splash screen position jumping (on single monitor)
+  *  3d54d91 - some i18n-hint comments
+  *  010217d - some i18n-hint comments
+  *  65c7bef - Move mAdjustSelectionEdges from TrackPanel to ViewInfo
+  *  c300c33 - Remove a few unused members from class TrackPanel, and an
+    unused #include
+  *  333c9aa - Fix the test for removability of envelope points...
+  *  a33ec61 - Move code for toggling spectral selection (Q key) out of
+    TrackPanel
+  *  a4f0a8c - Remove some unused members
+  *  3255ab6 - Remove some unused members
+  *  cb039c2 - Wiki wording changes
+  *  3cfe3ee - Fix effects screenshot filenames.
+  *  05f1a03 - Do not HandleInterruptedDrag for ESC key, it would be
+    redundant
+  *  01450e8 - Fix pasting into envelope with only one point...
+  *  8f66c36 - Screen capture preference panels too.
+  *  7bf7815 - Move HideTopItem into class TrackInfo, for later use
+  *  1e7c51f - Fix crash in Windows debug runtime
+  *  1ce97b9 - Shorter Grayscale Spectrum preferences text.
+  *  2323e8d - Shorter preferences
+  *  acce480 - Mac: shift WaveTrack status text down one more; others:
+    don't shift
+  *  2fe5731 - More fixes for track controls layouts
+  *  84b5fd6 - Compute default WaveTrack height analogously to
+    NoteTrack...
+  *  f0c149b - Default MIDI track height is enough to display velocity
+    slider...
+  *  0204cd8 - Make gain slider again visible in default sized WaveTrack
+  *  8d517bd - EXPERIMENTAL_MIDI_OUT off -- then no invisible channel
+    buttons...
+  *  191eeaf - Rewrite drawing routines equivalently without
+    kTrackInfoWidth...
+  *  64a0d78 - Rewrite the unused DrawBordersWithin...
+  *  ad4d6d1 - Fix unintended one-pixel change in width of title button
+  *  6b44839 - Fix more unclarities in the drawing code; no changed
+    appearances
+  *  ceaa050 - Change some names in TrackArtist to match terminology in
+    TrackPanel
+  *  24858dc - Exclude left, top, bottom margins from rectangles
+    describing TCP
+  *  3567f99 - Exclude bottom margin from vruler rectangle reported from
+    FindCell...
+  *  02ee10d - Fix a confusion in argument names.  No change in behavior
+  *  75bf6f9 - Explanatory comments in TrackPanel drawing; fewer magic
+    numbers
+  *  63c89e1 - Simplify logic of track control panel click to
+    rearrange...
+  *  ca62891 - Reconcile DA & MIDI; TCP layout fixes; no invisible
+    active controls
+  *  62cccba - Shift TCP status text down two pixels, leaving other
+    controls unmoved
+  *  5201794 - Remove argument of DrawOutside that is no longer used...
+  *  31fcfe7 - Don't overlap WaveTrack status and title bar by one
+    pixel...
+  *  4244d55 - Fix NoteTrack stray lines; no magic numbers in
+    DrawBordersWithin...
+  *  895102b - Hidden buttons and sliders in narrow tracks are never
+    clickable
+  *  5520aba - Placement of minimize button and sync-lock icon are also
+    table driven
+  *  672f47d - Don't overlap MIDI channel buttons with menu button &
+    slider...
+  *  b8492d0 - CalcItemY is table-driven; stack Mute & Solo for
+    NoteTrack too in DA
+  *  08fe538 - Access keys for Ext-menus
+  *  4b4bece - Slight change to screen reader rectangles about tracks on
+    Windows
+  *  71b6384 - some const
+  *  9816cc8 - Reinstate FileNames::PlugInDir() for Linux
+  *  ee9649e - Simplify and extend automatic screenshotting
+  *  c38efc1 - FindTrackRect omits all margins; better screen reader
+    focus rects...
+  *  134c1ff - Gather duplicated rectangle calculations in one place...
+  *  7f07926 - Rectangle reported for vertical ruler cell omits top
+    inset and border
+  *  afd3b0b - Remove some uses of Track::GetHeight()...
+  *  5395f25 - Reviewed use of Track::GetY; don't use in NoteTrack; fix
+    off-by-1's
+  *  acd55e9 - Capture screenshots of effects.
+  *  7e691dd - Fix crash bug (regression) in Automation
+  *  beab669 - Update mixer board for name change of MIDI track...
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 16 Jun 2017 11:15:48 +0300
+
+audacity (1:2.1.3+git6818-721faf8-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/audacity/audacity.git
+  * Branch: master
+  * Commit: 721faf89c63f3623a17d69c3c16eedd98a9daeec
+  * Date: 1496342405
+  * git changelog:
+  *  721faf8 - Avoid possible dangling pointer problems with
+    EVT_TRACKLIST_UPDATED
+  *  f807f7f - Removed a disabled piece of track list selection...
+  *  8da2287 - Delete this start of time shift on double-click (it never
+    completed)
+  *  f418de2 - Rearrange Selection Toolbar fields, and fix spacings.
+  *  c43a640 - Lose hyphen on selection toolbar
+  *  c48310c - Fix 'Disallowed' message when using up-arrow.
+  *  1c6c608 - Use same format for choice in Selection Toolbar as in
+    SpectralSelection Toolbar
+  *  29df7e1 - Speccache performance improvments
+  *  b6a1ca9 - Fix for bug 376
+  *  73d2478 - Rename Nyquist plug-in debug button header
+  *  2ef243f - Revert the change in display of WaveTrack envelope at
+    high zoom
+  *  7122877 - Fix crash from bad SelectionToolbarMode
+  *  545dbaf - Bug 68 - Vertical scale only has zeros when displaying
+    Waveform (dB) view at -48 dB
+  *  c7a911c - More shortcut tweaks.
+  *  ab1c62c - Conclude Envelope rewrite for better handling of
+    discontinuities
+  *  4c80a07 - Bug835(cut-then-paste should be no-op): Rewrite
+    Envelope::Paste...
+  *  58e7a94 - Envelope::Paste takes a time tolerance argument
+  *  02fe963 - Define consistency check for Envelope, to be used in
+    Paste
+  *  bd4d2dc - Rewrite Envelope::InsertSpace
+  *  0126918 - Simplify InsertOrReplaceRelative, always trim when to
+    domain...
+  *  6dd826a - Merge branch 'master' into HEAD
+  *  a09fcee - Tweak shortcut list
+  *  ed9744e - Fewer shortcuts in default shortcut list.
+  *  534cf87 - FIx so NVDA reads 'Categories' rather than 'trreCtrl'.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 02 Jun 2017 14:15:15 +0300
+
+audacity (1:2.1.3+git6794-515ec64-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/audacity/audacity.git
+  * Branch: master
+  * Commit: 515ec64a36109865295e2fec9d0375198a8e1705
+  * Date: 1495947112
+  * git changelog:
+  *  515ec64 - More fixes for envelope, specifically Time Track cut and
+    paste
+  *  5ff09c2 - Cut from flat TimeTrack does not leave unnecessary
+    points...
+  *  5886bd8 - Don't push time track points right of paste point off to
+    infinity
+  *  2985d24 - Fix envelope editor
+  *  9ee11e9 - Merge branch 'master' into HEAD
+  *  216ead2 - Provide two choices for defaults in KeyPreferences
+  *  389335d - Clickable Start - Length and stable position of '<' and
+    '>'
+  *  ca01b55 - Add clickable < and >  alternative to RadioButtons for
+    start/length
+  *  a4cc9a9 - Improve rendering and drawing of envelope with
+    discontinuity
+  *  e428425 - Change the drawing of wave track envelope at high zoom...
+  *  537ccfb - Change evaluation of envelope near discontinuities...
+  *  9c7e236 - Prefer "sampleDur" to "sampleTime" for some variable
+    names
+  *  c8f65d8 - Merge branch 'master' into HEAD
+  *  eea55f7 - Make Nyquist debug window resizable
+  *  597ddbf - Further speed up to showing preferences.
+  *  181c137 - More envelope fixes, avoiding some unnecessary insertions
+    of points
+  *  bcc0bed - Envelope::SetTrackLen adds a point only when none was
+    present...
+  *  6c2c273 - More Envelope::GetValueRelative; add point for join only
+    as needed
+  *  250a2ea - Merge branch 'master' into HEAD
+  *  a8ac80e - Bug1651: NoteTrack sync-lock and crash fixes...
+  *  b3a70b5 - Add hyphen between fields and tooltips.
+  *  8afeed5 - Faster opening of preferences.
+  *  01356f9 - Add i18n hints for selection toolbar
+  *  59a9539 - Fix Radio Buttons on SelectionToolbar for Dark Theme
+  *  3761ae3 - Replace dummy checkbox by vertical line.
+  *  552a69d - Add radio buttons for Start-End, Start-Length e.t.c.
+  *  d210b18 - Limit consolidation of undo items by other means
+  *  0303d28 - Fix for bug 1650
+  *  4b2b0d9 - Fix Windows warning: inconsistent DLL linkage between
+    base & derived
+  *  f0040b0 - Bug 1210, alternative fix for unfriendly message
+  *  cd6c983 - Clip move commands - minor fix.
+  *  f46ac26 - Update commands for moving clips using the keyboard
+  *  646c285 - Bug1646: Fix many defects in the Note Track stretching
+    tool
+  *  646c66f - Sync lock adjustment for NoteTrack stretch...
+  *  54636c6 - Allow NoteTrack to stretch left of zero
+  *  82ce041 - Preview cursor for Stretch can take left, right, or
+    center form
+  *  90eb4ec - Make MIDI track stretch path-independent
+  *  9fb7185 - Rewrite undo handling for Stretch to be more like other
+    drags...
+  *  2eb6285 - Group some TrackPanel fields into a structure
+  *  655fc9d - Smarter VoiceOver text for Selection controls.
+  *  7a6dda1 - Add title-clicking to SelectionToolbar
+  *  2fcf715 - Update Help link for Spectrogram Settings
+  *  6a9e0ff - Fix Travis Build
+  *  7d31691 - Allow selected controls on SelectionToolbar
+  *  62f75eb - (Hi-DPI) No longer upscale ImageCache
+  *  5a26afd - Update Help links: SilenceMarker.ny SoundFinder.ny
+  *  9c6bfd7 - Disable Debug button for some Nyquist effects
+  *  04ba10a - Add help button support for other Nyquist effects
+  *  99e5516 - Save built-in browser size
+  *  e99b54e5 - Add help button for Classic Filter
+  *  4a08ea6 - Make HTML dialog resizable (on windows).
+  *  d549dcc - Bug 1649 - Freeze with Truncate Silence
+  *  b96f169 - Fix link to Spectrogram Settings Help
+  *  d6a9011 - "Error opening sound device" as Error dialog
+  *  bba5a8f - Add help button for Nyquist Prompt
+  *  e7a9c37 - Add help buttons for normal built-in effects
+  *  fd3d41e - Add help pages for shipped Nyquist effects
+  *  1dd6b84 - Enable Help button for Nyquist effects
+  *  469120c - Enable help button for effects
+  *  429fad6 - Send Spectrum Settings help to its own page in the manual
+  *  c0b30e8 - Update HiContrast Theme
+  *  f9827a5 - Minor fix for commands for shifting clips using the
+    keyboard.
+  *  4e187d0 - Bug 1648 - Crash clicking Help icon in Spectrograms
+    Settings
+  *  01f853f - Fix Windows build
+  *  a6310d7 - Fix Travis build
+  *  63ae687 - Consolidation of Undo items not limited to three
+  *  dc64fab - Make new clip move commands compatible with TrackPanel
+    refactor...
+  *  f757819 - TrackPanel::OnClipMove is a static function
+  *  227850f - Group some member variables into ClipMoveState
+  *  282abfc - Abstract TrackPanel::GetSnapLeft() and ::GetSnapRight()
+  *  d36ac2c - Revert "Fix for keyboard commands for time shifting
+    clips"
+  *  7900aa5 - Update for commands which interact with clips using the
+    keyboard.
+  *  6d75d94 - Make Stem plots the default (when zoomed in)
+  *  ff2838e - Clip boundary command: minor change to Cursor to next
+    clip boundary
+  *  9da999d - Use OffsetTimeByPixels correctly...
+  *  eaec68a - Bug 1642 - (Windows) Adding a shortcut or toggling Extra
+    Menus causes ENTER on dropdown to open new project
+  *  97cdd31 - Bug 1541 -  Residual: Wrong commands shown in tooltip
+  *  52caef9 - Add tooltip for iconic help button.
+  *  bc55087 - Bug 1492 - Using Scrub Ruler to start Scrub or then
+    change to Seek removes the selection
+  *  b911607 - Fix for keyboard commands for time shifting clips
+  *  0caad3e - Bug 502 - Labels may disappear if partly before time zero
+  *  8b14ac0 - Bug 718 - On dual monitors the splash screen is
+    positioned incorrectly
+  *  349b66b - Bug 1584 - Pinned / Unpinned tool tip inconsistency
+  *  a0ea5d6 - Bug 1469 - Shift key does not modify Play/Record buttons
+    when Karaoke view has focus
+  *  4be26f5 - Bug 1552 - Record button greyed out while playback paused
+  *  83d3864 - Bug 1583 - "Pinned" play head preference requires restart
+  *  a532d99 - Add Midi Prefs and Libraries Prefs help pages
+  *  e16f6f9 - Add small help button to Prefs pages
+  *  b196c7d - Bug 1541 - Skip to Start/End buttons don't show that they
+    respect SHIFT usage
+  *  a9c4178 - Bug 509 - Soloing/unsoloing in Mixer Board does not
+    repaint waveform colour until window or Track Panel refresh
+  *  18cec36 - Bug 1607 - 2nd Screen issue with MixerBoard and Karaoke
+    Window
+  *  c8b2cc9 - Bug 641 - ASSERT when adding recording not at start of
+    track.
+  *  2f10c1c - Bug 1532 - Toolbars fail to arrange correctly when
+    maximizing or restoring main window size
+  *  6478895 - Bug 1565 - Windows: Toolbars don't show tooltips when
+    button is disabled
+  *  cc38ba3 - Bug 1607 - Some dialogs appear on primary monitor when
+    Audacity is running on secondary monitor
+  *  4c3455c - Bug 1523 - OK in Preferences changes language from
+    "System" to the specific system locale
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 28 May 2017 17:50:46 +0300
+
+audacity (1:2.1.3+git6698-07ce602-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/audacity/audacity.git
+  * Branch: master
+  * Commit: 07ce60218c31dd32757a525c86a681ef0aa0f54f
+  * Date: 1494701437
+  * git changelog:
+  *  07ce602 - Reinstate 48x48 Logo (for Linux/Mac use)
+  *  978f09b - Lose unused images from theme.
+  *  0ac2d90 - SelectAllIfNone now selects all time if none, and all
+    tracks if none.
+  *  c42a111 - Add accelerator keys for Ext-&Bar and Ext-Co&mmand
+  *  e66028d - Eliminate "Average RMS" redundancy in messages from
+    Contrast...
+  *  35fe313 - Smarter SelectAllIfNone
+  *  ddb8db8 - Modify the screen reader messages of some of the keyboard
+    clip commands
+  *  495755b - Fix for keyboard clip commands
+  *  6c0e8c7 - Change default setting of "move selection with tracks" to
+    be "off"
+  *  b2d8f36 - Fix for bugs in keyboard clip commands due to rounding
+    errors
+  *  85e984d - More envelope fixes, including some for 1643, 1644
+  *  327e5d8 - Correct envelope update for Join that includes a gap
+    between clips
+  *  a9160cf - Envelope::InsertSpace preserves limiting values of the
+    split point
+  *  8c4dc38 - WaveTrack::SplitAt no longer needs to insert envelope
+    points...
+  *  aba52bc - Update envelope properly for TimeTrack and WaveTrack
+    editing...
+  *  2d84c65 - When Envelope domain is shortened, evaluation inside
+    won't change...
+  *  945e411 - Partial range copy of Envelope will not leave coincident
+    points
+  *  f5a7e4c - Define private Envelope evaluator functions taking
+    relative time...
+  *  01b99f2 - Remove pointer back to Envelope from EnvPoint
+  *  2e7f806 - Fix EqualRange for case of zero tolerance
+  *  a26b79d - Merge branch 'master' into HEAD
+  *  ebd1de4 - Interim fixes for envelopes
+  *  f859bf6 - Remember Start/Center setting on SelectionToolbar
+  *  52509d4 - Add option of Start/Center to SelectionBar
+  *  94c4377 - Bug 1641 - Don't use the 'space trick' on Linux/Mac
+    menus.
+  *  5b36f5d - Fix missing access keys
+  *  5dfb471 - Interim fixes for Envelopes
+  *  09607c2 - Fix position of wxASSERTs
+  *  927c500 - Bug 1626 - Preview of non-RTP effects fails if all the
+    track is selected
+  *  b6d43e4 - Various fixes involving Envelope.  More to come later.
+  *  d2acf1f - Bug842: rescale clip offsets, envelope times when setting
+    track rate
+  *  e36070e - Small fix to envelope operations in Equalization user
+    interface
+  *  7ad910c - Simplify envelope binary search and uses of it
+  *  30e67bc - some reindentation
+  *  26c4d65 - Public Envelope methods all take & return ABSOLUTE time
+    values...
+  *  9c683a4 - Rename some member functions of Envelope
+  *  4be1912 - Better constructors for Envelope
+  *  3ba1ebc - Remove unused members of Envelope
+  *  f0bdfc1 - Move record-new-track option
+  *  6a33e83 - Bug 1641 - Follow up.  NUMPAD_ENTER, Backspace, Delete
+  *  6e65596 - Bug 1641 - Panel navigation accelerators don't appear in
+    the menus
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 14 May 2017 12:11:55 +0300
+
+audacity (1:2.1.3+git6657-6491aed-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/audacity/audacity.git
+  * Branch: master
+  * Commit: 6491aed13cb9fb7e94ed8a0a79a441194905e873
+  * Date: 1493932731
+  * git changelog:
+  *  6491aed - Fix build failure from absent gettext
+  *  c0f835b - Add border around theme Images.  Do fixups.
+  *  ef62bd7 - Bug 1637 - Keyboard interaction with many controls in
+    toolbars broken
+  *  e7f95e2 - A small step towards HiDPI
+  *  a2ba221 - Bug 1640 - Reset Toolbars reduces Selection Toolbar to a
+    stub
+  *  78135d2 - Use blue for negative Numbers
+  *  a53e301 - Tooltips for unmodified Play and Record.
+  *  d4726c2 - Revert "Enable EXPERIMENTAL_MIDI_OUT for all
+    platforms..."
+  *  f51e4d8 - Some MIDI editing and display enhancements, not dependent
+    on playback
+  *  77db2e7 - Transpose notes even when channel isn't visible
+  *  3de3e7c - Add call to MakeParentModifyState for note track controls
+  *  1daf22c - Fix Fit to Height not resizing note tracks
+  *  298bb3f - NoteTrack: Implement Silence and InsertSilence
+  *  e707f6a - Use static_cast instead of c-style casts for the velocity
+    sliders
+  *  8db7e65 - Get rid of SetStyle for sliders
+  *  a76ad22 - Fix midi channel toggling
+  *  c07caad - Enable EXPERIMENTAL_MIDI_OUT for all platforms...
+  *  7c9c74d - Remove logging left in by mistake.
+  *  b9b5e0c - Fix mac build
+  *  43ff84b - Preserve toolbar size when theming.
+  *  cd69bf0 - Add shortcut hint to shift-record tooltip.
+  *  57b2008 - Bug 1639 - Left and Right arrow keys don't work in docked
+    toolbars, if bound to some action.
+  *  ae24cab - Remove 'TODO's for completed documentation
+  *  9d501f6 - Add preference for Record being to new track.
+  *  623d0f2 - Bug 1639 - Revert fix.
+  *  8bfe4cc - Fix more cases of Wave and Note track editing wrongly
+    throwing
+  *  baf46c1 - Update to Select Previous/Next clip commands
+  *  ce1d067 - Update to Clip Boundary commands
+  *  0b942d0 - Move scrub ruler line down 1px
+  *  5e28e3f - Line to mark off scrub ruler.
+  *  5088881 - Bug 1639 - Left and Right arrow keys no longer work in
+    docked toolbars
+  *  5dd6a35 - Use #ifdef not #if in two places
+  *  05badc2 - simplify some conditional compilation
+  *  b2b9708 - Fix possible assertion violations for cut, paste, trim
+  *  615a505 - Include Experimental.h
+  *  a3b9dbd - Remove unused variable
+  *  74ac96e - Only move Nyquist prompt to nyquist IF EXPERIMENTAL_DA
+  *  6102c77 - Bug 1630 - Accessibility of the length/end radio buttons
+  *  47c6ac3 - Theme the spectrogram.
+  *  ff3ed65 - Draw TimeTrack Background in unselected colour.
+  *  c918376 - Repaint resizer section of toolbar, if required, after an
+    UpdatePrefs.
+  *  51517fa - Fix Mac build
+  *  66cc6ba - Add Track Behaviors preference files
+  *  5165700 - Add preference option for Stem Plot
+  *  53a6475 - Stem Plot option when displaying samples
+  *  7f98672 - MIDI_OUT on by default on windows.
+  *  60a53d5 - Ensure colours of rulers and TimeTrack background update
+    after a theme change.
+  *  7661d17 - Send size event after repopulating MeterToolbar buttons.
+  *  7e2a7aa - Correct default colour for rulers.
+  *  d9e25bf - Add themed background for time track
+  *  1114d5f - Add theming for NoteTrack
+  *  354b173 - Add back units have coloured backgrounds.
+  *  2a043c0 - Add settable ruler colouring.
+  *  f0db511 - Add rotated pip
+  *  603b5a8 - Update the 4 Themes.
+  *  e08ceaf - Add background to numbers on meter, IF meter bar and
+    number colour is too similar.
+  *  6bcbe41 - Make SelectionBar end/length radio buttons behave
+    normally
+  *  2cc39d7 - Option so (theme) developers can work with Mac buttons on
+    PC (and vice versa)
+  *  de798b1 - Fix: Swap Stereo sets pan to far right.
+  *  93b5456 - Rotate pip on vertical slider.
+  *  621f01a - Draw diagonal grabber and background in themed colours.
+  *  03af773 - Button and hover effect for microphone/speaker on meter
+    bar.
+  *  d0bafeb - Fix posterisation.  Add blend themes option.
+  *  94d8c2c - fix the previous
+  *  967e1fc - More exception safety for selection states of tracks
+  *  972f747 - Fix progress bar in Normalize
+  *  8184ae5 - Update HiContrast Theme
+  *  dfe423f - Rearrange toolbar order in menus.
+  *  3aff330 - Fix compilation of EXPERIMENTAL_OUTPUT_DISPLAY; fix a
+    warning in it
+  *  218f2eb - Fix two more 'select' commands which expected to be
+    activated by a keyboard event.
+  *  a68f7fc - Fix activation of certain 'select' commands via menu.
+  *  e7007c1 - Remove unwanted period
+  *  083d123 - Don't update checkmarks of occult menu items.
+  *  6d36168 - Add Show/Hide Extra menus preference.
+  *  031f841 - Organise the occult commands in the Preferences Key View.
+  *  5924530 - Removed zoom presets
+  *  db3ec50 - Fix missing or conflicted access keys
+  *  649e52d - Improved logging of command list.
+  *  e9df6cb - Move Nyquist Prompt into plug-ins
+  *  6f38298 - Show default checked checkboxes (only) in menu listing.
+  *  24c2c6e - Bug 1633 - Spectral Selection Toolbar incorrect above 100
+    kHz
+  *  80928bf - Increase upper limit for KHz format in spectral selection
+    toolbar.
+  *  795cbe0 - Improve menu listing from screenshot tool
+  *  7192470 - Fix build broken by debug casting.
+  *  c1c6a91 - Move pixel-to zoom items under zoom.
+  *  96534c0 - Tweak menu screenshot code (show check/submenu options)
+  *  c4484a4 - Rename Size as 'Reclaimable Space" for now
+  *  22d4482 - Fix: Metadata editor menu item should be available
+    always.
+  *  a868d0c - Add Hi-Contrast Theme
+  *  0681668 - Recolour light theme if system theme  clashes.
+  *  82a7778 - Merge pull request #193 from walisser/clang
+  *  6e44005 - Cleaner code to pop non toggle buttons up.
+  *  ffdba2e - Add missing access key for new menu item
+  *  8fdc60f - Time Configure and Make (in Travis)
+  *  54b26f1 - Make light theme lighter/bluer/crisper.
+  *  bcb723f - Improve DarkTheme buttons on mac.
+  *  b3d6186 - Bug 1629 - Edit Toolbar buttons work once only.
+  *  03f6efb - Speed up Travis build by using more cores.
+  *  05662ac - Wiki Wording issue: capitalise 'Speed'
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 05 May 2017 09:38:11 +0300
+
+audacity (1:2.1.3+git6553-c44e5a2-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/audacity/audacity.git
+  * Branch: master
+  * Commit: c44e5a281a9532cd4a712a7d48bb9acbb3b20dd4
+  * Date: 1491665163
+  * git changelog:
+  *  c44e5a2 - Add missing include.
+  *  53e6d95 - Tweak Theme Colours.  Smaller L & R on Linux.
+  *  f508439 - Recolour Classic theme to wxSYS_COLOUR_3DFACE
+  *  221b027 - Bug 1628 - Tracks > Align items two submenus deep
+  *  5f9e8ef - Update Chinese Translation by dingpengyu
+  *  8f7d0a9 - Update Catalan Translation by Robert Antoni
+  *  ae95bc6 - Remove Sync-Lock Button
+  *  5d75b79 - Change 'Set' to 'Zoom'
+  *  431308d - Make Light Theme more like Classic.
+  *  caca4d2 - Zoom presets: wording change
+  *  3651d0a - Update logo used in program.
+  *  8ad2e59 - Tweak Theming.  Reticules, Down buttons; Selected
+    buttons.
+  *  ce37650 - Theme to be a drop-down
+  *  b8fcbd1 - Faster CI builds (Travis)
+  *  5416c21 - Bug 1625 - Mute/Unmute All Tracks in "None" Solo Button
+    Mode
+  *  fc2628d - Removed ZoomInfo::GetZoom() which I added in my previous
+    commit
+  *  1fa97a4 - Added zoom presets
+  *  c1592d2 - Move more on/off options lower in menus.
+  *  715da2b - On/Off options to end of menus, where possible.
+  *  f5e67f5 - Use logo background to fill splash and about box.
+  *  fae1089 - Fix positioning of Mute/Solo button when clicked on.
+  *  1c1191e - Fix dark Mute/Solo buttons on Light theme.
+  *  fefc856 - Update slider in tracks on theme change.
+  *  419b790 - Make monitoring work after a theme change
+  *  c8f58c9 - Bug 1624: mute/unmute all commands do not adjust solo
+    buttons
+  *  fa62d80 - Add numbers on ruler back (if not DA)
+  *  b3ae505 - Use RecordBeside for identifier for Record in 2.2.0
+  *  c17a7f5 - Improve repainting after a theme change.
+  *  017990f - Added prefix std:: to my uses of find_if in recent
+    commits
+  *  d417acd - Complete the exception handling project, enable the
+    throws
+  *  5543924 - All the catches are in place for BlockFile and other
+    errors, now throw.
+  *  b62bddf - Merge branch 'master' into HEAD
+  *  da28a45 - User visible message when there are errors importing
+    labels
+  *  52f0f75 - Add Tracks->Pan->Left/Right/Center
+  *  c9b03b5 - Merge branch 'darkmerge'
+  *  ebff4db - Reinstate SplitStereoToMono for non DA builds.
+  *  d091163 - Select SubMenu made into a full top level menu.
+  *  a7a4a70 - Two commands added, neither on a menu: Clip Left Clip
+    Right
+  *  c382139 - New commands for selecting clips using the keyboard
+  *  a519e6f - New commands for clip boundaries using the keyboard
+  *  8c8f380 - Make default theme depend on EXPERIMENTAL_DA #define.
+  *  0e3f4ce - Fix for windows build
+  *  ae48ac2 - Strong guarantee, void return from all mutating methods
+    of Sequence
+  *  fc0f093 - Sequence::Append* give strong guarantee
+  *  63cf80d - Sequence::Delete gives strong guarantee
+  *  06f6953 - Sequence::SetSamples, ::SetSilence give strong guarantee
+  *  73e6159 - Sequence::ConvertToSampleFormat gives strong guarantee
+  *  3c65731 - Sequence::InsertSilence gives strong guarantee
+  *  160d846 - Sequence::Paste gives strong guarantee
+  *  2ba6065 - Sequence consistency check throws; new unused commit
+    functions use it
+  *  6b0c5c0 - WaveClip::Flush returns void, throws on error
+  *  ec3a4f5 - Merge branch 'master' into HEAD
+  *  5e42fe8 - Merge branch 'master' into darkaudacity
+  *  028ed19 - Sync with DarkAudacity
+  *  0fc04fd - Complete DA/Classic conditionals
+  *  48821a0 - Merge branch 'master' into darkaudacity
+  *  ff40b95 - Make without-DA be more like Classic.
+  *  e633dc0 - Document guarantees of now void-returning WaveTrack,
+    WaveClip methods
+  *  5963f27 - void returns from many WaveClip methods, comment safety
+    guarantees
+  *  aa83c4c - Implement the more than weak guarantees needed for
+    recording...
+  *  e3d4a8d - Comment the strength of guarantees of some WaveTrack
+    methods
+  *  3db132f - Fix WaveTrack::SplitAt
+  *  9cdbd18 - Merge branch 'master' into HEAD
+  *  46fc789 - Apply theme preference at start
+  *  35a4f1a - Move Sync-Lock renaming to internationalisation.
+  *  9ec2bdb - Comments on the DA conditionals.
+  *  bd364ea - Merge branch 'master' into darkaudacity
+  *  1525f14 - Update Greek Translation by Dimitris Spingos
+  *  08e57f3 - MIDI play changes for TrackPanel, MixerBoard;
+    conditionally compiled
+  *  1c93198 - Re-implement note tracks in MixerBoard
+  *  59d740a - Use a dedicated velocity slider for note tracks
+  *  1f0e01b - Merge branch 'master' into HEAD
+  *  7195f9a - fix windows build
+  *  2c84657 - Exception handling: most "TO DO: Actually handle this"
+    comments gone
+  *  0d72505 - Other methods of WaveTrack return void, will throw on
+    failure instead
+  *  e1473df - void return, not boolean success, from some Track virtual
+    functions...
+  *  71dd75a - More exception handling; incidentally implement TimeTrack
+    copy/paste
+  *  a23d6e2 - More exception handling; incidentally implement TimeTrack
+    copy/paste
+  *  6b84dc1 - Factory methods will return non-NULL or throw
+  *  f1b354b - More pure virtuals in Track, supply Note and Time
+    overrides
+  *  ad34145 - Clarify paste logic, throw to rollback on error, keep
+    TimeTrack unique...
+  *  608dcc9 - Reimplement prohibitions on moving clips by throwing
+    exceptions...
+  *  8e2e4a5 - Define SimpleMessageBoxException
+  *  d1cbac4 - more finally, more const, remove unused, fix warnings
+  *  699b9d0 - Merge branch 'master' into head
+  *  a1b88fe - Fix assertion in MIDI prefs when there are no devices
+  *  8928bd4 - Correct MixerTrackCluster::GetRight()
+  *  a936aed - Another use of type AudioTrack
+  *  a9879bd - Refactor clipfix.ny to fix multiple problems
+  *  23dc35a - Bug1614: fix crash duplicating a clip
+  *  7bda40f - Common functions read and write mute and solo in Wave and
+    Note
+  *  1a86819 - Fixes for clang build with 64 bit unsigned long
+  *  82f909f - Again, fix compilation without USE_MIDI
+  *  64a6fa6 - pacovila PR 183 verb to noun
+  *  930e834 - Mark Young PR 192 (modified)
+  *  8c796e2 - Some preliminaries for playable MIDI tracks
+  *  d109142 - Make mute and solo of NoteTrack persistent, if
+    EXPERIMENTAL_MIDI_OUT
+  *  6c4cf46 - Move mute and solo state into PlayableTrack
+  *  ed00884 - Remove MixerTrackClusters right to left, remove assertion
+  *  b2ab9b5 - Simplify MixerBoard.cpp using the PlayableTrack type
+  *  f1bec85 - use AudioTrack
+  *  c391a8f - Define AudioTrack and PlayableTrack as common bases for
+    Wave and Note
+  *  80984c9 - From Pokechu22: Rename gain to velocity on note tracks
+  *  c20a352 - Update Chinese Translation by zhangmin
+  *  9dadc5a - Revert "Needed to compile Pokechu22's fix-midi-output on
+    Mac"
+  *  5badb91 - Needed to compile Pokechu22's fix-midi-output on Mac
+  *  2d912f3 - Replace assert calls with wxASSERT
+  *  0ce9598 - Fix midi-related compile problems in AudioIO and
+    NoteTrack
+  *  bdb0790 - Fix compiling when USE_MIDI not is defined
+  *  e2a7282 - Fix wording issues reported on Wiki
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 08 Apr 2017 21:14:00 +0300
+
+audacity (1:2.1.3+git6327-78149bc-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/audacity/audacity.git
+  * Branch: master
+  * Commit: 78149bc3da4a7d18c0487baf7002b23759a814c3
+  * Date: 1490294880
+  * git changelog:
+  *  78149bc - Disable command-list capture code, by default.
+  *  3ffcc29 - Add code to capture command List
+  *  a07bf9c - Rearrange 'Skip to' menu
+  *  f4ac5c2 - Update Ukranian Translation by Yuri Chonoivan
+  *  7a2b199 - Fix Italian Translation Typos by Lorenzo Pini
+  *  260044b - Ffix wx assert in debug build
+  *  def0d2b - Fix Linux build
+  *  f62062a - Update Catalan Translation by Robert Gelonch
+  *  ebfca79 - Update Russian Translation by Alexander Gvaramiya
+  *  1dce830 - Record on same track is now the default.
+  *  5f6a013 - Fix windows build
+  *  5aefa78 - More of the exception safety project...
+  *  1b00c87 - Where reading a WaveTrack, specify whether to allow
+    exceptions...
+  *  38b8e57 - Specify whether to throw on bad read in Mixer and
+    WaveTrackCache...
+  *  987b038 - Exception safety in overrides of WriteSummary
+  *  39b8d99 - WaveTrack::Get, WaveClip::GetSamples take a mayThrow=true
+    argument...
+  *  834a141 - More of the exception safety project, no new throws yet
+  *  98d1468 - BlockFile::ReadData overrides: on failure, pad with 0s or
+    throw...
+  *  70d9e4b - GetMinMax, GetRMS functions take a mayThrow argument,
+    return numbers
+  *  dcac878 - Safeties where block file read/write exceptions need to
+    propagate...
+  *  1552ff1 - When opening a file into a new project, delete the
+    project on failure
+  *  2626f6c - Exception safety in: subclasses of ImportFileHandle
+  *  ed6f2ea - Exception safety in: locking of BlockFile for read
+  *  f5fe928 - Strong safety guarantee for removing file dependencies
+  *  7159966 - Comment that cache-filling should be no-fail (we don't
+    use it anyway)
+  *  54c1b0c - Exception safety in: opening and saving of projects
+  *  4d4cd91 - Hoist, and delay, the saving of import tag while opening
+    the file...
+  *  22a12c6 - Exception safety in: some effects and generators...
+  *  1fad629 - Exception safety in: overrides of ShowInterface
+  *  79c3bef - Exception safety in: general effect performing functions
+  *  2cbdd1c - Exception safety in: ControlToolBar & Ruler functions...
+  *  0bb6a3d - Exception safety in: importing functions...
+  *  0c8bedc - Exception safety in: subclasses of ExportPlugin; and more
+    error checking
+  *  4845940 - Exception safety in: general exporting routines
+  *  464828d - Exception safety in: batch processing
+  *  abbe927 - Exception safety in: CommandManager
+  *  40aa70a - Exception safety for Edit toolbar button presses
+  *  664974d - Exception safety in: ondemand
+  *  195732f - Exception safety in: BatchCommands
+  *  1a90b7d - TimerRecordDialog:  comment why nothing need be done for
+    exceptions
+  *  63e44e2 - Rearrange a few things in time shift button up...
+  *  68c7269 - If exception in cut/copy, leave clipboard clear (no
+    partial results)
+  *  41f1ebf - Commit resampling of tracks to undo history one track at
+    a time
+  *  82dd754 - Reviewed uses of release(); prefer Destroy_ptr to hold
+    window objects
+  *  7927fe0 - Fix move constructors and assignments of
+    AudacityException classes
+  *  e9a4fc8 - fix the XML writer -- don't throw if target path did not
+    previously exist.
+  *  d812b7f - Merge branch 'master' into HEAD
+  *  12e3d1d - Small correction to parsing of LOF file
+  *  5e3a4fa - Name Record Beside menu option correctly.
+  *  715758d - Small improvements in Sequence and BlockFile
+  *  52fd607 - Sequence::AppendBlock and Sequence::Blockify  are static
+  *  2677796 - Zero and return false for all failures to read block file
+    summary...
+  *  7b7ad75 - Remove Sequence::CopyWrite and needless file reads in
+    Sequence::Set
+  *  c6b4e2f - Add code to capture menus
+  *  8795794 - Fix for bug 1611: after select none, temporary in-
+    correctness
+  *  ec7fe2d - Fix for bug 613: menu key deselects track.
+  *  5b9ae95 - Bug 1610 - Unable to save projects
+  *  8f71aa6 - Allow same command more than once in the menus.
+  *  148fc40 - Restore menu items removed for DarkAudacity.
+  *  d85ee24 - Merge branch 'menus'
+  *  5c1f4d2 - Menu rearrangement merged from DarkAudacity
+  *  d38dde2 - Revert "Fix compilation of EXPERIMENTAL_EFFECTS_RACK"
+  *  9842d07 - Fix compilation of EXPERIMENTAL_EFFECTS_RACK
+  *  e78d209 - GPL v2 and CC BY 3.0
+  *  439edae - Update source files.
+  *  748e718 - Workaround for FLAC__MAX_METADATA_TYPE not defined.
+  *  7b6b6ef - Update .pot and .po files to 2.2.0
+  *  90051c7 - To 2.2.0 in .pot file.
+  *  47fb879 - Don't translate the empty string.
+  *  2bc9497 - %d to %s in cs.po
+  *  fbf8970 - Update Polish Translation by Pavel Fric
+  *  e94fa1d - Fix compilation on MSVC2013 Express.
+  *  864d0b2 - Start of exception safety project; NEW SOURCE FILES
+  *  ce7b467 - Exception safety in all uses of XML writing functions
+  *  3bb0424 - Strong exception safety in all uses of XMLFileWriter...
+  *  b81cdee - Comment where xml writing functions may throw
+  *  e3355c3 - Stops of possible file i/o exceptions in most places
+    needing it...
+  *  e9a0876 - TrackPanel aborts any dragging action when an exception
+    escapes
+  *  006aeda - Use SafelyProcessEvent
+  *  8e5975b - Report read exceptions met in SBSMS and Nyquist callbacks
+    to user...
+  *  a8a2598 - Intercept exceptions in command script, report failure.
+  *  d11027c - Allow exceptions from BlockFile::Recover, handle them in
+    ProjectFSCK
+  *  f508493 - more guarded calls
+  *  01c5f25 - Rewrite one try-catch with GuardedCall so we can show the
+    user errors
+  *  6525bb1 - Translate exceptions to error codes in callback
+    functions...
+  *  576d3e3 - Don't let the catch-all block in Effect intercept the new
+    exception
+  *  87e7517 - Guarded calls in batch processing
+  *  eeb301e - Gracefully handle disk exhaustion exceptions during
+    recording
+  *  f4e2fb5 - AudioIO::StopStream stops exceptions in many non-editing
+    actions
+  *  a1bc694 - Define application-level exception handler of last
+    resort.
+  *  40e73cd - Define classes and functions for exception handling
+    framework
+  *  9fde752 - Define an AudacityException subclass for unready on-
+    demand data
+  *  acf3c01 - Define an AudacityException subclass for user
+    cancellation of progress
+  *  195509a - Define an AudacityException subclass for file errors
+  *  f1cce8a - Define an AudacityException subclass for assertion
+    violations
+  *  df077d1 - Exception framework: define AudacityException and
+    GuardedCall...
+  *  26f917b - On-demand tasks check for i/o errors, and if so, make no
+    false progress
+  *  1c91c2b - ODDecodeTask makes progress unless there is an exception
+  *  1a32126 - ODComputeSummaryTask is safe for exceptions; makes no
+    progress then
+  *  5de19dc - ODDecode task checks blockfile error, making no progress
+    if so...
+  *  a399d4e - No naked malloc (calloc, strup, ...) and free!
+  *  1126925 - Remove naked malloc (or similar) and free in: various
+  *  cab99f7 - Remove naked malloc (or similar) and free in: other
+    effects
+  *  0c7e467 - Remove naked malloc (or similar) and free in: reverb
+  *  0380953 - Remove naked malloc (or similar) and free in:
+    Equalization48x
+  *  1614db9 - Remove naked malloc (or similar) and free in: export
+  *  9314fe0 - Remove naked malloc (or similar) and free in: import
+  *  48d951d - Remove naked malloc (or similar) and free in:
+    RawAudioGuess.cpp
+  *  53b9869 - Remove naked malloc (or similar) and free in: FFmpeg
+  *  58574f2 - Redo type HFFT as a smart pointer, remove malloc and free
+  *  c5007d8 - No naked array new!
+  *  6ca89c2 - Remove naked new[] in: builtin effects
+  *  f858d97 - Remove naked new[] in: linear algebra functions for
+    Repair
+  *  cb05476 - Remove naked new[] in: effects plug-ins
+  *  a4c7d37 - Remove naked new[] in: effects framework
+  *  692a033 - Remove naked new[] in: various
+  *  ce2e154 - Remove naked new[] in: Benchmark
+  *  18be1bd - Remove naked new[] in: tracks
+  *  2b23667 - Remove naked new[] in: AudioIO
+  *  e6db1a5 - Remove naked new[] in: blockfile and commands
+  *  88cac8c - Remove naked new[] in: import
+  *  9bdc7b2 - Remove naked new[] in: export
+  *  ea05fac - Remove naked new[] in: mixer
+  *  0113e6f - Remove naked new[] in: ondemand, toolbars, widgets
+  *  089e696 - More utilities in MemoryX.h
+  *  5ca8766 - define freer
+  *  1eff721 - Define some useful type aliases for arrays of floats and
+    doubles
+  *  aebaaf4 - require unsigned arguments for Array(s)Of::reinit
+  *  ef2b747 - Define ValueRestorer for a frequent kind of RAII action
+  *  a74ea83 - Last loose ends in removal of all naked scalar new
+  *  bb5dc07 - Fix one scalar naked new that crept back in
+  *  38236a8 - More new -> NEW, delete -> DELETE in comments
+  *  ec0297e - more safenew
+  *  9119d70 - Wave track duplication: don't append empty clips, do copy
+    cutlines
+  *  b4734ff - Duplicate command copies cutlines
+  *  934a505 - Changes in WaveClip construction...
+  *  25619fb - Don't create placeholder clips in Duplicate command ...
+  *  65c722b - Comment: resample, reformat of WaveClip needs no
+    recursion for cutlines
+  *  3d29ba1 - Various precautions, efficiencies, fixes of unreported
+    bugs
+  *  ac246d0 - Fix bug 1566 differently (signed/unsigned comparison)
+  *  4744f5c - OD tasks store weak pointers to block files...
+  *  aee45d9 - Fix bogus error dialog when append-recording with no
+    waves...
+  *  0be6629 - Sort labels after warping time, just in case...
+  *  37e7b57 - a null check
+  *  d9be2be - Restore selected status of tracks correctly in export
+    multiple
+  *  7b073cd - Fix naming of right channel of mix-and-render results
+  *  0e43079 - Further precautions for the corrupt .wav bug...
+  *  2c0cdda - Fix dangling pointer bug in lv2 effects
+  *  87775d3 - null pointer checks on all uses of WaveTrackCache::Get
+  *  31832b2 - fix WaveTrackCache, again...
+  *  4065124 - Benchmark::OnRun: clarify, simplify, avoid possible
+    divide by 0
+  *  6a57987 - safer use of weak pointer
+  *  509f974 - Consistently use delete[] not free for NoteTrack
+    serialization...
+  *  7dbb946 - Propagate progress bar cancellation correctly in
+    Normalize
+  *  97fd8f5 - Certain short-lived things don't need to persist as
+    member variables...
+  *  08b99c5 - Remove Effect::mWarper, and stack-allocate warpers
+    instead
+  *  b9e4aa0 - Simplify Normalize by removing needless member variables
+  *  0af9b46 - Move many fields out of Envelope that are needed only
+    during editing
+  *  3c4a15f - Remove some unused members
+  *  790ade7 - Some simplifications and un-duplications
+  *  5fdd9fe - Remove TrackList::GetLink
+  *  9eaa406 - Utility for track editing leaves fewer direct calls to
+    GetLinked()
+  *  54aea4b - Rewrite TrackPanel::FindTrack as FindCell ...
+  *  8ddbc1d - Assume number of spectrogram bins = 1/2 FFT window in
+    fewer places...
+  *  d831318 - simplify SpectrogramSettings::GetScale; abstract
+    frequency-to-bin...
+  *  a4a9df5 - One function for the common parts of BlockFile::ReadData
+    overrides
+  *  a86cc1c - Stylistic changes
+  *  004df48 - Make Effect::mTracks private
+  *  aa0d55a - Use enum class ProgressResult, don't interconvert with
+    int or bool
+  *  5036583 - Fewer inclusions of AudacityApp.h
+  *  a9396b9 - Change required to compile certain uses of finally, I
+    don't know why
+  *  d174099 - Disallow copy of Sequence
+  *  b019e28 - remove unused variable
+  *  c55d838 - Clarify operator precedence
+  *  3e51fd5 - fix some comments
+  *  6665370 - Fix spelling in a function name
+  *  9af53f9 - un-confused editor indenting
+  *  81285ee - More const and override
+  *  9ddb5bb - more use of size_t
+  *  12a78f9 - Some maintenance of experimental branches, mostly
+    compilation
+  *  4913b12 - Correct the argument passed to OnEffect by EffectRack
+  *  cde1e1e - Remove some duplication, fix EXPERIMENTAL_OUTPUT_DISPLAY
+    and Esc key
+  *  64d163e - Make EXPERIMENTAL_OUTPUT_DISPLAY compile
+  *  ed8c7fd - Make EXPERIMENTAL_MIDI_OUT compile, but it fails to link
+  *  1e8f0e5 - EXPERIMENTAL_VOICE_DETECTION: compile, use const, more
+    careful casts
+  *  4c6306e - Fix compilation of old NoiseRemoval
+  *  e7c0862 - Fix compilation of EXPERIMENTAL_OD_FFMPEG
+  *  463e7d9 - Make EXPERIMENTAL_FIND_NOTES work again
+  *  dbb2f04 - Incomplete fixes for compilation of
+    EXPERIMENTAL_EQ_SSE_THREADED
+  *  f061b0b - Prepare for 2.2.0 Release Cycle.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 25 Mar 2017 09:41:25 +0300
+
+audacity (1:2.1.2+git6137-2fef7f3-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/audacity/audacity.git
+  * Branch: master
+  * Commit: 2fef7f34b82e1a14af4c4b27f486ce9d13fe3086
+  * Date: 1489438941
+  * git changelog:
+  *  2fef7f3 - No longer force local FFMPEG and LIBFLAC
+  *  ffe4aae - IS_ALPHA to 0
+  *  95dc322 - CXXFLAGS IS still required.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 17 Mar 2017 16:30:19 +0300
+
+audacity (1:2.1.2+git6134-0efe931-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/audacity/audacity.git
+  * Branch: master
+  * Commit: 0efe931df26da43198b03972ed50b4c3c88b2662
+  * Date: 1488569237
+  * git changelog:
+  *  0efe931 - Bug 290 - (Mac) LAME: Audacity looks for LAME in a
+    restricted folder that Mac no longer supports
+  *  2efd4ee - Bug 1599 - Amelioration.  Don't require TrackExists to
+    paste.
+  *  a5f7dc6 - Alpha welcome screen help hyperlinks to alpha manual.
+  *  4576ccb - HasFiles and HasSubDirs require a successfully opened
+    directory.
+  *  d1b4995 - Two Initialisations (Valgrind)
+  *  a3d20c8 - Don't invert 24 or 32 bit PCM files when reimported via
+    FFmpeg libs
+  *  b66675d - Restore legacy Nyquist plug-in PEAK-LEVEL property
+  *  f19b79f - Consistency: 'plug-in' not 'plugin'
+  *  a4136f5 - Bug 1427 - Summary: Wording Issues - Metadata Tags
+  *  95861bf - Bug 1567 - Amelioration.  Delete EMPTY temp dirs on close
+    in multiproject
+  *  fc42fd9 - Bug 1597 - Tweak: make version check on welcome user-
+    initiated.
+  *  95e5d37 - CXXFLAGS on ./configure no longer required.
+  *  facaeb9 - Enable version checking (from build info) in release
+    versions.
+  *  f26478f - Typo Comit -> Commit
+  *  bf7799e - Bug 1412 - (partial workaround for) modeless real/empty
+    "Help on the Internet" pair.
+  *  9cb68a6 - Always include build date/time in CheckUpdate
+  *  c53e2db - Bug 1597 - Enh: Greater clarity over status of versions
+    needed
+  *  4329168 - Bug 1401 - Wait for window visibility before starting
+    timer
+  *  ebd767f - Change NyqBench Shortcut Letters (fr.po)
+  *  0a0a9f6 - Bug 1528 - Linux: Mod-script-pipe can't be built
+  *  ad24fee - configure: add check for gcc 4.9.0 up-front
+  *  7517b26 - Set minimum size of EditCurvesDialog (bug 470)
+  *  a80556d - Bug 1574 - Built-in generators may generate wrong length
+  *  d9f7b36 - Bug 1576 - Assert when New Length is zero in Change Speed
+    effect
+  *  67810d3 - Bug 1573 - Multi-line SAL scripts fail in Nyquist Prompt
+  *  81dd23b - Bug 1566 - Incorrect error message if Nyquist returns
+    mono sound as an array
+  *  1a5a025 - Update Nyquist v4 property lists and comments
+  *  73b421a - Bug 1591 - Windows: Click Track not removed from previous
+    installation
+  *  f4bfe1f - Bug 1599 - Cannot paste clipboard text into label unless
+    content already on Audacity clipboard
+  *  1ffe736 - Comment about missing/broken ERR_HANDLING.
+  *  2a47947 - Merge remote-tracking branch 'dave/metadatacancel'
+  *  06dc907 - Fix for bug 1550 - metadata editor: esc does not cancel
+  *  72d2aaa - Merge remote-tracking branch 'paul/bug451'
+  *  5d76e66 - Merge remote-tracking branch 'paul/AUbug'
+  *  9234973 - Merge pull request #175 from
+    cannam/mp3_fix_truncated_import
+  *  9e7756c - Set IS_ALPHA to 1
+  *  7808033 - Fix crash opening menu in some AU effects
+  *  79c07bd - Bug451 re-fix: When file open fails, don't erase
+    blockfiles
+  *  e8ac121 - Tweak Polish Translation by Michał Trzebiatowski
+  *  89c44f9 - Add fileSpec to CleanDir, so can be selective about files
+    to delete.
+  *  0a518b6 - Don't follow symlinks in RecursivelyEnumerate
+  *  085c260 - Typo in README.txt
+  *  4286124 - New section about duplicate plugins
+  *  630fc59 - Tweak all-in-one text
+  *  b7cd1f4 - Update Installer DMG background.png
+  *  a239a13 - Update README.txt and mac/Install.txt
+  *  8a100a1 - Update Greek Translation by Dimitris Spingos
+  *  04e9989 - Update Polish Translation by Michał Trzebiatowski
+  *  c81c4d4 - Update Slovenian Translation by Martin Srebotnjak
+  *  1370dda - Tweak Ukranian Translation by Yuri Chornoivan
+  *  cf4e07a - Tweak Brazilian Portuguese Translation by Lucas Teixeira
+  *  a6b3811 - Tweak French Translation by Intv0id (missing strings)
+  *  5b10c38 - Bug1594, 1567: Don't destroy source project when saving-
+    as!
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 04 Mar 2017 19:13:09 +0300
+
+audacity (2.1.2+git6080-0ceae62-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/audacity/audacity.git
+  * Branch: master
+  * Commit: 0ceae629648d900dc11967328ad32630f7f3f99f
+  * Date: 1487002542
+  * git changelog:
+  *  0ceae62 - Add UTF-8 BOM to audacity.iss so that Unicode is right in
+    installer.
+  *  77ceb6a - Linux Build Settings.
+  *  cf68891 - Merge pull request #180 from walisser/issues
+  *  11cfe75 - Add missing template instantiation
+  *  085489f - Don't scan AudioUnits in fast check of plug-in validity.
+  *  5809499 - Bug 1580 - Residual
+  *  e84a5b6 - Fix Mac build after commit
+    e4260e9581facc288be40d9ca84f98d52ec724b1
+  *  ec12bc3 - Bug 1580 - Enh: New default directory for Save and Export
+    .../Documents/Audacity
+  *  e4260e9 - Bug 1587 - Mac: Ghost duplicate Nyquist effects after
+    upgrade
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 18 Feb 2017 10:33:19 +0300
+
+audacity (2.1.2+git6071-31df61f-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/audacity/audacity.git
+  * Branch: master
+  * Commit: 31df61f5375dd9761a2e6782070d53edc6cd1d8a
+  * Date: 1485965376
+  * git changelog:
+  *  31df61f - Set IS_ALPHA to 0.
+  *  92bef0f - Updated README.txt
+  *  856dfef - More accurate comments, after foregoing bug1567 fixes.
+  *  5392fee - Bug1521 residual: Save new project, still must remove
+    project* folder
+  *  0cb89a8 - Remember Save/SaveAs Path.
+  *  5a5a285 - Update German Translation by Joachim Huffer
+  *  7075526 - Update Greek Translation by Dimitris Spingos
+  *  6b65375 - Bug1521, bug1567 Mac: wipe .DS_Store in temp folder when
+    saving too
+  *  3ebf9fc - Remove a sleep that does not help bug1567
+  *  dd836f4 - Bug1567 Residual - Use wxDIR_HIDDEN in recursive delete.
+  *  04c3a7c - wxRmDir() diagnostics
+  *  62cfeea - Unless on Windows, don't remove directories like files...
+  *  53c3adf - Bug 1577 - Application configuration file location
+    incorrect on Linux/case-sensitive Macs
+  *  a05d039 - Bug1567: intermittent failure to load libraries, plugins
+    on Sierra...
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 04 Feb 2017 00:08:02 +0300
+
+audacity (2.1.2+git6057-97bf72d-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/audacity/audacity.git
+  * Branch: master
+  * Commit: 97bf72ddb4136cc15a7d1aa03085989c128e881b
+  * Date: 1484749146
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 24 Jan 2017 21:07:27 +0300
+
+audacity (2.1.2-2) unstable; urgency=medium
+
+  [ Mateusz Łukasik ]
+  * Team upload.
+  * debian/patches:
+    - fix-gcc6-ftbfs.patch - Add to fix FTBFS with gcc-6. (Closes: #811671)
+  * debian/control:
+    - Bump Standards-Version to 3.9.8. (no changes needed)
+  * debian/watch: Update to github.
+
+  [ Free Ekanayaka ]
+  * Add travis.debian.net configuration
+
+ -- Free Ekanayaka &lt;censored&gt;  Thu, 24 Nov 2016 20:20:12 +0000
+
+audacity (2.1.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+
+  [ Sebastian Ramacher ]
+  * New upstream release.
+  * debian/audacity.menu: Removed since audacity comes with a desktop file.
+  * debian/control:
+    - Remove Build-Conflicts. libwxbase2.6-dev and wx2.6-headers
+      are only available in squeeze.
+    - Update Vcs-*.
+
+  [ Benjamin Drung]
+  * Sort configure flags alphabetical.
+
+ -- Sebastian Ramacher &lt;censored&gt;  Fri, 29 Jan 2016 19:31:05 +0100
+
+audacity (2.1.2~rc2-1) experimental; urgency=medium
+
+  * Team upload.
+  * New upstream release candidate.
+  * Migrate to automatic dbg packages
+  * debian/control:
+    - Remove obsolete Breaks+Replaces.
+    - Remove no longer existing ffmpeg -dev packages from B-D.
+
+ -- Sebastian Ramacher &lt;censored&gt;  Tue, 12 Jan 2016 22:27:03 +0100
+
+audacity (2.1.2~rc1-1) experimental; urgency=medium
+
+  * New upstream release candidate. (Closes: #764075, #806185)
+    - Add wxWidgets 3.0 support.
+  * Enable LV2 support. (Closes: #673616, #767882)
+    - debian/control: Add lv2-dev, liblilv-dev and libsuil-dev to
+      Build-Depends.
+    - debian/rules: Build with --with-lv2=system.
+  * debian/patches:
+    - wxWidgets-3.0.patch, clang-ftbfs.patch,
+      fix-cursor-recapturing-sliders.patch,
+      wxwidgets-clipboard-reenetry-workaround.patch,
+      wxwidgets-effect-dialogs-segfault.patch: Removed (applied upstream).
+    - workaround-wxwidgets-fit-recovery.patch: Refreshed.
+  * debian/rules: Force system copy of portsmf.
+
+ -- Sebastian Ramacher &lt;censored&gt;  Mon, 07 Dec 2015 20:27:06 +0100
+
+audacity (2.0.6-2) unstable; urgency=medium
+
+  [ Martin Steghöfer ]
+  * Workaround for wx bug causing layout problems in recovery dialog.
+  * Fix effect dialog segfault due to events before initialization and
+    add workaround for wxWidgets bug "Reentry in clipboard". (Closes: #765341)
+  * Fix cursor recapturing in track panel sliders. (Closes: #765779)
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 25 Oct 2014 23:42:05 +0200
+
+audacity (2.0.6-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update debian/watch to point to FossHub.
+  * Bump Standards-Version to 3.9.6 (no changes required)
+  * Drop all patches (all included in new upstream release) and the
+    libnyquist autoreconf workaround
+  * Disable tests (they fail to build, because they are bitrotten)
+  * Fix autoreconf for the minimal audacity source tarball.
+  * Compile audacity against wxWidgets 3.0. Thanks to Martin Steghöfer for
+    this enormous patch (Closes: #749659)
+  * Fix FTBFS with clang. Thanks to Arthur Marble. (Closes: #757531)
+
+ -- Benjamin Drung &lt;censored&gt;  Tue, 14 Oct 2014 01:28:54 +0200
+
+audacity (2.0.5-2) unstable; urgency=medium
+
+  * Add support for recent FFmpeg/libav versions. Thanks to Michael Niedermayer
+    for the porting work. (Closes: #740755, LP: #1076928)
+  * Fix default LADSPA search paths on Linux. (Closes: #724836, LP: #1261654)
+  * Fix build failure caused by undefined PATH_MAX.
+  * Bump Standards-Version to 3.9.5 (no changes needed).
+  * Remove -Wstrict-prototypes build flag from libnyquist.
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 31 May 2014 22:02:54 +0200
+
+audacity (2.0.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add distclean.patch to make dh_auto_clean work again.
+
+ -- Benjamin Drung &lt;censored&gt;  Tue, 22 Oct 2013 12:53:52 +0200
+
+audacity (2.0.4-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Petr Vorel ]
+  * debian/watch: Check for xz compressed tarballs. (Closes: #722133)
+
+  [ Sebastian Ramacher ]
+  * New upstream release.
+  * debian/patches/bp-docdir-fix.patch: Removed (applied upstream).
+  * Disable libav support. (Closes: #692809)
+    audacity is not yet compatible with libav 9 and needs to be ported first.
+    Until audacity has been ported, support for some audio formats (AC3, M4A,
+    MP4, WMA) is not available.
+    - debian/control: Remove libav{codec,format,util}-dev build dependencies.
+    - debian/rules: Build with --without-ffmpeg.
+  * Use dh-autoreconf to clean up generated auto* files.
+  * Bump debhelper compat to 9.
+    - Decreases the Installed-Size of audacity-dbg by a large amount since
+      dh_strip now uses compressed debugging symbol files.
+    - {C,CXX,LD,CPP}FLAGS are automatically exported.
+    - Bump debhelper build dependency to >= 9. We at least need 8.1 to
+      support Standards-Version 3.9.4 (binary-{arch,indep} targets).
+  * debian/rules: Override dh_auto_clean since it gets confused by the output
+    of 'make clean' and 'make distclean' and does not detect that the targets
+    are available.
+  * debian/control: Remove useless zip build-dependency.
+
+ -- Sebastian Ramacher &lt;censored&gt;  Sat, 14 Sep 2013 18:19:36 +0200
+
+audacity (2.0.3-1) unstable; urgency=low
+
+  * New upstream release (LP: #1107520).
+    - Add keyboard shortcut for export (LP: #651499)
+  * Drop disable-dynamic-ffmpeg.patch (accepted upstream).
+  * Replace libsamplerate by libsoxr, which is faster and produces better
+    resampling results.
+  * Bump Standard-Version to 3.9.4 (no changes needed).
+  * Use canonical URI for VCS-* fields.
+  * Fix docdir path.
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 06 Apr 2013 14:28:29 +0200
+
+audacity (2.0.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Drop additional-mime-types.patch (accepted upstream).
+  * Refresh disable-dynamic-ffmpeg.patch.
+
+ -- Benjamin Drung &lt;censored&gt;  Fri, 24 Aug 2012 11:39:19 +0200
+
+audacity (2.0.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update patches.
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 30 Jun 2012 00:45:22 +0200
+
+audacity (2.0.1~rc2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Drop four patches that were applied upstream.
+  * Refresh remaining patches.
+
+ -- Benjamin Drung &lt;censored&gt;  Wed, 27 Jun 2012 12:44:13 +0200
+
+audacity (2.0.1~rc1-2) unstable; urgency=low
+
+  * Allow opening files with Audacity with your file manager. (LP: #1006610)
+
+ -- Benjamin Drung &lt;censored&gt;  Mon, 25 Jun 2012 02:06:15 +0200
+
+audacity (2.0.1~rc1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Build against system libsbsms.
+  * Refresh patches.
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 23 Jun 2012 23:50:34 +0200
+
+audacity (2.0.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Drop fix-glib-include-error.patch (fixed upstream).
+  * Use build flags from the environment for portmixer.
+    Thanks to Simon Ruderich &lt;censored&gt; (Closes: #663275)
+
+ -- Benjamin Drung &lt;censored&gt;  Wed, 14 Mar 2012 14:43:28 +0100
+
+audacity (2.0.0~rc8-1) unstable; urgency=low
+
+  * New upstream release.
+  * Enable hardened build flags through dpkg-buildflags.
+  * debian/watch: Show 1000 entries instead of only 100.
+  * Register FLAC file type in .desktop file. (Closes: #661921)
+  * Fix build failure with Glib 2.31.20.
+
+ -- Benjamin Drung &lt;censored&gt;  Thu, 08 Mar 2012 17:10:05 +0100
+
+audacity (2.0.0~rc6-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.3, no changes needed.
+
+ -- Benjamin Drung &lt;censored&gt;  Wed, 29 Feb 2012 01:26:22 +0100
+
+audacity (2.0.0~rc4-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Benjamin Drung &lt;censored&gt;  Thu, 23 Feb 2012 15:58:54 +0100
+
+audacity (2.0.0~rc1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update debian/watch file.
+  * Drop FFmpeg/libav patches (they were accepted upstream).
+  * Improve label-region-relation.patch.
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 18 Feb 2012 12:55:34 +0100
+
+audacity (1.3.14-3) unstable; urgency=low
+
+  * Change the behavior of point labels to behave like region labels.
+
+ -- Benjamin Drung &lt;censored&gt;  Fri, 20 Jan 2012 18:12:51 +0100
+
+audacity (1.3.14-2) unstable; urgency=low
+
+  * Add missing include to support building Audacity with libav 0.8.
+    (Closes: #654212)
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 14 Jan 2012 13:49:00 +0100
+
+audacity (1.3.14-1) unstable; urgency=low
+
+  * New upstream release (Closes: #651949).
+  * Drop backported patches and refresh remaining patches.
+  * Replace libav-0.7.patch by ffmpeg-2.patch from upstream.
+
+ -- Benjamin Drung &lt;censored&gt;  Thu, 22 Dec 2011 23:35:29 +0100
+
+audacity (1.3.13-5) unstable; urgency=low
+
+  * Use linux-any instead of hardcoded list of non-Linux architectures.
+    (Closes: #634303)
+  * Build against libmp3lame. (Closes: #600747)
+
+ -- Benjamin Drung &lt;censored&gt;  Fri, 29 Jul 2011 18:06:22 +0200
+
+audacity (1.3.13-4) unstable; urgency=low
+
+  * libav-0.7.patch: Unbreak compilation against libav 0.7.
+    Thanks to Reinhard Tartler for the patch (Closes: #628201)
+  * Bump required libav version to 0.6 (Closes: #628138)
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 28 May 2011 13:41:09 +0200
+
+audacity (1.3.13-3) unstable; urgency=low
+
+  * Apply followup commits for fixing upstream bug #367.
+  * Apply upstream fix for upstream bug #137.
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 23 Apr 2011 11:43:42 +0200
+
+audacity (1.3.13-2) unstable; urgency=low
+
+  * Apply two upstream fixes for the upstream bugs #350 and #367.
+
+ -- Benjamin Drung &lt;censored&gt;  Sun, 17 Apr 2011 18:43:04 +0200
+
+audacity (1.3.13-1) unstable; urgency=low
+
+  * New upstream release (LP: #608948, #690226, #694778, #713584, #753323).
+  * Drop 13 upstream applied patches.
+  * Refresh disable dynamic loading patches.
+  * Drop configure.patch and run ./autogen.sh on build time instead.
+  * Use local sbsms due to an API change.
+
+ -- Benjamin Drung &lt;censored&gt;  Wed, 13 Apr 2011 01:43:29 +0200
+
+audacity (1.3.12-17) unstable; urgency=low
+
+  * Drop article from the description synopsis.
+  * Add Applied-Upstream tag to patches.
+  * Build against portSMF.
+  * Build against libsbsms.
+  * Bump Standards-Version to 3.9.2 (no changes required).
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 09 Apr 2011 18:25:32 +0200
+
+audacity (1.3.12-16) unstable; urgency=low
+
+  * Split and update disable-dynamic-loading.patch.
+  * Add support to disable dynamic loading of LAME.
+
+ -- Benjamin Drung &lt;censored&gt;  Fri, 11 Mar 2011 17:10:04 +0100
+
+audacity (1.3.12-15) unstable; urgency=low
+
+  * Fix crash on WMA export (LP: #695648).
+
+ -- Benjamin Drung &lt;censored&gt;  Wed, 09 Mar 2011 12:09:51 +0100
+
+audacity (1.3.12-14) unstable; urgency=low
+
+  [ Fabian Greffrath ]
+  * Remove myself from Uploaders.
+
+  [ Benjamin Drung ]
+  * Soundtouch >= 1.5 uses soundtouch.pc and not soundtouch-1.4.pc
+
+ -- Benjamin Drung &lt;censored&gt;  Mon, 28 Feb 2011 15:04:39 +0100
+
+audacity (1.3.12-13) unstable; urgency=low
+
+  * Compile against system portAudio (Closes: #323711).
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 26 Feb 2011 23:02:54 +0100
+
+audacity (1.3.12-12) unstable; urgency=low
+
+  * Rebuild against the newest soundtouch.
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 19 Feb 2011 15:06:35 +0100
+
+audacity (1.3.12-11) unstable; urgency=low
+
+  * Tighten build dependencies.
+  * Add portsmf-configure.patch to support using system portSMF.
+  * Fix char to const char conversion in src/TrackArtist.cpp.
+
+ -- Benjamin Drung &lt;censored&gt;  Thu, 17 Feb 2011 21:08:58 +0100
+
+audacity (1.3.12-9) unstable; urgency=low
+
+  * Drop ffmpeg-av-match-ext.patch in favor of disable-dynamic-loading.patch.
+  * Update my email address.
+  * Drop DM-Upload-Allowed from debian/control.
+
+ -- Benjamin Drung &lt;censored&gt;  Thu, 06 Jan 2011 22:04:37 +0100
+
+audacity (1.3.12-8) experimental; urgency=low
+
+  * Pick up upstream improvements to the slider background color patch.
+
+ -- Benjamin Drung &lt;censored&gt;  Thu, 25 Nov 2010 23:02:25 +0100
+
+audacity (1.3.12-7) experimental; urgency=low
+
+  * Fix interchanged bug numbers from previous upload.
+  * Support FFmpeg >= 0.6 (Closes: #593162, LP: #602934).
+
+ -- Benjamin Drung &lt;censored&gt;  Wed, 22 Sep 2010 02:37:52 +0200
+
+audacity (1.3.12-6) unstable; urgency=low
+
+  * Build with jack on all architectures (Due to a bug, jack was already
+    enabled on all architectures except on i386, amd64, powerpc).
+  * Fix build failure with GCC 4.5 (Closes: #564865, LP: #629955).
+
+ -- Benjamin Drung &lt;censored&gt;  Tue, 21 Sep 2010 22:47:19 +0200
+
+audacity (1.3.12-5) unstable; urgency=low
+
+  * Fix missing content in debug package.
+  * Bump Standards-Version to 3.9.1 (no changes required).
+
+ -- Benjamin Drung &lt;censored&gt;  Thu, 05 Aug 2010 12:53:38 +0200
+
+audacity (1.3.12-4) unstable; urgency=low
+
+  [ Fabian Greffrath ]
+  * Fix debian/watch to consult sourceforge again, as googlecode changed
+    their download page link format.
+  * Update my e-mail address.
+
+  [ Benjamin Drung ]
+  * Switch from CDBS to dh 7.
+  * Convert versioned Conflicts into Breaks.
+  * Simplify debian/rules.
+  * Bump Standards-Version to 3.9.0 (no changes required).
+  * Add open-mixer.patch to fix segfault with multiple ALSA devices.
+    (Closes: #584605) - thanks to Dave Witbrodt &lt;censored&gt;
+
+ -- Benjamin Drung &lt;censored&gt;  Wed, 30 Jun 2010 01:09:55 +0200
+
+audacity (1.3.12-3) unstable; urgency=high
+
+  * Do not install audacity.xpm (Closes: #578509).
+
+ -- Benjamin Drung &lt;censored&gt;  Mon, 26 Apr 2010 01:20:30 +0200
+
+audacity (1.3.12-2) unstable; urgency=low
+
+  * Add fix-slider-background-color.patch to fix background color of
+    sliders.
+
+ -- Benjamin Drung &lt;censored&gt;  Sun, 04 Apr 2010 17:54:47 +0200
+
+audacity (1.3.12-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove all patches (they are applied upstream).
+  * Remove all images from debian directory (they are now included in
+    the upstrem tarball).
+  * Update debian/*.install files.
+  * Enable the feature to link audio tracks to a label track.
+  * Update watch file.
+  * Drop unused libtag1-dev from Build-Depends.
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 03 Apr 2010 01:43:27 +0200
+
+audacity (1.3.11-2) unstable; urgency=low
+
+  * Fix export by track bug in export-multiple.patch.
+  * Update meta data of patches.
+  * Bump Standards-Version to 3.8.4 (no changes required).
+  * Add trailing blank line to debian/NEWS.
+
+ -- Benjamin Drung &lt;censored&gt;  Wed, 03 Feb 2010 14:02:14 +0100
+
+audacity (1.3.11-1) unstable; urgency=low
+
+  * New upstream release.
+    - builds with binutils-gold (Closes: #553969)
+    - builds with upcoming gcc 4.5 (gcc-snapshot 20100117-1) (Closes: #564865)
+    - Click Track and other Nyquist plugins work on amd64 (LP: #454859)
+  * Drop hurd.patch (accepted upstream).
+  * Remove asterisk from debian/NEWS.
+
+ -- Benjamin Drung &lt;censored&gt;  Tue, 19 Jan 2010 23:42:22 +0100
+
+audacity (1.3.10-2) unstable; urgency=low
+
+  * Build against system libvamp and taglib.
+  * Add hurd.patch to fix missing NOFILE on GNU/Hurd.
+
+ -- Benjamin Drung &lt;censored&gt;  Thu, 31 Dec 2009 01:16:47 +0100
+
+audacity (1.3.10-1) unstable; urgency=low
+
+  * New upstream release.
+  * Drop patches, which are accepted or applied upstream:
+    - closing-2nd-while-recording-in-1st.patch
+    - crash-on-get-default-device.patch
+    - ffmpeg-0.5-compatibility.diff
+    - gsocket.patch
+    - labeltrack-crash.patch
+    - stopstream-on-close.patch
+  * Refresh remaining patches.
+  * Switch to new source format 3.0 (quilt).
+  * debian/rules: Use autotools class instead of gnome class.
+  * Bump debhelper version to 7.
+
+ -- Benjamin Drung &lt;censored&gt;  Wed, 02 Dec 2009 01:45:30 +0100
+
+audacity (1.3.9-7) unstable; urgency=low
+
+  [ David Henningsson ]
+  * Avoid crash in GetDefaultPlayDevice (LP: #475277)
+  * Fixed crash on start recording, then open and close a project window 
+  * Update my email address
+  * Add apport hook for better bug reports on Ubuntu
+  * stopstream-on-close.patch has now been forwarded and committed
+    upstream.
+
+  [ Benjamin Drung ]
+  * Add Applied-Upstream meta data to patch.
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 28 Nov 2009 13:43:20 +0100
+
+audacity (1.3.9-6) unstable; urgency=low
+
+  [ David Henningsson ]
+  * Add myself to uploaders
+  * Avoid that Audacity leaves autosave files behind, if quitted with
+    monitoring enabled (LP: #455990)
+  * prevent crashes when undoing label track changes (picked from
+    upstream CVS). (LP: #385538)
+
+ -- Benjamin Drung &lt;censored&gt;  Thu, 22 Oct 2009 00:22:42 +0200
+
+audacity (1.3.9-5) unstable; urgency=low
+
+  * Add debian/patches/disk-full-on-export.patch to show an error message if
+    the disk gets full on PCM export; thanks to David Henningsson for the patch
+    (LP: #259798).
+
+ -- Benjamin Drung &lt;censored&gt;  Sun, 11 Oct 2009 17:52:06 +0200
+
+audacity (1.3.9-4) unstable; urgency=low
+
+  * Add debian/patches/switch-hostapi-crash.patch to prevent crash when
+    selecting sound card driver; thanks to David Henningsson for the patch
+    (LP: #436990).
+
+ -- Benjamin Drung &lt;censored&gt;  Sat, 26 Sep 2009 15:58:39 +0200
+
+audacity (1.3.9-3) unstable; urgency=low
+
+  * Add debian/patches/gsocket.patch to fix conflicting GSocket definition.
+
+ -- Benjamin Drung &lt;censored&gt;  Fri, 11 Sep 2009 10:39:31 +0200
+
+audacity (1.3.9-2) unstable; urgency=low
+
+  * Respect locales/$LANG (Closes: #481424, LP: #292168).
+    - Add debian/patches/lang.patch
+  * Drop CVE-2007-6061.patch and remove notice from NEWS file. The
+    security issue is fixed since version 1.3.5 and /tmp can be used as
+    temporary directory again.
+  * Remove resolved news item from experimental (Closes: #545402).
+
+ -- Benjamin Drung &lt;censored&gt;  Tue, 08 Sep 2009 17:05:00 +0200
+
+audacity (1.3.9-1) unstable; urgency=low
+
+  * New upstream release.
+  * Drop 10-kFreeBSD.patch and 20-autoconf.patch (accepted by upstream).
+  * Drop debian/patches/dont-create-help-directory-on-runtime.patch.
+  * Add debian/patches/ffmpeg-0.5-compatibility.diff to make audacity
+    compatible to the ffmpeg 0.5 series.
+  * Rename recommended "unstripped" to "extra" ffmpeg variants.
+  * Add meta-information to all patch files according to the DEP-3.
+  * Do not link against unused libraries (make dpkg-shlibdeps happy).
+
+ -- Benjamin Drung &lt;censored&gt;  Tue, 01 Sep 2009 02:17:01 +0200
+
+audacity (1.3.8-1) experimental; urgency=low
+
+  [ Benjamin Drung ]
+  * New upstream release.
+  * Drop patches that are applied or adopted upstream:
+    - curly-brace-before-preprocessor-endif.patch
+    - desktop_file.patch
+    - make-distclean.patch
+    - pulseaudio.patch
+  * Drop portaudio.patch, it does not apply anymore and audacity was
+    never build against portaudio.
+  * debian/NEWS: Fix typo (thanks to Lintian).
+  * Bump Standards-Version to 3.8.3 (no changes).
+  * Drop debian/source.lintian-overrides, not needed any longer.
+  * Update debian/watch file to search on Google Code.
+  * Do not create help directory on runtime (backport patch from upstream)
+    - Add debian/patches/dont-create-help-directory-on-runtime.patch
+  * Add debian/patches/export-multiple.patch (LP: #276043).
+  * Add debian/patches/10-kFreeBSD.patch and debian/patches/20-autoconf.patch
+    to fix FTBFS on GNU/kFreeBSD; thanks to Petr Salinger for the patch
+    (Closes: #542765).
+  * Allow uploads done by Debian Maintainers.
+  * This release is not compatible to the ffmpeg 0.5 series. Left a
+    notice in debian/NEWS.
+
+  [ Reinhard Tartler ]
+  * Build against system taglib
+
+ -- Benjamin Drung &lt;censored&gt;  Tue, 25 Aug 2009 03:28:39 +0200
+
+audacity (1.3.7-3) unstable; urgency=low
+
+  [ Fabian Greffrath ]
+  * Remove Matt Brubeck &lt;censored&gt; from Uploaders (Closes: #521481).
+
+  [ Reinhard Tartler ]
+  * Recommend alternatively on the "unstripped" ffmpeg variants (LP: #344061).
+
+  [ Benjamin Drung ]
+  * debian/control:
+    + Update my e-mail address.
+    + Move audacity-dbg to section debug.
+  * Bumped Standards-Version to 3.8.1.
+  * Update make-distclean.patch to also remove lib-src/libportmixer.a.
+  * Add debian/source.lintian-overrides to suppress ancient-libtool warning.
+  * Add Audacity SVG icon; thanks to Aaron Spike (LP: #157828).
+
+ -- Benjamin Drung &lt;censored&gt;  Sun, 14 Jun 2009 23:17:41 +0200
+
+audacity (1.3.7-2) unstable; urgency=low
+
+  * Build against system FFmpeg for import and export support
+    (Closes: #512278, #5143333).
+  * Build-Depend on recent versions of the ffmpeg headers and recommend ffmpeg
+    shared libraries with recent sonames to make sure the ffmpeg packages are
+    new enough for audacity.
+  * Recent ffmpeg packages have Speex support enabled, so audacity can also
+    benefit from this feature (Closes: #329802).
+  * Re-enable PortMixer, as recommended upstream:
+    <http://sourceforge.net/mailarchive/message.php?msg_name=1234719213.4602.23.camel%40delph>
+
+ -- Fabian Greffrath &lt;censored&gt;  Tue, 17 Feb 2009 10:27:17 +0100
+
+audacity (1.3.7-1) experimental; urgency=low
+
+  [ Benjamin Drung ]
+  * New upstream release.
+    + Fixes error on second build (Closes: #442497, #486155).
+  * Dropped hyphen-used-as-minus-sign.patch (applied upstream).
+  * Added curly-brace-before-preprocessor-endif.patch to fix compile error.
+  * Added myself to Uploaders.
+  * Added make-distclean.patch.
+  * Updated watch file.
+  * Removed Ubuntu changelog entries.
+
+  [ Fabian Greffrath ]
+  * Removed spurious "DEB_COMPRESS_EXCLUDE := *.htb" from debian/rules.
+    There isn't even one file of this name in the packages.
+
+ -- Benjamin Drung &lt;censored&gt;  Wed, 04 Feb 2009 20:16:48 +0100
+
+audacity (1.3.6-3) unstable; urgency=low
+
+  * Added myself to Uploaders.
+  * Wrapped Uploaders and Build-Depends fields.
+  * Ordered and cleaned up Build-Depends, added autotools-dev.
+  * Bumped Standards-Version to 3.8.0.
+  * Moved Homepage from package description to Source stanza.
+  * Added ${misc:Depends} to Depends.
+  * Added MP2-support via libtwolame (Closes: #448762, #481338).
+  * Removed obsolete audacity.dirs and blank lines in
+    debian/audacity.install and debian/rules.
+  * Use Applications/Sound in audacity.menu.
+  * Use sf.net redirector in debian/watch.
+  * Fixed syntax errors in architecture checks in debian/rules
+    (Closes: #486147).
+  * Removed redundant debhelper calls from debian/rules and force remove
+    of the license file.
+  * Added patch to fix hyphen-used-as-minus-sign, thanks lintian.
+  * Added an audacity-dbg debug package.
+  * Versioned Build-Depends on libsoundtouch1-dev (>= 1.3.1-2) and
+    explicitely enable it in the configure flags (Closes: #459198).
+  * Added advice to also remove '~/.audacity' to debian/NEWS (Closes: #463955).
+  * Added Build-Conflicts against libwxbase2.6-dev and wx2.6-headers
+    (Closes: #405623).
+  * Explicitely built against the system libsamplerate, effectively disabling
+    the internal libresample. This may break support for proprietary VST
+    plug-ins! Left a notice in debian/NEWS.
+  * Reordered configure flags in debian/rules and renamed
+    T1_DEB_CONFIGURE_EXTRA_FLAGS to the more descriptive WITH_JACK_CONFFLAG.
+  * Audacity suggests libmp3lame0.
+  * Added an arch:all audacity-data package that contains most of the
+    architecture-independent content of the '/usr/share' directory.
+  * Fixed faulty confflags --with-libid3tag and --with-libvorbis.
+  * Remove the redundant LICENSE.txt file immediately after the install rule.
+  * Do not manually remove lib-src/libpormixer.a in the clean rule. We build
+    --without-portmixer anyway.
+
+ -- Fabian Greffrath &lt;censored&gt;  Tue, 20 Jan 2009 15:45:00 +0100
+
+audacity (1.3.6-2) unstable; urgency=low
+
+  * Set Maintainer to pkg-multimedia-maintainers
+  * Add Vcs-Git and Vcs-Browser URLs
+
+ -- Free Ekanayaka &lt;censored&gt;  Mon, 12 Jan 2009 08:30:59 +0000
+
+audacity (1.3.6-1) unstable; urgency=low
+
+  * New upstream version
+  * Drop ratefix patch, merged upstream
+  * Add pulseaudio patch (thanks to David Henningsson)
+  * Build depend on libwxgtk2.8-dev instead of libwxgtk2.6-dev
+  * Set Maintainer to pkg-multimedia-maintainers
+  * Add Vcs-Git and Vcs-Browser URLs
+
+ -- Free Ekanayaka &lt;censored&gt;  Sun, 11 Jan 2009 23:54:44 +0000
+
+audacity (1.3.5-2) unstable; urgency=low
+
+  * Applied ratefix.patch which fixes a project rate issue when 
+    exporting to wav (Closes: #481641), thanks to Paul Martin
+
+ -- Free Ekanayaka &lt;censored&gt;  Mon, 19 May 2008 11:51:25 +0100
+
+audacity (1.3.5-1) unstable; urgency=low
+
+  * New upstream release
+  * Included patches from Ubuntu (thanks to Bruno Barrera Yever):
+    - debian/patches/desktop_file.patch:
+      - removed deprecated Encoding field
+      - removed deprecated Application value from Categories
+      - updated Name fields
+      - updated Icon field
+  * Removed liblame patch, included upstream
+
+ -- Free Ekanayaka &lt;censored&gt;  Wed, 14 May 2008 13:54:33 +0100
+
+audacity (1.3.4-1.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix FTBFS with GCC 4.3 (Closes: #455635).
+  * Reenable JACK on amd64 (Closes: #469325).
+
+ -- Luk Claes &lt;censored&gt;  Sat, 22 Mar 2008 10:50:11 +0000
+
+audacity (1.3.4-1.1) unstable; urgency=high
+
+  * Non-maintainer upload by security team.
+  * Fix insecure directory creation in /tmp by moving the directory
+    to the users home directory (CVE-2007-6061; Closes: #453283).
+  * Adding NEWS file to advise the user to change the tmp path
+    in his config file so there is a notification for users who
+    are already vulnerable.
+
+ -- Nico Golde &lt;censored&gt;  Mon, 21 Jan 2008 19:08:54 +0100
+
+audacity (1.3.4-1) unstable; urgency=low
+
+  [ Joost Yervante Damad ]
+  * Survived the library transition (Closes: #426636)
+  * Disable portmixer as recommended (Closes: #454241)
+  * only enable jack on i386 and powerpc (See also #406754)
+
+  [ Free Ekanayaka ]
+  * New upstream release
+  * Force removal of lib-src/libportmixer.a when cleaning (Closes #442497)
+  * Fixed watch file (Closes: #449637)
+  * Dropped no more needed desktop, kfreebsd and see patches
+
+ -- Free Ekanayaka &lt;censored&gt;  Tue, 18 Dec 2007 21:15:12 +0000
+
+audacity (1.3.3-1) unstable; urgency=low
+
+  * New upstream release
+  * Added watch file
+  * debian/patches:
+     - updated libmp3lame patch
+  * debian/control:
+     - as suggested upstream, depend on libgtk2.0-dev, otherwise 
+       the code fails to build
+
+ -- Free Ekanayaka &lt;censored&gt;  Fri, 18 May 2007 12:11:05 +0200
+
+audacity (1.3.2-4) unstable; urgency=low
+
+  * debian/patches:
+     - desktop_file.patch: fixed broken Category entry
+  * debian/audacity.mime:
+     - added entry for application/x-audacity-project
+
+ -- Free Ekanayaka &lt;censored&gt;  Thu, 17 May 2007 02:36:41 +0200
+
+audacity (1.3.2-3) unstable; urgency=low
+
+  [ Joost Yervante Damad ]
+  * Add patch by Joo Martin &lt;censored&gt; to fix installation of
+    the locales (Closes: #416864, #422338)
+  * Add patch based on work by Mikael Magnusson &lt;censored&gt;
+    that enables usage of the portaudio library on the system, however it
+    doesn't work, because portmixer doesn't compile against it, soo we're
+    not using it yet.
+  * Apply changes from #423477 (Closes: #423477)
+      - transparent background for icons
+      - /usr/share/audacity => /usr/share/pixmaps
+  * Look for libmp3lame.so.0 iso libmp3lame.so (Closes: #410516)
+  [ Free Ekanayaka ]
+  * Add icon for .aup files
+
+ -- Joost Yervante Damad &lt;censored&gt;  Sat, 12 May 2007 13:09:13 +0200
+
+audacity (1.3.2-2) unstable; urgency=high
+
+  [Joost Yervante Damad]
+  * audacity - FTBFS: error: unrecognized command line option "-msse"
+    (Closes: #409255)
+    Fixed by building the sse file only with -msse on i386 and amd64 archs
+  [ Free Ekanayaka ]
+  * FTBFS on GNU/kFreeBSD (Closes: #409260)
+
+ -- Joost Yervante Damad &lt;censored&gt;  Fri, 23 Mar 2007 11:00:39 +0100
+
+audacity (1.3.2-1) unstable; urgency=low
+
+  [ Michael Biebl ]
+  * New upstream release for GTK2 and ALSA.
+  * debian/control
+    - Add build-dep on libexpat1-dev, libjack0.100.0-dev, libasound2-dev.
+    - Build against libwxgtk2.6-dev. (Closes: #340409, #379616)
+  * debian/rules
+    - Enable portaudio v19 (ALSA). (Closes: #249157)
+    - Enable unicode. (Closes: #298548)
+    - Use system expat library.
+  * Ship the desktop file provided by upstream, drop
+    debian/audacity.desktop.
+  * Use debhelper v5 compat mode.
+  * Update FSF address in debian/copyright.
+  * Update to Standards-Version 3.7.2, no further changes required.
+
+  [ Free Ekanayaka ]
+  * Depend on libjack-dev rather that libjack0.100.0-dev, which is now
+    obsolete
+  * Set Maintainer to Debian Multimedia Team
+  * Added Matt and myself to Uploaders
+
+ -- Free Ekanayaka &lt;censored&gt;  Tue, 16 Jan 2007 15:53:30 +0100
+
+audacity (1.2.4b-2.1) unstable; urgency=low
+
+  * NMU as part of the GCC 4.1 transition.
+  * Remove extra qualification from C++ header file (closes: #357056).
+
+ -- Martin Michlmayr &lt;censored&gt;  Fri, 26 May 2006 12:26:18 +0200
+
+audacity (1.2.4b-2) unstable; urgency=low
+
+  * src/effects/Silence.cpp: Fix bug that caused Generate Silence to affect
+    all tracks instead of just the selected ones.
+  * debian/copyright: Update FSF address.
+  * de.po: Fix translation mistakes (closes: #313667).  Patch from Jens
+    Seidel.
+  * Fix build on GNU/kFreeBSD (closes: #345201).  Patch from Aurelien Jarno.
+
+ -- Matt Brubeck &lt;censored&gt;  Fri, 13 Jan 2006 20:08:04 -0800
+
+audacity (1.2.4b-1) unstable; urgency=low
+
+  * New upstream release
+    - Fixed encoding error in French localization.
+  * debian/control: Updated my email address.
+
+ -- Matt Brubeck &lt;censored&gt;  Mon, 19 Dec 2005 17:46:43 -0800
+
+audacity (1.2.4-1) unstable; urgency=low
+
+  * New upstream release
+    - debian/rules, debian/control, debian/audacity.mime:
+      Build new FLAC import support (closes: #329801, #329824).
+  * debian/control:
+    - Update Standards-Version to 3.6.2.
+    - Add Build-Conflicts with libwxgtk2.6-dev.
+  * debian/audacity.mime: Reduce priorities (closes: #327234).
+  * debian/patches/001-allegro-gcc4.diff: Removed (merged upstream).
+
+ -- Matt Brubeck &lt;censored&gt;  Sat, 26 Nov 2005 18:38:48 -0800
+
+audacity (1.2.3-2) unstable; urgency=low
+
+  * Build against libwxgtk2.4-1 (closes: #320995).
+  * 001-allegro-gcc4.diff (from Andreas Jochens) -
+    Fix AMD64/gcc4 compilation error (closes: #285481).
+  * debian/control: Add Build-Conflicts with libwxgtk2.5-dev.
+  * debian/copyright: Refer to specific versions of (L)GPL from
+    common-licenses.  Remove extraneous characters from SoundTouch
+    license notice.  (Thanks to Marc 'HE' Brockschmidt.)
+
+ -- Matt Brubeck &lt;censored&gt;  Tue,  2 Aug 2005 20:53:09 -0700
+
+audacity (1.2.3-1) unstable; urgency=low
+
+  * New upstream release
+    - Fall back to default help file path if custom path is wrong
+      (closes: #275345).
+
+ -- Matt Brubeck &lt;censored&gt;  Fri, 19 Nov 2004 11:53:04 -0800
+
+audacity (1.2.2-2) unstable; urgency=low
+
+  * debian/copyright: Add copyright information and original licenses
+    for other libraries included in the Audacity source package.
+  * debian/audacity.desktop: Add a .desktop file (closes: #281193).
+  * debian/rules, debian/control: Run dh_desktop; Build-Depends on debhelper
+    (>=4.2.21).
+
+ -- Matt Brubeck &lt;censored&gt;  Sat, 16 Oct 2004 10:35:44 -0700
+
+audacity (1.2.2-1) unstable; urgency=low
+
+  * New upstream release (closes: #268360).
+
+ -- Matt Brubeck &lt;censored&gt;  Wed,  1 Sep 2004 22:29:13 -0700
+
+audacity (1.2.1.91-1) unstable; urgency=low
+
+  * New upstream pre-release.
+
+ -- Matt Brubeck &lt;censored&gt;  Mon,  9 Aug 2004 20:24:38 -0700
+
+audacity (1.2.1-4) unstable; urgency=low
+
+  * Really install audacity.mime.
+
+ -- Matt Brubeck &lt;censored&gt;  Sun, 18 Jul 2004 19:28:41 -0700
+
+audacity (1.2.1-3) unstable; urgency=low
+
+  * debian/copyright: Update maintainer information.
+  * Use dh_install to install menu icons.
+  * Don't gzip the HTB (online help) file, which is already compressed
+    (closes: #256562).
+  * Remove extra file LICENSE.txt in debian/rules instead of
+    patching upstream Makefile.
+
+ -- Matt Brubeck &lt;censored&gt;  Sun, 11 Jul 2004 17:14:51 -0700
+
+audacity (1.2.1-2) unstable; urgency=low
+
+  * debian/patches/dirmanager-hash.diff: Fix a dataloss bug when editing
+    a saved project file with duplicated data (patch from upstream CVS).
+  * locale/ru.po: Fix character encoding of Russian translation by reverting
+    to file from 1.2.0.
+  * Add "icon" line to menu file (closes: #252853).
+  * Register as a MIME handler (closes: #255893).
+
+ -- Matt Brubeck &lt;censored&gt;  Fri, 25 Jun 2004 13:54:27 -0700
+
+audacity (1.2.1-1) unstable; urgency=low
+
+  * New upstream release
+    - Removes debugging output from Import Raw (closes: #245665).
+    - Fixes crash when Equalization window is too small (closes: #243767).
+
+ -- Matt Brubeck &lt;censored&gt;  Sat,  8 May 2004 12:19:48 -0700
+
+audacity (1.2.0-3) unstable; urgency=low
+
+  * Fix nyquist build on MIPS, and re-enable nyquist on all platforms.
+    Patch from Stephen Gildea (closes: #241488).
+  * Use smaller image as window icon (closes: #242856).
+  * Update autotools helper files config.guess and config.sub.
+  * Add Suggests: ladspa-plugin.
+  * Add a menu icon.
+
+ -- Matt Brubeck &lt;censored&gt;  Sat, 10 Apr 2004 10:36:34 -0700
+
+audacity (1.2.0-2) unstable; urgency=low
+
+  * Fix endianness problem on PowerPC (closes: #232972).
+
+ -- Matt Brubeck &lt;censored&gt;  Sat, 27 Mar 2004 11:11:11 -0800
+
+audacity (1.2.0-1) unstable; urgency=low
+
+  * New upstream release (closes: #234746).
+  * New maintainer.
+  * Update Standards-Version to 3.6.1.0.
+  * Remove libsamplerate dependency (replaced by libresample).
+  * Fix compilation error in soundtouch.  Patch from Matt Kraai
+    (closes: #236990).
+  * Fix "make distclean" to remove all configure-generated files.
+  * Remove outdated information from copyright file.
+  * Remove duplicate license file LICENSE.txt.
+  * Properly quote values in menu file.
+  * Acknowledge NMU (closes: #213193, #194509, #223248, #220365, #221176).
+
+ -- Matt Brubeck &lt;censored&gt;  Tue, 16 Mar 2004 15:11:03 -0800
+
+audacity (1.1.99pre3-1) unstable; urgency=low
+
+  * Add 'zip' to Build-deps.  Previously zip was in non-US which required
+    me to pre-zip the help file before uploading, but this is no longer
+    the case.  (closes: #226261)
+  * The rebuild should resolve the runtime link warnings and crashes
+    (closes: #227903)
+  * Nyquist is no longer configured to be part of the build.  It
+    prevents mips and mipsel from building correctly, and no one
+    is prepared to fix the problems at this time.
+
+ -- Joshua Haberman &lt;censored&gt;  Thu, 15 Jan 2004 18:48:10 -0800
+
+audacity (1.1.99pre3-0.1) unstable; urgency=low
+
+  * new upstream, hopefully closes: #213193, #194509
+  * recompiled with newer libs, closes: #223248, #220365, #221176
+  * NMU
+
+ -- Torsten Werner &lt;censored&gt;  Wed, 31 Dec 2003 13:40:24 +0100
+
+audacity (1.1.99pre1-2) unstable; urgency=low
+
+  * Prevent audacity-1.2-help.htb from being gzipped, so online help
+    works correctly
+  * Changes to configure.in, such as recognizing when libsndfile is
+    not present
+  * Build-depend on libsndfile1-dev, so autobuilders won't fail
+    (closes: #204334)
+
+ -- Joshua Haberman &lt;censored&gt;  Wed,  6 Aug 2003 18:24:02 +0000
+
+audacity (1.1.99pre1-1) unstable; urgency=low
+
+  * New upstream 1.2 prerelease.  Far too many new features to list.
+  * Audacity 1.2 does not support opening MIDI files, so the
+    Open Midi -> Export Ogg crash is no longer triggerable (closes: #150654)
+  * Audacity 1.2 performs checks to guard against multiple instances
+    running concurrently, to prevent multiple instances from interfering
+    with each others temporary files.  (closes: #182782)
+  * We now use libsndfile for sound file i/o, so 8 bit files should
+    no longer be distorted.  (closes: #187304)
+  * Recompile should fix weird, unexplainable, unreproducable runtime
+    linking error. (closes: #187504)
+  * Audacity 1.2 has a completely new audio i/o backend.  The code that
+    caused a problem when changing devices in the preferences has been
+    completely rewritten.  (closes: #188808)
+  * We no longer link against id3lib (thank goodness) so the FTBFS that
+    was clearly caused by id3lib should no longer be an issue.
+    (closes: #192328)
+  * "<" and ">" removed from URL display to prevent the URL from disappearing
+    entirely from the packages.d.o web pages that don't properly escape them.
+    (closes: #196660)
+
+ -- Joshua Haberman &lt;censored&gt;  Tue,  5 Aug 2003 20:15:07 +0000
+
+audacity (1.0.1-1) unstable; urgency=low
+
+  * New minor upstream release
+  * Moved binary and manpages out of /usr/X11R6 (closes: #171403)
+  * The recompile will solve the libvorbis0 dependency problem
+    (closes: #185387, #185078)
+  * The recompile should also solve problems with the dynamic linker
+    not finding the correct libstdc++.  (closes: #184905)
+
+ -- Joshua Haberman &lt;censored&gt;  Tue, 25 Mar 2003 01:33:47 +0000
+
+audacity (1.0.0-1.1) unstable; urgency=low
+
+  * NMU to fix breakage caused by libvorbis0 split.
+
+ -- Christopher L Cheney &lt;censored&gt;  Mon, 29 Jul 2002 22:00:00 -0500
+
+audacity (1.0.0-1) unstable; urgency=low
+
+  * New upstream release (1.0.0, woohoo!)
+  * More 64-bit platform patches (closes: #145537)
+
+ -- Joshua Haberman &lt;censored&gt;  Fri, 14 Jun 2002 23:55:23 -0700
+
+audacity (0.98-3) unstable; urgency=low
+
+  * Applied fix that caused file importing to fail on  platforms where
+    sizeof(long) != 4. (closes: #140417)
+
+ -- Joshua Haberman &lt;censored&gt;  Sun, 14 Apr 2002 02:40:17 -0700
+
+audacity (0.98-2) unstable; urgency=low
+
+  * New build-depends on libwxgtk2.2-dev (>=2.2.9.2) should solve any
+    remaining libpng problems.  This will effectively revert us back to
+    libpng2, since this is what the libwxgtk2.2 maintainer decided on.
+
+ -- Joshua Haberman &lt;censored&gt;  Wed,  6 Mar 2002 20:12:42 -0800
+
+audacity (0.98-1) unstable; urgency=low
+
+  * Full upstream release.
+  * All effects will correctly cancel now. (closes: #129381)
+  * Fixed subtle but serious bug in libmad mp3 importing code that would
+    randomly cause freezes when importing mp3s. (closes: #129380)
+  * Build-depends on wxWindows and libpng are versioned to force libpng3
+    for both. (closes: #128463)
+
+ -- Joshua Haberman &lt;censored&gt;  Tue, 22 Jan 2002 23:51:20 -0800
+
+audacity (0.97.2-1) unstable; urgency=low
+
+  * Eliminated build-dependency on 'zip' by pre-zipping the help file. I was
+    previously unaware that zip is in non-us, making the build-dep a policy
+    violation. Unfortunately, this required a new source tarball, since
+    Debian diffs don't seem to allow binary files.
+
+ -- Joshua Haberman &lt;censored&gt;  Tue,  1 Jan 2002 22:47:26 -0800
+
+audacity (0.97.1-1) unstable; urgency=low
+
+  * Upstream prerelease. Upstream we have fixed many important bugs, but
+    the next full release may not be ready for Debian's freeze. These
+    fixes should definitely go in woody.
+  * Audacity no longer includes its own complete copy of libmpeg3 and
+    id3lib; instead we link against the debian packages libmad0-dev and
+    libid3-dev. This effectively sidesteps the problems of id3lib
+    building (or not building) on 64 bit architectures.
+    (closes: #121599, #123132, #126769)
+  * improved debian/rules to more completely "make clean." (closes: #126761)
+
+ -- Joshua Haberman &lt;censored&gt;  Sat, 29 Dec 2001 21:05:46 -0800
+
+audacity (0.97-1) unstable; urgency=low
+
+  * Upstream release
+  * Updated config.guess and config.sub from upstream (closes: bug#115361)
+
+ -- Joshua Haberman &lt;censored&gt;  Sat, 13 Oct 2001 14:37:49 -0700
+
+audacity (0.96-1) unstable; urgency=low
+
+  * Upstream release
+
+ -- Joshua Haberman &lt;censored&gt;  Mon,  6 Aug 2001 16:37:53 -0700
+
+audacity (0.95-2) unstable; urgency=low
+
+  * re-eliminated architecture-specific flags from compilation of libmpeg3
+    (forgot to fix upstream before this release) (closes: bug#96750)
+
+ -- Joshua Haberman &lt;censored&gt;  Tue,  8 May 2001 23:12:34 -0700
+
+audacity (0.95-1) unstable; urgency=low
+
+  * Upstream release
+
+ -- Joshua Haberman &lt;censored&gt;  Mon, 30 Apr 2001 16:19:00 -0700
+
+audacity (0.94c-2) unstable; urgency=low
+
+  * eliminated architecture-specific flags from compilation of libmpeg3
+    (closes: bug#92410)
+  * added support for the help system
+
+ -- Joshua Haberman &lt;censored&gt;  Sun,  1 Apr 2001 00:18:25 -0800
+
+audacity (0.94c-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Joshua Haberman &lt;censored&gt;  Wed, 25 Mar 2001 19:56:13 -0800
+</pre></div>
+</div></div>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                <a href="http://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+                &middot;
+                <a href="https://t.me/notesalexp" rel="alternate">Telegram channel</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-101010045-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
+
