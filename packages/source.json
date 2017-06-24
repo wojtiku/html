@@ -260,19 +260,6 @@
       "md5": " 7803d028ee5590376271c65de7afe657 2a7a10e916a01f08053df99d58693d2d 2c4b0ea727610dc8d801cce934500f07",
       "size": " 52_KiB  4_KiB  98.44_MiB "
     },
-    "geeknote": 
-    {
-      "version": "0.01+git20150511-1",
-      "description": " command line client for Evernote",
-      "sourceurl": "http://notesalexp.org/source/main/g/geeknote",
-      "sourcefile": "geeknote_0.01+git20150511-1.debian.tar.xz geeknote_0.01+git20150511-1.dsc geeknote_0.01+git20150511.orig.tar.xz ",
-      "homepage": "http://www.geeknote.me",
-      "depends": "debhelper(>=9) python-all(>=2.6.6-3~) python-setuptools dh-python ",
-      "binary": "geeknote",
-      "description_geeknote": "command line client for Evernote",
-      "md5": " 01287492ca873de6f2b1cf1555439e30 73be300f4e0b2804d153862e82fa8fc7 5f9e3aae1a4323574395ef0fac1a9c8a",
-      "size": " 4_KiB  4_KiB  32_KiB "
-    },
     "gexiv2": 
     {
       "version": "0.10.4-1+nmu1",
@@ -662,45 +649,6 @@
       "description_psiplusl10n": "localization files for Psi+",
       "md5": " 667f728b0d56297af9a90dc6331157d1 3636e67b9c714bb1ad9b512eebd5281a f3c35f263d221bcbbd3ea865df6f1daf",
       "size": " 4_KiB  4_KiB  2.87_MiB "
-    },
-    "pythonevernote": 
-    {
-      "version": "1.25+git20131227-1",
-      "description": " evernote-sdk for Python",
-      "sourceurl": "http://notesalexp.org/source/main/p/python-evernote",
-      "sourcefile": "python-evernote_1.25+git20131227-1.debian.tar.xz python-evernote_1.25+git20131227-1.dsc python-evernote_1.25+git20131227.orig.tar.bz2 ",
-      "homepage": "https://github.com/evernote/evernote-sdk-python",
-      "depends": "debhelper(>=9) python-all(>=2.6.6-3~) python-setuptools dh-python ",
-      "binary": "python-evernote",
-      "description_pythonevernote": "evernote-sdk for Python",
-      "md5": " 0b028c79885fed1c97833205b4e5fa01 ec809f3232452794ef0ecb3d53f44dfc 7deded5f483b376b090e4cda20bf6449",
-      "size": " 4_KiB  4_KiB  628_KiB "
-    },
-    "pythonmarkdown2": 
-    {
-      "version": "2.2.2-1",
-      "description": " python-markdown2",
-      "sourceurl": "http://notesalexp.org/source/main/p/python-markdown2",
-      "sourcefile": "python-markdown2_2.2.2-1.debian.tar.xz python-markdown2_2.2.2-1.dsc python-markdown2_2.2.2.orig.tar.gz ",
-      "homepage": "https://github.com/trentm/python-markdown2",
-      "depends": "debhelper(>=9) python-all(>=2.6.6-3~) dh-python ",
-      "binary": "python-markdown2",
-      "description_pythonmarkdown2": "Python implementation of Markdown",
-      "md5": " 5816edb4a11d48d228d93bb01638af20 2a3b251ab3949f88a42dc368d261ccdd 96ba85ea05d0e5388847a0b21cca9b83",
-      "size": " 4_KiB  4_KiB  1.01_MiB "
-    },
-    "pythonoauth2": 
-    {
-      "version": "1.5.211-2+nmu1",
-      "description": " Library for OAuth version 1.0a",
-      "sourceurl": "http://notesalexp.org/source/main/p/python-oauth2",
-      "sourcefile": "python-oauth2_1.5.211-2+nmu1.debian.tar.xz python-oauth2_1.5.211-2+nmu1.dsc python-oauth2_1.5.211.orig.tar.gz ",
-      "homepage": "http://github.com/simplegeo/python-oauth2",
-      "depends": "debhelper(>=7.0.50~) python-all(>=2.6.6-3) python-setuptools dh-python ",
-      "binary": "python-oauth2",
-      "description_pythonoauth2": "Library for OAuth version 1.0a (forked from python-oauth)",
-      "md5": " 1e72ba398e72ffd69d4870bf76e2af72 55fc2432b07ad5049ddc3a896af34a7b 987ad7365a70e2286bd1cebb344debbc",
-      "size": " 4_KiB  4_KiB  20_KiB "
     },
     "q4wine": 
     {

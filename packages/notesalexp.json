@@ -8108,24 +8108,6 @@
           "sha256": "f048713ea648350ad78742452c8292ff2b506afe021493c4b7e0758ddf6ff15e",
           "description": "FreeCAD documentation"
         },
-        "geeknote_all": 
-        {
-          "packageurl": "http://notesalexp.org/jessie/main/g/geeknote/geeknote_0.01+git20150511-1_all.deb",
-          "size": "36_KiB ",
-          "sizebyt": "33148",
-          "version": "0.01+git20150511-1",
-          "isize": "132_KiB ",
-          "depends": "python(>=2.7) python(<<2.8) python-evernote python-html2text python-sqlalchemy python-markdown2 python-bs4 python-thrift python-oauth2 ",
-          "section": "misc",
-          "priority": "optional",
-          "source": "geeknote",
-          "sourceurl": "http://notesalexp.org/source/main/g/geeknote",
-          "sourcefile": "geeknote_0.01+git20150511-1.debian.tar.xz geeknote_0.01+git20150511-1.dsc geeknote_0.01+git20150511.orig.tar.xz ",
-          "homepage": "http://www.geeknote.me",
-          "md5": "bf384c46a8580b9c494e9c2857c6ed27",
-          "sha256": "efbf4f630df98dfac0ff380885f82ab0792a3f924c6b27d8a97f3ee1852bab8a",
-          "description": "command line client for Evernote"
-        },
         "gimpdata_all": 
         {
           "packageurl": "http://notesalexp.org/jessie/main/g/gimp/gimp-data_2.8.22+git32525-f54659d-1_all.deb",
@@ -8535,58 +8517,6 @@
           "md5": "70ff923588014acb4e39cd777fc00040",
           "sha256": "846a49ff0c5c6cfbef1c9d2de5f934cab40c0df1e6f94f4364e2d40ba6e0805a",
           "description": "sound files for Psi+"
-        },
-        "pythonevernote_all": 
-        {
-          "packageurl": "http://notesalexp.org/jessie/main/p/python-evernote/python-evernote_1.25+git20131227-1_all.deb",
-          "size": "88_KiB ",
-          "sizebyt": "87470",
-          "version": "1.25+git20131227-1",
-          "isize": "1.31_MiB ",
-          "depends": "python(>=2.7) python(<<2.8) python-oauth2 ",
-          "section": "python",
-          "priority": "optional",
-          "source": "python-evernote",
-          "sourceurl": "http://notesalexp.org/source/main/p/python-evernote",
-          "sourcefile": "python-evernote_1.25+git20131227-1.debian.tar.xz python-evernote_1.25+git20131227-1.dsc python-evernote_1.25+git20131227.orig.tar.bz2 ",
-          "homepage": "https://github.com/evernote/evernote-sdk-python",
-          "md5": "129862d00ea3903c8728d2f5c27c954a",
-          "sha256": "847ab88873f4e74dc31cfe3e3a56b4f41210b114f3d3812e4dcfbd0a6f82378a",
-          "description": "evernote-sdk for Python"
-        },
-        "pythonmarkdown2_all": 
-        {
-          "packageurl": "http://notesalexp.org/jessie/main/p/python-markdown2/python-markdown2_2.2.2-1_all.deb",
-          "size": "32_KiB ",
-          "sizebyt": "29530",
-          "version": "2.2.2-1",
-          "isize": "140_KiB ",
-          "depends": "python(>=2.7) python(<<2.8) ",
-          "section": "python",
-          "priority": "optional",
-          "source": "python-markdown2",
-          "sourceurl": "http://notesalexp.org/source/main/p/python-markdown2",
-          "sourcefile": "python-markdown2_2.2.2-1.debian.tar.xz python-markdown2_2.2.2-1.dsc python-markdown2_2.2.2.orig.tar.gz ",
-          "homepage": "https://github.com/trentm/python-markdown2",
-          "md5": "8dc9bafb414340a8ecf0d3ad4c6fcaaf",
-          "sha256": "91f0af98c7203e069b7d3bd9d46b293df98ac03af5bdc4fe727997d85896201b",
-          "description": "Python implementation of Markdown"
-        },
-        "pythonoauth2_all": 
-        {
-          "packageurl": "http://notesalexp.org/jessie/main/p/python-oauth2/python-oauth2_1.5.211-2_all.deb",
-          "size": "12_KiB ",
-          "sizebyt": "11128",
-          "version": "1.5.211-2",
-          "isize": "84_KiB ",
-          "depends": "python(>=2.7) python(<<2.8) python-httplib2 ",
-          "provides": "python2.7-oauth2 ",
-          "section": "python",
-          "priority": "extra",
-          "homepage": "http://github.com/simplegeo/python-oauth2",
-          "md5": "9baa6ccfad72b0456526e172a70486c1",
-          "sha256": "edfcfcea2b02e9072287afd519856724542cbeaf2aea1d314bb6f0cbe41f918b",
-          "description": "Library for OAuth version 1.0a (forked from python-oauth)"
         },
         "pytyle_all": 
         {
@@ -14885,24 +14815,6 @@
           "sha256": "859ff6ff3cf462cf9aa637c80f10881600217898ce44faaca5924778566ece98",
           "description": "FreeCAD documentation"
         },
-        "geeknote_all": 
-        {
-          "packageurl": "http://notesalexp.org/stretch/main/g/geeknote/geeknote_0.01+git20150511-1_all.deb",
-          "size": "36_KiB ",
-          "sizebyt": "33132",
-          "version": "0.01+git20150511-1",
-          "isize": "132_KiB ",
-          "depends": "python(>=2.7) python(<<2.8) python-evernote python-html2text python-sqlalchemy python-markdown2 python-bs4 python-thrift python-oauth2 ",
-          "section": "misc",
-          "priority": "optional",
-          "source": "geeknote",
-          "sourceurl": "http://notesalexp.org/source/main/g/geeknote",
-          "sourcefile": "geeknote_0.01+git20150511-1.debian.tar.xz geeknote_0.01+git20150511-1.dsc geeknote_0.01+git20150511.orig.tar.xz ",
-          "homepage": "http://www.geeknote.me",
-          "md5": "c2a30409c3f0d3fe61512ec466f21187",
-          "sha256": "b5db5bfb56030c082b66318180eba8834c2e412b352d660f33cf59b23d501d41",
-          "description": "command line client for Evernote"
-        },
         "gimpdata_all": 
         {
           "packageurl": "http://notesalexp.org/stretch/main/g/gimp/gimp-data_2.8.22+git32525-f54659d-1_all.deb",
@@ -15251,61 +15163,6 @@
           "md5": "c3dd02c58c505272c7e269bd4acdedd6",
           "sha256": "31922087e386c93d3dc4b05bac73952ec82e661a4002cbe981bffd72c44ae5a6",
           "description": "sound files for Psi+"
-        },
-        "pythonevernote_all": 
-        {
-          "packageurl": "http://notesalexp.org/stretch/main/p/python-evernote/python-evernote_1.25+git20131227-1_all.deb",
-          "size": "88_KiB ",
-          "sizebyt": "87406",
-          "version": "1.25+git20131227-1",
-          "isize": "1.24_MiB ",
-          "depends": "python(>=2.7) python(<<2.8) python-oauth2 ",
-          "section": "python",
-          "priority": "optional",
-          "source": "python-evernote",
-          "sourceurl": "http://notesalexp.org/source/main/p/python-evernote",
-          "sourcefile": "python-evernote_1.25+git20131227-1.debian.tar.xz python-evernote_1.25+git20131227-1.dsc python-evernote_1.25+git20131227.orig.tar.bz2 ",
-          "homepage": "https://github.com/evernote/evernote-sdk-python",
-          "md5": "2b3da7912e99501449925a42d0257d8b",
-          "sha256": "f0fe2f2b2d61328b5f08b161e7ad9a58788bf56e11b6a4ff4feb42cadee91994",
-          "description": "evernote-sdk for Python"
-        },
-        "pythonmarkdown2_all": 
-        {
-          "packageurl": "http://notesalexp.org/stretch/main/p/python-markdown2/python-markdown2_2.2.2-1_all.deb",
-          "size": "36_KiB ",
-          "sizebyt": "36184",
-          "version": "2.2.2-1",
-          "isize": "107_KiB ",
-          "depends": "python(>=2.7) python(<<2.8) ",
-          "section": "python",
-          "priority": "optional",
-          "source": "python-markdown2",
-          "sourceurl": "http://notesalexp.org/source/main/p/python-markdown2",
-          "sourcefile": "python-markdown2_2.2.2-1.debian.tar.xz python-markdown2_2.2.2-1.dsc python-markdown2_2.2.2.orig.tar.gz ",
-          "homepage": "https://github.com/trentm/python-markdown2",
-          "md5": "d771a4a077acb9b79dd30bc4a165fe21",
-          "sha256": "d58a961be7ff7df99be04d51bfaf05fa551c41004287b2701806b83e82eff29b",
-          "description": "Python implementation of Markdown"
-        },
-        "pythonoauth2_all": 
-        {
-          "packageurl": "http://notesalexp.org/stretch/main/p/python-oauth2/python-oauth2_1.5.211-2+nmu1_all.deb",
-          "size": "12_KiB ",
-          "sizebyt": "11182",
-          "version": "1.5.211-2+nmu1",
-          "isize": "37_KiB ",
-          "depends": "python(>=2.7) python(<<2.8) python-httplib2 ",
-          "provides": "python2.7-oauth2 ",
-          "section": "python",
-          "priority": "extra",
-          "source": "python-oauth2",
-          "sourceurl": "http://notesalexp.org/source/main/p/python-oauth2",
-          "sourcefile": "python-oauth2_1.5.211-2+nmu1.debian.tar.xz python-oauth2_1.5.211-2+nmu1.dsc python-oauth2_1.5.211.orig.tar.gz ",
-          "homepage": "http://github.com/simplegeo/python-oauth2",
-          "md5": "0002e85895ece4090591bb4b3692873b",
-          "sha256": "1ff0f9dd875253860014f6749939d896a296a39c9494d484c09c2c4cdcaacfd8",
-          "description": "Library for OAuth version 1.0a (forked from python-oauth)"
         },
         "qcaddata_all": 
         {
@@ -27116,24 +26973,6 @@
           "sha256": "859ff6ff3cf462cf9aa637c80f10881600217898ce44faaca5924778566ece98",
           "description": "FreeCAD documentation"
         },
-        "geeknote_all": 
-        {
-          "packageurl": "http://notesalexp.org/sid/main/g/geeknote/geeknote_0.01+git20150511-1_all.deb",
-          "size": "36_KiB ",
-          "sizebyt": "33138",
-          "version": "0.01+git20150511-1",
-          "isize": "159_KiB ",
-          "depends": "python(>=2.7) python(<<2.8) python-evernote python-html2text python-sqlalchemy python-markdown2 python-bs4 python-thrift python-oauth2 ",
-          "section": "misc",
-          "priority": "optional",
-          "source": "geeknote",
-          "sourceurl": "http://notesalexp.org/source/main/g/geeknote",
-          "sourcefile": "geeknote_0.01+git20150511-1.debian.tar.xz geeknote_0.01+git20150511-1.dsc geeknote_0.01+git20150511.orig.tar.xz ",
-          "homepage": "http://www.geeknote.me",
-          "md5": "89a69ee390547f6806ad1bf74599bbc9",
-          "sha256": "b9ec6c850534257680551426cddd0c9889b522d0b41f62a0badac75a25ae5a72",
-          "description": "command line client for Evernote"
-        },
         "gimpdata_all": 
         {
           "packageurl": "http://notesalexp.org/sid/main/g/gimp/gimp-data_2.8.22+git32525-f54659d-1_all.deb",
@@ -27495,61 +27334,6 @@
           "md5": "c3dd02c58c505272c7e269bd4acdedd6",
           "sha256": "31922087e386c93d3dc4b05bac73952ec82e661a4002cbe981bffd72c44ae5a6",
           "description": "sound files for Psi+"
-        },
-        "pythonevernote_all": 
-        {
-          "packageurl": "http://notesalexp.org/sid/main/p/python-evernote/python-evernote_1.25+git20131227-1_all.deb",
-          "size": "88_KiB ",
-          "sizebyt": "87466",
-          "version": "1.25+git20131227-1",
-          "isize": "1.31_MiB ",
-          "depends": "python(>=2.7) python(<<2.8) python-oauth2 ",
-          "section": "python",
-          "priority": "optional",
-          "source": "python-evernote",
-          "sourceurl": "http://notesalexp.org/source/main/p/python-evernote",
-          "sourcefile": "python-evernote_1.25+git20131227-1.debian.tar.xz python-evernote_1.25+git20131227-1.dsc python-evernote_1.25+git20131227.orig.tar.bz2 ",
-          "homepage": "https://github.com/evernote/evernote-sdk-python",
-          "md5": "75f08f3cff8367f62359ec4995e3b21e",
-          "sha256": "4cb1a7bda70f557294f52c695c0dd1dc53278998635b3fef3814a9d19c84d83d",
-          "description": "evernote-sdk for Python"
-        },
-        "pythonmarkdown2_all": 
-        {
-          "packageurl": "http://notesalexp.org/sid/main/p/python-markdown2/python-markdown2_2.2.2-1_all.deb",
-          "size": "32_KiB ",
-          "sizebyt": "29528",
-          "version": "2.2.2-1",
-          "isize": "140_KiB ",
-          "depends": "python(>=2.7) python(<<2.8) ",
-          "section": "python",
-          "priority": "optional",
-          "source": "python-markdown2",
-          "sourceurl": "http://notesalexp.org/source/main/p/python-markdown2",
-          "sourcefile": "python-markdown2_2.2.2-1.debian.tar.xz python-markdown2_2.2.2-1.dsc python-markdown2_2.2.2.orig.tar.gz ",
-          "homepage": "https://github.com/trentm/python-markdown2",
-          "md5": "cb124b98b57feefb0514e88b6988b6ce",
-          "sha256": "de5ad1bf085d9767887044d7856c61b9db5c6c98785c0269d8a3c48a77c9c2f2",
-          "description": "Python implementation of Markdown"
-        },
-        "pythonoauth2_all": 
-        {
-          "packageurl": "http://notesalexp.org/sid/main/p/python-oauth2/python-oauth2_1.5.211-2+nmu1_all.deb",
-          "size": "12_KiB ",
-          "sizebyt": "11186",
-          "version": "1.5.211-2+nmu1",
-          "isize": "37_KiB ",
-          "depends": "python(>=2.7) python(<<2.8) python-httplib2 ",
-          "provides": "python2.7-oauth2 ",
-          "section": "python",
-          "priority": "extra",
-          "source": "python-oauth2",
-          "sourceurl": "http://notesalexp.org/source/main/p/python-oauth2",
-          "sourcefile": "python-oauth2_1.5.211-2+nmu1.debian.tar.xz python-oauth2_1.5.211-2+nmu1.dsc python-oauth2_1.5.211.orig.tar.gz ",
-          "homepage": "http://github.com/simplegeo/python-oauth2",
-          "md5": "06d8453f6057ff8f1f0ef504835b0ce2",
-          "sha256": "dc3042628501cfe66433012c18f4a688aa12ab4320783c7d6978836b2598a8cc",
-          "description": "Library for OAuth version 1.0a (forked from python-oauth)"
         },
         "pytyle_all": 
         {
@@ -37082,21 +36866,6 @@
           "sha256": "8bd85c1275a641b6577071132379dc924b871b283b0853089a98d6cc68f36d1e",
           "description": "development files for fatrat"
         },
-        "geeknote_all": 
-        {
-          "packageurl": "http://notesalexp.org/trusty/main/g/geeknote/geeknote_0.01+git20150511-1ppa1~trusty1_all.deb",
-          "size": "36_KiB ",
-          "sizebyt": "33260",
-          "version": "0.01+git20150511-1ppa1~trusty1",
-          "isize": "179_KiB ",
-          "depends": "python(>=2.7) python(<<2.8) python(>=2.7.1-0ubuntu2) python-evernote python-html2text python-sqlalchemy python-markdown2 python-bs4 python-thrift python-oauth2 ",
-          "section": "misc",
-          "priority": "optional",
-          "homepage": "http://www.geeknote.me",
-          "md5": "d8442ac86209df707adfbf6bda3c4631",
-          "sha256": "fe90808175e1f8bf49367d6163ed2c3c037700ff9aa64e9f6bf5828190442b1d",
-          "description": "command line client for Evernote"
-        },
         "gimpdata_all": 
         {
           "packageurl": "http://notesalexp.org/trusty/main/g/gimp/gimp-data_2.8.22+git32525-f54659d-1_all.deb",
@@ -37418,36 +37187,6 @@
           "md5": "2177a9714f293d5551fa702e1c4fad18",
           "sha256": "95bad90745dd9ff86404e699846f821dd56688353240542429af72c2dda7070b",
           "description": "sound files for Psi+"
-        },
-        "pythonevernote_all": 
-        {
-          "packageurl": "http://notesalexp.org/trusty/main/p/python-evernote/python-evernote_1.25+git20131227-1ppa1~trusty1_all.deb",
-          "size": "88_KiB ",
-          "sizebyt": "87226",
-          "version": "1.25+git20131227-1ppa1~trusty1",
-          "isize": "1.31_MiB ",
-          "depends": "python(>=2.7) python(<<2.8) python(>=2.7.1-0ubuntu2) python-oauth2 ",
-          "section": "python",
-          "priority": "optional",
-          "homepage": "https://github.com/evernote/evernote-sdk-python",
-          "md5": "83a932c832d893f729aa0803f6d2f0b2",
-          "sha256": "94ec8e92ba640aac231e3e2e9b10dd7110539bce65efb88d8436b974b13f2da1",
-          "description": "evernote-sdk for Python"
-        },
-        "pythonmarkdown2_all": 
-        {
-          "packageurl": "http://notesalexp.org/trusty/main/p/python-markdown2/python-markdown2_2.2.2-1ppa1~trusty1_all.deb",
-          "size": "32_KiB ",
-          "sizebyt": "29438",
-          "version": "2.2.2-1ppa1~trusty1",
-          "isize": "140_KiB ",
-          "depends": "python(>=2.7) python(<<2.8) python(>=2.7.1-0ubuntu2) ",
-          "section": "python",
-          "priority": "optional",
-          "homepage": "https://github.com/trentm/python-markdown2",
-          "md5": "1939ec4c04fbab5c3ab91a1550c91553",
-          "sha256": "8b3416d2bf8bdd308d93ce5382f67fee78ef108648718cb8cceace352970675a",
-          "description": "Python implementation of Markdown"
         },
         "pytyle_all": 
         {
