@@ -620,13 +620,13 @@
     },
     "psiplus": 
     {
-      "version": "1.0.91+git20170616-1",
+      "version": "1.0.107+git20170624-1",
       "description": " Qt-based XMPP/Jabber client",
       "sourceurl": "http://notesalexp.org/source/main/p/psi-plus",
-      "sourcefile": "psi-plus_1.0.91+git20170616-1.debian.tar.xz psi-plus_1.0.91+git20170616-1.dsc psi-plus_1.0.91+git20170616.orig.tar.xz ",
-      "homepage": "http://psi-dev.googlecode.com/",
-      "depends": "debhelper(>=9) libaspell-dev libidn11-dev libminizip-dev libotr5-dev|libotr2-dev libqca-qt5-2-dev libqt5webkit5-dev libqt5x11extras5-dev libsm-dev libtidy-dev libxss-dev qconf qtmultimedia5-dev zlib1g-dev ",
-      "binary": "psi-plus psi-plus-dbg psi-plus-webkit psi-plus-webkit-dbg psi-plus-common psi-plus-plugins psi-plus-plugins-dbg psi-plus-skins psi-plus-sounds psi-plus-icons-nonfree",
+      "sourcefile": "psi-plus_1.0.107+git20170624-1.debian.tar.gz psi-plus_1.0.107+git20170624-1.dsc psi-plus_1.0.107+git20170624.orig.tar.xz ",
+      "homepage": "http://psi-plus.com/",
+      "depends": "cmake debhelper(>=9) libhunspell-dev libidn11-dev libminizip-dev|wget libotr5-dev|libotr2-dev libqca2-dev libqtwebkit-dev libsm-dev libtidy-dev libxss-dev qconf zlib1g-dev ",
+      "binary": "psi-plus psi-plus-webkit psi-plus-common psi-plus-plugins psi-plus-skins psi-plus-sounds psi-plus-icons-nonfree",
       "description_psiplus": "Qt-based XMPP/Jabber client (basic version)",
       "description_psipluswebkit": "Qt-based XMPP/Jabber client (WebKit version)",
       "description_psipluscommon": "common files for Psi+",
@@ -634,8 +634,8 @@
       "description_psiplusskins": "skins for Psi+",
       "description_psiplussounds": "sound files for Psi+",
       "description_psiplusiconsnonfree": "additional icons for Psi+",
-      "md5": " a087e9cc626d78ce58405ae11b89a770 b23412388e2558e7e9a02c78eff4c780 4993444850bba4740da96f111ace6b2d",
-      "size": " 16_KiB  4_KiB  14.00_MiB "
+      "md5": " 9d9bb74c4ab8a1de9a6c0df153470b8e 46579fe053459c09da9c698cc044850b 282c8b0b085043c6e32091141a1ef097",
+      "size": " 16_KiB  4_KiB  14.01_MiB "
     },
     "psiplusl10n": 
     {

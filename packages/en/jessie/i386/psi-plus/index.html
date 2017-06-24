@@ -52,7 +52,7 @@
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Package: psi-plus ( 1.0.91+git20170616-1 ) </h1>
+<h1>Package: psi-plus ( 1.0.107+git20170624-1 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for psi-plus</strong></p>
 <p><strong>Resources:</strong></p>
@@ -62,13 +62,13 @@
 </ul>
 <p><strong>Download Source Package <a href="http://notesalexp.org/source/main/p/psi-plus">psi-plus</a>:</strong></p>
 <ul>
-<li><a href="http://notesalexp.org/source/main/p/psi-plus/psi-plus_1.0.91+git20170616-1.debian.tar.xz">[psi-plus_1.0.91+git20170616-1.debian.tar.xz]</a></li>
-<li><a href="http://notesalexp.org/source/main/p/psi-plus/psi-plus_1.0.91+git20170616-1.dsc">[psi-plus_1.0.91+git20170616-1.dsc]</a></li>
-<li><a href="http://notesalexp.org/source/main/p/psi-plus/psi-plus_1.0.91+git20170616.orig.tar.xz">[psi-plus_1.0.91+git20170616.orig.tar.xz]</a></li>
+<li><a href="http://notesalexp.org/source/main/p/psi-plus/psi-plus_1.0.107+git20170624-1.debian.tar.gz">[psi-plus_1.0.107+git20170624-1.debian.tar.gz]</a></li>
+<li><a href="http://notesalexp.org/source/main/p/psi-plus/psi-plus_1.0.107+git20170624-1.dsc">[psi-plus_1.0.107+git20170624-1.dsc]</a></li>
+<li><a href="http://notesalexp.org/source/main/p/psi-plus/psi-plus_1.0.107+git20170624.orig.tar.xz">[psi-plus_1.0.107+git20170624.orig.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
 <ul>
-<li><a href="http://psi-dev.googlecode.com/">Homepage</a></li>
+<li><a href="http://psi-plus.com/">Homepage</a></li>
 </ul>
 </div>
 <h4> Qt-based XMPP/Jabber client (basic version) </h4>
@@ -93,12 +93,8 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
         </tbody></table>
 <ul class="uldep">
 <li><dl>
-<dt><span><strong>dep:</strong> psi-plus-common (=1.0.91+git20170616-1)  </span></dt>
+<dt><span><strong>dep:</strong> psi-plus-common (=1.0.107+git20170624-1)  </span></dt>
 <dt><span> common files for Psi+</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libaspell15 (&gt;=0.60.7~20110707)  </span></dt>
-<dt><span> GNU Aspell spell-checker runtime library</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libc6 (&gt;=2.4)  </span></dt>
@@ -107,6 +103,10 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 <li><dl>
 <dt><span><strong>dep:</strong> libgcc1 (&gt;=1:4.1.1)  </span></dt>
 <dt><span> GCC support library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libhunspell-1.3-0 (&gt;=1.3.3)  </span></dt>
+<dt><span> spell checker and morphological analyzer (shared library)</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libidn11 (&gt;=1.13)  </span></dt>
@@ -125,8 +125,12 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 <dt><span> Qt 4 D-Bus module</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqt4-network (&gt;=4:4.5.3)  </span></dt>
+<dt><span><strong>dep:</strong> libqt4-network (&gt;=4:4.7.0~beta1)  </span></dt>
 <dt><span> Qt 4 network module</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt4-svg (&gt;=4:4.5.3)  </span></dt>
+<dt><span> Qt 4 SVG module</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libqt4-xml (&gt;=4:4.5.3)  </span></dt>
@@ -149,19 +153,15 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
 <dt><span> X11 client-side library</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libxss1 </span></dt>
-<dt><span> X11 Screen Saver extension library</span></dt>
-</dl></li>
-<li><dl>
 <dt><span><strong>dep:</strong> zlib1g (&gt;=1:1.1.4)  </span></dt>
 <dt><span> compression library - runtime</span></dt>
 </dl></li>
-</ul>
-<ul class="ulrec">
 <li><dl>
-<dt><span><strong>rec:</strong> libqca2-plugin-ossl </span></dt>
+<dt><span><strong>dep:</strong> libqca2-plugin-ossl </span></dt>
 <dt><span> SSL/TLS support for the Qt Cryptographic Architecture</span></dt>
 </dl></li>
+</ul>
+<ul class="ulrec">
 <li><dl>
 <dt><span><strong>rec:</strong> psi-plus-l10n </span></dt>
 <dt><span> localization files for Psi+</span></dt>
@@ -203,16 +203,16 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
     </tr>
 <tr>
     <th><a href="http://notesalexp.org/packages/en/jessie/amd64/psi-plus/download.html">amd64</a></th>
-    <td> 1.0.91+git20170616-1 </td>
-    <td class="size"> 2.54 MiB  </td>
-    <td class="size"> 8.18 MiB  </td>
+    <td> 1.0.107+git20170624-1 </td>
+    <td class="size"> 2.98 MiB  </td>
+    <td class="size"> 9.57 MiB  </td>
     <td>[<a href="http://notesalexp.org/packages/en/jessie/amd64/psi-plus/filelist.html">list of files</a>]</td>
 </tr>
 <tr>
     <th><a href="http://notesalexp.org/packages/en/jessie/i386/psi-plus/download.html">i386</a></th>
-    <td> 1.0.91+git20170616-1 </td>
-    <td class="size"> 2.62 MiB  </td>
-    <td class="size"> 8.10 MiB  </td>
+    <td> 1.0.107+git20170624-1 </td>
+    <td class="size"> 3.09 MiB  </td>
+    <td class="size"> 9.33 MiB  </td>
     <td>[<a href="http://notesalexp.org/packages/en/jessie/i386/psi-plus/filelist.html">list of files</a>]</td>
 </tr>
 <tr>
