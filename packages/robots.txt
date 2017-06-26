@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: http://notesalexp.org/sitemap.xml
+Sitemap: https://notesalexp.org/sitemap.xml
 Disallow: /debian
 Disallow: /kvirc
 Disallow: /source

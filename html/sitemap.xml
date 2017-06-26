@@ -4,105 +4,105 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://notesalexp.org/html/</loc>
-<lastmod>2017-06-23T22:00:42-00:00</lastmod>
+<loc>https://notesalexp.org/html/</loc>
+<lastmod>2017-06-26T18:58:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/</loc>
-<lastmod>2017-06-23T22:00:42-00:00</lastmod>
+<loc>https://notesalexp.org/html/</loc>
+<lastmod>2017-06-26T18:58:14-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/update.html</loc>
-<lastmod>2017-06-23T22:00:42-00:00</lastmod>
+<loc>https://notesalexp.org/html/update.html</loc>
+<lastmod>2017-06-26T18:58:14-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/faq.html</loc>
-<lastmod>2017-06-23T22:00:42-00:00</lastmod>
+<loc>https://notesalexp.org/html/faq.html</loc>
+<lastmod>2017-06-26T18:58:14-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/donate.html</loc>
-<lastmod>2017-06-23T22:00:42-00:00</lastmod>
+<loc>https://notesalexp.org/html/donate.html</loc>
+<lastmod>2017-06-26T18:58:14-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/2017/06/18/20170618/</loc>
+<loc>https://notesalexp.org/html/2017/06/18/20170618/</loc>
 <lastmod>2017-06-18T20:50:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/2017/06/04/20170604/</loc>
+<loc>https://notesalexp.org/html/2017/06/04/20170604/</loc>
 <lastmod>2017-06-04T17:36:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/2016/05/19/truecrypt/</loc>
+<loc>https://notesalexp.org/html/2016/05/19/truecrypt/</loc>
 <lastmod>2016-05-19T10:40:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/category/blog</loc>
+<loc>https://notesalexp.org/html/category/blog</loc>
 <lastmod>2016-05-19T10:40:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/category/repozitorii</loc>
+<loc>https://notesalexp.org/html/category/repozitorii</loc>
 <lastmod>2017-06-18T20:50:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/tag/make</loc>
+<loc>https://notesalexp.org/html/tag/make</loc>
 <lastmod>2016-05-19T10:40:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/tag/deb</loc>
+<loc>https://notesalexp.org/html/tag/deb</loc>
 <lastmod>2017-06-18T20:50:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/tag/reps</loc>
+<loc>https://notesalexp.org/html/tag/reps</loc>
 <lastmod>2017-06-18T20:50:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/tag/update</loc>
+<loc>https://notesalexp.org/html/tag/update</loc>
 <lastmod>2017-06-18T20:50:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://notesalexp.org/html/tag/truecrypt</loc>
+<loc>https://notesalexp.org/html/tag/truecrypt</loc>
 <lastmod>2016-05-19T10:40:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
