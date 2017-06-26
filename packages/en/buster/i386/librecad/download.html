@@ -40,15 +40,18 @@
         <div id="content">
 <h5>Download Page for librecad_2.1.2+git4319-a25b05b-1_i386.deb</h5>
 <p>If you are running <em>Debian</em>, it is strongly suggested to use a package manager like <em>aptitude</em> or <em>synaptic</em> to download and install packages, instead of doing so manually via this website.</p>
-<p>1. Add this line to your <em>/etc/apt/sources.list</em> :</p>
-<p><code>deb http://notesalexp.org/debian/buster/ buster main</code></p>
-<p>2. Fetch and install the GnuPG key</p>
+<p>1. Open a terminal and install apt-transport-https</p>
+<p><code>sudo apt-get install apt-transport-https</code></p>
+<p><code></code></p>
+<p>2. Add this line to your <em>/etc/apt/sources.list</em> :</p>
+<p><code>deb https://notesalexp.org/debian/buster/ buster main</code></p>
+<p>3. Fetch and install the GnuPG key</p>
 <p><code>sudo aptitude update &amp;&amp; sudo aptitude install notesalexp-keyring </code></p>
 <p><code>sudo aptitude update </code></p>
 <p>or</p>
 <p><code>wget -O - https://notesalexp.org/debian/alexp_key.asc | sudo apt-key add -</code></p>
 <p><code>sudo aptitude update </code></p>
-<p>3. Enjoy </p>
+<p>4. Enjoy </p>
 <p><code>sudo aptitude install librecad</code></p>
 <p>You can download the requested file from the <em>pool/main/libr/librecad</em> subdirectory at this link:</p>
 <p><a href="http://notesalexp.org/buster/main/libr/librecad/librecad_2.1.2+git4319-a25b05b-1_i386.deb"> http://notesalexp.org/buster/main/libr/librecad/librecad_2.1.2+git4319-a25b05b-1_i386.deb</a></p>

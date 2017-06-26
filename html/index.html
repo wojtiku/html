@@ -36,20 +36,22 @@
 You can find the packages of this repository following this <a href="http://notesalexp.org/packages/">link</a>.</p>
 <p><strong>Instructions</strong></p>
 <p><em>1. Open a terminal</em></p>
-<div class="highlight"><pre><span></span>sudo nano /etc/apt/sources.list #to open repository file with a text editor
+<div class="highlight"><pre><span></span>sudo apt-get update #to update package list
+sudo apt-get install apt-transport-https #install https download transport for APT
+sudo nano /etc/apt/sources.list #to open repository file with a text editor
 </pre></div>
 
 
-<p>Add this line for <strong>Wheezy</strong>: <code>deb http://notesalexp.org/debian/wheezy/ wheezy main</code><br />
-Add this line for <strong>Jessie</strong>: <code>deb http://notesalexp.org/debian/jessie/ jessie main</code><br />
-Add this line for <strong>Stretch</strong>: <code>deb http://notesalexp.org/debian/stretch/ stretch main</code><br />
-Add this line for <strong>Buster</strong>: <code>deb http://notesalexp.org/debian/buster/ buster main</code><br />
-Add this line for <strong>Sid</strong>: <code>deb http://notesalexp.org/debian/sid/ sid main</code><br />
-Add this line for <strong>Precise</strong>: <code>deb http://notesalexp.org/debian/precise/ precise main</code><br />
-Add this line for <strong>Trusty</strong>: <code>deb http://notesalexp.org/debian/trusty/ trusty main</code><br />
-Add this line for <strong>Xenial</strong>: <code>deb http://notesalexp.org/debian/xenial/ xenial main</code><br />
-Add this line for <strong>Yakkety</strong>: <code>deb http://notesalexp.org/debian/yakkety/ yakkety main</code><br />
-Add this line for <strong>Zesty</strong>: <code>deb http://notesalexp.org/debian/zesty/ zesty main</code>  </p>
+<p>Add this line for <strong>Wheezy</strong>: <code>deb https://notesalexp.org/debian/wheezy/ wheezy main</code><br />
+Add this line for <strong>Jessie</strong>: <code>deb https://notesalexp.org/debian/jessie/ jessie main</code><br />
+Add this line for <strong>Stretch</strong>: <code>deb https://notesalexp.org/debian/stretch/ stretch main</code><br />
+Add this line for <strong>Buster</strong>: <code>deb https://notesalexp.org/debian/buster/ buster main</code><br />
+Add this line for <strong>Sid</strong>: <code>deb https://notesalexp.org/debian/sid/ sid main</code><br />
+Add this line for <strong>Precise</strong>: <code>deb https://notesalexp.org/debian/precise/ precise main</code><br />
+Add this line for <strong>Trusty</strong>: <code>deb https://notesalexp.org/debian/trusty/ trusty main</code><br />
+Add this line for <strong>Xenial</strong>: <code>deb https://notesalexp.org/debian/xenial/ xenial main</code><br />
+Add this line for <strong>Yakkety</strong>: <code>deb https://notesalexp.org/debian/yakkety/ yakkety main</code><br />
+Add this line for <strong>Zesty</strong>: <code>deb https://notesalexp.org/debian/zesty/ zesty main</code>  </p>
 <p>Save and close sources.list</p>
 <p><em>2.Fetch and install the GnuPG key</em></p>
 <div class="highlight"><pre><span></span>sudo apt-get update &amp;&amp; sudo apt-get install notesalexp-keyring #to add gpg key
