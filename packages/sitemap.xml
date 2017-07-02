@@ -184,6 +184,9 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/goaccess/</loc>
     </url>
     <url>
@@ -224,6 +227,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/libmypaint-dev/</loc>
@@ -877,6 +886,9 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/goaccess/</loc>
     </url>
     <url>
@@ -917,6 +929,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/libmypaint-dev/</loc>
@@ -1579,6 +1597,9 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/gmic/</loc>
     </url>
     <url>
@@ -1669,6 +1690,9 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libgmic-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libimage-sane-perl/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libkvilib4/</loc>
     </url>
     <url>
@@ -1679,6 +1703,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libmypaint-dev/</loc>
@@ -2386,6 +2416,9 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/gmic/</loc>
     </url>
     <url>
@@ -2476,6 +2509,9 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/libgmic-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libimage-sane-perl/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/libkvilib4/</loc>
     </url>
     <url>
@@ -2486,6 +2522,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/libmypaint-dev/</loc>
@@ -4084,6 +4126,9 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/goaccess/</loc>
     </url>
     <url>
@@ -4148,6 +4193,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/libmypaint-dev/</loc>
@@ -4825,6 +4876,9 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/goaccess/</loc>
     </url>
     <url>
@@ -4889,6 +4943,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/libmypaint-dev/</loc>
@@ -5470,6 +5530,9 @@
         <loc>https://notesalexp.org/packages/en/source/libgtk2-imageview-perl/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/libimage-sane-perl/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/libmypaint/</loc>
     </url>
     <url>
@@ -5752,6 +5815,9 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/goaccess/</loc>
     </url>
     <url>
@@ -5794,6 +5860,9 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libgtk2-imageview-perl/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libimage-sane-perl/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libkvilib4/</loc>
     </url>
     <url>
@@ -5804,6 +5873,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libmypaint-dev/</loc>
@@ -6481,6 +6556,9 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/goaccess/</loc>
     </url>
     <url>
@@ -6523,6 +6601,9 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/libgtk2-imageview-perl/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libimage-sane-perl/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libkvilib4/</loc>
     </url>
     <url>
@@ -6533,6 +6614,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libmypaint-dev/</loc>
@@ -7256,6 +7343,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/libgmic-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/trusty/amd64/libimage-sane-perl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/libkvilib4/</loc>
@@ -7985,6 +8075,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/libgmic-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/trusty/i386/libimage-sane-perl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/libkvilib4/</loc>
@@ -9913,6 +10006,9 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/gmic/</loc>
     </url>
     <url>
@@ -9964,6 +10060,9 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libgmic-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libimage-sane-perl/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libkvilib4/</loc>
     </url>
     <url>
@@ -9974,6 +10073,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libmypaint-dev/</loc>
@@ -10651,6 +10756,9 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/gmic/</loc>
     </url>
     <url>
@@ -10702,6 +10810,9 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/libgmic-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libimage-sane-perl/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/libkvilib4/</loc>
     </url>
     <url>
@@ -10712,6 +10823,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/libmypaint-dev/</loc>
@@ -11398,6 +11515,9 @@
         <loc>https://notesalexp.org/packages/en/yakkety/amd64/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/yakkety/amd64/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/yakkety/amd64/gmic/</loc>
     </url>
     <url>
@@ -11449,6 +11569,9 @@
         <loc>https://notesalexp.org/packages/en/yakkety/amd64/libgmic-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/yakkety/amd64/libimage-sane-perl/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/yakkety/amd64/libkvilib4/</loc>
     </url>
     <url>
@@ -11459,6 +11582,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/yakkety/amd64/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/yakkety/amd64/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/yakkety/amd64/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/yakkety/amd64/libmypaint-dev/</loc>
@@ -12097,6 +12226,9 @@
         <loc>https://notesalexp.org/packages/en/yakkety/i386/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/yakkety/i386/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/yakkety/i386/gmic/</loc>
     </url>
     <url>
@@ -12148,6 +12280,9 @@
         <loc>https://notesalexp.org/packages/en/yakkety/i386/libgmic-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/yakkety/i386/libimage-sane-perl/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/yakkety/i386/libkvilib4/</loc>
     </url>
     <url>
@@ -12158,6 +12293,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/yakkety/i386/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/yakkety/i386/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/yakkety/i386/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/yakkety/i386/libmypaint-dev/</loc>
@@ -12781,6 +12922,9 @@
         <loc>https://notesalexp.org/packages/en/zesty/amd64/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/zesty/amd64/goaccess/</loc>
     </url>
     <url>
@@ -12817,10 +12961,19 @@
         <loc>https://notesalexp.org/packages/en/zesty/amd64/libgimp2.0-doc/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/libimage-sane-perl/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/zesty/amd64/libkvilib4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/amd64/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/amd64/libmypaint-dev/</loc>
@@ -13441,6 +13594,9 @@
         <loc>https://notesalexp.org/packages/en/zesty/i386/gir1.2-libmypaint0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/gir1.2-libmypaint-2.0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/zesty/i386/goaccess/</loc>
     </url>
     <url>
@@ -13477,10 +13633,19 @@
         <loc>https://notesalexp.org/packages/en/zesty/i386/libgimp2.0-doc/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/libimage-sane-perl/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/zesty/i386/libkvilib4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/i386/libmypaint0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/libmypaint-2.0-0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/libmypaint-2.0-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/i386/libmypaint-dev/</loc>
