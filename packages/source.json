@@ -922,16 +922,16 @@
     },
     "veracrypt": 
     {
-      "version": "1.19~github-1",
+      "version": "1.21-2",
       "description": " Free open-source disk encryption software",
       "sourceurl": "https://notesalexp.org/source/main/v/veracrypt",
-      "sourcefile": "veracrypt_1.19~github-1.debian.tar.xz veracrypt_1.19~github-1.dsc veracrypt_1.19~github.orig.tar.gz ",
+      "sourcefile": "veracrypt_1.21-2.debian.tar.xz veracrypt_1.21-2.dsc veracrypt_1.21.orig.tar.bz2 ",
       "homepage": "https://veracrypt.codeplex.com/",
-      "depends": "debhelper(>=7) libgtk2.0-dev libfuse-dev dmsetup libsm6 nasm makeself pkg-config libsm-dev libglw1-mesa-dev libwxgtk3.0-dev ",
+      "depends": "debhelper(>=9) libgtk2.0-dev libfuse-dev dmsetup libsm6 nasm makeself pkg-config yasm libsm-dev libglw1-mesa-dev libwxgtk3.0-dev ",
       "binary": "veracrypt",
       "description_veracrypt": "Free open-source disk encryption software",
-      "md5": " ed258b5369d39dcad9e499cec55a2907 53d3c48080235da225211aff766dcc7a 06c2da461af62e78cc002e04c48b98cb",
-      "size": " 4_KiB  4_KiB  22.16_MiB "
+      "md5": " 8c90cd8efb4cf603e0917244bdf955e0 4f0f996ce88fc70263979b17c22fdd8b 00c0f7101c2956e99c54cb8966e7fc92",
+      "size": " 4_KiB  4_KiB  21.78_MiB "
     },
     "yagf": 
     {
