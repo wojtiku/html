@@ -309,18 +309,18 @@
     },
     "gimpgtk3": 
     {
-      "version": "2.9.4+git38697-eeef3d3-1",
+      "version": "2.9.4+git39060-3762480-1",
       "description": " The Free & Open Source Image Editor",
       "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-      "sourcefile": "gimp-gtk3_2.9.4+git38697-eeef3d3-1.debian.tar.xz gimp-gtk3_2.9.4+git38697-eeef3d3-1.dsc gimp-gtk3_2.9.4+git38697-eeef3d3.orig.tar.xz ",
+      "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-1.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-1.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
       "homepage": "http://www.gimp.org/",
       "depends": "debhelper(>=9) autotools-dev dh-autoreconf gettext gnome-pkg-tools gtk-doc-tools(>=1.0) intltool(>=0.40.1) iso-codes libaa1-dev libart-2.0-dev libasound2-dev(>=1.0.0)[linux-any] libatk1.0-dev(>=2.2.0) libbz2-dev libcairo2-dev(>=1.10.2) libcurl4-gnutls-dev(>=7.15.1) libdbus-glib-1-dev(>=0.70) libexif-dev(>=0.6.15) libfreetype6-dev(>=2.2) libfontconfig1-dev(>=2.2.0) libglib2.0-dev(>=2.30.2) libglib2.0-doc libgtk-3-dev libgtk-3-doc libgdk-pixbuf2.0-dev(>=2.24.1) libgdk-pixbuf2.0-doc libgs-dev libgudev-1.0-dev(>=167)[linux-any] libice-dev libjpeg-dev libmng-dev libpango1.0-dev(>=1.29.4) libpoppler-glib-dev(>=0.12.4) librsvg2-dev(>=2.14.0) libsm-dev libtiff-dev libwebkitgtk-3.0-dev libwmf-dev(>=0.2.8) libx11-dev libxcursor-dev libxmu-dev libxpm-dev libxt-dev zlib1g-dev patchutils python-dev(>=2.6.6-3) python-gtk2-dev(>=2.10.4) xsltproc python2.6|python2.7 libjson-glib-dev libjson-c-dev libgexiv2-dev python-cairo-dev libopenexr-dev git libsdl1.2-dev libavcodec-dev libavformat-dev libsuitesparse-dev libexiv2-dev ccache libspiro-dev liblua5.1-dev libv4l-dev libswscale-dev libopenraw-dev libwebp-dev libgraphviz-dev libgirepository1.0-dev libraw-dev valac graphviz gtk-update-icon-cache ",
       "binary": "gimp-gtk3 gimp-gtk3-data gimp-gtk3-dev",
       "description_gimpgtk3": "advanced picture editor",
       "description_gimpgtk3data": "Data files for GIMP",
       "description_gimpgtk3dev": "Headers and other files for compiling plugins for GIMP",
-      "md5": " b665d6d8099b4d509aa7820d516a305e 96733c35821b6fb1776c8ae56b3ff9f0 1106eef35b29029633f9bf8b9ed0b0a1",
-      "size": " 40_KiB  4_KiB  89.41_MiB "
+      "md5": " 6bb5a14b68a84e1059b089610e139e6a f2627f3dbf7d9f5ddeaf91e6692395ba 16b929f24377868b282442a7682a9596",
+      "size": " 40_KiB  4_KiB  90.83_MiB "
     },
     "gimppluginbimp": 
     {
