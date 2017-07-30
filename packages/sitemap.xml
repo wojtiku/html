@@ -12790,6 +12790,9 @@
         <loc>https://notesalexp.org/packages/en/zesty/amd64/clementine/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/compizboxmenu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/zesty/amd64/deadbeef/</loc>
     </url>
     <url>
@@ -12878,6 +12881,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/amd64/eiskaltdcpp-unstable/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/fatrat-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/amd64/freecad/</loc>
@@ -12998,6 +13010,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/amd64/libvacuumutils37/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/linuxdcpp/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/amd64/llpp/</loc>
@@ -13462,6 +13477,9 @@
         <loc>https://notesalexp.org/packages/en/zesty/i386/clementine/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/compizboxmenu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/zesty/i386/deadbeef/</loc>
     </url>
     <url>
@@ -13550,6 +13568,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/i386/eiskaltdcpp-unstable/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/fatrat-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/i386/freecad/</loc>
@@ -13670,6 +13697,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/i386/libvacuumutils37/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/linuxdcpp/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/i386/llpp/</loc>
@@ -14162,6 +14192,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2017/07/23/20170723/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2017/07/30/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2017/07/30/20170730/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
