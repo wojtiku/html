@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://notesalexp.org/packages/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/</loc>
     </url>
     <url>
@@ -4162,15 +4159,6 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/kvirc-modules/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/launchy/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/launchy-plugins/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/launchy-skins/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/leptonica-progs/</loc>
     </url>
     <url>
@@ -4228,15 +4216,6 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/libqpx-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/libqxmpp0/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/libqxmpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/libqxmpp-doc/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/librecad/</loc>
     </url>
     <url>
@@ -4262,9 +4241,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/llpp/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/muse/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/mypaint/</loc>
@@ -4912,15 +4888,6 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/kvirc-modules/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/launchy/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/launchy-plugins/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/launchy-skins/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/leptonica-progs/</loc>
     </url>
     <url>
@@ -4978,15 +4945,6 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/libqpx-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/libqxmpp0/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/libqxmpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/libqxmpp-doc/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/librecad/</loc>
     </url>
     <url>
@@ -5012,9 +4970,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/llpp/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/muse/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/mypaint/</loc>
@@ -12832,13 +12787,28 @@
         <loc>https://notesalexp.org/html/2017/08/27/20170827/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/html/2017/09/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2017/09/01/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2017/09/01/20170901/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/html/archives/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/author/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/html/author/page/2/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/html/blog/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/blog/page/2/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/categories/</loc>

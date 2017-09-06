@@ -42,15 +42,15 @@
     },
     "azpainter": 
     {
-      "version": "2.1.0-1",
+      "version": "2.1.0-2",
       "description": " 16bit RGB full color paint software",
       "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-      "sourcefile": "azpainter_2.1.0-1.debian.tar.xz azpainter_2.1.0-1.dsc azpainter_2.1.0.orig.tar.xz ",
+      "sourcefile": "azpainter_2.1.0-2.debian.tar.xz azpainter_2.1.0-2.dsc azpainter_2.1.0.orig.tar.xz ",
       "homepage": "https://osdn.net/projects/azpainter/",
       "depends": "debhelper(>=9) autotools-dev libx11-dev libxext-dev libxft-dev libxi-dev libjpeg-dev libpng-dev|libpng12-dev libfreetype6-dev libfontconfig1-dev zlib1g-dev ",
       "binary": "azpainter",
       "description_azpainter": "16bit RGB full color paint software.",
-      "md5": " 412beae642a7a8b38c4f2aa11c42c2c3 afaf3687ded5f51fda0fd96ca073c90e 06ea4b1bc5f11aba645ee8c8858b4595",
+      "md5": " 34babc63a3f48dc91ebe66e20eaf9bfd cf7355768a9c6bbe9f360c4d4c6746f4 06ea4b1bc5f11aba645ee8c8858b4595",
       "size": " 8_KiB  4_KiB  752_KiB "
     },
     "balsa": 
@@ -192,12 +192,12 @@
     },
     "eiskaltdcppunstable": 
     {
-      "version": "2.2.9+git20170804-1",
+      "version": "2.2.9+git20170804-2",
       "description": " cross-platform program that uses the Direct Connect and ADC protocols",
       "sourceurl": "https://notesalexp.org/source/main/e/eiskaltdcpp-unstable",
-      "sourcefile": "eiskaltdcpp-unstable_2.2.9+git20170804-1.debian.tar.xz eiskaltdcpp-unstable_2.2.9+git20170804-1.dsc eiskaltdcpp-unstable_2.2.9+git20170804.orig.tar.xz ",
+      "sourcefile": "eiskaltdcpp-unstable_2.2.9+git20170804-2.debian.tar.xz eiskaltdcpp-unstable_2.2.9+git20170804-2.dsc eiskaltdcpp-unstable_2.2.9+git20170804.orig.tar.xz ",
       "homepage": "https://github.com/eiskaltdcpp/eiskaltdcpp",
-      "depends": "autotools-dev chrpath cmake debhelper(>=9) fakeroot libaspell-dev libattr1-dev libboost-dev libboost-system-dev libbz2-dev libglade2-dev libgtk-3-dev libgtk2.0-dev libidn11-dev liblua5.1-0-dev libminiupnpc-dev libnotify-dev libpcre3-dev libqt4-dev libssl-dev pkg-config po-debconf qt4-dev-tools qt4-qtconfig zlib1g-dev ",
+      "depends": "autotools-dev chrpath cmake debhelper(>=9) fakeroot libaspell-dev libattr1-dev libboost-dev libboost-system-dev libbz2-dev libglade2-dev libgtk-3-dev libgtk2.0-dev libidn11-dev liblua5.1-0-dev libminiupnpc-dev libnotify-dev libpcre3-dev libssl-dev pkg-config po-debconf qtbase5-dev qtmultimedia5-dev qtscript5-dev qttools5-dev qttools5-dev-tools zlib1g-dev qtdeclarative5-dev ",
       "binary": "eiskaltdcpp-unstable eiskaltdcpp-common-unstable eiskaltdcpp-emoticons-unstable eiskaltdcpp-scripts-unstable eiskaltdcpp-sounds-unstable libeiskaltdcpp2.3-unstable libeiskaltdcpp2.3-unstable-dbg libeiskaltdcpp-dev-unstable eiskaltdcpp-qt-unstable eiskaltdcpp-qt-mini-unstable eiskaltdcpp-qt-data-unstable eiskaltdcpp-qt-unstable-dbg eiskaltdcpp-qt-mini-unstable-dbg eiskaltdcpp-gtk-unstable eiskaltdcpp-gtk3-unstable eiskaltdcpp-gtk-data-unstable eiskaltdcpp-gtk-unstable-dbg eiskaltdcpp-gtk3-unstable-dbg eiskaltdcpp-daemon-unstable eiskaltdcpp-daemon-unstable-dbg eiskaltdcpp-cli-unstable",
       "description_eiskaltdcppunstable": " cross-platform program that uses the Direct Connect and ADC protocols",
       "description_eiskaltdcppcommonunstable": "common files for EiskaltDC++",
@@ -214,22 +214,22 @@
       "description_eiskaltdcppgtkdataunstable": "data files for EiskaltDC++ Gtk",
       "description_eiskaltdcppdaemonunstable": "EiskaltDC++ daemon",
       "description_eiskaltdcppcliunstable": "EiskaltDC++ command-line interface",
-      "md5": " cca83a4790b6bc5014aafd8a7eea39d3 4e30fa92fbb8ae9114aeb74486be21aa e4447f636bdd4c6a8d967b267f535ad0",
-      "size": " 12_KiB  4_KiB  2.21_MiB "
+      "md5": " 334a82485c4eca30a533ffd86446b738 958da525807a6180373a2408f8ea21b3 e4447f636bdd4c6a8d967b267f535ad0",
+      "size": " 12_KiB  8_KiB  2.21_MiB "
     },
     "fatrat": 
     {
-      "version": "1.2.0+git20161204-2",
+      "version": "1.2.0+git20161204-3",
       "description": " multi-protocol download manager, feature rich and extensible via plugin",
       "sourceurl": "https://notesalexp.org/source/main/f/fatrat",
-      "sourcefile": "fatrat_1.2.0+git20161204-2.debian.tar.xz fatrat_1.2.0+git20161204-2.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
+      "sourcefile": "fatrat_1.2.0+git20161204-3.debian.tar.xz fatrat_1.2.0+git20161204-3.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
       "homepage": "http://fatrat.dolezel.info/",
-      "depends": "debhelper(>=7.0.50~) cmake libtorrent-rasterbar-dev libboost-date-time-dev qtbase5-dev qttools5-dev-tools qttools5-dev libqt5svg5-dev qt4-dev-tools libgloox-dev libcurl4-gnutls-dev|libcurl-dev libboost-regex-dev libboost-signals-dev libboost-iostreams-dev libbz2-dev liblog4cpp5-dev libboost-thread-dev libboost-filesystem-dev ",
+      "depends": "debhelper(>=7.0.50~) cmake libtorrent-rasterbar-dev libboost-date-time-dev qtbase5-dev qttools5-dev-tools qttools5-dev libqt5svg5-dev libgloox-dev libcurl4-gnutls-dev|libcurl-dev libboost-regex-dev libboost-signals-dev libboost-iostreams-dev libbz2-dev liblog4cpp5-dev libboost-thread-dev libboost-filesystem-dev libqt5sql5-sqlite ",
       "binary": "fatrat fatrat-data fatrat-dev",
       "description_fatrat": "multi-protocol download manager, feature rich and extensible via plugin",
       "description_fatratdata": "data files for fatrat",
       "description_fatratdev": "development files for fatrat",
-      "md5": " 4970ffb4283ac6b3c50e3d241b6446cd 1e3bffe14a05d856a37c5ed536779bfa 7409b9c5bc41c8233ba7604a9c79bd6b",
+      "md5": " bdefd841d6ce777ed2583781c05eb12c 560fcdc3f13fd16d4cefe2a8f38c240b 7409b9c5bc41c8233ba7604a9c79bd6b",
       "size": " 8_KiB  4_KiB  4.32_MiB "
     },
     "freecad": 
@@ -961,15 +961,15 @@
     },
     "znotes": 
     {
-      "version": "0.4.3+git20150825-2",
+      "version": "0.4.3+git20150825-3",
       "description": " Simple lightweight application for notes",
       "sourceurl": "https://notesalexp.org/source/main/z/znotes",
-      "sourcefile": "znotes_0.4.3+git20150825-2.debian.tar.xz znotes_0.4.3+git20150825-2.dsc znotes_0.4.3+git20150825.orig.tar.xz ",
+      "sourcefile": "znotes_0.4.3+git20150825-3.debian.tar.xz znotes_0.4.3+git20150825-3.dsc znotes_0.4.3+git20150825.orig.tar.xz ",
       "homepage": "http://znotes.sourceforge.net/",
-      "depends": "debhelper(>=7.0.50~) libqt4-dev ",
+      "depends": "debhelper(>=7.0.50~) qt5-qmake qtbase5-dev qttools5-dev-tools ",
       "binary": "znotes",
       "description_znotes": "Simple lightweight application for notes",
-      "md5": " 6d073097707efd8f774b7bcd6c8188c3 59a1da9d8d9a7f204a1709bca44f46e0 7b5a7b30c772057b24f0b0b52642a323",
+      "md5": " 5fb4ddc074f8d4ddac47a70a9e28da82 883d3811c4aa1192e2464532717e5132 7b5a7b30c772057b24f0b0b52642a323",
       "size": " 4_KiB  4_KiB  428_KiB "
     }
 }
