@@ -40,7 +40,334 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of source freecad-daily </h5>
-<div class="highlight"><pre><span></span>freecad-daily (0.17~git11970-6de23532c-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>freecad-daily (0.17~git12188-e8a394424-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/FreeCAD/FreeCAD.git
+  * Branch: master
+  * Commit: e8a394424ac19d57d2f79abd72ba1316d0ee1acb
+  * Date: 1506018900
+  * git changelog:
+  *  e8a394424 - Fixed and added PathUtil unit tests for dealing with
+    Part.
+  *  5741e6f20 - Fixed circular hole diameter for cases where the
+    selected edge is not the full circle.
+  *  992b2589b - Added support for Part as base object.
+  *  87533cbb1 - Fixed PathHelix to not throw an exception if StartDepth
+    == FinalDepth.
+  *  74cf6a8da - improve readability of attachment error messages
+  *  7d4eafbab - if an Undo/Redo is performed then do nothing inside the
+    body feature
+  *  499cb18a0 - add transform command to body
+  *  957bab1e2 - do not auto activate single body in document when
+    opening context-menu
+  *  41b42cce0 - Draft: fix to clone's App::Part support
+  *  cb494198f - prepare Arch and Path workbench for Qt5
+  *  00e7c0f2c - Maintain backlinks on dynamic property removal. fixes
+    #0003189
+  *  14a2b0c6c - PartDesign: Test shall not find buttons by text, as
+    text gets translated. fixes #0003187
+  *  94248a6c4 - Improve GeoFeatureGroup claim children algorithm and
+    remove special Body impelmentation
+  *  e64813827 - Expose global placement calculation to python API
+  *  957b23e61 - Don't check for multiple groups when performing a
+    transaction. fixes #0003150
+  *  ec796329b - Expressions: Prevent backlink creation to same objects.
+    fixes #0003192
+  *  de31528dd - PartDesign: Make Base Feature compatible with
+    GeoFeatureGroup. fixes #0003080
+  *  30f930404 - PartDesign: Allow boolean Fuse/Common without base
+    feature
+  *  1248ba3bf - Fix wrong detection of multiple GeoFeatureGroups
+  *  f1c307dc2 - PartDesign: Boolean must show the operation result, not
+    the children. fixes #0003184
+  *  0457b196a - Changed path tool library manager to use different
+    preference for json library than for xml in order to not break old
+    installations.
+  *  d1ee60e52 - Added version support to all JSON exports.
+  *  7e03dcaa1 - Deal with temporary invalid data for stock extents and
+    ensure minimum size.
+  *  b4d042805 - Changed PathJob to deal with JSON template files
+    instead of XML.
+  *  4d37d8bbb - Fixed up ToolController template arguments and loading
+    for the switch to JSON.
+  *  f34b63f57 - Added full JSON file format support to
+    ToolLibraryManager.
+  *  e9222ce9d - Changed default tooltable to be stored in json format -
+    automatically converted on first access.
+  *  aac6419f9 - Added template attrs and setFrom support to Tooltable.
+  *  c705bcb0f - Creation of Tool from a templateAttrs dictionary.
+  *  324dfdd34 - Renamed fromTemplate to setFromTemplate.
+  *  1dd18cc97 - Added restore from dictionary to Tool and templateAttrs
+    for their retreival.
+  *  677a14961 - new-style-modules: fix wrong statement in comment
+  *  2ff47374f - new-style-modules: adding the possebility to import
+    from "freecad" (this mostly aims at new modules and extension
+    modules which want to use pip) - any module having problems with
+    nameclashes can use this syntax (from freecad import module) -
+    current imports still work (backward cobatibility) - python
+    extension moduels can be installed (pip) to python std path (eg.:
+    site-packages)
+  *  be8f0ed83 - do some code clean-up and corrections in Selection
+    class
+  *  321229484 - fixes #0003153: Preselect: Show object label in status
+    bar
+  *  76474951d - Attacher UX enhancements
+  *  a78be0d9c - Misc. typos
+  *  5e4b64d99 - Draft: Add support for App::Part in Draft Clones
+  *  01f7894b2 - fix build failure on Windows due to conflicting define
+    with Win32 API
+  *  0a375d826 - Fix some more Quarter High DPI Display issues.
+    Partially fixes #3130 (the offset issue). Related to issue #2968.
+  *  be18a46df - add convenience methods to directly set/get a placement
+    to/from a shape
+  *  3058b0c71 - fixes #0003161: Shape Binder not at expected place
+  *  0681f490d - FEM: unit tests, use for all objects creations the fem
+    objects module
+  *  0692a8392 - FEM: objects module, add doc parameter to creation
+    tools
+  *  3d322773f - Add test for imperial linuxcnc
+  *  7a384f62b - added --inches flag to linuxcnc and smoothie post
+  *  863783113 - Path: refactor Surface
+  *  08a58f070 - support of keywords in Mesh.read and Mesh.write
+  *  6ed14ed76 - for boolean ops also support to pass single shape and
+    tolerance
+  *  13da3cd22 - remove deprecated Type attribute
+  *  a9d449389 - set default value of thrid parameter to None in
+    SeletionGatePython
+  *  a07226cea - use constraint to limit minimum and maximum degree
+  *  f8585e71c - add MaxDegree setting to Part.Loft
+  *  820976225 - Draft: temporary fix for regression introduced by
+    previous commit
+  *  99b3e46f3 - Draft: Fixed translate bug in non-GUI mode
+  *  79936fbca - Change 5d6b03eff to use isRemoving
+  *  a21ff8622 - Fix Symbol fail to paint
+  *  2e447dac3 - Fix crash due to QGraphicsScene update while
+    View.isDeleting()
+  *  63bfba664 - Make View backgrounds transparent
+  *  40d19d438 - Fix Symbol based View positioning
+  *  b6c820f4f - Add debug utils for QRectF/QPointF
+  *  c9b053770 - Reduced log level.
+  *  605afdfed - Fixed pocket final depth calculation and hide it from
+    user modifications.
+  *  2e2c04188 - PartDesign: Multi Transform Linear Pattern fix.
+  *  76e8d81ae - fix override warnings
+  *  7a17a34db - make computation of the length of an edge consistent to
+    the computation of a (limited) curve
+  *  501729a84 - fix possible memory leak in Robot module
+  *  770c9ce09 - fix various coverity issues
+  *  5c1eadf94 - misc typos
+  *  69e962b07 - fix override warnings
+  *  ed87b819c - fix override warnings
+  *  5e417af9c - disable testIssue2985
+  *  fc3ac1c77 - fix override warnings
+  *  b65d0f140 - use code from issue 0002985 for unit test
+  *  9d21da205 - expose FeatureAddSub to Python, fixes #0000955
+  *  09737f2db - rename method from remObject to removeObject to be more
+    readable
+  *  e34a623ae - avoid permanently throwing exception by attach engine
+  *  9d83392a4 - mark document objects with Destroy flag before deleting
+    them and handle this in the link properties
+  *  4b400fd98 - rename status bit 'Delete' to 'Remove' as it fits
+    better for its purpose, add new bit 'Destroy'
+  *  82537ca86 - fix access of dangling pointer (in case undo/redo is
+    off) use unique_ptr to delete object before leaving remoObject
+  *  f663a754c - fix cyclic dependency if body is created when creating
+    a shape binder
+  *  dda36a6d2 - add method to remove elements from PropertyLinkSubList
+  *  c401f9d75 - Replace Base property type with LinkSubListGlobal in
+    order to keep Path ops working.
+  *  76285ab78 - Removed debug logging.
+  *  c5a3f5bf6 - Fixed Job cancellation - to cleanup job again.
+  *  cdcb75c16 - Moved task panel cleanup into preCleanup to avoid
+    accessing already deleted objects in case of cancel.
+  *  154ead76a - Fixed job removal for non-path base objects
+  *  013965393 - qt5: win: use qtwebkit by default use -
+    DBUILD_QT5_WEBKIT=OFF to disable qtwebkit for qt5
+  *  29429af80 - Fem: fix one import statement for python3
+  *  5fe6b129c - Run recompute() after creating a Draft.clone.
+  *  dc13d85d3 - fix inconsistency between context-menu and default edit
+    mode PD primitives
+  *  eaf04d5bf - set invalid bounding box if no arguments passed
+  *  7ce28bea5 - add missing return
+  *  b08c939f4 - when accessing view provider of object make sure the
+    object hasn't been removed from the document, raise an exception
+    otherwise
+  *  be6b8dcd4 - create shape of sketch on project load in case it has
+    been saved without a recompute beforehand
+  *  612fbd487 - do some security checks to avoid accessing invalid data
+  *  a2628f95d - OriginGroupExtension: fix wrong static_cast
+  *  98bf3bdb4 - don't reverse orientation after converting mesh to
+    shape
+  *  da6976c2f - add example code to selection classes
+  *  656239948 - FEM: py3, set prints in brackets
+  *  d272c581e - FEM: unit test, make it simpler to add new directories
+    to the python module import test and add some comments
+  *  e70a1678f - fix warning
+  *  0f92c3e55 - Part: Attacher3D: new modes - align axes
+  *  96f3f0fa2 - Base: new Rotation constructor - on vectors
+  *  f8feb18a0 - Part: Attacher1D: new attachment mode "Normal to face"
+  *  576294d30 - Part: Attacher: fix normal-to-path vertex usage, #3175
+  *  155c0007e - add security check for data validation in FEM fluid
+    boundary panel
+  *  05b19019a - FEM: bugfix for Console print std::string which needs
+    c_str() conversion
+  *  3990115f6 - FEM: enable thermal and turbulence boundary setting UI
+  *  f9c188459 - FEM: enable edge selection for
+    FemConstraintFluidBoundary of 2D case
+  *  d11267ff1 - load/save setting in techdraw panel
+  *  c81050811 - fix path to resource file in UI forms
+  *  b9f5de85b - Handle Qt5 change from QString::sprintf to asprintf
+  *  d15cd94f1 - Ensure DrawView picks up DrawPage Scale at creation
+  *  dfe174aec - Use system Decimals, alternate or custom for Dimensions
+  *  833bd66a1 - Fix page alignment when change to different Template
+  *  ab28ef7f6 - Prevent crash when Source(s) have no Shape
+  *  485321f8e - Add requestPaint formerly in DrawView::execute
+  *  3e21b9786 - Fix handling of Scale change in DrawViewSymbol classes
+  *  9e6248acc - Add dumpSymbol method to DrawViewSymbol based classes
+  *  937957401 - Add preference for Template edit dot size
+  *  1722d1cd7 - Include osifont in TechDraw
+  *  781338c34 - Add RedrawPage command
+  *  b68b7badc - Fix #2967 Allow fcstd to open without drawing
+    TechDraw::DrawPage
+  *  d27b8387e - Eliminate superfluous DPG executes
+  *  137930c65 - Add Page level redraw signal
+  *  e8f2c68b5 - Allow DrawPage updates to be suspended
+  *  b9292683a - PathJobGui - use correct unit to show feedrates in the
+    tool tab.
+  *  ce61fac68 - Added buttons to use Z level of current selection for
+    start or final depth.
+  *  756ed3381 - Fix Shape Binder crash when nothing selected first
+  *  832e18689 - check for null shapes before performing boolean
+    operation
+  *  4e413800e - in repr() of DocumentObjectPy return the full class
+    name
+  *  dcd7da480 - support of loading old projects with shape binder or
+    PartDesign boolean
+  *  f92ea6690 - copy check for disabled or nested recomputes from old
+    implementation of recompute()
+  *  a1d1a4cb4 - updating Body, Part and Assembly icons
+  *  e260f9dab - improve whitespaces
+  *  e3f560ef3 - Prevent error messages when restoring a origin
+  *  f83424d5e - Remove unneeded debug print in test case
+  *  283ab961b - Ensure touched features, which override mustExecute(),
+    are recomputed.
+  *  71b781149 - Fix GeoFeatureGroup claimChildren in case some out-of-
+    group item links to a child
+  *  043965613 - Ensure that GeoFeatureGroup claims children when a
+    parent of it is deleted. fixes #0003150
+  *  0053e939e - Ensure finding the correct parent GeoFeatureGroup
+  *  9d4f1b754 - Make sure all relevant links are found for object in
+    GeoFeatureGroup. issue0003150
+  *  946e470a6 - Keep backlink consitent during undo/redo. issue 0003150
+  *  034219771 - PartDesign: Prevent problems with link scopes during
+    feature creation
+  *  0584c5677 - Fix deleting a Part
+  *  70692cddb - Update Group/Part Icons and copy/paste behaviour
+  *  fa273f730 - Prevent ViewProvider at toplevel when adding object to
+    Group in GeoFeatureGroup
+  *  d92b631da - Make Origins work well with scoped links
+  *  5b58fc77a - PartDesign: Fix multi pattern test
+  *  972b89d0a - Make PartDesign::Boolean work with new Link structure
+  *  96f8d944f - Make Group searching robust for cyclic dependencies.
+    fixes #0002567
+  *  f34c77211 - Add new icons for Part and Group
+  *  83f99ba1b - Prevent crash on cyclic group relations. fixes #0002567
+  *  61cfad502 - Add group command to structure toolbar
+  *  dd8709467 - Move App::Part to a separate global toolbar
+  *  6d40b1d64 - Ensure viewprovider is shown after drop from
+    claimChildren3D fixes #0003078
+  *  2dc09c5e4 - Tree: Adopt to special GeoFeatureGroup behaviours
+  *  67734d161 - PartDesign: ShapeBinder can link globally
+  *  79bb7b7f5 - DependencyGraph: show invalid links in red
+  *  d0954e6e4 - Allow interchangable use of link properties and their
+    derivatives
+  *  987a5b36b - Create special scope properties
+  *  3dccf50e8 - Introduce Scoped links to prevent cross cs links
+  *  51005bb81 - Fix _inList tracking in case of link removal
+  *  45d1acf9f - Test cross GeoFeatureLinks
+  *  c0a270a76 - Ensure objects to be in a single GeoFeatureGroup only
+  *  f96c69dee - Prevent cross GeoFeatureGroup links on recompute
+  *  ab85c6e78 - Make InList hadling and topological sort more robust.
+    fixes #0002871
+  *  03b63d3a4 - make ruled surface working when both curves references
+    the same part and a placement is set
+  *  af82cacf8 - extend ruled surface feature to combine edge with wire
+    as input shapes
+  *  f27617e63 - make sure to avoid duplicate child elements in view
+    provider of ruled surface
+  *  5a32fd588 - unit test: remove property while transaction is active
+    and abort it later
+  *  237a88070 - Add standard fullscreen mode
+  *  ff67ad791 - Added stock unit test to cmake files - so it actually
+    get's installed.
+  *  bfa035aab - Fixed unit tests for proper R calculation for
+    cylindrical stock.
+  *  778590cdb - Switched to textChanged instead of editingFinished for
+    better update experience.
+  *  abced1ba5 - Fixed changing Base of job and its resource creation.
+  *  caad9ee63 - Cleaned up tab order for job editor.
+  *  f40be9133 - Orderly deletion of a job.
+  *  8a9dc58c7 - Fixed operation update when TC changes - allow TC edit
+    abortion.
+  *  466486211 - Simplified UI; added support for arbitrary callbacks
+    for edit of icon view provider - use that to open up job editor with
+    appropriate page open (avoids back dependency from stock gui to job
+    gui).
+  *  454457d9e - Fixed TC naming without template.
+  *  e6249387f - Switched to using hand made stock objects even for the
+    basic types.
+  *  89f5bcded - Hide all unused controls for now.
+  *  e05442b03 - Fixed automatic update for PathStock.
+  *  9ade411aa - Use stander FC icons for up/down move of operations.
+  *  31e5710c6 - Added axis at origin display while editing.
+  *  4a735b372 - Added stock support to templates.
+  *  af4bac8ab - Added moving an operation up/down the list buttons.
+  *  8f77c7575 - Added support for centering the base object inside
+    stock.
+  *  caeab63ec - Fixed popup menu
+  *  5da6e15b7 - use min values to ceate valid stocks for panels.
+  *  016bca5e3 - Prevent stock from existing solid if there are no
+    solids in the file.
+  *  cb06794e7 - Removed obsolete path stock command and view provider.
+  *  614a0f83c - Fixed error stock from existing when selected again.
+  *  b778882f7 - Added stock creation.
+  *  f4ee27458 - Fixed tabstops in tool editor.
+  *  2b62412cc - Delete all subobjects of a job when the job itself is
+    deleted.
+  *  7241a5b79 - Fixed base object clone handling.
+  *  8158cd72c - Use correct icon for tool controller.
+  *  88e566cf4 - Added set origin.
+  *  f73a63eee - Added support for align move to origin.
+  *  ba0b5e548 - Added selection observer to enable/disable orientation
+    and alignment buttons.
+  *  b26e3a527 - Orientation along an edge.
+  *  c655281ea - Added orientation of part by faces.
+  *  ef93ba1d4 - Fixed moving operation back into job.
+  *  4fd8cbb40 - Swap visibility of clone and original while job editor
+    is up.
+  *  9209778b7 - Create clone for stock and go to some lengths to
+    enforce that.
+  *  3a392ec60 - Added tool controller edit in dialog and hooked it up
+    to job edit.
+  *  83ab3bd3f - Added combined dialog for TC editing - refactored UI
+    controller into separate class.
+  *  1c25c1520 - Fixed unit tests.
+  *  a440dabf5 - Add tool controller support with inplace editing.
+  *  c0d1fa49a - Added delete operation functionality; fixed adding to
+    job for dressups.
+  *  fd67690fa - Fixed some UI issues and enabled re-ordering of ops.
+  *  2bb83bebb - Split job commands into their own source file.
+  *  8c085226d - split PathJob into model and gui; Made PathJob a
+    regular feature and moved operations into child compound; Added
+    stock feature.
+  *  cbe77cde7 - Tux: capitalizing sting (ref: crowdin)
+  *  a265639eb - Outline previews get now created when the button is
+    pushed, not when the tool is loaded.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 22 Sep 2017 08:53:04 +0300
+
+freecad-daily (0.17~git11970-6de23532c-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/FreeCAD/FreeCAD.git
