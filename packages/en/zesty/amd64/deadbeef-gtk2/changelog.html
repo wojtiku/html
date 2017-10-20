@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package deadbeef-gtk2_0.7.2+git7418-a0422ae1-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package deadbeef-gtk2_0.7.2+git7443-593a395c-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,47 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package deadbeef-gtk2 in zesty of architecture amd64</h5>
-<div class="highlight"><pre><span></span>deadbeef (0.7.2+git7418-a0422ae1-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>deadbeef (0.7.2+git7443-593a395c-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
+  * Branch: master
+  * Commit: 593a395c102f719cbf1b2853bbe84a5a04b8449b
+  * Date: 1508424202
+  * git changelog:
+  *  593a395c - converter: added "re-tag after copy" option to GTK UI
+  *  efbf20bb - cocoaui: fixed a bug in playlist drawing, which was
+    causing visual artifacts on high sierra
+  *  e532aa12 - added long overdue missing 0.7.2 changelog
+  *  946f0713 - streamer: fix handling track play errors after full stop
+  *  adc495b4 - streamer: prevent sleeping while stopped but have events
+    to process
+  *  7b712a5c - streamer: don't reset last_played when it's removed from
+    playlist
+  *  a0b08b17 - replaygain: fixed applying replaygain even if RG info is
+    not present, but gain correction is not 0dB
+  *  44d2327b - cocoaui: fixed the plt_add_files_begin/plt_add_files_end
+    flow in multiple places
+  *  73737773 - fixed regression which caused gui plugin to be loaded
+    twice (fixes #1911)
+  *  a85c0796 - "ANRDOID" typo fix
+  *  57844b71 - core: merged relevant code changed from android branch
+  *  01050d4d - streamer: only reinit RG info on track / config changes
+  *  abdf1f4c - Merge branch 'coreaudio'
+  *  70cce050 - coreaudio: audioqueue impl improvements / polishing
+  *  6894cf34 - alsa: drain before switching format, to avoid file
+    descriptor in a bad state error (fixes #1909)
+  *  971d297b - Merge branch 'master' into coreaudio
+  *  a785c973 - improved test stability
+  *  128cab84 - Merge branch 'master' into coreaudio
+  *  3677eb87 - streamer: fixed regression causing wrong buffer size
+    calculation and resulting in audio corruption (fixes #1895)
+  *  4522e2f6 - premake: added sndfile plugin; fixed a typo in sndfile
+    Makefile.am
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 20 Oct 2017 12:20:12 +0300
+
+deadbeef (0.7.2+git7418-a0422ae1-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
