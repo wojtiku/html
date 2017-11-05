@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://notesalexp.org/packages/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/</loc>
     </url>
     <url>
@@ -142,18 +139,6 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/fatrat-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/freecad/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/freecad-daily/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/freecad-daily-doc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/freecad-doc/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/gimp/</loc>
     </url>
     <url>
@@ -247,12 +232,6 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/libmypaint-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/libnglib-4.9.13/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/libnglib-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/librecad/</loc>
     </url>
     <url>
@@ -290,15 +269,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/myrulib/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/netgen/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/netgen-doc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/netgen-headers/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/notesalexp-keyring/</loc>
@@ -1033,18 +1003,6 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/fatrat-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/freecad/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/freecad-daily/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/freecad-daily-doc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/freecad-doc/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/gimp/</loc>
     </url>
     <url>
@@ -1138,12 +1096,6 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/libmypaint-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/libnglib-4.9.13/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/libnglib-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/librecad/</loc>
     </url>
     <url>
@@ -1181,15 +1133,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/myrulib/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/netgen/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/netgen-doc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/netgen-headers/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/notesalexp-keyring/</loc>
@@ -2092,13 +2035,10 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libmypaint-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/libnglib-4.9.13/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/libnglib-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-foundation10/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-foundation11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-foundation-dev/</loc>
@@ -2107,10 +2047,16 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-modeling10/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-modeling11/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-modeling-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-ocaf10/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-ocaf11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-ocaf-dev/</loc>
@@ -2119,10 +2065,16 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-ocaf-lite10/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-ocaf-lite11/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-ocaf-lite-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-visualization10/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-visualization11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-visualization-dev/</loc>
@@ -2168,15 +2120,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/myrulib/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/netgen/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/netgen-doc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/netgen-headers/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/notesalexp-keyring/</loc>
@@ -3091,13 +3034,10 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/libmypaint-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/libnglib-4.9.13/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/libnglib-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-foundation10/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-foundation11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-foundation-dev/</loc>
@@ -3106,10 +3046,16 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-modeling10/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-modeling11/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-modeling-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-ocaf10/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-ocaf11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-ocaf-dev/</loc>
@@ -3118,10 +3064,16 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-ocaf-lite10/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-ocaf-lite11/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-ocaf-lite-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-visualization10/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-visualization11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-visualization-dev/</loc>
@@ -3167,15 +3119,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/myrulib/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/netgen/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/netgen-doc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/netgen-headers/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/notesalexp-keyring/</loc>
@@ -6952,6 +6895,36 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libnglib-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/liboce-foundation11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/liboce-foundation-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/liboce-modeling11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/liboce-modeling-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/liboce-ocaf11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/liboce-ocaf-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/liboce-ocaf-lite11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/liboce-ocaf-lite-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/liboce-visualization11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/liboce-visualization-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libqpx0/</loc>
     </url>
     <url>
@@ -7010,6 +6983,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/obkey/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/oce-draw/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/ocrfeeder/</loc>
@@ -7867,10 +7843,34 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/libmypaint-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/libnglib-4.9.13/</loc>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/liboce-foundation11/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/libnglib-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/liboce-foundation-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/liboce-modeling11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/liboce-modeling-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/liboce-ocaf11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/liboce-ocaf-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/liboce-ocaf-lite11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/liboce-ocaf-lite-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/liboce-visualization11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/liboce-visualization-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libqpx0/</loc>
@@ -7918,19 +7918,16 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/myrulib/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/netgen/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/netgen-doc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/netgen-headers/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/notesalexp-keyring/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/obkey/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/oce-draw/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/ocrfeeder/</loc>
@@ -11869,10 +11866,16 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-foundation10/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-foundation11/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-foundation-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-modeling10/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-modeling11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-modeling-dev/</loc>
@@ -11881,16 +11884,25 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-ocaf10/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-ocaf11/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-ocaf-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-ocaf-lite10/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-ocaf-lite11/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-ocaf-lite-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-visualization10/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-visualization11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-visualization-dev/</loc>
@@ -12799,10 +12811,16 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-foundation10/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-foundation11/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-foundation-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-modeling10/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-modeling11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-modeling-dev/</loc>
@@ -12811,16 +12829,25 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-ocaf10/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-ocaf11/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-ocaf-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-ocaf-lite10/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-ocaf-lite11/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-ocaf-lite-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-visualization10/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-visualization11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-visualization-dev/</loc>
@@ -13720,6 +13747,36 @@
         <loc>https://notesalexp.org/packages/en/zesty/amd64/libmypaint-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/liboce-foundation11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/liboce-foundation-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/liboce-modeling11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/liboce-modeling-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/liboce-ocaf11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/liboce-ocaf-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/liboce-ocaf-lite11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/liboce-ocaf-lite-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/liboce-visualization11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/liboce-visualization-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/zesty/amd64/librecad/</loc>
     </url>
     <url>
@@ -13763,6 +13820,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/amd64/obkey/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/oce-draw/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/amd64/ocrfeeder/</loc>
@@ -14596,6 +14656,36 @@
         <loc>https://notesalexp.org/packages/en/zesty/i386/libmypaint-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/liboce-foundation11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/liboce-foundation-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/liboce-modeling11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/liboce-modeling-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/liboce-ocaf11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/liboce-ocaf-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/liboce-ocaf-lite11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/liboce-ocaf-lite-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/liboce-visualization11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/liboce-visualization-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/zesty/i386/librecad/</loc>
     </url>
     <url>
@@ -14639,6 +14729,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/i386/obkey/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/oce-draw/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/zesty/i386/ocrfeeder/</loc>
@@ -15250,69 +15343,6 @@
         <loc>https://notesalexp.org/html/2017/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/html/2017/06/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/06/04/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/06/04/20170604/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/06/18/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/06/18/20170618/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/07/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/07/02/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/07/02/20170702/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/07/11/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/07/11/20170711/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/07/17/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/07/17/20170717/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/07/23/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/07/23/20170723/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/07/30/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/07/30/20170730/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/08/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/08/11/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/08/11/20170811/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/08/27/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/08/27/20170827/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/html/2017/09/</loc>
     </url>
     <url>
@@ -15343,19 +15373,28 @@
         <loc>https://notesalexp.org/html/2017/10/08/20171008/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/html/2017/10/20/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2017/10/20/20171020/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2017/11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2017/11/05/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2017/11/05/20171105/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/html/archives/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/author/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/html/author/page/2/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/html/blog/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/blog/page/2/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/categories/</loc>
@@ -15367,22 +15406,13 @@
         <loc>https://notesalexp.org/html/category/repozitorii/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/html/category/repozitorii/page/2/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/html/tag/deb/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/tag/deb/page/2/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/tag/make/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/tag/reps/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/tag/reps/page/2/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/tags/</loc>
@@ -15392,8 +15422,5 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/tag/update/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/tag/update/page/2/</loc>
     </url>
 </urlset> 

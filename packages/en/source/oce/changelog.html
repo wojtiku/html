@@ -40,12 +40,58 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of source oce </h5>
-<div class="highlight"><pre><span></span>oce (0.17.2-1+nmu1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>oce (0.18.2-2+nmu1) unstable; urgency=medium
 
   * Non-maintainer upload.
   * Backports from Sid
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 31 Dec 2016 13:04:03 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 29 Oct 2017 21:40:51 +0300
+
+oce (0.18.2-2) unstable; urgency=medium
+
+  * [3524c7e] Move all headers assigned to oce-draw into
+              liboce-visualization-dev. (Closes: #877560)
+  * [554ede0] Set compat level to 10
+  * [6865201] Set Standards-Version to 4.1.1
+
+ -- Anton Gladky &lt;censored&gt;  Tue, 03 Oct 2017 12:44:41 +0200
+
+oce (0.18.2-1) unstable; urgency=medium
+
+  [ Steve Langasek ]
+  * [1f5732d] Omit xlocale.h. (Closes: #875085)
+  * [b25b9da] Set LD_LIBRARY_PATH for dh_auto_test. (Closes: #875123)
+
+  [ Anton Gladky ]
+  * [5ef5f50] Bump Standards-Version 4.1.0. Change priority extra->optional.
+  * Upload into unstable
+
+ -- Anton Gladky &lt;censored&gt;  Sat, 23 Sep 2017 18:47:24 +0200
+
+oce (0.18.2-1~exp1) experimental; urgency=medium
+
+  * [09e34d6] New upstream version 0.18.2
+  * [1686d2b] Refresh patches
+  * [7061ff7] Update install files
+  * [0266103] Sort lines in install-files
+  * [f1f09b3] Minor fixes in d/control
+  * [69f73a6] Increase so-version, update package names
+  * [29baf01] Set Standards-Version: 4.0.0
+  * [8b65cbd] Remove libglu-dev from build-depends
+  * [a451f24] Remove XS-Autobuild: no from d/control
+  * [d177bb7] Remove old Conflicts/Replaces
+  * [f82c331] Simplify Depends-section
+  * [31a92cb] Apply cme fix dpkg
+  * [fb865c4] Set maximal hardening level
+
+ -- Anton Gladky &lt;censored&gt;  Sat, 26 Aug 2017 22:30:24 +0200
+
+oce (0.17.2-2) unstable; urgency=medium
+
+  [ Janus Weil ]
+  * [c25582f] Prevent DRAWEXE from being added to OCE_LIBRARIES.
+
+ -- Anton Gladky &lt;censored&gt;  Fri, 14 Apr 2017 22:35:14 +0200
 
 oce (0.17.2-1) unstable; urgency=medium
 

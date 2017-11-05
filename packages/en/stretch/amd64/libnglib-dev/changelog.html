@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libnglib-dev_4.9.13.dfsg-8+nmu1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package libnglib-dev_4.9.13.dfsg-11+nmu1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,12 +41,45 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libnglib-dev in stretch of architecture amd64</h5>
-<div class="highlight"><pre><span></span>netgen (4.9.13.dfsg-8+nmu1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>netgen (4.9.13.dfsg-11+nmu1) unstable; urgency=medium
 
   * Non-maintainer upload.
   * Backports from Sid
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 31 Dec 2016 22:00:44 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 03 Nov 2017 14:31:28 +0300
+
+netgen (4.9.13.dfsg-11) unstable; urgency=medium
+
+  * [f9d1707] Disable deprecated in oce functions
+
+ -- Anton Gladky &lt;censored&gt;  Thu, 21 Sep 2017 21:17:40 +0200
+
+netgen (4.9.13.dfsg-10) unstable; urgency=medium
+
+  * [f5aa1b2] Mark libnglib-4.9.13 as Multi-Arch: same
+  * [5db4cfb] Update d/watch.
+  * [c2dc4fc] Remove readme-files.
+  * [2265ee3] Remove netgen.maintscript
+  * [75b9e90] Install some more headers.
+
+ -- Anton Gladky &lt;censored&gt;  Sun, 16 Jul 2017 20:04:53 +0200
+
+netgen (4.9.13.dfsg-9) unstable; urgency=medium
+
+  * [f6e3fde] Use dh 10 instead of cdbs. Simplify d/rules.
+  * [46777a6] Move manpages into debian/manpages.
+  * [c1dcc84] Install all tcl-files.
+  * [dcc5d61] Drop executable flag in tcl
+  * [f32f653] Fix startup-crash. (Closes: #782361)
+  * [2df4370] Remove tix-dev from depends of netgen. (Closes: #736402)
+  * [f4d1b41] Remove Christophe from uploaders. (Closes: #835018)
+  * [96633b5] Add netgen-doc in suggests-section of netgen. (Closes: #849901)
+  * [c11431b] Add myself to uploaders.
+  * [028961d] Use DEP-5 for d/copyright.
+  * [1a813c8] Apply cme fix dpkg.
+  * [b68a25e] Fix indent in d/copyright.
+
+ -- Anton Gladky &lt;censored&gt;  Sun, 16 Jul 2017 17:03:28 +0200
 
 netgen (4.9.13.dfsg-8) unstable; urgency=medium
 
