@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | ChangeLog of package gscan2pdf_1.8.8+git2699-41e9a451-1_all.deb </title>
+    <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
+    <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="https://notesalexp.org/packages/css/package.css" type="text/css" />
+    <meta name="generator"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://notesalexp.org/html/">Home</a></li>
+                <li><a href="https://notesalexp.org/html/update.html">Update</a></li>
+                <li><a href="https://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li><a href="https://notesalexp.org/html/donate.html">Donate</a></li>
+                <li><a href="https://notesalexp.org/packages/en/contact.html">Contact</a></li>
+                <li class="selected" ><a href="https://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="https://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="https://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+        <div id="pnavbar">
+            &nbsp;&#x2F;<a href="https://notesalexp.org/packages">Packages</a>
+            &nbsp;&#x2F;<a href="https://notesalexp.org/packages/en/artful/i386">artful&nbsp;&#x2F;i386</a>
+            &nbsp;&#x2F;<a href="https://notesalexp.org/packages/en/artful/i386/gscan2pdf"> gscan2pdf </a>
+            &nbsp;&#x2F; ChangeLog
+        </div> <!-- end navbar -->
+    </header>
+    <div id="wrapper">
+        <div id="content">
+<div class="page">
+<h5>ChangeLog of package gscan2pdf in artful of architecture i386</h5>
+<div class="highlight"><pre><span></span>gscan2pdf (1.8.8+git2699-41e9a451-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.code.sf.net/p/gscan2pdf/code
+  * Branch: master
+  * Commit: 41e9a451514a67348fb575f84309e2f5855668cc
+  * Date: 1509301354
+  * git changelog:
+  *  41e9a451 - Bumped version to 1.8.8
+  *  72377f43 - Update to Hungarian translation
+  *  59d10b7d - Fix Perl warning about redundant argument in sprintf
+  *  a2644b9a - Fix 16-bit PNM parsing
+  *  343bd4b5 - Fix race condition updating widgets before they can be
+    created after cycling device handle
+  *  8b30ea33 - Remove erroneous skip in t/166
+  *  4369b315 - Fix default value for unpaper script direction
+  *  effd3817 - Don't hardcode grey levels into rtl test
+  *  57875991 - Add option to profile only after successfully applying
+    it
+  *  204486fe - Filter out 1 and 2 digit integers from tool warnings.
+    Show original message, not filtered message.
+  *  d5374836 - Postrelease commit
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 02 Nov 2017 11:53:24 +0300
+
+gscan2pdf (1.8.7+git2688-672da3f6-2) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.code.sf.net/p/gscan2pdf/code
+  * Branch: master
+  * Commit: 672da3f6edc2bfe762d2010724f0a3266cc45d3d
+  * Date: 1506098229
+  * git changelog:
+  *  672da3f6 - Prerelease commit
+  *  b512c23a - Fixed bug requiring scan dialog to be requested twice
+    after changing frontend
+  *  42cdb189 - Bumped version to 1.8.7
+  *  b7f31f5b - Take filename of PDF to email from default filename
+    settings (and therefore from metadata). If this produces a blank
+    filename, use "document.pdf".
+  *  96fd6efc - Right mouse click in thumbnail panel makes the page
+    range (e.g. in save dialogue) default to "selected".
+  *  97d72372 - Update to Hungarian translation
+  *  d1541154 - Fixed visibility of options in save dialogue (again)
+  *  d2d82f1a - Filter out integers from tool warnings, analogous to the
+    hex warnings from unpaper
+  *  6c00943b - Fixed bug causing profile dropdown to be cleared after
+    setting profile
+  *  8b5209f6 - Ghost save button, rather than hiding save dialogue if
+    all pages removed
+  *  3e0d58c8 - Fixed crash with scanimage frontend due to empty cache
+  *  9142ae0d - - Reload recursion limit in Edit/Preferences Set reload
+    recursion limit as triangular number of number of scan options.
+  *  566aa01d - Fix Poppler PostScript backend not listed in Save dialog
+  *  09ad88ee - Update POD text for libsane-perl removal
+  *  d4e9c601 - Fix unsupported libsane-perl offered as Frontend choice
+  *  41b0c26b - + units to edit paper dialogue
+  *  2eb4df98 - + units to scan dialogue
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 22 Sep 2017 22:44:57 +0300
+
+gscan2pdf (1.8.6+git2671-eedfcd94-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.code.sf.net/p/gscan2pdf/code
+  * Branch: master
+  * Commit: eedfcd948332e8c8776de14dfd070eb1f94380b4
+  * Date: 1503419612
+  * git changelog:
+  *  eedfcd94 - Fixed unpaper detection for v0.3
+  *  d41e6c30 - Bumped version to 1.8.6
+  *  c7e678fe - Reapply only those current scan settings that were reset
+    by the reload
+  *  463bb654 - + Reload recursion limit in Edit/Preferences Break of
+    out reload recursion loop if maximum number of reloads is exceeded.
+  *  b74d061b - Tidied t/175_open_session2.t
+  *  1ccc4c9e - Fixed visibility of options for DjVu, JPEG, & TIFF in
+    save dialogue
+  *  d0b03189 - Post release commit
+  *  465ef124 - Prerelease commit
+  *  a30e5835 - Bumped version to 1.8.5
+  *  9e2cc8d7 - Update to Slovak translation
+  *  a9f2aafd - + A3 to default paper sizes
+  *  82379946 - Eliminate unnecessary strings from gscan2pdf.pot to
+    prevent unnecessary work and confusion on the part of the
+    translators
+  *  7c91a531 - Reapply current scan settings for those scanners that
+    reset them when forcing a reload
+  *  6ab7e2ef - +
+    Gscan2pdf::Scanner::Profile::remove_backend_option_by_name()
+  *  461da3ce - - support for libsane-perl
+  *  1d2fe5a0 - Fix test failures due to incorrect test count
+  *  ad0090fe - Fix test failures due to timezone in metadata
+  *  470975f9 - Fix test failures due to warning from unpaper
+  *  30f9d137 - Update to Hungarian translation
+  *  515cdb9d - Log program versions as well as their existence
+  *  d88bc517 - Suppress warning messages reading empty files in /etc/*-
+    release
+  *  c65f7b4f - + support for Poppler (pdftops) as postscript backend
+  *  88356bf2 - ImageMagick-6.9.9.3 reports bytes
+  *  745821df - file-5.31 cannot recognize PGM files
+  *  987c8665 - Post-release commit
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 25 Aug 2017 02:33:46 +0300
+
+gscan2pdf (1.8.4+git2646-4123a3f-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.code.sf.net/p/gscan2pdf/code
+  * Branch: master
+  * Commit: 4123a3f82ab14bf75e18f17dce4063d34670f911
+  * Date: 1501267151
+  * git changelog:
+  *  4123a3f - Bumped version to 1.8.4
+  *  43e1ab0 - Fixed bug updating list of option-dependent values
+  *  a20d3e4 - Round scan options with ranges to valid values before
+    applying. Closes bug #264 (Effective resolution is 75 DPI despite
+    selecting 600 or 1200).
+  *  892595e - * Fixed bug writing postscript file. * + support for
+    ghostscript backend due to apparent bug in tiff2ps.
+  *  94158dc - Renumber some tests to make room for more
+  *  fff83eb - In preparation for future removal of libsane-perl
+    frontend, change default frontend libsane-perl -> libimage-sane-
+    perl, and similarly switch selected frontend on upgrade from older
+    version.
+  *  136eac9 - be is dead - removing .be
+  *  d670392 - Silence undefined units warnings in tests
+  *  c4d88a7 - Fix paragraph formatting in save as text output
+  *  03330c9 - + t/0821_Frontend_Image_Sane.t
+    t/0822_Frontend_Image_Sane.t t/0823_Frontend_Image_Sane.t
+  *  bdf8366 - Assume pixels/inch if the image doesn't know better
+  *  1965b69 - Fix race condition in t/0823_Frontend_Sane.t
+  *  6e901c3 - Fix race condition causing failures in
+    t/0610_Dialog_Scan_Image_Sane.t & t/0610_Dialog_Scan_Sane.t
+  *  fa9be5b - t/421_cuneiform.t: Update number of skipped tests
+  *  12917c6 - Cope with Tesseract 3.0.5 writing Page 1 instead of Page
+    0
+  *  e805d7b - Post release commit
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 30 Jul 2017 20:48:41 +0300
+
+gscan2pdf (1.8.3+git2630-e61d7e1-2) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.code.sf.net/p/gscan2pdf/code
+  * Branch: master
+  * Commit: e61d7e1f3a6e3bf298d82e8dc53f26ff32049d47
+  * Date: 1498925912
+  * git changelog:
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 02 Jul 2017 13:09:57 +0300
+
+gscan2pdf (1.8.2+git2622-9fe315b-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.code.sf.net/p/gscan2pdf/code
+  * Branch: master
+  * Commit: 9fe315b489720c5e49dfd927968ab9deb2c87e8f
+  * Date: 1496337525
+  * git changelog:
+  *  9fe315b - Prerelease commit
+  *  43cede0 - Bumped version to 1.8.2
+  *  e5834e0 - + support for scanimage v1.0.27
+  *  5314c94 - Allow another gray level in t/357_unpaper_rtl.t
+  *  14a4c67 - Fix OCR being ghosted when Tesseract is installed
+  *  dd64c13 - Tidy t/0605_Dialog_Scan.t
+  *  ff97daf - Don't ignore warnings from unpaper
+  *  8c04239 - Post release commit
+  *  f1aa7d3 - Prerelease commit
+  *  c6b4acf - Comment out attempt to renable tests during debian build
+  *  f132fac - Bumped version to 1.8.1
+  *  4128e4e - Fixed multipage scanning for Samsung CLX-4190
+  *  bcc8fd1 - + more tests for Gscan2pdf::Canvas
+  *  5730f77 - Update to Slovak translation
+  *  2eea0c5 - Update to Traditional Chinese translation
+  *  5b58a38 - Change metadata filename codes to use strftime
+  *  c79615a - Convert like() to is() in hocr tests
+  *  80cb7a5 - lib/Gscan2pdf/Canvas.pm: refactor arguments of
+    boxed_text() to satisfy P::C 1
+  *  ddd81be - lib/Gscan2pdf/Canvas.pm: Remove unnecessary variable
+  *  24a1f7f - Canvas.pm: new function for text transformation
+  *  b484148 - Page.pm: refactor _boxes2hocr()
+  *  e97fc7e - Canvas.pm: refactor hOCR generation from canvas
+  *  c81e869 - fix storage, calculation and display of boxes' baseline
+    value
+  *  671299a - Canvas.pm: improve gocr output, less special casing for
+    it
+  *  547b4cd - Canvas.pm: fix box offsets & text rotation
+  *  7d97145 - Update to Hungarian translation
+  *  f8ade09 - More logging for CLI frontend
+  *  5106062 - + ppm & pbm extensions to open file chooser
+  *  3af5243 - + icons/gscan2pdf-papyrus.svg for use with Papyrus-like
+    themes
+  *  8b7f4e4 - Suppress warning messages caused by undefined current_udt
+  *  5604303 - Improve support for button-type scan options
+  *  84904dc - Document closing feature request #75
+  *  3b4eb22 - Make RTL test work for other versions of ImageMagick
+  *  24ea0e2 - Fixed display of tesseract error messages
+  *  b637ce1 - Document closing some old bugs and feature requests
+  *  c7c489f - Consistently ghost unpaper and ocr options if appropriate
+    executables not available
+  *  b93a44f - Prerelease commit
+  *  fb2c322 - Update to Slovak translation
+  *  434381d - Update to Italian translation
+  *  20d284c - Bumped version to 1.8.0
+  *  8589278 - Add Czech translation to AppData XML file
+  *  4f6161d - Make AppData XML file strictly conforming
+  *  3ee28e5 - Document cosmetic patches from Peter Marschall
+  *  8f55629 - Scan dialog: use border around Page Options tab contents
+  *  0e0f4ab - Clean up dialog (unpaper): add border around tab contents
+  *  57b87ae - Scan dialog: set borders in scan option tabs
+  *  4b66d62 - fix preference label: make clear it applies to DjVu too
+  *  94d20cb - add degree sign to Rotate operations
+  *  10cb7b2 - Save dialog: keep action buttons always on bottom of
+    dialog
+  *  5b8c6ed - Save dialog: do not vertically expand Image type
+    selection
+  *  7313ced - Document patch making config location XDB-compliant
+  *  89fb293 - use XDG-compliant config file placement
+  *  698d670 - Fix crash caused by undefined profiles in .gscan2pdf
+  *  7a0e5b0 - Document option to convert filename whitespace to
+    underscores
+  *  76d609a - new config setting: save blanks as underscores
+  *  ff7ef35 - Document brightness + contrast patch
+  *  03ad0b3 - Ignore email address in POD spelling check
+  *  f0a3e75 - Fixed unpaper in process chain
+  *  8c5abbf - add tool to set brightness and contrast
+  *  1ccd2f6 - Document no-mask-center patch and fix test
+  *  382c164 - Unpaper.pm: support option --no-mask-center
+  *  1edf736 - Tidied and documented patch from Chris Mayo
+  *  c43f025 - Gscan2pdf::Tesseract: support output to stdout instead of
+    temporary file
+  *  4af6081 - Update for Tesseract v3.05.00 information written to
+    stdout
+  *  d21ad34 - Document closed issues
+  *  9f9437c - Added "Writing system" option in "Clean Up" (unpaper)
+    dialogue, affecting the order in which the pages are imported when
+    scans are split.
+  *  f6c07a1 - Postrelease commit
+  *  856a9cc - Prerelease commit
+  *  05466e2 - gmail->posteo
+  *  9a2f8d5 - Bumped version to 1.7.3
+  *  8995d62 - Force resolution to be integer for DjVu to prevent errors
+    whilst saving
+  *  7d0acc3 - Hide progress bar on error, as the finished callback is
+    no longer called
+  *  f6a42cb - Document closing bug #241 (Scan Document window cannot be
+    opened if no scanner was found)
+  *  903ce20 - Fixed bug updating post-save hooks if save dialog already
+    opened
+  *  ff27af3 - Fix bug presenting blank scan dialog if no devices found
+  *  9227809 - Post-release commit
+  *  350344e - Prerelease commit
+  *  88efc9e - Bumped version to 1.7.2
+  *  61cdfba - Reload default scan settings after rescanning for devices
+  *  09e3583 - Suppress errors from CLI frontends caused by rounding
+  *  ce2c590 - Fixed warning when source option has no value
+  *  07d7fd5 - debian/changelog 1.6.0-4 & 1.7.1-1
+  *  07a36f3 - Document closes Debian bug #852506
+  *  5c2edce - Document bug #221 fixed
+  *  6a04f11 - Prerelease commit
+  *  56133bd - Fixed bug attaching PDF to email
+  *  ccc7917 - Fix globbing bug whilst clearing up temporary files
+  *  11943cb - Relax 6 tests slightly to deal with results from
+    (probably) a different version of ImageMagick
+  *  0dc888d - Fixed bug saving when no post-save hooks defined
+  *  3117362 - Fixed bug setting preferences
+  *  0aee163 - Bumped version to 1.7.1
+  *  92af78e - Refactor add_metadata_dialog() to reduce duplication
+  *  65b21a6 - Move add_metadata_dialog() to Gscan2pdf::Dialog
+  *  fe6a13b - Post-release commit
+  *  0386ad3 - Prerelease commit
+  *  ff19245 - Bumped version to 1.7.0
+  *  5b71ff0 - Updated list of translators
+  *  7a5e2b0 - Update to Slovak translation
+  *  f7ca53a - Update to Catalan translation
+  *  e2404b2 - 2016->2017
+  *  f96c832 - Fix saving TIFF with compression
+  *  bc02ce4 - Add BUILD_REQUIRES to Makefile.PL to be clear what is
+    needed to run tests
+  *  6cd2b47 - Fix occasional test failure in t/1601_import_DjVu.t
+  *  e8bf1ac - Cherry-picked several merge requests from Chris Mayo
+    fixing tests and documentation
+  *  05cd08a - Gscan2pdf::Tesseract: fix applying threshold to image
+    with alpha channel
+  *  0537480 - Fix broken web links
+  *  dbccd59 - Update Debian, SourceForge, GNU and Wayback links to
+    https
+  *  60b4d3f - 0823_Frontend_Sane.t: Make compatible with file >= 5.23
+  *  c590824 - Workaround Gtk2::Ex::PodViewer inability to parse unicode
+  *  ea25447 - 1123_save_pdf_with_utf8: ensure chosen font supports
+    Russian
+  *  dbff49d - Improve "See Also" documentation
+  *  75b2534 - debian changelog for 1.6.0-2
+  *  c5cbc42 - Correctly scale boundary boxes when importing text layer
+    of PDF
+  *  b23db96 - Catch error setting timestamp for dates prior to 1970
+  *  1e98cb6 - Fixed bug preventing append/prepend PDF in combination
+    with set timestamp
+  *  ef11288 - Refactor magic numbers
+  *  0b6dda5 - Refactor preferences to reduce complexity
+  *  b2db4df - Refactor magic numbers
+  *  68dfb7c - + --import command-line option
+  *  a93158c - + option in Edit/Preferences to force # pages = all if
+    ADF if selected
+  *  960e30b - Fix tooltips in preferences
+  *  6e4dd57 - Document closing bug #147 (infinite loop using libsane-
+    perl and flat scanner)
+  *  b0d39b1 - + post-save hook
+  *  b98ddb7 - Postrelease commit
+  *  5ebd4d6 - Prerelease commit
+  *  88a1ad4 - Fix empty string to satisfy P::C 2
+  *  170195f - Fix documentation typo about Translations
+  *  b006bc4 - Fix reordering where page inserted rather than moved to
+    end
+  *  0175581 - Eliminate each() to remove need for Dumper() call whilst
+    iterating over profile
+  *  1ac14fb - Tidy lib/Gscan2pdf/Dialog/Scan.pm
+  *  960e9e0 - Refactor loops over profiles to use iterators
+  *  9484bbb - Refactor profile code into Gscan2pdf::Scanner::Profile
+  *  9262a42 - Sort config file and ensure only currently used settings
+    are stored
+  *  b5ddf75 - + option to change the pdf and djvu access and
+    modification times to the metadata date
+  *  21354b1 - Eliminate warnings when reloading scan options with
+    option groups
+  *  0c5a1c1 - Fix warning parsing date in metadata
+  *  2829d7b - Refactor most system() calls to use IPC::Open3 to
+    eliminate need to escape special characters from shell.
+  *  082d4dd - Document and tidy previous patch, and make it satisfy
+    P::C 1
+  *  3da5206 - Save image without a shell
+  *  a3ba79f - Store document date as offset (reverted code introduced
+    in v1.3.9)
+  *  d0bde23 - Bumped version to v1.6.0
+  *  484be48 - + support for brackets in imported djvu hidden layer
+  *  0085896 - Document Closes feature request #76 (Append to pdf
+    option)
+  *  07b0bdc - + support for dragging files from Nautilus (or Konqueror,
+    or anything that delivers URIs)
+  *  065b8cf - Catch errors importing text layer of DjVu
+  *  476cbd0 - Bumped version to 1.5.5
+  *  109027e - Refactor duplicate delete_selection code
+  *  089e89e - Fixed drag-and-drop operations broken in v1.5.2
+  *  357fafb - Fixed test depending on version number
+  *  e6ffbc5 - Fix deleting pages by selecting thumbnails and hitting
+    delete key
+  *  ce22750 - Document and tidy image depth patch, add test
+  *  7808c3a - Reset image depth on export to PDF
+  *  8acc54a - Bumped version to v1.5.4
+  *  5a868cd - Fixed bug preventing # pages = all by default, even with
+    ADF
+  *  b877d30 - Added missing comma in test description
+  *  ddcad9c - Fixed cycle SANE handle error when using frontend other
+    than libsane-perl.
+  *  3b18607 - Fixed useless interpolation of literal strings to satisfy
+    P::C 1
+  *  46a6b54 - Prerelease commit
+  *  b963a7a - Fixed Perl warnings if backend offers no "source" scan
+    option
+  *  d2feeb1 - Correct documentation about make test.
+  *  943035a - Bumped version to v1.5.3
+  *  510cbc8 - Updated list of translators
+  *  d7451a8 - Update to Slovak translation
+  *  67a93a8 - Update to Catalan translation
+  *  a774c0d - Clear up more temporary files after use
+  *  76fbd6d - Correct typo in comment
+  *  3364ad5 - Fixed cycle SANE handle option to reset options after
+    reloading
+  *  d59152c - Correct typo in comment
+  *  01522af - Changed default compression for lineart PDFs to PNG
+  *  333cc47 - Fixed bug copy-pasting pages where subsequent operations
+    on new pages are carried out on old pages.
+  *  9b9062c - Added scroll bars to all tabs on scan dialog
+  *  91f5457 - Prerelease commit
+  *  bc10dd3 - Update appdata.xml
+  *  d577b6e - Filter out double memory address from unpaper warning
+  *  5ed5534 - Force paypal donate page to English
+  *  f78658f - Bumped version to 1.5.2
+  *  5fb2bad - Updated list of translators
+  *  57340d8 - Update to Slovak translation
+  *  d216a38 - Support hand-scanner option in test backend
+  *  480de97 - + translate url to appdata.xml
+  *  3d382d8 - If the output from user-defined tool is pnm, there is no
+    way to tell the resolution, so assume that it is the same as the
+    input
+  *  9944713 - Encode document date in ASCII to workaround a bug in
+    PDF::API2 where UTF-8 encoding caused garbage in the metadata
+  *  0720746 - Removed unused get_pagelist()
+  *  970ae72 - Removed metadata variables %h, %i, %s, adding %H, %I, %S
+  *  fc8d977 - Fixed bug prepending or appending to a PDF with a space
+    in the path
+  *  f435a6d - Refactored code handling geometry options to reduce
+    complexity and duplication
+  *  53f0b6a - Prerelease commit
+  *  c894de7 - When saving profile, if name already exists, add warning
+    and don't duplicate the combobox text
+  *  82b1ad1 - Fix History encoding
+  *  dba55ef - Note closure of Debian bug #831597
+  *  4010984 - When paper in use, hide other geometry widgets
+  *  959378d - Those frontend settings stored in profiles need not be
+    stored in general settings
+  *  9a8d956 - Store and apply backend (scanner-specific) and gscan2pdf
+    settings separately
+  *  87be4d5 - Rename enum Gscan2pdf::Scanner::Dialog::Side ->
+    Gscan2pdf::Dialog::Scan::Side
+  *  6f2c2bc - Factored _set_available_scan_options() out of
+    Gscan2pdf::Dialog::Scan::SET_PROPERTY() to reduce complexity
+  *  f5c6883 - Bumped version to 1.5.1
+  *  291818d - Correct description of limitations in PDF import
+  *  747d68e - Suppress P::C unnamed literal warning
+  *  de851a1 - Factored _set_num_pages() out of
+    Gscan2pdf::Dialog::Scan::SET_PROPERTY() to reduce complexity
+  *  f4d9afd - Factored _set_allow_batch_flatbed() out of
+    Gscan2pdf::Dialog::Scan::SET_PROPERTY() to reduce complexity
+  *  6acd6f7 - Factored _add_device_combobox() out of
+    Gscan2pdf::Dialog::Scan::INIT_INSTANCE() to reduce complexity
+  *  9421b0b - Fix Cant use string ("gimp %i") as an ARRAY ref
+  *  03ed1cc - Post-release commit
+  *  65036d9 - Prerelease commit
+  *  f0b10bd - Bumped version to 1.5.0
+  *  a809b49 - Updated list of translators
+  *  7ab2790 - Update to Occitan (post 1500) translation
+  *  b9e7762 - + option not to close save dialog
+  *  3ae287c - Show warning when importing a PDF if number of images is
+    not equal to number of pages.
+  *  a9d88a9 - Bumped version to 1.4.1
+  *  a7643ff - Store date as string to avoid time zone problems
+  *  4bc2ccd - + option in Edit/Preference to allow/forbid batch
+    scanning from a flatbed
+  *  cd710ce - Also import text layer when importing PDF
+  *  3adb736 - Also import text layer when importing DjVu.
+  *  8688ecb - Post-release commit
+  *  d2c6004 - Prerelease commit
+  *  4117632 - Updated list of translators
+  *  83a0597 - Bumped version to 1.4.0
+  *  a0b9593 - Update to French translation
+  *  940baba - Moved user-defined tools admin back to preferences
+  *  6b089eb - test setting paper-formats before the scan options are
+    fetched
+  *  269d8f2 - Remove unused variable
+  *  3021dc1 - lib/Gscan2pdf/Frontend/CLI.pm: suppress warning if device
+    list is empty
+  *  d60f1ed - Save session after ocr
+  *  a082185 - Save session after an action rather than before so as not
+    to lose the last action in the event of a crash
+  *  4794dca - Correct hiding/showing of widgets when saving JPEG
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 04 Jun 2017 15:25:59 +0300
+
+gscan2pdf (1.3.8+git20160317-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 018c3a312bb6361495e9a51e191223baba944b22
+  * Date: 1458236264
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 19 Mar 2016 11:13:49 +0300
+
+gscan2pdf (1.3.8+git20160210-2) unstable; urgency=medium
+
+  * lintian fix
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 07 Mar 2016 13:22:28 +0300
+
+gscan2pdf (1.3.8+git20160210-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: fd0860dc40bad90f67a8545042bee2ad79ee7354
+  * Date: 1455223365
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 19 Feb 2016 22:23:38 +0300
+
+gscan2pdf (1.3.7+git20160116-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: d31cc2822d1f240c04d32bfe58cf6b45b63ff5ea
+  * Date: 1452948016
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 23 Jan 2016 01:10:13 +0300
+
+gscan2pdf (1.3.6+git20151220-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: c50104500151ebc2c5bbe89b1db4e89cbdf26b86
+  * Date: 1450641137
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 25 Dec 2015 23:18:17 +0300
+
+gscan2pdf (1.3.5+git20151007-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: caf312407ddec14b594d52cfbd375fc8ce5e4f94
+  * Date: 1444244738
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 17 Oct 2015 13:29:19 +0300
+
+gscan2pdf (1.3.4+git20151001-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 1b6f540e7465d211bfc3b456167253822eda62a5
+  * Date: 1443734211
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 03 Oct 2015 17:22:48 +0300
+
+gscan2pdf (1.3.4+git20150804-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 384be8a1ef6640b33f4a2c4af1074be1176ca0ea
+  * Date: 1438716753
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 14 Aug 2015 23:30:16 +0300
+
+gscan2pdf (1.3.2+git20150513a-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: b97b37502071fbc835a914bac08a010e57bc17f2
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 07 Jun 2015 21:44:06 +0300
+
+gscan2pdf (0.9.31+git20101114-1) unstable; urgency=low
+
+  * Initial release (Closes: #123456)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 01 Dec 2010 22:08:23 +0300
+</pre></div>
+</div></div>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                <a href="https://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+                &middot;
+                <a href="https://t.me/notesalexp" rel="alternate">Telegram channel</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-101010045-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
+
