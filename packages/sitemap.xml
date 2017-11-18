@@ -190,6 +190,9 @@
         <loc>https://notesalexp.org/packages/en/artful/amd64/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/keepassxc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/kvirc/</loc>
     </url>
     <url>
@@ -898,6 +901,9 @@
         <loc>https://notesalexp.org/packages/en/artful/amd64/vacuum-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/veracrypt/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/znotes/</loc>
     </url>
     <url>
@@ -1082,6 +1088,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/gscan2pdf/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/keepassxc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/kvirc/</loc>
@@ -1792,6 +1801,9 @@
         <loc>https://notesalexp.org/packages/en/artful/i386/vacuum-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/veracrypt/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/znotes/</loc>
     </url>
     <url>
@@ -1967,6 +1979,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/gscan2pdf/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/keepassxc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/kvirc/</loc>
@@ -2831,6 +2846,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/gscan2pdf/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/keepassxc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/kvirc/</loc>
@@ -3722,6 +3740,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/gscan2pdf/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/keepassxc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/kvirc/</loc>
@@ -4721,6 +4742,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/gscan2pdf/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/keepassxc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/kvirc/</loc>
@@ -6607,6 +6631,9 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/keepassxc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/kvirc/</loc>
     </url>
     <url>
@@ -7516,6 +7543,9 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/keepassxc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/kvirc/</loc>
     </url>
     <url>
@@ -8311,6 +8341,9 @@
         <loc>https://notesalexp.org/packages/en/source/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/keepassxc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/kvirc/</loc>
     </url>
     <url>
@@ -8618,6 +8651,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/gscan2pdf/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/keepassxc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/kvirc/</loc>
@@ -9572,6 +9608,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/gscan2pdf/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/keepassxc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/kvirc/</loc>
@@ -13591,6 +13630,9 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/keepassxc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/kvirc/</loc>
     </url>
     <url>
@@ -14534,6 +14576,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/gscan2pdf/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/keepassxc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/kvirc/</loc>
@@ -15481,6 +15526,9 @@
         <loc>https://notesalexp.org/packages/en/zesty/amd64/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/zesty/amd64/keepassxc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/zesty/amd64/kvirc/</loc>
     </url>
     <url>
@@ -16390,6 +16438,9 @@
         <loc>https://notesalexp.org/packages/en/zesty/i386/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/zesty/i386/keepassxc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/zesty/i386/kvirc/</loc>
     </url>
     <url>
@@ -17177,6 +17228,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2017/11/05/20171105/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2017/11/18/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2017/11/18/20171118/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
