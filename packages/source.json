@@ -15,17 +15,17 @@
     },
     "audacity": 
     {
-      "version": "1:2.1.3+git7687-970b9a27e-1",
+      "version": "1:2.1.3+git7713-e06a6fd79-1",
       "description": " fast, cross-platform audio editor",
       "sourceurl": "https://notesalexp.org/source/main/a/audacity",
-      "sourcefile": "audacity_2.1.3+git7687-970b9a27e-1.debian.tar.xz audacity_2.1.3+git7687-970b9a27e-1.dsc audacity_2.1.3+git7687-970b9a27e.orig.tar.xz ",
+      "sourcefile": "audacity_2.1.3+git7713-e06a6fd79-1.debian.tar.xz audacity_2.1.3+git7713-e06a6fd79-1.dsc audacity_2.1.3+git7713-e06a6fd79.orig.tar.xz ",
       "homepage": "http://audacityteam.org/",
       "depends": "autoconf automake debhelper(>=9) dh-autoreconf gettext libasound2-dev[linux-any] libavcodec-dev(>=6:0.8) libavformat-dev(>=6:0.8) libavutil-dev(>=6:0.8) libexpat1-dev libflac++-dev libgtk2.0-dev libid3tag0-dev libjack-dev liblilv-dev libmad0-dev(>=0.14.2b) libmp3lame-dev libogg-dev(>=1.0.0) libportsmf-dev libsbsms-dev(>=2.0.0) libsndfile1-dev(>=1.0.0) libsoundtouch-dev(>=1.3.1-2) libsoxr-dev(>=0.0.5) libsuil-dev libtwolame-dev(>=0.3.9) libvorbis-dev(>=1.0.0-3) libwxgtk3.0-dev lv2-dev portaudio19-dev(>=19+svn20101113-3~) vamp-plugin-sdk(>=2.0) git alsa-utils alsa-oss ",
       "binary": "audacity audacity-data",
       "description_audacity": "fast, cross-platform audio editor",
       "description_audacitydata": "fast, cross-platform audio editor (data)",
-      "md5": " 60eb99048af57617fa702638dae49056 a38e88c96deb12be92d6ef733dd04f18 18e1c0d6cf43cbeec3702ba5eb797997",
-      "size": " 56_KiB  4_KiB  27.32_MiB "
+      "md5": " bee0117c86baebdaa5bb8e426f01d5ad af8360dec62566e6283480b30ff82220 31a6ca067394b312e90fa5b73dbf5477",
+      "size": " 56_KiB  4_KiB  27.16_MiB "
     },
     "autopanosiftc": 
     {
@@ -55,15 +55,15 @@
     },
     "balsa": 
     {
-      "version": "2.5.3+git8775-81fa0cd7-1",
+      "version": "2.5.3+git8776-e7382b30-1",
       "description": " e-mail client for GNOME",
       "sourceurl": "https://notesalexp.org/source/main/b/balsa",
-      "sourcefile": "balsa_2.5.3+git8775-81fa0cd7-1.debian.tar.xz balsa_2.5.3+git8775-81fa0cd7-1.dsc balsa_2.5.3+git8775-81fa0cd7.orig.tar.xz ",
+      "sourcefile": "balsa_2.5.3+git8776-e7382b30-1.debian.tar.xz balsa_2.5.3+git8776-e7382b30-1.dsc balsa_2.5.3+git8776-e7382b30.orig.tar.xz ",
       "homepage": "http://pawsa.fedorapeople.org/balsa/",
       "depends": "autotools-dev debhelper(>=9) dh-autoreconf gnome-pkg-tools intltool libcanberra-gtk3-dev libcompfaceg1-dev libesmtp-dev libglib2.0-dev libgmime-2.6-dev|libgmime-2.4-dev libgpgme11-dev libgspell-1-dev|libgtkspell3-3-dev libgtk-3-dev libgtksourceview-3.0-dev libkrb5-dev libldap2-dev libnotify-dev libsecret-1-dev libsqlite3-dev libssl-dev(>=0.9.8) libwebkit2gtk-4.0-dev libxml2-dev pkg-config python3-html2text yelp-tools zlib1g-dev libgnutls30-dev|libgnutls28-dev ",
       "binary": "balsa",
       "description_balsa": "e-mail client for GNOME",
-      "md5": " 654c4b8013df29ee7d5a0287fbb7b3fa 10cf60398554bb30e6fb37912593a084 a3df80cb0c7e168c781578cf2f3085cd",
+      "md5": " 7dabbfad1774908ef8648309315c870c 4b851ab159cb4b2b933a1ef2cc71ed92 ce0a8862ebb643689f7438f0bfce9e26",
       "size": " 12_KiB  4_KiB  3.43_MiB "
     },
     "bmpanel2": 
@@ -95,15 +95,15 @@
     },
     "clementine": 
     {
-      "version": "1.3.1+git1919-gb724291ef-1",
+      "version": "1.3.1+git1920-gd9b12a559-1",
       "description": " modern music player and library organizer",
       "sourceurl": "https://notesalexp.org/source/main/c/clementine",
-      "sourcefile": "clementine_1.3.1+git1919-gb724291ef-1.debian.tar.xz clementine_1.3.1+git1919-gb724291ef-1.dsc clementine_1.3.1+git1919-gb724291ef.orig.tar.xz ",
+      "sourcefile": "clementine_1.3.1+git1920-gd9b12a559-1.debian.tar.xz clementine_1.3.1+git1920-gd9b12a559-1.dsc clementine_1.3.1+git1920-gd9b12a559.orig.tar.xz ",
       "homepage": "http://www.clementine-player.org/",
       "depends": "cmake(>=2.6) debhelper(>=7.0.50~) docbook-to-man libboost-dev libboost-serialization-dev libcdio-dev libchromaprint-dev libcrypto++-dev libechonest-dev|wget libfftw3-dev libglew-dev libgpod-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libimobiledevice-dev liblastfm-dev libmtp-dev libplist-dev libprojectm-dev libqjson-dev libmygpo-qt-dev|libqt4-dev libqt4-opengl-dev libqxt-dev libsparsehash-dev libsqlite3-dev libtag1-dev(>=1.8) libusbmuxd-dev qt4-dev-tools libprotobuf-dev protobuf-compiler libqca2-dev libpulse-dev ",
       "binary": "clementine",
       "description_clementine": "modern music player and library organizer",
-      "md5": " aac87faf1d5b3b02ef2768f872613b02 bd4a4f4f035a95f96821f8782cdad1d9 3effe549b8d4887fd0f35e7ec0e2c51c",
+      "md5": " 6fb5ef89c404db31e08b821004f6ef0d 47c36f9716726c01d3cca77d9d6d2094 a3c7bfa9f36900e310a8e4b52fe6ee76",
       "size": " 24_KiB  4_KiB  5.23_MiB "
     },
     "compizboxmenu": 
@@ -135,10 +135,10 @@
     },
     "deadbeef": 
     {
-      "version": "0.7.2+git7553-425dc607-1",
+      "version": "0.7.2+git7569-b6c5b1f2-1",
       "description": " ultimate music player for GNU/Linux systems",
       "sourceurl": "https://notesalexp.org/source/main/d/deadbeef",
-      "sourcefile": "deadbeef_0.7.2+git7553-425dc607-1.debian.tar.xz deadbeef_0.7.2+git7553-425dc607-1.dsc deadbeef_0.7.2+git7553-425dc607.orig.tar.xz ",
+      "sourcefile": "deadbeef_0.7.2+git7569-b6c5b1f2-1.debian.tar.xz deadbeef_0.7.2+git7569-b6c5b1f2-1.dsc deadbeef_0.7.2+git7569-b6c5b1f2.orig.tar.xz ",
       "homepage": "http://deadbeef.sourceforge.net/",
       "depends": "debhelper(>=7.0.50~) libltdl-dev|libltdl7-dev libtool libasound2-dev libsamplerate0-dev libmad0-dev libmpg123-dev libavformat-dev libsndfile1-dev libx11-dev libvorbis-dev libavutil-dev libcddb2-dev libgtk2.0-dev libgtk-3-dev libcdio-dev libogg-dev libcurl4-gnutls-dev libflac-dev autotools-dev libwavpack-dev libavcodec-dev automake autoconf libnotify-dev libpulse-dev intltool libmpcdec-dev libmms-dev libfaad-dev bison libzip-dev libimlib2-dev quilt yasm autopoint libglu1-mesa-dev mesa-common-dev libgtkglext1-dev libjansson-dev ",
       "binary": "deadbeef-dev deadbeef-gtk3 deadbeef-gtk2 deadbeef",
@@ -146,7 +146,7 @@
       "description_deadbeefgtk3": "GTK3 interface to DeaDBeeF",
       "description_deadbeefgtk2": "GTK2 interface to DeaDBeeF",
       "description_deadbeef": "ultimate music player for GNU/Linux systems",
-      "md5": " 01d1c297e7553ccd9349fbdf4618fc47 e96bd43b6f2c18ec02a21f8a81e292e5 22166a8d8f4d0f313c99c33b742c4928",
+      "md5": " 08c8b42b299517e8efa5f45f50cd1bae bc9fe509b1d30f1ca3ce0a3314c12e21 d60120a5bb687fdb83c90c04b8264e18",
       "size": " 28_KiB  4_KiB  6.16_MiB "
     },
     "eigen3": 
@@ -248,16 +248,16 @@
     },
     "freecaddaily": 
     {
-      "version": "0.17~git12848-988a40639-1",
+      "version": "0.17~git12875-1ad7724d5-1",
       "description": " Extensible Open Source CAx program (beta)",
       "sourceurl": "https://notesalexp.org/source/main/f/freecad-daily",
-      "sourcefile": "freecad-daily_0.17~git12848-988a40639-1.debian.tar.xz freecad-daily_0.17~git12848-988a40639-1.dsc freecad-daily_0.17~git12848-988a40639.orig.tar.xz ",
+      "sourcefile": "freecad-daily_0.17~git12875-1ad7724d5-1.debian.tar.xz freecad-daily_0.17~git12875-1ad7724d5-1.dsc freecad-daily_0.17~git12875-1ad7724d5.orig.tar.xz ",
       "homepage": "http://freecadweb.org/",
       "depends": "cmake debhelper(>=9) gfortran libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-signals-dev libboost-thread-dev libcoin80-dev libcv-dev|libopencv-dev libeigen3-dev libfreeimage-dev libfreetype6-dev libf2c2-dev libfltk1.3-dev libproj-dev libgts-bin libgts-dev libmed-dev libmedc-dev liboce-foundation-dev(>=0.17.1) liboce-modeling-dev(>=0.17.1) liboce-ocaf-dev(>=0.17.1) liboce-visualization-dev(>=0.17.1) libode-dev libpyside-dev libqt4-dev libqt4-opengl-dev libqtwebkit-dev libshiboken-dev libsoqt4-dev(>=1.6) libspnav-dev libtool libx11-dev libxerces-c-dev libxext-dev libxi-dev libxmu-dev libxt-dev libzipios++-dev libvtk6-dev vtk6 oce-draw python-pyside pyside-tools python-cxx-dev python-dev python-ply swig zlib1g-dev netgen-headers|wget doxygen mpi-default-dev ",
       "binary": "freecad-daily freecad-daily-doc",
       "description_freecaddaily": "Extensible Open Source CAx program (beta)",
       "description_freecaddailydoc": "FreeCAD documentation",
-      "md5": " e8152c36ca3a20e36ef5178a33b01ddf 4a2cbb213377366e70dcabdf3ccdb771 3a756c727394801c575ce31d059cf32b",
+      "md5": " b4b7a4d4f6d9b03c140bc664f8d9cdf0 02d068b29421a1059dc2243368496de7 db2ab61537850e87b3d936f45c021a70",
       "size": " 92_KiB  4_KiB  99.08_MiB "
     },
     "gexiv2": 
@@ -277,10 +277,10 @@
     },
     "gimp": 
     {
-      "version": "2.8.22+git32554-0350eb7d15-1",
+      "version": "2.8.22+git32568-08bda40eb0-1",
       "description": " The Free & Open Source Image Editor",
       "sourceurl": "https://notesalexp.org/source/main/g/gimp",
-      "sourcefile": "gimp_2.8.22+git32554-0350eb7d15-1.debian.tar.xz gimp_2.8.22+git32554-0350eb7d15-1.dsc gimp_2.8.22+git32554-0350eb7d15.orig.tar.xz ",
+      "sourcefile": "gimp_2.8.22+git32568-08bda40eb0-1.debian.tar.xz gimp_2.8.22+git32568-08bda40eb0-1.dsc gimp_2.8.22+git32568-08bda40eb0.orig.tar.xz ",
       "homepage": "http://www.gimp.org/",
       "depends": "debhelper(>=8) cdbs(>=0.4.97) autotools-dev dh-autoreconf gettext gnome-pkg-tools gtk-doc-tools(>=1.0) intltool(>=0.40.1) iso-codes libaa1-dev libart-2.0-dev libasound2-dev(>=1.0.0)[linux-any] libatk1.0-dev(>=2.2.0) libbabl-dev libbz2-dev libcairo2-dev(>=1.10.2) libcurl4-gnutls-dev(>=7.15.1) libdbus-glib-1-dev(>=0.70) libexif-dev(>=0.6.15) libfreetype6-dev(>=2.2) libfontconfig1-dev(>=2.2.0) libglib2.0-dev(>=2.30.2) libglib2.0-doc libgegl-dev(>=0.2.0) libgtk2.0-dev(>=2.24.10) libgtk2.0-doc libgdk-pixbuf2.0-dev(>=2.24.1) libgdk-pixbuf2.0-doc libgs-dev libgudev-1.0-dev(>=167)[linux-any] libice-dev libjasper-dev|aria2 libjpeg-dev liblcms2-dev(>=2.2) libmng-dev libpango1.0-dev(>=1.29.4) libpng-dev libpoppler-glib-dev(>=0.12.4) librsvg2-dev(>=2.14.0) libsm-dev libtiff-dev libwebkitgtk-dev(>=1.6.1) libwmf-dev(>=0.2.8) libx11-dev libxcursor-dev libxmu-dev libxpm-dev libxt-dev zlib1g-dev patchutils python-dev(>=2.6.6-3) python-gtk2-dev(>=2.10.4) xsltproc python2.6|python2.7 libjson-glib-dev dh-python|wget ",
       "binary": "libgimp2.0 gimp gimp-data libgimp2.0-dev libgimp2.0-doc",
@@ -289,23 +289,23 @@
       "description_gimpdata": "Data files for GIMP",
       "description_libgimp20dev": "Headers and other files for compiling plugins for GIMP",
       "description_libgimp20doc": "Developers' Documentation for the GIMP library",
-      "md5": " 64c80d2775e96bf93946565b09987d26 cf13a7d15706a16d5930a3f75258ed1c e111a958dd8e0be6a998009a4e3ecff3",
+      "md5": " c6f33bcaf815587bf0a7f68dc8b3a08a e9eeaf835f3c852df5725d0fb1e1893a eb91ffb35e8c7d52f5d924aba5e21436",
       "size": " 28_KiB  4_KiB  17.12_MiB "
     },
     "gimpdevel": 
     {
-      "version": "2.9.8+git39484-5289afad14-1",
+      "version": "2.9.8+git39623-9da25e6261-1",
       "description": " The Free & Open Source Image Editor",
       "sourceurl": "https://notesalexp.org/source/main/g/gimp-devel",
-      "sourcefile": "gimp-devel_2.9.8+git39484-5289afad14-1.debian.tar.xz gimp-devel_2.9.8+git39484-5289afad14-1.dsc gimp-devel_2.9.8+git39484-5289afad14.orig.tar.xz ",
+      "sourcefile": "gimp-devel_2.9.8+git39623-9da25e6261-1.debian.tar.xz gimp-devel_2.9.8+git39623-9da25e6261-1.dsc gimp-devel_2.9.8+git39623-9da25e6261.orig.tar.xz ",
       "homepage": "http://www.gimp.org/",
       "depends": "debhelper(>=9) autotools-dev dh-autoreconf gettext gnome-pkg-tools gtk-doc-tools(>=1.0) intltool(>=0.40.1) iso-codes libaa1-dev libart-2.0-dev libasound2-dev(>=1.0.0)[linux-any] libatk1.0-dev(>=2.2.0) libbz2-dev libcairo2-dev(>=1.10.2) libcurl4-gnutls-dev(>=7.15.1) libdbus-glib-1-dev(>=0.70) libexif-dev(>=0.6.15) libfreetype6-dev(>=2.2) libfontconfig1-dev(>=2.2.0) libglib2.0-dev(>=2.30.2) libglib2.0-doc libgtk2.0-dev(>=2.24.10) libgtk2.0-doc libgdk-pixbuf2.0-dev(>=2.24.1) libgdk-pixbuf2.0-doc libgs-dev libgudev-1.0-dev(>=167)[linux-any] libice-dev libjpeg-dev libmng-dev libpango1.0-dev(>=1.29.4) libpoppler-glib-dev(>=0.12.4) librsvg2-dev(>=2.14.0) libsm-dev libtiff-dev libwebkitgtk-dev(>=1.6.1) libwmf-dev(>=0.2.8) libx11-dev libxcursor-dev libxmu-dev libxpm-dev libxt-dev zlib1g-dev patchutils python-dev(>=2.6.6-3) python-gtk2-dev(>=2.10.4) xsltproc python2.6|python2.7 libjson-glib-dev libjson-c-dev libgtk2.0-bin libgexiv2-dev python-cairo-dev libopenexr-dev git libsdl1.2-dev libavcodec-dev libavformat-dev libsuitesparse-dev libexiv2-dev ccache libspiro-dev liblua5.1-dev libv4l-dev libswscale-dev libopenraw-dev libwebp-dev libgraphviz-dev libgirepository1.0-dev libraw-dev valac graphviz gobject-introspection python-gi python3-gi ",
       "binary": "gimp-devel gimp-devel-data gimp-devel-dev",
       "description_gimpdevel": " The Free & Open Source Image Editor",
       "description_gimpdeveldata": "Data files for GIMP",
       "description_gimpdeveldev": "Headers and other files for compiling plugins for GIMP",
-      "md5": " a56fc8e398edae4bf70383b91be841aa d745e6e27ea5d65fc2bf919c822b6e7e b7bda7e9c7307f0d409d5e718cbb534a",
-      "size": " 96_KiB  4_KiB  80.76_MiB "
+      "md5": " a1fc504dce5c2721458e20cc6839768f 78e7b515892a4fb9a3f9947b97944866 d782e9fc729488f127339f41353621c6",
+      "size": " 96_KiB  4_KiB  80.75_MiB "
     },
     "gimpgtk3": 
     {
@@ -393,10 +393,10 @@
     },
     "kvirc": 
     {
-      "version": "4:4.9.2~git-7213-ged2a15689-1",
+      "version": "4:4.9.2~git-7244-gce3c9017b-1",
       "description": " Next generation IRC client with module support",
       "sourceurl": "https://notesalexp.org/source/main/k/kvirc",
-      "sourcefile": "kvirc_4.9.2~git-7213-ged2a15689-1.debian.tar.xz kvirc_4.9.2~git-7213-ged2a15689-1.dsc kvirc_4.9.2~git-7213-ged2a15689.orig.tar.xz ",
+      "sourcefile": "kvirc_4.9.2~git-7244-gce3c9017b-1.debian.tar.xz kvirc_4.9.2~git-7244-gce3c9017b-1.dsc kvirc_4.9.2~git-7244-gce3c9017b.orig.tar.xz ",
       "homepage": "http://www.kvirc.de/",
       "depends": "debhelper(>=9) cmake(>=3.1) libperl-dev zlib1g-dev libx11-dev libxrender-dev libssl-dev qtbase5-dev qttools5-dev-tools libqt5x11extras5-dev libphonon4qt5-dev qttools5-dev libqt5svg5-dev qtmultimedia5-dev libqt5webkit5-dev libphonon4qt5experimental-dev pkg-config libxss-dev python-dev libqtwebkit-dev libenchant-dev ",
       "binary": "kvirc libkvilib4 kvirc-modules kvirc-data kvirc-dbg",
@@ -404,7 +404,7 @@
       "description_libkvilib4": "KVIrc (IRC client) base library",
       "description_kvircmodules": "KVIrc (IRC client) modules",
       "description_kvircdata": "Data files for KVIrc",
-      "md5": " f711ea427c525b15cdfdec4d0ebd68c2 4dc06303b1719f08fb47e7cc3d0292dd 4d364c105548f06aa9537941e209a910",
+      "md5": " 1c8f9c20dfd3fa41c61ca7dea93e89af 4aed4db30f8112a4e9e08fa29c15a38e 46e560c69bbe0bfcff9907878f5b0fa4",
       "size": " 20_KiB  4_KiB  3.49_MiB "
     },
     "leptonlib": 
@@ -505,18 +505,18 @@
     },
     "mypaint": 
     {
-      "version": "1.3.0~git4871-59977ecf-1",
+      "version": "1.3.0~git4889-c93d260d-1",
       "description": " MyPaint brush engine library",
       "sourceurl": "https://notesalexp.org/source/main/m/mypaint",
-      "sourcefile": "mypaint_1.3.0~git4871-59977ecf-1.debian.tar.xz mypaint_1.3.0~git4871-59977ecf-1.dsc mypaint_1.3.0~git4871-59977ecf.orig.tar.xz ",
+      "sourcefile": "mypaint_1.3.0~git4889-c93d260d-1.debian.tar.xz mypaint_1.3.0~git4889-c93d260d-1.dsc mypaint_1.3.0~git4889-c93d260d.orig.tar.xz ",
       "homepage": "http://mypaint.info/",
       "depends": "debhelper(>=9) dh-python dpkg-dev(>=1.16.1~) gettext libgtk-3-dev(>=3.10) libjson-c-dev liblcms2-dev libpng-dev python(>=2.7) python-dev python-gi-dev python-matplotlib python-tk python-nose python-numpy python-gi-cairo scons swig libmypaint-2.0-dev git python-setuptools ",
       "binary": "mypaint mypaint-data mypaint-data-extras",
       "description_mypaint": "paint program for use with graphics tablets",
       "description_mypaintdata": "runtime data files for MyPaint",
       "description_mypaintdataextras": "high resolution backgrounds for mypaint",
-      "md5": " c7eaee43a72d29f40a5a9cb68009c1e2 ba3311864f4601796a4aabefc107764f 68e03cd9d5cda737af14c68ecdd75d42",
-      "size": " 28_KiB  4_KiB  35.45_MiB "
+      "md5": " 6ad238da4fbb7c8965a9b189b3b330f7 6d8d59aabcb46aa650bc877f7718ac1c b5181cca5820ba6c0e97d289baaca700",
+      "size": " 28_KiB  4_KiB  35.46_MiB "
     },
     "myrulib": 
     {
@@ -646,10 +646,10 @@
     },
     "psiplus": 
     {
-      "version": "1.2.109+git20171128-1",
+      "version": "1.2.125+git20171228-1",
       "description": " Qt-based XMPP/Jabber client",
       "sourceurl": "https://notesalexp.org/source/main/p/psi-plus",
-      "sourcefile": "psi-plus_1.2.109+git20171128-1.debian.tar.xz psi-plus_1.2.109+git20171128-1.dsc psi-plus_1.2.109+git20171128.orig.tar.xz ",
+      "sourcefile": "psi-plus_1.2.125+git20171228-1.debian.tar.xz psi-plus_1.2.125+git20171228-1.dsc psi-plus_1.2.125+git20171228.orig.tar.xz ",
       "homepage": "http://psi-plus.com/",
       "depends": "cmake debhelper(>=9) libhunspell-dev libidn11-dev libminizip-dev libotr5-dev|libotr2-dev libqca-qt5-2-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libsm-dev libtidy-dev libxss-dev qconf qtmultimedia5-dev zlib1g-dev ",
       "binary": "psi-plus psi-plus-webkit psi-plus-common psi-plus-plugins psi-plus-skins psi-plus-sounds psi-plus-icons-nonfree",
@@ -660,21 +660,21 @@
       "description_psiplusskins": "skins for Psi+",
       "description_psiplussounds": "sound files for Psi+",
       "description_psiplusiconsnonfree": "additional icons for Psi+",
-      "md5": " 7f07d9fa65efa8570517c8daedb8c57e c53bfedd38e9ded47645a4600f879c26 cf7049d59df936a8be08302bf9b76d4e",
-      "size": " 16_KiB  4_KiB  14.00_MiB "
+      "md5": " 9e15ece42fcef2d2bff6b27ddfd0565e 11a8de3c4bd0c35797b0eb72ad495920 03b22e5bd3cfa63766703a87b74423b9",
+      "size": " 16_KiB  4_KiB  14.02_MiB "
     },
     "psiplusl10n": 
     {
-      "version": "1.2.109+git20171214-1",
+      "version": "1.2.109+git20171228-1",
       "description": " localization files for Psi+",
       "sourceurl": "https://notesalexp.org/source/main/p/psi-plus-l10n",
-      "sourcefile": "psi-plus-l10n_1.2.109+git20171214-1.debian.tar.xz psi-plus-l10n_1.2.109+git20171214-1.dsc psi-plus-l10n_1.2.109+git20171214.orig.tar.xz ",
+      "sourcefile": "psi-plus-l10n_1.2.109+git20171228-1.debian.tar.xz psi-plus-l10n_1.2.109+git20171228-1.dsc psi-plus-l10n_1.2.109+git20171228.orig.tar.xz ",
       "homepage": "https://github.com/psi-plus/psi-plus-l10n",
       "depends": "debhelper(>=9) libqt4-dev ",
       "binary": "psi-plus-l10n",
       "description_psiplusl10n": "localization files for Psi+",
-      "md5": " d771837b0617f6ba0c2d587c7cdc7827 cf3eced55fb3a01740e70353392b637b 834787b9034e8fc995234e4ca043c5e4",
-      "size": " 8_KiB  4_KiB  1.13_MiB "
+      "md5": " 485f2b275eaf43189964a83dc8c3695b 4c338a40fb27b6b5b307b4a9f2b3a90b af25d9d8a8781711be4e40df13340950",
+      "size": " 8_KiB  4_KiB  1.14_MiB "
     },
     "q4wine": 
     {
@@ -691,16 +691,16 @@
     },
     "qcad": 
     {
-      "version": "3.19.0+git5161-7016a0bba-1",
+      "version": "3.19.0+git5170-a8aabff79-1",
       "description": " Computer Aided Drafting (CAD) software",
       "sourceurl": "https://notesalexp.org/source/main/q/qcad",
-      "sourcefile": "qcad_3.19.0+git5161-7016a0bba-1.debian.tar.xz qcad_3.19.0+git5161-7016a0bba-1.dsc qcad_3.19.0+git5161-7016a0bba.orig.tar.xz ",
+      "sourcefile": "qcad_3.19.0+git5170-a8aabff79-1.debian.tar.xz qcad_3.19.0+git5170-a8aabff79-1.dsc qcad_3.19.0+git5170-a8aabff79.orig.tar.xz ",
       "homepage": "http://www.qcad.org/",
       "depends": "debhelper(>=9) dh-exec libx11-dev libxext-dev libxrender-dev libglu1-mesa-dev libfreetype6-dev libfontconfig1-dev libssl-dev libdbus-1-dev libsm-dev qtbase5-dev libqt5svg5-dev qttools5-dev qtchooser qt5-qmake qtscript5-dev qttools5-dev-tools libqt5xmlpatterns5-dev libqt5webkit5-dev libqt5opengl5-dev imagemagick librsvg2-bin libqt5sql5-sqlite qt5-image-formats-plugins libqt5printsupport5 ",
       "binary": "qcad qcad-data",
       "description_qcad": "Computer Aided Drafting (CAD) software",
       "description_qcaddata": "Computer Aided Drafting (CAD) software -- shared files",
-      "md5": " e77d3c688112e316621c4611e7b933a7 0b63e8c4b78021a57c27070157a627eb 81a9aadda9a2e2ea0d88993f1a6e6652",
+      "md5": " a57b2bf03cdefc02ddd749b02b6787a6 31781bfc3103b53a6629f7585d019b37 1d898eaf54bd997189331a556ab7985a",
       "size": " 36_KiB  4_KiB  20.00_MiB "
     },
     "qcomicbook": 
@@ -773,16 +773,16 @@
     },
     "smplayer": 
     {
-      "version": "17.11.0+svn8830-1",
+      "version": "17.12.0+svn8849-1",
       "description": " Complete front-end for MPlayer, MPlayer2 and mpv",
       "sourceurl": "https://notesalexp.org/source/main/s/smplayer",
-      "sourcefile": "smplayer_17.11.0+svn8830-1.debian.tar.xz smplayer_17.11.0+svn8830-1.dsc smplayer_17.11.0+svn8830.orig.tar.xz ",
+      "sourcefile": "smplayer_17.12.0+svn8849-1.debian.tar.xz smplayer_17.12.0+svn8849-1.dsc smplayer_17.12.0+svn8849.orig.tar.xz ",
       "homepage": "http://smplayer.sourceforge.net/",
       "depends": "debhelper(>=9) qtbase5-dev(>=5.1) qt5-qmake qtscript5-dev qttools5-dev-tools zlib1g-dev qtbase5-private-dev ",
       "binary": "smplayer smplayer-l10n",
       "description_smplayer": "Complete front-end for MPlayer, MPlayer2 and mpv",
       "description_smplayerl10n": "Complete front-end for MPlayer, MPlayer2 and mpv - translation files",
-      "md5": " e64f675711ee40b938bbd58bfaa86a99 a2d9013704ba0ba9db5db31fb0a78674 a2453d36797c0bcf2c791ee80792dba3",
+      "md5": " 258ee0be892a45fab42eaf0f287b3fb9 a079b8dcc8993e488b6e93aa501ffebe 8e2251f74d2f76337a6cb52a4f4e6a10",
       "size": " 12_KiB  4_KiB  3.90_MiB "
     },
     "solvespace": 
@@ -815,10 +815,10 @@
     },
     "tesseract": 
     {
-      "version": "4.00~git2188-cdc35338-2",
+      "version": "4.00~git2189-bc668da0-1",
       "description": " Open Source OCR Engine",
       "sourceurl": "https://notesalexp.org/source/main/t/tesseract",
-      "sourcefile": "tesseract_4.00~git2188-cdc35338-2.debian.tar.xz tesseract_4.00~git2188-cdc35338-2.dsc tesseract_4.00~git2188-cdc35338.orig.tar.xz ",
+      "sourcefile": "tesseract_4.00~git2189-bc668da0-1.debian.tar.xz tesseract_4.00~git2189-bc668da0-1.dsc tesseract_4.00~git2189-bc668da0.orig.tar.xz ",
       "homepage": "https://github.com/tesseract-ocr/",
       "depends": "debhelper(>=7.0.50~) libleptonica-dev(>=1.72~) automake libtool libpango1.0-dev libcairo2-dev libicu-dev libpng-dev libjpeg-dev libtiff-dev zlib1g-dev git autoconf-archive asciidoc xsltproc docbook-xsl docbook-xml ",
       "binary": "libtesseract-dev libtesseract4 tesseract-ocr tesseract-ocr-all",
@@ -826,8 +826,8 @@
       "description_libtesseract4": "Tesseract OCR library",
       "description_tesseractocr": " Open Source OCR Engine",
       "description_tesseractocrall": "Tesseract OCR with all language and script packages",
-      "md5": " 6f41feaaa7b604bc9eaf4829314f0da3 4c1dc87714bed9b18e1f10221d9b8070 39303a9b23ec71f5b53c3dbeb880bfee",
-      "size": " 24_KiB  4_KiB  7.10_MiB "
+      "md5": " 425ca18d31708c56cb27c7177e514796 1d166498494bd1b708d8db21a6ed958c a6ea73c6848c15bb9281f06ea14d28e9",
+      "size": " 24_KiB  4_KiB  7.09_MiB "
     },
     "tesseractlang": 
     {
