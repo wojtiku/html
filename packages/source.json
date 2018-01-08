@@ -260,6 +260,27 @@
       "md5": " b4b7a4d4f6d9b03c140bc664f8d9cdf0 02d068b29421a1059dc2243368496de7 db2ab61537850e87b3d936f45c021a70",
       "size": " 92_KiB  4_KiB  99.08_MiB "
     },
+    "gettext": 
+    {
+      "version": "0.19.8.1-1ubuntu2",
+      "description": " GNU Internationalization utilities",
+      "sourceurl": "https://notesalexp.org/source/main/g/gettext",
+      "sourcefile": "gettext_0.19.8.1-1ubuntu2.debian.tar.xz gettext_0.19.8.1-1ubuntu2.dsc gettext_0.19.8.1.orig.tar.xz ",
+      "homepage": "http://www.gnu.org/software/gettext/",
+      "depends": "debhelper(>=9) fastjar default-jdk file libncurses5-dev libxml2-dev libglib2.0-dev libcroco3-dev xz-utils libunistring-dev ",
+      "binary": "gettext-base gettext gettext-el gettext-doc autopoint libgettextpo0 libasprintf0v5 libgettextpo-dev libasprintf-dev",
+      "description_gettextbase": "GNU Internationalization utilities for the base system",
+      "description_gettext": "GNU Internationalization utilities",
+      "description_gettextel": "Emacs po-mode for editing gettext .po files",
+      "description_gettextdoc": "Documentation for GNU gettext",
+      "description_autopoint": "The autopoint program from GNU gettext",
+      "description_libgettextpo0": "GNU Internationalization library",
+      "description_libasprintf0v5": "GNU library to use fprintf and friends in C++",
+      "description_libgettextpodev": "GNU Internationalization library development files",
+      "description_libasprintfdev": "GNU Internationalization library development files",
+      "md5": " f065fd3eef9922763a71b544fb977087 6b528298b757f23d78b48dd4223b7e74 df3f5690eaa30fd228537b00cb7b7590",
+      "size": " 28_KiB  4_KiB  6.87_MiB "
+    },
     "gexiv2": 
     {
       "version": "0.10.4-1+nmu1",
@@ -294,18 +315,18 @@
     },
     "gimpdevel": 
     {
-      "version": "2.9.8+git39623-9da25e6261-1",
+      "version": "2.9.8+git39732-f7fe2753e2-1",
       "description": " The Free & Open Source Image Editor",
       "sourceurl": "https://notesalexp.org/source/main/g/gimp-devel",
-      "sourcefile": "gimp-devel_2.9.8+git39623-9da25e6261-1.debian.tar.xz gimp-devel_2.9.8+git39623-9da25e6261-1.dsc gimp-devel_2.9.8+git39623-9da25e6261.orig.tar.xz ",
+      "sourcefile": "gimp-devel_2.9.8+git39732-f7fe2753e2-1.debian.tar.xz gimp-devel_2.9.8+git39732-f7fe2753e2-1.dsc gimp-devel_2.9.8+git39732-f7fe2753e2.orig.tar.xz ",
       "homepage": "http://www.gimp.org/",
-      "depends": "debhelper(>=9) autotools-dev dh-autoreconf gettext gnome-pkg-tools gtk-doc-tools(>=1.0) intltool(>=0.40.1) iso-codes libaa1-dev libart-2.0-dev libasound2-dev(>=1.0.0)[linux-any] libatk1.0-dev(>=2.2.0) libbz2-dev libcairo2-dev(>=1.10.2) libcurl4-gnutls-dev(>=7.15.1) libdbus-glib-1-dev(>=0.70) libexif-dev(>=0.6.15) libfreetype6-dev(>=2.2) libfontconfig1-dev(>=2.2.0) libglib2.0-dev(>=2.30.2) libglib2.0-doc libgtk2.0-dev(>=2.24.10) libgtk2.0-doc libgdk-pixbuf2.0-dev(>=2.24.1) libgdk-pixbuf2.0-doc libgs-dev libgudev-1.0-dev(>=167)[linux-any] libice-dev libjpeg-dev libmng-dev libpango1.0-dev(>=1.29.4) libpoppler-glib-dev(>=0.12.4) librsvg2-dev(>=2.14.0) libsm-dev libtiff-dev libwebkitgtk-dev(>=1.6.1) libwmf-dev(>=0.2.8) libx11-dev libxcursor-dev libxmu-dev libxpm-dev libxt-dev zlib1g-dev patchutils python-dev(>=2.6.6-3) python-gtk2-dev(>=2.10.4) xsltproc python2.6|python2.7 libjson-glib-dev libjson-c-dev libgtk2.0-bin libgexiv2-dev python-cairo-dev libopenexr-dev git libsdl1.2-dev libavcodec-dev libavformat-dev libsuitesparse-dev libexiv2-dev ccache libspiro-dev liblua5.1-dev libv4l-dev libswscale-dev libopenraw-dev libwebp-dev libgraphviz-dev libgirepository1.0-dev libraw-dev valac graphviz gobject-introspection python-gi python3-gi ",
+      "depends": "debhelper(>=9) autotools-dev dh-autoreconf gettext gnome-pkg-tools gtk-doc-tools(>=1.0) intltool(>=0.40.1) iso-codes libaa1-dev libart-2.0-dev libasound2-dev(>=1.0.0)[linux-any] libatk1.0-dev(>=2.2.0) libbz2-dev libcairo2-dev(>=1.10.2) libcurl4-gnutls-dev(>=7.15.1) libdbus-glib-1-dev(>=0.70) libexif-dev(>=0.6.15) libfreetype6-dev(>=2.2) libfontconfig1-dev(>=2.2.0) libglib2.0-dev(>=2.30.2) libglib2.0-doc libgtk2.0-dev(>=2.24.10) libgtk2.0-doc libgdk-pixbuf2.0-dev(>=2.24.1) libgdk-pixbuf2.0-doc libgs-dev libgudev-1.0-dev(>=167)[linux-any] libice-dev libjpeg-dev libmng-dev libpango1.0-dev(>=1.29.4) libpoppler-glib-dev(>=0.12.4) librsvg2-dev(>=2.14.0) libsm-dev libtiff-dev libwebkitgtk-dev(>=1.6.1) libwmf-dev(>=0.2.8) libx11-dev libxcursor-dev libxmu-dev libxpm-dev libxt-dev zlib1g-dev patchutils python-dev(>=2.6.6-3) python-gtk2-dev(>=2.10.4) xsltproc python2.6|python2.7 libjson-glib-dev libjson-c-dev libgtk2.0-bin libgexiv2-dev python-cairo-dev libopenexr-dev git libsdl1.2-dev libavcodec-dev libavformat-dev libsuitesparse-dev libexiv2-dev ccache libspiro-dev liblua5.1-dev libv4l-dev libswscale-dev libopenraw-dev libwebp-dev libgraphviz-dev libgirepository1.0-dev libraw-dev valac graphviz gobject-introspection python-gi python3-gi libmount-dev libgnutls28-dev libpng16-dev|libpng-dev cmake libopenjp2-7-dev libcroco3-dev ",
       "binary": "gimp-devel gimp-devel-data gimp-devel-dev",
       "description_gimpdevel": " The Free & Open Source Image Editor",
       "description_gimpdeveldata": "Data files for GIMP",
       "description_gimpdeveldev": "Headers and other files for compiling plugins for GIMP",
-      "md5": " a1fc504dce5c2721458e20cc6839768f 78e7b515892a4fb9a3f9947b97944866 d782e9fc729488f127339f41353621c6",
-      "size": " 96_KiB  4_KiB  80.75_MiB "
+      "md5": " 360a6062fd36927f630829abfb030dc1 453d975ab53882a601eaad11b72035ec e202d5e9fd4d09c9a0f344f0a825010d",
+      "size": " 100_KiB  4_KiB  89.23_MiB "
     },
     "gimpgtk3": 
     {

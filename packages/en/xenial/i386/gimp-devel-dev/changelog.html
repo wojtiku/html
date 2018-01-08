@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package gimp-devel-dev_2.9.6+git39126-e75ea3c2af-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package gimp-devel-dev_2.9.8+git39732-f7fe2753e2-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,967 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package gimp-devel-dev in xenial of architecture i386</h5>
-<div class="highlight"><pre><span></span>gimp-devel (2.9.6+git39126-e75ea3c2af-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>gimp-devel (2.9.8+git39732-f7fe2753e2-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: master
+  * Commit: f7fe2753e233606f74f01bb1174e3433ebefccfc
+  * Date: 1515375954
+  * git changelog:
+  *  f7fe2753e2 - plug-ins: port qbist to GEGL, it's just too cool/weird
+    to get lost
+  *  c8e1703dce - plug-ins: never edit common/Makefile.am directly
+  *  8e572ca00e - NEWS: update.
+  *  22a6e2bb19 - plug-ins: update the warning message for dimension of
+    X bitmap cursors.
+  *  575013feaa - plug-ins: fix a bit of coding styles (spaces and
+    alignment).
+  *  bbfec3b7ae - NEWS: update re translations
+  *  df933c7b70 - plug-ins: discard leading 0s in regular expression for
+    cursor size/delay
+  *  0484ce83af - Bug 792266 - Increase maximum size of x11 cursor
+    during export.
+  *  38b9fc61fc - Update Catalan translation
+  *  eae715ef2e - Update Catalan translation
+  *  fff128ab2c - Update Basque language
+  *  e503e9f429 - Upddate installer Catalan translation
+  *  d34800c5fc - app: reintroduce clamping to vivid-light mode
+  *  bc8c79e95a - build: add Icelandic translation to the Windows
+    installer
+  *  1f72dbc530 - po-windows-installer: technical fix to the Polish
+    translation
+  *  3b52b044f9 - app: small cleanup in gimpoperationlayermode-blend.c
+  *  0f9da165e0 - Bug 790566 - Modify the divide blend mode to not max
+    out at 5.0
+  *  afb09c90d4 - NEWS: update translations and icons.
+  *  b6ea167ad6 - Update Catalan translation
+  *  a5b2139ca3 - Bug 765651: file-psd-load.exe crashes importing file
+  *  7ccf5d2624 - Bug 761140: importing gimpui module causes plugin
+    query failure
+  *  5ea96afdf3 - NEWS: keep up-to-date
+  *  e75ced91a7 - Preferences: add toolbox-wilber toggle
+  *  a0628e5c78 - Slighty better (still horrible) design for
+    linear/perceptual space icons
+  *  28bb108e1b - app: use gimp_prop_boolean_icon_box_new() instead of
+    the "Linear" toggle
+  *  6374218408 - app: add gimp_prop_boolean_icon_box_new()
+  *  7b1fde9381 - Add primitive color versions of linear/perceptuial
+    color space icons
+  *  940a5866a9 - Add symbolic icons for linear/perceptual color spaces
+  *  9550b79efa - NEWS: more translations.
+  *  54d3beab9c - Bug 757444 - Curves and Levels should operate by
+    default on linear RGB...
+  *  a16a31ab51 - Make bits of Shadows-Highlights translatable
+  *  15f7aec021 - Add legacy desaturate tool icon in SVG
+  *  78821b4cb9 - Add icons for Shadows-Highlights
+  *  7e80359b9b - Add GIMP_HELP_FILTER_SHADOWS_HIGHLIGHTS to help IDs
+  *  098113a740 - Fix the help hint for shadows-hughlights
+  *  bb2e74edc7 - NEWS: keep it up-to-date
+  *  3b950f6177 - plug-ins: some cleaup in file-raw, mostly formatting
+  *  313d8c2876 - file-darktable: Add more debug prints
+  *  82fde3e6c4 - app: remove the split preview guide in
+    gimp_filter_tool_get_operation()
+  *  de5dd2ab00 - Add Icelandic translation
+  *  5799352527 - app: minor fixes in the shadows-highlights code
+  *  4b7e01f60b - Update Brazilian Portuguese translation
+  *  e875ec3fc6 - build: when bumping glib, also bump glib-networking.
+  *  3364ee2af4 - Create custom UI for GEGL-based Shadows-Highlights
+    filter...
+  *  fa2a1fd7e9 - icons: lazy fixes for icons in the Help menu
+  *  49e60ae72b - build: bump glib dependency in flatpak nightly
+    manifest.
+  *  ba281258a0 - Updated Italian translation
+  *  da8bcdcd56 - app: in legacy layer modes, clamp after blending, not
+    compositing
+  *  6759c4e675 - app: use float literals in legacy layer modes
+  *  524e3d05fd - app: show some info in collapsed dashboard group
+    headers
+  *  895c0f558f - app: add small hack to make the generic operation tool
+    always invisible
+  *  b95bb99e05 - app: in compress_motion(), remove accidentally added
+    "break", fix comment
+  *  6b4b8c95c7 - Bug 792197 - inconsistent use of tabs and spaces in
+    indentation
+  *  d3b45f1875 - Bug 791689 - On-Canvas GUI broken with extended input
+    device
+  *  fa18044392 - Bug 791689 - On-Canvas GUI broken with extended input
+    device
+  *  0f29e67078 - INSTALL: add some information about PKG_CONFIG_PATH
+    for mypaint-brushes.
+  *  1ce878ef47 - Bug 791949 - Please ind Shift+T to the Unified
+    Transform Tool
+  *  119f648a76 - Bug 785001 - Enhanced smudge tool: Smudge with
+    painting
+  *  32280a170b - app: Add "No erasing effect" parameter to MyPaint
+    brush
+  *  9b9daba7a4 - Bug 792028 - Bug reporting hint in installer should
+    not mention...
+  *  fe22500e9b - build: update nightly flatpak manifest with mypaint-
+    brushes.
+  *  135f58d3ae - Bug 790002 - Remember last-used "Select color profile
+    from disk" location
+  *  467a663f16 - libgimpwidgets: return TRUE in
+    GimpColorProfileChooserDialog's "delete-event"
+  *  84fab474a7 - Bug 788870 - Abr corrupted files crashing GIMP
+  *  dce93c7d7e - Bug 762443 - Levels tool Output Level sliders works
+    incorrectly
+  *  221e18ab09 - Bug 788870 - Abr corrupted files crashing GIMP
+  *  423ce6fca3 - Bug 770689 - Custom transparency controller for
+    dark...
+  *  7ac7b9519f - Bug 791484 - Shorten color space channel identifiers
+    to one letter...
+  *  479f370c7a - app: add 2700 K and 4000 K to the list of Kelvin
+    presets
+  *  b021909a63 - libgimpconfig: use g_object_new_with_properties()
+    instead of g_object_newv()
+  *  31a6796fa8 - Bug 788870 - Abr corrupted files crashing GIMP when
+    saved...
+  *  094ed1dc4a - po-windows-installer: fix make check
+  *  6f7b1d6425 - libgimpwidgets: add new GimpColorScales symbols to
+    gimpwidgets.def
+  *  1e259e3358 - INSTALL: use spaces instead of tabs for pretty-
+    printing.
+  *  fe4bbc4d9c - INSTALL: add a precision about which mypaint-brushes
+    branch to install.
+  *  abcf372d7f - Bug 776994 - Gimp fails to open corrupted JPG image
+  *  89ef0dd684 - NEWS: keep up-to-date.
+  *  79e4a22fe2 - INSTALL: add info about new mypaint-brushes
+    dependency.
+  *  f8e1d3b9c8 - app, configure: adding dependency to mypaint-brushes.
+  *  4eb27f3d45 - Bug 778285 - Release howto should contain notice to
+    maintainers...
+  *  9678275049 - Bug 787601 - Wrong mouse cursor when you select
+    'Rectangle select tool'
+  *  699b835c87 - Bug 787321 - Editing shear tool values numerically can
+    have no effect
+  *  c43be61c08 - Bug 788423 - Fade left-right opacity slider doesn't
+    work: value changes to 1.0
+  *  764056e124 - Bug 789612 - Prevent heap overflow in GBR parser
+  *  f98d1b3a76 - Bug 789613 - core: Fix integer overflow on 64 bit
+    systems
+  *  cd4a0a185c - Bug 783336: exported openraster (.ora) missing...
+  *  8df06eb5cd - app: get rid of GParameter and g_object_newv()
+    (deprecated in GLib 2.54)
+  *  2b65ff4551 - configure.ac: require glib >= 2.54.2
+  *  6dc2d9d91d - Bug 791948 - Please enable "save tool option on exit"
+    by the default
+  *  a51efd09d1 - Bug 663576 - make -C plug-ins/script-fu check-for-
+    deprecated-procedures-in-script-fu...
+  *  c38f14df36 - Update Polish translation
+  *  8b29687353 - Bug 637413 - Saving indexed png with transparency
+    removes one unused color from the colormap
+  *  1e99b12aba - libgimpwidgets: several GimpColorSelector cleanups /
+    changes
+  *  37a6620006 - app: don't upscale preallocated display buffers by
+    GIMP_DISPLAY_RENDER_MAX_SCALE
+  *  09e1c7f9b5 - app: fix mask overlay position when zoom != 100%
+  *  6258d525ae - Bug 770054 - High bit-depth color selection widgets
+  *  0d27800aa7 - app: small cleanup in GimpDashboard
+  *  cf065a37eb - build: add Swedish translation to the Windows
+    installer
+  *  8d61d585ee - devel-docs: update libgimpwidgets docs a bit
+  *  6263e25dd9 - libgimpwidgets: don't add new stock IDs, they are all
+    deprecated
+  *  dd06ebafa2 - libgimpwidgets: add a getter for every setter of
+    GimpColorSelector
+  *  8b68501622 - plug-ins: set GimpColorConfig on some color buttons,
+    more to do...
+  *  d91487e6af - Revert "app: do not forbid merging down floating
+    layers, instead anchor them."
+  *  e7014ddb83 - Updated Slovenian translation
+  *  423cde4e7d - Updated Slovenian translation
+  *  766ae626f4 - Updated Slovenian translation
+  *  8f9e773a4f - Updated Slovenian translation
+  *  148542f115 - po-windows-installer: Add Swedish translation
+  *  5ffb1e3657 - Updated Slovenian translation
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 08 Jan 2018 10:12:05 +0300
+
+gimp-devel (2.9.8+git39623-9da25e6261-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: master
+  * Commit: 9da25e6261a0e27e2bedbbe0649349bce2c9fbe1
+  * Date: 1514681194
+  * git changelog:
+  *  9da25e6261 - app: get_set_error() with domain == 0 is forbidden.
+  *  40bc5307dc - app: do not forbid merging down floating layers,
+    instead anchor them.
+  *  cc47597aae - app: gimp_image_merge_down() on a floating selection
+    crashes GIMP.
+  *  d3cfdf7a38 - app: improve dashboard cache-maximum tooltip
+  *  ee41819165 - app: various GimpDashboard improvements
+  *  354891d22c - app: add gimp_meter_{set,get}_value_active()
+  *  9569ac951e - Update Icelandic translation
+  *  c24df74e69 - Update Swedish translation
+  *  f658ea4071 - Bug 777403 - Calling (file-png-get-defaults) crashes
+    the file-png plug-in
+  *  1d0fa313ea - configure: don't nest anymore poppler and poppler-data
+    checks.
+  *  c99ac02d34 - configure: two levels of quoting needed with
+    AC_CONFIG_COMMANDS.
+  *  bccaf39dc9 - configure: Fix the usage of sed on FreeBSD
+  *  aa2ce4b60d - Fix version number in NEWS
+  *  27a20ca163 - Update NEWS
+  *  b7d2c5eab1 - Add Exposure tool icon, remove erroneous stock entry
+    for the colortemp icon
+  *  803917110d - devel-docs: add point for <release> appstream data in
+    release-howto.
+  *  a017668b09 - desktop: add (commented-out) release tag for 2.10.
+  *  3595ef9dc5 - desktop: add <release> tags for 2.8.x.
+  *  476126a742 - NEWS: keep up-to-date.
+  *  bc16d34604 - build: add Turkish translation to the Windows
+    installer
+  *  3a1490f74a - po-windows-installer: a few technical fixes to the
+    Turkish translation
+  *  76747cadce - Update Chinese (Taiwan) translation
+  *  281aa51580 - Update Chinese (Taiwan) translation
+  *  34e37ea72c - Update Chinese (Taiwan) translation
+  *  a3053e88a1 - Update Chinese (Taiwan) translation
+  *  c281fca1c0 - Fix variables for the new icons
+  *  eef98376dd - Update paths to new icons
+  *  5269d792c5 - Rename colortemp icons to *-tool-*
+  *  4d11e2b184 - Add colortemp icons to the build
+  *  b374198e10 - Move scalable colortemp icon to the right folder
+  *  e53b7db26e - Add color version of the color temperature tool
+  *  d89ed759ef - app: small logics improvement.
+  *  28c3fd92eb - Remove erroneous group of shapes from colortemp icon
+  *  57b43e096c - Add symbolic icons for color temperature tool, full
+    color version to follow
+  *  f14be48e74 - app: protect user_install_dir_copy() against infinite
+    recursivity.
+  *  d7bc78ba8a - NEWS: keep up-to-date.
+  *  b9c2c9ac59 - desktop: use HTTPS everywhere.
+  *  9452b211f6 - po-windows-installer: regenerate gettext files with
+    `make update-po`.
+  *  7d3adc87c0 - configure: properly generate POTFILES for po-*/.
+  *  62cf942c46 - Make Value Invert use the invert icon rather than the
+    stock GEGL one
+  *  9724d7989d - Mark legacy plug-ins/scripts as such in menu
+  *  6a7ed5c57e - Update Turkish translation
+  *  efcf7f9398 - Added Turkish translation for Windows installer
+  *  34a6c6408e - plug-ins: aaargh! Forgot to remove "paintbrush.pgm"
+    from the Makefile.
+  *  ccfec08a84 - Bug 791934 - gimpressionist contains 2 identical
+    brushes.
+  *  cdfffc6924 - app: add some warning for code which should not
+    happen.
+  *  88f33dc0b3 - Bug 791934 - gimpressionist contains 2 identical
+    brushes.
+  *  cf67441782 - app: make user_install_dir_copy() recursive.
+  *  70d702126d - Update Icelandic translation
+  *  f4dc452961 - Update Icelandic translation
+  *  0550c1efcd - Update Icelandic translation
+  *  0ff3bf93f3 - app: misc performance improvements to
+    GimpOperationComposeCrop
+  *  0a09452d17 - plug-ins: fix my name/email in the goat exercise
+  *  74a47a8ac9 - app: implement get_required_for_output() for
+    GimpOperationComposerCrop
+  *  822386f551 - app: avoid potential use-after-free during
+    GimpDashboard destruction
+  *  3837cccb48 - build: add Esperanto translation to the Windows
+    installer
+  *  1f27ee6219 - build, configure.ac: misc Windows installer
+    translations build improvements
+  *  de24c0279d - Update Russian translation
+  *  025ab0432d - Update Esperanto translation
+  *  cdd72d029c - Add Esperanto translation
+  *  41024aecb5 - Update Esperanto translation
+  *  ba928886f7 - Update Russian translation of the Windows installer
+  *  7e76b2e0da - po-windows-installer: add POTFILES.in to DISTFILES
+  *  7df863602a - build: small fix to the Windows installer translations
+    makefile
+  *  286d179181 - Update LINGUAS
+  *  e0d08035c8 - Update POTFILES.skip
+  *  ac059b9499 - build: add/update Windows installer strings
+  *  f1070f4c80 - build: use intltool for Windows installer translations
+  *  0aeb61efc5 - Update Serbian translation
+  *  5008283e1c - Update Serbian translation
+  *  43b23df81e - Update Polish translation
+  *  af17ac600e - Update Icelandic translation
+  *  c6cb985733 - app: fix rotated brush boundary position
+  *  2d4715bee9 - Bug 791901 - GeglBuffers leaked with Zealous Crop.
+  *  fdb9e5056f - Update Icelandic translation
+  *  31713ac331 - Update Esperanto translation
+  *  e2664f1d29 - devel-docs: add a new file "debugging-tips.txt".
+  *  6bd43d73d8 - app: add back helper features to output possible flags
+    for GIMP_DEBUG.
+  *  b84874a798 - Fix the 1280x720 document template
+  *  54158342ca - Update Icelandic translation
+  *  a73565f7c3 - Update Icelandic translation
+  *  4e3cadc9c7 - Update Icelandic translation
+  *  6dcb0f76eb - Update Icelandic translation
+  *  3f60a80d91 - NEWS: still keeping the NEWS up-to-date.
+  *  4df282a6fb - app: fix a typo (realtive)
+  *  09035bc3f5 - Update POTFILES.in
+  *  eded91e118 - Bug 753412 - New Canvas rotation feature rotates
+    brush.
+  *  a0b73420ec - app: add support for brush reflection
+  *  27688ee752 - app: fix angle calculation of generated brushes
+  *  067277340d - app: fix brush zoom verification in
+    gimp_brush_core_pre_paint()
+  *  5f00c189e6 - app: also show line info (distance, angle) when moving
+    an endpoint.
+  *  e1621c32d3 - app: use gimp_display_shell_get_line_status() for
+    GimpToolLine.
+  *  2069496af3 - app: use the new gimp_display_shell_get_line_status()
+    for measure...
+  *  0116d7316a - app: new gimp_display_shell_get_line_status().
+  *  ae12413bfd - Update Icelandic translation
+  *  317f7fa5ca - Bug 791514 - Cannot export to webp file.
+  *  eb21819081 - plug-ins: clean the rest of the file-fli plug-in.
+  *  375b767928 - plug-ins: clean-up coding style of fli plug-in code.
+  *  edb251a7ef - Bug 739133 - (CVE-2017-17785) Heap overflow while
+    parsing FLI files.
+  *  fff57f84a0 - app: add gimpdisplayshell-utils.[ch]
+  *  984ed6cefd - app: constrain line angles in display space, not image
+    space
+  *  59fd0315c2 - NEWS: keep it up-to-date!
+  *  ba759fbcfd - Revert "Bug 790784 - (CVE-2017-17784) heap overread in
+    gbr parser / load_image."
+  *  4fa0cd4dcf - gbr/pat: Fix out of boundary read on illegal names
+  *  f01fa4541f - Update Polish translation
+  *  5b9e277625 - app, plug-ins: clean up previous commit by using
+    g_error_set()...
+  *  657a754f98 - Bug 789610: invalid gbr brush crashing GIMP
+  *  877e79b935 - plug-ins: properly propagate GError.
+  *  037cc8586b - plug-ins: use g_set_error() instead of g_message().
+  *  3ff911d348 - Updated Danish translation of gimp-tips
+  *  eb2980683e - Bug 790853 - (CVE-2017-17787) heap overread in psp
+    importer.
+  *  06d24a79af - Bug 790784 - (CVE-2017-17784) heap overread in gbr
+    parser / load_image.
+  *  28e95fbeb5 - Bug 790849 - (CVE-2017-17789) CVE-2017-17789 Heap
+    buffer overflow...
+  *  3d5732e23e - plug-ins: some minor coding style fix.
+  *  8ea316667c - plug-ins: TGA 16-bit RGB (without alpha bit) is also
+    valid.
+  *  674b62ad45 - Bug 739134 - (CVE-2017-17786) Out of bounds read /
+    heap overflow in...
+  *  9d31d4caf5 - Technical fix for updated ru.po
+  *  0952114df0 - Update Russian translation
+  *  1f4b78bc68 - app: add missing translation context to dashboard
+    action tooltip
+  *  2315784110 - Bug 791741 - Transparent rectangles when image is
+    drawn
+  *  2c495b3b3d - app: argh, remove another unusued member from
+    GimpDashboard
+  *  773e7e4d68 - app: remove unused members from GimpDashboard struct
+  *  6c991eeb99 - app: a few fixes/cleanup in gimp-dashboard.c
+  *  981e8dcdfe - app, menus, icons: add dashboard dockable
+  *  8f3cb718ef - app: add GimpMeter widget
+  *  27512d802b - Bug 791512 - make the selection boundary detection the
+    same as 2.8
+  *  433ee21c7d - Updated Danish translation
+  *  a002e07afa - Merge branch 'fix-pdb-history'
+  *  b05cfc6050 - pdb: (try 3) move PDB generation and sources to
+    toplevel/pdb
+  *  7109db2bdc - Revert until "configure.ac: require GEGL => 0.3.27"
+  *  6c5b1ea6cb - pdb: (try 2) move PDB generation and sources to
+    toplevel/pdb
+  *  682ab6919e - Revert "pdb: move PDB generation and sources to
+    toplevel/pdb"
+  *  6dfb2ef5fe - Revert "pdb: git didn't commit the "groups"
+    subdirectory..."
+  *  f4ce55a31a - pdb: git didn't commit the "groups" subdirectory...
+  *  3b639b1de2 - pdb: move PDB generation and sources to toplevel/pdb
+  *  89a9d0e93e - configure.ac: require GEGL => 0.3.27
+  *  10d80a6ced - plug-ins: try to get more human-readable information
+    on why g_fopen()...
+  *  5bce92be67 - NEWS: add implementation for Freedesktop screenshot
+    API.
+  *  80490a2c07 - plug-ins: add a SCREENSHOT_CAN_SHOOT_WINDOW
+    capability.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 31 Dec 2017 10:10:15 +0300
+
+gimp-devel (2.9.8+git39484-5289afad14-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: master
+  * Commit: 5289afad1404ed54a5d21cc676f6c037b81da7d2
+  * Date: 1513391638
+  * git changelog:
+  *  5289afad14 - Update Chinese (Taiwan) translation
+  *  4fc4a8dd8e - Update Chinese (Taiwan) translation
+  *  53a03b38e5 - plug-ins: implementation of the Freedesktop portal for
+    screenshot.
+  *  6fee1a413f - NEWS: start changes for next release.
+  *  edb0928e53 - build: 2.9.8 dev build must now use a higher lcms2 dep
+    version.
+  *  b9260266ab - build: arrrgh! Also the commit for GIMP repo!
+  *  f112fbe734 - build: forgot to update the flatpak commit hashes.
+  *  1b8281269b - plug-ins: the file-ps plug-in won't take care about
+    PDF import anymore.
+  *  7d8dd66e85 - INSTALL: update dependency information.
+  *  ce894dfd1e - configure: MIME_TYPES value only cares about import.
+  *  a207570cfe - Bug 791397 - Gimp import multi page PDF only imports
+    first page.
+  *  c9913bc1e7 - NEWS: a/aan rgument/an argument/.
+  *  e922671223 - build: update flatpak manifest for the development
+    release.
+  *  e8dd20feda - configure.ac: post-release version bump to 2.9.9
+  *  18794a6ba2 - configure.ac: release 2.9.8
+  *  e2eaf1a02a - etc, docs: push changes generated by distcheck
+  *  7a35828a88 - NEWS: fixes here and there
+  *  696b55b4f0 - Bug 783382: Lava filter looks different than in 2.8
+  *  cc057bfe20 - docs, etc: regenerate default gimprc and its manpage.
+  *  1477f53312 - devel-docs: typo fix s/brach/branch/.
+  *  6d0d6f1dbd - Update Polish translation
+  *  6d1dcb505f - NEWS: add all missing contributors to GIMP 2.9.8.
+  *  008c8b145c - NEWS: add various missing changes worth to be listed.
+  *  ff34ec33cc - Bug 791455 - Please add support for barrel rotation in
+    brush tools.
+  *  f2dee7ad1b - Update Spanish translation
+  *  e0c36f3e1b - plug-ins: auto-detect HGT variants.
+  *  43f7a43700 - plug-ins: update file-hgt-load description...
+  *  a80f532567 - Update Polish translation
+  *  78602ca9e2 - NEWS: add file-hgt-load new PDB call.
+  *  7fce78b2ce - plug-ins: properly set returned error in pdb call.
+  *  538590ed8b - plug-ins: s/GimpPluginPrintError/GimpPluginPDFError/
+  *  35597db931 - plug-ins: register a separate load handler file-hgt-
+    load for HGT files.
+  *  a0b2144691 - NEWS: add screenshot and color picker improvements.
+  *  1febb3327b - plug-ins: update win32 screenshot to use the right
+    delay as well.
+  *  dbf97dbcce - plug-ins: macOS screenshot has both window pick and
+    delay-after-pick...
+  *  9b82bc3e76 - plug-ins: force at least 0.5s delay to full-screen
+    screenshots on KDE.
+  *  f9076ae294 - plug-ins: add SCREENSHOT_CAN_DELAY_WINDOW_SHOT
+    capability to screenshot.
+  *  01c39c8fef - plug-ins: oups duplicate select_delay with KWin
+    screenshots.
+  *  b57c89dd5d - plug-ins: differentiate a delay before the area/window
+    selection...
+  *  1a1b175725 - NEWS: adding HGT support.
+  *  733b2344b3 - plug-ins: leave a message for translators.
+  *  b78b14b17e - plug-ins: let's special-case just a bit the HGT data.
+  *  88ccdb4e2f - plug-ins: minor cleaning and fixes.
+  *  c572bdf6d6 - Bug 771661: Extend the raw data import plugin to open
+    .hgt files
+  *  36daa6dba8 - plug-ins: s/Windows.h/windows.h/.
+  *  bf13c13e20 - plug-ins: fix a bunch of coding style.
+  *  36258a671a - app: use FAST filter when painting xfer surface
+  *  6d19e9e860 - app: another off-by-one chunking fix
+  *  709c929d4f - app: fix off-by-one error in last commit
+  *  8029508fbe - Bug 759287 - Canvas Tearing While in Rotated Canvas
+    View
+  *  cdf3db7aab - Update splash screen, real painter item.
+  *  614bcf6d0a - Bug 791352 - Screenshot delay is broken for region
+    shots in GNOME.
+  *  d9cd4b61bc - Bug 791352 - Screenshot delay is broken for region-
+    grab screenshot.
+  *  ef6559b38f - libgimpwidgets: add private headers for GimpPickButton
+    implementations.
+  *  06bbf3e436 - Bug 780375 - Color picker won't pick on Wayland.
+  *  3f1dcaadf7 - plug-ins: fix indentation.
+  *  3023227ffe - Bug 781020 - GIMP UI vector icons are drawn way too
+    small.
+  *  b9034e26a9 - Bug 791360 - Add Screenshot implementation for
+    KDE/Wayland.
+  *  5d544c2a17 - app: update GimpContainerView row expanded state ...
+  *  4c55417951 - app: copy expanded state of duplicated items
+  *  06f41db6aa - app: remove redundant opacity clamp from
+    gimp_layer_new()
+  *  776b4a9a6b - Bug 791386 - New layer with AUTO everything always
+    uses normal mode
+  *  0beef7d97d - app: in GimpItemTreeView, use color tag of parent for
+    children with no tag
+  *  fa314d0f2b - NEWS: s/as angle and flip icons/as angle value and
+    flip icon/.
+  *  1abd415a30 - app: fix GimpForegroundSelectTool after
+    GimpFreeSelectTool changes
+  *  5d0e17c5b5 - Bug 791351 - Use an anonymous checkout for the flathub
+    repo.
+  *  bf8b2f2e6b - app: avoid CRITICAL when moving empty floating
+    selection
+  *  f28cb1c511 - app: add/update some comments.
+  *  f727e885cd - Bug 787663 - Cage tool creates artifacts with multi-
+    threading
+  *  63f830be4c - build: remove flatpak files duplicated in the flathub
+    repository.
+  *  580782dc65 - build: add the flathub stable repository as a
+    submodule.
+  *  fa9a023c27 - app: strength-reduce pass-through groups to normal
+    groups
+  *  bdba43e495 - app: add gimp_layer_get_effective_mode()
+  *  67e685758d - plug-ins: in file-psd, insert layers to image after
+    writing buffers
+  *  93ed1048c6 - app: remove gimp_filter_is_active() prototype
+  *  87aaf576d2 - Bug 787663 - Cage tool creates artifacts with multi-
+    threading.
+  *  09c2ba4cc2 - app: fix git-version.h when building linked working
+    tree
+  *  7b6d040f93 - Update Russian translation
+  *  6a7c0d623d - app: handle visbility/excludes-backdrop changes in
+    floating sel.
+  *  f5d1686a21 - app: add GimpFilter::active property; move ::visible
+    to GimpItem
+  *  e02cb6adfe - app: exclude invisible filters from filter-stack graph
+  *  73d7a81a4d - app: restore operation src node in
+    gimp_gegl_apply_[cached_]operation()
+  *  9e77a0f88b - Add default keyboard shortcut for Paste in Place,
+    Ctrl+Alt+V, that matches Inkscape's one
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 16 Dec 2017 23:43:21 +0300
+
+gimp-devel (2.9.6+git39401-9f1e3de4da-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: master
+  * Commit: 9f1e3de4daf1ab6d6de6a77fc209e38db7a65787
+  * Date: 1512488898
+  * git changelog:
+  *  9f1e3de4da - Update Spanish translation
+  *  94a6ba9025 - Updated Italian translation
+  *  5aa9428445 - app: migrate plug-in-gauss shortcuts to filters-
+    gaussian-blur.
+  *  482b907cb7 - app: reorder alphabetically changed action paths in
+    migration code.
+  *  81d9da0c17 - Bug 775931 - Shortcut for non-existing action shadows
+    existing one.
+  *  4e4c1cd57e - Bug 790810 - Nested layer groups lead to a deadlock
+    with multithreading
+  *  dec2375a26 - app: add gimp:buffer-source-validate operation
+  *  4dab0ac0ac - libgimpbase: fix gettext invocation for enum/flags
+    desc/abbrev
+  *  fd9cce57ee - configure.ac: require perl >= 5.10.0
+  *  3c4ea160dc - Update Polish translation
+  *  b1ac9f33b2 - Bug 790917 - Exporting 16bit per channel w/ alpha data
+    as TGA destroys part of the image
+  *  e042c82d59 - app: flush group proj. switching from pass-through to
+    non-pass-through
+  *  9451a8f690 - Update Swedish translation
+  *  9f79be44f8 - app: flush pass-through groups' projection
+    asynchronously
+  *  61ae3089ad - app: avoid begin_render()/end_render() when flushing
+    projections
+  *  be97b97a2b - app: set group layer projection priority according to
+    depth
+  *  1a2c0e8198 - app: add gimp_projection_{get,set}_priority()
+  *  a52ff51990 - app: add GimpViewable::ancestry-changed signal,
+    get_depth() function
+  *  32d575b64f - Bug 785080 - 02-Gray Theme lacks foreground-background
+    contrast.
+  *  c4c40b6a01 - app: set sensitivity for median-blur filter action
+  *  c0274b7b1f - app: disable OpenCL by default, like GEGL does
+  *  d60c237805 - Bug 785781 - Additional Free Selection step (hitting
+    Enter)...
+  *  568c147f8d - app: do not assume PixbufStyle type exists.
+  *  ba8dca5f47 - app: g_type_class_unref() PixbufStyle in
+    themes_exit().
+  *  0830fe8923 - libgimpwidgets, app: make ABBREVIATED default
+    GimpIntComboBox layout
+  *  ed2fe2d2d1 - libgimpbase, libgimpwidgets: add new functions to .def
+    files
+  *  8e51e7c351 - libgimpwidgets: fix return type of
+    gimp_int_combo_box_get_layout()
+  *  66bed0d272 - authors: add shark0r.
+  *  6962c6b6d6 - app: a bit more cleanup, aligning variables.
+  *  18a96d9268 - Bug 770424 - Themes: insensitive menu item are not
+    readable.
+  *  337dba62fd - Bug 770424 - Themes: insensitive menu item are not
+    readable
+  *  33d4095fd5 - app: fix a typo (transarent)
+  *  5a28753924 - app: add abbreviations for layer modes
+  *  f80f33216f - libgimpbase: use abbreviations for GimpGradientType
+  *  a08a9171d7 - app: modify unabbreviated value descriptions of
+    GimpGradientColor
+  *  91f7f90262 - Update Greek translation
+  *  8fbac7090a - Update Spanish translation
+  *  c8b4c0686c - app: use ICON_ONLY layout for group combo in
+    GimpLayerModeBox
+  *  d3e527a959 - libgimpbase, app: add abbreviations to gradient enums
+  *  0f43dedfb5 - libgimpwidgets: use ABBREVIATED layout for
+    GimpEnumComboBoxes ...
+  *  47ac6111de - libgimpwidgets: add "layout" property to
+    GimpIntComboBox
+  *  658d07dffe - libgimpwidgets: fill ABBREV column in GimpEnumStore
+  *  684c850196 - libgimpwidgets: add ABBREV column to GimpIntStore
+  *  f7d6805ebb - */Makefile.am: add abbreviations to generated enum
+    files
+  *  4b521435a1 - gimp-mkenums: add @if@ conditional inclusion
+  *  300eb7e6c7 - gimp-mkenums: add @valueudesc@, @valueuhelp@,
+    @valueuabbrev@ subs.
+  *  627a2b8ded - gimp-mkenums: add @valueabbrev@ substitution
+  *  bbcb66dbd4 - gimp-mkenums: tabs-to-spaces, indentation, and
+    trailing-space cleanup
+  *  7df427583f - libgimpbase: add gimp_{enum,flags}_value_get_abbrev()
+  *  10e3295581 - Bug 790911 - fix jaggy stroke in Tiling Symmetry
+    Painting
+  *  5ec5781c3a - Update Greek translation
+  *  702c4227e8 - 790783 - buffer overread in XCF parser if version
+    field...
+  *  f9125b514b - Update Polish translation
+  *  2ff52af5a9 - Bug 790810 - Nested layer groups lead to a deadlock
+    with multithreading
+  *  d228e76ebe - app: fix memory leak.
+  *  120fda66e7 - NEWS: fix some typo.
+  *  1e78d3d249 - plug-ins: make Darktable version checking more
+    generic.
+  *  717cd7881e - Update Catalan translation
+  *  eeddd13209 - Revert "app: make GimpTileHandlerValidate thread safe"
+  *  35b0f6102e - app: update group-layer item offset after updating
+    offset node
+  *  5180c01045 - configure.ac: require GEGL >= 0.3.24
+  *  61262f6e8e - Update Spanish translation
+  *  4355088644 - app: layer's Blend|Composite Space|Mode actions labels
+    too long.
+  *  d88a09334d - app: get rid of more abused GIMP_ICON_CLOSE on *-color-
+    tag-menu.
+  *  fa25b476be - icons, modules, libgimpwidgets: add clip-warning
+    display filter icon
+  *  b6cb1d167c - Bug 790631 - C plug-ins instability when processing
+    gegl graphs ...
+  *  9c0dac9e6d - app: heed deprectation warning of
+    gegl_operation_context_get_source
+  *  30d29e03f8 - Bug 789614 - Fix heap overflow in pattern handling
+  *  d8ae581703 - libgimp: make GimpTileBackendPlugin thread safe
+  *  a30f855981 - configure.ac: require babl >= 0.1.38
+  *  c10c640451 - plug-ins: Hide darktable debug output
+  *  3c7ade6423 - Update Polish translation
+  *  39d03909dc - app: s/GIMP_ICON_CLOSE/GIMP_ICON_EDIT_CLEAR/ for *-
+    color-tag-none.
+  *  e3f8b470d2 - Revert "app: copy *-color-tag-* tooltips into labels."
+  *  1b804e5770 - Update Polish translation
+  *  7e613516a2 - Bug 788403 - When importing an image, don't change to
+    "untitled"...
+  *  d613842eba - Bug 788768 - GIMP crashes loading a valid truncated
+    xcf
+  *  e19958c5f1 - app: use SAFE_CLAMP() in histogram bin calculation
+  *  e9f45798d0 - libgimpmath: add SAFE_CLAMP() macro
+  *  5eb6187421 - app, menus: add gegl:median-blur to the menus
+  *  a9cc82499d - Update Catatalan translation
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 05 Dec 2017 18:59:47 +0300
+
+gimp-devel (2.9.6+git39320-945ef0de25-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: master
+  * Commit: 945ef0de25a863aa2d28e56b862c5325fcf3b9c6
+  * Date: 1510851313
+  * git changelog:
+  *  945ef0de25 - app: restore gradient when adding/removing stop on
+    same blend-tool action
+  *  6036217d20 - app: improve elimination of trivial blend-tool edit
+    actions
+  *  6a6af19ff8 - app: update image menu when starting a blend-tool edit
+    action
+  *  ac983d99fa - NEWS: update.
+  *  189a474502 - app: copy *-color-tag-* tooltips into labels.
+  *  1e5311f0e8 - app: no need to show all components as icons when
+    alpha is invisible.
+  *  0e8b89c821 - app: more casing inconsistencies and a double space.
+  *  be9d5758c2 - app: various action labels made more accurate.
+  *  6b0f9f001f - app: apply Title Case to action labels.
+  *  c70925126a - app: s/channel/drawable/.
+  *  1e87642ef0 - Bug 785061 - Add channels-select-
+    (prev|next|top|bottom) actions.
+  *  4003bc79db - app: layers-mode-* actions should not always be
+    sensitive.
+  *  87140a4cc6 - app: more accurate labels for "Visible" actions.
+  *  a3b6f01824 - NEWS: update.
+  *  80b04d06da - Bug 789173 - Make canvas rotation information visible
+    on the main window
+  *  953a095563 - Bug 789173 - Make canvas rotation information visible
+    on the main window
+  *  4bd118ec8a - app: make GimpTileHandlerValidate thread safe
+  *  ffb923464c - app: more accurate labels for "Other" actions.
+  *  8350ab4217 - app: add gimp_container_tree_view_name_edited() as
+    public default callback
+  *  7aadf34a23 - Bug 790328 - Buffer dialog should support renaming of
+    entries
+  *  5d91657747 - app: indentation fix to last commit
+  *  2e9ab59d19 - app: use matrix to determine if doing perspective
+    transform in preview
+  *  788e04bddb - app: GimpScaleComboBox resized appropriately with its
+    contents.
+  *  864e3df7a9 - app: fix comment typos.
+  *  d6c72d0f71 - Bug 790261 - autogen.sh non-portable use of echo -n.
+  *  7da24fd97b - app: bump GIMP_UI_WINDOW_POSITION_EPSILON in test-ui.c
+  *  8aa5e7825e - app: move error console highlight flags to aux-info
+  *  1e6f82d9f0 - modules: in colorblind, change "deficiency" prop to
+    "type"
+  *  19a28cc709 - Revert "app: do not add undo step when clearing an
+    already empty channel."
+  *  b5e0dfb6e2 - app: clarify "Into" -> "Into The Selection" in the
+    buffers dialog too
+  *  da4939419b - NEWS: update for 2.9.8
+  *  0611ca1d50 - app: remember the modes of the color picker info
+    window's GimpColorFrames
+  *  cbe6cd8ebd - app: notify on "mode" when a GimpColorFrame mode is
+    chosen from the menu
+  *  393336b76f - configure.ac: require GEGL >= 0.3.22
+  *  aee1a1f430 - Update Polish translation
+  *  d680c5453f - app: fix typo in a translatable string
+  *  f12d0d8c29 - Bug 789764 - Please add Paste In Place feature
+  *  79836aea34 - configure.ac: require babl >= 0.1.36
+  *  531eafe41d - app: sort available display filters by name
+  *  d591bf51f0 - app: clear display filter stack when emptying a
+    display
+  *  b1c5725373 - Update Russian translation
+  *  54ec9373fb - Bug 789981 - Wrong layer structure in PSDs with deeply
+    nested layer groups
+  *  6708af3976 - plug-ins: in file-psd, repalce tabs with spaces
+  *  4ded26c4f1 - app: update group layer offset before calling
+    gimp_pickable_flush()
+  *  fe3339e215 - app: in GimpSearchPopup, activate selected action
+    after closing popup
+  *  d87fb81f1f - Update NEWS
+  *  7f232a87b3 - data: new development splash image
+  *  c49a21d95c - app: improve histogram bin calculation
+  *  b2b6552f1f - Bug 788394 - Crash (segmentation fault) when
+    calculating a histogram ...
+  *  8793d6a3b2 - Fixes to Catalan translation
+  *  e2fb7a41c6 - modules: various changes in clip-warning
+  *  c97c2fe06d - Update Polish translation
+  *  6ffa17bd33 - app: avoid unnecessary work when all display filters
+    are disabled
+  *  bf659a9979 - modules: stylistic code and ui text cleanup in display
+    filters
+  *  bc9f179edf - app: add gimp_data_is_{copyable,duplicatable}() to
+    gimp_data.h
+  *  2fe6575d7e - Bug 789901 - Gimp allows duplicating non-duplicatable
+    data objects ...
+  *  089bfe4e3d - app: copy brush spacing when copying generated brushes
+  *  880d3bd182 - app: port GimpData subclasses from ::duplicate() to
+    ::copy()
+  *  9cd8e7f9c6 - app: apply display filters in sRGB, not monitor
+    profile
+  *  22a28a23cc - libgimpcolor: add shortcut in
+    gimp_color_profile_is_equal()
+  *  2520e0455c - modules: remove custom display filter gui
+  *  7ec271bd0c - modules: small cleanup in display-filter-clip-
+    warning.c
+  *  5b118a260b - modules: add clip-warning display filter
+  *  5a726a028e - app: use a propgui for display filters that return a
+    NULL config widget
+  *  bcb7545fe1 - app: in propgui, use flat color buttons for rgb props
+    with no alpha
+  *  a5a2b56850 - app: use actual render area when processing display
+    filters
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 16 Nov 2017 21:47:25 +0300
+
+gimp-devel (2.9.6+git39254-e042393199-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: master
+  * Commit: e0423931992a8e2ecc61e3f279f48f3485bab080
+  * Date: 1509627879
+  * git changelog:
+  *  e042393199 - app: small cleanup in GimpSpinScale
+  *  da41269dcd - Update Spanish translation
+  *  ae851c34b4 - app: avoid spin scale pointer wrap when value is at
+    upper/loewr limit
+  *  2bdf5372ba - app: wrap pointer around screen edges during relative
+    spin scale adjustment
+  *  0323541d86 - Bug 780375 - Color picker won't pick on Wayland
+  *  0f716b3357 - Updated Italian translation
+  *  262f25b319 - app: fix GimpDataEditor name entry set_editable()
+    logic
+  *  bccef43049 - app, pdb: prevent custom gradient from being renamed
+  *  b7b263e97b - app: update GimpContainerEntry when the selected
+    item's name changes
+  *  9eb75cde00 - app: use G_FILE_CREATE_NONE for saved internal data
+    files
+  *  ab05320ce1 - Updated Italian translation
+  *  fb5354c9e5 - Bug 780979 - Fullscreen windows with WS_EX_NOACTIVATE
+    | WS_EX_TRANSPARENT ...
+  *  d14f6647ad - libgimp, libgimpbase: rename
+    gimp_base_compat_enum_init()
+  *  61727c69e0 - Update Polish translation
+  *  a5e1dd84fd - app: implement GimpToolActiveModifiers in GimpTool
+  *  dd30cc79b5 - app: let tools control how they recieve modifier keys
+    during a stroke
+  *  70881728f2 - Bug 786844 - Wavelet decompose plugin changes image
+    slightly
+  *  e4440e3fdb - app: save custom gradient across sessions
+  *  601f1bde98 - app: small cleanup in gimpwidgets-utils.c
+  *  4f871cb57d - NEWS: update various notable improvements.
+  *  8dc33b7729 - Fixes to Catalan translation
+  *  fdd8b3f4f6 - app: add "#include <gegl.h>" to tests
+  *  7655dd727b - app: make error-console highlighting criterion
+    configurable
+  *  b2bc33bdf1 - app: blink the statusbar on warnings and errors
+  *  e029795dfb - app: add gimp_widget_blink(); use instead of
+    gimp_dockable_blink()
+  *  e921c89496 - app: improve gimp_highlight_widget() visibility on
+    dark themes
+  *  35ac95815a - Update Spanish translation
+  *  29331c3b3e - Update Catalan translation
+  *  8515877244 - Update Catalan translation
+  *  e47b955454 - Update Catalan translation
+  *  66b92854f0 - Bug 789436 - Fix out of boundary write in file-xmc.c.
+  *  9a073508f7 - Bug 789436 - Fix out of boundary write in file-xmc.c.
+  *  7a4d5385fd - libgimpbase: add gimp_base_compat_enum_init() to
+    gimpbase.def
+  *  3b15ff5d30 - app: convert bg color to image color space when
+    removing alpha
+  *  7c32451dfb - Bug 784305 - Deprecated enum constants are not
+    registered in python-fu.
+  *  819a27564e - Bug 734982 - update project information upon release.
+  *  715c458649 - Bug 734981 - Update maintainers and authors.
+  *  20ab06a119 - Fixes to Catalan installer
+  *  59ea5ba298 - build: sync with flathub manifest.
+  *  dd924bb33a - build: stable flatpak manifest is now hosted at
+    flathub.
+  *  5f7c03235c - app: when changing layer-mode group, check new mode
+    against context
+  *  6f7d95c21c - app: remove legacy color-erase mode from the layer
+    mode combo
+  *  eada4a3ef8 - build: update 2.9 Windows installer graphics
+  *  a44ef8e866 - Bug 786840 - Selecting last option in file association
+    list ...
+  *  78aff4dde6 - app: add compress-threshold-range prop to color-to-
+    alpha-plus gui
+  *  4165ba2a03 - plug-ins: in file-psd, fix active layer selection upon
+    loading
+  *  6fb497247d - plug-ins: in file-psd, read/write layer group expanded
+    state
+  *  4db000a522 - pdb, libgimp: add gimp-item-{get,set}-expanded()
+  *  d027a059ef - app: respond to viewable expanded state changes in
+    container views
+  *  06ef794977 - Update Polish translation
+  *  ef89e07283 - Update Catalan translation
+  *  66bb469a78 - Bug 786992 - removing alpha produces a black image
+    (sometimes), with OpenCL
+  *  0c305bdb0f - app: use the layer's composite space when flattening
+    it
+  *  96efde0f22 - app: add
+    gimp_layer_get_real_{blend,composite}_{space,mode}()
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 02 Nov 2017 17:15:38 +0300
+
+gimp-devel (2.9.6+git39200-90a024be54-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: master
+  * Commit: 90a024be54dc0a7eb6c7b2f79bc83d52f9b704f3
+  * Date: 1508355814
+  * git changelog:
+  *  90a024be54 - app: improve spinscale target calculation
+  *  8d90999814 - app: highlight upper/lower halves of spinscales while
+    hovering
+  *  2bbb0f509b - app: fix tentative gradient leak in the blend tool
+    editor
+  *  6e5aeb4fbf - app: indentation fix in the blend tool editor
+  *  cdedc120c5 - Update Catalan translation
+  *  5456ddbb40 - Bug 683553 - Spinscale scrollvalues in Brushsize are
+    much too small
+  *  2bf166d2ce - app: use fuzzy comparison in various layer-mode
+    blendfuncs
+  *  d4d8dbbc1b - app: add custom gui for gegl:color-to-alpha(-plus)
+  *  c5b88702e6 - app: allow specifying a callback function for propgui
+    pickers
+  *  92cd4d4619 - app: s/diffration-patterns/diffraction-patterns/
+  *  6c1e3beb69 - Update Polish translation
+  *  0655c70350 - Update German translation
+  *  087003746c - Update German translation
+  *  ae9b9c642d - app: preserve dirname when switching save dialogs
+  *  862bb00478 - app: clear tentative gradient when halting the blend
+    tool
+  *  5a8033151f - app: fix function doc-comment.
+  *  c5f94c1f27 - NEWS: update the list of contributors
+  *  9548d54e12 - app: fix conversion of midpoints to stops in the blend
+    tool, when ...
+  *  695b6ed260 - NEWS: mention newly added on-canvas gradient editing
+  *  0e9747380b - app: in GimpOperationBlend, fix left/right-most colors
+    when offset > 0
+  *  c465e17ed6 - Update Catalan translation
+  *  a789c6e5e2 - app: in GimpOperationBlend, swap leftmost and
+    rightmost colors when ...
+  *  4e2e60caf4 - app: fix leftmost and rightmost gradient colors in
+    GimpOperationBlend
+  *  dfeafcb175 - app: cache last-sampled gradient segment in
+    GimpOperationBlend
+  *  4bfa6e716e - app: don't update blend tool filter upon irrelevant
+    line changes
+  *  429bc5507c - app: fix fg/bg color change handling in the blend tool
+  *  4f6b4d27bc - app: implement tool undo for gradient editing in the
+    blend tool
+  *  9469ac26f0 - app, libgimpbase: implement blend tool gui for
+    gradient midpoints
+  *  1aa4877426 - app: implement blend tool gui for gradient stops
+  *  8d12fada8a - app: implement blend tool gui for gradient endpoints
+  *  a9ca354d26 - app: add tool gui to the blend tool
+  *  420ea8037a - app: convert midpoints to stops via double-click in
+    the blend tool
+  *  63c8fc73dd - app: handle prepare-to-remove-slider signal in the
+    blend tool
+  *  9ae09fb03a - app: add support for removing gradient stops to the
+    blend tool
+  *  29bae454a2 - app: add support for adding gradient stops to the
+    blend tool
+  *  690f51d4eb - app: modify the gradient in response to blend-tool
+    slider motion
+  *  ac1b788787 - app: add sliders for gradient stops and midpoints in
+    the blend tool
+  *  4f1195be29 - app: add "modify active gradient" option to the blend
+    tool
+  *  f95f8eb347 - app: add "instant mode" option to the blend tool
+  *  02ad016b39 - app: don't show a PLUS cursor modifier before starting
+    the blend tool
+  *  5d2555bdb5 - app: add gimp_color_panel_dialog_response(); add
+    "response" signal
+  *  32de48780b - app: use get_{left,right}_flat_color() in gradient
+    editor
+  *  1f3030eb41 - app: improve curved gradient segment sampling
+  *  1b2a395e88 - app: improve num. stability of
+    gimp_gradient_segment_range_compress()
+  *  3aff0a1a0e - app: treat gradient segments as clopen ranges
+  *  d710773aba - app: add gimp_gradient_segment_range_merge()
+  *  082f6a4122 - app: add gimp_gradient_segment_range_get_n_segments()
+  *  c5faf02759 - app: add gimp_gradient_split_at()
+  *  6840dabad4 - app: add
+    gimp_gradient_segment_get_{left,right}_flat_color()
+  *  6971b89397 - app: implement compare() for GimpGradient
+  *  17583ff04a - app: implement copy() for GimpGradient
+  *  2ad9f40dbe - app: add "custom" gradient
+  *  f36f234fc0 - app: add compare() virtual function to GimpData
+  *  33de4d5530 - app: add gimp_data_copy()
+  *  507bc43716 - app: improve status messages of GimpToolLine
+  *  dad521e334 - app: add misc. parameters to GimpControllerSlider
+  *  9e26d7ea5f - app: add handle-clicked signal to GimpToolLine
+  *  50acb6690d - app: add prepare-to-remove-slider signal to
+    GimpToolLine
+  *  bac7dac4ba - app: allow adding and removing sliders to/from a
+    GimpToolLine
+  *  86954037de - app: add dashed canvas handle types
+  *  63ccbc4fb0 - app: add keyboard control to GimpToolLine
+  *  d4cb1623ea - app: add persistent handle selection to GimpToolLine
+  *  042650e18c - app: rename slider-value variables in GimpToolLine
+  *  fb31a592c6 - app: add gimp_tool_line_get_slider()
+  *  f47df72dc6 - plug-ins: link file-raw aginst libgimpcolor and
+    libgimpconfig explicitly
+  *  adff950d58 - app: in file-psd, make layer-group saving more
+    Photoshop-like
+  *  9e015f4b7d - plug-ins: in file-psd, fix bad sign extension in
+    decode_packbits()
+  *  d01e182c7b - Bug 787457 - Paint brush settings display system
+    language (e.g. zh_TW)
+  *  18cb45f250 - Updated Italian translation
+  *  e1afed3ddd - Update Polish translation
+  *  b62b442550 - Updated Italian translation
+  *  6a9f4588c9 - build: fix previous commit and add xdg-config/gtk-3.0
+    access.
+  *  925a77e205 - build: only grant access to needed services in
+    flatpak.
+  *  34ac56e770 - build: using cmake-ninja for jasper build system in
+    flatpak.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 19 Oct 2017 19:19:06 +0300
+
+gimp-devel (2.9.6+git39126-e75ea3c2af-1) unstable; urgency=medium
 
   * Compile
   * URL: git://git.gnome.org/gimp
@@ -3236,7 +4196,7 @@ gimp-devel (2.9.2+git37092-38f1b50-1) unstable; urgency=low
                 <a href="https://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
                 &middot;
                 <a href="https://t.me/notesalexp" rel="alternate">Telegram channel</a>
-                <p> © Alexander Pozdnyakov, 2010–2017
+                <p> © Alexander Pozdnyakov, 2010–2018
             </footer>
         </div>
         <div class="clear"></div>

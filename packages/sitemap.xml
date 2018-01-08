@@ -3559,6 +3559,9 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/autopano-sift-c/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/autopoint/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/azpainter/</loc>
     </url>
     <url>
@@ -3700,6 +3703,18 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/gegl/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/gettext/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/gettext-base/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/gettext-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/gettext-el/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/gimp/</loc>
     </url>
     <url>
@@ -3766,6 +3781,12 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/leptonica-progs/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libasprintf0c2/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libasprintf-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libbabl-0.1-0/</loc>
     </url>
     <url>
@@ -3800,6 +3821,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libgegl-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libgettextpo0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libgettextpo-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libgexiv2-2/</loc>
@@ -4561,6 +4588,9 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/autopano-sift-c/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/autopoint/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/azpainter/</loc>
     </url>
     <url>
@@ -4702,6 +4732,18 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/gegl/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/gettext/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/gettext-base/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/gettext-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/gettext-el/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/gimp/</loc>
     </url>
     <url>
@@ -4768,6 +4810,12 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/leptonica-progs/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libasprintf0c2/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libasprintf-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/libbabl-0.1-0/</loc>
     </url>
     <url>
@@ -4802,6 +4850,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/libgegl-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libgettextpo0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libgettextpo-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/libgexiv2-2/</loc>
@@ -8315,6 +8369,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/freecad-daily/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/gettext/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/gexiv2/</loc>
@@ -13462,6 +13519,9 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/audacity-data/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/autopoint/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/azpainter/</loc>
     </url>
     <url>
@@ -13591,6 +13651,18 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/freecad-doc/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/gettext/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/gettext-base/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/gettext-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/gettext-el/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/gimp/</loc>
     </url>
     <url>
@@ -13645,6 +13717,12 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/leptonica-progs/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libasprintf0v5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libasprintf-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libeiskaltdcpp2.2/</loc>
     </url>
     <url>
@@ -13655,6 +13733,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libeiskaltdcpp-dev-unstable/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libgettextpo0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libgettextpo-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libgimp2.0/</loc>
@@ -14410,6 +14494,9 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/audacity-data/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/autopoint/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/azpainter/</loc>
     </url>
     <url>
@@ -14539,6 +14626,18 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/freecad-doc/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/gettext/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/gettext-base/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/gettext-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/gettext-el/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/gimp/</loc>
     </url>
     <url>
@@ -14593,6 +14692,12 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/leptonica-progs/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libasprintf0v5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libasprintf-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/libeiskaltdcpp2.2/</loc>
     </url>
     <url>
@@ -14603,6 +14708,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/libeiskaltdcpp-dev-unstable/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libgettextpo0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libgettextpo-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/libgimp2.0/</loc>
