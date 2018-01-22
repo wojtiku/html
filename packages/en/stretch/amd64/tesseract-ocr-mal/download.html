@@ -43,15 +43,15 @@
 <p>If you are running <em>Debian</em>, it is strongly suggested to use a package manager like <em>aptitude</em> or <em>synaptic</em> to download and install packages, instead of doing so manually via this website.</p>
 <p>1. Open a terminal and install apt-transport-https</p>
 <p><code>sudo apt-get install apt-transport-https</code></p>
-<p><code></code></p>
 <p>2. Add this line to your <em>/etc/apt/sources.list</em> :</p>
 <p><code>deb https://notesalexp.org/debian/stretch/ stretch main</code></p>
 <p>3. Fetch and install the GnuPG key</p>
-<p><code>sudo aptitude update &amp;&amp; sudo aptitude install notesalexp-keyring </code></p>
-<p><code>sudo aptitude update </code></p>
+<p><code>sudo apt-get update -oAcquire::AllowInsecureRepositories=true </code></p>
+<p><code>sudo apt-get install notesalexp-keyring -oAcquire::AllowInsecureRepositories=true </code></p>
+<p><code>sudo apt-get update </code></p>
 <p>or</p>
 <p><code>wget -O - https://notesalexp.org/debian/alexp_key.asc | sudo apt-key add -</code></p>
-<p><code>sudo aptitude update </code></p>
+<p><code>sudo apt-get update </code></p>
 <p>4. Enjoy </p>
 <p><code>sudo aptitude install tesseract-ocr-mal</code></p>
 <p>You can download the requested file from the <em>pool/main/t/tesseract-lang</em> subdirectory at this link:</p>
@@ -73,7 +73,7 @@
                 <a href="https://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
                 &middot;
                 <a href="https://t.me/notesalexp" rel="alternate">Telegram channel</a>
-                <p> © Alexander Pozdnyakov, 2010–2017
+                <p> © Alexander Pozdnyakov, 2010–2018
             </footer>
         </div>
         <div class="clear"></div>

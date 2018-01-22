@@ -38,13 +38,12 @@
                 <p><strong>notesalexp.org</strong> - Unofficial repository for <strong>Debian GNU/Linux</strong> and <strong>Ubuntu</strong>. 
 You can find the packages of this repository following this <a href="http://notesalexp.org/packages/">link</a>.</p>
 <p><strong>Instructions</strong></p>
-<p><em>1. Open a terminal</em></p>
-<div class="highlight"><pre><span></span>sudo apt-get update #to update package list
-sudo apt-get install apt-transport-https #install https download transport for APT
-sudo nano /etc/apt/sources.list #to open repository file with a text editor
+<p><em>1. Open a terminal and install apt-transport-https</em></p>
+<div class="highlight"><pre><span></span>sudo apt-get install apt-transport-https
 </pre></div>
 
 
+<p><em>2. Open /etc/apt/sources.list</em></p>
 <p>Add this line for <strong>Wheezy</strong>: <code>deb https://notesalexp.org/debian/wheezy/ wheezy main</code><br>
 Add this line for <strong>Jessie</strong>: <code>deb https://notesalexp.org/debian/jessie/ jessie main</code><br>
 Add this line for <strong>Stretch</strong>: <code>deb https://notesalexp.org/debian/stretch/ stretch main</code><br>
@@ -56,19 +55,20 @@ Add this line for <strong>Xenial</strong>: <code>deb https://notesalexp.org/debi
 Add this line for <strong>Zesty</strong>: <code>deb https://notesalexp.org/debian/zesty/ zesty main</code><br>
 Add this line for <strong>Artful</strong>: <code>deb https://notesalexp.org/debian/artful/ artful main</code>  </p>
 <p>Save and close sources.list</p>
-<p><em>2.Fetch and install the GnuPG key</em></p>
-<div class="highlight"><pre><span></span>sudo apt-get update &amp;&amp; sudo apt-get install notesalexp-keyring #to add gpg key
-sudo apt-get update #to update package list
+<p><em>3.Fetch and install the GnuPG key</em></p>
+<div class="highlight"><pre><span></span>sudo apt-get update -oAcquire::AllowInsecureRepositories=true
+sudo apt-get install notesalexp-keyring -oAcquire::AllowInsecureRepositories=true
+sudo apt-get update
 </pre></div>
 
 
 <p>or</p>
 <div class="highlight"><pre><span></span>wget -O - https://notesalexp.org/debian/alexp_key.asc | sudo apt-key add -
-sudo apt-get update #to update package list
+sudo apt-get update
 </pre></div>
 
 
-<p><em>3. Enjoy</em></p>
+<p><em>4. Enjoy</em></p>
 <div class="highlight"><pre><span></span>sudo apt-get install package
 </pre></div>
 

@@ -35,27 +35,29 @@
     <I>gedit /etc/apt/sources.list</I> <FONT COLOR="#808080">#to open
     repository file with a text editor (you can use gedit or another)</FONT><DT>
     Add this line for Artful:
-    <I>deb http://notesalexp.org/debian/artful/ artful main</I><DT>
+    <I>deb https://notesalexp.org/debian/artful/ artful main</I><DT>
     Add this line for Buster:
-    <I>deb http://notesalexp.org/debian/buster/ buster main</I><DT>
+    <I>deb https://notesalexp.org/debian/buster/ buster main</I><DT>
     Add this line for Jessie:
-    <I>deb http://notesalexp.org/debian/jessie/ jessie main</I><DT>
+    <I>deb https://notesalexp.org/debian/jessie/ jessie main</I><DT>
     Add this line for Precise:
-    <I>deb http://notesalexp.org/debian/precise/ precise main</I><DT>
+    <I>deb https://notesalexp.org/debian/precise/ precise main</I><DT>
     Add this line for Sid:
-    <I>deb http://notesalexp.org/debian/sid/ sid main</I><DT>
+    <I>deb https://notesalexp.org/debian/sid/ sid main</I><DT>
     Add this line for Stretch:
-    <I>deb http://notesalexp.org/debian/stretch/ stretch main</I><DT>
+    <I>deb https://notesalexp.org/debian/stretch/ stretch main</I><DT>
     Add this line for Trusty:
-    <I>deb http://notesalexp.org/debian/trusty/ trusty main</I><DT>
+    <I>deb https://notesalexp.org/debian/trusty/ trusty main</I><DT>
     Add this line for Wheezy:
-    <I>deb http://notesalexp.org/debian/wheezy/ wheezy main</I><DT>
+    <I>deb https://notesalexp.org/debian/wheezy/ wheezy main</I><DT>
     Add this line for Xenial:
-    <I>deb http://notesalexp.org/debian/xenial/ xenial main</I><DT>
+    <I>deb https://notesalexp.org/debian/xenial/ xenial main</I><DT>
     Add this line for Zesty:
-    <I>deb http://notesalexp.org/debian/zesty/ zesty main</I><DT>
+    <I>deb https://notesalexp.org/debian/zesty/ zesty main</I><DT>
     Save and close sources.list<DT>
-    <I>apt-get update && apt-get install notesalexp-keyring</I><FONT COLOR="#808080"> #to add gpg key</FONT><DT>
+    <I>apt-get install apt-transport-https</I><DT>
+    <I>apt-get update -oAcquire::AllowInsecureRepositories=true</I><DT>
+    <I>apt-get install notesalexp-keyring -oAcquire::AllowInsecureRepositories=true</I><FONT COLOR="#808080"> #to add gpg key</FONT><DT>
     <I>apt-get update</I> <FONT COLOR="#808080">#to update package list</FONT><DT>
     <I>apt-get install package</I><DT>
     <strong>Warning:</strong> Need to update the gpg-key.(2015-09-20)<DT>
@@ -6624,7 +6626,7 @@ Blog:   <a href="https://notesalexp.org/html/blog/">https://notesalexp.org/html/
 <p></p>
 -->
 <!--
-timestamp: 1516557136
+timestamp: 1516651304
 -->
 <table width="100%" border="0px">
     <tbody>

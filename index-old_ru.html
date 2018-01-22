@@ -35,27 +35,29 @@
     <I>gedit /etc/apt/sources.list</I> <FONT COLOR="#808080">#Откройте файл sources.list
     с помощью текстового редактора (вы можете использовать gedit или любой другой текстовый редактор)</FONT><DT>
     Добавьте следующую строку для Wheezy:
-    <I>deb http://notesalexp.org/debian/wheezy/ wheezy main</I><DT>
+    <I>deb https://notesalexp.org/debian/wheezy/ wheezy main</I><DT>
     Добавьте следующую строку для Jessie:
-    <I>deb http://notesalexp.org/debian/jessie/ jessie main</I><DT>
+    <I>deb https://notesalexp.org/debian/jessie/ jessie main</I><DT>
     Добавьте следующую строку для Stretch:
-    <I>deb http://notesalexp.org/debian/stretch/ stretch main</I><DT>
+    <I>deb https://notesalexp.org/debian/stretch/ stretch main</I><DT>
     Добавьте следующую строку для Buster:
-    <I>deb http://notesalexp.org/debian/buster/ buster main</I><DT>
+    <I>deb https://notesalexp.org/debian/buster/ buster main</I><DT>
     Добавьте следующую строку для Sid:
-    <I>deb http://notesalexp.org/debian/sid/ sid main</I><DT>
+    <I>deb https://notesalexp.org/debian/sid/ sid main</I><DT>
     Добавьте следующую строку для Precise:
-    <I>deb http://notesalexp.org/debian/precise/ precise main</I><DT>
+    <I>deb https://notesalexp.org/debian/precise/ precise main</I><DT>
     Добавьте следующую строку для Trusty:
-    <I>deb http://notesalexp.org/debian/trusty/ trusty main</I><DT>
+    <I>deb https://notesalexp.org/debian/trusty/ trusty main</I><DT>
     Добавьте следующую строку для Xenial:
-    <I>deb http://notesalexp.org/debian/xenial/ xenial main</I><DT>
+    <I>deb https://notesalexp.org/debian/xenial/ xenial main</I><DT>
     Добавьте следующую строку для Zesty:
-    <I>deb http://notesalexp.org/debian/zesty/ zesty main</I><DT>
+    <I>deb https://notesalexp.org/debian/zesty/ zesty main</I><DT>
     Добавьте следующую строку для Artful:
-    <I>deb http://notesalexp.org/debian/artful/ artful main</I><DT>
+    <I>deb https://notesalexp.org/debian/artful/ artful main</I><DT>
     Сохраните и закройте sources.list<DT>
-    <I>apt-get update && apt-get install notesalexp-keyring</I><FONT COLOR="#808080"> #Добавьте gpg ключ</FONT><DT>
+    <I>apt-get install apt-transport-https</I><DT>
+    <I>apt-get update -oAcquire::AllowInsecureRepositories=true</I><DT>
+    <I>apt-get install notesalexp-keyring -oAcquire::AllowInsecureRepositories=true</I><FONT COLOR="#808080"> #Добавьте gpg ключ</FONT><DT>
     <I>apt-get update</I> <FONT COLOR="#808080">#Обновите список пакетов</FONT><DT>
     <I>apt-get install пакет</I><DT>
     <strong>Внимание:</strong> Необходимо обновить gpg ключ.(2015-09-20)<DT>
@@ -954,7 +956,7 @@
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <p></p>
 <!--
-timestamp: 1516557126
+timestamp: 1516651295
 -->
 <table width="100%" border="0px">
     <tbody>
