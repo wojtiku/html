@@ -12,5 +12,4 @@ Disallow: /sid
 Disallow: /precise
 Disallow: /trusty
 Disallow: /xenial
-Disallow: /zesty
 Disallow: /artful
