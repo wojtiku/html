@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package uget_2.0.10-1+nmu2_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package uget_2.2.0-1+nmu1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,12 +41,24 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package uget in artful of architecture amd64</h5>
-<div class="highlight"><pre><span></span>uget (2.0.10-1+nmu2) unstable; urgency=medium
+<div class="highlight"><pre><span></span>uget (2.2.0-1+nmu1) unstable; urgency=medium
 
   * Non-maintainer upload.
   * Backports from Sid
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 19 Sep 2017 22:45:31 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 10 Feb 2018 10:52:24 +0300
+
+uget (2.2.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Updated Standard-Version to 4.1.3
+  * Bump debhelper to 11
+  * Disable 06_fix_spelling_error.patch: upstream already has considered
+  * Add lintian override for desktop-command-not-in-package
+  * debian/patches: removed
+  * debian/copyright: Updated year
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Tue, 16 Jan 2018 09:59:02 -0500
 
 uget (2.0.10-1) unstable; urgency=medium
 
@@ -120,7 +132,7 @@ uget (1.10.4-1) unstable; urgency=low
   * New upstream release. Closes: #735937
   * Updated Standard-Version to 3.9.5
   * Added 03-uglib_missing_potfile.patch: Avoid missing translate file
-  * Updated debian/control canonicalize VCS-* fields 
+  * Updated debian/control canonicalize VCS-* fields
   * Updated year in debian/copyright
 
  -- Elías Alejandro Año Mendoza &lt;censored&gt;  Sat, 25 Jan 2014 21:29:41 -0500

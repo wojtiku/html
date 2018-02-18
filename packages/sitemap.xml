@@ -58,43 +58,19 @@
         <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-qt/</loc>
@@ -103,31 +79,10 @@
         <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/fatrat/</loc>
@@ -202,16 +157,10 @@
         <loc>https://notesalexp.org/packages/en/artful/amd64/leptonica-progs/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/libgimp2.0/</loc>
@@ -958,43 +907,19 @@
         <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-qt/</loc>
@@ -1003,31 +928,10 @@
         <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/fatrat/</loc>
@@ -1102,16 +1006,10 @@
         <loc>https://notesalexp.org/packages/en/artful/i386/leptonica-progs/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/artful/i386/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/libgimp2.0/</loc>
@@ -1858,43 +1756,19 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-qt/</loc>
@@ -1903,31 +1777,10 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/fatrat/</loc>
@@ -1975,9 +1828,6 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/goaccess/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/gscan2pdf/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/keepassxc/</loc>
     </url>
     <url>
@@ -1993,16 +1843,10 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/leptonica-progs/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/libgimp2.0/</loc>
@@ -2725,43 +2569,19 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-qt/</loc>
@@ -2770,31 +2590,10 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/fatrat/</loc>
@@ -2842,9 +2641,6 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/goaccess/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/gscan2pdf/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/keepassxc/</loc>
     </url>
     <url>
@@ -2860,16 +2656,10 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/leptonica-progs/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/buster/i386/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/libgimp2.0/</loc>
@@ -3604,43 +3394,19 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-qt/</loc>
@@ -3649,31 +3415,10 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/fatrat/</loc>
@@ -3799,16 +3544,10 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libeigen3-doc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libgegl-0.2-0/</loc>
@@ -4633,43 +4372,19 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-qt/</loc>
@@ -4678,31 +4393,10 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/fatrat/</loc>
@@ -4828,16 +4522,10 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/libeigen3-doc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/libgegl-0.2-0/</loc>
@@ -6550,43 +6238,19 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-qt/</loc>
@@ -6595,31 +6259,10 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/fatrat/</loc>
@@ -6697,16 +6340,10 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/leptonica-progs/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/libfaad2/</loc>
@@ -7462,43 +7099,19 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-qt/</loc>
@@ -7507,31 +7120,10 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/fatrat/</loc>
@@ -7609,16 +7201,10 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/leptonica-progs/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/sid/i386/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/libfaad2/</loc>
@@ -8356,6 +7942,9 @@
         <loc>https://notesalexp.org/packages/en/source/eiskaltdcpp/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/eiskaltdcpp-devel/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
@@ -8575,43 +8164,19 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-qt/</loc>
@@ -8620,31 +8185,10 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/fatrat/</loc>
@@ -8722,16 +8266,10 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/leptonica-progs/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libgimp2.0/</loc>
@@ -9532,43 +9070,19 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-qt/</loc>
@@ -9577,31 +9091,10 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/fatrat/</loc>
@@ -9679,16 +9172,10 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/leptonica-progs/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libgimp2.0/</loc>
@@ -10477,43 +9964,19 @@
         <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-qt/</loc>
@@ -10522,31 +9985,10 @@
         <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/fatrat/</loc>
@@ -10612,16 +10054,10 @@
         <loc>https://notesalexp.org/packages/en/trusty/amd64/libcuneiform0.4-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/trusty/amd64/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/libgegl-0.2-0/</loc>
@@ -11389,43 +10825,19 @@
         <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-qt/</loc>
@@ -11434,31 +10846,10 @@
         <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/fatrat/</loc>
@@ -11524,16 +10915,10 @@
         <loc>https://notesalexp.org/packages/en/trusty/i386/libcuneiform0.4-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/trusty/i386/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/libgegl-0.2-0/</loc>
@@ -13555,43 +12940,19 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-qt/</loc>
@@ -13600,31 +12961,10 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/fatrat/</loc>
@@ -13720,16 +13060,10 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libasprintf-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libgettextpo0/</loc>
@@ -14530,43 +13864,19 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-cli/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-gtk-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-qt/</loc>
@@ -14575,31 +13885,10 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-qt-mini/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-qt-mini-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-qt-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-sounds-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/fatrat/</loc>
@@ -14695,16 +13984,10 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/libasprintf-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/libeiskaltdcpp2.3-unstable/</loc>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/libeiskaltdcpp-dev-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/libgettextpo0/</loc>
