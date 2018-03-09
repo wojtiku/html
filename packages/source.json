@@ -455,18 +455,18 @@
     },
     "leptonlib": 
     {
-      "version": "1.75.3-1+nmu1",
+      "version": "1.75.3-3+nmu1",
       "description": " image processing library",
       "sourceurl": "https://notesalexp.org/source/main/l/leptonlib",
-      "sourcefile": "leptonlib_1.75.3-1+nmu1.debian.tar.xz leptonlib_1.75.3-1+nmu1.dsc leptonlib_1.75.3.orig.tar.gz ",
+      "sourcefile": "leptonlib_1.75.3-3+nmu1.debian.tar.xz leptonlib_1.75.3-3+nmu1.dsc leptonlib_1.75.3.orig.tar.gz ",
       "homepage": "",
       "depends": "debhelper(>=5.0.0) libtiff-dev libpng-dev libgif-dev(>=4.1.6) libwebp-dev(>=0.4.0) libopenjp2-7-dev dh-autoreconf automake ",
       "binary": "libleptonica-dev liblept5 leptonica-progs",
       "description_libleptonicadev": "image processing library",
       "description_liblept5": "image processing library",
       "description_leptonicaprogs": "sample programs for Leptonica image processing library",
-      "md5": " 2ddeca15404d3193a69ef1da03624970 a8167d20ac9bbbe461c02b18072cf90a 37fa4c907abd90d7d7f29ee9860b2d8b",
-      "size": " 8_KiB  4_KiB  11.80_MiB "
+      "md5": " 60370638aabfd168987f1f5f471c84e6 b4479ce2dae2766d4787c707afd17c0a 37fa4c907abd90d7d7f29ee9860b2d8b",
+      "size": " 12_KiB  4_KiB  11.80_MiB "
     },
     "libgtk2imageviewperl": 
     {
@@ -861,10 +861,10 @@
     },
     "tesseract": 
     {
-      "version": "4.00~git2225-068d43d3-1",
+      "version": "4.00~git2230-59dc3e62-1",
       "description": " Open Source OCR Engine",
       "sourceurl": "https://notesalexp.org/source/main/t/tesseract",
-      "sourcefile": "tesseract_4.00~git2225-068d43d3-1.debian.tar.xz tesseract_4.00~git2225-068d43d3-1.dsc tesseract_4.00~git2225-068d43d3.orig.tar.xz ",
+      "sourcefile": "tesseract_4.00~git2230-59dc3e62-1.debian.tar.xz tesseract_4.00~git2230-59dc3e62-1.dsc tesseract_4.00~git2230-59dc3e62.orig.tar.xz ",
       "homepage": "https://github.com/tesseract-ocr/",
       "depends": "debhelper(>=9) libleptonica-dev(>=1.72~) automake libtool libpango1.0-dev libcairo2-dev libicu-dev libpng-dev libjpeg-dev libtiff-dev zlib1g-dev git autoconf-archive asciidoc xsltproc docbook-xsl docbook-xml ",
       "binary": "tesseract-ocr libtesseract-dev libtesseract4 tesseract-ocr-all",
@@ -872,8 +872,8 @@
       "description_libtesseractdev": "Development files for the tesseract command line OCR tool",
       "description_libtesseract4": "Tesseract OCR library",
       "description_tesseractocrall": "Tesseract OCR with all language and script packages",
-      "md5": " 290bf8332e02bf16e19e13fff75c336f 5f0981734951d8595b666a480adfe8e1 f818e6da07b95d597a2487e1e11abdc6",
-      "size": " 24_KiB  4_KiB  7.10_MiB "
+      "md5": " fe531ddca5f7ef1ecbf1554ac8d44a1a e4c4b07d633e87decabd549d865f391c ba60f3cc695ad5a6624dacbf728c7fa9",
+      "size": " 24_KiB  4_KiB  9.15_MiB "
     },
     "tesseractlang": 
     {

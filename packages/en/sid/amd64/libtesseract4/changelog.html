@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract4_4.00~git2225-068d43d3-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract4_4.00~git2230-59dc3e62-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,22 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract4 in sid of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.00~git2225-068d43d3-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.00~git2230-59dc3e62-1) unstable; urgency=medium
 
   * Compile
+  * disable patch - fix-up-headers
+  * TESSDATA_PREFIX variable was changed to /usr/share/tesseract-
+    ocr/4.00
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: 068d43d3d836b78414c62b71997b06cc42274c21
-  * Date: 1520084188
+  * Commit: 59dc3e627e087776034ec64fdff3e1300dd7ab15
+  * Date: 1520248849
   * git changelog:
+  *  59dc3e62 - Update appveyor.yml
+  *  1d6e9c1d - Update appveyor.yml
+  *  5845e1a2 - Add unit test for OSD, update apiexample test (#1359)
+  *  7972b13e - Remove macro USE_STD_NAMESPACE (#1360)
+  *  0d9cdbe6 - README: Use CamelCase for GitHub (#1357)
   *  068d43d3 - Remove old code for string class (no longer needed)
     (#1354)
   *  9035217a - Remove parameter m_data_sub_dir (#1356)
@@ -57,7 +65,7 @@
   *  c6e89160 - fixes for C++11 (#1164)
   *  ad6f3b41 - Fixed unqualified class "string" (#1082)
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 04 Mar 2018 16:29:26 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 05 Mar 2018 19:59:00 +0300
 
 tesseract (4.00~git2219-40f43111-1.2) unstable; urgency=medium
 
