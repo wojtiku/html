@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.00~git2230-59dc3e62-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.00~git2246-023e1b34-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,17 +41,38 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in jessie of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.00~git2230-59dc3e62-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.00~git2246-023e1b34-1) unstable; urgency=medium
 
   * Compile
   * disable patch - fix-up-headers
   * TESSDATA_PREFIX variable was changed to /usr/share/tesseract-
     ocr/4.00
+  * fix patch - man.diff
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: 59dc3e627e087776034ec64fdff3e1300dd7ab15
-  * Date: 1520248849
+  * Commit: 023e1b340e6a4dd35909dde82f928790caec3ea5
+  * Date: 1520973390
   * git changelog:
+  *  023e1b34 - Use POSIX data types and macros (#878)
+  *  40c71bfc - Update unittest for new script data location and fix out-
+    of-tree build (#1386)
+  *  49dd464e - Update googletest (#1383)
+  *  47a326b0 - Use POSIX data types for external interfaces (#1358)
+  *  c6afad03 - Fix compiler warning (-Wsign-compare) (#1385)
+  *  15638a5c - doc: Add missing language to list (#1368)
+  *  bdf66297 - Update version in README and manpages (#1381)
+  *  8fb68746 - configure: Get version string from git or from VERSION
+    file (#1380)
+  *  2d319cb8 - configure: Update date, version and add project URL
+    (#1379)
+  *  df581089 - Manpages (#1378)
+  *  79c6fa6d - Update package version (Visual Studio) (#1373)
+  *  4b2bea79 - Update TESSERACT_VERSION_STR (#1372)
+  *  14ee9119 - lstm: Use MS C intrinsic function for faster calculation
+    of log2 (#1369)
+  *  960007e5 - Fix compiler warning (possible loss of data) (#1370)
+  *  08ef815f - doc: Remove unsupported traineddata from list (#1367)
+  *  53f791ba - Remove obsolete code (#1365)
   *  59dc3e62 - Update appveyor.yml
   *  1d6e9c1d - Update appveyor.yml
   *  5845e1a2 - Add unit test for OSD, update apiexample test (#1359)
@@ -65,7 +86,7 @@
   *  c6e89160 - fixes for C++11 (#1164)
   *  ad6f3b41 - Fixed unqualified class "string" (#1082)
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 05 Mar 2018 19:59:00 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 14 Mar 2018 09:24:08 +0300
 
 tesseract (4.00~git2219-40f43111-1.2) unstable; urgency=medium
 

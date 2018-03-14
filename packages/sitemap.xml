@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://notesalexp.org/packages/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/</loc>
     </url>
     <url>
@@ -403,13 +400,7 @@
         <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-dev/</loc>
@@ -431,9 +422,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-est/</loc>
@@ -545,9 +533,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-kur-ara/</loc>
@@ -751,9 +736,6 @@
         <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -797,9 +779,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/tesseract-ocr-tha/</loc>
@@ -1252,13 +1231,7 @@
         <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-dev/</loc>
@@ -1280,9 +1253,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-est/</loc>
@@ -1394,9 +1364,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-kur-ara/</loc>
@@ -1600,9 +1567,6 @@
         <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -1646,9 +1610,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/tesseract-ocr-tha/</loc>
@@ -2065,13 +2026,7 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-dev/</loc>
@@ -2093,9 +2048,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-est/</loc>
@@ -2207,9 +2159,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-kur-ara/</loc>
@@ -2413,9 +2362,6 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -2459,9 +2405,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/tesseract-ocr-tha/</loc>
@@ -2878,13 +2821,7 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-dev/</loc>
@@ -2906,9 +2843,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-est/</loc>
@@ -3020,9 +2954,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-kur-ara/</loc>
@@ -3226,9 +3157,6 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -3272,9 +3200,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/tesseract-ocr-tha/</loc>
@@ -3853,13 +3778,7 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-dev/</loc>
@@ -3881,9 +3800,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-est/</loc>
@@ -3995,9 +3911,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-kur-ara/</loc>
@@ -4201,9 +4114,6 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -4247,9 +4157,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/tesseract-ocr-tha/</loc>
@@ -4831,13 +4738,7 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-dev/</loc>
@@ -4859,9 +4760,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-est/</loc>
@@ -4973,9 +4871,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-kur-ara/</loc>
@@ -5179,9 +5074,6 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -5225,9 +5117,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/tesseract-ocr-tha/</loc>
@@ -6586,13 +6475,7 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-dev/</loc>
@@ -6614,9 +6497,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-est/</loc>
@@ -6728,9 +6608,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-kur-ara/</loc>
@@ -6934,9 +6811,6 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -6980,9 +6854,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/tesseract-ocr-tha/</loc>
@@ -7447,13 +7318,7 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-dev/</loc>
@@ -7475,9 +7340,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-est/</loc>
@@ -7589,9 +7451,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-kur-ara/</loc>
@@ -7795,9 +7654,6 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -7841,9 +7697,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/tesseract-ocr-tha/</loc>
@@ -8081,9 +7934,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/tesseract-lang/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/tesseract-lang-old/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/tesseract-ocr-grc/</loc>
@@ -8557,13 +8407,7 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-dev/</loc>
@@ -8585,9 +8429,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-est/</loc>
@@ -8699,9 +8540,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-kur-ara/</loc>
@@ -8905,9 +8743,6 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -8951,9 +8786,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/tesseract-ocr-tha/</loc>
@@ -9451,13 +9283,7 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-dev/</loc>
@@ -9479,9 +9305,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-est/</loc>
@@ -9593,9 +9416,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-kur-ara/</loc>
@@ -9799,9 +9619,6 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -9845,9 +9662,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/tesseract-ocr-tha/</loc>
@@ -10312,13 +10126,7 @@
         <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-dev/</loc>
@@ -10340,9 +10148,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-est/</loc>
@@ -10454,9 +10259,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-kur-ara/</loc>
@@ -10660,9 +10462,6 @@
         <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -10706,9 +10505,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/tesseract-ocr-tha/</loc>
@@ -11173,13 +10969,7 @@
         <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-dev/</loc>
@@ -11201,9 +10991,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-est/</loc>
@@ -11315,9 +11102,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-kur-ara/</loc>
@@ -11521,9 +11305,6 @@
         <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -11567,9 +11348,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/tesseract-ocr-tha/</loc>
@@ -13360,13 +13138,7 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-dev/</loc>
@@ -13388,9 +13160,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-est/</loc>
@@ -13502,9 +13271,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-kur-ara/</loc>
@@ -13708,9 +13474,6 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -13754,9 +13517,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/tesseract-ocr-tha/</loc>
@@ -14284,13 +14044,7 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-dan/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-dan-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-deu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-deu-frak/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-dev/</loc>
@@ -14312,9 +14066,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-epo/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-equ/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-est/</loc>
@@ -14426,9 +14177,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-kor-vert/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-kur/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-kur-ara/</loc>
@@ -14632,9 +14380,6 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-slk-frak/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-slv/</loc>
     </url>
     <url>
@@ -14678,9 +14423,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-tgk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-tgl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/tesseract-ocr-tha/</loc>
