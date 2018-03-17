@@ -40,6 +40,7 @@
 <div id="pothersdist">
 [<a href="https://notesalexp.org/packages/en/jessie/amd64/gscan2pdf">jessie</a>]
 [<a href="https://notesalexp.org/packages/en/stretch/amd64/gscan2pdf">stretch</a>]
+[<a href="https://notesalexp.org/packages/en/buster/amd64/gscan2pdf">buster</a>]
 [<strong>sid</strong>]
 [<a href="https://notesalexp.org/packages/en/trusty/amd64/gscan2pdf">trusty</a>]
 [<a href="https://notesalexp.org/packages/en/xenial/amd64/gscan2pdf">xenial</a>]
@@ -51,7 +52,7 @@
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Package: gscan2pdf ( 1.8.11+git2730-59f86204-1 ) </h1>
+<h1>Package: gscan2pdf ( 2.0.1+git2789-f16b51f7-1 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for gscan2pdf</strong></p>
 <a href="https://notesalexp.org/packages/images/gscan2pdf.png" data-lightbox="gscan2pdf" data-title="gscan2pdf -  GUI to produce PDFs or DjVus from scanned documents "><img class="example-image" src="https://notesalexp.org/packages/images/thumb/gscan2pdf.png" alt="gscan2pdf" /></a>
@@ -62,9 +63,9 @@
 </ul>
 <p><strong>Download Source Package <a href="https://notesalexp.org/source/main/g/gscan2pdf">gscan2pdf</a>:</strong></p>
 <ul>
-<li><a href="https://notesalexp.org/source/main/g/gscan2pdf/gscan2pdf_1.8.11+git2730-59f86204-1.debian.tar.xz">[gscan2pdf_1.8.11+git2730-59f86204-1.debian.tar.xz]</a></li>
-<li><a href="https://notesalexp.org/source/main/g/gscan2pdf/gscan2pdf_1.8.11+git2730-59f86204-1.dsc">[gscan2pdf_1.8.11+git2730-59f86204-1.dsc]</a></li>
-<li><a href="https://notesalexp.org/source/main/g/gscan2pdf/gscan2pdf_1.8.11+git2730-59f86204.orig.tar.xz">[gscan2pdf_1.8.11+git2730-59f86204.orig.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/source/main/g/gscan2pdf/gscan2pdf_2.0.1+git2789-f16b51f7-1.debian.tar.xz">[gscan2pdf_2.0.1+git2789-f16b51f7-1.debian.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/source/main/g/gscan2pdf/gscan2pdf_2.0.1+git2789-f16b51f7-1.dsc">[gscan2pdf_2.0.1+git2789-f16b51f7-1.dsc]</a></li>
+<li><a href="https://notesalexp.org/source/main/g/gscan2pdf/gscan2pdf_2.0.1+git2789-f16b51f7.orig.tar.xz">[gscan2pdf_2.0.1+git2789-f16b51f7.orig.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
 <ul>
@@ -73,7 +74,7 @@
 </div>
 <h4> GUI to produce PDFs or DjVus from scanned documents </h4>
 <p>Only five clicks are required to scan several pages and then save all or a selection as a PDF or DjVu file, including metadata if required.</p>
-<p>gscan2pdf can control flatbed or sheet-fed (ADF) scanners with SANE via libsane-perl, scanimage or scanadf, and can scan multiple pages at once. It presents a thumbnail view of scanned pages, and permits simple operations such as cropping, rotating and deleting pages.</p>
+<p>gscan2pdf can control flatbed or sheet-fed (ADF) scanners with SANE via libimage-sane-perl, scanimage or scanadf, and can scan multiple pages at once. It presents a thumbnail view of scanned pages, and permits simple operations such as cropping, rotating and deleting pages.</p>
 <p>OCR can be used to recognise text in the scans, and the output embedded in the PDF or DjVu.</p>
 <p>PDF conversion is done by PDF::API2.</p>
 <p>The resulting document may be saved as a PDF, DjVu, multipage TIFF file, or single page image file.</p>
@@ -88,12 +89,8 @@
         </tbody></table>
 <ul class="uldep">
 <li><dl>
-<dt><span><strong>dep:</strong> libgtk2-imageview-perl </span></dt>
-<dt><span> Perl bindings for the GtkImageView image viewer widget</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libgtk2-ex-simple-list-perl </span></dt>
-<dt><span> simple interface to Gtk2's complex MVC list widget</span></dt>
+<dt><span><strong>dep:</strong> libgtk3-simplelist-perl </span></dt>
+<dt><span> Perl simple interface to GTK+ 3's complex MVC list widget</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libimage-sane-perl </span></dt>
@@ -144,8 +141,8 @@
 <dt><span> collection of modules that parse HTML text documents</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libgoo-canvas-perl </span></dt>
-<dt><span> Perl interface to the GooCanvas</span></dt>
+<dt><span><strong>dep:</strong> libgoocanvas2-perl </span></dt>
+<dt><span>Introspection</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libproc-processtable-perl </span></dt>
@@ -180,10 +177,6 @@
 </dl></li>
 </ul>
 <ul class="ulrec">
-<li><dl>
-<dt><span><strong>rec:</strong> libgtk2-ex-podviewer-perl </span></dt>
-<dt><span> Perl Gtk2 widget for displaying Plain Old Documentation (POD)</span></dt>
-</dl></li>
 <li><dl>
 <dt><span><strong>rec:</strong> sane </span></dt>
 <dt><span> scanner graphical frontends</span></dt>
@@ -225,9 +218,9 @@
     </tr>
 <tr>
     <th><a href="https://notesalexp.org/packages/en/sid/amd64/gscan2pdf/download.html">all</a></th>
-    <td class="size"> 1.8.11+git2730-59f86204-1 </td>
-    <td class="size"> 344 KiB  </td>
-    <td class="size"> 1.79 MiB  </td>
+    <td class="size"> 2.0.1+git2789-f16b51f7-1 </td>
+    <td class="size"> 348 KiB  </td>
+    <td class="size"> 1.83 MiB  </td>
     <td>[<a href="https://notesalexp.org/packages/en/sid/amd64/gscan2pdf/filelist.html">list of files</a>]</td>
 </tr>
 <tr>

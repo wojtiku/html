@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>https://notesalexp.org/packages/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/</loc>
     </url>
     <url>
@@ -229,6 +232,12 @@
         <loc>https://notesalexp.org/packages/en/artful/amd64/libslvs1-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/libsodium23/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/libsodium-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/libtesseract4/</loc>
     </url>
     <url>
@@ -266,6 +275,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/pinta/</loc>
@@ -311,6 +323,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/scantailor-advanced/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/smplayer/</loc>
@@ -1060,6 +1078,12 @@
         <loc>https://notesalexp.org/packages/en/artful/i386/libslvs1-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/libsodium23/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/libsodium-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/libtesseract4/</loc>
     </url>
     <url>
@@ -1097,6 +1121,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/pinta/</loc>
@@ -1142,6 +1169,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/scantailor-advanced/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/smplayer/</loc>
@@ -1792,6 +1825,9 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/goaccess/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/gscan2pdf/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/keepassxc/</loc>
     </url>
     <url>
@@ -1891,6 +1927,9 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/ocrfeeder/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/ocrodjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/pinta/</loc>
     </url>
     <url>
@@ -1937,6 +1976,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/scantailor-advanced/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/smplayer/</loc>
@@ -2587,6 +2632,9 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/goaccess/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/gscan2pdf/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/keepassxc/</loc>
     </url>
     <url>
@@ -2686,6 +2734,9 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/ocrfeeder/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/ocrodjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/pinta/</loc>
     </url>
     <url>
@@ -2732,6 +2783,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/scantailor-advanced/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/smplayer/</loc>
@@ -3635,6 +3692,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/pinta/</loc>
@@ -4595,6 +4655,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/pinta/</loc>
@@ -6328,6 +6391,9 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/ocrfeeder/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/ocrodjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/pinta/</loc>
     </url>
     <url>
@@ -6386,6 +6452,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/scantailor-advanced/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/smplayer/</loc>
@@ -7171,6 +7243,9 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/ocrfeeder/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/ocrodjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/pinta/</loc>
     </url>
     <url>
@@ -7229,6 +7304,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/scantailor-advanced/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/smplayer/</loc>
@@ -7861,6 +7942,9 @@
         <loc>https://notesalexp.org/packages/en/source/librecad/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/libsodium/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/linuxdcpp/</loc>
     </url>
     <url>
@@ -7883,6 +7967,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/openjpeg2/</loc>
@@ -7919,6 +8006,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/scantailor-advanced/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/smplayer/</loc>
@@ -8215,6 +8308,12 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libslvs1-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libsodium23/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libsodium-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libtesseract4/</loc>
     </url>
     <url>
@@ -8261,6 +8360,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/pinta/</loc>
@@ -8318,6 +8420,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/smplayer/</loc>
@@ -9097,6 +9202,12 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/libslvs1-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libsodium23/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libsodium-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libtesseract4/</loc>
     </url>
     <url>
@@ -9137,6 +9248,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/pinta/</loc>
@@ -9194,6 +9308,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/smplayer/</loc>
@@ -9980,6 +10097,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/trusty/amd64/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/pinta/</loc>
@@ -10823,6 +10943,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/trusty/i386/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/pinta/</loc>
@@ -12994,6 +13117,9 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/ocrfeeder/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/ocrodjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/pinta/</loc>
     </url>
     <url>
@@ -13049,6 +13175,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/smplayer/</loc>
@@ -13900,6 +14029,9 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/ocrfeeder/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/ocrodjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/pinta/</loc>
     </url>
     <url>
@@ -13955,6 +14087,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/smplayer/</loc>
