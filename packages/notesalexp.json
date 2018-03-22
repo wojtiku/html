@@ -2763,17 +2763,18 @@
         },
         "notesalexpkeyring_all": 
         {
-          "packageurl": "https://notesalexp.org/wheezy/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16-1_all.deb",
+          "packageurl": "https://notesalexp.org/wheezy/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16.1-1_all.deb",
           "size": "8_KiB ",
-          "sizebyt": "4514",
-          "version": "2015.09.16-1",
+          "sizebyt": "4790",
+          "version": "2015.09.16.1-1",
           "isize": "5_KiB ",
-          "depends": "gnupg(>=1.0.6-4) ",
+          "depends": "gpgv ",
+          "recomends": "gnupg ",
           "section": "misc",
-          "priority": "extra",
+          "priority": "optional",
           "homepage": "http://www.notesalexp.org",
-          "md5": "25cdcebd0c4e8df3b0a1c3e5a5b66cb5",
-          "sha256": "1cefc61dee449ff2a34d75cb45edc92179cb213e1725cc9fa1eee549b292dd12",
+          "md5": "83d6be700ec9c9878fea50b81ca3abd4",
+          "sha256": "994ca45316fe152ae56f8403870149e431825f03b6445b2ab38afae5e551cdac",
           "description": "GnuPG archive key of the notesalexp repository"
         },
         "obkey_all": 
@@ -6168,41 +6169,6 @@
           "sha256": "6e7b1ac4eb0d868347565391f1c2556f7158804a7d9ec658ead0f85798b61c6f",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
-        "gir12gexiv2010_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/g/gexiv2/gir1.2-gexiv2-0.10_0.10.4-1+nmu1_amd64.deb",
-          "size": "16_KiB ",
-          "sizebyt": "13196",
-          "version": "0.10.4-1+nmu1",
-          "isize": "33_KiB ",
-          "depends": "gir1.2-glib-2.0 libgexiv2-2(>=0.10.3) libgirepository-1.0-1(>=1.41.4-1) ",
-          "breaks": "gir1.2-gexiv2-0.4 ",
-          "replaces": "gir1.2-gexiv2-0.4 ",
-          "section": "introspection",
-          "priority": "optional",
-          "source": "gexiv2",
-          "sourceurl": "https://notesalexp.org/source/main/g/gexiv2",
-          "sourcefile": "gexiv2_0.10.4-1+nmu1.debian.tar.xz gexiv2_0.10.4-1+nmu1.dsc gexiv2_0.10.4.orig.tar.xz ",
-          "homepage": "https://wiki.gnome.org/Projects/gexiv2",
-          "md5": "0e2f2554f0b732fc0500283592b7e283",
-          "sha256": "d917f9fcbaaaf410613119020aaabb1b1002cb5d901b531fa2e78c5a7cf8db7e",
-          "description": "GObject-based wrapper around the Exiv2 library - introspection data"
-        },
-        "gir12libmypaint0_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "16_KiB ",
-          "sizebyt": "12418",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "87_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "a4c8c642942920bb94a5ea27447b801d",
-          "sha256": "0d63565c6bb318572d8ca78350b87eeab735889c33782615d63a5857269cb255",
-          "description": "development files for libmypaint"
-        },
         "gir12libmypaint20_amd64": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/libm/libmypaint/gir1.2-libmypaint-2.0_2.0.0~git788-040310c-1_amd64.deb",
@@ -6560,43 +6526,6 @@
           "sha256": "6e7dcddbec1e22d7bd26ac5b7007a8d451e295828734c4989085bf69707f1cb4",
           "description": "GNU Internationalization library development files"
         },
-        "libgexiv22_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/g/gexiv2/libgexiv2-2_0.10.4-1+nmu1_amd64.deb",
-          "size": "52_KiB ",
-          "sizebyt": "50274",
-          "version": "0.10.4-1+nmu1",
-          "isize": "159_KiB ",
-          "depends": "multiarch-support libc6(>=2.14) libexiv2-13 libgcc1(>=1:4.1.1) libglib2.0-0(>=2.37.3) libstdc++6(>=4.6) ",
-          "breaks": "shotwell(<<0.12) ",
-          "section": "libs",
-          "priority": "optional",
-          "source": "gexiv2",
-          "sourceurl": "https://notesalexp.org/source/main/g/gexiv2",
-          "sourcefile": "gexiv2_0.10.4-1+nmu1.debian.tar.xz gexiv2_0.10.4-1+nmu1.dsc gexiv2_0.10.4.orig.tar.xz ",
-          "homepage": "https://wiki.gnome.org/Projects/gexiv2",
-          "md5": "dd2be99d14154a6e0bbc36e888e759de",
-          "sha256": "d60ded1c1b6314f8277ac01424fc2d06f72b17f8bc6e88f278bafc1248053d63",
-          "description": "GObject-based wrapper around the Exiv2 library"
-        },
-        "libgexiv2dev_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/g/gexiv2/libgexiv2-dev_0.10.4-1+nmu1_amd64.deb",
-          "size": "64_KiB ",
-          "sizebyt": "65308",
-          "version": "0.10.4-1+nmu1",
-          "isize": "408_KiB ",
-          "depends": "libgexiv2-2(=0.10.4-1+nmu1) gir1.2-gexiv2-0.10(=0.10.4-1+nmu1) libglib2.0-dev ",
-          "section": "libdevel",
-          "priority": "optional",
-          "source": "gexiv2",
-          "sourceurl": "https://notesalexp.org/source/main/g/gexiv2",
-          "sourcefile": "gexiv2_0.10.4-1+nmu1.debian.tar.xz gexiv2_0.10.4-1+nmu1.dsc gexiv2_0.10.4.orig.tar.xz ",
-          "homepage": "https://wiki.gnome.org/Projects/gexiv2",
-          "md5": "1adc073b5ff1f65502b19ed551f1cda7",
-          "sha256": "9dca406787994889dde8f4f5e8e0ca14410721ef78e2dc1d9f0d051e95bb212b",
-          "description": "GObject-based wrapper around the Exiv2 library - development files"
-        },
         "libgimp20_amd64": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/g/gimp/libgimp2.0_2.8.22+git32586-8ca024a02c-1_amd64.deb",
@@ -6746,22 +6675,6 @@
           "sha256": "45bbf0cee8de88598dc4da3f34f47ba43e53d662e215baa6bb00f608e87fbfe6",
           "description": "image processing library"
         },
-        "libmypaint0_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/libm/libmypaint/libmypaint0_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "112_KiB ",
-          "sizebyt": "111426",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "504_KiB ",
-          "depends": "libc6(>=2.14) libglib2.0-0(>=2.12.0) libjson-c2(>=0.10) ",
-          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "2317eec059e564b6f5c15e4b1d688c85",
-          "sha256": "ebffc92e586e431e26022bfcc74163b12b9455b7ea17bc76880ce9e3dd240160",
-          "description": "MyPaint brush engine library"
-        },
         "libmypaint200_amd64": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/libm/libmypaint/libmypaint-2.0-0_2.0.0~git788-040310c-1_amd64.deb",
@@ -6800,36 +6713,6 @@
           "sha256": "a9a4d857371e2fe51b899dc6523861a946dc59f616a34816e542dd72bb2a87d9",
           "description": "Development files for libmypaint"
         },
-        "libmypaintdev_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/libm/libmypaint/libmypaint-dev_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "8_KiB ",
-          "sizebyt": "7340",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "24_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "d4c12b85ed2062642de30dcd07bf522e",
-          "sha256": "fafea566569e0f94a8d7a88bc90053cb2403d380cfb2431e6f546e95ec5f3832",
-          "description": "Development files for libmypaint"
-        },
-        "libocefoundation10_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-foundation10_0.17.2-1+nmu1_amd64.deb",
-          "size": "1.16_MiB ",
-          "sizebyt": "1217136",
-          "version": "0.17.2-1+nmu1",
-          "isize": "4.50_MiB ",
-          "depends": "multiarch-support libc6(>=2.17) libgcc1(>=1:4.1.1) libstdc++6(>=4.4.0) ",
-          "section": "libs",
-          "priority": "extra",
-          "homepage": "https://github.com/tpaviot/oce/wiki",
-          "md5": "b9887e2efca1511e23a6fe2872360471",
-          "sha256": "55cbb1d15e1c040537b02875b7743340c382834deb1835cf77397b4fc8f78c67",
-          "description": "OpenCASCADE Community Edition CAE platform shared library"
-        },
         "libocefoundation11_amd64": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-foundation11_0.18.2-2+nmu1_amd64.deb",
@@ -6865,21 +6748,6 @@
           "md5": "ad673b26a7ba995be84f9beb9bb07d3f",
           "sha256": "39276d0c47548e621e473deb7a0c95204ad945115d86b42a26e34464bcd986b6",
           "description": "OpenCASCADE Community Edition CAE platform library development files"
-        },
-        "libocemodeling10_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-modeling10_0.17.2-1+nmu1_amd64.deb",
-          "size": "11.24_MiB ",
-          "sizebyt": "11787276",
-          "version": "0.17.2-1+nmu1",
-          "isize": "41.93_MiB ",
-          "depends": "multiarch-support libc6(>=2.14) libgcc1(>=1:4.1.1) liboce-foundation10 libstdc++6(>=4.4.0) ",
-          "section": "libs",
-          "priority": "extra",
-          "homepage": "https://github.com/tpaviot/oce/wiki",
-          "md5": "1b35f03fb6ffd896d587087a2c287bd3",
-          "sha256": "766a95f9db7f32e82d75799c07ec33f279a01d4de0b7a9571ec57338ecd10e72",
-          "description": "OpenCASCADE Community Edition CAE platform shared library"
         },
         "libocemodeling11_amd64": 
         {
@@ -6917,21 +6785,6 @@
           "sha256": "46266666e06e323a0697d33d1e0fc742524036955dd7ab33c0b826cb8795aa5f",
           "description": "OpenCASCADE Community Edition CAE platform library development files"
         },
-        "liboceocaf10_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-ocaf10_0.17.2-1+nmu1_amd64.deb",
-          "size": "712_KiB ",
-          "sizebyt": "728168",
-          "version": "0.17.2-1+nmu1",
-          "isize": "3.11_MiB ",
-          "depends": "multiarch-support libc6(>=2.14) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-visualization10 libstdc++6(>=4.4.0) libx11-6 libxext6 ",
-          "section": "libs",
-          "priority": "extra",
-          "homepage": "https://github.com/tpaviot/oce/wiki",
-          "md5": "30d815090e3d9df511d9b94ae3a4c865",
-          "sha256": "cb8900005eb842e2c0a5d186f661c4a23e46d29972f4a4b81d88584a6927d080",
-          "description": "OpenCASCADE Community Edition CAE platform shared library"
-        },
         "liboceocaf11_amd64": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-ocaf11_0.18.2-2+nmu1_amd64.deb",
@@ -6968,21 +6821,6 @@
           "sha256": "f3947b3add25a2aeca211d5806e68d3b9816edc0a657c3d89eaf3ef4899268c1",
           "description": "OpenCASCADE Community Edition CAE platform library development files"
         },
-        "liboceocaflite10_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-ocaf-lite10_0.17.2-1+nmu1_amd64.deb",
-          "size": "1.01_MiB ",
-          "sizebyt": "1058550",
-          "version": "0.17.2-1+nmu1",
-          "isize": "5.26_MiB ",
-          "depends": "multiarch-support libc6(>=2.14) libgcc1(>=1:4.1.1) liboce-foundation10 liboce-modeling10 libstdc++6(>=4.4.0) ",
-          "section": "libs",
-          "priority": "extra",
-          "homepage": "https://github.com/tpaviot/oce/wiki",
-          "md5": "265f4526391b874e9e0a97bac7fe0fcb",
-          "sha256": "b351b9fd6f51f5ad1ee80bfd81d6ae39c45593edbd0b5692f4c5b15a0e09f48d",
-          "description": "OpenCASCADE Community Edition CAE platform shared library"
-        },
         "liboceocaflite11_amd64": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-ocaf-lite11_0.18.2-2+nmu1_amd64.deb",
@@ -7018,21 +6856,6 @@
           "md5": "72722954e584c942fb70e600758ce9a0",
           "sha256": "cf2afb5647fbfbef67c5cfa8687f2fc53d2406b35e5bb1a01b3e524731ceebb0",
           "description": "OpenCASCADE Community Edition CAE platform library development files"
-        },
-        "libocevisualization10_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-visualization10_0.17.2-1+nmu1_amd64.deb",
-          "size": "2.90_MiB ",
-          "sizebyt": "3040454",
-          "version": "0.17.2-1+nmu1",
-          "isize": "8.79_MiB ",
-          "depends": "multiarch-support libc6(>=2.14) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libgl2ps0 libglu1-mesa|libglu1 liboce-foundation10 liboce-modeling10 libstdc++6(>=4.9) libx11-6 libxext6 ",
-          "section": "libs",
-          "priority": "extra",
-          "homepage": "https://github.com/tpaviot/oce/wiki",
-          "md5": "3fe6c3a84062487e88b1f5dd0c78ba08",
-          "sha256": "e4bf55fa3712c8e05160104000247f002539e57f4d6a3cad7b25f171ffd57db2",
-          "description": "OpenCASCADE Community Edition CAE platform shared library"
         },
         "libocevisualization11_amd64": 
         {
@@ -8217,17 +8040,18 @@
         },
         "notesalexpkeyring_all": 
         {
-          "packageurl": "https://notesalexp.org/jessie/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16-1_all.deb",
+          "packageurl": "https://notesalexp.org/jessie/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16.1-1_all.deb",
           "size": "8_KiB ",
-          "sizebyt": "4610",
-          "version": "2015.09.16-1",
+          "sizebyt": "4736",
+          "version": "2015.09.16.1-1",
           "isize": "5_KiB ",
-          "depends": "gnupg(>=1.0.6-4) ",
+          "depends": "gpgv ",
+          "recomends": "gnupg ",
           "section": "misc",
-          "priority": "extra",
+          "priority": "optional",
           "homepage": "http://www.notesalexp.org",
-          "md5": "95b7d9b3780224da2acf8af28dd42b56",
-          "sha256": "23929a43c931172acba135d173a826a80b868195ec8ccfb89623df1f8d45cff1",
+          "md5": "0e4a3e5140ba59926160f2b0f5951f08",
+          "sha256": "a4442e5c9d172045fe09cc59c2e13d6b18b4e7ca985b3e8537bfce3ff74947b3",
           "description": "GnuPG archive key of the notesalexp repository"
         },
         "obkey_all": 
@@ -12381,41 +12205,6 @@
           "sha256": "e2014bb3518ddec14e80b064ae166f5a5fade5cdc0204ba6af229242119d1722",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
-        "gir12gexiv2010_i386": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/g/gexiv2/gir1.2-gexiv2-0.10_0.10.4-1+nmu1_i386.deb",
-          "size": "16_KiB ",
-          "sizebyt": "13176",
-          "version": "0.10.4-1+nmu1",
-          "isize": "33_KiB ",
-          "depends": "gir1.2-glib-2.0 libgexiv2-2(>=0.10.3) libgirepository-1.0-1(>=1.41.4-1) ",
-          "breaks": "gir1.2-gexiv2-0.4 ",
-          "replaces": "gir1.2-gexiv2-0.4 ",
-          "section": "introspection",
-          "priority": "optional",
-          "source": "gexiv2",
-          "sourceurl": "https://notesalexp.org/source/main/g/gexiv2",
-          "sourcefile": "gexiv2_0.10.4-1+nmu1.debian.tar.xz gexiv2_0.10.4-1+nmu1.dsc gexiv2_0.10.4.orig.tar.xz ",
-          "homepage": "https://wiki.gnome.org/Projects/gexiv2",
-          "md5": "8f30633b74ecbe218a1b146fb6b0bc45",
-          "sha256": "60762589c76d125a1748d8f662b959c0feae9170e68a9325b8e31a5bb56c4f61",
-          "description": "GObject-based wrapper around the Exiv2 library - introspection data"
-        },
-        "gir12libmypaint0_i386": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "16_KiB ",
-          "sizebyt": "12408",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "87_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "3f122d4c4efc5540cd12d846b15a859d",
-          "sha256": "9f2ac8b8b20256593876e3add78716a87e8550eec6f0afb26e2b2a4536fbafed",
-          "description": "development files for libmypaint"
-        },
         "gir12libmypaint20_i386": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/libm/libmypaint/gir1.2-libmypaint-2.0_2.0.0~git788-040310c-1_i386.deb",
@@ -12773,43 +12562,6 @@
           "sha256": "dd20353f641b1a4b98bef248ab48ca48e10122c05888c53a96051f4aef5999f0",
           "description": "GNU Internationalization library development files"
         },
-        "libgexiv22_i386": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/g/gexiv2/libgexiv2-2_0.10.4-1+nmu1_i386.deb",
-          "size": "52_KiB ",
-          "sizebyt": "50102",
-          "version": "0.10.4-1+nmu1",
-          "isize": "159_KiB ",
-          "depends": "multiarch-support libc6(>=2.4) libexiv2-13 libgcc1(>=1:4.1.1) libglib2.0-0(>=2.37.3) libstdc++6(>=4.6) ",
-          "breaks": "shotwell(<<0.12) ",
-          "section": "libs",
-          "priority": "optional",
-          "source": "gexiv2",
-          "sourceurl": "https://notesalexp.org/source/main/g/gexiv2",
-          "sourcefile": "gexiv2_0.10.4-1+nmu1.debian.tar.xz gexiv2_0.10.4-1+nmu1.dsc gexiv2_0.10.4.orig.tar.xz ",
-          "homepage": "https://wiki.gnome.org/Projects/gexiv2",
-          "md5": "d0352d0637aaa9b3b32e94b6c65d52fe",
-          "sha256": "123bf56183e77d937edce1a7bef5576bf7be94b6360dd0f8d2e85a1888708a4b",
-          "description": "GObject-based wrapper around the Exiv2 library"
-        },
-        "libgexiv2dev_i386": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/g/gexiv2/libgexiv2-dev_0.10.4-1+nmu1_i386.deb",
-          "size": "68_KiB ",
-          "sizebyt": "66534",
-          "version": "0.10.4-1+nmu1",
-          "isize": "343_KiB ",
-          "depends": "libgexiv2-2(=0.10.4-1+nmu1) gir1.2-gexiv2-0.10(=0.10.4-1+nmu1) libglib2.0-dev ",
-          "section": "libdevel",
-          "priority": "optional",
-          "source": "gexiv2",
-          "sourceurl": "https://notesalexp.org/source/main/g/gexiv2",
-          "sourcefile": "gexiv2_0.10.4-1+nmu1.debian.tar.xz gexiv2_0.10.4-1+nmu1.dsc gexiv2_0.10.4.orig.tar.xz ",
-          "homepage": "https://wiki.gnome.org/Projects/gexiv2",
-          "md5": "d4ef5a413fefd903150ffcaebac9e97f",
-          "sha256": "ad50146ffa52b23072bb9a108357f80c3d463e1ef5190f84c5333ad16de929ab",
-          "description": "GObject-based wrapper around the Exiv2 library - development files"
-        },
         "libgimp20_i386": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/g/gimp/libgimp2.0_2.8.22+git32586-8ca024a02c-1_i386.deb",
@@ -12959,22 +12711,6 @@
           "sha256": "b0bc65da929c0ca85b883715dc9e8020f529261910d0b9c430e1ead38adc9639",
           "description": "image processing library"
         },
-        "libmypaint0_i386": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/libm/libmypaint/libmypaint0_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "112_KiB ",
-          "sizebyt": "112250",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "502_KiB ",
-          "depends": "libc6(>=2.4) libglib2.0-0(>=2.12.0) libjson-c2(>=0.10) ",
-          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "ad29120c52d4283fce379faba212a3f5",
-          "sha256": "5a08aff2816d651499408fe4de9468847195ee3dc4bfec3d8226e24a913ca88a",
-          "description": "MyPaint brush engine library"
-        },
         "libmypaint200_i386": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/libm/libmypaint/libmypaint-2.0-0_2.0.0~git788-040310c-1_i386.deb",
@@ -13013,36 +12749,6 @@
           "sha256": "484c670e8fe0cd0415ddae60805140bd3a7152aee465975ed66b41efb2fd0906",
           "description": "Development files for libmypaint"
         },
-        "libmypaintdev_i386": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/libm/libmypaint/libmypaint-dev_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "8_KiB ",
-          "sizebyt": "7336",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "24_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "a322cb7726507a438dfbfdf8664f4677",
-          "sha256": "5d9c91b334f115d8b00635f2224916b7ad0cf3655afcfbc826fa6ea9264f0131",
-          "description": "Development files for libmypaint"
-        },
-        "libocefoundation10_i386": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-foundation10_0.17.2-1+nmu1_i386.deb",
-          "size": "1.17_MiB ",
-          "sizebyt": "1228750",
-          "version": "0.17.2-1+nmu1",
-          "isize": "4.48_MiB ",
-          "depends": "multiarch-support libc6(>=2.17) libgcc1(>=1:4.1.1) libstdc++6(>=4.4.0) ",
-          "section": "libs",
-          "priority": "extra",
-          "homepage": "https://github.com/tpaviot/oce/wiki",
-          "md5": "53785df36117f7be1c2f1a40e7abca4a",
-          "sha256": "c4d9e875d1ba04f9efb9548b0fb4eeab3277528e1b03670a02925751d4784616",
-          "description": "OpenCASCADE Community Edition CAE platform shared library"
-        },
         "libocefoundation11_i386": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-foundation11_0.18.2-2+nmu1_i386.deb",
@@ -13078,21 +12784,6 @@
           "md5": "4abd13b1d3a05b53745b1622f5b46e4f",
           "sha256": "c53f852e65880e0975c5064a40313f615a2769c233da9f9e4504d9622e173c87",
           "description": "OpenCASCADE Community Edition CAE platform library development files"
-        },
-        "libocemodeling10_i386": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-modeling10_0.17.2-1+nmu1_i386.deb",
-          "size": "11.35_MiB ",
-          "sizebyt": "11904010",
-          "version": "0.17.2-1+nmu1",
-          "isize": "42.12_MiB ",
-          "depends": "multiarch-support libc6(>=2.7) libgcc1(>=1:4.1.1) liboce-foundation10 libstdc++6(>=4.4.0) ",
-          "section": "libs",
-          "priority": "extra",
-          "homepage": "https://github.com/tpaviot/oce/wiki",
-          "md5": "54609e0cf6d6ce79f2cef4288fc27a05",
-          "sha256": "164178f1e99811903e9985f4984274f20f8be0746c934fc62d53915794e0f3ad",
-          "description": "OpenCASCADE Community Edition CAE platform shared library"
         },
         "libocemodeling11_i386": 
         {
@@ -13130,21 +12821,6 @@
           "sha256": "73aad66099a03fc6322b08f6fffd5bcd72025306f9d34bd2c7485b22be857055",
           "description": "OpenCASCADE Community Edition CAE platform library development files"
         },
-        "liboceocaf10_i386": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-ocaf10_0.17.2-1+nmu1_i386.deb",
-          "size": "728_KiB ",
-          "sizebyt": "744518",
-          "version": "0.17.2-1+nmu1",
-          "isize": "2.98_MiB ",
-          "depends": "multiarch-support libc6(>=2.4) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 liboce-foundation10 liboce-modeling10 liboce-ocaf-lite10 liboce-visualization10 libstdc++6(>=4.4.0) libx11-6 libxext6 ",
-          "section": "libs",
-          "priority": "extra",
-          "homepage": "https://github.com/tpaviot/oce/wiki",
-          "md5": "98daa807178aa9f6f0abc1a537966bfd",
-          "sha256": "acb7c7042270cd73932b05d5a552a2dd155d970ea22e74c81e96b008ae356e4a",
-          "description": "OpenCASCADE Community Edition CAE platform shared library"
-        },
         "liboceocaf11_i386": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-ocaf11_0.18.2-2+nmu1_i386.deb",
@@ -13181,21 +12857,6 @@
           "sha256": "9d9559fa785913089e232a048cf6fdb2e0a8815b2e7ef97d244fe046c8b16287",
           "description": "OpenCASCADE Community Edition CAE platform library development files"
         },
-        "liboceocaflite10_i386": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-ocaf-lite10_0.17.2-1+nmu1_i386.deb",
-          "size": "1.03_MiB ",
-          "sizebyt": "1083590",
-          "version": "0.17.2-1+nmu1",
-          "isize": "5.12_MiB ",
-          "depends": "multiarch-support libc6(>=2.4) libgcc1(>=1:4.1.1) liboce-foundation10 liboce-modeling10 libstdc++6(>=4.4.0) ",
-          "section": "libs",
-          "priority": "extra",
-          "homepage": "https://github.com/tpaviot/oce/wiki",
-          "md5": "c03cddb9835cbbf5799e02d2430d70d8",
-          "sha256": "5abaae6b54230afd263515a04fec323dacd2a7799e0d3b1105c0ae952b818b0c",
-          "description": "OpenCASCADE Community Edition CAE platform shared library"
-        },
         "liboceocaflite11_i386": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-ocaf-lite11_0.18.2-2+nmu1_i386.deb",
@@ -13231,21 +12892,6 @@
           "md5": "6de0925a03edf8b27d66f6cf8fa46669",
           "sha256": "be31d939404f789342684010738f4fe2b3c72f384edd0cd6f410eacb5e179bc1",
           "description": "OpenCASCADE Community Edition CAE platform library development files"
-        },
-        "libocevisualization10_i386": 
-        {
-          "packageurl": "https://notesalexp.org/jessie/main/o/oce/liboce-visualization10_0.17.2-1+nmu1_i386.deb",
-          "size": "2.93_MiB ",
-          "sizebyt": "3074778",
-          "version": "0.17.2-1+nmu1",
-          "isize": "8.70_MiB ",
-          "depends": "multiarch-support libc6(>=2.4) libfreeimage3 libfreetype6(>=2.2.1) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libgl2ps0 libglu1-mesa|libglu1 liboce-foundation10 liboce-modeling10 libstdc++6(>=4.9) libx11-6 libxext6 ",
-          "section": "libs",
-          "priority": "extra",
-          "homepage": "https://github.com/tpaviot/oce/wiki",
-          "md5": "6855ce3a591850de7b3dd5b29e897149",
-          "sha256": "c2071fd32837d03498ff6053f43562a0f7d8c229a7a0f696d5d7c6edff71de99",
-          "description": "OpenCASCADE Community Edition CAE platform shared library"
         },
         "libocevisualization11_i386": 
         {
@@ -13868,24 +13514,6 @@
           "sha256": "2d6f2673ddc022e8d1cf4f9de489c0c12d3f0fdf108e4da131373abee1c00277",
           "description": "fast, cross-platform audio editor"
         },
-        "autopanosiftc_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/a/autopano-sift-c/autopano-sift-c_2.5.3~hg20101023-7_amd64.deb",
-          "size": "100_KiB ",
-          "sizebyt": "100770",
-          "version": "2.5.3~hg20101023-7",
-          "isize": "433_KiB ",
-          "depends": "libc6(>=2.14) libgcc1(>=1:3.0) libjpeg62-turbo(>=1.3.1) libpano13-3 libpng16-16(>=1.6.2-1) libstdc++6(>=4.1.1) libtiff5(>=4.0.3) libxml2(>=2.7.4) zlib1g(>=1:1.1.4) ",
-          "section": "graphics",
-          "priority": "optional",
-          "source": "autopano-sift-c",
-          "sourceurl": "https://notesalexp.org/source/main/a/autopano-sift-c",
-          "sourcefile": "autopano-sift-c_2.5.3~hg20101023-7.debian.tar.xz autopano-sift-c_2.5.3~hg20101023-7.dsc autopano-sift-c_2.5.3~hg20101023.orig.tar.gz ",
-          "homepage": "http://hugin.sourceforge.net/",
-          "md5": "ccaf4c7298dd76bd10ab6132930f3945",
-          "sha256": "ce55747831377e253dc7f8342c4ae2cdf2903eb9d963013080258108cb667a34",
-          "description": "Panorama images are wide-angle images that amaze people:"
-        },
         "azpainter_amd64": 
         {
           "packageurl": "https://notesalexp.org/stretch/main/a/azpainter/azpainter_2.1.1-1_amd64.deb",
@@ -13980,25 +13608,6 @@
           "md5": "cac6b00e9bfe43a16c62f4411b11cb65",
           "sha256": "95fad9bf4adeda26b99c83c64c0327e1fabba3195e51e0823abd9651f17ff7a7",
           "description": "desktop menu for compiz"
-        },
-        "cuneiformlinux_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/c/cuneiform-linux/cuneiform-linux_1.1.1~bzr536-5_amd64.deb",
-          "size": "1.34_MiB ",
-          "sizebyt": "1412448",
-          "version": "1.1.1~bzr536-5",
-          "isize": "3.94_MiB ",
-          "depends": "cuneiform-common libc6(>=2.14) libgcc1(>=1:3.0) libgraphicsmagick++-q16-12 libstdc++6(>=5.2) ",
-          "replaces": "cuneiform-common ",
-          "section": "non-free/graphics",
-          "priority": "optional",
-          "source": "cuneiform-linux",
-          "sourceurl": "https://notesalexp.org/source/main/c/cuneiform-linux",
-          "sourcefile": "cuneiform-linux_1.1.1~bzr536-5.debian.tar.xz cuneiform-linux_1.1.1~bzr536-5.dsc cuneiform-linux_1.1.1~bzr536.orig.tar.xz ",
-          "homepage": "https://launchpad.net/cuneiform-linux",
-          "md5": "4a000de5cb08175cff930f0f5d915a49",
-          "sha256": "fde743d960fa1746449f27933c9fcc9b1513fd4f64764a9280cff84599307146",
-          "description": "multi-language OCR system"
         },
         "deadbeef_amd64": 
         {
@@ -14237,39 +13846,39 @@
         },
         "gimpgtk3_amd64": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/g/gimp-gtk3/gimp-gtk3_2.9.4+git39060-3762480-2_amd64.deb",
-          "size": "4.91_MiB ",
-          "sizebyt": "5146932",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "20.01_MiB ",
-          "depends": "gimp-gtk3-data(>=2.9.4+git39060-3762480) gimp-gtk3-data(<=2.9.4+git39060-3762480-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libatk1.0-0(>=2.2.0) libavcodec57(>=10:3.3.2) libavformat57(>=10:3.3.2) libbz2-1.0 libc6(>=2.22) libcairo-gobject2(>=1.10.0) libcairo2(>=1.12.0) libexpat1(>=2.0.1) libfontconfig1(>=2.11) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.41.1) libgomp1(>=4.2.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=146) libharfbuzz0b(>=0.6.0) libice6(>=1:1.0.0) libilmbase12(>=2.2.0) libjavascriptcoregtk-3.0-0(>=1.5.1) libjpeg62-turbo(>=1.3.1) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblzma5(>=5.1.1alpha+20120614) libmng1(>=1.0.10) libopenexr22 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpoppler-glib8(>=0.18.0) libraw15(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libsm6 libsoup2.4-1(>=2.4.0) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=10:3.3.2) libtiff5(>=4.0.3) libumfpack5(>=4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux2(>=0.5.1) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 libxt6 zlib1g(>=1:1.2.3.4) ",
+          "packageurl": "https://notesalexp.org/stretch/main/g/gimp-gtk3/gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1_amd64.deb",
+          "size": "6.07_MiB ",
+          "sizebyt": "6366370",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "23.84_MiB ",
+          "depends": "gimp-gtk3-data(>=2.9.8+git40211-8b3a6bcf5c) gimp-gtk3-data(<=2.9.8+git40211-8b3a6bcf5c-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libatk1.0-0(>=2.2.0) libavcodec57(>=10:3.3.6) libavformat57(>=10:3.3.6) libbz2-1.0 libc6(>=2.22) libcairo-gobject2(>=1.10.0) libcairo2(>=1.12.0) libexiv2-14(>=0.25) libexpat1(>=2.0.1) libffi6(>=3.0.4) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libglib2.0-0(>=2.30.2) libgomp1(>=4.2.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=146) libharfbuzz0b(>=0.6.0) libice6(>=1:1.0.0) libilmbase12(>=2.2.0) libjavascriptcoregtk-3.0-0(>=1.5.1) libjpeg62-turbo(>=1.3.1) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblcms2-2(>=2.7) liblzma5(>=5.1.1alpha+20120614) libmng1(>=1.0.10) libmount1(>=2.24.2) libopenexr22 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpcre3 libpng16-16(>=1.6.2-1) libpoppler-glib8(>=0.18.0) libraw15(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libsm6 libsoup2.4-1(>=2.4.0) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=10:3.3.6) libtiff5(>=4.0.3) libumfpack5(>=4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 libxt6 zlib1g(>=1:1.2.2) ",
           "recomends": "ghostscript ",
           "section": "graphics",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "d80e4b9738c66c13f4669346e8605a05",
-          "sha256": "378ba6e43a91dc680cfea7fc285d216215844f4f704916c3fc095a60e06246b3",
+          "md5": "e687e21ad9444c82bb54114851d99c01",
+          "sha256": "c174568349b958e10df67c0db9a496292367b24c97d22ad6f3d554a675a3fa91",
           "description": "advanced picture editor"
         },
         "gimpgtk3dev_amd64": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.4+git39060-3762480-2_amd64.deb",
-          "size": "220_KiB ",
-          "sizebyt": "224532",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "1.84_MiB ",
-          "depends": "gimp-gtk3(=2.9.4+git39060-3762480-2) pkg-config libatk1.0-0(>=2.2.0) libc6(>=2.4) libcairo-gobject2(>=1.10.0) libcairo2(>=1.10.2) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.30.2) libgtk-3-0(>=3.0.0) libjpeg62-turbo(>=1.3.1) libpango-1.0-0(>=1.29.4) libpangocairo-1.0-0(>=1.29.4) ",
+          "packageurl": "https://notesalexp.org/stretch/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.8+git40211-8b3a6bcf5c-1_amd64.deb",
+          "size": "8_KiB ",
+          "sizebyt": "4928",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "19_KiB ",
+          "depends": "gimp-gtk3(=2.9.8+git40211-8b3a6bcf5c-1) pkg-config ",
           "section": "libdevel",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "c6beaa4387f2a25eff890a24ed830bf2",
-          "sha256": "0c20c087eb88930ecd9da67910eeafb6af08a8c2ddad606034127db774a88f8f",
+          "md5": "aeafaf4947ad6c963d5feeda6a3fd71c",
+          "sha256": "4516bcee901bb724576791cf1f39c1e1bb64284ad944dc13ea078b2e15c4bb27",
           "description": "Headers and other files for compiling plugins for GIMP"
         },
         "gimppluginbimp_amd64": 
@@ -14289,21 +13898,6 @@
           "md5": "27002ffebfa99e7c1ee9c0092b7aba31",
           "sha256": "456d0a59646fc6d3a3308dca3729d41a013caeaeda4111bdb7253e93cf3cf9b3",
           "description": "plugin for The GIMP to manipulations on groups of images"
-        },
-        "gir12libmypaint0_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "16_KiB ",
-          "sizebyt": "12392",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "99_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "a11b8d4bd531cae771bea8562cc3ea69",
-          "sha256": "0fcb15061c993904eef39061062ac12fcd4a0e4fbbdfe262debfee5c063cc0f0",
-          "description": "development files for libmypaint"
         },
         "gir12libmypaint20_amd64": 
         {
@@ -14591,22 +14185,6 @@
           "sha256": "c611a1b09493207fa98f212386d14fa29d52d1b6c36bd7609fdddfa8fda5f494",
           "description": "image processing library"
         },
-        "libmypaint0_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/libm/libmypaint/libmypaint0_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "112_KiB ",
-          "sizebyt": "111130",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "594_KiB ",
-          "depends": "libc6(>=2.14) libglib2.0-0(>=2.12.0) libjson-c3(>=0.10) ",
-          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "8307a40a7aa5b2626a86536c371e273e",
-          "sha256": "1e9973da58f3effd472eabcdb154edb50a4ba7edea1313982d7c37e28aebd94d",
-          "description": "MyPaint brush engine library"
-        },
         "libmypaint200_amd64": 
         {
           "packageurl": "https://notesalexp.org/stretch/main/libm/libmypaint/libmypaint-2.0-0_2.0.0~git788-040310c-1_amd64.deb",
@@ -14644,57 +14222,6 @@
           "md5": "784f5653b32dd74dd3f33afe104b4cef",
           "sha256": "befb78d243a87e9c16e86f110238c4b2e040e6610e962a86144a621806f7602f",
           "description": "Development files for libmypaint"
-        },
-        "libmypaintdev_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/libm/libmypaint/libmypaint-dev_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "8_KiB ",
-          "sizebyt": "7338",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "43_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "b48658dafd1029342c5ae9b243d980a3",
-          "sha256": "ef45defea0d289eaadcf3bc1635e287aff57bec765661204a06bf0ef164d5862",
-          "description": "Development files for libmypaint"
-        },
-        "libnglib4913_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/n/netgen/libnglib-4.9.13_4.9.13.dfsg-11+nmu1_amd64.deb",
-          "size": "1.06_MiB ",
-          "sizebyt": "1114934",
-          "version": "4.9.13.dfsg-11+nmu1",
-          "isize": "3.26_MiB ",
-          "depends": "libc6(>=2.14) libgcc1(>=1:3.0) liboce-foundation11 liboce-modeling11 liboce-ocaf-lite11 liboce-ocaf11 liboce-visualization11 libstdc++6(>=5.2) ",
-          "section": "libs",
-          "priority": "optional",
-          "source": "netgen",
-          "sourceurl": "https://notesalexp.org/source/main/n/netgen",
-          "sourcefile": "netgen_4.9.13.dfsg-11+nmu1.debian.tar.xz netgen_4.9.13.dfsg-11+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
-          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
-          "md5": "906a7a902a1ffe1f2d2880dceecdb699",
-          "sha256": "1f0f6c9a6e1fc191442aa303cc3955b339dbf0ef334cdc679fa0aa04b3cd8698",
-          "description": "Automatic 3d tetrahedral mesh generator shared library"
-        },
-        "libnglibdev_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/n/netgen/libnglib-dev_4.9.13.dfsg-11+nmu1_amd64.deb",
-          "size": "16_KiB ",
-          "sizebyt": "15466",
-          "version": "4.9.13.dfsg-11+nmu1",
-          "isize": "63_KiB ",
-          "depends": "libnglib-4.9.13(=4.9.13.dfsg-11+nmu1) ",
-          "section": "libdevel",
-          "priority": "optional",
-          "source": "netgen",
-          "sourceurl": "https://notesalexp.org/source/main/n/netgen",
-          "sourcefile": "netgen_4.9.13.dfsg-11+nmu1.debian.tar.xz netgen_4.9.13.dfsg-11+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
-          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
-          "md5": "8e1f1fe869a92e7dfc0cd8cb6182a39b",
-          "sha256": "43e35a84751dfe7bf11d5a8c8338bdfc6a6c4e096a896714bbfdb99a6ae18ffa",
-          "description": "Automatic 3d tetrahedral mesh generator development files"
         },
         "libocefoundation11_amd64": 
         {
@@ -14875,42 +14402,6 @@
           "md5": "4568d3015676fb3a28807c36cbd40278",
           "sha256": "466b7852ac16704bd8b0bea29d543021032fe1a5017b6bf85378180249db3b1b",
           "description": "OpenCASCADE Community Edition CAE platform library development files"
-        },
-        "libqpx0_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/q/qpxtool/libqpx0_0.7.2-4+nmu2_amd64.deb",
-          "size": "88_KiB ",
-          "sizebyt": "89030",
-          "version": "0.7.2-4+nmu2",
-          "isize": "280_KiB ",
-          "depends": "libc6(>=2.15) libgcc1(>=1:3.0) libstdc++6(>=4.1.1) ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "545bbd1f42961c775a79eeb5eb48b59a",
-          "sha256": "1e1b2be271ff6482b1a814bf4e5215399a8fdb57234c1eedb8fad63e3f9e8a9f",
-          "description": "CD/DVD quality checker (shared libraries)"
-        },
-        "libqpxdev_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/q/qpxtool/libqpx-dev_0.7.2-4+nmu2_amd64.deb",
-          "size": "36_KiB ",
-          "sizebyt": "34460",
-          "version": "0.7.2-4+nmu2",
-          "isize": "139_KiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2) ",
-          "section": "libdevel",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "ccb9cb75c9cdba0cd0307067b41556fd",
-          "sha256": "ad3a825b094d1e873c6db3ec379a75c94c29c7c2c9bdfecab16c6b078866b8d9",
-          "description": "CD/DVD quality checker (development files)"
         },
         "librecad_amd64": 
         {
@@ -15136,43 +14627,6 @@
           "sha256": "1aa474a4f1b259ad4d0a5b5a62b430e4b16c4965c3dfa784054a049b92cac450",
           "description": "Create your own collection of e-books"
         },
-        "netgen_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/n/netgen/netgen_4.9.13.dfsg-11+nmu1_amd64.deb",
-          "size": "1.26_MiB ",
-          "sizebyt": "1319746",
-          "version": "4.9.13.dfsg-11+nmu1",
-          "isize": "4.20_MiB ",
-          "depends": "tix libc6(>=2.14) libgcc1(>=1:3.0) libgl1-mesa-glx|libgl1 libglu1-mesa|libglu1 libjpeg62-turbo(>=1.3.1) libnglib-4.9.13 liboce-foundation11 liboce-modeling11 liboce-ocaf-lite11 liboce-ocaf11 liboce-visualization11 libstdc++6(>=5.2) libtcl8.5(>=8.5.0) libtk8.5(>=8.5.0) libtogl1 libxmu6 ",
-          "suggests": "netgen-doc ",
-          "section": "math",
-          "priority": "optional",
-          "source": "netgen",
-          "sourceurl": "https://notesalexp.org/source/main/n/netgen",
-          "sourcefile": "netgen_4.9.13.dfsg-11+nmu1.debian.tar.xz netgen_4.9.13.dfsg-11+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
-          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
-          "md5": "034a9a3f90fad506428be8472d9e7ae1",
-          "sha256": "dcfe7923d79725ac90bb03bb348a2e540b1d301ad82d98760d6d6d863bfc8372",
-          "description": "Automatic 3d tetrahedral mesh generator"
-        },
-        "netgenheaders_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/n/netgen/netgen-headers_4.9.13.dfsg-11+nmu1_amd64.deb",
-          "size": "128_KiB ",
-          "sizebyt": "130378",
-          "version": "4.9.13.dfsg-11+nmu1",
-          "isize": "884_KiB ",
-          "depends": "libnglib-dev(=4.9.13.dfsg-11+nmu1) ",
-          "section": "libdevel",
-          "priority": "optional",
-          "source": "netgen",
-          "sourceurl": "https://notesalexp.org/source/main/n/netgen",
-          "sourcefile": "netgen_4.9.13.dfsg-11+nmu1.debian.tar.xz netgen_4.9.13.dfsg-11+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
-          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
-          "md5": "376f7e2890fc1c89d12c6de26fa31209",
-          "sha256": "5411d00f39c7a013da672063e652d89a9e55ba7de2eb361ebc7c277ddf69a84a",
-          "description": "Automatic 3d tetrahedral mesh generator internal headers"
-        },
         "ocedraw_amd64": 
         {
           "packageurl": "https://notesalexp.org/stretch/main/o/oce/oce-draw_0.18.2-2+nmu1_amd64.deb",
@@ -15269,24 +14723,6 @@
           "sha256": "97532b02ccb27b7fa049487297c12c816302445fd2fdfc6167dc2d5db3cb578c",
           "description": "Qt-based XMPP/Jabber client (WebKit version)"
         },
-        "pxfw_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/q/qpxtool/pxfw_0.7.2-4+nmu2_amd64.deb",
-          "size": "20_KiB ",
-          "sizebyt": "18524",
-          "version": "0.7.2-4+nmu2",
-          "isize": "41_KiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2) qpxtool libc6(>=2.4) libgcc1(>=1:3.0) libstdc++6(>=4.1.1) ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "643a5a57176c0a95126dfbfe9b11c2a3",
-          "sha256": "a67a5f8e88d4365aa052dc76f709fe54d278acb4a4d3d97bc44c093fbafa1895",
-          "description": "Plextor firmware updater"
-        },
         "q4wine_amd64": 
         {
           "packageurl": "https://notesalexp.org/stretch/main/q/q4wine/q4wine_1.3.6-1_amd64.deb",
@@ -15344,25 +14780,6 @@
           "md5": "58c0a93e4ea93c038a1c6212f8f74e31",
           "sha256": "1e66c3a4b651b769b9761b4fd399088c8ff602ad510a3facc53aea56b34a3279",
           "description": "qt viewer for comic book archives (cbr/cbz/cba/cbg/cbb)"
-        },
-        "qpxtool_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/q/qpxtool/qpxtool_0.7.2-4+nmu2_amd64.deb",
-          "size": "664_KiB ",
-          "sizebyt": "677198",
-          "version": "0.7.2-4+nmu2",
-          "isize": "1.68_MiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2) libc6(>=2.15) libgcc1(>=1:3.0) libpng16-16(>=1.6.2-1) libqt4-network(>=4:4.5.3) libqt4-sql(>=4:4.5.3) libqtcore4(>=4:4.7.0~beta1) libqtgui4(>=4:4.5.3) libstdc++6(>=4.1.1) ",
-          "suggests": "pxfw ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "593d1b875a1d54a5fa1a9a5493a1a672",
-          "sha256": "1851b8d97eea97de22b7a3271e4a5a26469c6a93b8116485ed40d1bd396e8007",
-          "description": "CD/DVD quality checker"
         },
         "qtboxeditor_amd64": 
         {
@@ -15567,25 +14984,6 @@
           "sha256": "229793dac6ffc562156028ea71d628ca345d0abd9e6581e7f1e760f4bd0c39ed",
           "description": "Free open-source disk encryption software"
         },
-        "yagf_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/y/yagf/yagf_0.9.4.3+git20150224-1_amd64.deb",
-          "size": "448_KiB ",
-          "sizebyt": "456120",
-          "version": "0.9.4.3+git20150224-1",
-          "isize": "1.11_MiB ",
-          "depends": "tesseract-ocr|cuneiform|cuneiform-refactoring libaspell15(>=0.60.7~20110707) libc6(>=2.14) libgcc1(>=1:4.1.1) libqtcore4(>=4:4.7.0~beta1) libqtgui4(>=4:4.5.3) libstdc++6(>=4.1.1) ",
-          "recomends": "xsane ",
-          "section": "graphics",
-          "priority": "optional",
-          "source": "yagf",
-          "sourceurl": "https://notesalexp.org/source/main/y/yagf",
-          "sourcefile": "yagf_0.9.4.3+git20150224-1.debian.tar.xz yagf_0.9.4.3+git20150224-1.dsc yagf_0.9.4.3+git20150224.orig.tar.xz ",
-          "homepage": "http://sourceforge.net/projects/yagf-ocr/",
-          "md5": "1271c5483e42a234595e8027c168dd29",
-          "sha256": "2a69eea8df303fbe299fbb10b46712a817a9e6bf95b24e9a97dc5fcc992171ba",
-          "description": "graphical interface for cuneiform and tesseract"
-        },
         "znotes_amd64": 
         {
           "packageurl": "https://notesalexp.org/stretch/main/z/znotes/znotes_0.4.3+git20150825-3_amd64.deb",
@@ -15657,24 +15055,6 @@
           "md5": "6ef2abfa024c2013584d6138e57e649c",
           "sha256": "74cc1fa325b13378d33dfb6eecc616b2bba18ac90e049313e5bcdcd5af6b6442",
           "description": "Preferences manager for BitMap Panel"
-        },
-        "cuneiformcommon_all": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/c/cuneiform-linux/cuneiform-common_1.1.1~bzr536-5_all.deb",
-          "size": "19.99_MiB ",
-          "sizebyt": "20963834",
-          "version": "1.1.1~bzr536-5",
-          "isize": "49.56_MiB ",
-          "suggests": "cuneiform-linux ",
-          "section": "non-free/graphics",
-          "priority": "optional",
-          "source": "cuneiform-linux",
-          "sourceurl": "https://notesalexp.org/source/main/c/cuneiform-linux",
-          "sourcefile": "cuneiform-linux_1.1.1~bzr536-5.debian.tar.xz cuneiform-linux_1.1.1~bzr536-5.dsc cuneiform-linux_1.1.1~bzr536.orig.tar.xz ",
-          "homepage": "https://launchpad.net/cuneiform-linux",
-          "md5": "3059055ff00bccabf656b0f874ec30da",
-          "sha256": "e18bce0ed262a407a9a5f8231ce58f35f4586d992bb0f25ecbac44407ce94518",
-          "description": "Data files for cuneiform-linux"
         },
         "deadbeefdev_all": 
         {
@@ -15972,20 +15352,20 @@
         },
         "gimpgtk3data_all": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/g/gimp-gtk3/gimp-gtk3-data_2.9.4+git39060-3762480-2_all.deb",
-          "size": "9.43_MiB ",
-          "sizebyt": "9891512",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "59.73_MiB ",
+          "packageurl": "https://notesalexp.org/stretch/main/g/gimp-gtk3/gimp-gtk3-data_2.9.8+git40211-8b3a6bcf5c-1_all.deb",
+          "size": "11.01_MiB ",
+          "sizebyt": "11545132",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "70.01_MiB ",
           "recomends": "gimp-devel ",
           "section": "graphics",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "75313e770db75435d5bc2d71c206ac42",
-          "sha256": "e58a0e379408bce9327f938afe999404524e986756d95c2ea19f91755dd4f98f",
+          "md5": "bb6ba746ad78b904d0be249af9d62617",
+          "sha256": "5881c807c832744b4bac9928a369d9eb20dd9c8372ef34984436c0191ed9d028",
           "description": "Data files for GIMP"
         },
         "gscan2pdf_all": 
@@ -16096,37 +15476,20 @@
           "sha256": "52a94b85ac12f25504fa7b93515c3649983b9d127cb780763296d6c23f6ab57c",
           "description": "high resolution backgrounds for mypaint"
         },
-        "netgendoc_all": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/n/netgen/netgen-doc_4.9.13.dfsg-11+nmu1_all.deb",
-          "size": "152_KiB ",
-          "sizebyt": "152006",
-          "version": "4.9.13.dfsg-11+nmu1",
-          "isize": "197_KiB ",
-          "suggests": "netgen ",
-          "section": "doc",
-          "priority": "optional",
-          "source": "netgen",
-          "sourceurl": "https://notesalexp.org/source/main/n/netgen",
-          "sourcefile": "netgen_4.9.13.dfsg-11+nmu1.debian.tar.xz netgen_4.9.13.dfsg-11+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
-          "homepage": "http://sourceforge.net/projects/netgen-mesher/",
-          "md5": "2f538d29f2574aff1fa77b282eec66eb",
-          "sha256": "9dafee487713e4155555011e8c2268ca5dee772dfbdb146a0b61bab93369529f",
-          "description": "Automatic 3d tetrahedral mesh generator documentation"
-        },
         "notesalexpkeyring_all": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16-1_all.deb",
+          "packageurl": "https://notesalexp.org/stretch/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16.1-1_all.deb",
           "size": "8_KiB ",
-          "sizebyt": "4528",
-          "version": "2015.09.16-1",
-          "isize": "15_KiB ",
-          "depends": "gnupg(>=1.0.6-4) ",
+          "sizebyt": "4676",
+          "version": "2015.09.16.1-1",
+          "isize": "17_KiB ",
+          "depends": "gpgv ",
+          "recomends": "gnupg ",
           "section": "misc",
-          "priority": "extra",
+          "priority": "optional",
           "homepage": "http://www.notesalexp.org",
-          "md5": "5b2d56d3a0e5226f9524c563bedd62ac",
-          "sha256": "52b70f6876d64316641af0ad412d9a520e6ed6287ecf75b56df459526e405920",
+          "md5": "013746c8410772b4b8e29ef19e8c4837",
+          "sha256": "cd9cf5983c599af87a9cadbe3d66346550123f138fde3371bd78c1ca40220e82",
           "description": "GnuPG archive key of the notesalexp repository"
         },
         "obkey_all": 
@@ -19828,24 +19191,6 @@
           "sha256": "97d145d280f0792a8a1a193b9ec44002ade1b85c6ebc1d3cbf2ecce7ca9fb57f",
           "description": "fast, cross-platform audio editor"
         },
-        "autopanosiftc_i386": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/a/autopano-sift-c/autopano-sift-c_2.5.3~hg20101023-7_i386.deb",
-          "size": "96_KiB ",
-          "sizebyt": "94562",
-          "version": "2.5.3~hg20101023-7",
-          "isize": "370_KiB ",
-          "depends": "libc6(>=2.7) libgcc1(>=1:3.0) libjpeg62-turbo(>=1.3.1) libpano13-3 libpng16-16(>=1.6.2-1) libstdc++6(>=4.1.1) libtiff5(>=4.0.3) libxml2(>=2.7.4) zlib1g(>=1:1.1.4) ",
-          "section": "graphics",
-          "priority": "optional",
-          "source": "autopano-sift-c",
-          "sourceurl": "https://notesalexp.org/source/main/a/autopano-sift-c",
-          "sourcefile": "autopano-sift-c_2.5.3~hg20101023-7.debian.tar.xz autopano-sift-c_2.5.3~hg20101023-7.dsc autopano-sift-c_2.5.3~hg20101023.orig.tar.gz ",
-          "homepage": "http://hugin.sourceforge.net/",
-          "md5": "36f1f77a63ecfedd53b710c657d91ae2",
-          "sha256": "9737f137a4883a4806f9ddf80b2f8e41d3a29bd69205b24816d7a8f84689bd33",
-          "description": "Panorama images are wide-angle images that amaze people:"
-        },
         "azpainter_i386": 
         {
           "packageurl": "https://notesalexp.org/stretch/main/a/azpainter/azpainter_2.1.1-1_i386.deb",
@@ -19940,25 +19285,6 @@
           "md5": "fc05c06015b2042b9a261c1c72ca9dd8",
           "sha256": "0b772d2dfc6a843e05b9b2156bbf04477dc30a5a535b5d6e78443a3336cc6582",
           "description": "desktop menu for compiz"
-        },
-        "cuneiformlinux_i386": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/c/cuneiform-linux/cuneiform-linux_1.1.1~bzr536-5_i386.deb",
-          "size": "1.42_MiB ",
-          "sizebyt": "1489128",
-          "version": "1.1.1~bzr536-5",
-          "isize": "4.24_MiB ",
-          "depends": "cuneiform-common libc6(>=2.11) libgcc1(>=1:3.0) libgraphicsmagick++-q16-12 libstdc++6(>=5.2) ",
-          "replaces": "cuneiform-common ",
-          "section": "non-free/graphics",
-          "priority": "optional",
-          "source": "cuneiform-linux",
-          "sourceurl": "https://notesalexp.org/source/main/c/cuneiform-linux",
-          "sourcefile": "cuneiform-linux_1.1.1~bzr536-5.debian.tar.xz cuneiform-linux_1.1.1~bzr536-5.dsc cuneiform-linux_1.1.1~bzr536.orig.tar.xz ",
-          "homepage": "https://launchpad.net/cuneiform-linux",
-          "md5": "aff0f598f0f523efae67d767df730ae0",
-          "sha256": "fa93935266ad146a52abdf4dd07181a3c42638ee2d5a9dfde909f614a7745518",
-          "description": "multi-language OCR system"
         },
         "deadbeef_i386": 
         {
@@ -20197,39 +19523,39 @@
         },
         "gimpgtk3_i386": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/g/gimp-gtk3/gimp-gtk3_2.9.4+git39060-3762480-2_i386.deb",
-          "size": "5.13_MiB ",
-          "sizebyt": "5380056",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "21.72_MiB ",
-          "depends": "gimp-gtk3-data(>=2.9.4+git39060-3762480) gimp-gtk3-data(<=2.9.4+git39060-3762480-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libatk1.0-0(>=2.2.0) libavcodec57(>=10:3.3.2) libavformat57(>=10:3.3.2) libbz2-1.0 libc6(>=2.16) libcairo-gobject2(>=1.10.0) libcairo2(>=1.12.0) libexpat1(>=2.0.1) libfontconfig1(>=2.11) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.41.1) libgomp1(>=4.2.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=146) libharfbuzz0b(>=0.6.0) libice6(>=1:1.0.0) libilmbase12(>=2.2.0) libjavascriptcoregtk-3.0-0(>=1.5.1) libjpeg62-turbo(>=1.3.1) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblzma5(>=5.1.1alpha+20120614) libmng1(>=1.0.10) libopenexr22 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpoppler-glib8(>=0.18.0) libraw15(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libsm6 libsoup2.4-1(>=2.4.0) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=10:3.3.2) libtiff5(>=4.0.3) libumfpack5(>=4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux2(>=0.5.1) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 libxt6 zlib1g(>=1:1.2.3.4) ",
+          "packageurl": "https://notesalexp.org/stretch/main/g/gimp-gtk3/gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1_i386.deb",
+          "size": "6.40_MiB ",
+          "sizebyt": "6712552",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "26.03_MiB ",
+          "depends": "gimp-gtk3-data(>=2.9.8+git40211-8b3a6bcf5c) gimp-gtk3-data(<=2.9.8+git40211-8b3a6bcf5c-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libatk1.0-0(>=2.2.0) libavcodec57(>=10:3.3.6) libavformat57(>=10:3.3.6) libbz2-1.0 libc6(>=2.17) libcairo-gobject2(>=1.10.0) libcairo2(>=1.12.0) libexiv2-14(>=0.25) libexpat1(>=2.0.1) libffi6(>=3.0.4) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libglib2.0-0(>=2.30.2) libgomp1(>=4.2.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=146) libharfbuzz0b(>=0.6.0) libice6(>=1:1.0.0) libilmbase12(>=2.2.0) libjavascriptcoregtk-3.0-0(>=1.5.1) libjpeg62-turbo(>=1.3.1) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblcms2-2(>=2.7) liblzma5(>=5.1.1alpha+20120614) libmng1(>=1.0.10) libmount1(>=2.24.2) libopenexr22 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpcre3 libpng16-16(>=1.6.2-1) libpoppler-glib8(>=0.18.0) libraw15(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libsm6 libsoup2.4-1(>=2.4.0) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=10:3.3.6) libtiff5(>=4.0.3) libumfpack5(>=4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 libxt6 zlib1g(>=1:1.2.2) ",
           "recomends": "ghostscript ",
           "section": "graphics",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "e3bac5148e71b434d855258569d6c3b5",
-          "sha256": "15b451a1a4190f802ce54e4008da1fc5f6a37b0be164871a65442abc1e22113a",
+          "md5": "7cf379ea8a2726caa0ba4425b95cbf53",
+          "sha256": "6d51ed287e6b15b4cc596379d9c766f12a544f909bfe994d0cd30f20736c4c98",
           "description": "advanced picture editor"
         },
         "gimpgtk3dev_i386": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.4+git39060-3762480-2_i386.deb",
-          "size": "220_KiB ",
-          "sizebyt": "224822",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "1.84_MiB ",
-          "depends": "gimp-gtk3(=2.9.4+git39060-3762480-2) pkg-config libatk1.0-0(>=2.2.0) libc6(>=2.4) libcairo-gobject2(>=1.10.0) libcairo2(>=1.10.2) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.30.2) libgtk-3-0(>=3.0.0) libjpeg62-turbo(>=1.3.1) libpango-1.0-0(>=1.29.4) libpangocairo-1.0-0(>=1.29.4) ",
+          "packageurl": "https://notesalexp.org/stretch/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.8+git40211-8b3a6bcf5c-1_i386.deb",
+          "size": "8_KiB ",
+          "sizebyt": "4926",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "19_KiB ",
+          "depends": "gimp-gtk3(=2.9.8+git40211-8b3a6bcf5c-1) pkg-config ",
           "section": "libdevel",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "b3df21ea24411f30f9f1a65c7f3148aa",
-          "sha256": "00c362fb0189eabea817eadbd263a5411725eeda4ab0334d0794aa816147057d",
+          "md5": "29326c34cf3b06390d86308523ec0340",
+          "sha256": "78576e4056e813b49eb24ac84f67d22a07c3711bbc52a373b6fcf8b57d6d9556",
           "description": "Headers and other files for compiling plugins for GIMP"
         },
         "gimppluginbimp_i386": 
@@ -20249,21 +19575,6 @@
           "md5": "90bbbc94d5bb6f07727724b42653a608",
           "sha256": "2f97a4c007c5c0988f427ad26f44711723b0cebc85465cbdc69a5c97a3f4e55d",
           "description": "plugin for The GIMP to manipulations on groups of images"
-        },
-        "gir12libmypaint0_i386": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "16_KiB ",
-          "sizebyt": "12378",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "99_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "48930917981caffdf35ef8913a4ad0a1",
-          "sha256": "63441a1a13239355f51807d1897fd5168e644052ed9fc509fc37ea4e2d34dabc",
-          "description": "development files for libmypaint"
         },
         "gir12libmypaint20_i386": 
         {
@@ -20551,22 +19862,6 @@
           "sha256": "e724419932ac057bfe28872dc28f67baa789470307cb252e76fcf31b1bdf12e2",
           "description": "image processing library"
         },
-        "libmypaint0_i386": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/libm/libmypaint/libmypaint0_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "112_KiB ",
-          "sizebyt": "111556",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "592_KiB ",
-          "depends": "libc6(>=2.4) libglib2.0-0(>=2.12.0) libjson-c3(>=0.10) ",
-          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "0d4ebc5093f24c4fec186f32efacb5a5",
-          "sha256": "af490ae5c75e442c9eaaa97884a4afaa44bb890e4162a067738ce68d98da3cdd",
-          "description": "MyPaint brush engine library"
-        },
         "libmypaint200_i386": 
         {
           "packageurl": "https://notesalexp.org/stretch/main/libm/libmypaint/libmypaint-2.0-0_2.0.0~git788-040310c-1_i386.deb",
@@ -20603,21 +19898,6 @@
           "homepage": "http://mypaint.org/",
           "md5": "eeba3c4d1eb447456a9682ddf4e19dc3",
           "sha256": "10e7c4b9385dbedbfced2c7425e11cce153e9979954c55bf5d8bb52155cf1fd4",
-          "description": "Development files for libmypaint"
-        },
-        "libmypaintdev_i386": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/libm/libmypaint/libmypaint-dev_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "8_KiB ",
-          "sizebyt": "7330",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "43_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "ad597c489d521fc0cb2463773d622c64",
-          "sha256": "b1920021f4cf7951821a4fa0ce675244e0bdca8dd71cc85701e9f437fda78704",
           "description": "Development files for libmypaint"
         },
         "libocefoundation11_i386": 
@@ -20799,42 +20079,6 @@
           "md5": "f9f991145793c7578bd2001053a03415",
           "sha256": "05ab43bd690b0f1b6068807abea157d4a68b72ecbdfabecd902f062a98d98a0a",
           "description": "OpenCASCADE Community Edition CAE platform library development files"
-        },
-        "libqpx0_i386": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/q/qpxtool/libqpx0_0.7.2-4+nmu2_i386.deb",
-          "size": "96_KiB ",
-          "sizebyt": "96116",
-          "version": "0.7.2-4+nmu2",
-          "isize": "291_KiB ",
-          "depends": "libc6(>=2.15) libgcc1(>=1:3.0) libstdc++6(>=4.1.1) ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "b48c94182d2544df7c12a7573c24f2ce",
-          "sha256": "4752258cf434b57ee807fe8b8233379376b2061341dac47978961947914fce51",
-          "description": "CD/DVD quality checker (shared libraries)"
-        },
-        "libqpxdev_i386": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/q/qpxtool/libqpx-dev_0.7.2-4+nmu2_i386.deb",
-          "size": "36_KiB ",
-          "sizebyt": "34428",
-          "version": "0.7.2-4+nmu2",
-          "isize": "139_KiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2) ",
-          "section": "libdevel",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "435f484e77928e7a4028dd18c7ef60a1",
-          "sha256": "364b7b6b86fc100d1212276b524ee30b2fa1b77dafa7d5d5ed5ea4f09883371e",
-          "description": "CD/DVD quality checker (development files)"
         },
         "librecad_i386": 
         {
@@ -21156,24 +20400,6 @@
           "sha256": "b07145f109ac4e8abc8c21c449dcaf0f409f7d929bb2305e876b24e1442ac65d",
           "description": "Qt-based XMPP/Jabber client (WebKit version)"
         },
-        "pxfw_i386": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/q/qpxtool/pxfw_0.7.2-4+nmu2_i386.deb",
-          "size": "20_KiB ",
-          "sizebyt": "18966",
-          "version": "0.7.2-4+nmu2",
-          "isize": "40_KiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2) qpxtool libc6(>=2.4) libgcc1(>=1:3.0) libstdc++6(>=4.1.1) ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "fc7d25d3ba33d8be49c8f27fba21d36e",
-          "sha256": "e53edee69a85bccc4cdad70abe3a0115d7b89739fee2b675495b2801e49f7526",
-          "description": "Plextor firmware updater"
-        },
         "q4wine_i386": 
         {
           "packageurl": "https://notesalexp.org/stretch/main/q/q4wine/q4wine_1.3.6-1_i386.deb",
@@ -21231,25 +20457,6 @@
           "md5": "4bd7839171c5597aefeaf054b1487b26",
           "sha256": "e86239113bfe3de3827791dc03df75cd4e46870df864d2d3d87a3a4150d2c3bf",
           "description": "qt viewer for comic book archives (cbr/cbz/cba/cbg/cbb)"
-        },
-        "qpxtool_i386": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/q/qpxtool/qpxtool_0.7.2-4+nmu2_i386.deb",
-          "size": "680_KiB ",
-          "sizebyt": "695646",
-          "version": "0.7.2-4+nmu2",
-          "isize": "1.64_MiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2) libc6(>=2.15) libgcc1(>=1:4.2) libpng16-16(>=1.6.2-1) libqt4-network(>=4:4.5.3) libqt4-sql(>=4:4.5.3) libqtcore4(>=4:4.7.0~beta1) libqtgui4(>=4:4.5.3) libstdc++6(>=4.1.1) ",
-          "suggests": "pxfw ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "88d60ce3c0751c893ed681f3143e2091",
-          "sha256": "1fab3c6a4c943358aadfbd24c1b41cebf13c43684e16513a7c4afc862a752704",
-          "description": "CD/DVD quality checker"
         },
         "qtboxeditor_i386": 
         {
@@ -21454,25 +20661,6 @@
           "sha256": "cede7892df48904e957880bf239e933d8bb1bcd7bab2f3fc3d0a7b46dd25de5e",
           "description": "Free open-source disk encryption software"
         },
-        "yagf_i386": 
-        {
-          "packageurl": "https://notesalexp.org/stretch/main/y/yagf/yagf_0.9.4.3+git20150224-1_i386.deb",
-          "size": "452_KiB ",
-          "sizebyt": "462106",
-          "version": "0.9.4.3+git20150224-1",
-          "isize": "1.07_MiB ",
-          "depends": "tesseract-ocr|cuneiform|cuneiform-refactoring libaspell15(>=0.60.7~20110707) libc6(>=2.4) libgcc1(>=1:4.1.1) libqtcore4(>=4:4.7.0~beta1) libqtgui4(>=4:4.5.3) libstdc++6(>=4.1.1) ",
-          "recomends": "xsane ",
-          "section": "graphics",
-          "priority": "optional",
-          "source": "yagf",
-          "sourceurl": "https://notesalexp.org/source/main/y/yagf",
-          "sourcefile": "yagf_0.9.4.3+git20150224-1.debian.tar.xz yagf_0.9.4.3+git20150224-1.dsc yagf_0.9.4.3+git20150224.orig.tar.xz ",
-          "homepage": "http://sourceforge.net/projects/yagf-ocr/",
-          "md5": "f75e80f0559b3057cc21326e62476fe9",
-          "sha256": "24cf32fc6790fe83609fce6a695bde0e87fc4ff4e132accedae7e0713bc3c440",
-          "description": "graphical interface for cuneiform and tesseract"
-        },
         "znotes_i386": 
         {
           "packageurl": "https://notesalexp.org/stretch/main/z/znotes/znotes_0.4.3+git20150825-3_i386.deb",
@@ -21531,24 +20719,6 @@
           "md5": "9efe03e0dd86173eb3c172037250688b",
           "sha256": "6d10b21ea896a8c9f80c621dda71203f2068504c0aae7a2144d8225c7733096d",
           "description": "fast, cross-platform audio editor"
-        },
-        "autopanosiftc_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/buster/main/a/autopano-sift-c/autopano-sift-c_2.5.3~hg20101023-7_amd64.deb",
-          "size": "100_KiB ",
-          "sizebyt": "101748",
-          "version": "2.5.3~hg20101023-7",
-          "isize": "446_KiB ",
-          "depends": "libc6(>=2.14) libgcc1(>=1:3.0) libjpeg62-turbo(>=1.3.1) libpano13-3 libpng16-16(>=1.6.2-1) libstdc++6(>=5) libtiff5(>=4.0.3) libxml2(>=2.7.4) zlib1g(>=1:1.1.4) ",
-          "section": "graphics",
-          "priority": "optional",
-          "source": "autopano-sift-c",
-          "sourceurl": "https://notesalexp.org/source/main/a/autopano-sift-c",
-          "sourcefile": "autopano-sift-c_2.5.3~hg20101023-7.debian.tar.xz autopano-sift-c_2.5.3~hg20101023-7.dsc autopano-sift-c_2.5.3~hg20101023.orig.tar.gz ",
-          "homepage": "http://hugin.sourceforge.net/",
-          "md5": "5425adc1174db2ee4e7ebabc73ffdb7c",
-          "sha256": "ec2413bd56e05a064b0c7e267fb912e964b0dbc2ffa0300f0909389b83aeb56a",
-          "description": "Panorama images are wide-angle images that amaze people:"
         },
         "azpainter_amd64": 
         {
@@ -21764,24 +20934,6 @@
           "sha256": "28e53609cbbaebd814ed04426a730f47a4db911cfb0bddff300097f6095a9335",
           "description": "EiskaltDC++ GUI based on Qt"
         },
-        "fatrat_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/buster/main/f/fatrat/fatrat_1.2.0+git20161204-3_amd64.deb",
-          "size": "740_KiB ",
-          "sizebyt": "756060",
-          "version": "1.2.0+git20161204-3",
-          "isize": "2.00_MiB ",
-          "depends": "libc6(>=2.14) libcurl3-gnutls(>=7.16.3) libgcc1(>=1:3.0) libgloox15 libqt5core5a(>=5.7.0) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.7.0) libqt5help5(>=5.6.0~beta) libqt5network5(>=5.0.2) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.2.0~alpha1) libqt5xml5(>=5.1.0) libstdc++6(>=5.2) fatrat-data(=1.2.0+git20161204-3) xdg-utils ",
-          "section": "net",
-          "priority": "optional",
-          "source": "fatrat",
-          "sourceurl": "https://notesalexp.org/source/main/f/fatrat",
-          "sourcefile": "fatrat_1.2.0+git20161204-3.debian.tar.xz fatrat_1.2.0+git20161204-3.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
-          "homepage": "http://fatrat.dolezel.info/",
-          "md5": "4b8da1bde0a4999eb91c63d3a488ab30",
-          "sha256": "2bad0e566e31fb3cabbf4a4a57e97c303297c113276e7575e7ef37ff3d49fa91",
-          "description": "multi-protocol download manager, feature rich and extensible via plugin"
-        },
         "gimp_amd64": 
         {
           "packageurl": "https://notesalexp.org/buster/main/g/gimp/gimp_2.8.22+git32586-8ca024a02c-1_amd64.deb",
@@ -21844,39 +20996,39 @@
         },
         "gimpgtk3_amd64": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/g/gimp-gtk3/gimp-gtk3_2.9.4+git39060-3762480-2_amd64.deb",
-          "size": "4.94_MiB ",
-          "sizebyt": "5177878",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "19.89_MiB ",
-          "depends": "gimp-gtk3-data(>=2.9.4+git39060-3762480) gimp-gtk3-data(<=2.9.4+git39060-3762480-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libatk1.0-0(>=2.2.0) libavcodec57(>=7:3.3.3)|libavcodec-extra57(>=7:3.3.3) libavformat57(>=7:3.3.3) libbz2-1.0 libc6(>=2.22) libcairo-gobject2(>=1.10.0) libcairo2(>=1.12.0) libexpat1(>=2.0.1) libfontconfig1(>=2.12) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.41.1) libgomp1(>=4.2.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=146) libharfbuzz0b(>=0.6.0) libice6(>=1:1.0.0) libilmbase12(>=2.2.0) libjavascriptcoregtk-3.0-0(>=1.5.1) libjpeg62-turbo(>=1.3.1) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblzma5(>=5.1.1alpha+20120614) libmng1(>=1.0.10) libopenexr22 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpoppler-glib8(>=0.18.0) libraw16(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libsm6 libsoup2.4-1(>=2.4.0) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=7:3.3.3) libtiff5(>=4.0.3) libumfpack5(>=4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux3(>=0.6.0-3) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 libxt6 zlib1g(>=1:1.2.3.4) ",
+          "packageurl": "https://notesalexp.org/buster/main/g/gimp-gtk3/gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1_amd64.deb",
+          "size": "4.87_MiB ",
+          "sizebyt": "5112420",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "19.86_MiB ",
+          "depends": "gimp-gtk3-data(>=2.9.8+git40211-8b3a6bcf5c) gimp-gtk3-data(<=2.9.8+git40211-8b3a6bcf5c-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libatk1.0-0(>=2.2.0) libavcodec57(>=10:3.4.2) libavformat57(>=10:3.4.2) libbz2-1.0 libc6(>=2.27) libcairo-gobject2(>=1.10.0) libcairo2(>=1.12.0) libexpat1(>=2.0.1) libfontconfig1(>=2.12) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.53.1) libgomp1(>=4.2.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=167) libharfbuzz0b(>=0.6.0) libice6(>=1:1.0.0) libilmbase23(>=2.2.1) libjavascriptcoregtk-3.0-0(>=1.5.1) libjpeg62-turbo(>=1.3.1) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblcms2-2(>=2.7) liblzma5(>=5.1.1alpha+20120614) libmng1(>=1.0.10) libopenexr23 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpng16-16(>=1.6.2-1) libpoppler-glib8(>=0.18.0) libraw16(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libsm6 libsoup2.4-1(>=2.4.0) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=10:3.4.2) libtiff5(>=4.0.3) libumfpack5(>=1:4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux3(>=0.6.1-2) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 libxt6 zlib1g(>=1:1.1.4) ",
           "recomends": "ghostscript ",
           "section": "graphics",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "c5d575b81ae440ce23971b13a6d613ac",
-          "sha256": "e069cd527cedd0a537b3c313d608afd06f446952f4777db8c1b0bd5db693fc70",
+          "md5": "2ef65088fffa422269666ef1e59fed6c",
+          "sha256": "de26bfe3de280d033ba3f3a6db8c816bd09065d7f115ac126ceb889f74eaed9d",
           "description": "advanced picture editor"
         },
         "gimpgtk3dev_amd64": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.4+git39060-3762480-2_amd64.deb",
-          "size": "220_KiB ",
-          "sizebyt": "224500",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "1.84_MiB ",
-          "depends": "gimp-gtk3(=2.9.4+git39060-3762480-2) pkg-config libatk1.0-0(>=2.2.0) libc6(>=2.4) libcairo-gobject2(>=1.10.0) libcairo2(>=1.10.2) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.30.2) libgtk-3-0(>=3.0.0) libjpeg62-turbo(>=1.3.1) libpango-1.0-0(>=1.29.4) libpangocairo-1.0-0(>=1.29.4) ",
+          "packageurl": "https://notesalexp.org/buster/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.8+git40211-8b3a6bcf5c-1_amd64.deb",
+          "size": "8_KiB ",
+          "sizebyt": "5020",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "19_KiB ",
+          "depends": "gimp-gtk3(=2.9.8+git40211-8b3a6bcf5c-1) pkg-config ",
           "section": "libdevel",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "18f66378e541c23bb1e1e23406e20b9f",
-          "sha256": "11dee51ffa3ea4ee5e6facd185eb189063fa115f6f418abeeb3f237bdb6eae80",
+          "md5": "a63a0996ca2f9faebb0ac9846a37cdd7",
+          "sha256": "4d29d549a9694ef67c5e4f77a4f3a4833af0f4e84a2487beb6bebf0aad4e4c88",
           "description": "Headers and other files for compiling plugins for GIMP"
         },
         "gimppluginbimp_amd64": 
@@ -21896,21 +21048,6 @@
           "md5": "b5ee87478059e704b488718e38398055",
           "sha256": "c2455944c17b0db1c1cd067121864ba7537754a5f4ad9e1bfb7b24d81c1773f8",
           "description": "plugin for The GIMP to manipulations on groups of images"
-        },
-        "gir12libmypaint0_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/buster/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "16_KiB ",
-          "sizebyt": "12392",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "99_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "a11b8d4bd531cae771bea8562cc3ea69",
-          "sha256": "0fcb15061c993904eef39061062ac12fcd4a0e4fbbdfe262debfee5c063cc0f0",
-          "description": "development files for libmypaint"
         },
         "gir12libmypaint20_amd64": 
         {
@@ -22162,22 +21299,6 @@
           "sha256": "bca75b61b82cd454ca8e139ac54c669b8a7c1c3c73d4006159a2c3a3fd6cba74",
           "description": "image processing library"
         },
-        "libmypaint0_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/buster/main/libm/libmypaint/libmypaint0_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "112_KiB ",
-          "sizebyt": "111130",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "594_KiB ",
-          "depends": "libc6(>=2.14) libglib2.0-0(>=2.12.0) libjson-c3(>=0.10) ",
-          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "8307a40a7aa5b2626a86536c371e273e",
-          "sha256": "1e9973da58f3effd472eabcdb154edb50a4ba7edea1313982d7c37e28aebd94d",
-          "description": "MyPaint brush engine library"
-        },
         "libmypaint200_amd64": 
         {
           "packageurl": "https://notesalexp.org/buster/main/libm/libmypaint/libmypaint-2.0-0_2.0.0~git788-040310c-1_amd64.deb",
@@ -22214,21 +21335,6 @@
           "homepage": "http://mypaint.org/",
           "md5": "22884fbf88552f680a78beff8e18b114",
           "sha256": "fc17058536bbb3da5f25e2eb5596f82d0e11f1fa41f6d9c955f712e3aa1665d9",
-          "description": "Development files for libmypaint"
-        },
-        "libmypaintdev_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/buster/main/libm/libmypaint/libmypaint-dev_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "8_KiB ",
-          "sizebyt": "7338",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "43_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "b48658dafd1029342c5ae9b243d980a3",
-          "sha256": "ef45defea0d289eaadcf3bc1635e287aff57bec765661204a06bf0ef164d5862",
           "description": "Development files for libmypaint"
         },
         "librecad_amd64": 
@@ -23014,41 +22120,6 @@
           "sha256": "73e4aae12c616affdf72612095fdd5d5a1844adc12e391bc73c2d7cdac565997",
           "description": "sound files for EiskaltDC++"
         },
-        "fatratdata_all": 
-        {
-          "packageurl": "https://notesalexp.org/buster/main/f/fatrat/fatrat-data_1.2.0+git20161204-3_all.deb",
-          "size": "556_KiB ",
-          "sizebyt": "566714",
-          "version": "1.2.0+git20161204-3",
-          "isize": "1.64_MiB ",
-          "recomends": "fatrat ",
-          "section": "net",
-          "priority": "optional",
-          "source": "fatrat",
-          "sourceurl": "https://notesalexp.org/source/main/f/fatrat",
-          "sourcefile": "fatrat_1.2.0+git20161204-3.debian.tar.xz fatrat_1.2.0+git20161204-3.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
-          "homepage": "http://fatrat.dolezel.info/",
-          "md5": "6276e68695b1585127fef2793be6d000",
-          "sha256": "c6a730dbdee98c42e8de7a297a74b442e490cf7ebbaefd7c267bf3fb49285817",
-          "description": "data files for fatrat"
-        },
-        "fatratdev_all": 
-        {
-          "packageurl": "https://notesalexp.org/buster/main/f/fatrat/fatrat-dev_1.2.0+git20161204-3_all.deb",
-          "size": "16_KiB ",
-          "sizebyt": "13778",
-          "version": "1.2.0+git20161204-3",
-          "isize": "74_KiB ",
-          "section": "devel",
-          "priority": "optional",
-          "source": "fatrat",
-          "sourceurl": "https://notesalexp.org/source/main/f/fatrat",
-          "sourcefile": "fatrat_1.2.0+git20161204-3.debian.tar.xz fatrat_1.2.0+git20161204-3.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
-          "homepage": "http://fatrat.dolezel.info/",
-          "md5": "07b1fa3e21356d5b690388d5dbab6c5f",
-          "sha256": "aee842a9df891ef0d4d13be6d5c5f6168ab7d0456c6c8ab233a635ed43d602ed",
-          "description": "development files for fatrat"
-        },
         "gimpdata_all": 
         {
           "packageurl": "https://notesalexp.org/buster/main/g/gimp/gimp-data_2.8.22+git32586-8ca024a02c-1_all.deb",
@@ -23088,20 +22159,20 @@
         },
         "gimpgtk3data_all": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/g/gimp-gtk3/gimp-gtk3-data_2.9.4+git39060-3762480-2_all.deb",
-          "size": "9.43_MiB ",
-          "sizebyt": "9891512",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "59.73_MiB ",
+          "packageurl": "https://notesalexp.org/buster/main/g/gimp-gtk3/gimp-gtk3-data_2.9.8+git40211-8b3a6bcf5c-1_all.deb",
+          "size": "9.97_MiB ",
+          "sizebyt": "10456016",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "61.76_MiB ",
           "recomends": "gimp-devel ",
           "section": "graphics",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "75313e770db75435d5bc2d71c206ac42",
-          "sha256": "e58a0e379408bce9327f938afe999404524e986756d95c2ea19f91755dd4f98f",
+          "md5": "e1d3be62f27ddafd3ded991f4ed1db7c",
+          "sha256": "e33bbc7c1500640c1128131f3e814bf2d144ea53ee729d9dfe8003dbbdcdfa8c",
           "description": "Data files for GIMP"
         },
         "gscan2pdf_all": 
@@ -23217,17 +22288,18 @@
         },
         "notesalexpkeyring_all": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16-1_all.deb",
+          "packageurl": "https://notesalexp.org/buster/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16.1-1_all.deb",
           "size": "8_KiB ",
-          "sizebyt": "4518",
-          "version": "2015.09.16-1",
-          "isize": "15_KiB ",
-          "depends": "gnupg(>=1.0.6-4) ",
+          "sizebyt": "4756",
+          "version": "2015.09.16.1-1",
+          "isize": "17_KiB ",
+          "depends": "gpgv ",
+          "recomends": "gnupg ",
           "section": "misc",
-          "priority": "extra",
+          "priority": "optional",
           "homepage": "http://www.notesalexp.org",
-          "md5": "4196fdd3a806aa665b99c5c51a27a03e",
-          "sha256": "c1d928e757e3c6eb2297f72237d3ed03ec439ca024bc22e8bd4a17199beff71f",
+          "md5": "48265a31d0296e941f51407aa2625d89",
+          "sha256": "0cd8ba12ea94610807beefbea7997a730dd078ed87e99e8238c993ab005031f5",
           "description": "GnuPG archive key of the notesalexp repository"
         },
         "obkey_all": 
@@ -26929,24 +26001,6 @@
           "sha256": "ddc0e32f5e53ab34b248f0fd8d18cdc8d6210fb91a4d8211e0fd7407c85f26f4",
           "description": "fast, cross-platform audio editor"
         },
-        "autopanosiftc_i386": 
-        {
-          "packageurl": "https://notesalexp.org/buster/main/a/autopano-sift-c/autopano-sift-c_2.5.3~hg20101023-7_i386.deb",
-          "size": "104_KiB ",
-          "sizebyt": "102534",
-          "version": "2.5.3~hg20101023-7",
-          "isize": "399_KiB ",
-          "depends": "libc6(>=2.7) libgcc1(>=1:3.0) libjpeg62-turbo(>=1.3.1) libpano13-3 libpng16-16(>=1.6.2-1) libstdc++6(>=5) libtiff5(>=4.0.3) libxml2(>=2.7.4) zlib1g(>=1:1.1.4) ",
-          "section": "graphics",
-          "priority": "optional",
-          "source": "autopano-sift-c",
-          "sourceurl": "https://notesalexp.org/source/main/a/autopano-sift-c",
-          "sourcefile": "autopano-sift-c_2.5.3~hg20101023-7.debian.tar.xz autopano-sift-c_2.5.3~hg20101023-7.dsc autopano-sift-c_2.5.3~hg20101023.orig.tar.gz ",
-          "homepage": "http://hugin.sourceforge.net/",
-          "md5": "fd94d1e3510a992ce6a0bef30751d05c",
-          "sha256": "c99974f367f4c9abb255f8c9bd5ba25454d1ad5cf79e6bc4bda5bf0a2400c327",
-          "description": "Panorama images are wide-angle images that amaze people:"
-        },
         "azpainter_i386": 
         {
           "packageurl": "https://notesalexp.org/buster/main/a/azpainter/azpainter_2.1.1-1_i386.deb",
@@ -27161,24 +26215,6 @@
           "sha256": "cc37f479b7ec7a639ca5c07bf4aa5b048dee6382e6a2694f1bdecea71096b52d",
           "description": "EiskaltDC++ GUI based on Qt"
         },
-        "fatrat_i386": 
-        {
-          "packageurl": "https://notesalexp.org/buster/main/f/fatrat/fatrat_1.2.0+git20161204-3_i386.deb",
-          "size": "776_KiB ",
-          "sizebyt": "793124",
-          "version": "1.2.0+git20161204-3",
-          "isize": "1.98_MiB ",
-          "depends": "libc6(>=2.4) libcurl3-gnutls(>=7.16.3) libgcc1(>=1:4.2) libgloox15 libqt5core5a(>=5.7.0) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.7.0) libqt5help5(>=5.6.0~beta) libqt5network5(>=5.0.2) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.2.0~alpha1) libqt5xml5(>=5.1.0) libstdc++6(>=5.2) fatrat-data(=1.2.0+git20161204-3) xdg-utils ",
-          "section": "net",
-          "priority": "optional",
-          "source": "fatrat",
-          "sourceurl": "https://notesalexp.org/source/main/f/fatrat",
-          "sourcefile": "fatrat_1.2.0+git20161204-3.debian.tar.xz fatrat_1.2.0+git20161204-3.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
-          "homepage": "http://fatrat.dolezel.info/",
-          "md5": "2c4bca0d7f95d13bbad6700136982d6e",
-          "sha256": "20f25cb92c43ee62ab4cc29cdc3080da08b801ab5d6df22c68c0689034d9363c",
-          "description": "multi-protocol download manager, feature rich and extensible via plugin"
-        },
         "gimp_i386": 
         {
           "packageurl": "https://notesalexp.org/buster/main/g/gimp/gimp_2.8.22+git32586-8ca024a02c-1_i386.deb",
@@ -27241,39 +26277,39 @@
         },
         "gimpgtk3_i386": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/g/gimp-gtk3/gimp-gtk3_2.9.4+git39060-3762480-2_i386.deb",
-          "size": "5.13_MiB ",
-          "sizebyt": "5379186",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "21.68_MiB ",
-          "depends": "gimp-gtk3-data(>=2.9.4+git39060-3762480) gimp-gtk3-data(<=2.9.4+git39060-3762480-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libatk1.0-0(>=2.2.0) libavcodec57(>=7:3.3.3)|libavcodec-extra57(>=7:3.3.3) libavformat57(>=7:3.3.3) libbz2-1.0 libc6(>=2.16) libcairo-gobject2(>=1.10.0) libcairo2(>=1.12.0) libexpat1(>=2.0.1) libfontconfig1(>=2.12) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.41.1) libgomp1(>=4.2.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=146) libharfbuzz0b(>=0.6.0) libice6(>=1:1.0.0) libilmbase12(>=2.2.0) libjavascriptcoregtk-3.0-0(>=1.5.1) libjpeg62-turbo(>=1.3.1) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblzma5(>=5.1.1alpha+20120614) libmng1(>=1.0.10) libopenexr22 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpoppler-glib8(>=0.18.0) libraw16(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libsm6 libsoup2.4-1(>=2.4.0) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=7:3.3.3) libtiff5(>=4.0.3) libumfpack5(>=4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux3(>=0.6.0-3) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 libxt6 zlib1g(>=1:1.2.3.4) ",
+          "packageurl": "https://notesalexp.org/buster/main/g/gimp-gtk3/gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1_i386.deb",
+          "size": "5.07_MiB ",
+          "sizebyt": "5324112",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "21.66_MiB ",
+          "depends": "gimp-gtk3-data(>=2.9.8+git40211-8b3a6bcf5c) gimp-gtk3-data(<=2.9.8+git40211-8b3a6bcf5c-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libatk1.0-0(>=2.2.0) libavcodec57(>=10:3.4.2) libavformat57(>=10:3.4.2) libbz2-1.0 libc6(>=2.27) libcairo-gobject2(>=1.10.0) libcairo2(>=1.12.0) libexpat1(>=2.0.1) libfontconfig1(>=2.12) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.53.1) libgomp1(>=4.2.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=167) libharfbuzz0b(>=0.6.0) libice6(>=1:1.0.0) libilmbase23(>=2.2.1) libjavascriptcoregtk-3.0-0(>=1.5.1) libjpeg62-turbo(>=1.3.1) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblcms2-2(>=2.7) liblzma5(>=5.1.1alpha+20120614) libmng1(>=1.0.10) libopenexr23 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpng16-16(>=1.6.2-1) libpoppler-glib8(>=0.18.0) libraw16(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libsm6 libsoup2.4-1(>=2.4.0) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=10:3.4.2) libtiff5(>=4.0.3) libumfpack5(>=1:4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux3(>=0.6.1-2) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 libxt6 zlib1g(>=1:1.1.4) ",
           "recomends": "ghostscript ",
           "section": "graphics",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "8095da52a7d0e5737189c4c33c6c45f7",
-          "sha256": "9696c837297762029f1d4583c923682042162911ff93cf0bf29798df6a8311ec",
+          "md5": "a08e8f3018d6c00cdd1ba77b85402ece",
+          "sha256": "502b3da4527c10219fa46989cb2102022615327fc1ecc15b102208acd8a8b6f3",
           "description": "advanced picture editor"
         },
         "gimpgtk3dev_i386": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.4+git39060-3762480-2_i386.deb",
-          "size": "220_KiB ",
-          "sizebyt": "224712",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "1.84_MiB ",
-          "depends": "gimp-gtk3(=2.9.4+git39060-3762480-2) pkg-config libatk1.0-0(>=2.2.0) libc6(>=2.4) libcairo-gobject2(>=1.10.0) libcairo2(>=1.10.2) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.30.2) libgtk-3-0(>=3.0.0) libjpeg62-turbo(>=1.3.1) libpango-1.0-0(>=1.29.4) libpangocairo-1.0-0(>=1.29.4) ",
+          "packageurl": "https://notesalexp.org/buster/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.8+git40211-8b3a6bcf5c-1_i386.deb",
+          "size": "8_KiB ",
+          "sizebyt": "5016",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "19_KiB ",
+          "depends": "gimp-gtk3(=2.9.8+git40211-8b3a6bcf5c-1) pkg-config ",
           "section": "libdevel",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "45d5af964318bf3b61150fc4a9770fbb",
-          "sha256": "b3e9edaa089d4a1c44b910d56b73b40b4f8ccc106208608b230d625583b2586c",
+          "md5": "ba79436f70a3356646d42c7c8076c6d0",
+          "sha256": "7e152f52bdeb6e2a2e93eff04b66587ef9193af9712006f28799d85d339f98d5",
           "description": "Headers and other files for compiling plugins for GIMP"
         },
         "gimppluginbimp_i386": 
@@ -27293,21 +26329,6 @@
           "md5": "db81d4e9b2a3c2cf9a24d3272a4e67ee",
           "sha256": "1d4ddfa329b61e405195e721dee0e511dba423f1bc1a9aa6631f4437beb35250",
           "description": "plugin for The GIMP to manipulations on groups of images"
-        },
-        "gir12libmypaint0_i386": 
-        {
-          "packageurl": "https://notesalexp.org/buster/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "16_KiB ",
-          "sizebyt": "12378",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "99_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "48930917981caffdf35ef8913a4ad0a1",
-          "sha256": "63441a1a13239355f51807d1897fd5168e644052ed9fc509fc37ea4e2d34dabc",
-          "description": "development files for libmypaint"
         },
         "gir12libmypaint20_i386": 
         {
@@ -27559,22 +26580,6 @@
           "sha256": "f7b776c35531b118f0cfa40ea30da93a0204ca04974c9328dbbba434f2f136e6",
           "description": "image processing library"
         },
-        "libmypaint0_i386": 
-        {
-          "packageurl": "https://notesalexp.org/buster/main/libm/libmypaint/libmypaint0_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "112_KiB ",
-          "sizebyt": "111556",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "592_KiB ",
-          "depends": "libc6(>=2.4) libglib2.0-0(>=2.12.0) libjson-c3(>=0.10) ",
-          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "0d4ebc5093f24c4fec186f32efacb5a5",
-          "sha256": "af490ae5c75e442c9eaaa97884a4afaa44bb890e4162a067738ce68d98da3cdd",
-          "description": "MyPaint brush engine library"
-        },
         "libmypaint200_i386": 
         {
           "packageurl": "https://notesalexp.org/buster/main/libm/libmypaint/libmypaint-2.0-0_2.0.0~git788-040310c-1_i386.deb",
@@ -27611,21 +26616,6 @@
           "homepage": "http://mypaint.org/",
           "md5": "1ae72ecfb0ee7e60ad4f56b842132831",
           "sha256": "d029a644a8ee9849ecc7e44383781984a3b7fcfabbe14a456a61b996b56100c2",
-          "description": "Development files for libmypaint"
-        },
-        "libmypaintdev_i386": 
-        {
-          "packageurl": "https://notesalexp.org/buster/main/libm/libmypaint/libmypaint-dev_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "8_KiB ",
-          "sizebyt": "7330",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "43_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "ad597c489d521fc0cb2463773d622c64",
-          "sha256": "b1920021f4cf7951821a4fa0ce675244e0bdca8dd71cc85701e9f437fda78704",
           "description": "Development files for libmypaint"
         },
         "librecad_i386": 
@@ -28214,24 +27204,6 @@
           "sha256": "6d10b21ea896a8c9f80c621dda71203f2068504c0aae7a2144d8225c7733096d",
           "description": "fast, cross-platform audio editor"
         },
-        "autopanosiftc_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/a/autopano-sift-c/autopano-sift-c_2.5.3~hg20101023-7_amd64.deb",
-          "size": "100_KiB ",
-          "sizebyt": "100618",
-          "version": "2.5.3~hg20101023-7",
-          "isize": "433_KiB ",
-          "depends": "libc6(>=2.14) libgcc1(>=1:3.0) libjpeg62-turbo(>=1.3.1) libpano13-3 libpng16-16(>=1.6.2-1) libstdc++6(>=4.1.1) libtiff5(>=4.0.3) libxml2(>=2.7.4) zlib1g(>=1:1.1.4) ",
-          "section": "graphics",
-          "priority": "optional",
-          "source": "autopano-sift-c",
-          "sourceurl": "https://notesalexp.org/source/main/a/autopano-sift-c",
-          "sourcefile": "autopano-sift-c_2.5.3~hg20101023-7.debian.tar.xz autopano-sift-c_2.5.3~hg20101023-7.dsc autopano-sift-c_2.5.3~hg20101023.orig.tar.gz ",
-          "homepage": "http://hugin.sourceforge.net/",
-          "md5": "be419942363d08ae90fb637a13e52a54",
-          "sha256": "89e16cfaa7f764f9a23afcc3fd8ef4f12ed3e5aba0676b607afebc946dc484c9",
-          "description": "Panorama images are wide-angle images that amaze people:"
-        },
         "azpainter_amd64": 
         {
           "packageurl": "https://notesalexp.org/sid/main/a/azpainter/azpainter_2.1.1-1_amd64.deb",
@@ -28326,25 +27298,6 @@
           "md5": "9897a8559449cf1c7c19b79287adf977",
           "sha256": "fc4cd5a40a6a40964ec0b3ca71ad71d7b8d760ad0a222209accbce571e9e2178",
           "description": "desktop menu for compiz"
-        },
-        "cuneiformlinux_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/c/cuneiform-linux/cuneiform-linux_1.1.1~bzr536-5_amd64.deb",
-          "size": "1.34_MiB ",
-          "sizebyt": "1412506",
-          "version": "1.1.1~bzr536-5",
-          "isize": "3.94_MiB ",
-          "depends": "cuneiform-common libc6(>=2.14) libgcc1(>=1:3.0) libgraphicsmagick++-q16-12 libstdc++6(>=5.2) ",
-          "replaces": "cuneiform-common ",
-          "section": "non-free/graphics",
-          "priority": "optional",
-          "source": "cuneiform-linux",
-          "sourceurl": "https://notesalexp.org/source/main/c/cuneiform-linux",
-          "sourcefile": "cuneiform-linux_1.1.1~bzr536-5.debian.tar.xz cuneiform-linux_1.1.1~bzr536-5.dsc cuneiform-linux_1.1.1~bzr536.orig.tar.xz ",
-          "homepage": "https://launchpad.net/cuneiform-linux",
-          "md5": "cc4c3c955aacdbdf7f29ba58782033b3",
-          "sha256": "4f5567030a014ac2d107dd08b54ff269712ac5112d33f0d75ed271e3e6ebd8b9",
-          "description": "multi-language OCR system"
         },
         "deadbeef_amd64": 
         {
@@ -28465,24 +27418,6 @@
           "sha256": "b39df38c8f80e2d086d13c20ca8c48066dde8cb049148f4b6d54257e6a48b8ee",
           "description": "EiskaltDC++ GUI based on Qt"
         },
-        "fatrat_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/f/fatrat/fatrat_1.2.0+git20161204-3_amd64.deb",
-          "size": "736_KiB ",
-          "sizebyt": "752616",
-          "version": "1.2.0+git20161204-3",
-          "isize": "1.99_MiB ",
-          "depends": "libc6(>=2.14) libcurl3-gnutls(>=7.16.3) libgcc1(>=1:3.0) libgloox15 libqt5core5a(>=5.9.0~beta) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.7.0) libqt5help5(>=5.6.0~beta) libqt5network5(>=5.0.2) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.2.0~alpha1) libqt5xml5(>=5.1.0) libstdc++6(>=5.2) fatrat-data(=1.2.0+git20161204-3) xdg-utils ",
-          "section": "net",
-          "priority": "optional",
-          "source": "fatrat",
-          "sourceurl": "https://notesalexp.org/source/main/f/fatrat",
-          "sourcefile": "fatrat_1.2.0+git20161204-3.debian.tar.xz fatrat_1.2.0+git20161204-3.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
-          "homepage": "http://fatrat.dolezel.info/",
-          "md5": "d1c7337612447e31cea708a38a37ba3f",
-          "sha256": "e90c6b20ba1fc0baef3e06613125c167bcb9517e3de6455d0c79a3aa088a65b2",
-          "description": "multi-protocol download manager, feature rich and extensible via plugin"
-        },
         "freecad_amd64": 
         {
           "packageurl": "https://notesalexp.org/sid/main/f/freecad/freecad_0.16+git6712-da2d364-2_amd64.deb",
@@ -28583,39 +27518,39 @@
         },
         "gimpgtk3_amd64": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/g/gimp-gtk3/gimp-gtk3_2.9.4+git39060-3762480-2_amd64.deb",
-          "size": "4.94_MiB ",
-          "sizebyt": "5177506",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "19.89_MiB ",
-          "depends": "gimp-gtk3-data(>=2.9.4+git39060-3762480) gimp-gtk3-data(<=2.9.4+git39060-3762480-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libatk1.0-0(>=2.2.0) libavcodec57(>=10:3.3.3) libavformat57(>=10:3.3.3) libbz2-1.0 libc6(>=2.22) libcairo-gobject2(>=1.10.0) libcairo2(>=1.12.0) libexpat1(>=2.0.1) libfontconfig1(>=2.12) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.41.1) libgomp1(>=4.2.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=146) libharfbuzz0b(>=0.6.0) libice6(>=1:1.0.0) libilmbase12(>=2.2.0) libjavascriptcoregtk-3.0-0(>=1.5.1) libjpeg62-turbo(>=1.3.1) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblzma5(>=5.1.1alpha+20120614) libmng1(>=1.0.10) libopenexr22 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpoppler-glib8(>=0.18.0) libraw16(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libsm6 libsoup2.4-1(>=2.4.0) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=10:3.3.3) libtiff5(>=4.0.3) libumfpack5(>=4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux3(>=0.6.0-3) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 libxt6 zlib1g(>=1:1.2.3.4) ",
+          "packageurl": "https://notesalexp.org/sid/main/g/gimp-gtk3/gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1_amd64.deb",
+          "size": "4.87_MiB ",
+          "sizebyt": "5111052",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "19.86_MiB ",
+          "depends": "gimp-gtk3-data(>=2.9.8+git40211-8b3a6bcf5c) gimp-gtk3-data(<=2.9.8+git40211-8b3a6bcf5c-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libatk1.0-0(>=2.2.0) libavcodec57(>=10:3.4.2) libavformat57(>=10:3.4.2) libbz2-1.0 libc6(>=2.27) libcairo-gobject2(>=1.10.0) libcairo2(>=1.12.0) libexpat1(>=2.0.1) libfontconfig1(>=2.12) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.53.1) libgomp1(>=4.2.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=167) libharfbuzz0b(>=0.6.0) libice6(>=1:1.0.0) libilmbase23(>=2.2.1) libjavascriptcoregtk-3.0-0(>=1.5.1) libjpeg62-turbo(>=1.3.1) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblcms2-2(>=2.7) liblzma5(>=5.1.1alpha+20120614) libmng1(>=1.0.10) libopenexr23 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpng16-16(>=1.6.2-1) libpoppler-glib8(>=0.18.0) libraw16(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libsm6 libsoup2.4-1(>=2.4.0) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=10:3.4.2) libtiff5(>=4.0.3) libumfpack5(>=1:4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux3(>=0.6.1-2) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 libxt6 zlib1g(>=1:1.1.4) ",
           "recomends": "ghostscript ",
           "section": "graphics",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "f54fbcd8cb2a7493648f89b21b3594fa",
-          "sha256": "822d3fa0bf92a204373aa74be62458507a50df2c04cd3e4e77773dc207a78ca1",
+          "md5": "700e5e99aca8dcd62018cfb36e764f1d",
+          "sha256": "87d07311a4931433e8ebd95bc2683d04ae51dadfa61ed3e033dc16b2b039d32f",
           "description": "advanced picture editor"
         },
         "gimpgtk3dev_amd64": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.4+git39060-3762480-2_amd64.deb",
-          "size": "220_KiB ",
-          "sizebyt": "224500",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "1.84_MiB ",
-          "depends": "gimp-gtk3(=2.9.4+git39060-3762480-2) pkg-config libatk1.0-0(>=2.2.0) libc6(>=2.4) libcairo-gobject2(>=1.10.0) libcairo2(>=1.10.2) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.30.2) libgtk-3-0(>=3.0.0) libjpeg62-turbo(>=1.3.1) libpango-1.0-0(>=1.29.4) libpangocairo-1.0-0(>=1.29.4) ",
+          "packageurl": "https://notesalexp.org/sid/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.8+git40211-8b3a6bcf5c-1_amd64.deb",
+          "size": "8_KiB ",
+          "sizebyt": "5020",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "19_KiB ",
+          "depends": "gimp-gtk3(=2.9.8+git40211-8b3a6bcf5c-1) pkg-config ",
           "section": "libdevel",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "18f66378e541c23bb1e1e23406e20b9f",
-          "sha256": "11dee51ffa3ea4ee5e6facd185eb189063fa115f6f418abeeb3f237bdb6eae80",
+          "md5": "a63a0996ca2f9faebb0ac9846a37cdd7",
+          "sha256": "4d29d549a9694ef67c5e4f77a4f3a4833af0f4e84a2487beb6bebf0aad4e4c88",
           "description": "Headers and other files for compiling plugins for GIMP"
         },
         "gimppluginbimp_amd64": 
@@ -28635,21 +27570,6 @@
           "md5": "b5ee87478059e704b488718e38398055",
           "sha256": "c2455944c17b0db1c1cd067121864ba7537754a5f4ad9e1bfb7b24d81c1773f8",
           "description": "plugin for The GIMP to manipulations on groups of images"
-        },
-        "gir12libmypaint0_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "16_KiB ",
-          "sizebyt": "12392",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "99_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "a11b8d4bd531cae771bea8562cc3ea69",
-          "sha256": "0fcb15061c993904eef39061062ac12fcd4a0e4fbbdfe262debfee5c063cc0f0",
-          "description": "development files for libmypaint"
         },
         "gir12libmypaint20_amd64": 
         {
@@ -28806,40 +27726,6 @@
           "sha256": "3291664e8b0868d8b90272b61b7ef1555bf6936ee0a889e3f754776c64cf9c47",
           "description": "DC++ kernel from EiskaltDC++ (development files)"
         },
-        "libfaad2_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/f/faad2/libfaad2_2.7-4.2_amd64.deb",
-          "size": "172_KiB ",
-          "sizebyt": "172474",
-          "version": "2.7-4.2",
-          "isize": "316_KiB ",
-          "depends": "libc6(>=2.2.5) ",
-          "replaces": "libfaad2-0 ",
-          "conflicts": "libfaad2-0 ",
-          "section": "libs",
-          "priority": "optional",
-          "homepage": "http://www.audiocoding.com/",
-          "md5": "17c91f9b030a86cad7886a7a91cb24d7",
-          "sha256": "bb2f790cab522ecf5ac0b8fd79b0e8e6ac3dd757e4adb69f901c494c050f5fa5",
-          "description": "freeware Advanced Audio Decoder - runtime files"
-        },
-        "libfaaddev_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/f/faad2/libfaad-dev_2.7-4.2_amd64.deb",
-          "size": "188_KiB ",
-          "sizebyt": "190210",
-          "version": "2.7-4.2",
-          "isize": "416_KiB ",
-          "depends": "libfaad2(=2.7-4.2) ",
-          "replaces": "libfaad2-dev ",
-          "conflicts": "libfaad2-dev ",
-          "section": "libdevel",
-          "priority": "optional",
-          "homepage": "http://www.audiocoding.com/",
-          "md5": "24f154f0786b2b03842b97f54e5f1fe8",
-          "sha256": "ae86eb7e9e008fa3590d46ec209e08ba3c9d8a327142a5cfe76c0dd6d566c2de",
-          "description": "freeware Advanced Audio Decoder - development files"
-        },
         "libgimp20_amd64": 
         {
           "packageurl": "https://notesalexp.org/sid/main/g/gimp/libgimp2.0_2.8.22+git32586-8ca024a02c-1_amd64.deb",
@@ -28935,22 +27821,6 @@
           "sha256": "bca75b61b82cd454ca8e139ac54c669b8a7c1c3c73d4006159a2c3a3fd6cba74",
           "description": "image processing library"
         },
-        "libmypaint0_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/libm/libmypaint/libmypaint0_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "112_KiB ",
-          "sizebyt": "111130",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "594_KiB ",
-          "depends": "libc6(>=2.14) libglib2.0-0(>=2.12.0) libjson-c3(>=0.10) ",
-          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "8307a40a7aa5b2626a86536c371e273e",
-          "sha256": "1e9973da58f3effd472eabcdb154edb50a4ba7edea1313982d7c37e28aebd94d",
-          "description": "MyPaint brush engine library"
-        },
         "libmypaint200_amd64": 
         {
           "packageurl": "https://notesalexp.org/sid/main/libm/libmypaint/libmypaint-2.0-0_2.0.0~git788-040310c-1_amd64.deb",
@@ -28988,57 +27858,6 @@
           "md5": "22884fbf88552f680a78beff8e18b114",
           "sha256": "fc17058536bbb3da5f25e2eb5596f82d0e11f1fa41f6d9c955f712e3aa1665d9",
           "description": "Development files for libmypaint"
-        },
-        "libmypaintdev_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/libm/libmypaint/libmypaint-dev_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "8_KiB ",
-          "sizebyt": "7338",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "43_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "b48658dafd1029342c5ae9b243d980a3",
-          "sha256": "ef45defea0d289eaadcf3bc1635e287aff57bec765661204a06bf0ef164d5862",
-          "description": "Development files for libmypaint"
-        },
-        "libqpx0_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/q/qpxtool/libqpx0_0.7.2-4+nmu2_amd64.deb",
-          "size": "88_KiB ",
-          "sizebyt": "89102",
-          "version": "0.7.2-4+nmu2",
-          "isize": "280_KiB ",
-          "depends": "libc6(>=2.15) libgcc1(>=1:3.0) libstdc++6(>=4.1.1) ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "71d72b39d04424e7651b9adb61f24bc3",
-          "sha256": "df002779877c8e29859d52b2f8135bc852faa39d610d4ba44b29920140ade95d",
-          "description": "CD/DVD quality checker (shared libraries)"
-        },
-        "libqpxdev_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/q/qpxtool/libqpx-dev_0.7.2-4+nmu2_amd64.deb",
-          "size": "36_KiB ",
-          "sizebyt": "34668",
-          "version": "0.7.2-4+nmu2",
-          "isize": "139_KiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2) ",
-          "section": "libdevel",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "5b78b44ca141012573c852404c8549f4",
-          "sha256": "fd7822fe9d53c33a7e8f4af0cefff1e22814ac4c519b93a46d567ad6fbf5e675",
-          "description": "CD/DVD quality checker (development files)"
         },
         "librecad_amd64": 
         {
@@ -29306,24 +28125,6 @@
           "sha256": "77e6f7363227b4a86dc8c551da34f719233e5103d6d67b8cf15db08e97af28bb",
           "description": "Qt-based XMPP/Jabber client (WebKit version)"
         },
-        "pxfw_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/q/qpxtool/pxfw_0.7.2-4+nmu2_amd64.deb",
-          "size": "20_KiB ",
-          "sizebyt": "18554",
-          "version": "0.7.2-4+nmu2",
-          "isize": "41_KiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2) qpxtool libc6(>=2.4) libgcc1(>=1:3.0) libstdc++6(>=4.1.1) ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "355c0e9d0c3089e8c0573fe95f8159ed",
-          "sha256": "982037a6aeda4ee9710b696be8120b40ecfb539f1a6611f3b788a6cdc55aff1c",
-          "description": "Plextor firmware updater"
-        },
         "q4wine_amd64": 
         {
           "packageurl": "https://notesalexp.org/sid/main/q/q4wine/q4wine_1.3.6-1_amd64.deb",
@@ -29381,25 +28182,6 @@
           "md5": "d31ac97b7c2a325ec6400a32e367e839",
           "sha256": "ceac31dda8a5c950346fc2b50790c6939fca0a09175c1b7ec9982f6de10cc78d",
           "description": "qt viewer for comic book archives (cbr/cbz/cba/cbg/cbb)"
-        },
-        "qpxtool_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/q/qpxtool/qpxtool_0.7.2-4+nmu2_amd64.deb",
-          "size": "664_KiB ",
-          "sizebyt": "676594",
-          "version": "0.7.2-4+nmu2",
-          "isize": "1.68_MiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2) libc6(>=2.15) libgcc1(>=1:3.0) libpng16-16(>=1.6.2-1) libqt4-network(>=4:4.5.3) libqt4-sql(>=4:4.5.3) libqtcore4(>=4:4.7.0~beta1) libqtgui4(>=4:4.5.3) libstdc++6(>=4.1.1) ",
-          "suggests": "pxfw ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "80d552daac5458ea7de89923e4e090ec",
-          "sha256": "08ea1d96a577dfa7e698d789030bccbdcd6dd99e7ec954d34555700020f18196",
-          "description": "CD/DVD quality checker"
         },
         "qtboxeditor_amd64": 
         {
@@ -29622,25 +28404,6 @@
           "sha256": "badf5cbb2f02c4bdbdbb69c215ca9dfb4c2c470e498a467764376eb494512cbf",
           "description": "Free open-source disk encryption software"
         },
-        "yagf_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/y/yagf/yagf_0.9.4.3+git20150224-1_amd64.deb",
-          "size": "448_KiB ",
-          "sizebyt": "456908",
-          "version": "0.9.4.3+git20150224-1",
-          "isize": "1.11_MiB ",
-          "depends": "tesseract-ocr|cuneiform|cuneiform-refactoring libaspell15(>=0.60.7~20110707) libc6(>=2.14) libgcc1(>=1:4.1.1) libqtcore4(>=4:4.7.0~beta1) libqtgui4(>=4:4.5.3) libstdc++6(>=4.1.1) ",
-          "recomends": "xsane ",
-          "section": "graphics",
-          "priority": "optional",
-          "source": "yagf",
-          "sourceurl": "https://notesalexp.org/source/main/y/yagf",
-          "sourcefile": "yagf_0.9.4.3+git20150224-1.debian.tar.xz yagf_0.9.4.3+git20150224-1.dsc yagf_0.9.4.3+git20150224.orig.tar.xz ",
-          "homepage": "http://sourceforge.net/projects/yagf-ocr/",
-          "md5": "4bf2a1fd75d735f507c314f654bd2a1f",
-          "sha256": "99874f2ace7c304079238928cf4870fd91db6e1e3bd8dcbad5c8f444656e1f99",
-          "description": "graphical interface for cuneiform and tesseract"
-        },
         "znotes_amd64": 
         {
           "packageurl": "https://notesalexp.org/sid/main/z/znotes/znotes_0.4.3+git20150825-3_amd64.deb",
@@ -29712,24 +28475,6 @@
           "md5": "6ef2abfa024c2013584d6138e57e649c",
           "sha256": "74cc1fa325b13378d33dfb6eecc616b2bba18ac90e049313e5bcdcd5af6b6442",
           "description": "Preferences manager for BitMap Panel"
-        },
-        "cuneiformcommon_all": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/c/cuneiform-linux/cuneiform-common_1.1.1~bzr536-5_all.deb",
-          "size": "19.98_MiB ",
-          "sizebyt": "20951454",
-          "version": "1.1.1~bzr536-5",
-          "isize": "49.56_MiB ",
-          "suggests": "cuneiform-linux ",
-          "section": "non-free/graphics",
-          "priority": "optional",
-          "source": "cuneiform-linux",
-          "sourceurl": "https://notesalexp.org/source/main/c/cuneiform-linux",
-          "sourcefile": "cuneiform-linux_1.1.1~bzr536-5.debian.tar.xz cuneiform-linux_1.1.1~bzr536-5.dsc cuneiform-linux_1.1.1~bzr536.orig.tar.xz ",
-          "homepage": "https://launchpad.net/cuneiform-linux",
-          "md5": "354265f041a8dde973e5bd4a4750eafc",
-          "sha256": "a1be68367fcf1aee9c4b6e43c352967685a3951a535ae0e69d074fa778764db2",
-          "description": "Data files for cuneiform-linux"
         },
         "deadbeefdev_all": 
         {
@@ -29915,41 +28660,6 @@
           "sha256": "73e4aae12c616affdf72612095fdd5d5a1844adc12e391bc73c2d7cdac565997",
           "description": "sound files for EiskaltDC++"
         },
-        "fatratdata_all": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/f/fatrat/fatrat-data_1.2.0+git20161204-3_all.deb",
-          "size": "556_KiB ",
-          "sizebyt": "566714",
-          "version": "1.2.0+git20161204-3",
-          "isize": "1.64_MiB ",
-          "recomends": "fatrat ",
-          "section": "net",
-          "priority": "optional",
-          "source": "fatrat",
-          "sourceurl": "https://notesalexp.org/source/main/f/fatrat",
-          "sourcefile": "fatrat_1.2.0+git20161204-3.debian.tar.xz fatrat_1.2.0+git20161204-3.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
-          "homepage": "http://fatrat.dolezel.info/",
-          "md5": "5d4d246196e7c48eedcf486b0900513a",
-          "sha256": "f8897463ede121bb25b5c8597b0227921f4d1e69b0e4f1de3b0a33bfd1769a79",
-          "description": "data files for fatrat"
-        },
-        "fatratdev_all": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/f/fatrat/fatrat-dev_1.2.0+git20161204-3_all.deb",
-          "size": "16_KiB ",
-          "sizebyt": "13778",
-          "version": "1.2.0+git20161204-3",
-          "isize": "74_KiB ",
-          "section": "devel",
-          "priority": "optional",
-          "source": "fatrat",
-          "sourceurl": "https://notesalexp.org/source/main/f/fatrat",
-          "sourcefile": "fatrat_1.2.0+git20161204-3.debian.tar.xz fatrat_1.2.0+git20161204-3.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
-          "homepage": "http://fatrat.dolezel.info/",
-          "md5": "07b1fa3e21356d5b690388d5dbab6c5f",
-          "sha256": "aee842a9df891ef0d4d13be6d5c5f6168ab7d0456c6c8ab233a635ed43d602ed",
-          "description": "development files for fatrat"
-        },
         "freecaddailydoc_all": 
         {
           "packageurl": "https://notesalexp.org/sid/main/f/freecad-daily/freecad-daily-doc_0.17~git12875-1ad7724d5-1_all.deb",
@@ -30027,20 +28737,20 @@
         },
         "gimpgtk3data_all": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/g/gimp-gtk3/gimp-gtk3-data_2.9.4+git39060-3762480-2_all.deb",
-          "size": "9.43_MiB ",
-          "sizebyt": "9890020",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "59.72_MiB ",
+          "packageurl": "https://notesalexp.org/sid/main/g/gimp-gtk3/gimp-gtk3-data_2.9.8+git40211-8b3a6bcf5c-1_all.deb",
+          "size": "9.97_MiB ",
+          "sizebyt": "10456016",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "61.76_MiB ",
           "recomends": "gimp-devel ",
           "section": "graphics",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "b817f3573d7ea289d9e054d5f49513be",
-          "sha256": "686fe55487916a79509d08bd98c91c2577b38a507323e814ce59717932ed78c6",
+          "md5": "e1d3be62f27ddafd3ded991f4ed1db7c",
+          "sha256": "e33bbc7c1500640c1128131f3e814bf2d144ea53ee729d9dfe8003dbbdcdfa8c",
           "description": "Data files for GIMP"
         },
         "gscan2pdf_all": 
@@ -30156,17 +28866,18 @@
         },
         "notesalexpkeyring_all": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16-1_all.deb",
+          "packageurl": "https://notesalexp.org/sid/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16.1-1_all.deb",
           "size": "8_KiB ",
-          "sizebyt": "4518",
-          "version": "2015.09.16-1",
-          "isize": "15_KiB ",
-          "depends": "gnupg(>=1.0.6-4) ",
+          "sizebyt": "4756",
+          "version": "2015.09.16.1-1",
+          "isize": "17_KiB ",
+          "depends": "gpgv ",
+          "recomends": "gnupg ",
           "section": "misc",
-          "priority": "extra",
+          "priority": "optional",
           "homepage": "http://www.notesalexp.org",
-          "md5": "4196fdd3a806aa665b99c5c51a27a03e",
-          "sha256": "c1d928e757e3c6eb2297f72237d3ed03ec439ca024bc22e8bd4a17199beff71f",
+          "md5": "48265a31d0296e941f51407aa2625d89",
+          "sha256": "0cd8ba12ea94610807beefbea7997a730dd078ed87e99e8238c993ab005031f5",
           "description": "GnuPG archive key of the notesalexp repository"
         },
         "obkey_all": 
@@ -30337,21 +29048,6 @@
           "md5": "a2404bcfdd6a3dfa6d973c0e6dc9f00f",
           "sha256": "cd651f1a324c2068460588163fb971bf6d3edc105c5f19bbc6fe8b233d70afdc",
           "description": "sound files for Psi+"
-        },
-        "pytyle_all": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/p/pytyle/pytyle_0.7.5-3_all.deb",
-          "size": "48_KiB ",
-          "sizebyt": "48102",
-          "version": "0.7.5-3",
-          "isize": "327_KiB ",
-          "depends": "python2.7|python2.6 python(>=2.6.6-7~) python(<<2.8) python-xlib ",
-          "section": "x11",
-          "priority": "optional",
-          "homepage": "http://sourceforge.net/projects/pytyle/",
-          "md5": "cd6a1a6609918feca291c23d186d6e63",
-          "sha256": "ea217cd240215751663e350e98cc0d4229fd051257f953c78cb5724073d00aeb",
-          "description": "Manual tiling manager for EWMH compliant window managers"
         },
         "qcaddata_all": 
         {
@@ -33883,24 +32579,6 @@
           "sha256": "7b3f8d3a276a1b540d13f29bf1e8b058a5c10f3f974eedf11c399cfc309923ae",
           "description": "fast, cross-platform audio editor"
         },
-        "autopanosiftc_i386": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/a/autopano-sift-c/autopano-sift-c_2.5.3~hg20101023-7_i386.deb",
-          "size": "96_KiB ",
-          "sizebyt": "94616",
-          "version": "2.5.3~hg20101023-7",
-          "isize": "370_KiB ",
-          "depends": "libc6(>=2.7) libgcc1(>=1:3.0) libjpeg62-turbo(>=1.3.1) libpano13-3 libpng16-16(>=1.6.2-1) libstdc++6(>=4.1.1) libtiff5(>=4.0.3) libxml2(>=2.7.4) zlib1g(>=1:1.1.4) ",
-          "section": "graphics",
-          "priority": "optional",
-          "source": "autopano-sift-c",
-          "sourceurl": "https://notesalexp.org/source/main/a/autopano-sift-c",
-          "sourcefile": "autopano-sift-c_2.5.3~hg20101023-7.debian.tar.xz autopano-sift-c_2.5.3~hg20101023-7.dsc autopano-sift-c_2.5.3~hg20101023.orig.tar.gz ",
-          "homepage": "http://hugin.sourceforge.net/",
-          "md5": "6e8905e83aab93def21245de321c2725",
-          "sha256": "38d78f952f950512b05601bd7c0df0bd609ec884f875c76779a390e46d19ae3e",
-          "description": "Panorama images are wide-angle images that amaze people:"
-        },
         "azpainter_i386": 
         {
           "packageurl": "https://notesalexp.org/sid/main/a/azpainter/azpainter_2.1.1-1_i386.deb",
@@ -33995,25 +32673,6 @@
           "md5": "c982a08d01bf2ee09a56aeb2c9559522",
           "sha256": "3b81814b6a8e285dde565faad4f2788afe65bbc30a97cdf643736b97b0980464",
           "description": "desktop menu for compiz"
-        },
-        "cuneiformlinux_i386": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/c/cuneiform-linux/cuneiform-linux_1.1.1~bzr536-5_i386.deb",
-          "size": "1.42_MiB ",
-          "sizebyt": "1489206",
-          "version": "1.1.1~bzr536-5",
-          "isize": "4.24_MiB ",
-          "depends": "cuneiform-common libc6(>=2.11) libgcc1(>=1:3.0) libgraphicsmagick++-q16-12 libstdc++6(>=5.2) ",
-          "replaces": "cuneiform-common ",
-          "section": "non-free/graphics",
-          "priority": "optional",
-          "source": "cuneiform-linux",
-          "sourceurl": "https://notesalexp.org/source/main/c/cuneiform-linux",
-          "sourcefile": "cuneiform-linux_1.1.1~bzr536-5.debian.tar.xz cuneiform-linux_1.1.1~bzr536-5.dsc cuneiform-linux_1.1.1~bzr536.orig.tar.xz ",
-          "homepage": "https://launchpad.net/cuneiform-linux",
-          "md5": "4873c4d9504e954c698c31593d437072",
-          "sha256": "4299f5b891a516292754f8ed5051a8bf0d951474151b48d76e6f28e14cef5e07",
-          "description": "multi-language OCR system"
         },
         "deadbeef_i386": 
         {
@@ -34134,24 +32793,6 @@
           "sha256": "c651582e5a6b00603f9910d069e38ee26b09e8058382dfaa8f50ad9520d6e7d4",
           "description": "EiskaltDC++ GUI based on Qt"
         },
-        "fatrat_i386": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/f/fatrat/fatrat_1.2.0+git20161204-3_i386.deb",
-          "size": "772_KiB ",
-          "sizebyt": "786558",
-          "version": "1.2.0+git20161204-3",
-          "isize": "1.96_MiB ",
-          "depends": "libc6(>=2.4) libcurl3-gnutls(>=7.16.3) libgcc1(>=1:4.2) libgloox15 libqt5core5a(>=5.9.0~beta) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.7.0) libqt5help5(>=5.6.0~beta) libqt5network5(>=5.0.2) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.2.0~alpha1) libqt5xml5(>=5.1.0) libstdc++6(>=5.2) fatrat-data(=1.2.0+git20161204-3) xdg-utils ",
-          "section": "net",
-          "priority": "optional",
-          "source": "fatrat",
-          "sourceurl": "https://notesalexp.org/source/main/f/fatrat",
-          "sourcefile": "fatrat_1.2.0+git20161204-3.debian.tar.xz fatrat_1.2.0+git20161204-3.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
-          "homepage": "http://fatrat.dolezel.info/",
-          "md5": "268c6d0e573d882ce62bc22100dba792",
-          "sha256": "3f8a134292df3582f87fe93fe35492186cc27738252d006f601966944d6af973",
-          "description": "multi-protocol download manager, feature rich and extensible via plugin"
-        },
         "freecad_i386": 
         {
           "packageurl": "https://notesalexp.org/sid/main/f/freecad/freecad_0.16+git6712-da2d364-2_i386.deb",
@@ -34252,39 +32893,39 @@
         },
         "gimpgtk3_i386": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/g/gimp-gtk3/gimp-gtk3_2.9.4+git39060-3762480-2_i386.deb",
-          "size": "5.13_MiB ",
-          "sizebyt": "5379636",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "21.68_MiB ",
-          "depends": "gimp-gtk3-data(>=2.9.4+git39060-3762480) gimp-gtk3-data(<=2.9.4+git39060-3762480-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libatk1.0-0(>=2.2.0) libavcodec57(>=10:3.3.3) libavformat57(>=10:3.3.3) libbz2-1.0 libc6(>=2.16) libcairo-gobject2(>=1.10.0) libcairo2(>=1.12.0) libexpat1(>=2.0.1) libfontconfig1(>=2.12) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.41.1) libgomp1(>=4.2.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=146) libharfbuzz0b(>=0.6.0) libice6(>=1:1.0.0) libilmbase12(>=2.2.0) libjavascriptcoregtk-3.0-0(>=1.5.1) libjpeg62-turbo(>=1.3.1) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblzma5(>=5.1.1alpha+20120614) libmng1(>=1.0.10) libopenexr22 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpoppler-glib8(>=0.18.0) libraw16(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libsm6 libsoup2.4-1(>=2.4.0) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=10:3.3.3) libtiff5(>=4.0.3) libumfpack5(>=4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux3(>=0.6.0-3) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 libxt6 zlib1g(>=1:1.2.3.4) ",
+          "packageurl": "https://notesalexp.org/sid/main/g/gimp-gtk3/gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1_i386.deb",
+          "size": "5.07_MiB ",
+          "sizebyt": "5323056",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "21.66_MiB ",
+          "depends": "gimp-gtk3-data(>=2.9.8+git40211-8b3a6bcf5c) gimp-gtk3-data(<=2.9.8+git40211-8b3a6bcf5c-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libatk1.0-0(>=2.2.0) libavcodec57(>=10:3.4.2) libavformat57(>=10:3.4.2) libbz2-1.0 libc6(>=2.27) libcairo-gobject2(>=1.10.0) libcairo2(>=1.12.0) libexpat1(>=2.0.1) libfontconfig1(>=2.12) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.53.1) libgomp1(>=4.2.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=167) libharfbuzz0b(>=0.6.0) libice6(>=1:1.0.0) libilmbase23(>=2.2.1) libjavascriptcoregtk-3.0-0(>=1.5.1) libjpeg62-turbo(>=1.3.1) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblcms2-2(>=2.7) liblzma5(>=5.1.1alpha+20120614) libmng1(>=1.0.10) libopenexr23 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpng16-16(>=1.6.2-1) libpoppler-glib8(>=0.18.0) libraw16(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libsm6 libsoup2.4-1(>=2.4.0) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=10:3.4.2) libtiff5(>=4.0.3) libumfpack5(>=1:4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux3(>=0.6.1-2) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 libxt6 zlib1g(>=1:1.1.4) ",
           "recomends": "ghostscript ",
           "section": "graphics",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "e76ef73360cd2cc7b491507b90ae5878",
-          "sha256": "4adc032ab93c3bcba664bc47a3bea757b6977ab5adfc6623c3836d17d3a893c3",
+          "md5": "408eb097993875ba25ad59c35dda32a3",
+          "sha256": "886bf8c3f39b0249078c828c8d5d21b0dbc6e50f0617366f83079565047f67c5",
           "description": "advanced picture editor"
         },
         "gimpgtk3dev_i386": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.4+git39060-3762480-2_i386.deb",
-          "size": "220_KiB ",
-          "sizebyt": "224712",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "1.84_MiB ",
-          "depends": "gimp-gtk3(=2.9.4+git39060-3762480-2) pkg-config libatk1.0-0(>=2.2.0) libc6(>=2.4) libcairo-gobject2(>=1.10.0) libcairo2(>=1.10.2) libgdk-pixbuf2.0-0(>=2.22.0) libglib2.0-0(>=2.30.2) libgtk-3-0(>=3.0.0) libjpeg62-turbo(>=1.3.1) libpango-1.0-0(>=1.29.4) libpangocairo-1.0-0(>=1.29.4) ",
+          "packageurl": "https://notesalexp.org/sid/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.8+git40211-8b3a6bcf5c-1_i386.deb",
+          "size": "8_KiB ",
+          "sizebyt": "5016",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "19_KiB ",
+          "depends": "gimp-gtk3(=2.9.8+git40211-8b3a6bcf5c-1) pkg-config ",
           "section": "libdevel",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "45d5af964318bf3b61150fc4a9770fbb",
-          "sha256": "b3e9edaa089d4a1c44b910d56b73b40b4f8ccc106208608b230d625583b2586c",
+          "md5": "ba79436f70a3356646d42c7c8076c6d0",
+          "sha256": "7e152f52bdeb6e2a2e93eff04b66587ef9193af9712006f28799d85d339f98d5",
           "description": "Headers and other files for compiling plugins for GIMP"
         },
         "gimppluginbimp_i386": 
@@ -34304,21 +32945,6 @@
           "md5": "db81d4e9b2a3c2cf9a24d3272a4e67ee",
           "sha256": "1d4ddfa329b61e405195e721dee0e511dba423f1bc1a9aa6631f4437beb35250",
           "description": "plugin for The GIMP to manipulations on groups of images"
-        },
-        "gir12libmypaint0_i386": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "16_KiB ",
-          "sizebyt": "12378",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "99_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "48930917981caffdf35ef8913a4ad0a1",
-          "sha256": "63441a1a13239355f51807d1897fd5168e644052ed9fc509fc37ea4e2d34dabc",
-          "description": "development files for libmypaint"
         },
         "gir12libmypaint20_i386": 
         {
@@ -34475,40 +33101,6 @@
           "sha256": "b58a45560f93423a08a6bfbeb6cf39fc1163c6e1977537ecdbe33d6fd308a35e",
           "description": "DC++ kernel from EiskaltDC++ (development files)"
         },
-        "libfaad2_i386": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/f/faad2/libfaad2_2.7-4.2_i386.deb",
-          "size": "164_KiB ",
-          "sizebyt": "166952",
-          "version": "2.7-4.2",
-          "isize": "304_KiB ",
-          "depends": "libc6(>=2.1.3) ",
-          "replaces": "libfaad2-0 ",
-          "conflicts": "libfaad2-0 ",
-          "section": "libs",
-          "priority": "optional",
-          "homepage": "http://www.audiocoding.com/",
-          "md5": "207d793b50377b78f4cb98ddc077f54f",
-          "sha256": "75fb65dc067ad7a14f155385ba09abe2221a139dede24e6f46c72e4c89dd18e0",
-          "description": "freeware Advanced Audio Decoder - runtime files"
-        },
-        "libfaaddev_i386": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/f/faad2/libfaad-dev_2.7-4.2_i386.deb",
-          "size": "176_KiB ",
-          "sizebyt": "177760",
-          "version": "2.7-4.2",
-          "isize": "348_KiB ",
-          "depends": "libfaad2(=2.7-4.2) ",
-          "replaces": "libfaad2-dev ",
-          "conflicts": "libfaad2-dev ",
-          "section": "libdevel",
-          "priority": "optional",
-          "homepage": "http://www.audiocoding.com/",
-          "md5": "925a190e215c3aa77fb700c82c19e117",
-          "sha256": "a21eb7a2d6360af22e364af145327ef57867fde66ee54dc7b283e273be935a14",
-          "description": "freeware Advanced Audio Decoder - development files"
-        },
         "libgimp20_i386": 
         {
           "packageurl": "https://notesalexp.org/sid/main/g/gimp/libgimp2.0_2.8.22+git32586-8ca024a02c-1_i386.deb",
@@ -34604,22 +33196,6 @@
           "sha256": "f7b776c35531b118f0cfa40ea30da93a0204ca04974c9328dbbba434f2f136e6",
           "description": "image processing library"
         },
-        "libmypaint0_i386": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/libm/libmypaint/libmypaint0_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "112_KiB ",
-          "sizebyt": "111556",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "592_KiB ",
-          "depends": "libc6(>=2.4) libglib2.0-0(>=2.12.0) libjson-c3(>=0.10) ",
-          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "0d4ebc5093f24c4fec186f32efacb5a5",
-          "sha256": "af490ae5c75e442c9eaaa97884a4afaa44bb890e4162a067738ce68d98da3cdd",
-          "description": "MyPaint brush engine library"
-        },
         "libmypaint200_i386": 
         {
           "packageurl": "https://notesalexp.org/sid/main/libm/libmypaint/libmypaint-2.0-0_2.0.0~git788-040310c-1_i386.deb",
@@ -34657,57 +33233,6 @@
           "md5": "1ae72ecfb0ee7e60ad4f56b842132831",
           "sha256": "d029a644a8ee9849ecc7e44383781984a3b7fcfabbe14a456a61b996b56100c2",
           "description": "Development files for libmypaint"
-        },
-        "libmypaintdev_i386": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/libm/libmypaint/libmypaint-dev_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "8_KiB ",
-          "sizebyt": "7330",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "43_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "ad597c489d521fc0cb2463773d622c64",
-          "sha256": "b1920021f4cf7951821a4fa0ce675244e0bdca8dd71cc85701e9f437fda78704",
-          "description": "Development files for libmypaint"
-        },
-        "libqpx0_i386": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/q/qpxtool/libqpx0_0.7.2-4+nmu2_i386.deb",
-          "size": "96_KiB ",
-          "sizebyt": "96084",
-          "version": "0.7.2-4+nmu2",
-          "isize": "291_KiB ",
-          "depends": "libc6(>=2.15) libgcc1(>=1:3.0) libstdc++6(>=4.1.1) ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "f8ce1c9e41db597fce58bb0d9df58a83",
-          "sha256": "d2357df31d8f7df02f438f309b6e34fa367d738aed765f5cb55c29bd83cf65c7",
-          "description": "CD/DVD quality checker (shared libraries)"
-        },
-        "libqpxdev_i386": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/q/qpxtool/libqpx-dev_0.7.2-4+nmu2_i386.deb",
-          "size": "36_KiB ",
-          "sizebyt": "34646",
-          "version": "0.7.2-4+nmu2",
-          "isize": "139_KiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2) ",
-          "section": "libdevel",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "dcd54ebb9d7a27129326943c9686f3a2",
-          "sha256": "f7320ae8e4b6a2b5959ce92ca63cedead7c4617565339fc6e88dd1b11e649e33",
-          "description": "CD/DVD quality checker (development files)"
         },
         "librecad_i386": 
         {
@@ -34975,24 +33500,6 @@
           "sha256": "59bbc2afdf69911c5292e4227f7e1979e132d49c20d6693d08d1c495983c509d",
           "description": "Qt-based XMPP/Jabber client (WebKit version)"
         },
-        "pxfw_i386": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/q/qpxtool/pxfw_0.7.2-4+nmu2_i386.deb",
-          "size": "20_KiB ",
-          "sizebyt": "18972",
-          "version": "0.7.2-4+nmu2",
-          "isize": "40_KiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2) qpxtool libc6(>=2.4) libgcc1(>=1:3.0) libstdc++6(>=4.1.1) ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "e61f4511b577715f7fbe1ce7dcb76909",
-          "sha256": "0f11996ea47e050783eb86a799d2c39ef32d3a5ba0404465014cd055563570b2",
-          "description": "Plextor firmware updater"
-        },
         "q4wine_i386": 
         {
           "packageurl": "https://notesalexp.org/sid/main/q/q4wine/q4wine_1.3.6-1_i386.deb",
@@ -35050,25 +33557,6 @@
           "md5": "2fa432b00f910fe9ef3aa4fc7251ea26",
           "sha256": "0270e49ee80e97252c6f6c89f0d8f0411013034b8e7ec9c2f9a81603261f2c93",
           "description": "qt viewer for comic book archives (cbr/cbz/cba/cbg/cbb)"
-        },
-        "qpxtool_i386": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/q/qpxtool/qpxtool_0.7.2-4+nmu2_i386.deb",
-          "size": "680_KiB ",
-          "sizebyt": "695360",
-          "version": "0.7.2-4+nmu2",
-          "isize": "1.64_MiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2) libc6(>=2.15) libgcc1(>=1:4.2) libpng16-16(>=1.6.2-1) libqt4-network(>=4:4.5.3) libqt4-sql(>=4:4.5.3) libqtcore4(>=4:4.7.0~beta1) libqtgui4(>=4:4.5.3) libstdc++6(>=4.1.1) ",
-          "suggests": "pxfw ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "source": "qpxtool",
-          "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-          "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "48618021a052bad46ccd78df52981edf",
-          "sha256": "0f65805c030bd5285b240734a9e963b2d3ce04ca3208346628c2bb2fc75dcace",
-          "description": "CD/DVD quality checker"
         },
         "qtboxeditor_i386": 
         {
@@ -35290,25 +33778,6 @@
           "md5": "a929f9d9e19a367ebafbaf7357a6ff3a",
           "sha256": "ef357440ab70eb87b8d25fce3ed4467d61319e54c76f60c90a0bb89fc099d150",
           "description": "Free open-source disk encryption software"
-        },
-        "yagf_i386": 
-        {
-          "packageurl": "https://notesalexp.org/sid/main/y/yagf/yagf_0.9.4.3+git20150224-1_i386.deb",
-          "size": "452_KiB ",
-          "sizebyt": "462298",
-          "version": "0.9.4.3+git20150224-1",
-          "isize": "1.07_MiB ",
-          "depends": "tesseract-ocr|cuneiform|cuneiform-refactoring libaspell15(>=0.60.7~20110707) libc6(>=2.4) libgcc1(>=1:4.1.1) libqtcore4(>=4:4.7.0~beta1) libqtgui4(>=4:4.5.3) libstdc++6(>=4.1.1) ",
-          "recomends": "xsane ",
-          "section": "graphics",
-          "priority": "optional",
-          "source": "yagf",
-          "sourceurl": "https://notesalexp.org/source/main/y/yagf",
-          "sourcefile": "yagf_0.9.4.3+git20150224-1.debian.tar.xz yagf_0.9.4.3+git20150224-1.dsc yagf_0.9.4.3+git20150224.orig.tar.xz ",
-          "homepage": "http://sourceforge.net/projects/yagf-ocr/",
-          "md5": "6161ee22cd5c0a7d9af9814120b11a5c",
-          "sha256": "b9fcfab20916e14daf26bc384fc8927afe16094c1a3f5582ee9a6142992b3651",
-          "description": "graphical interface for cuneiform and tesseract"
         },
         "znotes_i386": 
         {
@@ -37019,17 +35488,18 @@
         },
         "notesalexpkeyring_all": 
         {
-          "packageurl": "https://notesalexp.org/precise/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16-1_all.deb",
+          "packageurl": "https://notesalexp.org/precise/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16.1-1_all.deb",
           "size": "8_KiB ",
-          "sizebyt": "4610",
-          "version": "2015.09.16-1",
+          "sizebyt": "4788",
+          "version": "2015.09.16.1-1",
           "isize": "5_KiB ",
-          "depends": "gnupg(>=1.0.6-4) ",
+          "depends": "gpgv ",
+          "recomends": "gnupg ",
           "section": "misc",
-          "priority": "extra",
+          "priority": "optional",
           "homepage": "http://www.notesalexp.org",
-          "md5": "95b7d9b3780224da2acf8af28dd42b56",
-          "sha256": "23929a43c931172acba135d173a826a80b868195ec8ccfb89623df1f8d45cff1",
+          "md5": "cd2de75d6ee91e5b9aec75f83d8eacb2",
+          "sha256": "2612f585caca691610b52fafde5bc10fb86aa32a9300b6970be12cc331daf533",
           "description": "GnuPG archive key of the notesalexp repository"
         },
         "obkey_all": 
@@ -39671,23 +38141,6 @@
           "sha256": "4be229903e3de0749c403816ba5e29df3ef228c12900d751508ad67bac67340a",
           "description": "KVIrc (IRC client) base library"
         },
-        "liblept4_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/trusty/main/l/leptonlib/liblept4_1.71-1.2ppa1~trusty1_amd64.deb",
-          "size": "744_KiB ",
-          "sizebyt": "758308",
-          "version": "1.71-1.2ppa1~trusty1",
-          "isize": "2.07_MiB ",
-          "depends": "libc6(>=2.14) libgif4(>=4.1.4) libjpeg8(>=8c) libpng12-0(>=1.2.13-4) libtiff5(>=4.0.3) libwebp5 zlib1g(>=1:1.1.4) ",
-          "breaks": "libleptonica(>=1.69~) ",
-          "replaces": "libleptonica(>=1.69~) ",
-          "section": "libs",
-          "priority": "optional",
-          "homepage": "",
-          "md5": "4b9a58038a4c445791e0f657b8503a1f",
-          "sha256": "4d1ad43b832954906ac31a546b25b98de90a65b55286dcc88020b1285ef6cf64",
-          "description": "image processing library"
-        },
         "liblept5_amd64": 
         {
           "packageurl": "https://notesalexp.org/trusty/main/l/leptonlib/liblept5_1.75.3-3+nmu1_amd64.deb",
@@ -40809,17 +39262,18 @@
         },
         "notesalexpkeyring_all": 
         {
-          "packageurl": "https://notesalexp.org/trusty/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16-1_all.deb",
+          "packageurl": "https://notesalexp.org/trusty/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16.1-1_all.deb",
           "size": "8_KiB ",
-          "sizebyt": "4610",
-          "version": "2015.09.16-1",
+          "sizebyt": "4658",
+          "version": "2015.09.16.1-1",
           "isize": "5_KiB ",
-          "depends": "gnupg(>=1.0.6-4) ",
+          "depends": "gpgv ",
+          "recomends": "gnupg ",
           "section": "misc",
-          "priority": "extra",
+          "priority": "optional",
           "homepage": "http://www.notesalexp.org",
-          "md5": "95b7d9b3780224da2acf8af28dd42b56",
-          "sha256": "23929a43c931172acba135d173a826a80b868195ec8ccfb89623df1f8d45cff1",
+          "md5": "6fa6a7733b5b3e41c51f5a8cbd2e1c93",
+          "sha256": "a8fe07a4723ad5ceea28ad367e1c22e61f2e6c242e60f54a596a94087fb71cd9",
           "description": "GnuPG archive key of the notesalexp repository"
         },
         "obkey_all": 
@@ -45184,23 +43638,6 @@
           "sha256": "1138776975cd6b91b61446874d3038dfc135c2d579fdf90a4ed4e2a80755b7cd",
           "description": "KVIrc (IRC client) base library"
         },
-        "liblept4_i386": 
-        {
-          "packageurl": "https://notesalexp.org/trusty/main/l/leptonlib/liblept4_1.71-1.2ppa1~trusty1_i386.deb",
-          "size": "680_KiB ",
-          "sizebyt": "693358",
-          "version": "1.71-1.2ppa1~trusty1",
-          "isize": "2.20_MiB ",
-          "depends": "libc6(>=2.11) libgif4(>=4.1.4) libjpeg8(>=8c) libpng12-0(>=1.2.13-4) libtiff5(>=4.0.3) libwebp5 zlib1g(>=1:1.1.4) ",
-          "breaks": "libleptonica(>=1.69~) ",
-          "replaces": "libleptonica(>=1.69~) ",
-          "section": "libs",
-          "priority": "optional",
-          "homepage": "",
-          "md5": "18316bbe0218f0fb2292dd240deeb886",
-          "sha256": "1f1a4d867ef2bf5165af679895e12a2eb921fd46ff88af607f278a36fb529b15",
-          "description": "image processing library"
-        },
         "liblept5_i386": 
         {
           "packageurl": "https://notesalexp.org/trusty/main/l/leptonlib/liblept5_1.75.3-3+nmu1_i386.deb",
@@ -46330,21 +44767,6 @@
           "sha256": "33e54728349450cb20abfcaa159b93a6209887e6b36bcc799421771418fdb30c",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
-        "gir12libmypaint0_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "16_KiB ",
-          "sizebyt": "12348",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "99_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "26201f9c2e0e1897d5d99b8e9e6e6c44",
-          "sha256": "7dcfabd7b640466c060230d6f62759bb73bdabc6a2fd486025cf7ad66152a5ca",
-          "description": "development files for libmypaint"
-        },
         "gir12libmypaint20_amd64": 
         {
           "packageurl": "https://notesalexp.org/xenial/main/libm/libmypaint/gir1.2-libmypaint-2.0_2.0.0~git788-040310c-1_amd64.deb",
@@ -46766,22 +45188,6 @@
           "sha256": "39daf1a708fc094d12c76ef288a19045939eef7b2f06bb70d924d9cc9802a780",
           "description": "image processing library"
         },
-        "libmypaint0_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/libm/libmypaint/libmypaint0_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "112_KiB ",
-          "sizebyt": "110792",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "589_KiB ",
-          "depends": "libc6(>=2.14) libglib2.0-0(>=2.12.0) libjson-c2(>=0.10) ",
-          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "72d959ec65c3de8d6e9b0c569bf57052",
-          "sha256": "aa283f995b89a05aae5bc0837eaf77b760e50367bf2023859f1cb3c43f71ccc0",
-          "description": "MyPaint brush engine library"
-        },
         "libmypaint200_amd64": 
         {
           "packageurl": "https://notesalexp.org/xenial/main/libm/libmypaint/libmypaint-2.0-0_2.0.0~git788-040310c-1_amd64.deb",
@@ -46818,21 +45224,6 @@
           "homepage": "http://mypaint.org/",
           "md5": "757dbbc30db5afd2af62cbbf3f46c681",
           "sha256": "42c500a75029dafdbab4c2bae872ff8e16f8c2519b80fa964bff146e537e2b7f",
-          "description": "Development files for libmypaint"
-        },
-        "libmypaintdev_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/libm/libmypaint/libmypaint-dev_1.3.0+git733-9bafe4b-1_amd64.deb",
-          "size": "8_KiB ",
-          "sizebyt": "7284",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "43_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "73506c66e6f49286a143152151ac523b",
-          "sha256": "850406898d229f7723d975616057ee7816c9dcac2d8e6b09963c5cbc073371d6",
           "description": "Development files for libmypaint"
         },
         "libocefoundation10_amd64": 
@@ -47089,36 +45480,6 @@
           "md5": "dc37a446c65ca62b2987f29c4a2176e6",
           "sha256": "7745e56968c550992691a90a477f509d17a423a67dcea6209538d9c0949c8998",
           "description": "OpenCASCADE Community Edition CAE platform library development files"
-        },
-        "libqpx0_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/q/qpxtool/libqpx0_0.7.2-4+nmu2ppa1~xenial1_amd64.deb",
-          "size": "84_KiB ",
-          "sizebyt": "82770",
-          "version": "0.7.2-4+nmu2ppa1~xenial1",
-          "isize": "268_KiB ",
-          "depends": "libc6(>=2.15) libgcc1(>=1:3.0) libstdc++6(>=4.1.1) ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "f257b66761b666e3289ee7ca37b3054f",
-          "sha256": "6413da7837511b2da7c5bdd5f5211693c2ad188fc4373cdc99b97eedeebdb8ed",
-          "description": "CD/DVD quality checker (shared libraries)"
-        },
-        "libqpxdev_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/q/qpxtool/libqpx-dev_0.7.2-4+nmu2ppa1~xenial1_amd64.deb",
-          "size": "32_KiB ",
-          "sizebyt": "29034",
-          "version": "0.7.2-4+nmu2ppa1~xenial1",
-          "isize": "133_KiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2ppa1~xenial1) ",
-          "section": "libdevel",
-          "priority": "optional",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "3aaaefab5c19a97b305f46ae704d126c",
-          "sha256": "4bebb0617ed530bb295029f1918b8b7dfcbc6ba54ebc0afef063b78fb0dedce6",
-          "description": "CD/DVD quality checker (development files)"
         },
         "librecad_amd64": 
         {
@@ -47395,21 +45756,6 @@
           "sha256": "4d0e753767b86ae3ce560d2362dc757ccf6373745683138f1800be4324de4792",
           "description": "Qt-based XMPP/Jabber client (WebKit version)"
         },
-        "pxfw_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/q/qpxtool/pxfw_0.7.2-4+nmu2ppa1~xenial1_amd64.deb",
-          "size": "16_KiB ",
-          "sizebyt": "12874",
-          "version": "0.7.2-4+nmu2ppa1~xenial1",
-          "isize": "35_KiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2ppa1~xenial1) qpxtool libc6(>=2.4) libgcc1(>=1:3.0) libstdc++6(>=4.1.1) ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "097082aed1b18d7dc1e258e71fc255cb",
-          "sha256": "8aff1709d203e88025a735c84b9fcf28eeeb98f704410eba9c859a6b68a6c306",
-          "description": "Plextor firmware updater"
-        },
         "q4wine_amd64": 
         {
           "packageurl": "https://notesalexp.org/xenial/main/q/q4wine/q4wine_1.3.6-1_amd64.deb",
@@ -47467,22 +45813,6 @@
           "md5": "491a004772059fb6c56dee7284b8bd29",
           "sha256": "8575cff40fbd4dbaf8fee3b68d3cc63d8dcd87beb431f8b0d54ac844d19746cd",
           "description": "qt viewer for comic book archives (cbr/cbz/cba/cbg/cbb)"
-        },
-        "qpxtool_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/q/qpxtool/qpxtool_0.7.2-4+nmu2ppa1~xenial1_amd64.deb",
-          "size": "656_KiB ",
-          "sizebyt": "668442",
-          "version": "0.7.2-4+nmu2ppa1~xenial1",
-          "isize": "1.66_MiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2ppa1~xenial1) libc6(>=2.15) libgcc1(>=1:3.0) libqt4-network(>=4:4.5.3) libqt4-sql(>=4:4.5.3) libqtcore4(>=4:4.7.0~beta1) libqtgui4(>=4:4.5.3) libstdc++6(>=4.1.1) ",
-          "suggests": "pxfw ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "f8a8b055eafc4e49804ae1fcfb00de32",
-          "sha256": "523f8fabab7e31fb862dc792ef665240e2c114a9db2e457eb1556cb78a7c73a9",
-          "description": "CD/DVD quality checker"
         },
         "qtboxeditor_amd64": 
         {
@@ -48211,17 +46541,18 @@
         },
         "notesalexpkeyring_all": 
         {
-          "packageurl": "https://notesalexp.org/xenial/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16-1_all.deb",
+          "packageurl": "https://notesalexp.org/xenial/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16.1-1_all.deb",
           "size": "8_KiB ",
-          "sizebyt": "4610",
-          "version": "2015.09.16-1",
-          "isize": "5_KiB ",
-          "depends": "gnupg(>=1.0.6-4) ",
+          "sizebyt": "4664",
+          "version": "2015.09.16.1-1",
+          "isize": "17_KiB ",
+          "depends": "gpgv ",
+          "recomends": "gnupg ",
           "section": "misc",
-          "priority": "extra",
+          "priority": "optional",
           "homepage": "http://www.notesalexp.org",
-          "md5": "95b7d9b3780224da2acf8af28dd42b56",
-          "sha256": "23929a43c931172acba135d173a826a80b868195ec8ccfb89623df1f8d45cff1",
+          "md5": "87a82a1572f2159185a20bbe4efcd961",
+          "sha256": "6c0957e0474ff6135f38911347bbe2cd9416fe8268c78d5391cfe4684bf04545",
           "description": "GnuPG archive key of the notesalexp repository"
         },
         "obkey_all": 
@@ -52329,21 +50660,6 @@
           "sha256": "6212f55430a40c6417c91d37195095424bbe52b5b6371d1721e091ab1459d76e",
           "description": "plugin for The GIMP to manipulations on groups of images"
         },
-        "gir12libmypaint0_i386": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/libm/libmypaint/gir1.2-libmypaint0_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "16_KiB ",
-          "sizebyt": "12336",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "99_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "e9aed8a70f9328e94847b2e9c7e31b48",
-          "sha256": "2c4e4c8686cbeda627724898c0b2dcedd2a71be4aa71949c2f53297a9d70e478",
-          "description": "development files for libmypaint"
-        },
         "gir12libmypaint20_i386": 
         {
           "packageurl": "https://notesalexp.org/xenial/main/libm/libmypaint/gir1.2-libmypaint-2.0_2.0.0~git788-040310c-1_i386.deb",
@@ -52765,22 +51081,6 @@
           "sha256": "e4195e304e05d6eb0326a48687ee56ea7f5b7a3e5ca597881b4657c42c09bb73",
           "description": "image processing library"
         },
-        "libmypaint0_i386": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/libm/libmypaint/libmypaint0_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "112_KiB ",
-          "sizebyt": "111090",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "587_KiB ",
-          "depends": "libc6(>=2.4) libglib2.0-0(>=2.12.0) libjson-c2(>=0.10) ",
-          "conflicts": "mypaint(<<1.3.0~) mypaint-data(<<1.3.0~) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "2d0a2a91e5bbc741e00240394ffc6843",
-          "sha256": "2dffa5db511f75b8cba763da12875d1e8567882485f9fc3f692bf92184d55101",
-          "description": "MyPaint brush engine library"
-        },
         "libmypaint200_i386": 
         {
           "packageurl": "https://notesalexp.org/xenial/main/libm/libmypaint/libmypaint-2.0-0_2.0.0~git788-040310c-1_i386.deb",
@@ -52817,21 +51117,6 @@
           "homepage": "http://mypaint.org/",
           "md5": "3bfa6cfdd5243e8c035f33eeeedc5008",
           "sha256": "21b04a6e7c36b3369d6775f59d2d05f3ec12bd00f006435e76ce25e8bc802f62",
-          "description": "Development files for libmypaint"
-        },
-        "libmypaintdev_i386": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/libm/libmypaint/libmypaint-dev_1.3.0+git733-9bafe4b-1_i386.deb",
-          "size": "8_KiB ",
-          "sizebyt": "7288",
-          "version": "1.3.0+git733-9bafe4b-1",
-          "isize": "43_KiB ",
-          "depends": "libmypaint0(=1.3.0+git733-9bafe4b-1) ",
-          "section": "graphics",
-          "priority": "optional",
-          "homepage": "http://mypaint.org/",
-          "md5": "0b0fb838e443a7122d94a29b942ad148",
-          "sha256": "40f0b3cbaf10200f8dcf6dc03cef5d8167f07b2bb85a5e128690727a566234d7",
           "description": "Development files for libmypaint"
         },
         "libocefoundation10_i386": 
@@ -53088,36 +51373,6 @@
           "md5": "47818fb3e2eed87283051d66c196aace",
           "sha256": "082966a7b9adb9af94bf31a4c2891e61880c31bf5cf71d14e0acbf9bc4d78f1e",
           "description": "OpenCASCADE Community Edition CAE platform library development files"
-        },
-        "libqpx0_i386": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/q/qpxtool/libqpx0_0.7.2-4+nmu2ppa1~xenial1_i386.deb",
-          "size": "88_KiB ",
-          "sizebyt": "89928",
-          "version": "0.7.2-4+nmu2ppa1~xenial1",
-          "isize": "281_KiB ",
-          "depends": "libc6(>=2.15) libgcc1(>=1:3.0) libstdc++6(>=4.1.1) ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "d99bfe50d61e74f2b2da2c3ba4fe0724",
-          "sha256": "c95fa049433638b4f4539c0cdbe64d2b1047e79233de123e4112c9c4b233df9d",
-          "description": "CD/DVD quality checker (shared libraries)"
-        },
-        "libqpxdev_i386": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/q/qpxtool/libqpx-dev_0.7.2-4+nmu2ppa1~xenial1_i386.deb",
-          "size": "32_KiB ",
-          "sizebyt": "29014",
-          "version": "0.7.2-4+nmu2ppa1~xenial1",
-          "isize": "133_KiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2ppa1~xenial1) ",
-          "section": "libdevel",
-          "priority": "optional",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "f7eddc36a27b982542cae8cedde33a33",
-          "sha256": "e1493ecbeea9f568ae665ab7fab520258a14f9d0a8b777df3fc6cd89481f179b",
-          "description": "CD/DVD quality checker (development files)"
         },
         "librecad_i386": 
         {
@@ -53394,21 +51649,6 @@
           "sha256": "d8156919c493d87a36b6bcf7460be7f10f7279424bebb66cee433a0113852e39",
           "description": "Qt-based XMPP/Jabber client (WebKit version)"
         },
-        "pxfw_i386": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/q/qpxtool/pxfw_0.7.2-4+nmu2ppa1~xenial1_i386.deb",
-          "size": "16_KiB ",
-          "sizebyt": "13330",
-          "version": "0.7.2-4+nmu2ppa1~xenial1",
-          "isize": "34_KiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2ppa1~xenial1) qpxtool libc6(>=2.4) libgcc1(>=1:3.0) libstdc++6(>=4.1.1) ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "35088380afad874c24069a8bcab74fe9",
-          "sha256": "e03116c04c28705299b7b261a854a884a12bb964a0481dae09dbeee1d26febca",
-          "description": "Plextor firmware updater"
-        },
         "q4wine_i386": 
         {
           "packageurl": "https://notesalexp.org/xenial/main/q/q4wine/q4wine_1.3.6-1_i386.deb",
@@ -53466,22 +51706,6 @@
           "md5": "986c7ad32e01075bcbf5e9585b9b19aa",
           "sha256": "808532a64af7842e70a2abda6033f8c1820f6f23dc9b1bed109b96f8380fe314",
           "description": "qt viewer for comic book archives (cbr/cbz/cba/cbg/cbb)"
-        },
-        "qpxtool_i386": 
-        {
-          "packageurl": "https://notesalexp.org/xenial/main/q/qpxtool/qpxtool_0.7.2-4+nmu2ppa1~xenial1_i386.deb",
-          "size": "672_KiB ",
-          "sizebyt": "687058",
-          "version": "0.7.2-4+nmu2ppa1~xenial1",
-          "isize": "1.63_MiB ",
-          "depends": "libqpx0(=0.7.2-4+nmu2ppa1~xenial1) libc6(>=2.15) libgcc1(>=1:4.2) libqt4-network(>=4:4.5.3) libqt4-sql(>=4:4.5.3) libqtcore4(>=4:4.7.0~beta1) libqtgui4(>=4:4.5.3) libstdc++6(>=4.1.1) ",
-          "suggests": "pxfw ",
-          "section": "otherosfs",
-          "priority": "optional",
-          "homepage": "http://qpxtool.sourceforge.net/",
-          "md5": "73fb213c8078cf7bb1aacb8ba7547d26",
-          "sha256": "b085b293f0ec28a71a638cce406e58e0c1369091ffd160e479718c581c908a98",
-          "description": "CD/DVD quality checker"
         },
         "qtboxeditor_i386": 
         {
@@ -53739,24 +51963,6 @@
           "sha256": "f21bbc026c5cb5e0a8e522e210a9a49a3a70be00ca2cb35641d61c1a45fef5d0",
           "description": "fast, cross-platform audio editor"
         },
-        "autopanosiftc_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/artful/main/a/autopano-sift-c/autopano-sift-c_2.5.3~hg20101023-7_amd64.deb",
-          "size": "96_KiB ",
-          "sizebyt": "96972",
-          "version": "2.5.3~hg20101023-7",
-          "isize": "443_KiB ",
-          "depends": "libc6(>=2.14) libgcc1(>=1:3.0) libpano13-3 libstdc++6(>=5) libtiff5(>=4.0.3) libxml2(>=2.7.4) ",
-          "section": "graphics",
-          "priority": "optional",
-          "source": "autopano-sift-c",
-          "sourceurl": "https://notesalexp.org/source/main/a/autopano-sift-c",
-          "sourcefile": "autopano-sift-c_2.5.3~hg20101023-7.debian.tar.xz autopano-sift-c_2.5.3~hg20101023-7.dsc autopano-sift-c_2.5.3~hg20101023.orig.tar.gz ",
-          "homepage": "http://hugin.sourceforge.net/",
-          "md5": "5167ff8e75cc0bda15fefbe5270ce39a",
-          "sha256": "f111d489b9c55e32d6222b24b6a7e28189a69971b8bf65ecfe5b8f448f1ea410",
-          "description": "Panorama images are wide-angle images that amaze people:"
-        },
         "azpainter_amd64": 
         {
           "packageurl": "https://notesalexp.org/artful/main/a/azpainter/azpainter_2.1.1-1_amd64.deb",
@@ -53971,24 +52177,6 @@
           "sha256": "98e1894dafb12235daf2625ba282f1aae966571133ed5b7c18e05bb2123dfa37",
           "description": "EiskaltDC++ GUI based on Qt"
         },
-        "fatrat_amd64": 
-        {
-          "packageurl": "https://notesalexp.org/artful/main/f/fatrat/fatrat_1.2.0+git20161204-3_amd64.deb",
-          "size": "736_KiB ",
-          "sizebyt": "752494",
-          "version": "1.2.0+git20161204-3",
-          "isize": "1.99_MiB ",
-          "depends": "libc6(>=2.14) libcurl3-gnutls(>=7.16.3) libgcc1(>=1:3.0) libgloox15 libqt5core5a(>=5.9.0~beta) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.7.0) libqt5help5(>=5.6.0~beta) libqt5network5(>=5.0.2) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.2.0~alpha1) libqt5xml5(>=5.1.0) libstdc++6(>=5.2) fatrat-data(=1.2.0+git20161204-3) xdg-utils ",
-          "section": "net",
-          "priority": "optional",
-          "source": "fatrat",
-          "sourceurl": "https://notesalexp.org/source/main/f/fatrat",
-          "sourcefile": "fatrat_1.2.0+git20161204-3.debian.tar.xz fatrat_1.2.0+git20161204-3.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
-          "homepage": "http://fatrat.dolezel.info/",
-          "md5": "01483ff176269ce007a33487f979be18",
-          "sha256": "0c200cb6e7d300a7ab13320bbcbaecb39a023cbd3e597994286b3c686692d67b",
-          "description": "multi-protocol download manager, feature rich and extensible via plugin"
-        },
         "freecad_amd64": 
         {
           "packageurl": "https://notesalexp.org/artful/main/f/freecad/freecad_0.16+git6712-da2d364-2_amd64.deb",
@@ -54089,39 +52277,39 @@
         },
         "gimpgtk3_amd64": 
         {
-          "packageurl": "https://notesalexp.org/artful/main/g/gimp-gtk3/gimp-gtk3_2.9.4+git39060-3762480-2_amd64.deb",
-          "size": "4.92_MiB ",
-          "sizebyt": "5165994",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "19.77_MiB ",
-          "depends": "gimp-gtk3-data(>=2.9.4+git39060-3762480) gimp-gtk3-data(<=2.9.4+git39060-3762480-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libavcodec57(>=7:3.3.4)|libavcodec-extra57(>=7:3.3.4) libavformat57(>=7:3.3.4) libbz2-1.0 libc6(>=2.22) libcairo2(>=1.12.0) libfontconfig1(>=2.11.94) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.41.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=146) libharfbuzz0b(>=0.6.0) libilmbase12(>=2.2.0) libjpeg8(>=8c) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblzma5(>=5.1.1alpha+20120614) libmng2(>=1.0.10) libopenexr22 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpoppler-glib8(>=0.18.0) libraw16(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=7:3.3.4) libtiff5(>=4.0.3) libumfpack5(>=4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux3(>=0.6.0-3) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 zlib1g(>=1:1.2.11) ",
+          "packageurl": "https://notesalexp.org/artful/main/g/gimp-gtk3/gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1_amd64.deb",
+          "size": "5.99_MiB ",
+          "sizebyt": "6283290",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "23.37_MiB ",
+          "depends": "gimp-gtk3-data(>=2.9.8+git40211-8b3a6bcf5c) gimp-gtk3-data(<=2.9.8+git40211-8b3a6bcf5c-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libavcodec57(>=7:3.3.4)|libavcodec-extra57(>=7:3.3.4) libavformat57(>=7:3.3.4) libbz2-1.0 libc6(>=2.22) libcairo2(>=1.12.0) libexpat1(>=2.0.1) libffi6(>=3.0.4) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.30.2) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=146) libharfbuzz0b(>=0.6.0) libilmbase12(>=2.2.0) libjpeg8(>=8c) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblzma5(>=5.1.1alpha+20120614) libmng2(>=1.0.10) libmount1(>=2.24.2) libopenexr22 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpcre3 libpng16-16(>=1.6.2-1) libpoppler-glib8(>=0.18.0) libraw16(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=7:3.3.4) libtiff5(>=4.0.3) libumfpack5(>=4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux3(>=0.6.0-3) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 zlib1g(>=1:1.2.2) ",
           "recomends": "ghostscript ",
           "section": "graphics",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "42ae7a336e91a4fa0bd782805ab3e57c",
-          "sha256": "fe921f061118138867c560465718dc427bb45ec2a1b6cfc4a8f2023da5c4354f",
+          "md5": "75d5b79148d172b48ed78272a62ad3ec",
+          "sha256": "ea695558388974ebc25a50eeddad87426f5607628505d758fcdd0764ff8a5dee",
           "description": "advanced picture editor"
         },
         "gimpgtk3dev_amd64": 
         {
-          "packageurl": "https://notesalexp.org/artful/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.4+git39060-3762480-2_amd64.deb",
-          "size": "220_KiB ",
-          "sizebyt": "224352",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "1.84_MiB ",
-          "depends": "gimp-gtk3(=2.9.4+git39060-3762480-2) pkg-config libc6(>=2.4) libglib2.0-0(>=2.30.2) ",
+          "packageurl": "https://notesalexp.org/artful/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.8+git40211-8b3a6bcf5c-1_amd64.deb",
+          "size": "8_KiB ",
+          "sizebyt": "4928",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "19_KiB ",
+          "depends": "gimp-gtk3(=2.9.8+git40211-8b3a6bcf5c-1) pkg-config ",
           "section": "libdevel",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "266d76d515d0ebe17203b8dd5e7d583d",
-          "sha256": "483c7451f27ac248bd43240e1c507a74d5fbe7502e6ef772537aaae11c4fed16",
+          "md5": "aeafaf4947ad6c963d5feeda6a3fd71c",
+          "sha256": "4516bcee901bb724576791cf1f39c1e1bb64284ad944dc13ea078b2e15c4bb27",
           "description": "Headers and other files for compiling plugins for GIMP"
         },
         "gimppluginbimp_amd64": 
@@ -55429,41 +53617,6 @@
           "sha256": "1366c38a67e992343fd69c65406a28c2c20dd0b29ef628e0a2d2789d6112b9c9",
           "description": "sound files for EiskaltDC++"
         },
-        "fatratdata_all": 
-        {
-          "packageurl": "https://notesalexp.org/artful/main/f/fatrat/fatrat-data_1.2.0+git20161204-3_all.deb",
-          "size": "556_KiB ",
-          "sizebyt": "566750",
-          "version": "1.2.0+git20161204-3",
-          "isize": "1.64_MiB ",
-          "recomends": "fatrat ",
-          "section": "net",
-          "priority": "optional",
-          "source": "fatrat",
-          "sourceurl": "https://notesalexp.org/source/main/f/fatrat",
-          "sourcefile": "fatrat_1.2.0+git20161204-3.debian.tar.xz fatrat_1.2.0+git20161204-3.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
-          "homepage": "http://fatrat.dolezel.info/",
-          "md5": "8a605cf70050011d3a27babe274bf25f",
-          "sha256": "10acb5c21e0239549a3303b1325dd3ac325fb85ab2ada7395a59f6c4ed93fe81",
-          "description": "data files for fatrat"
-        },
-        "fatratdev_all": 
-        {
-          "packageurl": "https://notesalexp.org/artful/main/f/fatrat/fatrat-dev_1.2.0+git20161204-3_all.deb",
-          "size": "16_KiB ",
-          "sizebyt": "13778",
-          "version": "1.2.0+git20161204-3",
-          "isize": "74_KiB ",
-          "section": "devel",
-          "priority": "optional",
-          "source": "fatrat",
-          "sourceurl": "https://notesalexp.org/source/main/f/fatrat",
-          "sourcefile": "fatrat_1.2.0+git20161204-3.debian.tar.xz fatrat_1.2.0+git20161204-3.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
-          "homepage": "http://fatrat.dolezel.info/",
-          "md5": "07b1fa3e21356d5b690388d5dbab6c5f",
-          "sha256": "aee842a9df891ef0d4d13be6d5c5f6168ab7d0456c6c8ab233a635ed43d602ed",
-          "description": "development files for fatrat"
-        },
         "freecaddailydoc_all": 
         {
           "packageurl": "https://notesalexp.org/artful/main/f/freecad-daily/freecad-daily-doc_0.17~git12875-1ad7724d5-1_all.deb",
@@ -55541,20 +53694,20 @@
         },
         "gimpgtk3data_all": 
         {
-          "packageurl": "https://notesalexp.org/artful/main/g/gimp-gtk3/gimp-gtk3-data_2.9.4+git39060-3762480-2_all.deb",
-          "size": "9.43_MiB ",
-          "sizebyt": "9890016",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "59.72_MiB ",
+          "packageurl": "https://notesalexp.org/artful/main/g/gimp-gtk3/gimp-gtk3-data_2.9.8+git40211-8b3a6bcf5c-1_all.deb",
+          "size": "11.00_MiB ",
+          "sizebyt": "11533718",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "69.90_MiB ",
           "recomends": "gimp-devel ",
           "section": "graphics",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "3a4cf001c75d8adad36cdebec155ae95",
-          "sha256": "73f37adafdc089d13242c74d715d30d114bd05e8ed4270c0a9326593a5f4667b",
+          "md5": "47e6477e8be6e8ac854db9852512fbc9",
+          "sha256": "13b54075b504a517b1056105576a9600ff244235ff7e7a1cc834506711239c5e",
           "description": "Data files for GIMP"
         },
         "gscan2pdf_all": 
@@ -55667,17 +53820,18 @@
         },
         "notesalexpkeyring_all": 
         {
-          "packageurl": "https://notesalexp.org/artful/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16-1_all.deb",
+          "packageurl": "https://notesalexp.org/artful/main/n/notesalexp-keyring/notesalexp-keyring_2015.09.16.1-1_all.deb",
           "size": "8_KiB ",
-          "sizebyt": "4610",
-          "version": "2015.09.16-1",
-          "isize": "5_KiB ",
-          "depends": "gnupg(>=1.0.6-4) ",
+          "sizebyt": "4676",
+          "version": "2015.09.16.1-1",
+          "isize": "17_KiB ",
+          "depends": "gpgv ",
+          "recomends": "gnupg ",
           "section": "misc",
-          "priority": "extra",
+          "priority": "optional",
           "homepage": "http://www.notesalexp.org",
-          "md5": "95b7d9b3780224da2acf8af28dd42b56",
-          "sha256": "23929a43c931172acba135d173a826a80b868195ec8ccfb89623df1f8d45cff1",
+          "md5": "013746c8410772b4b8e29ef19e8c4837",
+          "sha256": "cd9cf5983c599af87a9cadbe3d66346550123f138fde3371bd78c1ca40220e82",
           "description": "GnuPG archive key of the notesalexp repository"
         },
         "obkey_all": 
@@ -59379,24 +57533,6 @@
           "sha256": "e2898557bab9967c38ff7b9d79a58e53c7fba6363eb3dd1a5a60a2734f4de3a0",
           "description": "fast, cross-platform audio editor"
         },
-        "autopanosiftc_i386": 
-        {
-          "packageurl": "https://notesalexp.org/artful/main/a/autopano-sift-c/autopano-sift-c_2.5.3~hg20101023-7_i386.deb",
-          "size": "100_KiB ",
-          "sizebyt": "98858",
-          "version": "2.5.3~hg20101023-7",
-          "isize": "396_KiB ",
-          "depends": "libc6(>=2.7) libgcc1(>=1:3.0) libpano13-3 libstdc++6(>=5) libtiff5(>=4.0.3) libxml2(>=2.7.4) ",
-          "section": "graphics",
-          "priority": "optional",
-          "source": "autopano-sift-c",
-          "sourceurl": "https://notesalexp.org/source/main/a/autopano-sift-c",
-          "sourcefile": "autopano-sift-c_2.5.3~hg20101023-7.debian.tar.xz autopano-sift-c_2.5.3~hg20101023-7.dsc autopano-sift-c_2.5.3~hg20101023.orig.tar.gz ",
-          "homepage": "http://hugin.sourceforge.net/",
-          "md5": "879ec819702851431190c43ef223d727",
-          "sha256": "7123c5f74945c7f73cb43c53fac0ecf941735b18f0ec7674c05ff2756da3ac6a",
-          "description": "Panorama images are wide-angle images that amaze people:"
-        },
         "azpainter_i386": 
         {
           "packageurl": "https://notesalexp.org/artful/main/a/azpainter/azpainter_2.1.1-1_i386.deb",
@@ -59611,24 +57747,6 @@
           "sha256": "e2348a33ac2f2d73cc747d0c8b24226c088913c135944aba21ead7a5ab214b54",
           "description": "EiskaltDC++ GUI based on Qt"
         },
-        "fatrat_i386": 
-        {
-          "packageurl": "https://notesalexp.org/artful/main/f/fatrat/fatrat_1.2.0+git20161204-3_i386.deb",
-          "size": "772_KiB ",
-          "sizebyt": "786566",
-          "version": "1.2.0+git20161204-3",
-          "isize": "1.96_MiB ",
-          "depends": "libc6(>=2.4) libcurl3-gnutls(>=7.16.3) libgcc1(>=1:4.2) libgloox15 libqt5core5a(>=5.9.0~beta) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.7.0) libqt5help5(>=5.6.0~beta) libqt5network5(>=5.0.2) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.2.0~alpha1) libqt5xml5(>=5.1.0) libstdc++6(>=5.2) fatrat-data(=1.2.0+git20161204-3) xdg-utils ",
-          "section": "net",
-          "priority": "optional",
-          "source": "fatrat",
-          "sourceurl": "https://notesalexp.org/source/main/f/fatrat",
-          "sourcefile": "fatrat_1.2.0+git20161204-3.debian.tar.xz fatrat_1.2.0+git20161204-3.dsc fatrat_1.2.0+git20161204.orig.tar.xz ",
-          "homepage": "http://fatrat.dolezel.info/",
-          "md5": "b4e96d52c4a3154354b5b03d611858f8",
-          "sha256": "f1d3a7db3a625b2b70c54d5cfc0661324ec8a3a6cb5f3b7e667454457071f10c",
-          "description": "multi-protocol download manager, feature rich and extensible via plugin"
-        },
         "freecad_i386": 
         {
           "packageurl": "https://notesalexp.org/artful/main/f/freecad/freecad_0.16+git6712-da2d364-2_i386.deb",
@@ -59729,39 +57847,39 @@
         },
         "gimpgtk3_i386": 
         {
-          "packageurl": "https://notesalexp.org/artful/main/g/gimp-gtk3/gimp-gtk3_2.9.4+git39060-3762480-2_i386.deb",
-          "size": "5.12_MiB ",
-          "sizebyt": "5373130",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "21.58_MiB ",
-          "depends": "gimp-gtk3-data(>=2.9.4+git39060-3762480) gimp-gtk3-data(<=2.9.4+git39060-3762480-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libavcodec57(>=7:3.3.4)|libavcodec-extra57(>=7:3.3.4) libavformat57(>=7:3.3.4) libbz2-1.0 libc6(>=2.16) libcairo2(>=1.12.0) libfontconfig1(>=2.11.94) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.41.1) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=146) libharfbuzz0b(>=0.6.0) libilmbase12(>=2.2.0) libjpeg8(>=8c) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblzma5(>=5.1.1alpha+20120614) libmng2(>=1.0.10) libopenexr22 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpoppler-glib8(>=0.18.0) libraw16(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=7:3.3.4) libtiff5(>=4.0.3) libumfpack5(>=4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux3(>=0.6.0-3) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 zlib1g(>=1:1.2.11) ",
+          "packageurl": "https://notesalexp.org/artful/main/g/gimp-gtk3/gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1_i386.deb",
+          "size": "6.29_MiB ",
+          "sizebyt": "6596404",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "25.69_MiB ",
+          "depends": "gimp-gtk3-data(>=2.9.8+git40211-8b3a6bcf5c) gimp-gtk3-data(<=2.9.8+git40211-8b3a6bcf5c-z) libgdk-pixbuf2.0-0(>=2.31.1) libaa1(>=1.4p5) libasound2(>=1.0.16) libavcodec57(>=7:3.3.4)|libavcodec-extra57(>=7:3.3.4) libavformat57(>=7:3.3.4) libbz2-1.0 libc6(>=2.17) libcairo2(>=1.12.0) libexpat1(>=2.0.1) libffi6(>=3.0.4) libfreetype6(>=2.2.1) libgcc1(>=1:3.0) libgexiv2-2(>=0.10.3) libglib2.0-0(>=2.30.2) libgs9(>=8.61.dfsg.1) libgtk-3-0(>=3.19.12) libgudev-1.0-0(>=146) libharfbuzz0b(>=0.6.0) libilmbase12(>=2.2.0) libjpeg8(>=8c) libjson-c3(>=0.10) libjson-glib-1.0-0(>=0.12.0) liblzma5(>=5.1.1alpha+20120614) libmng2(>=1.0.10) libmount1(>=2.24.2) libopenexr22 libpango-1.0-0(>=1.37.5) libpangocairo-1.0-0(>=1.29.4) libpangoft2-1.0-0(>=1.29.4) libpcre3 libpng16-16(>=1.6.2-1) libpoppler-glib8(>=0.18.0) libraw16(>=0.16.0) librsvg2-2(>=2.32.0) libsdl1.2debian(>=1.2.11) libspiro0(>=20071029) libstdc++6(>=5.2) libswscale4(>=7:3.3.4) libtiff5(>=4.0.3) libumfpack5(>=4.5.2) libwebkitgtk-3.0-0(>=1.3.10) libwebp6(>=0.5.1) libwebpdemux2(>=0.5.1) libwebpmux3(>=0.6.0-3) libwmf0.2-7(>=0.2.8.4) libx11-6 libxcursor1(>>1.1.2) libxext6 libxfixes3 libxmu6 libxpm4 zlib1g(>=1:1.2.2) ",
           "recomends": "ghostscript ",
           "section": "graphics",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "0254e81a3ef6995ef7ba7cfe65d70bd5",
-          "sha256": "7aeb2b7d78bffe25e67433da84ae944448c8f3c7d5b036d7324c85c5b33ba5c5",
+          "md5": "96b43a5c50574c67049b9648a0e06381",
+          "sha256": "d52e900c85b09dbc7f2d0042edfefb3523b392dc917dec8cfecd01f8c62af6fe",
           "description": "advanced picture editor"
         },
         "gimpgtk3dev_i386": 
         {
-          "packageurl": "https://notesalexp.org/artful/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.4+git39060-3762480-2_i386.deb",
-          "size": "220_KiB ",
-          "sizebyt": "224510",
-          "version": "2.9.4+git39060-3762480-2",
-          "isize": "1.84_MiB ",
-          "depends": "gimp-gtk3(=2.9.4+git39060-3762480-2) pkg-config libc6(>=2.4) libglib2.0-0(>=2.30.2) ",
+          "packageurl": "https://notesalexp.org/artful/main/g/gimp-gtk3/gimp-gtk3-dev_2.9.8+git40211-8b3a6bcf5c-1_i386.deb",
+          "size": "8_KiB ",
+          "sizebyt": "4926",
+          "version": "2.9.8+git40211-8b3a6bcf5c-1",
+          "isize": "19_KiB ",
+          "depends": "gimp-gtk3(=2.9.8+git40211-8b3a6bcf5c-1) pkg-config ",
           "section": "libdevel",
           "priority": "optional",
           "source": "gimp-gtk3",
           "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-          "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+          "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
           "homepage": "http://www.gimp.org/",
-          "md5": "983e18803e193b8244b84346b29fb3f7",
-          "sha256": "b988d3ce82fd1b86aba4b47852b4f0f8246c24c8b704c6947035636f1ab94e26",
+          "md5": "29326c34cf3b06390d86308523ec0340",
+          "sha256": "78576e4056e813b49eb24ac84f67d22a07c3711bbc52a373b6fcf8b57d6d9556",
           "description": "Headers and other files for compiling plugins for GIMP"
         },
         "gimppluginbimp_i386": 

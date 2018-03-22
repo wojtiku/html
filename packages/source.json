@@ -27,19 +27,6 @@
       "md5": " 9d3eba9713c97b80d543eaa31a6f86b6 6842f09e84b67fc09e4c1295484e31a2 742a3dfec2ba07e6972a7f65d7807e88",
       "size": " 68_KiB  4_KiB  28.67_MiB "
     },
-    "autopanosiftc": 
-    {
-      "version": "2.5.3~hg20101023-7",
-      "description": " Panorama images are wide-angle images that amaze people",
-      "sourceurl": "https://notesalexp.org/source/main/a/autopano-sift-c",
-      "sourcefile": "autopano-sift-c_2.5.3~hg20101023-7.debian.tar.xz autopano-sift-c_2.5.3~hg20101023-7.dsc autopano-sift-c_2.5.3~hg20101023.orig.tar.gz ",
-      "homepage": "http://hugin.sourceforge.net/",
-      "depends": "debhelper(>=7.0.50~) cmake libpano13-dev libxml2-dev libtiff5-dev libpng-dev|libpng12-dev ",
-      "binary": "autopano-sift-c",
-      "description_autopanosiftc": "Panorama images are wide-angle images that amaze people:",
-      "md5": " 0ab4eceee96d300c3179ffc326bfdd32 8db6b312a7dfb30807cfc47e46e47303 7a97367308ed9e648c9093352102e116",
-      "size": " 4_KiB  4_KiB  200_KiB "
-    },
     "azpainter": 
     {
       "version": "2.1.1-1",
@@ -306,21 +293,6 @@
       "md5": " f065fd3eef9922763a71b544fb977087 6b528298b757f23d78b48dd4223b7e74 df3f5690eaa30fd228537b00cb7b7590",
       "size": " 28_KiB  4_KiB  6.87_MiB "
     },
-    "gexiv2": 
-    {
-      "version": "0.10.4-1+nmu1",
-      "description": " GObject-based wrapper around the Exiv2 library",
-      "sourceurl": "https://notesalexp.org/source/main/g/gexiv2",
-      "sourcefile": "gexiv2_0.10.4-1+nmu1.debian.tar.xz gexiv2_0.10.4-1+nmu1.dsc gexiv2_0.10.4.orig.tar.xz ",
-      "homepage": "https://wiki.gnome.org/Projects/gexiv2",
-      "depends": "debhelper dh-autoreconf libglib2.0-dev libexiv2-dev(>=0.21) gobject-introspection libgirepository1.0-dev python-gi python3-gi ",
-      "binary": "libgexiv2-2 gir1.2-gexiv2-0.10 libgexiv2-dev",
-      "description_libgexiv22": "GObject-based wrapper around the Exiv2 library",
-      "description_gir12gexiv2010": "GObject-based wrapper around the Exiv2 library - introspection data",
-      "description_libgexiv2dev": "GObject-based wrapper around the Exiv2 library - development files",
-      "md5": " 2e30e1b7748abac9a55f6d4e174cb9c2 23044bf308b938e978f15c9093141a08 7d6f7f76c0765a6911f9f9fa4b97cab8",
-      "size": " 12_KiB  4_KiB  264_KiB "
-    },
     "gimp": 
     {
       "version": "2.8.22+git32586-8ca024a02c-1",
@@ -355,18 +327,18 @@
     },
     "gimpgtk3": 
     {
-      "version": "2.9.4+git39060-3762480-2",
+      "version": "2.9.8+git40211-8b3a6bcf5c-1",
       "description": " The Free & Open Source Image Editor",
       "sourceurl": "https://notesalexp.org/source/main/g/gimp-gtk3",
-      "sourcefile": "gimp-gtk3_2.9.4+git39060-3762480-2.debian.tar.xz gimp-gtk3_2.9.4+git39060-3762480-2.dsc gimp-gtk3_2.9.4+git39060-3762480.orig.tar.xz ",
+      "sourcefile": "gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.debian.tar.xz gimp-gtk3_2.9.8+git40211-8b3a6bcf5c-1.dsc gimp-gtk3_2.9.8+git40211-8b3a6bcf5c.orig.tar.xz ",
       "homepage": "http://www.gimp.org/",
-      "depends": "debhelper(>=9) autotools-dev dh-autoreconf gettext gnome-pkg-tools gtk-doc-tools(>=1.0) intltool(>=0.40.1) iso-codes libaa1-dev libart-2.0-dev libasound2-dev(>=1.0.0)[linux-any] libatk1.0-dev(>=2.2.0) libbz2-dev libcairo2-dev(>=1.10.2) libcurl4-gnutls-dev(>=7.15.1) libdbus-glib-1-dev(>=0.70) libexif-dev(>=0.6.15) libfreetype6-dev(>=2.2) libfontconfig1-dev(>=2.2.0) libglib2.0-dev(>=2.30.2) libglib2.0-doc libgtk-3-dev libgtk-3-doc libgdk-pixbuf2.0-dev(>=2.24.1) libgdk-pixbuf2.0-doc libgs-dev libgudev-1.0-dev(>=167)[linux-any] libice-dev libjpeg-dev libmng-dev libpango1.0-dev(>=1.29.4) libpoppler-glib-dev(>=0.12.4) librsvg2-dev(>=2.14.0) libsm-dev libtiff-dev libwebkitgtk-3.0-dev libwmf-dev(>=0.2.8) libx11-dev libxcursor-dev libxmu-dev libxpm-dev libxt-dev zlib1g-dev patchutils python-dev(>=2.6.6-3) python-gtk2-dev(>=2.10.4) xsltproc python2.6|python2.7 libjson-glib-dev libjson-c-dev libgexiv2-dev python-cairo-dev libopenexr-dev git libsdl1.2-dev libavcodec-dev libavformat-dev libsuitesparse-dev libexiv2-dev ccache libspiro-dev liblua5.1-dev libv4l-dev libswscale-dev libopenraw-dev libwebp-dev libgraphviz-dev libgirepository1.0-dev libraw-dev valac graphviz gtk-update-icon-cache ",
+      "depends": "debhelper(>=9) autotools-dev dh-autoreconf gettext gnome-pkg-tools gtk-doc-tools(>=1.0) intltool(>=0.40.1) iso-codes libaa1-dev libart-2.0-dev libasound2-dev(>=1.0.0)[linux-any] libatk1.0-dev(>=2.2.0) libbz2-dev libcairo2-dev(>=1.10.2) libcurl4-gnutls-dev(>=7.15.1) libdbus-glib-1-dev(>=0.70) libexif-dev(>=0.6.15) libfreetype6-dev(>=2.2) libfontconfig1-dev(>=2.2.0) libglib2.0-dev(>=2.30.2) libglib2.0-doc libgtk-3-dev libgtk-3-doc libgdk-pixbuf2.0-dev(>=2.24.1) libgdk-pixbuf2.0-doc libgs-dev libgudev-1.0-dev(>=167)[linux-any] libice-dev libjpeg-dev libmng-dev libpango1.0-dev(>=1.29.4) libpoppler-glib-dev(>=0.12.4) librsvg2-dev(>=2.14.0) libsm-dev libtiff-dev libwebkitgtk-3.0-dev libwmf-dev(>=0.2.8) libx11-dev libxcursor-dev libxmu-dev libxpm-dev libxt-dev zlib1g-dev patchutils python-dev(>=2.6.6-3) python-gtk2-dev(>=2.10.4) xsltproc python2.6|python2.7 libjson-glib-dev libjson-c-dev libgexiv2-dev python-cairo-dev libopenexr-dev git libsdl1.2-dev libavcodec-dev libavformat-dev libsuitesparse-dev libexiv2-dev ccache libspiro-dev liblua5.1-dev libv4l-dev libswscale-dev libopenraw-dev libwebp-dev libgraphviz-dev libgirepository1.0-dev libraw-dev valac graphviz gobject-introspection python-gi python3-gi libmount-dev libgnutls28-dev libpng16-dev|libpng-dev cmake libopenjp2-7-dev libcroco3-dev gperf python-lxml python-six ",
       "binary": "gimp-gtk3 gimp-gtk3-data gimp-gtk3-dev",
       "description_gimpgtk3": "advanced picture editor",
       "description_gimpgtk3data": "Data files for GIMP",
       "description_gimpgtk3dev": "Headers and other files for compiling plugins for GIMP",
-      "md5": " 0a66a86feacc697d83c73bcad311686d 5ad6f80afdc97d2849b71a19851e0bca 16b929f24377868b282442a7682a9596",
-      "size": " 40_KiB  4_KiB  90.83_MiB "
+      "md5": " 175c3c67b5c09c20d001d2fb52044aeb bb95a94aa5e17a372b1b13437899bb87 19b69eefabfb1f307908e6b75b0e989b",
+      "size": " 44_KiB  4_KiB  89.80_MiB "
     },
     "gimppluginbimp": 
     {
@@ -591,23 +563,6 @@
       "md5": " 37ba4e2f1bd50884f0726f6664eb5c0d 130fa5a3c54fc77df1c97d0e96d3e0d9 6ea29a68357862a192c3f9b15a1c7a79 e4c3a0f53ca1f8ef009ba61263070a76",
       "size": " 24_KiB  4_KiB  3.23_MiB  15.98_MiB "
     },
-    "netgen": 
-    {
-      "version": "4.9.13.dfsg-11+nmu1",
-      "description": " Automatic 3d tetrahedral mesh generator",
-      "sourceurl": "https://notesalexp.org/source/main/n/netgen",
-      "sourcefile": "netgen_4.9.13.dfsg-11+nmu1.debian.tar.xz netgen_4.9.13.dfsg-11+nmu1.dsc netgen_4.9.13.dfsg.orig.tar.gz ",
-      "homepage": "http://sourceforge.net/projects/netgen-mesher/",
-      "depends": "debhelper(>=10) autotools-dev automake libtool tcl8.5-dev tk8.5-dev tix-dev docbook-to-man libxmu-dev libglu1-mesa-dev liboce-foundation-dev(>=0.10) liboce-modeling-dev(>=0.10) liboce-visualization-dev(>=0.10) liboce-ocaf-dev(>=0.10) liboce-ocaf-lite-dev(>=0.10) libtogl-dev libswscale-dev libjpeg-dev libbz2-dev ",
-      "binary": "netgen netgen-doc libnglib-dev libnglib-4.9.13 netgen-headers",
-      "description_netgen": "Automatic 3d tetrahedral mesh generator",
-      "description_netgendoc": "Automatic 3d tetrahedral mesh generator documentation",
-      "description_libnglibdev": "Automatic 3d tetrahedral mesh generator development files",
-      "description_libnglib4913": "Automatic 3d tetrahedral mesh generator shared library",
-      "description_netgenheaders": "Automatic 3d tetrahedral mesh generator internal headers",
-      "md5": " b781a866b7f5cebf086b4a5ff979b001 25896f0e563ef28b2c15632887929a6b 2d56642ca673106837bcd08ff9913d57",
-      "size": " 24_KiB  4_KiB  1.74_MiB "
-    },
     "obkey": 
     {
       "version": "1.0+git20111228-5",
@@ -788,22 +743,6 @@
       "description_qcomicbook": "qt viewer for comic book archives (cbr/cbz/cba/cbg/cbb)",
       "md5": " 4bdbd81d566fd3903c5b4798aa1fdb22 c1c67fe18c0deb849f3ca9418fbd7d98 9ea617c4e4917e8ee73163a1a2daee2a",
       "size": " 8_KiB  4_KiB  644_KiB "
-    },
-    "qpxtool": 
-    {
-      "version": "0.7.2-4+nmu2",
-      "description": " CD/DVD quality checker",
-      "sourceurl": "https://notesalexp.org/source/main/q/qpxtool",
-      "sourcefile": "qpxtool_0.7.2-4+nmu2.debian.tar.xz qpxtool_0.7.2-4+nmu2.dsc qpxtool_0.7.2.orig.tar.bz2 ",
-      "homepage": "http://qpxtool.sourceforge.net/",
-      "depends": "debhelper(>=9) hurd-dev[hurd-i386] libcam-dev[kfreebsd-any] libpng-dev libqt4-dev qt4-qmake ",
-      "binary": "qpxtool pxfw libqpx0 libqpx-dev",
-      "description_qpxtool": "CD/DVD quality checker",
-      "description_pxfw": "Plextor firmware updater",
-      "description_libqpx0": "CD/DVD quality checker (shared libraries)",
-      "description_libqpxdev": "CD/DVD quality checker (development files)",
-      "md5": " d0f6f2f4e80d01c200f805f24963e005 50cb3ffd5dbd7c2769f385ee1c522acb b1235e74b8ef4fe087a6b64f5cfca14a",
-      "size": " 20_KiB  4_KiB  576_KiB "
     },
     "qtboxeditor": 
     {

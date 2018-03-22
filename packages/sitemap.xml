@@ -22,9 +22,6 @@
         <loc>https://notesalexp.org/packages/en/artful/amd64/audacity-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/autopano-sift-c/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/azpainter/</loc>
     </url>
     <url>
@@ -86,15 +83,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/fatrat/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/fatrat-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/amd64/fatrat-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/freecad/</loc>
@@ -868,9 +856,6 @@
         <loc>https://notesalexp.org/packages/en/artful/i386/audacity-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/autopano-sift-c/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/azpainter/</loc>
     </url>
     <url>
@@ -932,15 +917,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/fatrat/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/fatrat-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/artful/i386/fatrat-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/freecad/</loc>
@@ -1714,9 +1690,6 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/audacity-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/autopano-sift-c/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/azpainter/</loc>
     </url>
     <url>
@@ -1780,15 +1753,6 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-sounds/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/fatrat/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/fatrat-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/fatrat-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/gimp/</loc>
     </url>
     <url>
@@ -1814,9 +1778,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/gimp-plugin-bimp/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/gir1.2-libmypaint0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/gir1.2-libmypaint-2.0/</loc>
@@ -1867,16 +1828,10 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/libleptonica-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/libmypaint-2.0-0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/libmypaint-2.0-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/libmypaint-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/librecad/</loc>
@@ -2521,9 +2476,6 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/audacity-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/autopano-sift-c/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/azpainter/</loc>
     </url>
     <url>
@@ -2587,15 +2539,6 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-sounds/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/fatrat/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/fatrat-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/fatrat-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/gimp/</loc>
     </url>
     <url>
@@ -2621,9 +2564,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/gimp-plugin-bimp/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/gir1.2-libmypaint0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/gir1.2-libmypaint-2.0/</loc>
@@ -2674,16 +2614,10 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/libleptonica-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/libmypaint-2.0-0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/libmypaint-2.0-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/libmypaint-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/librecad/</loc>
@@ -3463,12 +3397,6 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/gimp-plugin-bimp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/gir1.2-gexiv2-0.10/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/gir1.2-libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/gir1.2-libmypaint-2.0/</loc>
     </url>
     <url>
@@ -3550,12 +3478,6 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libgettextpo-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/libgexiv2-2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/libgexiv2-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libgimp2.0/</loc>
     </url>
     <url>
@@ -3583,19 +3505,10 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libleptonica-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libmypaint-2.0-0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libmypaint-2.0-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/libmypaint-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-foundation10/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-foundation11/</loc>
@@ -3604,16 +3517,10 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-foundation-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-modeling10/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-modeling11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-modeling-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-ocaf10/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-ocaf11/</loc>
@@ -3622,16 +3529,10 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-ocaf-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-ocaf-lite10/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-ocaf-lite11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-ocaf-lite-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-visualization10/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-visualization11/</loc>
@@ -4426,12 +4327,6 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/gimp-plugin-bimp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/gir1.2-gexiv2-0.10/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/gir1.2-libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/gir1.2-libmypaint-2.0/</loc>
     </url>
     <url>
@@ -4513,12 +4408,6 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/libgettextpo-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/libgexiv2-2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/libgexiv2-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/libgimp2.0/</loc>
     </url>
     <url>
@@ -4546,19 +4435,10 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/libleptonica-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/libmypaint-2.0-0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/libmypaint-2.0-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/libmypaint-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-foundation10/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-foundation11/</loc>
@@ -4567,16 +4447,10 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-foundation-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-modeling10/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-modeling11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-modeling-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-ocaf10/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-ocaf11/</loc>
@@ -4585,16 +4459,10 @@
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-ocaf-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-ocaf-lite10/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-ocaf-lite11/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-ocaf-lite-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-visualization10/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-visualization11/</loc>
@@ -6148,9 +6016,6 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/audacity-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/autopano-sift-c/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/azpainter/</loc>
     </url>
     <url>
@@ -6167,12 +6032,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/compizboxmenu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/cuneiform-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/cuneiform-linux/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/deadbeef/</loc>
@@ -6220,15 +6079,6 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-sounds/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/fatrat/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/fatrat-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/fatrat-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/freecad/</loc>
     </url>
     <url>
@@ -6268,9 +6118,6 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/gimp-plugin-bimp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/gir1.2-libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/gir1.2-libmypaint-2.0/</loc>
     </url>
     <url>
@@ -6301,12 +6148,6 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/libeiskaltdcpp-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/libfaad2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/libfaad-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/libgimp2.0/</loc>
     </url>
     <url>
@@ -6325,22 +6166,10 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/libleptonica-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/libmypaint-2.0-0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/libmypaint-2.0-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/libmypaint-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/libqpx0/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/libqpx-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/librecad/</loc>
@@ -6424,12 +6253,6 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/psi-plus-webkit/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/pxfw/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/pytyle/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/q4wine/</loc>
     </url>
     <url>
@@ -6440,9 +6263,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/qcomicbook/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/qpxtool/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/qt-box-editor/</loc>
@@ -6979,9 +6799,6 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/veracrypt/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/yagf/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/znotes/</loc>
     </url>
     <url>
@@ -7000,9 +6817,6 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/audacity-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/autopano-sift-c/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/azpainter/</loc>
     </url>
     <url>
@@ -7019,12 +6833,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/compizboxmenu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/cuneiform-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/cuneiform-linux/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/deadbeef/</loc>
@@ -7072,15 +6880,6 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-sounds/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/fatrat/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/fatrat-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/fatrat-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/freecad/</loc>
     </url>
     <url>
@@ -7120,9 +6919,6 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/gimp-plugin-bimp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/gir1.2-libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/gir1.2-libmypaint-2.0/</loc>
     </url>
     <url>
@@ -7153,12 +6949,6 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/libeiskaltdcpp-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/libfaad2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/libfaad-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/libgimp2.0/</loc>
     </url>
     <url>
@@ -7177,22 +6967,10 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/libleptonica-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/libmypaint-2.0-0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/libmypaint-2.0-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/libmypaint-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/libqpx0/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/libqpx-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/librecad/</loc>
@@ -7276,12 +7054,6 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/psi-plus-webkit/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/pxfw/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/pytyle/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/q4wine/</loc>
     </url>
     <url>
@@ -7292,9 +7064,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/qcomicbook/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/qpxtool/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/qt-box-editor/</loc>
@@ -7831,9 +7600,6 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/veracrypt/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/yagf/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/znotes/</loc>
     </url>
     <url>
@@ -8065,9 +7831,6 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/audacity-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/autopano-sift-c/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/azpainter/</loc>
     </url>
     <url>
@@ -8084,12 +7847,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/compizboxmenu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/cuneiform-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/cuneiform-linux/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/deadbeef/</loc>
@@ -8185,9 +7942,6 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/gimp-plugin-bimp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/gir1.2-libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/gir1.2-libmypaint-2.0/</loc>
     </url>
     <url>
@@ -8242,22 +7996,10 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libleptonica-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libmypaint-2.0-0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libmypaint-2.0-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/libmypaint-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/libnglib-4.9.13/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/libnglib-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/liboce-foundation11/</loc>
@@ -8288,12 +8030,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/liboce-visualization-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/libqpx0/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/libqpx-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/librecad/</loc>
@@ -8341,15 +8077,6 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/myrulib/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/netgen/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/netgen-doc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/netgen-headers/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/notesalexp-keyring/</loc>
     </url>
     <url>
@@ -8395,9 +8122,6 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/psi-plus-webkit/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/pxfw/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/q4wine/</loc>
     </url>
     <url>
@@ -8408,9 +8132,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/qcomicbook/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/qpxtool/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/qt-box-editor/</loc>
@@ -8944,9 +8665,6 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/veracrypt/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/amd64/yagf/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/znotes/</loc>
     </url>
     <url>
@@ -8965,9 +8683,6 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/audacity-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/autopano-sift-c/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/azpainter/</loc>
     </url>
     <url>
@@ -8984,12 +8699,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/compizboxmenu/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/cuneiform-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/cuneiform-linux/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/deadbeef/</loc>
@@ -9085,9 +8794,6 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/gimp-plugin-bimp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/gir1.2-libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/gir1.2-libmypaint-2.0/</loc>
     </url>
     <url>
@@ -9142,16 +8848,10 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/libleptonica-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libmypaint-2.0-0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libmypaint-2.0-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/libmypaint-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/liboce-foundation11/</loc>
@@ -9182,12 +8882,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/liboce-visualization-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/libqpx0/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/libqpx-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/librecad/</loc>
@@ -9235,9 +8929,6 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/myrulib/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/netgen-doc/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/notesalexp-keyring/</loc>
     </url>
     <url>
@@ -9283,9 +8974,6 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/psi-plus-webkit/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/pxfw/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/q4wine/</loc>
     </url>
     <url>
@@ -9296,9 +8984,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/qcomicbook/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/qpxtool/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/qt-box-editor/</loc>
@@ -9832,9 +9517,6 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/veracrypt/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/stretch/i386/yagf/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/znotes/</loc>
     </url>
     <url>
@@ -10022,9 +9704,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/libkvilib4/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/amd64/liblept4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/liblept5/</loc>
@@ -10868,9 +10547,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/libkvilib4/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/trusty/i386/liblept4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/liblept5/</loc>
@@ -12925,9 +12601,6 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/gimp-plugin-bimp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/gir1.2-libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/gir1.2-libmypaint-2.0/</loc>
     </url>
     <url>
@@ -13003,16 +12676,10 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libleptonica-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libmypaint-2.0-0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libmypaint-2.0-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/libmypaint-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-foundation10/</loc>
@@ -13058,12 +12725,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-visualization-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/libqpx0/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/libqpx-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/librecad/</loc>
@@ -13150,9 +12811,6 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/psi-plus-webkit/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/pxfw/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/q4wine/</loc>
     </url>
     <url>
@@ -13163,9 +12821,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/qcomicbook/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/amd64/qpxtool/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/qt-box-editor/</loc>
@@ -13837,9 +13492,6 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/gimp-plugin-bimp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/gir1.2-libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/gir1.2-libmypaint-2.0/</loc>
     </url>
     <url>
@@ -13915,16 +13567,10 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/libleptonica-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/libmypaint0/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/libmypaint-2.0-0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/libmypaint-2.0-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/libmypaint-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-foundation10/</loc>
@@ -13970,12 +13616,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-visualization-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/libqpx0/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/libqpx-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/librecad/</loc>
@@ -14062,9 +13702,6 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/psi-plus-webkit/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/pxfw/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/q4wine/</loc>
     </url>
     <url>
@@ -14075,9 +13712,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/qcomicbook/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/xenial/i386/qpxtool/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/qt-box-editor/</loc>
@@ -14738,6 +14372,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2018/03/04/20180304/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/03/17/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/03/17/20180317/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
