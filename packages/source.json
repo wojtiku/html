@@ -818,8 +818,8 @@
       "homepage": "http://smplayer.sourceforge.net/",
       "depends": "debhelper(>=9) qtbase5-dev(>=5.1) qt5-qmake qtscript5-dev qttools5-dev-tools zlib1g-dev qtbase5-private-dev ",
       "binary": "smplayer smplayer-l10n",
-      "description_smplayer": "complete front-end for MPlayer and MPlayer2",
-      "description_smplayerl10n": "complete front-end for MPlayer and MPlayer2 - translation files",
+      "description_smplayer": "Complete front-end for MPlayer, MPlayer2 and mpv",
+      "description_smplayerl10n": "Complete front-end for MPlayer, MPlayer2 and mpv - translation files",
       "md5": " aa6b787c857ce26200c0ec77559454e3 bc3d862658c804196f7904b4fd5e4c44 45c2b964eaf428aa8b42046fe0d224e0",
       "size": " 12_KiB  4_KiB  3.91_MiB "
     },
@@ -1095,16 +1095,16 @@
     },
     "veracrypt": 
     {
-      "version": "1.21-3",
+      "version": "1.22-1",
       "description": " Free open-source disk encryption software",
       "sourceurl": "https://notesalexp.org/source/main/v/veracrypt",
-      "sourcefile": "veracrypt_1.21-3.debian.tar.xz veracrypt_1.21-3.dsc veracrypt_1.21.orig.tar.bz2 ",
-      "homepage": "https://veracrypt.codeplex.com/",
+      "sourcefile": "veracrypt_1.22-1.debian.tar.xz veracrypt_1.22-1.dsc veracrypt_1.22.orig.tar.bz2 ",
+      "homepage": "https://www.veracrypt.fr/",
       "depends": "debhelper(>=9) libgtk2.0-dev libfuse-dev dmsetup libsm6 nasm makeself pkg-config yasm libsm-dev libglw1-mesa-dev libwxgtk3.0-dev ",
       "binary": "veracrypt",
       "description_veracrypt": "Free open-source disk encryption software",
-      "md5": " 8c8560d0c4b03a6f8349399bd8e8b073 34cb18d9155ead33e384c39e925fe9e9 00c0f7101c2956e99c54cb8966e7fc92",
-      "size": " 4_KiB  4_KiB  21.78_MiB "
+      "md5": " a611706d112a5967cb19951dd9996a81 e0f033dd1cc8194c09b486590b941edb 54dd43d2d9155cf54504dbc57984e822",
+      "size": " 8_KiB  4_KiB  22.16_MiB "
     },
     "yagf": 
     {
