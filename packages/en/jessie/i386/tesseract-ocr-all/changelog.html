@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.00~git2246-023e1b34-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.00~git2284-f8e26eed-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,18 +41,76 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in jessie of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.00~git2246-023e1b34-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.00~git2284-f8e26eed-1) unstable; urgency=medium
 
   * Compile
   * disable patch - fix-up-headers
   * TESSDATA_PREFIX variable was changed to /usr/share/tesseract-
     ocr/4.00
   * fix patch - man.diff
+  * Add upstream/metadata
+  * fix "insecure-copyright-format-uri"
+  * add Version Control System location
+  * moved installation path for tesstrain.sh
+  * add shebang to language-specific.sh
+  * add configure option --libdir=\$${prefix}/lib/$(DEB_HOST_MULTIARCH)
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: 023e1b340e6a4dd35909dde82f928790caec3ea5
-  * Date: 1520973390
+  * Commit: f8e26eedff5ba8c6ebbe247d05a3a0ccd04a532d
+  * Date: 1522493369
   * git changelog:
+  *  f8e26eed - fix cmake windows version info for tesseract library and
+    executable
+  *  d28439c3 - Merge pull request #1438 from stweil/vs2010
+  *  ead7759e - Merge pull request #1430 from stweil/news
+  *  f29c12a0 - classify: Fix warnings from Doxygen (#1439)
+  *  8701b151 - cmake: Automatically build tesseract.rc with version
+    from file
+  *  2cc46fa6 - BITS16: Use inline code for all constructors (#1434)
+  *  832926f5 - Update library version handling for cmake (#1435)
+  *  b1d291e6 - cmake: Get version information from VERSION file (#1436)
+  *  9e74ed37 - Add IntCastRounded for float argument (#1433)
+  *  6bbfc3b5 - Create version.h from available version information
+    (#1432)
+  *  53a25713 - autoconf: Get version components from PACKAGE_VERSION
+    (#1431)
+  *  033418e3 - Remove NEWS stub file
+  *  3fcb952d - Remove unneeded CPPFLAGS (#1425)
+  *  c7c738a1 - lstm: Small code optimisation (#1426)
+  *  365611f2 - doc: Fix asciidoc escapes for C++ (#1427)
+  *  18c8f883 - Remove deprecated parameters (#1418)
+  *  3dcab4e1 - classify: Remove deprecated method ExtractIntFeat
+    (#1422)
+  *  bf0bddb9 - dict: Remove deprecated parameters (#1421)
+  *  d13b8620 - Remove deprecated method DumpPGM (#1420)
+  *  ee201e1f - Remove deprecated support for -psm argument (#1419)
+  *  afcd4cbe - Remove unused local variable max_num_strokes (#1417)
+  *  d087f202 - configure: Remove GIT_REV which is no longer used
+    (#1416)
+  *  8f7be2e7 - lstm: Replace NULL by nullptr (#1415)
+  *  3fa25d9b - Install training tools with CMake.
+  *  e45d9587 - arch: Remove stray ) in pragma (#1413)
+  *  a02b0f97 - Remove vcsversion.h (#1412)
+  *  b94bbd6e - Update version handling (#1408)
+  *  8c84d29c - Fix CID 1270406, CID 1270407 and CID 1270411 Arguments
+    in wrong order (#1410)
+  *  660b3664 - Fix issues reported by Coverity Scan (#1409)
+  *  1694be92 - tessdatamanager: Use PACKAGE_VERSION instead of
+    TESSERACT_VERSION_STR (#1407)
+  *  8c258750 - Simplify Makefile and add missing dependency for target
+    training-install (#1403)
+  *  8209ce36 - cmake: Update version and add it to config_auto.h
+    (#1402)
+  *  81c47288 - configure: Use m4_esyscmd_s to suppress linefeed (fix
+    needed for macOS) (#1401)
+  *  64af706f - arch: Fix some compiler warnings (-Wignored-qualifiers)
+    (#1400)
+  *  6b2a0901 - viewer: Fix some compiler warnings (-Wstringop-
+    truncation) (#1399)
+  *  c222145c - wordrec: Fix compiler warning (-Wstringop-truncation)
+    (#1398)
+  *  860dd10b - autogen: Fix typo in comment (#1396)
+  *  d50769dc - autogen: Report missing requirements (#1394)
   *  023e1b34 - Use POSIX data types and macros (#878)
   *  40c71bfc - Update unittest for new script data location and fix out-
     of-tree build (#1386)
@@ -86,7 +144,7 @@
   *  c6e89160 - fixes for C++11 (#1164)
   *  ad6f3b41 - Fixed unqualified class "string" (#1082)
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 14 Mar 2018 09:24:08 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 31 Mar 2018 18:47:29 +0300
 
 tesseract (4.00~git2219-40f43111-1.2) unstable; urgency=medium
 
