@@ -208,6 +208,33 @@
         <loc>https://notesalexp.org/packages/en/artful/amd64/liboce-visualization-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/libopenjp2-7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/libopenjp2-7-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/libopenjp2-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/libopenjp3d7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/libopenjp3d-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/libopenjpip7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/libopenjpip-dec-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/libopenjpip-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/libopenjpip-viewer/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/librecad/</loc>
     </url>
     <url>
@@ -1040,6 +1067,33 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/liboce-visualization-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/libopenjp2-7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/libopenjp2-7-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/libopenjp2-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/libopenjp3d7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/libopenjp3d-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/libopenjpip7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/libopenjpip-dec-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/libopenjpip-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/libopenjpip-viewer/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/librecad/</loc>
@@ -3541,6 +3595,33 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liboce-visualization-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libopenjp2-7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libopenjp2-7-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libopenjp2-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libopenjp3d7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libopenjp3d-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libopenjpip7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libopenjpip-dec-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libopenjpip-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libopenjpip-viewer/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libqpx0/</loc>
     </url>
     <url>
@@ -4469,6 +4550,33 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liboce-visualization-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libopenjp2-7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libopenjp2-7-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libopenjp2-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libopenjp3d7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libopenjp3d-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libopenjpip7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libopenjpip-dec-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libopenjpip-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libopenjpip-viewer/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/libqpx0/</loc>
@@ -8032,6 +8140,33 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/liboce-visualization-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libopenjp2-7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libopenjp2-7-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libopenjp2-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libopenjp3d7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libopenjp3d-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libopenjpip7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libopenjpip-dec-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libopenjpip-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libopenjpip-viewer/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/librecad/</loc>
     </url>
     <url>
@@ -8882,6 +9017,33 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/liboce-visualization-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libopenjp2-7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libopenjp2-7-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libopenjp2-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libopenjp3d7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libopenjp3d-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libopenjpip7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libopenjpip-dec-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libopenjpip-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libopenjpip-viewer/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/librecad/</loc>
@@ -12727,6 +12889,33 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liboce-visualization-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libopenjp2-7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libopenjp2-7-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libopenjp2-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libopenjp3d7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libopenjp3d-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libopenjpip7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libopenjpip-dec-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libopenjpip-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libopenjpip-viewer/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/librecad/</loc>
     </url>
     <url>
@@ -13616,6 +13805,33 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/liboce-visualization-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libopenjp2-7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libopenjp2-7-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libopenjp2-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libopenjp3d7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libopenjp3d-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libopenjpip7/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libopenjpip-dec-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libopenjpip-server/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libopenjpip-viewer/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/librecad/</loc>
