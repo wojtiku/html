@@ -50,7 +50,7 @@
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Package: freecad ( 0.16+git6712-da2d364-2 ) </h1>
+<h1>Package: freecad ( 0.17+git13510-aa0f6b54d-1 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for freecad</strong></p>
 <a href="https://notesalexp.org/packages/images/freecad.png" data-lightbox="freecad" data-title="freecad -  Extensible Open Source CAx program (alpha) "><img class="example-image" src="https://notesalexp.org/packages/images/thumb/freecad.png" alt="freecad" /></a>
@@ -61,9 +61,9 @@
 </ul>
 <p><strong>Download Source Package <a href="https://notesalexp.org/source/main/f/freecad">freecad</a>:</strong></p>
 <ul>
-<li><a href="https://notesalexp.org/source/main/f/freecad/freecad_0.16+git6712-da2d364-2.debian.tar.xz">[freecad_0.16+git6712-da2d364-2.debian.tar.xz]</a></li>
-<li><a href="https://notesalexp.org/source/main/f/freecad/freecad_0.16+git6712-da2d364-2.dsc">[freecad_0.16+git6712-da2d364-2.dsc]</a></li>
-<li><a href="https://notesalexp.org/source/main/f/freecad/freecad_0.16+git6712-da2d364.orig.tar.xz">[freecad_0.16+git6712-da2d364.orig.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/source/main/f/freecad/freecad_0.17+git13510-aa0f6b54d-1.debian.tar.xz">[freecad_0.17+git13510-aa0f6b54d-1.debian.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/source/main/f/freecad/freecad_0.17+git13510-aa0f6b54d-1.dsc">[freecad_0.17+git13510-aa0f6b54d-1.dsc]</a></li>
+<li><a href="https://notesalexp.org/source/main/f/freecad/freecad_0.17+git13510-aa0f6b54d.orig.tar.xz">[freecad_0.17+git13510-aa0f6b54d.orig.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
 <ul>
@@ -124,6 +124,10 @@
 <dt><span> interactive high-level object-oriented language (default version)</span></dt>
 </dl></li>
 <li><dl>
+<dt><span><strong>dep:</strong> libboost-filesystem1.62.0 </span></dt>
+<dt><span> filesystem operations (portable paths, iteration over directories, etc) in C++</span></dt>
+</dl></li>
+<li><dl>
 <dt><span><strong>dep:</strong> libboost-program-options1.62.0 </span></dt>
 <dt><span> program options library for C++</span></dt>
 </dl></li>
@@ -142,6 +146,10 @@
 <li><dl>
 <dt><span><strong>dep:</strong> libboost-system1.62.0 </span></dt>
 <dt><span> Operating system (e.g. diagnostics support) library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libboost-thread1.62.0 </span></dt>
+<dt><span> portable C++ multi-threading</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libc6 (&gt;=2.14)  </span></dt>
@@ -174,6 +182,14 @@
 <dt><span> Mesa OpenGL utility library (GLU)</span></dt>
 </dl></li>
 <li><dl>
+<dt><span><strong>dep:</strong> libmed1v5 </span></dt>
+<dt><span> Library to exchange meshed data (Fortran version)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libmedc1v5 </span></dt>
+<dt><span> Library to exchange meshed data (C version)</span></dt>
+</dl></li>
+<li><dl>
 <dt><span><strong>dep:</strong> liboce-foundation11 </span></dt>
 <dt><span> OpenCASCADE Community Edition CAE platform shared library</span></dt>
 </dl></li>
@@ -192,6 +208,10 @@
 <li><dl>
 <dt><span><strong>dep:</strong> liboce-visualization11 </span></dt>
 <dt><span> OpenCASCADE Community Edition CAE platform shared library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libopenmpi2 </span></dt>
+<dt><span> high performance message passing library -- shared library</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libpython2.7 (&gt;=2.7)  </span></dt>
@@ -214,7 +234,7 @@
 <dt><span> Qt 4 XML module</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqtcore4 (&gt;=4:4.8.0)  </span></dt>
+<dt><span><strong>dep:</strong> libqtcore4 (&gt;=4:4.8.7)  </span></dt>
 <dt><span> Qt 4 core module</span></dt>
 </dl></li>
 <li><dl>
@@ -236,6 +256,10 @@
 <li><dl>
 <dt><span><strong>dep:</strong> libstdc++6 (&gt;=5.2)  </span></dt>
 <dt><span> GNU Standard C++ Library v3</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libvtk6.3 </span></dt>
+<dt><span> VTK libraries</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libx11-6 </span></dt>
@@ -274,16 +298,16 @@
     </tr>
 <tr>
     <th><a href="https://notesalexp.org/packages/en/artful/amd64/freecad/download.html">amd64</a></th>
-    <td> 0.16+git6712-da2d364-2 </td>
-    <td class="size"> 20.25 MiB  </td>
-    <td class="size"> 97.26 MiB  </td>
+    <td> 0.17+git13510-aa0f6b54d-1 </td>
+    <td class="size"> 28.87 MiB  </td>
+    <td class="size"> 133.38 MiB  </td>
     <td>[<a href="https://notesalexp.org/packages/en/artful/amd64/freecad/filelist.html">list of files</a>]</td>
 </tr>
 <tr>
     <th><a href="https://notesalexp.org/packages/en/artful/i386/freecad/download.html">i386</a></th>
-    <td> 0.16+git6712-da2d364-2 </td>
-    <td class="size"> 20.69 MiB  </td>
-    <td class="size"> 96.34 MiB  </td>
+    <td> 0.17+git13510-aa0f6b54d-1 </td>
+    <td class="size"> 29.57 MiB  </td>
+    <td class="size"> 131.68 MiB  </td>
     <td>[<a href="https://notesalexp.org/packages/en/artful/i386/freecad/filelist.html">list of files</a>]</td>
 </tr>
 <tr>

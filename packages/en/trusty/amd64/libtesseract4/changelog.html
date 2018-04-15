@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract4_4.00~git2288-10f4998a-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract4_4.00~git2312-83f311f0-2_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,44 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract4 in trusty of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.00~git2288-10f4998a-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.00~git2312-83f311f0-2) unstable; urgency=medium
+
+  * Compile
+  * URL: git://github.com/tesseract-ocr/tesseract.git
+  * Branch: master
+  * Commit: 83f311f043799dcab6b36bff0a4a30991b682234
+  * Date: 1523594286
+  * git changelog:
+  *  83f311f0 - Merge pull request #1405 from Shreeshrii/patch-2
+  *  c8694788 - Merge pull request #1406 from Shreeshrii/patch-1
+  *  de48cac8 - Merge pull request #1473 from noahmetzger/winfix
+  *  1d4959c2 - Merge pull request #1474 from
+    ic/build_4.0_macOS_compiler_options
+  *  1642d882 - Remove useless echo statement.
+  *  708f5542 - Add flag to build compiler options with G++ on macOS.
+  *  d88a6b5c - Replace unsecure _splitpath by secure _splitpath_s
+  *  b7b6b28e - Fixed Tessdata directory for Windows
+  *  742a0875 - Merge branch 'master' of github.com-egorpugin:tesseract-
+    ocr/tesseract
+  *  7dd2ecd0 - Move cmake packages detection after compiler settings.
+  *  9e1ecdb9 - Merge pull request #1467 from FernandoGOT/master
+  *  3917a192 - fix for mktemp bug on MAC OS X
+  *  0ddfac85 - Merge pull request #1466 from FernandoGOT/master
+  *  7a5033d1 - added sleep 1 before generate_font_image to fix the
+    problem of not finding fonts
+  *  81821da7 - Merge pull request #1457 from stweil/asciidoc
+  *  09212daf - Merge pull request #1458 from stweil/cov
+  *  ef31eaa7 - Don't try to build manpages if asciidoc is missing
+  *  d9156f2d - WorkingPartSet: Remove unused constructor
+  *  4b50f3f4 - Merge pull request #1455 from stweil/cov
+  *  7cf2e2a4 - Overload method ForwardTimeStep (CID 1385636 Explicit
+    null dereferenced)
+  *  437bf851 - Merge pull request #1454 from stweil/autotools
+  *  f9157fd9 - configure: Don't use AM_MAINTAINER_MODE by default
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 13 Apr 2018 19:44:10 +0300
+
+tesseract (4.00~git2288-10f4998a-2) unstable; urgency=medium
 
   * Compile
   * disable patch - fix-up-headers
@@ -54,6 +91,7 @@
   * moved installation path for tesstrain.sh
   * add shebang to language-specific.sh
   * add configure option --libdir=\$${prefix}/lib/$(DEB_HOST_MULTIARCH)
+    (closes: #841845)
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
   * Commit: 10f4998aee3ccc68e9c4931ce744dd292ad6ff19
@@ -149,7 +187,7 @@
   *  c6e89160 - fixes for C++11 (#1164)
   *  ad6f3b41 - Fixed unqualified class "string" (#1082)
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 04 Apr 2018 18:06:26 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 07 Apr 2018 21:10:12 +0300
 
 tesseract (4.00~git2219-40f43111-1.2) unstable; urgency=medium
 

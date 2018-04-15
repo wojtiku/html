@@ -88,6 +88,12 @@
         <loc>https://notesalexp.org/packages/en/artful/amd64/freecad/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/freecad-0.16/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/freecad-0.16-doc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/freecad-daily/</loc>
     </url>
     <url>
@@ -947,6 +953,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/freecad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/freecad-0.16/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/freecad-0.16-doc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/freecad-daily/</loc>
@@ -3406,6 +3418,12 @@
         <loc>https://notesalexp.org/packages/en/jessie/amd64/freecad/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/freecad-0.16/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/freecad-0.16-doc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/freecad-daily/</loc>
     </url>
     <url>
@@ -4361,6 +4379,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/freecad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/freecad-0.16/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/freecad-0.16-doc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/freecad-daily/</loc>
@@ -6190,6 +6214,12 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/freecad/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/freecad-0.16/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/freecad-0.16-doc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/freecad-daily/</loc>
     </url>
     <url>
@@ -6991,6 +7021,12 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/freecad/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/freecad-0.16/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/freecad-0.16-doc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/freecad-daily/</loc>
     </url>
     <url>
@@ -7765,6 +7801,9 @@
         <loc>https://notesalexp.org/packages/en/source/freecad/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/freecad-0.16/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/freecad-daily/</loc>
     </url>
     <url>
@@ -8012,6 +8051,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/freecad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/freecad-0.16/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/freecad-0.16-doc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/freecad-daily/</loc>
@@ -8891,6 +8936,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/freecad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/freecad-0.16/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/freecad-0.16-doc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/freecad-daily/</loc>
@@ -12721,6 +12772,12 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/freecad/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/freecad-0.16/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/freecad-0.16-doc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/freecad-daily/</loc>
     </url>
     <url>
@@ -13637,6 +13694,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/freecad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/freecad-0.16/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/freecad-0.16-doc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/freecad-daily/</loc>

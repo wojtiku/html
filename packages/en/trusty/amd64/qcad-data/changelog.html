@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package qcad-data_3.19.0+git5230-19af34184-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package qcad-data_3.20.0+git5433-7f1b8d092-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,298 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package qcad-data in trusty of architecture amd64</h5>
-<div class="highlight"><pre><span></span>qcad (3.19.0+git5230-19af34184-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>qcad (3.20.0+git5433-7f1b8d092-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 7f1b8d092d300f307d796de48b2653117b6877c6
+  * Date: 1523651478
+  * git changelog:
+  *  7f1b8d092 - make line weight in screen based linetype mode unit
+    independent
+  *  dd5160912 - fix print current view shortcut in print preview
+  *  8e77aded1 - fix PDF export shortcut
+  *  5cfdb58fb - clean up
+  *  47241e93b - fix printing shortcut
+  *  6e6ce1938 - update translations
+  *  d8e1859b6 - set version to 3.20.1
+  *  b4f365002 - fix resource lookup from plugin
+  *  a937d7901 - update translations
+  *  516d91874 - make point type entities easier to select
+  *  a8223acc2 - update
+  *  3ead405cf - add warning if nothing in stretch area
+  *  65298dcc1 - fix color changes in CAD font text
+  *  506ccd8b0 - workaround for Qt 4
+  *  1835021af - clean up
+  *  a1efc8a58 - Merge branch 'master' of github.com:qcad/qcad
+  *  fd1dbcbc1 - fix Qt 4 qsTr workaround
+  *  dda5a17c2 - fix compiler warning
+  *  8ea248b7c - Qt 4 API workaround for qsTranslate with plurals
+  *  b876bd7d2 - clean up
+  *  904c8056c - prevent rotation, mirroring, scaling for pixel unit
+    blocks
+  *  f288c30e0 - hide pixel unit property
+  *  375e34940 - prevent rotating pixel unit block
+  *  8ec9d4e53 - update script bindings
+  *  57f459133 - update warning
+  *  8f64459f4 - avoid warning when previewing operation involving
+    blocks
+  *  851090db6 - implement block pixel unit as variable instead of
+    custom property
+  *  a7fe514ef - don't convert entities in pixel unit blocks
+  *  dbb30d087 - use autoPath for icon paths
+  *  a830563f5 - update script bindings
+  *  a58bf6815 - add getKeyLog
+  *  706588b7e - clean up
+  *  f0017f589 - clean up
+  *  4c278808a - fix keycodes with numbers when options toolbar with
+    inpiut fields shown
+  *  a4960a767 - Merge branch 'master' of github.com:qcad/qcad
+  *  818fe7de0 - clean up
+  *  bd1abd75a - fix startup warning about action not found
+  *  70b851609 - fix loading files from compiled resources
+  *  24cd530c6 - fix loading dxf from compiled resource
+  *  33b9ed383 - update spashscreens
+  *  59794a47e - port to Qt 4
+  *  a365cfc3c - update to version 3.20
+  *  ab37de2b5 - update script bindings
+  *  6f3d0c3b0 - allow disabling of double click to edit blocks per
+    entity
+  *  c115c6100 - add support for alternative / translatable title for
+    custom properies
+  *  4f38e3f37 - update translations
+  *  44912b50e - add support for appending ellipse arc to polyline
+  *  5d52491f6 - fix getting orientation of polyline for polylines with
+    arcs
+  *  5421a4933 - update translations
+  *  b4c74180a - fix FS#1732 - Saving dimension with custom text
+    position
+  *  d8d4d2ffd - set version to 3.20.0
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 14 Apr 2018 11:53:21 +0300
+
+qcad (3.19.0+git5382-54b73311f-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 54b73311f3ce04eee26adf8e3a649acaa2d45a54
+  * Date: 1522104182
+  * git changelog:
+  *  54b73311f - fix FS#1729 - Wrong sizes for dimensions in blocks
+    viewed through viewport
+  *  7b8232f6d - escape < on command line for polar coordinates
+  *  acc54f1ed - force internal deleting of objects
+  *  992d727d0 - set version to 3.19.2.9
+  *  9f85004dd - add script bindings for Qt 5.9.4
+  *  88289cceb - update translations
+  *  c5aa6aab5 - update script bindings
+  *  14b9b4821 - fix undo / redo when modifying closed, periodic spline
+  *  96669d046 - fix reversing of closed, periodic spline from fit
+    points
+  *  75b1250d6 - add setLayerName to entity API
+  *  c9e614d1f - update doc
+  *  94f138d92 - update doc
+  *  a28756edc - add isPointType to make selection of point like
+    entities easier
+  *  118db00cc - add isPointType to make selection of point like
+    entities easier
+  *  1b71eb1bc - clean up
+  *  84474f7ee - disable alternative pen cap style
+  *  4c0e7dce4 - clean up
+  *  6a509796e - update
+  *  2f62e8547 - set version to 3.19.3.0
+  *  2ad4c2492 - update translations
+  *  03fdc5bbd - update translations
+  *  6e0aca29b - update script bindings
+  *  cc103d481 - update script bindings
+  *  434af5e0f - set version to 3.19.2.8
+  *  2aad3c92c - add support for property attributes for custom
+    properties
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 31 Mar 2018 11:35:29 +0300
+
+qcad (3.19.0+git5357-156e58298-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 156e5829813a3f030512cc6f350e68442cf10107
+  * Date: 1521122464
+  * git changelog:
+  *  156e58298 - update script bindings
+  *  38465dd17 - update script bindings
+  *  1ecf8be47 - update script bindings
+  *  ef8501a47 - set version to 3.19.2.7
+  *  99b917ce2 - clean up
+  *  32e673976 - add support for block properties
+  *  0c4e41ae9 - add setCustomProperties
+  *  c25f98691 - fix preview when inserting pixelunit blocks
+  *  8690735ed - add experimental cap style preference
+  *  757708e59 - update script bindings
+  *  e264771eb - add hairlineMinimumMode (avoid subpixel line widths)
+  *  5c3ef33aa - update
+  *  7ce1a903c - allow plugins to override application version
+  *  9692a5d22 - update copyright year
+  *  94a84a7bb - fix paths
+  *  f0e46c623 - fix path
+  *  307809591 - update script bindings
+  *  16de8a9bd - add asserts
+  *  0001d1607 - add delete object example
+  *  42ad7da7d - add example to delete object
+  *  eb5a2c261 - update translations
+  *  fe6efdef4 - update script bindings
+  *  23d4f3466 - add REntity::getZ, REntityData::getZ
+  *  808edee0b - update script bindings
+  *  cf0429c64 - add RShape::setZ
+  *  ea31e9b1e - update test data
+  *  af8409a7c - set version to 3.19.2.6
+  *  ddcbbdc42 - set version to 3.19.2.5
+  *  523952d1d - update Polish translation
+  *  29497d61e - update unit test data
+  *  245153ca8 - make RVector::dot const
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 16 Mar 2018 16:09:53 +0300
+
+qcad (3.19.0+git5326-2d9359aac-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 2d9359aaca92e655a2388745291cee77bae5f2bb
+  * Date: 1519999618
+  * git changelog:
+  *  2d9359aac - update translations
+  *  a6a933f58 - set version to 3.19.2.4
+  *  9fa3a393c - update detection of rectangular type polylines
+  *  125580a4d - update
+  *  a09ab6743 - port to msvc 2017
+  *  a6792e216 - update
+  *  3d5030b70 - port to msvc 2017
+  *  957b2008b - port to msvc 2017
+  *  a432c85d8 - add script bindings for Qt 5.10.1
+  *  ca9f31c9a - add properties to modify size of rectangle-type
+    polylines
+  *  109c342a7 - add test data files
+  *  8a0368fdc - update
+  *  efc5f9a83 - add doc
+  *  03c09b5aa - add ROperation::getText
+  *  e32cc3f87 - update translations
+  *  948dd190a - update
+  *  8136614fa - update spelling
+  *  49495c770 - update formatting
+  *  f67bb37cc - link line tools documentation to shared documentation
+    for line tools
+  *  def5501ba - update shared doc of line tools
+  *  532da8707 - update reference manual: middle menus (Draw > _Line_ >
+    Line 2P)
+  *  4e93390bd - fix script file property (for reference manual)
+  *  d7713d6e2 - update user reference manual
+  *  6ebe1f16b - update translations
+  *  709cba5a9 - clean up
+  *  e0c1a3199 - load translations for english (support separate
+    singular/plural translations)
+  *  3f40d8cf6 - update plural strings
+  *  e4e45881c - fix FS#1720 - Modify > Auto Trim: fails for Rays and
+    Infinite Lines
+  *  27427691c - update API doc
+  *  7cf9c95ce - update translations
+  *  3ebc80448 - update translations
+  *  273ccdc0c - plural translation
+  *  4c4271c59 - translation strings
+  *  871e8945f - add english translation (support plural translations)
+  *  9b1c0b42f - update translations
+  *  6ff032d39 - update translations
+  *  c7189cbd9 - port Qt::escape to Qt 5 toHtmlEscaped
+  *  13ec6eb8a - update script bindings
+  *  97447c63b - allow for alternative print preview implementation
+  *  1f793e500 - add RVector::findFirstFuzzy
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 03 Mar 2018 01:15:17 +0300
+
+qcad (3.19.0+git5286-129f01285-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 129f01285722ad47ec16bd94777dbc6ef0c21beb
+  * Date: 1517924399
+  * git changelog:
+  *  129f01285 - Add preference: Scale of linetypes matches the scale of
+    each viewport
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 16 Feb 2018 02:48:39 +0300
+
+qcad (3.19.0+git5285-08eff6fe0-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 08eff6fe0ba1f5334fde3297af33f74f4da45fe4
+  * Date: 1517589569
+  * git changelog:
+  *  08eff6fe0 - fix cursor paths
+  *  b44b1d20e - fix cursor path
+  *  a41ef7b50 - update meta types
+  *  5470ffee4 - pass document interface when changing settings
+  *  1e296d938 - update copyright year
+  *  38e8dc0c7 - add fallback for temporary directory creation
+  *  ebe09003f - use document interface in layer dialog
+  *  fe1231522 - update resource files
+  *  c7661774f - update looking up actions from scripts in plugins
+  *  b1a4bb1ce - fix potential exceptions
+  *  327b12f7d - add qrc files
+  *  30ac978db - split development and release resources
+  *  2af345d39 - support loading DXF files from resources
+  *  5ae266f5c - support running scripts as resources in a plugin
+  *  38d1e3b2f - prevent duplicate script addons from plugins and files
+  *  deb4f9183 - fix addToPreview
+  *  877d36081 - Merge branch 'master' of github.com:qcad/qcad
+  *  4fd3fc8b8 - support scripts compiled as plugin
+  *  87ebf475d - Merge branch 'master' of github.com:qcad/qcad
+  *  f72b3e518 - support scripts compiled as plugin
+  *  29b8cee74 - Merge branch 'master' of github.com:qcad/qcad
+  *  73b09719a - support scripts compiled as plugin
+  *  6f34cf951 - tolerate absence of scripts folder
+  *  879f0584e - add exists
+  *  151d9ebc2 - tolerate absence of scripts folder
+  *  333c77126 - compile scripts plugin
+  *  a4eb1a515 - add scripts wrapper plugin
+  *  566356ffc - fix compiler warning
+  *  a2bb9af2e - update script bindings
+  *  a0480a095 - update RNewDocumentListener
+  *  dda971400 - update
+  *  ad8e532ad - support shape / shape intersections
+  *  b758668fa - update orientation property
+  *  6681ae387 - keep track of used text height
+  *  c5d1b5f29 - clean up
+  *  0c1c1f82e - optimize updateImage
+  *  ed55dfb94 - update parseScale
+  *  02fc3e8b2 - add orientation property for polyline entities
+  *  60b82e559 - add RPolyline::setOrientation
+  *  9db5f6b79 - update comment
+  *  1f4ed3f19 - update script bindings
+  *  823fb67a1 - disable panning using keys
+  *  a8b0ec2cd - add support for blocks rendered in pixel units
+  *  52e11bfc7 - refactor handling of drawables
+  *  d48967370 - add key listener
+  *  426546b9b - accept key event for number input
+  *  a99648ee2 - clean up
+  *  b7f6252a4 - let arrow key events reach main window
+  *  ce5477cdd - use configured default action as base class for print
+    preview
+  *  1f2309a92 - refactor initialization of default action
+  *  aad6ed724 - update script bindings
+  *  938624a49 - fix pdf export from outside print preview
+  *  08b68c110 - refactor handling of print preview
+  *  defef4281 - fix status of print preview button
+  *  6b74f5b65 - add forceGlobal to force action running in global
+    script engine
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 04 Feb 2018 09:34:35 +0300
+
+qcad (3.19.0+git5230-19af34184-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/qcad/qcad.git
