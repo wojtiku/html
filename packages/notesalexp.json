@@ -5725,21 +5725,21 @@
         },
         "azpainter_amd64": 
         {
-          "packageurl": "https://notesalexp.org/jessie/main/a/azpainter/azpainter_2.1.1-1_amd64.deb",
-          "size": "488_KiB ",
-          "sizebyt": "497506",
-          "version": "2.1.1-1",
-          "isize": "1.16_MiB ",
+          "packageurl": "https://notesalexp.org/jessie/main/a/azpainter/azpainter_2.1.2-2_amd64.deb",
+          "size": "504_KiB ",
+          "sizebyt": "514464",
+          "version": "2.1.2-2",
+          "isize": "1.23_MiB ",
           "depends": "libc6(>=2.15) libfontconfig1(>=2.11) libfreetype6(>=2.3.5) libjpeg62-turbo(>=1.3.1) libpng12-0(>=1.2.13-4) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "470f461e8c0fd1fe89126d9c0922ba57",
-          "sha256": "9d6a506336911ef1faf21bee2644873ded19cb591f39c6c61d83bf0231788497",
-          "description": "16bit RGB full color paint software."
+          "md5": "3ae5ffb9e7a0556be7755d0f80234ab2",
+          "sha256": "5139e1838fc211f04561694e797b6916197a672f96abe611f86edc3602f4046a",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_amd64": 
         {
@@ -11973,21 +11973,21 @@
         },
         "azpainter_i386": 
         {
-          "packageurl": "https://notesalexp.org/jessie/main/a/azpainter/azpainter_2.1.1-1_i386.deb",
-          "size": "520_KiB ",
-          "sizebyt": "529606",
-          "version": "2.1.1-1",
-          "isize": "1.28_MiB ",
+          "packageurl": "https://notesalexp.org/jessie/main/a/azpainter/azpainter_2.1.2-2_i386.deb",
+          "size": "556_KiB ",
+          "sizebyt": "565548",
+          "version": "2.1.2-2",
+          "isize": "1.41_MiB ",
           "depends": "libc6(>=2.15) libfontconfig1(>=2.11) libfreetype6(>=2.3.5) libjpeg62-turbo(>=1.3.1) libpng12-0(>=1.2.13-4) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "8a5e6c57730aaaf36e6d0489a82effb8",
-          "sha256": "504994165c0979258718bd11316be5bf187b2e8c7026752917d25454eaf2b78e",
-          "description": "16bit RGB full color paint software."
+          "md5": "80932bca99ffb877bf6260758d310622",
+          "sha256": "9720135aa43adaccba49daadf8f2d18d4782e06305c732d764cb43897d7bf115",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_i386": 
         {
@@ -13898,21 +13898,21 @@
         },
         "azpainter_amd64": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/a/azpainter/azpainter_2.1.1-1_amd64.deb",
-          "size": "496_KiB ",
-          "sizebyt": "504644",
-          "version": "2.1.1-1",
-          "isize": "1.35_MiB ",
+          "packageurl": "https://notesalexp.org/stretch/main/a/azpainter/azpainter_2.1.2-2_amd64.deb",
+          "size": "504_KiB ",
+          "sizebyt": "512058",
+          "version": "2.1.2-2",
+          "isize": "1.39_MiB ",
           "depends": "libc6(>=2.15) libfontconfig1(>=2.11) libfreetype6(>=2.3.5) libjpeg62-turbo(>=1.3.1) libpng16-16(>=1.6.2-1) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "89ed33096480887f38b9e168ce4b5f05",
-          "sha256": "7c57252165073824898e766597212df4d878cdc03cb0ab39545854beaada4af6",
-          "description": "16bit RGB full color paint software."
+          "md5": "af489ee397f135f50bab145f1e67c4ef",
+          "sha256": "5ac1d2c3ab825ecb9cb869cbd31fd5fccbd128ff9ab3ae8f7daea40d8b1618bb",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_amd64": 
         {
@@ -19776,21 +19776,21 @@
         },
         "azpainter_i386": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/a/azpainter/azpainter_2.1.1-1_i386.deb",
-          "size": "548_KiB ",
-          "sizebyt": "560046",
-          "version": "2.1.1-1",
-          "isize": "1.54_MiB ",
+          "packageurl": "https://notesalexp.org/stretch/main/a/azpainter/azpainter_2.1.2-2_i386.deb",
+          "size": "556_KiB ",
+          "sizebyt": "567640",
+          "version": "2.1.2-2",
+          "isize": "1.57_MiB ",
           "depends": "libc6(>=2.15) libfontconfig1(>=2.11) libfreetype6(>=2.3.5) libjpeg62-turbo(>=1.3.1) libpng16-16(>=1.6.2-1) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "4dfd7fa6aa815e708023ff24e540c15d",
-          "sha256": "826277c812cc4e471f045a9f5ce259061cf2678a639c41cdfbc37bcb1adc1a14",
-          "description": "16bit RGB full color paint software."
+          "md5": "f0554b90e98545827d48edfb1e6a456f",
+          "sha256": "edf2a75b98ff650bdd8f4f9cad1a00791a80d042242807cff79679ab74ff5db8",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_i386": 
         {
@@ -21470,21 +21470,21 @@
         },
         "azpainter_amd64": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/a/azpainter/azpainter_2.1.1-1_amd64.deb",
-          "size": "496_KiB ",
-          "sizebyt": "505932",
-          "version": "2.1.1-1",
-          "isize": "1.34_MiB ",
+          "packageurl": "https://notesalexp.org/buster/main/a/azpainter/azpainter_2.1.2-2_amd64.deb",
+          "size": "504_KiB ",
+          "sizebyt": "514036",
+          "version": "2.1.2-2",
+          "isize": "1.38_MiB ",
           "depends": "libc6(>=2.15) libfontconfig1(>=2.12) libfreetype6(>=2.3.5) libjpeg62-turbo(>=1.3.1) libpng16-16(>=1.6.2-1) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "62e31929d5f4229e90c0be914f96e559",
-          "sha256": "0faa68b222ce83b9ea9164b316d69580ba9412f6047913491d72559939cccdcc",
-          "description": "16bit RGB full color paint software."
+          "md5": "331e9460a0063923812fc42359526abb",
+          "sha256": "08bff38304bda5f862d66c0147b3a2d159cca9d593ceb1470872193bebeab14c",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_amd64": 
         {
@@ -26746,21 +26746,21 @@
         },
         "azpainter_i386": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/a/azpainter/azpainter_2.1.1-1_i386.deb",
-          "size": "548_KiB ",
-          "sizebyt": "557782",
-          "version": "2.1.1-1",
-          "isize": "1.53_MiB ",
+          "packageurl": "https://notesalexp.org/buster/main/a/azpainter/azpainter_2.1.2-2_i386.deb",
+          "size": "556_KiB ",
+          "sizebyt": "566316",
+          "version": "2.1.2-2",
+          "isize": "1.57_MiB ",
           "depends": "libc6(>=2.15) libfontconfig1(>=2.12) libfreetype6(>=2.3.5) libjpeg62-turbo(>=1.3.1) libpng16-16(>=1.6.2-1) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "98564f3e1ef6fa7a9f6b00d210413349",
-          "sha256": "07612d2e74bd93f459368e3608e792f24c5e543c72c2ee56759c8a3bb79d8089",
-          "description": "16bit RGB full color paint software."
+          "md5": "aa445eb2e8a654bb162d01e8a5ce1a70",
+          "sha256": "f5827a4da9f9fdcda85e0617af76c3f55ee981e22216c9da0190cee1ca5fa19e",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_i386": 
         {
@@ -27947,21 +27947,21 @@
         },
         "azpainter_amd64": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/a/azpainter/azpainter_2.1.1-1_amd64.deb",
-          "size": "496_KiB ",
-          "sizebyt": "506240",
-          "version": "2.1.1-1",
-          "isize": "1.34_MiB ",
-          "depends": "libc6(>=2.15) libfontconfig1(>=2.12) libfreetype6(>=2.3.5) libjpeg62-turbo(>=1.3.1) libpng16-16(>=1.6.2-1) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
+          "packageurl": "https://notesalexp.org/sid/main/a/azpainter/azpainter_2.1.2-2_amd64.deb",
+          "size": "504_KiB ",
+          "sizebyt": "513700",
+          "version": "2.1.2-2",
+          "isize": "1.38_MiB ",
+          "depends": "libc6(>=2.15) libfontconfig1(>=2.12.6) libfreetype6(>=2.3.5) libjpeg62-turbo(>=1.3.1) libpng16-16(>=1.6.2-1) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "eec31b6aed609ccc42a08cd908543bbe",
-          "sha256": "f21c722187e9be7331625759f3b3a9178413d62797d2f1a1fc2aa205704cd7ba",
-          "description": "16bit RGB full color paint software."
+          "md5": "c6ee4d15856e572bf56f5178faed0928",
+          "sha256": "a8472930c3fa71febc8bcbc76fd655c384fa66e20fb8f2ebb46da3d4167285cf",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_amd64": 
         {
@@ -33355,21 +33355,21 @@
         },
         "azpainter_i386": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/a/azpainter/azpainter_2.1.1-1_i386.deb",
-          "size": "548_KiB ",
-          "sizebyt": "557980",
-          "version": "2.1.1-1",
-          "isize": "1.53_MiB ",
-          "depends": "libc6(>=2.15) libfontconfig1(>=2.12) libfreetype6(>=2.3.5) libjpeg62-turbo(>=1.3.1) libpng16-16(>=1.6.2-1) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
+          "packageurl": "https://notesalexp.org/sid/main/a/azpainter/azpainter_2.1.2-2_i386.deb",
+          "size": "556_KiB ",
+          "sizebyt": "566712",
+          "version": "2.1.2-2",
+          "isize": "1.57_MiB ",
+          "depends": "libc6(>=2.15) libfontconfig1(>=2.12.6) libfreetype6(>=2.3.5) libjpeg62-turbo(>=1.3.1) libpng16-16(>=1.6.2-1) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "3de4ce03ee2f0dbfce985ee8d68aa28d",
-          "sha256": "b2863dc718f1eea62d00f40ff9e9cdc72ceedff940db8af7c5d1c7179bb68e63",
-          "description": "16bit RGB full color paint software."
+          "md5": "6b15d1d31d2639e1812acbfec5a1624d",
+          "sha256": "097731175bbde2641a1d413512a9cc991a7a3db5ef2f1609f884ee1fd01e6d2b",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_i386": 
         {
@@ -38255,21 +38255,21 @@
         },
         "azpainter_amd64": 
         {
-          "packageurl": "https://notesalexp.org/trusty/main/a/azpainter/azpainter_2.1.1-1_amd64.deb",
-          "size": "472_KiB ",
-          "sizebyt": "479894",
-          "version": "2.1.1-1",
-          "isize": "1.12_MiB ",
+          "packageurl": "https://notesalexp.org/trusty/main/a/azpainter/azpainter_2.1.2-2_amd64.deb",
+          "size": "488_KiB ",
+          "sizebyt": "496796",
+          "version": "2.1.2-2",
+          "isize": "1.18_MiB ",
           "depends": "libc6(>=2.15) libfontconfig1(>=2.9.0) libfreetype6(>=2.3.5) libjpeg8(>=8c) libpng12-0(>=1.2.13-4) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "aeede7e345cee8cd9ec02d41afa63416",
-          "sha256": "facb6978b72c4b7e7ef0dcd019a60a40aa31c0499f1537b67c93a5ed78fbc952",
-          "description": "16bit RGB full color paint software."
+          "md5": "dd70ffa099f581e2acdac15657490470",
+          "sha256": "9865b2e95c6f719b4473e31213960d94d1a6aacde86a33639492cc6ee6ed33d2",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_amd64": 
         {
@@ -43758,21 +43758,21 @@
         },
         "azpainter_i386": 
         {
-          "packageurl": "https://notesalexp.org/trusty/main/a/azpainter/azpainter_2.1.1-1_i386.deb",
-          "size": "464_KiB ",
-          "sizebyt": "472990",
-          "version": "2.1.1-1",
-          "isize": "1.17_MiB ",
+          "packageurl": "https://notesalexp.org/trusty/main/a/azpainter/azpainter_2.1.2-2_i386.deb",
+          "size": "500_KiB ",
+          "sizebyt": "508286",
+          "version": "2.1.2-2",
+          "isize": "1.28_MiB ",
           "depends": "libc6(>=2.15) libfontconfig1(>=2.9.0) libfreetype6(>=2.3.5) libjpeg8(>=8c) libpng12-0(>=1.2.13-4) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "b7c9e92c0ac239c09b0e334f43c909f6",
-          "sha256": "105a535816f811157e196fec705f210086b56e36d5cfa5a83ad790c369d67a03",
-          "description": "16bit RGB full color paint software."
+          "md5": "36fd0107326b78c5903704dbc2234bce",
+          "sha256": "3562683da9a2cd464d17fc1972240aea3816590b39cbb94abd8159d21c7f7ac0",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_i386": 
         {
@@ -45163,21 +45163,21 @@
         },
         "azpainter_amd64": 
         {
-          "packageurl": "https://notesalexp.org/xenial/main/a/azpainter/azpainter_2.1.1-1_amd64.deb",
-          "size": "484_KiB ",
-          "sizebyt": "493138",
-          "version": "2.1.1-1",
-          "isize": "1.33_MiB ",
+          "packageurl": "https://notesalexp.org/xenial/main/a/azpainter/azpainter_2.1.2-2_amd64.deb",
+          "size": "496_KiB ",
+          "sizebyt": "506556",
+          "version": "2.1.2-2",
+          "isize": "1.38_MiB ",
           "depends": "libc6(>=2.15) libfontconfig1(>=2.11.94) libfreetype6(>=2.3.5) libjpeg8(>=8c) libpng12-0(>=1.2.13-4) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "d1fed3b3a452fc37600306d13bcc2321",
-          "sha256": "a3515b69ab8468d96d9612719c2ba822ce18374f64ef57a2651be6ecb3dfb7be",
-          "description": "16bit RGB full color paint software."
+          "md5": "3ff8d77b87ca8259efe7ddc51bf7899f",
+          "sha256": "8b6e73a772948918b23fb931a967f228a90cc050b0f8a564df5d88b8027c00a9",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_amd64": 
         {
@@ -51257,21 +51257,21 @@
         },
         "azpainter_i386": 
         {
-          "packageurl": "https://notesalexp.org/xenial/main/a/azpainter/azpainter_2.1.1-1_i386.deb",
-          "size": "516_KiB ",
-          "sizebyt": "524418",
-          "version": "2.1.1-1",
-          "isize": "1.45_MiB ",
+          "packageurl": "https://notesalexp.org/xenial/main/a/azpainter/azpainter_2.1.2-2_i386.deb",
+          "size": "552_KiB ",
+          "sizebyt": "563020",
+          "version": "2.1.2-2",
+          "isize": "1.57_MiB ",
           "depends": "libc6(>=2.15) libfontconfig1(>=2.11.94) libfreetype6(>=2.3.5) libjpeg8(>=8c) libpng12-0(>=1.2.13-4) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "e6f92163b2fe2174063a30520772833a",
-          "sha256": "8c96aaee2b5d64487e61f4a34bef84973ddda1f3ff70fdbafe1f6d03b8b5da8c",
-          "description": "16bit RGB full color paint software."
+          "md5": "a4bc9febbcbaaae5acc713f028f0294e",
+          "sha256": "d9c045b8d789b134b98a896260acdd2ce53ed31a048012a245b03c4e7e65d3dc",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_i386": 
         {
@@ -53131,21 +53131,21 @@
         },
         "azpainter_amd64": 
         {
-          "packageurl": "https://notesalexp.org/artful/main/a/azpainter/azpainter_2.1.1-1_amd64.deb",
-          "size": "492_KiB ",
-          "sizebyt": "501528",
-          "version": "2.1.1-1",
-          "isize": "1.34_MiB ",
+          "packageurl": "https://notesalexp.org/artful/main/a/azpainter/azpainter_2.1.2-2_amd64.deb",
+          "size": "500_KiB ",
+          "sizebyt": "509972",
+          "version": "2.1.2-2",
+          "isize": "1.37_MiB ",
           "depends": "libc6(>=2.15) libfontconfig1(>=2.11.94) libfreetype6(>=2.3.5) libjpeg8(>=8c) libpng16-16(>=1.6.2-1) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "7daab29ad4e57c94f48be00a05d176db",
-          "sha256": "2d78064ce3bc1c905631b10f4b11b91ac20c2854e4e7aa131f84843ccb612519",
-          "description": "16bit RGB full color paint software."
+          "md5": "d6bf4ca39902108b19df254c6b612d73",
+          "sha256": "bcf0b9bc93c189c713d829b285c5c90d971b0a42903eb37fd0d152b5a4d36db3",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_amd64": 
         {
@@ -58902,21 +58902,21 @@
         },
         "azpainter_i386": 
         {
-          "packageurl": "https://notesalexp.org/artful/main/a/azpainter/azpainter_2.1.1-1_i386.deb",
-          "size": "544_KiB ",
-          "sizebyt": "553408",
-          "version": "2.1.1-1",
-          "isize": "1.53_MiB ",
+          "packageurl": "https://notesalexp.org/artful/main/a/azpainter/azpainter_2.1.2-2_i386.deb",
+          "size": "552_KiB ",
+          "sizebyt": "562394",
+          "version": "2.1.2-2",
+          "isize": "1.56_MiB ",
           "depends": "libc6(>=2.15) libfontconfig1(>=2.11.94) libfreetype6(>=2.3.5) libjpeg8(>=8c) libpng16-16(>=1.6.2-1) libx11-6(>=2:1.2.99.901) libxext6 libxi6(>=2:1.2.99.4) zlib1g(>=1:1.1.4) ",
           "section": "graphics",
           "priority": "optional",
           "source": "azpainter",
           "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-          "sourcefile": "azpainter_2.1.1-1.debian.tar.xz azpainter_2.1.1-1.dsc azpainter_2.1.1.orig.tar.xz ",
+          "sourcefile": "azpainter_2.1.2-2.debian.tar.xz azpainter_2.1.2-2.dsc azpainter_2.1.2.orig.tar.xz ",
           "homepage": "https://osdn.net/projects/azpainter/",
-          "md5": "84ccf1f8fe7a0835af575b3ae78576db",
-          "sha256": "00569bdf5a2ec183a553e97a7cf431697d563ffc47134ff52c5e42bff71ed669",
-          "description": "16bit RGB full color paint software."
+          "md5": "8eff30ce698d833d695918839346217f",
+          "sha256": "23e1def1e11a7be1fdcd02b1fd7e7581b04299c8742cab90352a839a1d502f57",
+          "description": "16bit RGB full color paint software"
         },
         "balsa_i386": 
         {
