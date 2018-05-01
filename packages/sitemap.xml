@@ -172,6 +172,9 @@
         <loc>https://notesalexp.org/packages/en/artful/amd64/libkvilib4/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/libkvilib5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/liblept5/</loc>
     </url>
     <url>
@@ -1039,6 +1042,9 @@
         <loc>https://notesalexp.org/packages/en/artful/i386/libkvilib4/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/libkvilib5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/liblept5/</loc>
     </url>
     <url>
@@ -1888,6 +1894,9 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/libkvilib4/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/libkvilib5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/liblept5/</loc>
     </url>
     <url>
@@ -2672,6 +2681,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/libkvilib4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/libkvilib5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/liblept5/</loc>
@@ -3569,6 +3581,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/libkvilib4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/libkvilib5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/liblept5/</loc>
@@ -4532,6 +4547,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/libkvilib4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/libkvilib5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/liblept5/</loc>
@@ -6298,6 +6316,9 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/libkvilib4/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/libkvilib5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/liblept5/</loc>
     </url>
     <url>
@@ -7103,6 +7124,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/libkvilib4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/libkvilib5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/liblept5/</loc>
@@ -8143,6 +8167,9 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libkvilib4/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libkvilib5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/liblept5/</loc>
     </url>
     <url>
@@ -9026,6 +9053,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libkvilib4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libkvilib5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/liblept5/</loc>
@@ -12889,6 +12919,9 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libkvilib4/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libkvilib5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/liblept5/</loc>
     </url>
     <url>
@@ -13813,6 +13846,9 @@
         <loc>https://notesalexp.org/packages/en/xenial/i386/libkvilib4/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libkvilib5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/liblept5/</loc>
     </url>
     <url>
@@ -14672,6 +14708,18 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2018/04/15/20180415/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/04/21/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/04/21/20180421/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/04/30/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/04/30/20180430/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
