@@ -13,3 +13,4 @@ Disallow: /precise
 Disallow: /trusty
 Disallow: /xenial
 Disallow: /artful
+Disallow: /bionic
