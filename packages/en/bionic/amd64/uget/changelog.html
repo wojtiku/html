@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | ChangeLog of package uget_2.2.1-1+nmu1_amd64.deb </title>
+    <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
+    <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="https://notesalexp.org/packages/css/package.css" type="text/css" />
+    <meta name="generator"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://notesalexp.org/html/">Home</a></li>
+                <li><a href="https://notesalexp.org/html/update.html">Update</a></li>
+                <li><a href="https://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li><a href="https://notesalexp.org/html/donate.html">Donate</a></li>
+                <li><a href="https://notesalexp.org/packages/en/contact.html">Contact</a></li>
+                <li class="selected" ><a href="https://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="https://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="https://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+        <div id="pnavbar">
+            &nbsp;&#x2F;<a href="https://notesalexp.org/packages">Packages</a>
+            &nbsp;&#x2F;<a href="https://notesalexp.org/packages/en/bionic/amd64">bionic&nbsp;&#x2F;amd64</a>
+            &nbsp;&#x2F;<a href="https://notesalexp.org/packages/en/bionic/amd64/uget"> uget </a>
+            &nbsp;&#x2F; ChangeLog
+        </div> <!-- end navbar -->
+    </header>
+    <div id="wrapper">
+        <div id="content">
+<div class="page">
+<h5>ChangeLog of package uget in bionic of architecture amd64</h5>
+<div class="highlight"><pre><span></span>uget (2.2.1-1+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Backports from Sid
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 06 May 2018 21:46:04 +0300
+
+uget (2.2.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Fri, 16 Mar 2018 13:10:09 -0300
+
+uget (2.2.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Updated Standard-Version to 4.1.3
+  * Bump debhelper to 11
+  * Disable 06_fix_spelling_error.patch: upstream already has considered
+  * Add lintian override for desktop-command-not-in-package
+  * debian/patches: removed
+  * debian/copyright: Updated year
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Tue, 16 Jan 2018 09:59:02 -0500
+
+uget (2.0.10-1) unstable; urgency=medium
+
+  * New upstream release. Closes:#873870
+  * Updated Standard-Version to 4.1.0
+  * Add 06_fix_spelling_error.patch: fixing spelling errors in source code
+  * debian/rules: adding upstream changelog
+  * debian/control: Updated Vcs-Git with https
+  * debian/watch: Updated to version 4
+  * debian/copyright: Updated year
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Sat, 02 Sep 2017 08:25:46 -0300
+
+uget (2.0.8-1) unstable; urgency=medium
+
+  * New upstream release
+  * Updated Standard-Version to 3.9.8
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Sun, 28 Aug 2016 13:28:13 -0300
+
+uget (2.0.7-1) unstable; urgency=medium
+
+  * New upstream release
+  * Remove 04-keywords-desktop-file.patch: upstream already has considered
+  * Remove 05_ignore_build_potfiles.patch: upstream already has considered
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Sun, 24 Apr 2016 20:18:52 -0500
+
+uget (2.0.6-1) unstable; urgency=medium
+
+  * New upstream release
+  * Updated Standard-Version to 3.9.7
+  * Add 05_ignore_build_potfiles.patch: ignore missing files
+  * Remove 03-uglib_missing_potfile.patch: upstream already has considered
+  * gitignore file: added debian/.pot
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Mon, 04 Apr 2016 18:41:00 -0500
+
+uget (2.0.4-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/menu: Removed menu file from package
+  * Updated year in debian/copyright
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Mon, 25 Jan 2016 21:16:08 -0500
+
+uget (2.0.2-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/rules: Add extra option to make hardening better
+  * Updated 03-uglib_missing_potfile.patch
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Sun, 04 Oct 2015 19:19:52 -0500
+
+uget (2.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Updated Standard-Version to 3.9.6
+  * Switched to GStreamer 1.x. Closes: #785925
+  * Added manpage uget-gtk-1to2.1
+  * Upstream fixed rename remote destination files. Closes: #750172
+  * Upstream fixed update config settings. Closes: #775031
+  * Updated debian/copyright: New path for files
+  * Updated 03-uglib_missing_potfile.patch: New path for files
+  * Added 04-keywords-desktop-file.patch: Keywords entry into desktop file
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Sun, 12 Jul 2015 20:45:00 -0500
+
+uget (1.10.4-1) unstable; urgency=low
+
+  * New upstream release. Closes: #735937
+  * Updated Standard-Version to 3.9.5
+  * Added 03-uglib_missing_potfile.patch: Avoid missing translate file
+  * Updated debian/control canonicalize VCS-* fields
+  * Updated year in debian/copyright
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Sat, 25 Jan 2014 21:29:41 -0500
+
+uget (1.10.3-1) unstable; urgency=low
+
+  * New upstream release
+  * Updated Standard-Version to 3.9.4
+  * Changed Build-Depends to libgtk-3-dev instead libgtk2.0-dev
+  * Updated year in debian/copyright
+  * Updated regular expression in debian/watch
+  * Updated debian/rules according debhelper 9
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Thu, 28 Mar 2013 11:25:10 -0500
+
+uget (1.8.2-1) unstable; urgency=low
+
+  * New upstream stable release.
+  * Bump debhelper to 9.
+  * Upstream updated Polish translation. Closes: #671741
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Mon, 04 Jun 2012 00:41:12 -0500
+
+uget (1.8.1-1) unstable; urgency=low
+
+  * New upstream stable release
+  * Updated Standard-Version to 3.9.3
+  * Bump debhelper to 8
+  * Update debian/control description from GTK+2 to GTK+
+  * Update debian/copyright as in Debian Policy 3.9.3
+  * Disable 02-potfiles_missing.patch: Upstream has fixed
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Sun, 29 Apr 2012 18:39:55 -0500
+
+uget (1.8.0-1) unstable; urgency=low
+
+  * New maintainer. Closes: #620475
+  * New upstream stable release.
+  * Updated Standard-Version to 3.9.2.
+  * Relicensing Debian packaging work under LGPL-2.1+
+  * Updated debian/copyright to DEP-5 Rev 174.
+  * Changed Build-Depends to libcurl4-openssl-dev instead libcurl4-gnutls-dev.
+  * Disable 01-natty_ftbfs.patch: Upstream has fixed.
+  * Added 02-potfiles_missing.patch: Avoid missing translated file.
+
+ -- Elías Alejandro Año Mendoza &lt;censored&gt;  Thu, 09 Jun 2011 02:01:16 -0500
+
+uget (1.6.2.a-3) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Alessio Treglia &lt;censored&gt;  Tue, 08 Feb 2011 22:57:19 +0100
+
+uget (1.6.2.a-2) experimental; urgency=low
+
+  * Correct linking order to prevent FTBFS with newest toolchain.
+  * Set --as-needed linking flag.
+
+ -- Alessio Treglia &lt;censored&gt;  Thu, 27 Jan 2011 10:28:49 +0100
+
+uget (1.6.2.a-1) experimental; urgency=low
+
+  * New upstream stable release.
+  * Update debian/gbp.conf.
+
+ -- Alessio Treglia &lt;censored&gt;  Wed, 29 Dec 2010 02:05:21 +0100
+
+uget (1.6.1-1) experimental; urgency=low
+
+  * Imported Upstream version 1.6.1
+  * Improve manpage.
+  * Build-depends on dh-autoreconf.
+  * Use dh-autoreconf add-on.
+  * Tests no longer fail.
+
+ -- Alessio Treglia &lt;censored&gt;  Fri, 05 Nov 2010 01:15:10 +0100
+
+uget (1.6.0-1) experimental; urgency=low
+
+  * New upstream stable release.
+
+ -- Alessio Treglia &lt;censored&gt;  Wed, 25 Aug 2010 09:52:22 +0200
+
+uget (1.5.9.3-1~exp1) experimental; urgency=low
+
+  * First upload to experimental:
+    - Imported Upstream version 1.5.9.3
+  * Change my email address.
+  * Move packaging to collab-maint's git area.
+  * Add --as-needed to linking options.
+  * Switch to 3.0 (quilt) format.
+  * Bump Standards.
+  * Add debian/gbp.conf,.gitignore files.
+  * Adjust debian/gbp.conf to match experimental configuration.
+
+ -- Alessio Treglia &lt;censored&gt;  Thu, 19 Aug 2010 11:55:15 +0200
+
+uget (1.5.0.2-1) unstable; urgency=low
+
+  * New upstream release, fixes LP: #512254.
+  * Bump Standards.
+
+ -- Alessio Treglia &lt;censored&gt;  Mon, 01 Mar 2010 18:24:49 +0100
+
+uget (1.5.0.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add DM-Upload-Allowed tag.
+  * Update debian/copyright.
+
+ -- Alessio Treglia &lt;censored&gt;  Sat, 02 Jan 2010 16:46:46 +0100
+
+uget (1.5.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #558768).
+
+ -- Alessio Treglia &lt;censored&gt;  Mon, 30 Nov 2009 11:08:44 +0100
+</pre></div>
+</div></div>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                <a href="https://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+                &middot;
+                <a href="https://t.me/notesalexp" rel="alternate">Telegram channel</a>
+                <p> © Alexander Pozdnyakov, 2010–2018
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-101010045-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
+

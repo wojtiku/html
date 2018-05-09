@@ -307,12 +307,12 @@
       "md5": " f065fd3eef9922763a71b544fb977087 6b528298b757f23d78b48dd4223b7e74 df3f5690eaa30fd228537b00cb7b7590",
       "size": " 28_KiB  4_KiB  6.87_MiB "
     },
-    "gimp": 
+    "gimp28": 
     {
-      "version": "2.8.22+git32588-a61915a8e6-1",
+      "version": "2.8.22+git32588-a61915a8e6-2",
       "description": " The Free & Open Source Image Editor",
-      "sourceurl": "https://notesalexp.org/source/main/g/gimp",
-      "sourcefile": "gimp_2.8.22+git32588-a61915a8e6-1.debian.tar.xz gimp_2.8.22+git32588-a61915a8e6-1.dsc gimp_2.8.22+git32588-a61915a8e6.orig.tar.xz ",
+      "sourceurl": "https://notesalexp.org/source/main/g/gimp2.8",
+      "sourcefile": "gimp2.8_2.8.22+git32588-a61915a8e6-2.debian.tar.gz gimp2.8_2.8.22+git32588-a61915a8e6-2.dsc gimp2.8_2.8.22+git32588-a61915a8e6.orig.tar.xz ",
       "homepage": "http://www.gimp.org/",
       "depends": "debhelper(>=9) cdbs(>=0.4.97) autotools-dev dh-autoreconf gettext gnome-pkg-tools gtk-doc-tools(>=1.0) intltool(>=0.40.1) iso-codes libaa1-dev libart-2.0-dev|curl libasound2-dev(>=1.0.0)[linux-any] libatk1.0-dev(>=2.2.0) libbabl-dev(>=0.1.10) libbz2-dev libcairo2-dev(>=1.10.2) libcurl4-gnutls-dev(>=7.15.1) libdbus-glib-1-dev(>=0.70) libexif-dev(>=0.6.15) libfreetype6-dev(>=2.2) libfontconfig1-dev(>=2.2.0) libglib2.0-dev(>=2.30.2) libglib2.0-doc libgegl-dev(>=0.2.0) libgtk2.0-dev(>=2.24.10) libgtk2.0-doc libgdk-pixbuf2.0-dev(>=2.24.1) libgdk-pixbuf2.0-doc libgs-dev libgudev-1.0-dev(>=167)[linux-any] libice-dev libjasper-dev|aria2 libjpeg-dev liblcms2-dev(>=2.2) libmng-dev libpango1.0-dev(>=1.29.4) libpng-dev libpoppler-glib-dev(>=0.12.4) librsvg2-dev(>=2.14.0) libsm-dev libtiff-dev libwebkitgtk-dev(>=1.6.1) libwmf-dev(>=0.2.8) libx11-dev libxcursor-dev libxmu-dev libxpm-dev libxt-dev zlib1g-dev patchutils python-dev(>=2.6.6-3) python-gtk2-dev(>=2.10.4) xsltproc python2.6|python2.7 libjson-glib-dev dh-python|wget ",
       "binary": "libgimp2.0 gimp gimp-data libgimp2.0-dev libgimp2.0-doc",
@@ -321,8 +321,8 @@
       "description_gimpdata": "Data files for GIMP",
       "description_libgimp20dev": "Headers and other files for compiling plugins for GIMP",
       "description_libgimp20doc": "Developers' Documentation for the GIMP library",
-      "md5": " 4862d65a84cca2296c89721b64d952cc 90c191d9a46a916e6a420859e6acda32 da42c03d0c300f769c508c39c9d72fb2",
-      "size": " 28_KiB  4_KiB  17.12_MiB "
+      "md5": " d451d1ea5a63f7a39043290e8aebb9d7 165f95d6ec587e8b3fe288c00743d0b1 da42c03d0c300f769c508c39c9d72fb2",
+      "size": " 32_KiB  4_KiB  17.12_MiB "
     },
     "gimpdevel": 
     {
@@ -396,6 +396,19 @@
       "description_goaccess": "log analyzer and interactive viewer for the Apache Webserver",
       "md5": " 44d417aed7698cd229b2d67c44923dad 21d5dc7f59c85d10c2ce3cbc6dd537f8 2dc41d8caf91caed2708c9c4a87d7717",
       "size": " 20_KiB  4_KiB  248_KiB "
+    },
+    "goldendict": 
+    {
+      "version": "1.5.0~rc2+git20180506-1",
+      "description": "",
+      "sourceurl": "https://notesalexp.org/source/main/g/goldendict",
+      "sourcefile": "goldendict_1.5.0~rc2+git20180506-1.debian.tar.xz goldendict_1.5.0~rc2+git20180506-1.dsc goldendict_1.5.0~rc2+git20180506.orig.tar.xz ",
+      "homepage": "http://goldendict.org",
+      "depends": "debhelper(>=11~) libao-dev libavformat-dev libavutil-dev libbz2-dev libeb16-dev libhunspell-dev(>=1.6.1) liblzma-dev liblzo2-dev libopencc-dev(>=1.0.4) libphonon4qt5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libtiff5-dev libvorbis-dev libx11-dev libxtst-dev qtmultimedia5-dev pkg-config qt5-qmake qtbase5-dev qttools5-dev qttools5-dev-tools x11proto-record-dev zlib1g-dev ",
+      "binary": "goldendict",
+      "description_goldendict": "feature-rich dictionary lookup program",
+      "md5": " b5316ace285897ac5452b0e8123e5606 0db6ffe363393a566ac1b189533f6a57 77e0f0bd588a4b696ca3d8b77204617d",
+      "size": " 12_KiB  4_KiB  10.41_MiB "
     },
     "gscan2pdf": 
     {
@@ -720,15 +733,15 @@
     },
     "q4wine": 
     {
-      "version": "1.3.6-1",
+      "version": "1.3.7-1",
       "description": " Qt GUI for wine (WINE)",
       "sourceurl": "https://notesalexp.org/source/main/q/q4wine",
-      "sourcefile": "q4wine_1.3.6-1.debian.tar.xz q4wine_1.3.6-1.dsc q4wine_1.3.6.orig.tar.gz ",
+      "sourcefile": "q4wine_1.3.7-1.debian.tar.xz q4wine_1.3.7-1.dsc q4wine_1.3.7.orig.tar.gz ",
       "homepage": "https://github.com/brezerk/q4wine",
-      "depends": "cmake debhelper(>=9) icoutils libfuse-dev[!hurd-i386] libkvm-dev[kfreebsd-any] libqt4-dev qt4-dev-tools ",
+      "depends": "cmake debhelper(>=9) icoutils libfuse-dev[!hurd-i386] libkvm-dev[kfreebsd-any] qtbase5-dev libqt5svg5-dev qttools5-dev-tools qttools5-dev|wget ",
       "binary": "q4wine",
       "description_q4wine": "Qt GUI for wine (WINE)",
-      "md5": " 84c26456ba443f8fccc5fe5a25810cba e578ce248f3178543565d817b9be71d4 45b0da759df37a8e5b2c512ae555296b",
+      "md5": " cc5705f7fa75fd2a63620a1166c7cb81 f5e63e16ba49f7f7249ed034a80405e6 abe7209c9186618a0e32987b1e114121",
       "size": " 8_KiB  4_KiB  2.97_MiB "
     },
     "qcad": 
@@ -1081,16 +1094,16 @@
     },
     "uget": 
     {
-      "version": "2.2.0-1+nmu1",
+      "version": "2.2.1-1+nmu1",
       "description": " easy-to-use download manager written in GTK+",
       "sourceurl": "https://notesalexp.org/source/main/u/uget",
-      "sourcefile": "uget_2.2.0-1+nmu1.debian.tar.xz uget_2.2.0-1+nmu1.dsc uget_2.2.0.orig.tar.gz ",
+      "sourcefile": "uget_2.2.1-1+nmu1.debian.tar.xz uget_2.2.1-1+nmu1.dsc uget_2.2.1.orig.tar.gz ",
       "homepage": "http://urlget.sourceforge.net/",
       "depends": "debhelper(>=9) intltool libnotify-dev libgstreamer1.0-dev libgtk-3-dev libssl-dev libcurl4-openssl-dev ",
       "binary": "uget",
       "description_uget": "easy-to-use download manager written in GTK+",
-      "md5": " ec5a7c8a79505c2974c8c2e80ccbe7e9 079b077a73b314d3912afb7d7bf03050 0038d6fa33c61b778c35afea914b96e2",
-      "size": " 8_KiB  4_KiB  976_KiB "
+      "md5": " 2311457a9039b518d89738a1592b3610 82faa90c65d689a6c8a1d0c02cbcc579 ef00e0d9a63051d553c4699192274db2",
+      "size": " 8_KiB  4_KiB  984_KiB "
     },
     "vacuum": 
     {

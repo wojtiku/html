@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>https://notesalexp.org/packages/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/</loc>
     </url>
     <url>
@@ -1852,6 +1855,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/amd64/goaccess/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/goldendict/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/gscan2pdf/</loc>
     </url>
     <url>
@@ -1961,6 +1967,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/psi-plus-webkit/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/q4wine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/qcad/</loc>
@@ -2485,6 +2494,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/amd64/truecrypt/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/uget/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/vacuum/</loc>
     </url>
     <url>
@@ -2605,6 +2617,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/i386/goaccess/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/goldendict/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/gscan2pdf/</loc>
     </url>
     <url>
@@ -2714,6 +2729,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/psi-plus-webkit/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/q4wine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/qcad/</loc>
@@ -3238,6 +3256,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/i386/truecrypt/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/uget/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/vacuum/</loc>
     </url>
     <url>
@@ -3359,6 +3380,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/goaccess/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/goldendict/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/gscan2pdf/</loc>
@@ -4148,6 +4172,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/goaccess/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/goldendict/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/gscan2pdf/</loc>
@@ -7783,6 +7810,9 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/goaccess/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/goldendict/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/gscan2pdf/</loc>
     </url>
     <url>
@@ -8593,6 +8623,9 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/goaccess/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/goldendict/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/gscan2pdf/</loc>
     </url>
     <url>
@@ -9337,6 +9370,9 @@
         <loc>https://notesalexp.org/packages/en/source/gimp/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/gimp2.8/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/gimp-devel/</loc>
     </url>
     <url>
@@ -9350,6 +9386,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/goaccess/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/goldendict/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/gscan2pdf/</loc>
