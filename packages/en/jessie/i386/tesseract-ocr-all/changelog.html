@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.00~git2422-45bb9427-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.00~git2451-45a65463-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,39 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in jessie of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.00~git2422-45bb9427-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.00~git2451-45a65463-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://github.com/tesseract-ocr/tesseract.git
+  * Branch: master
+  * Commit: 45a65463247cfc6856a186341c6918da0b1f44be
+  * Date: 1525808626
+  * git changelog:
+  *  45a65463 - Merge pull request #1569 from noahmetzger/winfix
+  *  43d47f35 - Added downward compatibility for older APIs
+  *  8a7f3a9c - Merge pull request #1568 from amitdo/authors
+  *  af1af22f - Update AUTHORS
+  *  d0570502 - Merge pull request #1567 from stweil/utf8
+  *  932a108b - Revert "fixes #388 by using raw bytes utf8 encoding"
+  *  2236caec - Merge pull request #1563 from Shreeshrii/Shreeshrii-
+    unittest-logging
+  *  07a6e641 - remove non-essential logging function
+  *  8e2344a4 - Merge pull request #1561 from stweil/cid
+  *  7cf7d629 - Fix CID 1390821 (Uninitialized variable)
+  *  7dea6717 - Merge pull request #1557 from stweil/cid
+  *  11609f95 - Fix CID 1386109 (Logically dead code)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 12 May 2018 03:57:20 +0300
+
+tesseract (4.00~git2439-c3ed6f03-2) unstable; urgency=medium
+
+  * Added dependency on tesseract-ocr-grc
+  * Added dependency on tesseract-ocr-kmr
+  * Remove dependency on tesseract-ocr-kur-ara.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 07 May 2018 20:42:17 +0300
+
+tesseract (4.00~git2439-c3ed6f03-1) unstable; urgency=medium
 
   * Compile
   * Bump Standards-Version to 4.1.4
@@ -50,11 +82,30 @@
   * fix patch - fix-up-headers, helptext, shebang.diff
   * fix libtesseract-dev.install
   * set executable flag on sh files
+  * added simple test
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: 45bb9427e03cd74d973582925509e09955641453
-  * Date: 1524936647
+  * Commit: c3ed6f036064e54e34f75275f66c70dd924527bf
+  * Date: 1525362324
   * git changelog:
+  *  c3ed6f03 - Merge pull request #1556 from noahmetzger/winfix
+  *  2193f817 - Fixed CID 1164537 (possible division by zero)
+  *  2645f72c - Merge pull request #1555 from stweil/msvc
+  *  c9b585cf - Don't disable compiler warnings for Visual Studio
+  *  fd5c93e6 - Merge pull request #1554 from stweil/msvc
+  *  f54800f1 - Add /utf-8 for MSVC
+  *  9ae97508 - Merge pull request #1551 from stweil/bigendian
+  *  f53290ac - Merge pull request #1552 from stweil/override
+  *  dc3d28cc - Use more override specifiers
+  *  21d5ce57 - Fix issue with big endian handling
+  *  9c1fe092 - Add assertion to detect wrong endianness handling
+  *  bf9b72c6 - Merge pull request #1546 from noahmetzger/winfix
+  *  a7d1402e - Fixed access to uninitialized variable
+  *  984a9817 - Merge pull request #1540 from stweil/strings
+  *  0efc5286 - Remove unneeded include statements for string /
+    strings.h
+  *  de78ef87 - Merge pull request #1539 from stweil/msvc
+  *  950469e6 - Remove old hack for Visual Studio
   *  45bb9427 - Merge pull request #1534 from UniQP/override
   *  938bba3d - Add missing file.
   *  4ac3063c - Add missing override specifiers
@@ -205,7 +256,7 @@
   *  437bf851 - Merge pull request #1454 from stweil/autotools
   *  f9157fd9 - configure: Don't use AM_MAINTAINER_MODE by default
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 29 Apr 2018 08:38:52 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 03 May 2018 19:27:06 +0300
 
 tesseract (4.00~git2288-10f4998a-2) unstable; urgency=medium
 
