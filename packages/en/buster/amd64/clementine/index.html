@@ -50,12 +50,12 @@
 [<a href="https://notesalexp.org/packages/en/bionic/amd64/clementine">bionic</a>]
 </div>
 <div id="potherssource">
-    [Source: <a href="https://notesalexp.org/packages/en/source/clementine">clementine</a>]
+    [Source: <a href="https://notesalexp.org/packages/en/source/clementine-qt5">clementine-qt5</a>]
 </div>
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Package: clementine ( 1.3.1+git1956-g37912a87b-1 ) </h1>
+<h1>Package: clementine ( 1.3.1+git2062-g4619a4c1a-1 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for clementine</strong></p>
 <a href="https://notesalexp.org/packages/images/clementine.png" data-lightbox="clementine" data-title="clementine -  modern music player and library organizer "><img class="example-image" src="https://notesalexp.org/packages/images/thumb/clementine.png" alt="clementine" /></a>
@@ -64,11 +64,11 @@
 <li><a href="https://notesalexp.org/packages/en/buster/amd64/clementine/changelog.html">Debian Changelog</a></li>
 <li><a href="https://notesalexp.org/packages/content/buster/amd64/clementine.copyright.gz">Copyright File</a></li>
 </ul>
-<p><strong>Download Source Package <a href="https://notesalexp.org/source/main/c/clementine">clementine</a>:</strong></p>
+<p><strong>Download Source Package <a href="https://notesalexp.org/source/main/c/clementine-qt5">clementine-qt5</a>:</strong></p>
 <ul>
-<li><a href="https://notesalexp.org/source/main/c/clementine/clementine_1.3.1+git1956-g37912a87b-1.debian.tar.xz">[clementine_1.3.1+git1956-g37912a87b-1.debian.tar.xz]</a></li>
-<li><a href="https://notesalexp.org/source/main/c/clementine/clementine_1.3.1+git1956-g37912a87b-1.dsc">[clementine_1.3.1+git1956-g37912a87b-1.dsc]</a></li>
-<li><a href="https://notesalexp.org/source/main/c/clementine/clementine_1.3.1+git1956-g37912a87b.orig.tar.xz">[clementine_1.3.1+git1956-g37912a87b.orig.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/source/main/c/clementine-qt5/clementine-qt5_1.3.1+git2062-g4619a4c1a-1.debian.tar.xz">[clementine-qt5_1.3.1+git2062-g4619a4c1a-1.debian.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/source/main/c/clementine-qt5/clementine-qt5_1.3.1+git2062-g4619a4c1a-1.dsc">[clementine-qt5_1.3.1+git2062-g4619a4c1a-1.dsc]</a></li>
+<li><a href="https://notesalexp.org/source/main/c/clementine-qt5/clementine-qt5_1.3.1+git2062-g4619a4c1a.orig.tar.xz">[clementine-qt5_1.3.1+git2062-g4619a4c1a.orig.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
 <ul>
@@ -80,15 +80,21 @@
 <p>Summary of included features :</p>
 <ul>
 <li>Search and play your local music library.</li>
-<li>Listen to internet radio from Last.fm, SomaFM and Magnatune.</li>
+<li>Listen to internet radio from SomaFM, Magnatune, Jamendo, Intergalactic FM, Digitally Imported, JAZZRADIO.com, ROCKRADIO.com, RadioTunes.com, Soundcloud, Icecast and Subsonic servers.</li>
+<li>Search and play songs you've uploaded to Box, Dropbox, Google Drive, and OneDrive.</li>
+<li>Create smart playlists and dynamic playlists.</li>
 <li>Tabbed playlists, import and export M3U, XSPF, PLS and ASX.</li>
+<li>CUE sheet support.</li>
+<li>Play audio CDs.</li>
 <li>Visualisations from projectM.</li>
-<li>Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC</li>
+<li>Lyrics and artist biographies and photos.</li>
+<li>Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC.</li>
 <li>Edit tags on MP3 and OGG files, organise your music.</li>
+<li>Fetch missing tags from MusicBrainz.</li>
+<li>Discover and download Podcasts.</li>
 <li>Download missing album cover art from Last.fm.</li>
 <li>Native desktop notifications using libnotify.</li>
-<li>Supports MPRIS, or remote control using the command-line.</li>
-<li>Remote control using a Wii Remote, MPRIS or the command-line.</li>
+<li>Remote control using an Android device, a Wii Remote, MPRIS or the command-line.</li>
 <li>Copy music to your iPod, iPhone, MTP or mass-storage USB player.</li>
 <li>Queue manager.</li>
 </ul>
@@ -136,7 +142,7 @@
 <dt><span> library to read and write songs and artwork to an iPod</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libgstreamer-plugins-base1.0-0 (&gt;=1.14.0)  </span></dt>
+<dt><span><strong>dep:</strong> libgstreamer-plugins-base1.0-0 (&gt;=1.14.1)  </span></dt>
 <dt><span> GStreamer libraries from the "base" set</span></dt>
 </dl></li>
 <li><dl>
@@ -144,12 +150,12 @@
 <dt><span> Core GStreamer libraries and elements</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> liblastfm1 (&gt;=1.0.7)  </span></dt>
-<dt><span> Last.fm web services library</span></dt>
-</dl></li>
-<li><dl>
 <dt><span><strong>dep:</strong> libmtp9 (&gt;=1.1.0)  </span></dt>
 <dt><span> Media Transfer Protocol (MTP) library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libmygpo-qt5-1 (&gt;=1.0.9)  </span></dt>
+<dt><span></span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libprojectm2v5 </span></dt>
@@ -164,36 +170,36 @@
 <dt><span> PulseAudio client libraries</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqjson0 (&gt;=0.7.1)  </span></dt>
-<dt><span> Qt-based library that maps JSON data to QVariant objects</span></dt>
+<dt><span><strong>dep:</strong> libqt5concurrent5 (&gt;=5.6.0~rc)  </span></dt>
+<dt><span> Qt 5 concurrent module</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqt4-dbus (&gt;=4:4.5.3)  </span></dt>
-<dt><span> Qt 4 D-Bus module</span></dt>
+<dt><span><strong>dep:</strong> libqt5core5a (&gt;=5.10.0)  </span></dt>
+<dt><span> Qt 5 core module</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqt4-network (&gt;=4:4.6.1)  </span></dt>
-<dt><span> Qt 4 network module</span></dt>
+<dt><span><strong>dep:</strong> libqt5dbus5 (&gt;=5.0.2)  </span></dt>
+<dt><span> Qt 5 D-Bus module</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqt4-opengl (&gt;=4:4.5.3)  </span></dt>
-<dt><span> Qt 4 OpenGL module</span></dt>
+<dt><span><strong>dep:</strong> libqt5gui5 (&gt;=5.7.0)  </span></dt>
+<dt><span> Qt 5 GUI module</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqt4-sql (&gt;=4:4.6.1)  </span></dt>
-<dt><span> Qt 4 SQL module</span></dt>
+<dt><span><strong>dep:</strong> libqt5network5 (&gt;=5.0.2)  </span></dt>
+<dt><span> Qt 5 network module</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqtcore4 (&gt;=4:4.8.0)  </span></dt>
-<dt><span> Qt 4 core module</span></dt>
+<dt><span><strong>dep:</strong> libqt5opengl5 (&gt;=5.0.2)  </span></dt>
+<dt><span> Qt 5 OpenGL module</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqtgui4 (&gt;=4:4.8.0)  </span></dt>
-<dt><span> Qt 4 GUI module</span></dt>
+<dt><span><strong>dep:</strong> libqt5sql5 (&gt;=5.3.0)  </span></dt>
+<dt><span> Qt 5 SQL module</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqxt-gui0 </span></dt>
-<dt><span> extensions to Qt GUI classes (LibQxt)</span></dt>
+<dt><span><strong>dep:</strong> libqt5widgets5 (&gt;=5.7.0)  </span></dt>
+<dt><span> Qt 5 widgets module</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libsqlite3-0 (&gt;=3.6.11)  </span></dt>
@@ -206,6 +212,10 @@
 <li><dl>
 <dt><span><strong>dep:</strong> libtag1v5 (&gt;=1.11)  </span></dt>
 <dt><span> audio meta-data library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libx11-6 </span></dt>
+<dt><span> X11 client-side library</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> zlib1g (&gt;=1:1.1.4)  </span></dt>
@@ -224,11 +234,11 @@
 <dt><span> GStreamer plugins from the "ugly" set</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqt4-sql-sqlite </span></dt>
-<dt><span> Qt 4 SQLite 3 database driver</span></dt>
+<dt><span><strong>dep:</strong> libqt5sql5-sqlite </span></dt>
+<dt><span> Qt 5 SQLite 3 database driver</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> projectm-data </span></dt>
+<dt><span><strong>dep:</strong> projectm-data (&gt;=2.0.1+dfsg-6)  </span></dt>
 <dt><span> Advanced Milkdrop-compatible music visualization library - data</span></dt>
 </dl></li>
 </ul>
@@ -239,6 +249,12 @@
 <dt><span><strong>or </strong></span>
 <span>gstreamer1.0-pulseaudio</span> </dt>
 <dt><span> GStreamer plugin for PulseAudio</span></dt>
+</dl></li>
+</ul>
+<ul class="ulsug">
+<li><dl>
+<dt><span><strong>sug:</strong> gstreamer1.0-plugins-bad </span></dt>
+<dt><span> GStreamer plugins from the "bad" set</span></dt>
 </dl></li>
 </ul>
     </div>
@@ -255,16 +271,16 @@
     </tr>
 <tr>
     <th><a href="https://notesalexp.org/packages/en/buster/amd64/clementine/download.html">amd64</a></th>
-    <td> 1.3.1+git1956-g37912a87b-1 </td>
-    <td class="size"> 4.43 MiB  </td>
-    <td class="size"> 17.08 MiB  </td>
+    <td> 1.3.1+git2062-g4619a4c1a-1 </td>
+    <td class="size"> 4.53 MiB  </td>
+    <td class="size"> 17.93 MiB  </td>
     <td>[<a href="https://notesalexp.org/packages/en/buster/amd64/clementine/filelist.html">list of files</a>]</td>
 </tr>
 <tr>
     <th><a href="https://notesalexp.org/packages/en/buster/i386/clementine/download.html">i386</a></th>
-    <td> 1.3.1+git1956-g37912a87b-1 </td>
-    <td class="size"> 4.58 MiB  </td>
-    <td class="size"> 17.12 MiB  </td>
+    <td> 1.3.1+git2062-g4619a4c1a-1 </td>
+    <td class="size"> 4.73 MiB  </td>
+    <td class="size"> 18.40 MiB  </td>
     <td>[<a href="https://notesalexp.org/packages/en/buster/i386/clementine/filelist.html">list of files</a>]</td>
 </tr>
 <tr>
