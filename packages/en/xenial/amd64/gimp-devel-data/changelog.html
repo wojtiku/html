@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package gimp-devel-data_2.10.2+git40921-ce5821639e-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package gimp-devel-data_2.10.2+git41044-93025adf02-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,190 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package gimp-devel-data in xenial of architecture amd64</h5>
-<div class="highlight"><pre><span></span>gimp-devel (2.10.2+git40921-ce5821639e-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>gimp-devel (2.10.2+git41044-93025adf02-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: gimp-2-10
+  * Commit: 93025adf02102854f6157050277ec996e539b64e
+  * Date: 1528479989
+  * git changelog:
+  *  93025adf02 - Issue #1435 - Add tooltips to GimpColorNotebook's tabs
+  *  def91dfc59 - libgimpwidgets: install gimpbusybox.h as public header
+  *  15f8ed090c - Fix build on osx by adding appkit dependency
+  *  22ae38d024 - Issue #1441 - Copy paste issue, internal clipboard
+    blocks global clipboard
+  *  aeff285216 - app: in GimpPaintTool, sync brush-outline coords while
+    painting
+  *  696d5b7f71 - Update Polish translation
+  *  05747f75d5 - Issue #1291 - Non-intrusive warning when saved XCF
+    version...
+  *  8a127d795e - app: use default new-layer mode for layer groups and
+    text layers
+  *  dc1ab40a41 - Update Spanish translation
+  *  2f24ee58a1 - NEWS: also add `gimp-test-clipboard`.
+  *  db6e8d51e6 - NEWS: keep up-to-date.
+  *  82fbfdf9d4 - app: do not stop the measurement when straightening.
+  *  554f342db4 - Update Polish translation
+  *  e230edf5a0 - Update Catalan translation
+  *  3cabdd8f4e - app: measure tool's "auto straighten" with progress
+    and link-aware.
+  *  61f73d4f60 - app: properly "auto straighten" in measure tool.
+  *  c179dfa714 - Bug 526719: add easy way to set rotation angle to
+    straighten an image
+  *  1c2212151e - Update Polish translation
+  *  6924412c91 - Update Dutch translation
+  *  2ba1b8d465 - configure.ac: require babl >= 0.1.51
+  *  5d81183882 - app: add custom GUI for gegl:recursive-transform-plus
+  *  444899b82c - configure.ac: require GEGL >= 0.4.3
+  *  e1e508ad4e - app: add TRANSFORM_GRIDS propgui controller
+  *  3250561340 - app: add GimpToolWidgetGroup
+  *  03e1cd20c9 - app: add gimp_tool_widget_changed()
+  *  56281bf6f4 - app: implement GimpToolWidget::hit() in all tool
+    widgets
+  *  312981568d - app: add GimpToolWidget::hit() virtual function
+  *  6b73d5b396 - app: implement GimpToolWidget::leave_notify() in
+    various tool widgets
+  *  f1f9b859c4 - app: add GimpToolWidget::leave_notify() vfunc
+  *  e34dd5a4eb - app: in GimpDrawTool, set widget focus when setting
+    widget
+  *  8a69a3e755 - app: respond to "focus-changed" signal in various tool
+    widgets
+  *  f4f1ecf54a - app: add gimp_tool_widget_{set,get}_focus(); "focus-
+    changed" signal
+  *  1b1a89978f - tools: rename test-keyboard.c and install it as gimp-
+    test-clipboard
+  *  838e3b09bf - Update Greek translation
+  *  a33b9e96d7 - Issue #1560 - invisible canvas flip/rotation
+    buttons...
+  *  226367d6cb - app: add GimpDataLoaderFactory which loads data from
+    an array of formats
+  *  e7ef28ef78 - app: make gimp_data_factory_data_foreach() public
+  *  aae538a4e5 - app: add "new-func" and "get-standard-func" properties
+    to GimpDataFactory
+  *  f6766cbc87 - Issue #1531 - Zooming with mouse movement should keep
+    track of original point
+  *  3220dc25f9 - app: we always need to freeze/thaw around
+    gimp_font_factory_data_init()
+  *  bc0447bc1b - app: handle fonts more correctly in
+    gimp_context_deserialize_property()
+  *  82e5ce5dcd - app: call the standard font "Standard" not "Sans-
+    serif"
+  *  7764f661d9 - app: make gimp_font_get_standard() return a GimpData
+  *  78aac439d4 - app: don't leak the identifier if
+    gimp_data_make_internal() is called again
+  *  5401066631 - app: move the GimpAsyncSet and the waiting code to
+    GimpDataFactory
+  *  2c4818f8df - app: use gimp_data_factory_get_data_path() in
+    GimpFontFactory
+  *  12f6a06070 - app: add gimp_data_factory_get_data_path[_writable]()
+  *  a8657b057d - app: remove all old font management code, switch to
+    GimpFontFactory[View]
+  *  77f3306b4d - app: add GimpFontFactoryView as replacement for
+    GimpFontView
+  *  e8793295c9 - app: GimpDataFactoryView: don't add buttons for
+    actions which don't exist
+  *  53f69d8be0 - app: add new GimpDataFactory subclass GimpFontFactory
+  *  101aee560c - app: derive GimpFont from GimpData
+  *  91e8515227 - app: change all GimpCoreConfig data paths to
+    GIMP_CONFIG_PARAM_CONFIRM
+  *  0c04d3784b - app: make GimpDataFactory properly derivable
+  *  1a16ca7757 - Update Catalan translation
+  *  65f1895d4d - app: strengthen gimp_async_set_{wait,cancel}()
+  *  b6ecaad275 - plug-ins: increase input precision in guides-new-
+    percent.scm
+  *  357c3d4b6b - libgimpwidgets: add exponentiation support to eevl
+  *  52e3eb32f3 - Use g_set_object() in a lot of places, and splrinkle
+    some g_clear_object()
+  *  2037b170f6 - Update Spanish translation
+  *  8aed405fde - Updated Danish translation of gimp-script-fu
+  *  c4c5177df0 - Updated Danish translation of gimp-plug-ins
+  *  129a2c6179 - app: hide container-editor busy box when clearing
+    async-set binding
+  *  2296d39bf5 - Update Swedish translation
+  *  7c72d8cfa1 - app: restore font list in async callback, not async-
+    set notify handler
+  *  35d2d52fe2 - Update Swedish translation
+  *  58ec8189d4 - Updated Danish translation
+  *  e7d92e623f - Update Spanish translation
+  *  3c986695a0 - authors: adding Simon Müller who did some nice patches
+    on the Win32...
+  *  0da0f8ff46 - plug-ins: renaming Win32 implementation files to
+    follow namespacing.
+  *  1a5b28b51d - Issue #1458 - Small border on side of single-window
+    screenshot on...
+  *  51f15e0b78 - Update Polish translation
+  *  476742b93d - app: more cleanup
+  *  b16ea49ca1 - app: code cleanup in previous commits
+  *  93c337896c - Issue #1520 - GIMP 2.10 Crashes when trying to convert
+    8bit colour...
+  *  05d30d95e1 - app: fix linking of test-config
+  *  bbf3cd6a27 - po: update POTFILES.in
+  *  081867de1e - app: fix gui_wait() cleanup
+  *  7f18eb467e - pdb: change image freeze/thaw procs to "Since: 2.10.2"
+  *  c7779b51b0 - app: use gimp_wait() to wait for histogram in
+    threshold and levels tools
+  *  0d5b09bb4b - app, pdb: wait for fonts to load before dependent
+    operations
+  *  f6fe8939cc - app: add gimp_fonts_wait()
+  *  4527390cd6 - app: add gimp_wait()
+  *  f542d839f5 - plug-ins: add busy-dialog plug-in
+  *  de1084986c - libgimpbase, libgimp, app: pass icon theme dir to plug-
+    ins through config
+  *  82b979383c - app: show indication during font loading in text tool
+    and font views
+  *  5a156ccc78 - app: add gimp_container_editor_bind_to_async_set()
+  *  aa22914568 - libgimpwidgets: add GimpBusyBox
+  *  957cdc23a0 - app: disallow editing text layers while fonts are
+    loading
+  *  953ee1dea5 - app: use GimpAsyncSet for keeping track of font
+    loading
+  *  67c8b00595 - app: fix indentation in core-types.h
+  *  8fae111509 - app: add GimpAsyncSet
+  *  5c6ca1f16e - app: add GimpTriviallyCancelableWaitable
+  *  7660891d8c - app: add GimpUncancelableWaitable
+  *  7740f0f830 - app: implement GimpWaitable::try_wait() in GimpAsync
+  *  04a7b2c53a - app: add GimpWaitable::try_wait() vfunc
+  *  85a1b1ece7 - app: lower thread priority of independent async
+    operations
+  *  dca5d1377d - Issue #1521 - First time start: GIMP-Error: Error
+    while parsing templaterc
+  *  7ebac15391 - Updated Italian translation
+  *  a0dde2d40f - Update Swedish translation
+  *  8c9f492d5f - Update Spanish translation
+  *  a4e920ce19 - Updated Italian translation
+  *  5c2bde7f5d - desktop: update .gitignore
+  *  c5da652938 - app: fix broken debug output on gitlab.
+  *  6aa8db72d3 - NEWS: keep up-to-date.
+  *  e34fc45ccb - po: update POTFILES.skip
+  *  1dff8d40c1 - app: fix gimp_parallel_run_async() cancelation
+  *  ddc9daceca - app: add "independent" parameter to
+    gimp_parallel_run_async()
+  *  3ae1eec240 - app: abort canceled pending operations in
+    gimp_parallel_run_async()
+  *  fd1e5883f8 - app: implement GimpWaitable and GimpCancelable in
+    GimpAsync
+  *  6f8892dc2d - app: add GimpCancelable interface
+  *  028a33cf8a - app: add GimpWaitable interface
+  *  4bf6590363 - tools: make gimptool memory-managed.
+  *  452c9781e7 - tools: do not segfault gimptool with source without
+    extension.
+  *  41436198d7 - tools: clean tabs out of gimptool code.
+  *  a52f83632f - Issue #1506: Adds support for source file names with
+    special...
+  *  ffb5f994fb - Update various places with old git repository URIs.
+  *  02e15f2dd9 - build: update GNOME's git repository URI.
+  *  44a800f0e5 - libgimpconfig: align GimpConfig with the rest of the
+    interfaces
+  *  51c1f7f650 - libgimpcolor: port all interfaces to
+    G_DEFINE_INTERFACE()
+  *  40a9736bbf - app: port all interfaces to G_DEFINE_INTERFACE()
+  *  c820764d4f - app: code cleanup in GimpAsync
+  *  8d03b7b133 - Update Polish translation
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 08 Jun 2018 21:45:02 +0300
+
+gimp-devel (2.10.2+git40921-ce5821639e-1) unstable; urgency=medium
 
   * Compile
   * URL: git://git.gnome.org/gimp
