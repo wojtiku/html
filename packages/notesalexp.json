@@ -5669,10 +5669,10 @@
     {
         "aegisub_amd64": 
         {
-          "packageurl": "https://notesalexp.org/jessie/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/jessie/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_amd64.deb",
           "size": "2.33_MiB ",
-          "sizebyt": "2446638",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "2447194",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "6.89_MiB ",
           "depends": "libasound2(>=1.0.18) libass5(>=0.10.2) libboost-filesystem1.55.0 libboost-locale1.55.0 libboost-regex1.55.0 libboost-system1.55.0 libboost-thread1.55.0 libc6(>=2.14) libffms2-3(>=2.20) libfftw3-double3 libfontconfig1(>=2.11) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libhunspell-1.3-0(>=1.3.3) libicu52(>=52~m1-1~) libpulse0(>=0.99.1) libstdc++6(>=4.9) libwxbase3.0-0(>=3.0.2) libwxgtk3.0-0(>=3.0.2) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -5680,10 +5680,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "b9c4f3fae295ce92fac240189790b7af",
-          "sha256": "2161ba9c043e8e4b804d87c3bffe6add5d9e2e3eb9220cb627602a6b8bd40799",
+          "md5": "f4b8f1aa142922009c84f597ec456db7",
+          "sha256": "7c7727520e7ce67fb853c7cb3e9861a40e72b2468f1ecd7f3744e2d3150c7521",
           "description": "Advanced subtitle editor"
         },
         "audacity_amd64": 
@@ -7637,20 +7637,20 @@
         },
         "aegisubl10n_all": 
         {
-          "packageurl": "https://notesalexp.org/jessie/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-1_all.deb",
+          "packageurl": "https://notesalexp.org/jessie/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-2_all.deb",
           "size": "484_KiB ",
-          "sizebyt": "493822",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "492490",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "3.10_MiB ",
-          "depends": "aegisub(=1:3.2.3~git7827-a4bde47c5-1) ",
+          "depends": "aegisub(=2:3.2.3~git7827-a4bde47c5-2) ",
           "section": "localization",
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "b6272ac5999046c708fa8c1d0a0f1452",
-          "sha256": "14f0407cfbb5f3ea7608048bd7bea132f9cfa40d189d2ec496fda9a52eb58910",
+          "md5": "a91736caacb66ca186ce45575241db64",
+          "sha256": "485c0b5b4980d46e4ecd96214d02a96e5741851523992a62e2cd7f567a802703",
           "description": "Aegisub language packages"
         },
         "audacitydata_all": 
@@ -11960,10 +11960,10 @@
         },
         "aegisub_i386": 
         {
-          "packageurl": "https://notesalexp.org/jessie/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_i386.deb",
+          "packageurl": "https://notesalexp.org/jessie/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_i386.deb",
           "size": "2.38_MiB ",
-          "sizebyt": "2497234",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "2496540",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "6.72_MiB ",
           "depends": "libasound2(>=1.0.18) libass5(>=0.10.2) libboost-filesystem1.55.0 libboost-locale1.55.0 libboost-regex1.55.0 libboost-system1.55.0 libboost-thread1.55.0 libc6(>=2.11) libffms2-3(>=2.20) libfftw3-double3 libfontconfig1(>=2.11) libgcc1(>=1:4.1.1) libgl1-mesa-glx|libgl1 libhunspell-1.3-0(>=1.3.3) libicu52(>=52~m1-1~) libpulse0(>=0.99.1) libstdc++6(>=4.9) libwxbase3.0-0(>=3.0.2) libwxgtk3.0-0(>=3.0.2) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -11971,10 +11971,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "fa27ba551d5177946bf75f33c6afb01c",
-          "sha256": "2602abce4314acf849e144db17ae4a0dde48c151a016e64203f0049ab8287bec",
+          "md5": "5f49f74c51e620d2a68d8890292b06ea",
+          "sha256": "bb5b3fd503a57aa5452b533bd2c102ca61645d281bd05db3114bc82d79832eb5",
           "description": "Advanced subtitle editor"
         },
         "audacity_i386": 
@@ -13931,10 +13931,10 @@
     {
         "aegisub_amd64": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/stretch/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_amd64.deb",
           "size": "2.51_MiB ",
-          "sizebyt": "2639674",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "2639174",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "7.52_MiB ",
           "depends": "libasound2(>=1.0.18) libass9(>=2:0.13.7) libboost-filesystem1.62.0 libboost-locale1.62.0 libboost-regex1.62.0 libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.14) libffms2-4(>=1:2.23) libfftw3-double3(>=3.3.5) libfontconfig1(>=2.11) libgcc1(>=1:3.3) libgl1-mesa-glx|libgl1 libhunspell-1.4-0 libicu57(>=57.1-1~) libpulse0(>=0.99.1) libstdc++6(>=6) libwxbase3.0-0v5(>=3.0.2+dfsg) libwxgtk3.0-0v5(>=3.0.2+dfsg) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -13942,10 +13942,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "c17567bad248b0e0e7c4e627bc7516b0",
-          "sha256": "d129c3989d8d9a1cb7cf7bc06aa1cb795c4899c8cbd063fdc743ffd17c56bb44",
+          "md5": "acd3b2568bf82550d0b62804ce192560",
+          "sha256": "d1245c9c2bcd3f45307f185807fd3b9e631361b712c4753f0497b6c47949ea21",
           "description": "Advanced subtitle editor"
         },
         "audacity_amd64": 
@@ -15619,20 +15619,20 @@
         },
         "aegisubl10n_all": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-1_all.deb",
+          "packageurl": "https://notesalexp.org/stretch/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-2_all.deb",
           "size": "484_KiB ",
-          "sizebyt": "492420",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "491556",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "3.18_MiB ",
-          "depends": "aegisub(=1:3.2.3~git7827-a4bde47c5-1) ",
+          "depends": "aegisub(=2:3.2.3~git7827-a4bde47c5-2) ",
           "section": "localization",
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "f2b8c15433bf11d6d37c2889c98b4f9a",
-          "sha256": "68535b50c0a0e200a07f24d16463c02b34ff4fbbe96aa0ae1fa3f20df96573b3",
+          "md5": "73c8cf31220b1d24759091eeffa4e346",
+          "sha256": "6af084e33d4f99b9a50edb85acdbe4e871d994a914f2190582e5b7529d300b9d",
           "description": "Aegisub language packages"
         },
         "audacitydata_all": 
@@ -16148,21 +16148,21 @@
         },
         "ocrfeeder_all": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/o/ocrfeeder/ocrfeeder_0.8.1+git20180318-1_all.deb",
+          "packageurl": "https://notesalexp.org/stretch/main/o/ocrfeeder/ocrfeeder_0.8.1+git20180318-2_all.deb",
           "size": "736_KiB ",
-          "sizebyt": "753322",
-          "version": "0.8.1+git20180318-1",
+          "sizebyt": "753420",
+          "version": "0.8.1+git20180318-2",
           "isize": "2.37_MiB ",
-          "depends": "python(<<2.8) python(>=2.7.5-5~) python-enchant python-gi python-lxml python-pil python-reportlab python-sane python-imaging gir1.2-gtk-3.0 gir1.2-gtkspell3-3.0 gir1.2-goocanvas-2.0|gir1.2-goocanvas-2.0-9 iso-codes ghostscript tesseract-ocr|ocrad|gocr|cuneiform|cuneiform-linux|cuneiform-refactoring ",
+          "depends": "python(<<2.8) python(>=2.7.5-5~) python-enchant python-gi python-lxml python-pil python-reportlab python-sane gir1.2-gtk-3.0 gir1.2-gtkspell3-3.0 gir1.2-goocanvas-2.0|gir1.2-goocanvas-2.0-9 iso-codes ghostscript tesseract-ocr|ocrad|gocr|cuneiform|cuneiform-linux|cuneiform-refactoring ",
           "recomends": "unpaper yelp ",
           "section": "graphics",
           "priority": "optional",
           "source": "ocrfeeder",
           "sourceurl": "https://notesalexp.org/source/main/o/ocrfeeder",
-          "sourcefile": "ocrfeeder_0.8.1+git20180318-1.debian.tar.xz ocrfeeder_0.8.1+git20180318-1.dsc ocrfeeder_0.8.1+git20180318.orig.tar.xz ",
+          "sourcefile": "ocrfeeder_0.8.1+git20180318-2.debian.tar.xz ocrfeeder_0.8.1+git20180318-2.dsc ocrfeeder_0.8.1+git20180318.orig.tar.xz ",
           "homepage": "http://live.gnome.org/OCRFeeder",
-          "md5": "ecdb52fcdf5ba566fa178ddf4f22c2e0",
-          "sha256": "23b2fbc522c12fba9d61feb469ac8467c9e2505ecb6678ab90b9bcd3896e8cb4",
+          "md5": "f5c61553db9018f2da6121825b295b4d",
+          "sha256": "4f1825ffaf835dee1b9b2fdd4601f331fd42e27ac5c3e4d00b4a4f8c39e8559b",
           "description": "Document layout analysis and optical character recognition system"
         },
         "ocrodjvu_all": 
@@ -19806,10 +19806,10 @@
         },
         "aegisub_i386": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_i386.deb",
+          "packageurl": "https://notesalexp.org/stretch/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_i386.deb",
           "size": "2.63_MiB ",
-          "sizebyt": "2763498",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "2763106",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "7.49_MiB ",
           "depends": "libasound2(>=1.0.18) libass9(>=2:0.13.7) libboost-filesystem1.62.0 libboost-locale1.62.0 libboost-regex1.62.0 libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.11) libffms2-4(>=1:2.23) libfftw3-double3(>=3.3.5) libfontconfig1(>=2.11) libgcc1(>=1:4.2) libgl1-mesa-glx|libgl1 libhunspell-1.4-0 libicu57(>=57.1-1~) libpulse0(>=0.99.1) libstdc++6(>=6) libwxbase3.0-0v5(>=3.0.2+dfsg) libwxgtk3.0-0v5(>=3.0.2+dfsg) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -19817,10 +19817,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "d3d013b63266ab860647f796ffa7e51b",
-          "sha256": "7249b178038dee3680d3b1e5548d6191c0656c2639ae07c7a826128cb2c5736b",
+          "md5": "007858c6529f8cd2f50eae724b72fd4e",
+          "sha256": "78e3a61845ddf661202989e96a355a7c09df141f231dbd2968b001628527a0ad",
           "description": "Advanced subtitle editor"
         },
         "audacity_i386": 
@@ -21497,10 +21497,10 @@
     {
         "aegisub_amd64": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/buster/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_amd64.deb",
           "size": "2.49_MiB ",
-          "sizebyt": "2615168",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "2614364",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "7.45_MiB ",
           "depends": "libasound2(>=1.0.18) libass9(>=2:0.14.0) libboost-filesystem1.62.0 libboost-locale1.62.0 libboost-regex1.62.0(>=1.62.0+dfsg-5.1) libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.14) libffms2-4(>=1:2.23) libfftw3-double3(>=3.3.5) libfontconfig1(>=2.12.6) libgcc1(>=1:3.3) libgl1 libhunspell-1.6-0 libicu60(>=60.1-1~) libpulse0(>=0.99.1) libstdc++6(>=7) libwxbase3.0-0v5(>=3.0.4+dfsg) libwxgtk3.0-0v5(>=3.0.4+dfsg) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -21508,10 +21508,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "7a0a8b5de36e6b0b67b2393ec7195484",
-          "sha256": "a7ce1767e09e69e81f6fe3b4ba26aa6f1b25c07045b5c4827d11dea6214a0d08",
+          "md5": "d36166ea5620597dc0aa99ffc43f58ec",
+          "sha256": "d105f5626afc415e2aaa67bacca3f3c21202fcdf0fd58d8db28a566ae557c88e",
           "description": "Advanced subtitle editor"
         },
         "audacity_amd64": 
@@ -22749,20 +22749,20 @@
         },
         "aegisubl10n_all": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-1_all.deb",
+          "packageurl": "https://notesalexp.org/buster/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-2_all.deb",
           "size": "484_KiB ",
-          "sizebyt": "491960",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "491992",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "3.17_MiB ",
-          "depends": "aegisub(=1:3.2.3~git7827-a4bde47c5-1) ",
+          "depends": "aegisub(=2:3.2.3~git7827-a4bde47c5-2) ",
           "section": "localization",
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "3c5986e75891f04ad4ffc1ccf7a4fbc6",
-          "sha256": "dff446c61a8a550ee3abb1ea4b323a79a983391923098cef8227ac8563560734",
+          "md5": "a522138a51c353db04d52642e5a1be2f",
+          "sha256": "66fb9049c7a94ba7f37939b1eb05538b5e02d6b3e042db5591986a4c55c77834",
           "description": "Aegisub language packages"
         },
         "audacitydata_all": 
@@ -23187,21 +23187,21 @@
         },
         "ocrfeeder_all": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/o/ocrfeeder/ocrfeeder_0.8.1+git20180318-1_all.deb",
+          "packageurl": "https://notesalexp.org/buster/main/o/ocrfeeder/ocrfeeder_0.8.1+git20180318-2_all.deb",
           "size": "736_KiB ",
-          "sizebyt": "752556",
-          "version": "0.8.1+git20180318-1",
+          "sizebyt": "752368",
+          "version": "0.8.1+git20180318-2",
           "isize": "2.37_MiB ",
-          "depends": "python(<<2.8) python(>=2.7.5-5~) python-enchant python-gi python-lxml python-pil python-reportlab python-sane python-imaging gir1.2-gtk-3.0 gir1.2-gtkspell3-3.0 gir1.2-goocanvas-2.0|gir1.2-goocanvas-2.0-9 iso-codes ghostscript tesseract-ocr|ocrad|gocr|cuneiform|cuneiform-linux|cuneiform-refactoring ",
+          "depends": "python(<<2.8) python(>=2.7.5-5~) python-enchant python-gi python-lxml python-pil python-reportlab python-sane gir1.2-gtk-3.0 gir1.2-gtkspell3-3.0 gir1.2-goocanvas-2.0|gir1.2-goocanvas-2.0-9 iso-codes ghostscript tesseract-ocr|ocrad|gocr|cuneiform|cuneiform-linux|cuneiform-refactoring ",
           "recomends": "unpaper yelp ",
           "section": "graphics",
           "priority": "optional",
           "source": "ocrfeeder",
           "sourceurl": "https://notesalexp.org/source/main/o/ocrfeeder",
-          "sourcefile": "ocrfeeder_0.8.1+git20180318-1.debian.tar.xz ocrfeeder_0.8.1+git20180318-1.dsc ocrfeeder_0.8.1+git20180318.orig.tar.xz ",
+          "sourcefile": "ocrfeeder_0.8.1+git20180318-2.debian.tar.xz ocrfeeder_0.8.1+git20180318-2.dsc ocrfeeder_0.8.1+git20180318.orig.tar.xz ",
           "homepage": "http://live.gnome.org/OCRFeeder",
-          "md5": "73f8b2515a153e77af8755660a3fd7a2",
-          "sha256": "7fde2b24333ef17a07f495ec10405b18776f6d6f3ff1d44f7d8f797d9a4764c9",
+          "md5": "825204469caa5ca99aa0c30c8710937e",
+          "sha256": "0e12e1d3dfde5a5d05906ffc8e7a3b9c75bb945c8e3b35a29e0f5f4ec745e272",
           "description": "Document layout analysis and optical character recognition system"
         },
         "ocrodjvu_all": 
@@ -26845,10 +26845,10 @@
         },
         "aegisub_i386": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_i386.deb",
+          "packageurl": "https://notesalexp.org/buster/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_i386.deb",
           "size": "2.59_MiB ",
-          "sizebyt": "2723112",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "2722712",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "7.44_MiB ",
           "depends": "libasound2(>=1.0.18) libass9(>=2:0.14.0) libboost-filesystem1.62.0 libboost-locale1.62.0 libboost-regex1.62.0(>=1.62.0+dfsg-5.1) libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.11) libffms2-4(>=1:2.23) libfftw3-double3(>=3.3.5) libfontconfig1(>=2.12.6) libgcc1(>=1:4.2) libgl1 libhunspell-1.6-0 libicu60(>=60.1-1~) libpulse0(>=0.99.1) libstdc++6(>=7) libwxbase3.0-0v5(>=3.0.4+dfsg) libwxgtk3.0-0v5(>=3.0.4+dfsg) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -26856,10 +26856,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "e666d64f09b05f3d6658c18e7229d24b",
-          "sha256": "b76e89d3c31908712b050a5eca85f3003393d8a7bfb47c3f87db8c2fc6571f9f",
+          "md5": "2ea0e67edc885414744bbdf3910e98c7",
+          "sha256": "4cbfd757cf6d91fc0384c4a99e87037fa29968fb8d2f6dca6be4c26ae4add15c",
           "description": "Advanced subtitle editor"
         },
         "audacity_i386": 
@@ -28100,10 +28100,10 @@
     {
         "aegisub_amd64": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/sid/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_amd64.deb",
           "size": "2.49_MiB ",
-          "sizebyt": "2615168",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "2615704",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "7.45_MiB ",
           "depends": "libasound2(>=1.0.18) libass9(>=2:0.14.0) libboost-filesystem1.62.0 libboost-locale1.62.0 libboost-regex1.62.0(>=1.62.0+dfsg-5.1) libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.14) libffms2-4(>=1:2.23) libfftw3-double3(>=3.3.5) libfontconfig1(>=2.12.6) libgcc1(>=1:3.3) libgl1 libhunspell-1.6-0 libicu60(>=60.1-1~) libpulse0(>=0.99.1) libstdc++6(>=7) libwxbase3.0-0v5(>=3.0.4+dfsg) libwxgtk3.0-0v5(>=3.0.4+dfsg) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -28111,10 +28111,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "7a0a8b5de36e6b0b67b2393ec7195484",
-          "sha256": "a7ce1767e09e69e81f6fe3b4ba26aa6f1b25c07045b5c4827d11dea6214a0d08",
+          "md5": "b2efc969cec49a7e652f7d06d35df3dc",
+          "sha256": "494555f63a18c6d68cdb12ea8dd35a8071bfe722f0e4089e6c24249b77933952",
           "description": "Advanced subtitle editor"
         },
         "audacity_amd64": 
@@ -29348,20 +29348,20 @@
         },
         "aegisubl10n_all": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-1_all.deb",
+          "packageurl": "https://notesalexp.org/sid/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-2_all.deb",
           "size": "484_KiB ",
-          "sizebyt": "491960",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "491992",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "3.17_MiB ",
-          "depends": "aegisub(=1:3.2.3~git7827-a4bde47c5-1) ",
+          "depends": "aegisub(=2:3.2.3~git7827-a4bde47c5-2) ",
           "section": "localization",
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "3c5986e75891f04ad4ffc1ccf7a4fbc6",
-          "sha256": "dff446c61a8a550ee3abb1ea4b323a79a983391923098cef8227ac8563560734",
+          "md5": "a522138a51c353db04d52642e5a1be2f",
+          "sha256": "66fb9049c7a94ba7f37939b1eb05538b5e02d6b3e042db5591986a4c55c77834",
           "description": "Aegisub language packages"
         },
         "audacitydata_all": 
@@ -29806,21 +29806,21 @@
         },
         "ocrfeeder_all": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/o/ocrfeeder/ocrfeeder_0.8.1+git20180318-1_all.deb",
+          "packageurl": "https://notesalexp.org/sid/main/o/ocrfeeder/ocrfeeder_0.8.1+git20180318-2_all.deb",
           "size": "736_KiB ",
-          "sizebyt": "752556",
-          "version": "0.8.1+git20180318-1",
+          "sizebyt": "752368",
+          "version": "0.8.1+git20180318-2",
           "isize": "2.37_MiB ",
-          "depends": "python(<<2.8) python(>=2.7.5-5~) python-enchant python-gi python-lxml python-pil python-reportlab python-sane python-imaging gir1.2-gtk-3.0 gir1.2-gtkspell3-3.0 gir1.2-goocanvas-2.0|gir1.2-goocanvas-2.0-9 iso-codes ghostscript tesseract-ocr|ocrad|gocr|cuneiform|cuneiform-linux|cuneiform-refactoring ",
+          "depends": "python(<<2.8) python(>=2.7.5-5~) python-enchant python-gi python-lxml python-pil python-reportlab python-sane gir1.2-gtk-3.0 gir1.2-gtkspell3-3.0 gir1.2-goocanvas-2.0|gir1.2-goocanvas-2.0-9 iso-codes ghostscript tesseract-ocr|ocrad|gocr|cuneiform|cuneiform-linux|cuneiform-refactoring ",
           "recomends": "unpaper yelp ",
           "section": "graphics",
           "priority": "optional",
           "source": "ocrfeeder",
           "sourceurl": "https://notesalexp.org/source/main/o/ocrfeeder",
-          "sourcefile": "ocrfeeder_0.8.1+git20180318-1.debian.tar.xz ocrfeeder_0.8.1+git20180318-1.dsc ocrfeeder_0.8.1+git20180318.orig.tar.xz ",
+          "sourcefile": "ocrfeeder_0.8.1+git20180318-2.debian.tar.xz ocrfeeder_0.8.1+git20180318-2.dsc ocrfeeder_0.8.1+git20180318.orig.tar.xz ",
           "homepage": "http://live.gnome.org/OCRFeeder",
-          "md5": "73f8b2515a153e77af8755660a3fd7a2",
-          "sha256": "7fde2b24333ef17a07f495ec10405b18776f6d6f3ff1d44f7d8f797d9a4764c9",
+          "md5": "825204469caa5ca99aa0c30c8710937e",
+          "sha256": "0e12e1d3dfde5a5d05906ffc8e7a3b9c75bb945c8e3b35a29e0f5f4ec745e272",
           "description": "Document layout analysis and optical character recognition system"
         },
         "ocrodjvu_all": 
@@ -33464,10 +33464,10 @@
         },
         "aegisub_i386": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_i386.deb",
+          "packageurl": "https://notesalexp.org/sid/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_i386.deb",
           "size": "2.59_MiB ",
-          "sizebyt": "2723112",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "2722712",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "7.44_MiB ",
           "depends": "libasound2(>=1.0.18) libass9(>=2:0.14.0) libboost-filesystem1.62.0 libboost-locale1.62.0 libboost-regex1.62.0(>=1.62.0+dfsg-5.1) libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.11) libffms2-4(>=1:2.23) libfftw3-double3(>=3.3.5) libfontconfig1(>=2.12.6) libgcc1(>=1:4.2) libgl1 libhunspell-1.6-0 libicu60(>=60.1-1~) libpulse0(>=0.99.1) libstdc++6(>=7) libwxbase3.0-0v5(>=3.0.4+dfsg) libwxgtk3.0-0v5(>=3.0.4+dfsg) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -33475,10 +33475,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "e666d64f09b05f3d6658c18e7229d24b",
-          "sha256": "b76e89d3c31908712b050a5eca85f3003393d8a7bfb47c3f87db8c2fc6571f9f",
+          "md5": "2ea0e67edc885414744bbdf3910e98c7",
+          "sha256": "4cbfd757cf6d91fc0384c4a99e87037fa29968fb8d2f6dca6be4c26ae4add15c",
           "description": "Advanced subtitle editor"
         },
         "audacity_i386": 
@@ -45289,10 +45289,10 @@
     {
         "aegisub_amd64": 
         {
-          "packageurl": "https://notesalexp.org/xenial/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/xenial/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_amd64.deb",
           "size": "2.37_MiB ",
-          "sizebyt": "2494120",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "2493048",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "6.86_MiB ",
           "depends": "libasound2(>=1.0.18) libass5(>=0.13.0) libboost-filesystem1.58.0 libboost-locale1.58.0 libboost-regex1.58.0 libboost-system1.58.0 libboost-thread1.58.0 libc6(>=2.14) libffms2-4(>=2.21) libfftw3-double3 libfontconfig1(>=2.11.94) libgcc1(>=1:3.3) libgl1-mesa-glx|libgl1 libhunspell-1.3-0(>=1.3.3) libicu55(>=55.1-1~) libpulse0(>=0.99.1) libstdc++6(>=5.2) libwxbase3.0-0v5(>=3.0.2+dfsg) libwxgtk3.0-0v5(>=3.0.2+dfsg) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -45300,10 +45300,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "c6ea0e9892b15c6e420a7a6ce41937a6",
-          "sha256": "809678fc484a0b38fa6953b18b56bcea72ffa7237b3fb59a0cf6f621fb269800",
+          "md5": "39d73e090297aba39e27ee8ae763ad52",
+          "sha256": "6bcf0f4511eaf327e352d4ceb196a80737e8b73683bde5ec2569ef049f465da7",
           "description": "Advanced subtitle editor"
         },
         "audacity_amd64": 
@@ -47194,20 +47194,20 @@
         },
         "aegisubl10n_all": 
         {
-          "packageurl": "https://notesalexp.org/xenial/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-1_all.deb",
+          "packageurl": "https://notesalexp.org/xenial/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-2_all.deb",
           "size": "484_KiB ",
-          "sizebyt": "493698",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "492466",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "3.18_MiB ",
-          "depends": "aegisub(=1:3.2.3~git7827-a4bde47c5-1) ",
+          "depends": "aegisub(=2:3.2.3~git7827-a4bde47c5-2) ",
           "section": "localization",
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "fb57fd7244f9b79ea27b0bfd271c9f81",
-          "sha256": "d9b4672f0e1f10d72bbf84b47f033e1c93b2fc08fbb4c90b1c131d03e95edef7",
+          "md5": "8e01f4d6ca11aebd6960099755db4a0f",
+          "sha256": "d961bb2f38a59f52b093f059be5c1596ab0ea07a3a5ba511eaecfb7e6ff0cc90",
           "description": "Aegisub language packages"
         },
         "audacitydata_all": 
@@ -47777,21 +47777,21 @@
         },
         "ocrfeeder_all": 
         {
-          "packageurl": "https://notesalexp.org/xenial/main/o/ocrfeeder/ocrfeeder_0.8.1+git20180318-1_all.deb",
+          "packageurl": "https://notesalexp.org/xenial/main/o/ocrfeeder/ocrfeeder_0.8.1+git20180318-2_all.deb",
           "size": "736_KiB ",
-          "sizebyt": "752472",
-          "version": "0.8.1+git20180318-1",
+          "sizebyt": "752612",
+          "version": "0.8.1+git20180318-2",
           "isize": "2.37_MiB ",
-          "depends": "python(<<2.8) python(>=2.7.5-5~) python-enchant python-gi python-lxml python-pil python-reportlab python-sane python-imaging gir1.2-gtk-3.0 gir1.2-gtkspell3-3.0 gir1.2-goocanvas-2.0|gir1.2-goocanvas-2.0-9 iso-codes ghostscript tesseract-ocr|ocrad|gocr|cuneiform|cuneiform-linux|cuneiform-refactoring ",
+          "depends": "python(<<2.8) python(>=2.7.5-5~) python-enchant python-gi python-lxml python-pil python-reportlab python-sane gir1.2-gtk-3.0 gir1.2-gtkspell3-3.0 gir1.2-goocanvas-2.0|gir1.2-goocanvas-2.0-9 iso-codes ghostscript tesseract-ocr|ocrad|gocr|cuneiform|cuneiform-linux|cuneiform-refactoring ",
           "recomends": "unpaper yelp ",
           "section": "graphics",
           "priority": "optional",
           "source": "ocrfeeder",
           "sourceurl": "https://notesalexp.org/source/main/o/ocrfeeder",
-          "sourcefile": "ocrfeeder_0.8.1+git20180318-1.debian.tar.xz ocrfeeder_0.8.1+git20180318-1.dsc ocrfeeder_0.8.1+git20180318.orig.tar.xz ",
+          "sourcefile": "ocrfeeder_0.8.1+git20180318-2.debian.tar.xz ocrfeeder_0.8.1+git20180318-2.dsc ocrfeeder_0.8.1+git20180318.orig.tar.xz ",
           "homepage": "http://live.gnome.org/OCRFeeder",
-          "md5": "d76e09a4a902f23bca15fb854e9ff527",
-          "sha256": "5821657a4c8993f26fa287a18f87cbeea78705bca61a11ac4739a00e0ddb65cf",
+          "md5": "88b7f991ebe2aa108ac978144d171b2e",
+          "sha256": "3e6e88e2fed3d530d93c970552c88564094a965cf549d32c50160d2880ec0d3e",
           "description": "Document layout analysis and optical character recognition system"
         },
         "ocrodjvu_all": 
@@ -51432,10 +51432,10 @@
         },
         "aegisub_i386": 
         {
-          "packageurl": "https://notesalexp.org/xenial/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_i386.deb",
+          "packageurl": "https://notesalexp.org/xenial/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_i386.deb",
           "size": "2.40_MiB ",
-          "sizebyt": "2520412",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "2520120",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "6.68_MiB ",
           "depends": "libasound2(>=1.0.18) libass5(>=0.13.0) libboost-filesystem1.58.0 libboost-locale1.58.0 libboost-regex1.58.0 libboost-system1.58.0 libboost-thread1.58.0 libc6(>=2.11) libffms2-4(>=2.21) libfftw3-double3 libfontconfig1(>=2.11.94) libgcc1(>=1:4.2) libgl1-mesa-glx|libgl1 libhunspell-1.3-0(>=1.3.3) libicu55(>=55.1-1~) libpulse0(>=0.99.1) libstdc++6(>=5.2) libwxbase3.0-0v5(>=3.0.2+dfsg) libwxgtk3.0-0v5(>=3.0.2+dfsg) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -51443,10 +51443,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "11482339e063f3920043f46a8f928315",
-          "sha256": "1f9b6f1a8549bd4ca8a72f16fd6ff31b003e4978c3526f0d54ea19bf6fc942b6",
+          "md5": "554da3939b5941fdf78e4d940d05856d",
+          "sha256": "643f44613ee2ad1ca299be6868708744cf6c9d9721baf08a3c44f4a674ee0e24",
           "description": "Advanced subtitle editor"
         },
         "audacity_i386": 
@@ -53340,10 +53340,10 @@
     {
         "aegisub_amd64": 
         {
-          "packageurl": "https://notesalexp.org/artful/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/artful/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_amd64.deb",
           "size": "2.52_MiB ",
-          "sizebyt": "2646978",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "2649112",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "7.62_MiB ",
           "depends": "libasound2(>=1.0.18) libass9(>=1:0.13.6) libboost-filesystem1.62.0 libboost-locale1.62.0 libboost-regex1.62.0 libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.14) libffms2-4(>=2.21) libfftw3-double3(>=3.3.5) libfontconfig1(>=2.11.94) libgcc1(>=1:3.3) libgl1-mesa-glx|libgl1 libhunspell-1.6-0 libicu57(>=57.1-1~) libpulse0(>=0.99.1) libstdc++6(>=7) libwxbase3.0-0v5(>=3.0.3.1+dfsg2) libwxgtk3.0-0v5(>=3.0.3.1+dfsg2) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -53351,10 +53351,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "bc3a934fe4edd1fe3f9257fc91acac39",
-          "sha256": "8924bb75e17d32a3d326ab9c2f9e071f03ce9ebc246fc95e5800e896a8808dff",
+          "md5": "8678c0092b52f59a1df5f6f3fc2a84a8",
+          "sha256": "52207bdecfe5841fd9a92a2669a9a0ecaa70a68b0712c87082ab608538101d81",
           "description": "Advanced subtitle editor"
         },
         "audacity_amd64": 
@@ -54956,20 +54956,20 @@
         },
         "aegisubl10n_all": 
         {
-          "packageurl": "https://notesalexp.org/artful/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-1_all.deb",
+          "packageurl": "https://notesalexp.org/artful/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-2_all.deb",
           "size": "484_KiB ",
-          "sizebyt": "491968",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "491994",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "3.17_MiB ",
-          "depends": "aegisub(=1:3.2.3~git7827-a4bde47c5-1) ",
+          "depends": "aegisub(=2:3.2.3~git7827-a4bde47c5-2) ",
           "section": "localization",
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "eb6cbe015e7bce25f9d919a7d7f2887b",
-          "sha256": "75c10faa0905ac688d3ffa3a31563a1e76fb6b9461533a90e2c81eb1597312ec",
+          "md5": "adc692dfa6f65b58f110cf25e5659fd8",
+          "sha256": "bd7f067299af621cd6d1e0e5712d5873389ccc170e7dcf006719b824b9c05f90",
           "description": "Aegisub language packages"
         },
         "audacitydata_all": 
@@ -55450,21 +55450,21 @@
         },
         "ocrfeeder_all": 
         {
-          "packageurl": "https://notesalexp.org/artful/main/o/ocrfeeder/ocrfeeder_0.8.1+git20180318-1_all.deb",
+          "packageurl": "https://notesalexp.org/artful/main/o/ocrfeeder/ocrfeeder_0.8.1+git20180318-2_all.deb",
           "size": "736_KiB ",
-          "sizebyt": "753204",
-          "version": "0.8.1+git20180318-1",
+          "sizebyt": "753324",
+          "version": "0.8.1+git20180318-2",
           "isize": "2.37_MiB ",
-          "depends": "python(<<2.8) python(>=2.7.5-5~) python-enchant python-gi python-lxml python-pil python-reportlab python-sane python-imaging gir1.2-gtk-3.0 gir1.2-gtkspell3-3.0 gir1.2-goocanvas-2.0|gir1.2-goocanvas-2.0-9 iso-codes ghostscript tesseract-ocr|ocrad|gocr|cuneiform|cuneiform-linux|cuneiform-refactoring ",
+          "depends": "python(<<2.8) python(>=2.7.5-5~) python-enchant python-gi python-lxml python-pil python-reportlab python-sane gir1.2-gtk-3.0 gir1.2-gtkspell3-3.0 gir1.2-goocanvas-2.0|gir1.2-goocanvas-2.0-9 iso-codes ghostscript tesseract-ocr|ocrad|gocr|cuneiform|cuneiform-linux|cuneiform-refactoring ",
           "recomends": "unpaper yelp ",
           "section": "graphics",
           "priority": "optional",
           "source": "ocrfeeder",
           "sourceurl": "https://notesalexp.org/source/main/o/ocrfeeder",
-          "sourcefile": "ocrfeeder_0.8.1+git20180318-1.debian.tar.xz ocrfeeder_0.8.1+git20180318-1.dsc ocrfeeder_0.8.1+git20180318.orig.tar.xz ",
+          "sourcefile": "ocrfeeder_0.8.1+git20180318-2.debian.tar.xz ocrfeeder_0.8.1+git20180318-2.dsc ocrfeeder_0.8.1+git20180318.orig.tar.xz ",
           "homepage": "http://live.gnome.org/OCRFeeder",
-          "md5": "29e8c619ca8d5d666844bd7c287e1124",
-          "sha256": "fd01dd16a4e30a955fcd62745844cdd36d52b8b3ddea146a87097497d61d71e6",
+          "md5": "b82d00c4047fef33d12085294d84784e",
+          "sha256": "5768da2f95b3bffd4ec621419c221a2e5f4a6b5a6ba385f7f3f3f9e834c63e61",
           "description": "Document layout analysis and optical character recognition system"
         },
         "ocrodjvu_all": 
@@ -59108,10 +59108,10 @@
         },
         "aegisub_i386": 
         {
-          "packageurl": "https://notesalexp.org/artful/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_i386.deb",
-          "size": "2.62_MiB ",
-          "sizebyt": "2756590",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "packageurl": "https://notesalexp.org/artful/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_i386.deb",
+          "size": "2.63_MiB ",
+          "sizebyt": "2756806",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "7.58_MiB ",
           "depends": "libasound2(>=1.0.18) libass9(>=1:0.13.6) libboost-filesystem1.62.0 libboost-locale1.62.0 libboost-regex1.62.0 libboost-system1.62.0 libboost-thread1.62.0 libc6(>=2.11) libffms2-4(>=2.21) libfftw3-double3(>=3.3.5) libfontconfig1(>=2.11.94) libgcc1(>=1:4.2) libgl1-mesa-glx|libgl1 libhunspell-1.6-0 libicu57(>=57.1-1~) libpulse0(>=0.99.1) libstdc++6(>=7) libwxbase3.0-0v5(>=3.0.3.1+dfsg2) libwxgtk3.0-0v5(>=3.0.3.1+dfsg2) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -59119,10 +59119,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "33ed8b851cbdf6950ab50c34c930fd87",
-          "sha256": "3da4834ba1050b544570d4692849acbf2f17a916778b64535606096b2d2408d8",
+          "md5": "d2740426054b58b78f5a3300f83445bb",
+          "sha256": "fd1c12498fc1c0355111e357104d85f6cc1693e3f30781d0e2671ad1d505003e",
           "description": "Advanced subtitle editor"
         },
         "audacity_i386": 
@@ -60727,10 +60727,10 @@
     {
         "aegisub_amd64": 
         {
-          "packageurl": "https://notesalexp.org/bionic/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/bionic/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_amd64.deb",
           "size": "2.53_MiB ",
-          "sizebyt": "2658104",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "2656724",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "7.63_MiB ",
           "depends": "libasound2(>=1.0.18) libass9(>=1:0.13.6) libboost-filesystem1.65.1 libboost-locale1.65.1 libboost-regex1.65.1 libboost-system1.65.1 libboost-thread1.65.1 libc6(>=2.14) libffms2-4(>=2.21) libfftw3-double3(>=3.3.5) libfontconfig1(>=2.12) libgcc1(>=1:3.3) libgl1 libhunspell-1.6-0 libicu60(>=60.1-1~) libpulse0(>=0.99.1) libstdc++6(>=7) libwxbase3.0-0v5(>=3.0.4+dfsg) libwxgtk3.0-0v5(>=3.0.4+dfsg) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -60738,10 +60738,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "5b6cbcc69200ecf1397179ea3aa4e366",
-          "sha256": "bc026efdad5b0fca8826aa09f896aa82b98a524e700e95637e4382dcd164ce33",
+          "md5": "0fc875528f30024d2d08bdadcad12f3c",
+          "sha256": "20446eb463ea79c732e6f4237905896500530a5ac83cee731b35f658e0cc5952",
           "description": "Advanced subtitle editor"
         },
         "audacity_amd64": 
@@ -61891,20 +61891,20 @@
         },
         "aegisubl10n_all": 
         {
-          "packageurl": "https://notesalexp.org/bionic/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-1_all.deb",
+          "packageurl": "https://notesalexp.org/bionic/main/a/aegisub/aegisub-l10n_3.2.3~git7827-a4bde47c5-2_all.deb",
           "size": "484_KiB ",
-          "sizebyt": "491960",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "491992",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "3.17_MiB ",
-          "depends": "aegisub(=1:3.2.3~git7827-a4bde47c5-1) ",
+          "depends": "aegisub(=2:3.2.3~git7827-a4bde47c5-2) ",
           "section": "localization",
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "3c5986e75891f04ad4ffc1ccf7a4fbc6",
-          "sha256": "dff446c61a8a550ee3abb1ea4b323a79a983391923098cef8227ac8563560734",
+          "md5": "a522138a51c353db04d52642e5a1be2f",
+          "sha256": "66fb9049c7a94ba7f37939b1eb05538b5e02d6b3e042db5591986a4c55c77834",
           "description": "Aegisub language packages"
         },
         "audacitydata_all": 
@@ -62346,6 +62346,25 @@
           "md5": "e669878405163304722a93690bfdcb70",
           "sha256": "d10a4c24c21b9d0afbdf847d03cf7da4ae747887ceffc1aa53402c527f4203d3",
           "description": "Graphical key editor for openbox"
+        },
+        "ocrfeeder_all": 
+        {
+          "packageurl": "https://notesalexp.org/bionic/main/o/ocrfeeder/ocrfeeder_0.8.1+git20180318-2_all.deb",
+          "size": "736_KiB ",
+          "sizebyt": "752356",
+          "version": "0.8.1+git20180318-2",
+          "isize": "2.37_MiB ",
+          "depends": "python(<<2.8) python(>=2.7.5-5~) python-enchant python-gi python-lxml python-pil python-reportlab python-sane gir1.2-gtk-3.0 gir1.2-gtkspell3-3.0 gir1.2-goocanvas-2.0|gir1.2-goocanvas-2.0-9 iso-codes ghostscript tesseract-ocr|ocrad|gocr|cuneiform|cuneiform-linux|cuneiform-refactoring ",
+          "recomends": "unpaper yelp ",
+          "section": "graphics",
+          "priority": "optional",
+          "source": "ocrfeeder",
+          "sourceurl": "https://notesalexp.org/source/main/o/ocrfeeder",
+          "sourcefile": "ocrfeeder_0.8.1+git20180318-2.debian.tar.xz ocrfeeder_0.8.1+git20180318-2.dsc ocrfeeder_0.8.1+git20180318.orig.tar.xz ",
+          "homepage": "http://live.gnome.org/OCRFeeder",
+          "md5": "2984f7e44e0eca1c7a38a90c47f44183",
+          "sha256": "24711c05be41c869a9120984cf812e155963de9e5eba6859cdea418534fd4047",
+          "description": "Document layout analysis and optical character recognition system"
         },
         "ocrodjvu_all": 
         {
@@ -65973,10 +65992,10 @@
         },
         "aegisub_i386": 
         {
-          "packageurl": "https://notesalexp.org/bionic/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-1_i386.deb",
+          "packageurl": "https://notesalexp.org/bionic/main/a/aegisub/aegisub_3.2.3~git7827-a4bde47c5-2_i386.deb",
           "size": "2.63_MiB ",
-          "sizebyt": "2759616",
-          "version": "1:3.2.3~git7827-a4bde47c5-1",
+          "sizebyt": "2759988",
+          "version": "2:3.2.3~git7827-a4bde47c5-2",
           "isize": "7.60_MiB ",
           "depends": "libasound2(>=1.0.18) libass9(>=1:0.13.6) libboost-filesystem1.65.1 libboost-locale1.65.1 libboost-regex1.65.1 libboost-system1.65.1 libboost-thread1.65.1 libc6(>=2.11) libffms2-4(>=2.21) libfftw3-double3(>=3.3.5) libfontconfig1(>=2.12) libgcc1(>=1:4.2) libgl1 libhunspell-1.6-0 libicu60(>=60.1-1~) libpulse0(>=0.99.1) libstdc++6(>=7) libwxbase3.0-0v5(>=3.0.4+dfsg) libwxgtk3.0-0v5(>=3.0.4+dfsg) zlib1g(>=1:1.1.4) ",
           "suggests": "aegisub-l10n ",
@@ -65984,10 +66003,10 @@
           "priority": "extra",
           "source": "aegisub",
           "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+          "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
           "homepage": "http://www.aegisub.org/",
-          "md5": "4edd71e6734e75f581746a0140b87d8c",
-          "sha256": "91750933a4753edc38ef096951bc37ebf05ac49a6c2bdf677ee790cdbede1058",
+          "md5": "d9f232de171aa7405863502f313cc2dd",
+          "sha256": "d92a7eb6236c8d682eacc99eff75cd1747124b60b720dfa66c7f38566f9b84ce",
           "description": "Advanced subtitle editor"
         },
         "audacity_i386": 

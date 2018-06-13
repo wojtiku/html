@@ -1,16 +1,16 @@
 {
     "aegisub": 
     {
-      "version": "1:3.2.3~git7827-a4bde47c5-1",
+      "version": "2:3.2.3~git7827-a4bde47c5-2",
       "description": " Advanced subtitle editor",
       "sourceurl": "https://notesalexp.org/source/main/a/aegisub",
-      "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-1.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-1.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
+      "sourcefile": "aegisub_3.2.3~git7827-a4bde47c5-2.debian.tar.xz aegisub_3.2.3~git7827-a4bde47c5-2.dsc aegisub_3.2.3~git7827-a4bde47c5.orig.tar.xz ",
       "homepage": "http://www.aegisub.org/",
       "depends": "debhelper(>=9~) dh-autoreconf intltool libasound2-dev[linux-any] libass-dev libboost-dev libboost-filesystem-dev libboost-regex-dev libboost-system-dev libboost-thread-dev libffms2-dev libfftw3-dev libfontconfig1-dev libfreetype6-dev libgl1-mesa-dev|libgl-dev ccache libglu1-mesa-dev|libglu-dev libhunspell-dev libicu-dev libpulse-dev libwxgtk3.0-dev quilt libboost-locale-dev libboost-chrono-dev libavresample-dev liblua5.2-dev|liblua5.3-dev lua5.2|lua5.3 luajit git autoconf-archive ",
       "binary": "aegisub aegisub-l10n",
       "description_aegisub": "Advanced subtitle editor",
       "description_aegisubl10n": "Aegisub language packages",
-      "md5": " 5887b8e1166f5e0344a342e959f56cb0 360084f680863ab153963a72d781093a 32ce504fd849a61e92f449b2a910852a",
+      "md5": " d93f817f51954e273fdff06feab938df 58cfadd90ec62307d3f05beb57989f3a 32ce504fd849a61e92f449b2a910852a",
       "size": " 12_KiB  4_KiB  11.57_MiB "
     },
     "audacity": 
@@ -654,15 +654,15 @@
     },
     "ocrfeeder": 
     {
-      "version": "0.8.1+git20180318-1",
+      "version": "0.8.1+git20180318-2",
       "description": " Document layout analysis and optical character recognition system",
       "sourceurl": "https://notesalexp.org/source/main/o/ocrfeeder",
-      "sourcefile": "ocrfeeder_0.8.1+git20180318-1.debian.tar.xz ocrfeeder_0.8.1+git20180318-1.dsc ocrfeeder_0.8.1+git20180318.orig.tar.xz ",
+      "sourcefile": "ocrfeeder_0.8.1+git20180318-2.debian.tar.xz ocrfeeder_0.8.1+git20180318-2.dsc ocrfeeder_0.8.1+git20180318.orig.tar.xz ",
       "homepage": "http://live.gnome.org/OCRFeeder",
       "depends": "debhelper(>=7) python-all(>=2.6.6-3~) intltool libglib2.0-dev gnome-doc-utils python-enchant python-gi python-gobject python-pil python-reportlab python-sane gir1.2-gtk-3.0 gir1.2-goocanvas-2.0|gir1.2-goocanvas-2.0-9 dh-autoreconf gnome-common yelp-tools dh-python ",
       "binary": "ocrfeeder",
       "description_ocrfeeder": "Document layout analysis and optical character recognition system",
-      "md5": " 50121a83e8cbdb5c721c22138893ff91 3e7b583f21f33af1dd03f782bdafbc16 59870ef464d6cae4b023bf46829af240",
+      "md5": " 6271b35ee2a08ca3b742e72472d8828f 54b82f168df22849fa98c3a59e48b5af 59870ef464d6cae4b023bf46829af240",
       "size": " 8_KiB  4_KiB  768_KiB "
     },
     "ocrodjvu": 

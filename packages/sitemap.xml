@@ -1945,6 +1945,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/amd64/obkey/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/ocrfeeder/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/ocrodjvu/</loc>
     </url>
     <url>
@@ -2723,6 +2726,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/obkey/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/ocrfeeder/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/ocrodjvu/</loc>
@@ -16319,6 +16325,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2018/05/29/20180529/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/06/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/06/10/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/06/10/20180610/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
