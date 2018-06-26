@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package freecad-daily_0.17+git13920-08910e71e-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package freecad-daily_0.17+git13983-8f1c6f77c-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,95 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package freecad-daily in stretch of architecture amd64</h5>
-<div class="highlight"><pre><span></span>freecad-daily (0.17+git13920-08910e71e-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>freecad-daily (0.17+git13983-8f1c6f77c-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/FreeCAD/FreeCAD.git
   * Branch: master
-  * Commit: 08910e71e423c02da46018c47e34002df4fde1f9
-  * Date: 1528320854
+  * Commit: 8f1c6f77c090ae7d9c2bfd4f18811083b01a3eb2
+  * Date: 1529679072
   * git changelog:
+  *  8f1c6f77c - Arch: Fixed RHS structural profiles
+  *  c5d589745 - Fix #3508 Missing Namespace in Templates
+  *  cd02be6fc - TD: provide gap between figure and ext lines
+  *  b20a99257 - Fix extension line direction in isometric views
+  *  5da2280cd - Arch: Added Frame and Offset properties to windows
+  *  fb0fc49a3 - Removed PathPreferences class and moved functionality
+    into the module interface.
+  *  b24e95b7c - Removed PathGeom class and moved functionality into
+    module interface.
+  *  fae0de585 - Arch: Fixed export of included windows to IFC
+  *  64fee7817 - Simple blocks now are possible as container.
+  *  ec16d82c9 - Add a new array type: PointArray.
+  *  70c190f5d - Merge pull request #1521 from easyw/master
+  *  60a0dff12 - updating new Icons
+  *  8e4dd8ca8 - Arch: Fixed bug in removing objects from section planes
+  *  9e7f406bd - Fix X,Y of anchor in Projection Group
+  *  f91cb2ab7 - Compatibility w/R12 and arrows for Angles
+  *  36a82c690 - Add support for full circles to PathGeom.
+  *  a59e87976 - Additional modules for Arch Linux added to
+    VTK_COMPONENTS
+  *  e3f578ee8 - Building the FEM module on Arch Linux requires some
+    additions to VTK_LIBRARIES
+  *  c0014cbd3 - Misc. comment typos
+  *  548511ac3 - Add support for Qt5 in ts update script
+  *  c8c10c117 - Fix Blender Navigation
+  *  3c3239ae2 - Aggregate base edges into wires for engraving.
+  *  8faf50ec0 - PartDesign::Clone maintain the colors of the original
+  *  0fcb378f0 - Arch/Draft: Fixed bugs in non-GUI mode
+  *  2f18182b6 - Updated travis build badge in Readme
+  *  15685136e - Add sew function to the draft facebinder. Besides
+    facebinder and patharray get their own icons in the tree view.
+  *  c6c4a0677 - Add sew function to the draft facebinder. Besides
+    facebinder and patharray get their own icons in the tree view.
+  *  1051f1049 - Material: main module, only use one material structure
+    list
+  *  f90cd4a56 - backport to occt < 6.9
+  *  f3ac51d9b - add Approximation option to TopoShape section
+  *  be96fcc62 - add Approximation option to FeaturePartSection
+  *  2410e5323 - fix typo
+  *  184a566da - Material: move materal property list into material
+    module and use this for material editor ui and writing of mat files
+  *  1e844d4f5 - Material, code formating, flake8 compatible code
+  *  1e37612a2 - Sketcher: Fix deleteall crash
+  *  9975c7588 - Fix #3419 Circles as Polygons
+  *  f571c1448 - Fix wrong point in Radius dim
+  *  7cb8520a8 - Make Dxf Dimensions compatible with ACAD
+  *  0f8eca3c1 - Make Dxf header compatible with ACAD
+  *  79e290ffb - Fix 3505 Special Chars in Path
+  *  6c4e4b35a - Ensure Correct Scale in DrawViewSection
+  *  a8daaf4a4 - fixes #0002725: Random color for features in
+    PartDesignNext
+  *  617dfa063 - Arch: survey: py3-fix
+  *  41b278a05 - fixes #0003256: additive elements do not use color of
+    Body
+  *  75a6c6818 - fix possible crash when reverting a document
+  *  c4fd48fb3 - explicit handling of English/en locale in setLocale and
+    supportedLocales
+  *  8f19b46d2 - Some fixes for PropertyEnumeration: + when reading an
+    enumeration ignore negative indexes and print a warning + raise an
+    exception when trying to get the current value of an invalid
+    enumeration
+  *  5ea211489 - add methods to set/get locales
+  *  cb1337674 - properly handle failure of loading a module
+  *  b77b77c0d - fix -Wmaybe-uninitialized
+  *  833c2c601 - add missing newlines
+  *  f0e6b6969 - Switched engrave to use path-geom tools
+  *  d6d26b6a8 - Sketcher: Wrong DoF reported - Fixes #3503
+  *  a91d9c5d1 - msvc2013 doesn't support default arguments in lambda
+    expressions
+  *  a5e85fd29 - Sketcher: Python interface to solveraid
+  *  830932db4 - Sketcher: Ability for SketchObject to create a list of
+    dependent geometric elements
+  *  556f5dc8f - FEM: source typo fixes
+  *  7d7a02e00 - FEM: add tool clipping plane tools
+  *  c3e64d286 - Material: editor, move poisson ration into mechanical
+    properties
+  *  e143e3f29 - Material: editor, move in ui hardcoded properties into
+    the editor module in a tuple
+  *  0b37a9259 - GCS: Improved point symmetry constraint
+  *  ed0c22cf5 - GCS: Add convenience point constructor
+  *  83dd39b4c - small flatmesh fix
   *  08910e71e - Arch: Added pref option to base new walls on Draft
     lines
   *  05bee3aa1 - Materials: use material directory pref from FEM
@@ -218,7 +299,7 @@
   *  0425c7f3c - fixes #0003493: Python Shape.isClosed() returns false
     for any solid, including primitive Parts
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 08 Jun 2018 23:27:59 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 26 Jun 2018 01:37:53 +0300
 
 freecad-daily (0.17+git13801-4b089f966-1) unstable; urgency=medium
 

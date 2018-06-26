@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package qcad-data_3.20.0+git5433-7f1b8d092-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package qcad-data_3.20.0+git5700-88a38cb5b-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,349 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package qcad-data in jessie of architecture amd64</h5>
-<div class="highlight"><pre><span></span>qcad (3.20.0+git5433-7f1b8d092-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>qcad (3.20.0+git5700-88a38cb5b-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 88a38cb5be8893ecc5be2d4a093860ff53f41784
+  * Date: 1529696436
+  * git changelog:
+  *  88a38cb5b - port to Qt 4
+  *  40d628548 - port to Qt 4
+  *  c0463bc2e - update version
+  *  62121bbc0 - update splashscreens
+  *  297c0af1e - set version to 3.21.0
+  *  b44ef0f2e - fix compiler warnings
+  *  f9ad65bea - fix compiler warnings
+  *  34906eedf - fix compiler warnings
+  *  7e690bbd5 - fix compiler warnings
+  *  9c1c7821f - fix compiler warnings
+  *  993321605 - fix compiler warning
+  *  1eadfa195 - update user manual
+  *  c5ce40c04 - update user manual
+  *  50afc27c3 - fix compiler warnings
+  *  857a5dfcd - set version to 3.20.2
+  *  01160f1a5 - update script bindings
+  *  02c03158c - add RPolylineEntity::morph
+  *  9d19a03af - performance: show total length, area of polylines on
+    request only
+  *  3951fb903 - update handling of invalid vectors
+  *  65a05f3bd - return RVector of inserted node in
+    RPolyline::insertVertexAtDistance
+  *  23ceb7e76 - add factor to zoomIn / zoomOut
+  *  0e83415dc - add preference for middle mouse button zoom factor
+  *  ce9306877 - implement zooming with middle mouse button click
+  *  0a054ed4f - update unit test data
+  *  4f9c693e5 - explode circles into polylines with two arcs
+  *  cb08aeda6 - add workarounds for Qt 5.11.1 bugs
+  *  3b219107a - catch invalid numbers to prevent spatial index library
+    crash
+  *  762d41e94 - update translations
+  *  825f1efd1 - update user manual translations
+  *  10e2258ca - update user manual translations
+  *  d0fc3e68e - update user manual translations
+  *  4593966ae - update user manual translations
+  *  f359f7d92 - update user manual translations
+  *  1b8f03b3f - update user manual translations
+  *  1887a50f7 - update user manual translations
+  *  d37c369e6 - update user manual translations
+  *  61cfa63d2 - update user manual translations
+  *  5314bfd61 - update user manual translations
+  *  8d0c10890 - update script bindings
+  *  b7b013825 - add bulges to insertVertex
+  *  07f68acb7 - add addShapes to simple API
+  *  6d35630fa - set version to 3.20.1.7
+  *  99639249f - update user manual translations
+  *  84d0fc0b9 - update user manual translations
+  *  88e7dcc93 - update user manual translations
+  *  a389d384d - update user manual translations
+  *  b77ffb40c - update user manual translations
+  *  b54a6a103 - update user manual translations
+  *  3a685300c - update user manual translations
+  *  c0eccd512 - add script bindings for Qt 5.11.1
+  *  a6182aa48 - update user manual translations
+  *  3a8d3cccb - add support for requestable (slow) properties to
+    property editor
+  *  211a16392 - update script bindings
+  *  353edcd19 - update user manual translation
+  *  cabe4e353 - fix disabled main window on start
+  *  6e6962cd2 - update user manual translations
+  *  2007538b5 - update user manual translations
+  *  d6de88192 - update user manual translation
+  *  b1098b05f - spelling
+  *  ca9565bcb - fix property editor z coordinate display
+  *  c482ec032 - update
+  *  e624136f2 - update script bindings
+  *  0f01a453e - refactor hiding of Z properties
+  *  30b9ee51e - add elevation property as global z for all vertices
+  *  4cb1ca43c - add RPolylineData::setElevation, getElevation
+  *  7afcf8b66 - add RPolyline::isFlat
+  *  fee0eb0d6 - add Qt 5.11 workaround for enabling / disabling of app
+    win
+  *  a826caf27 - update user manual translations
+  *  d3018d964 - clean up
+  *  1c0b16de4 - clean up
+  *  41103e354 - add OverridePriority for plugins overriding application
+    name, splash and icon
+  *  8305ae9b5 - introduct plugin info property "SplashOverridePriority"
+    to make sure splash of most specialized product is shown
+  *  4688e7f84 - fix properties of linear dimensions (rotated, aligned)
+  *  1d3aa0c8e - make getProperty / setProperty virtual
+  *  c55b63ccf - make getProperty / setProperty virtual
+  *  5f8181e92 - update user manual translations
+  *  01ad4a058 - update user manual translations
+  *  78aab7198 - update user manual
+  *  2385ff512 - update user manual
+  *  32fc79c47 - update splashscreen
+  *  f6732088e - update user manual
+  *  7fadc3b6f - update user manual
+  *  ffc44e583 - update user manual
+  *  563aeaeeb - update tests
+  *  78894cdf5 - update script bindings
+  *  1d695ac77 - update user manual translations
+  *  08cd39a48 - update user manual translations
+  *  1195effb0 - update user manual translations
+  *  55cb2d039 - update user manual translations
+  *  4aa59580c - update user manual translations
+  *  f391f078c - update user manual translations
+  *  ee2b42560 - update user manual translations
+  *  d7730360e - update user manual translations
+  *  04d76e5b8 - update user manual translations
+  *  413081314 - update user manual translations
+  *  745e73673 - update user manual translations
+  *  f2d810611 - update user manual translations
+  *  abbb6dac8 - update user manual translations
+  *  9d0adc79e - update user manual translations
+  *  79451d482 - update user manual translations
+  *  34adced63 - update user manual translations
+  *  e6714d96f - update translations
+  *  a6788c62e - update user manual translations
+  *  13c624687 - update user manual translations
+  *  c495ca389 - update user manual translations
+  *  389ac8d28 - update user manual translations
+  *  0eb243f93 - update user manual translations
+  *  28258db0f - update user manual translations
+  *  8b5f4dae4 - update user manual translations
+  *  5fd1c3100 - update user manual translations
+  *  31c3b4c05 - update user manual translations
+  *  3d6c2bec0 - update translations
+  *  2dbaad086 - apply wacom bug workaround for Qt 5.11
+  *  131fa9ab3 - add script bindings for Qt 5.11.0
+  *  f8ee35b68 - update API doc
+  *  ad2f8792c - fix FS#1766 - Edit > Application Preferences: Tool
+    Settings: cannot add menus to Tool Matrix
+  *  1e0ce176d - update
+  *  6b86f7806 - add -ignore-script-files switch
+  *  b9522dbb3 - spell check
+  *  56135fdbc - make dump function const
+  *  707116296 - update splashscreen
+  *  7825b37b1 - add deleteObject
+  *  73f3018c5 - move eval to separate function (context) to avoid clash
+    of variable names in ECMAScript shell
+  *  2c3819296 - refactor handling of shift key / adding to selection
+  *  ebd9102ad - update translations
+  *  d90a2149f - use separate preference for defaults for layer 0
+  *  e6b24f0a6 - set version to 3.20.1.6
+  *  24dc15da4 - configurable default color
+  *  827247c6e - add preferences for default color / linetype of layer 0
+  *  a342ac363 - fix trimming of number string without decimal places
+  *  e2e446160 - add French translation for Misc menu
+  *  0038f396a - update spacing
+  *  353850c2f - update warning
+  *  fdc7375e6 - update spelling / layout
+  *  ce71734fd - update translations
+  *  52d3dbb74 - update output polyline vertices example
+  *  4eb78dbdd - allow exporter to change file version when saving file
+  *  ae2d2b6d8 - adjust height of first start dialog for longer
+    translated strings
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 24 Jun 2018 11:02:13 +0300
+
+qcad (3.20.0+git5562-dca21bcd3-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: dca21bcd3ed6a78b6b024c7d5e392a95f6f96dbd
+  * Date: 1527258470
+  * git changelog:
+  *  dca21bcd3 - add minimal example
+  *  5d8831aac - add example for class derived from QWidget
+  *  351489be8 - update translations
+  *  717a92115 - update example plugins
+  *  b9b5e3d55 - add mouse over highlighting
+  *  30b66ecff - fix RPolyline::getArea return value
+  *  850c2a102 - set options toolbar to exact same height as other
+    toolbars
+  *  8663fdc2d - add layer list doc
+  *  9f0118f8a - fix FS#1757 - Modify > Auto Trim: on polyline, followed
+    by undo yields corrupt / invisible polyline
+  *  8b077ad54 - update script bindings
+  *  095f7ec67 - add RArcEntity::getSweep
+  *  7234c460d - revert polyline area to use numerical approximation
+    when arcs are involved
+  *  87ca3c4da - update script bindings
+  *  168b79f83 - update
+  *  61c64e411 - fix label formatting, never save escaped label
+    formatting with arc
+  *  c7bbe2b68 - correct label position when using arc above label
+  *  426d2b783 - move arc above dimension length measurement lower
+  *  cbf4dbe5a - clean up
+  *  72b29868f - fix FS#1753 - View > Property Editor: entity types in
+    property editor not translated
+  *  8adbea928 - set version to 3.20.1.5
+  *  28b653696 - Merge branch 'master' of github.com:qcad/qcad
+  *  042577b5c - simplify RVector::isZero
+  *  b7f4b0ac0 - fix erroneous bounding box of text entity
+  *  38eaf3a5a - Merge pull request #18 from melak/scriptbindings_5.9.5
+  *  92a167e22 - add script bindings for Qt 5.9.5
+  *  dba9d412c - init member
+  *  5fbbed33a - fix detection of Dimension.ui option
+  *  586a4bd78 - reset dim arc position when setting state
+  *  1ca2bd600 - clean up
+  *  ee01edcef - use parallel extension lines for arc dimensions < 90
+    degrees
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 27 May 2018 07:00:47 +0300
+
+qcad (3.20.0+git5532-11b88c320-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 11b88c32004a5a8e91d41c48bec183af423740dd
+  * Date: 1526048903
+  * git changelog:
+  *  11b88c320 - update script bindings
+  *  d61562172 - clean up
+  *  ae2fee469 - clean up
+  *  522663f9e - clean up
+  *  c101a4e29 - fix translation of polyline orientation property
+  *  0063c3289 - add arc length dimension type
+  *  b7fec13a0 - add arc length dimension type
+  *  29af61e6a - add arc symbols
+  *  0a28783be - update translations
+  *  b8fd61e9b - fix display of deleted attributes in property editor
+  *  6c25e40b8 - clean up
+  *  909fe40bb - update test data
+  *  d0e5dfc71 - update unit test
+  *  fc3bf3de3 - fix Draw> Angular Dimension for arc
+  *  5a04e4343 - fix moving of dimension line position (definition point
+    property mapped to new property)
+  *  3009d9b34 - fix erroneous conversion of spline to line
+  *  ecdd44515 - configurable tolerance for converting splines to arcs
+    when importing splines from SVG
+  *  517be0ee6 - clean up
+  *  400faf31c - clean up
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 12 May 2018 11:48:05 +0300
+
+qcad (3.20.0+git5513-fa078226b-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: fa078226b6e61d0d288f819494a63ce274e6796d
+  * Date: 1524860175
+  * git changelog:
+  *  fa078226b - hide license key of not applicable
+  *  0d06f4d39 - update translations
+  *  4e42e897b - set version to 3.20.1.4
+  *  ed6555093 - update script bindings
+  *  73f93165d - add license key to about dialog
+  *  9e716fab1 - allow plugins to check their license before running
+  *  5cbb5e574 - clean up
+  *  e07bb8879 - fix FS#1746 - File > Bitmap Export: File base name cut
+    off in file save dialog
+  *  bd667ca54 - fix FS#1745 - File > Bitmap Export: thick lines
+    exported thin
+  *  5c2c1df3b - update script bindings
+  *  c4a2c4e0c - scale images using drag and drop
+  *  c07464189 - add RBox::scaleByReference
+  *  0f6348a56 - add RVector::getAbsolute
+  *  4cb09baa3 - clean up
+  *  66592b901 - scale images using drag and drop
+  *  bd7197d21 - update script bindings
+  *  9c36ef859 - add live preview when inserting / modifying images
+  *  4467d0819 - add RImageData::setFade, setBrightness, setContrast
+  *  5a2c58150 - add ROperation::getTransactionGroup
+  *  944f9f5fb - update script bindings
+  *  4b864db16 - add support for tagged states
+  *  dd076f710 - fix dimension options for angular dimension
+  *  5ae4e35f3 - capitalization
+  *  c0b19ce14 - update qrc
+  *  507742926 - fix compiler warning
+  *  62047e8c3 - add test
+  *  c4ef2369f - add options toolbar ui for angular dimensions
+  *  292e1e0ef - add gitignore
+  *  12e2b7fb8 - add drag and drop tests
+  *  4bfa52146 - update translatable strings
+  *  57a975732 - update translations
+  *  daa3b49e7 - set version to 3.20.1.3
+  *  8f7284962 - add support for flipped dimension when using dxflib
+  *  2f8c19e2a - add support for flipped dimension arrows to dxflib
+  *  7bd3c3469 - draw reference point always on top of (highlighted)
+    entities
+  *  5a8412bdf - move polyline segments using drag and drop
+  *  99d6e5c07 - clean up
+  *  972a69d6e - support arrow flipping for aligned dimensions
+  *  58d2e4b33 - support arrow flipping for radial dimensions
+  *  fb9275e40 - clean up
+  *  11bf53051 - update outside arrows for angular dimensions
+  *  821474e02 - clean up
+  *  0c2dc1d2c - flip arrows of angular dimensions
+  *  78debd8b7 - update script bindings
+  *  02838a3d4 - handle clicks on reference points
+  *  3d61a8ac4 - show arrow reference point as round
+  *  c1ffe9341 - add properties for dimension arrows flip state
+  *  577e18f0b - add RClickReferencePointOperation to react to reference
+    point clicks
+  *  3bb5c19ff - add RClickReferencePointOperation to react to reference
+    point clicks
+  *  c7801dbf8 - add arrow reference point type
+  *  72d100b06 - add REntity::clickReferencePoint to react to reference
+    point clicks
+  *  30e889edc - update writeDimension for angular dimensions
+  *  0c62d5508 - update isDimension for angular dimensions
+  *  f2e696fbf - clean up
+  *  c7499efbd - add preference to enable keyboard navigation in list
+    widgets
+  *  96685c831 - update script bindings
+  *  1655be6c7 - split RDimAngular2L / RDimAngular3P
+  *  e9a869df1 - add RVector::getRotated, getScaled, getMirrored
+  *  c43d75a33 - update comment
+  *  a9f57253d - set version to 3.20.1.2
+  *  570163ffd - make some static functions from non-scriptable class
+    QPrinterInfo scriptable
+  *  9eb0b5502 - add support for direct printing to given printer
+  *  9d88cb808 - don't show print dialog when running in command line
+    mode
+  *  813bafd1e - fix point size when printing
+  *  653e8eec9 - add preference for print point size
+  *  f00068248 - make sure title of property attributes group is
+    translated
+  *  9fb829f85 - update translations
+  *  7bbf2eaeb - fix FS#1741 - Property Editor: titles of block
+    attributes with _ cut off
+  *  445bd29fa - add warnings
+  *  f770d66db - scale visual properties before applying other
+    transformations
+  *  afc70d081 - scale visual properties of block reference
+  *  8f282b24f - fix selecting entities around points if snap range is
+    very large
+  *  7ffef4f68 - update script bindings
+  *  17e53ad98 - add RColor::addColor to API
+  *  6c4a8dcb5 - update credits
+  *  f554c590e - fix potential exception
+  *  6034d8c6a - use exists / autoPath for path arguments
+  *  fdccc8aaf - fix path when getting OpenFile.js action from resources
+  *  6375be0a6 - set version to 3.20.1.1
+  *  03bdd674a - fix path to OpenFile.js when loaded from resource
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 28 Apr 2018 20:45:10 +0300
+
+qcad (3.20.0+git5433-7f1b8d092-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/qcad/qcad.git

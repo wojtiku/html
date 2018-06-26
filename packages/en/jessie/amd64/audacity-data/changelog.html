@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package audacity-data_2.2.2+git8704-b54f56fba-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package audacity-data_2.2.2+git8744-95ef41413-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,70 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package audacity-data in jessie of architecture amd64</h5>
-<div class="highlight"><pre><span></span>audacity (1:2.2.2+git8704-b54f56fba-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>audacity (1:2.2.2+git8744-95ef41413-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/audacity/audacity.git
   * Branch: master
-  * Commit: b54f56fba0832b53f4365a50337798b89d1824ba
-  * Date: 1528378959
+  * Commit: 95ef41413c83fb6aea473ac8762313cf39a05d6a
+  * Date: 1529621678
   * git changelog:
+  *  95ef41413 - Better fix for bug 1891
+  *  47665836c - Enh 1890:  Allow P&R when cursor is exactly at track
+    end...
+  *  a3312f4ae - Guard against negative values for P&R preferences
+  *  d76597287 - Need acquire ordering in RingBuffer::Clear() too; and
+    comments
+  *  fcdfd68d7 - Stricter memory ordering in RingBuffer
+  *  bd7e6f727 - Avoid false sharing of the two atomic variables of
+    RingBuffer
+  *  f145574dd - Fix for 1891 is specific to Mac / Linux
+  *  8a158c741 - String and dialog changes related to Punch and Roll
+  *  46fb2960c - Links to help for errors in usage of P&R
+  *  76282a1da - Simply "Pre-roll:" not "Pre-roll duration:"
+  *  cbe6c9eb4 - "Time shift for record" replaces "Track shift after
+    record"
+  *  3b1109376 - Change message for Punch and Roll when track selection
+    is inappropriate
+  *  af6250617 - Update pointer to our wxWidgets custom branch in build
+    texts
+  *  22f48d31e - Rewrite RingBuffer with standard atomics...
+  *  58fa401fa - Don't disable accessibility in Mac build of wxWidgets
+    for Audacity
+  *  6cff61535 - Fix bug 1891 (EQ crash)
+  *  5cdf64213 - Fix Travis build
+  *  5543dc884 - Update Sample Data Export to use file browser
+  *  5e219a031 - Fix Factory Preset for Nyquist file browser
+  *  c976630f4 - MacroCommandDialog: add accessibility name for details
+    text box
+  *  0c9dfc493 - More convenient shortcuts for selecting prev/next clip
+  *  60204730e - Update Sample Data Import to use file browser
+  *  c8c93319e - File browser widget for Nyquist plug-ins
+  *  d80d13441 - Revert the changes in ring buffers, which didn't work
+    for 24 bit format
+  *  a0bf2892f - Revert "Possibly correct some cases of clicky playback
+    or corrupt recording..."
+  *  8407ef1e6 - Revert "Fix compilation on Windows."
+  *  5803c3180 - Revert "Fixes for new ring buffers..."
+  *  66a87ecaa - Disallow punch and roll from t=0.0
+  *  ed34e6b02 - Vaughan to emeritus in AboutDialog credits.
+  *  2c7ca9709 - Reimplement change of color of playhead after pre-roll,
+    more simply
+  *  77779395c - Revert "Play head is green during pre-roll, then turns
+    red for real recording"
+  *  a72b8f98c - Bug1883, more: fix logic for choosing start & end times
+    of recording
+  *  14051f04c - Bug1887: crash or hang loop-playing with WASAPI;
+    libsoxr 0.1.3 to blame...
+  *  800ddf32e - Bug1884: fix crash when record to new track and fail to
+    open device
+  *  3051e9ce7 - Stop button works during punch and roll recording
+  *  ed660bdca - More apt argument name
+  *  8e51391b9 - Play head is green during pre-roll, then turns red for
+    real recording
+  *  e40420ba7 - Rewrite logic for choosing append-record tracks...
+  *  5fc210014 - Remove duplication in Audacity.pot
+  *  0880bef19 - Fix typos in the French translation
   *  b54f56fba - Bug 1879 - Audacity resets project rate without
     warning.
   *  122607f18 - Fix selection contract left/right commands
@@ -83,7 +139,7 @@
   *  f0ebf5823 - Better punch-in precision: quantize start and end times
     for rate...
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 08 Jun 2018 13:17:16 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 23 Jun 2018 10:19:38 +0300
 
 audacity (1:2.2.2+git8678-a3abacd55-1) unstable; urgency=medium
 

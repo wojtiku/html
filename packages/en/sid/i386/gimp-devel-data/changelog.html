@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package gimp-devel-data_2.10.2+git41044-93025adf02-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package gimp-devel-data_2.10.2+git41174-a3040eec9e-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,215 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package gimp-devel-data in sid of architecture i386</h5>
-<div class="highlight"><pre><span></span>gimp-devel (2.10.2+git41044-93025adf02-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>gimp-devel (2.10.2+git41174-a3040eec9e-1) unstable; urgency=medium
 
   * Compile
   * URL: https://gitlab.gnome.org/GNOME/gimp.git
   * Branch: gimp-2-10
-  * Commit: 93025adf02102854f6157050277ec996e539b64e
-  * Date: 1528479989
+  * Commit: a3040eec9e28f0e389f1b685f93bf8e9a38496e6
+  * Date: 1529929880
   * git changelog:
+  *  a3040eec9e - Update Spanish translation
+  *  75cc48f7c0 - Fix screen resolution detection on OSX
+  *  04d9037710 - Update Spanish translation
+  *  00e6366207 - libgimpbase: fix declaration after statement and reset
+    safecheck...
+  *  b8583468f9 - Fix empty lldb backtrace on OSX
+  *  d2aef6201c - Issue #1712: Add translator comment for string "Export
+    Exif...
+  *  f6efb2e504 - Update Polish translation
+  *  1d88734d89 - app: fix typo in a translatable string (trnasferred)
+  *  5feabfd1e0 - app: more GimpGradientEditor cleanup
+  *  a9d851070a - app: remove check since gimp_widget_load_icon() now
+    always non-NULL.
+  *  f140b987c7 - Revert "Issue #1608: Gimp 2.10.0 and 2.10.2 crash
+    immediately on start."
+  *  32931c4606 - app: gimp_widget_load_icon() should actually always
+    return a result.
+  *  4d4ba34006 - app: add a doc-comment to gimp_widget_load_icon().
+  *  9c6237b182 - app: load "gimp-wilber-eek" as fallback when an icon
+    fails to load.
+  *  d997b2b897 - Issue #1608: Gimp 2.10.0 and 2.10.2 crash immediately
+    on start.
+  *  7fece09eaf - app: peek/poke much less in GimpGradientEditor
+    internals
+  *  94235e4447 - app, libgimpwidgets: all GimpColorHexEntries should
+    have the same tooltip
+  *  eb57f0d0b3 - Issze #1711 - GIMP does not unref all
+    GLocalFileEnumerator it uses
+  *  be3abe6cea - icons: work around dimension bug of librsvg for a
+    bunch of color icons.
+  *  87d2dbbe66 - icons: complete color-scalable SVG.
+  *  520c34899c - tools: post-process SVG objects with "color-important"
+    label.
+  *  98848a464f - Issue #1708: g_free() called instead of
+    gdk_device_free_history().
+  *  402c0d98f1 - icons: update various icons to account for librsvg
+    bugs.
+  *  9bc78a3b3c - icons: fix many icons for proper recoloring.
+  *  e960c4884b - icons: force colors on some icons.
+  *  fa6f2f65f0 - icons: fix various symbolic icons not properly
+    recolored.
+  *  eb82161091 - icons: larger spacing between broken chains.
+  *  99e6b365ae - icons: fixing more icons.
+  *  11dd2365cd - icons: fix various icons broken when recoloring with
+    CSS.
+  *  709e5e4c7e - icons: make gimp-tool-ellipse-select symmetric.
+  *  8aa0d5a401 - Issue #1706 - Typo in gimpgradientselect.h include
+    guard
+  *  5a0299acf0 - Update Swedish translation
+  *  01e5390052 - app: flush image after selecting colormap color
+  *  fd14839c81 - Update NEWS
+  *  2e007713a2 - app: argh!
+  *  bd14991664 - app: fix signature of
+    gimp_gegl_procedure_get_sensitive()
+  *  cf4ef427b3 - app: when a plug-in procedure is not sensitive, show
+    the reason in the tooltip
+  *  671552fb93 - Update NEWS
+  *  e9acea9d54 - app: fix dashboard swap read/write variable order
+  *  cc626176b1 - app: properly handle NULL rectangle arguments in gimp-
+    gegl-loops
+  *  86ad7a624f - app: move the gradient editor color dialog code to
+    GimpGradientEditor
+  *  1ce50d9881 - app: make gimp_gradient_editor_update() private
+  *  e9bf0c05d2 - app: move the colormap editor color dialog code to
+    GimpColormapEditor
+  *  3e842e8033 - app: more fixes to last dashboard commit
+  *  913389aa91 - app: move the palette editor color dialog code to
+    GimpPaletteEditor
+  *  af30bad855 - app: a few fixes to last commit
+  *  b934cc2ed9 - app: add swap read/write fields to the dashboard
+  *  499993bdf0 - Update Spanish translation
+  *  83d74e270c - Issue #1682 - Segfault when starting GIMP, due to
+    empty data files
+  *  7715dbba5f - app: add gimp_ascii_strtoi() and gimp_ascii_strotod()
+  *  d544e5d7b2 - app: add gimp_data_input_stream_read_line_always()
+  *  cda8d386e4 - app: should --amend my commits after I fix
+    something...
+  *  a8e1ca1252 - app: protect windows-actions.c against adding/removing
+    a GdkDisplay twice
+  *  dc3754317b - Issue #1093 - Color dialog appears in the first
+    monitor...
+  *  99d8597126 - Update NEWS
+  *  bb4716b8ee - app: make sure the color picker tool is halted when
+    closing display
+  *  a334b78327 - app: in the dashboard, fix statm file-descriptor
+    initialization
+  *  14f27d4c75 - app: make the dashboard scrollable
+  *  40834dc75c - app: add memory group to the dashboard
+  *  9c1f6bfc16 - Issue #1678 - CWE-120 - Don't use strcpy()
+  *  b83ab3c1a7 - app: remove gimp_layer_mask_new_from_buffer() and some
+    includes
+  *  8146da9930 - Issue #1677 - Alpha channel copy / Layer Mask issues
+  *  4cc6f18cc9 - app: fix drawing the focus around the selected color
+    in GimpPaletteView
+  *  d49e038ed3 - plug-ins: add support for loading merged image data
+    from PSD files
+  *  1663e63717 - libgimp: forgot to deprecate gimp_gamma()
+  *  113829fd14 - Issue #701 - Add the ability to embed the GIMP built-
+    in sRGB profile...
+  *  9be8c0add3 - app: cleanup in GimpClipboard
+  *  d85932b9b7 - Issue #1633 - Palette Editor is much too wide on GIMP
+    2.99
+  *  35710903b6 - app: make GimpCursorView fit narrow docks
+  *  8387984732 - Issue #1240 - The drive or unc share you selected does
+    not exist...
+  *  8df6f4c8a6 - plug-ins: clearer plug-in-screenshot parameter
+    description.
+  *  2009805ad0 - app: fix filename in gimppropgui-recursive-transform.c
+    license notice
+  *  313bb4bc2a - app: merge back gegl:recursive-transform-plus propgui
+    to recursive-transform
+  *  1779826da9 - Issue #1611 - plug-in-screenshot does not work in non-
+    interactive run mode
+  *  226ea8863a - Issue #1668 -- Smudge Tool - Wrong colors when
+    painting on an image ...
+  *  918043a9d9 - app: make sure crash-saving of open images to XCF
+    doesn't call the GUI
+  *  797bd3459b - Issue #1668 - Smudge Tool - Wrong colors when painting
+    on an image ...
+  *  9dbd051bad - Update Polish translation
+  *  ac9fff1f1d - Isse #1476 - strange behavior in Layer resize dialog
+  *  8e12d8998d - app: don't g_return_if_fail() in
+    gimp_device_info_set_device()
+  *  6ba0a4d6b8 - app: some g_return_if_fail() were missing or non-
+    standard in GimpContext
+  *  c2d9f5e254 - app: some cleanup in GimpContext
+  *  4ea171c50e - Issue #1213 - Text Tool Preset does not restore font
+    face/name...
+  *  c8e880dfc3 - app: add GIMP_CONTEXT_PROP_MASK_TOOL_PRESET to
+    GIMP_CONTEXT_PROP_MASK_ALL
+  *  f4a54c5ab8 - NEWS: keep up-to-date.
+  *  a42746c71d - Specify utf-8 for rc file.
+  *  c176b0888e - Fix encoding. The world should be utf-8.
+  *  f3c5ed55c8 - app: also search interpreters executable in $PATH.
+  *  2265701268 - Fix Python files: * Prefer python2 to python that may
+    point on python3 on modern installs. * Fix indent/spaces
+    consistency.
+  *  769325e51b - plug-ins: recognize "python2" env to launch the python
+    interpreter.
+  *  03ea9cac54 - m4macros, plug-ins: run more accurately the "python2"
+    interpreter.
+  *  6080178a39 - app: gimp_interpreter_db_add_extension() should check
+    $PATH if needed.
+  *  8509117fe6 - app: actually resolve the interpreter through
+    extension as last resort.
+  *  d6792c973b - app: fix scaling around center in scale tool; avoid
+    negative width/height
+  *  c7895c9752 - app: clean up GimpTransformGridTool; adapt subclasses
+  *  130ef5ce59 - Issue #248: Python console doesn't support
+    input()/raw_input().
+  *  b3cf7abd20 - configure, tools: actually use GIMP_PKGCONFIG_VERSION
+    and...
+  *  387cc35c58 - Issue #1624 - Crashes when using Scissor Select Tool
+  *  aac958607d - plug-ins: use g_fopen(filename, "w+b")...
+  *  73c67d9612 - plug-ins: use g_fopen(filename, "w+b") instead of
+    "wb+" to fix SGI format export on the Microsoft Windows platforms
+  *  32993ab12d - Issue #1646 - Transform preview looks wrong with
+    selection
+  *  e486537ce0 - Issue #1613 - foreground select tool raises a CRITICAL
+    when committing
+  *  08294f9ea7 - Issue #1602 - Numeric selection size wrong after
+    switching tools
+  *  1a14f7e8c9 - INSTALL: libheif must also be built with libx265.
+  *  8ede025cee - icons: clean the symbolic vector file.
+  *  98763dded9 - icons: fix symbolic icons.
+  *  dc8f44c6fa - desktop: start a <release> tag for 2.10.4.
+  *  7412507c82 - Update Swedish translation
+  *  5e53d06f74 - app: make sure image colormaps always have at least
+    one color
+  *  f634757266 - Revert "Issue #1612: Symmetry Painting dock needs a
+    design tweak."
+  *  5b628d422f - plug-ins: add busy-dialog plug-in in plugin-defs.pl.
+  *  55c5ebea3c - Issue #1612: Symmetry Painting dock needs a design
+    tweak.
+  *  738bf71200 - Issue #1634 - PNG image opens as a blank one in GIMP
+  *  0e61cb1203 - Update Dutch translation
+  *  d76a6e8c11 - plug-ins: pack the file-heif load dialog's icon view
+    cells manually
+  *  6125d225ac - plug-ins: put file-heif's icon view into a scrolled
+    window
+  *  3b007f70f0 - plug-ins: undeprecate file-heif but only as much as
+    can be merged to 2.10
+  *  40c24dc3d0 - Issue #1627 - Non-existing item ID error when loading
+    multiple-image HEIFs
+  *  e168c68b0c - Updated Italian translation
+  *  3c9d513be9 - Issue #1621 - Alpha incorrectly exported in PSD
+  *  c42c25732b - all: make GimpDataLoaderFactory less static
+  *  561655bfb3 - app: GimpToolPreset:
+    s/GimpTransformOptions/GimpTransformGridOptions/
+  *  bd30f28b09 - app: if --verbose, make GimpDataFactory print each
+    loaded and saved data
+  *  1ae02929bc - Update Polish translation
+  *  341077e23a - Bug 759194 - Unified Transform Tool fails when layer
+    is hidden
+  *  d670edb339 - app: don't allow transforming invisible layers in
+    flip/measure tools
+  *  1bd6079388 - Issue #1607 - Fatal Crash on ACT Palette File Import
+  *  70304ef75d - app: code cleanup in the measure tool
+  *  eccabd9ac9 - app: derive GimpMeasureTool from GimpTransformTool
+  *  340c4a2309 - app: add GimpTransformGridTool; derive most transform
+    tools from it
   *  93025adf02 - Issue #1435 - Add tooltips to GimpColorNotebook's tabs
   *  def91dfc59 - libgimpwidgets: install gimpbusybox.h as public header
   *  15f8ed090c - Fix build on osx by adding appkit dependency
@@ -222,7 +423,7 @@
   *  c820764d4f - app: code cleanup in GimpAsync
   *  8d03b7b133 - Update Polish translation
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 08 Jun 2018 21:45:02 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 26 Jun 2018 00:24:16 +0300
 
 gimp-devel (2.10.2+git40921-ce5821639e-1) unstable; urgency=medium
 

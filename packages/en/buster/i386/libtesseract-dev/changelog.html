@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract-dev_4.00~git2581-a4241c98-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract-dev_4.00~git2649-6f23ed38-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,104 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract-dev in buster of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.00~git2581-a4241c98-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.00~git2649-6f23ed38-1) unstable; urgency=medium
 
   * Compile
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: a4241c98170604d346a41604825f0d154e1dd3b3
-  * Date: 1528558325
+  * Commit: 6f23ed380a09b08484518ed04efabcb31ac2c269
+  * Date: 1529948706
   * git changelog:
+  *  6f23ed38 - Merge pull request #1707 from stweil/includes
+  *  20cd6d23 - dotproductsse: Fix include statements
+  *  a9369ffa - Merge pull request #1705 from stweil/memory
+  *  9bb5a877 - Remove stderr.h and its include statements
+  *  db7f2009 - Remove memry.cpp, memry.h
+  *  cda04b1d - tordmain: Replace alloc_mem, free_mem by C++ std::vector
+  *  3032b65b - pithsync: Replace alloc_mem, free_mem by C++ std::vector
+  *  cb9eec35 - oldbasel: Replace alloc_mem, free_mem by C++ new,
+    delete, std::vector
+  *  77db9b43 - makerow: Replace alloc_mem, free_mem by C++ new, delete,
+    std::vector
+  *  556a1c1e - qspline: Replace alloc_mem, free_mem by C++ new, delete
+  *  52218c3d - pitsync1: Remove unneeded include statement
+  *  9b2dc5c2 - gap_map: Replace alloc_mem, free_mem by C++ new, delete
+  *  20e243d5 - strngs: Replace alloc_mem, free_mem by standard
+    functions
+  *  8953f414 - qspline: Remove unneeded include statement
+  *  b282d2cb - adaptions: Remove unneeded include statement
+  *  f99be62c - coutln: Replace alloc_mem, free_mem by standard
+    functions
+  *  b6eb22cc - Merge pull request #1703 from stweil/includes
+  *  7768f9b3 - Clean more include files and include statements
+  *  a32d24fa - Remove empty tessbox.h
+  *  12f45a57 - Merge pull request #1699 from stweil/includes
+  *  91522dfb - Remove memry.h from public API
+  *  1a151781 - Clean some include statements
+  *  15f64e02 - Remove recursive header.
+  *  da4ad15f - Merge pull request #1698 from stweil/includes
+  *  484a1be9 - Remove unneeded include statements for scanutils.h
+  *  640c2258 - Merge pull request #1697 from stweil/api
+  *  11f2b12f - Remove arch header files from public API
+  *  2bafff4c - Remove LSTM header files from public API
+  *  a20473da - Merge pull request #1696 from stweil/includes
+  *  1371980f - Replace string.h by standard C++ cstring
+  *  57918c10 - Merge pull request #1694 from stweil/assert
+  *  112aeb98 - Clean usage of assert.h
+  *  629a10b5 - Merge pull request #1691 from stweil/api
+  *  a9e2574e - Remove public API file ndminx.h
+  *  eaae28fc - Merge pull request #1690 from stweil/assert
+  *  0cb128d5 - Remove errcode.h from public API
+  *  44450094 - Replace ASSERT_HOST in genericvector.h
+  *  2bb4c4ed - Merge pull request #1688 from stweil/cov
+  *  2a5a0924 - Fix CID 1393241 (Dereference null return value)
+  *  09976e61 - Fix CID 1393238 (Dereference null return value)
+  *  27a5908a - Fix CID 1393239 (Dereference null return value)
+  *  b344dc14 - Merge pull request #1687 from stweil/cov
+  *  f482ebdc - Fix CID 1393243 (Uninitialized scalar field)
+  *  2ceb2001 - Fix CID 1393244 and CID 1393244 (Uninitialized scalar
+    variable)
+  *  d6391ee8 - Fix CID 1393540 (Explicit null dereferenced)
+  *  c8dd4456 - Fix CID 1393240 (Missing return statement)
+  *  cb6b1c11 - Merge pull request #1686 from stweil/api
+  *  e87e8967 - Remove more header files from public API
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 25 Jun 2018 23:27:36 +0300
+
+tesseract (4.00~git2601-29f280e4-1) unstable; urgency=medium
+
+  * Compile
+  * fixed build with dpkg-buildpackage -A (closes: #901750)
+  * fixed path to phototest.tif
+  * URL: git://github.com/tesseract-ocr/tesseract.git
+  * Branch: master
+  * Commit: 29f280e470db611147eaaebf986235d017b4d1f6
+  * Date: 1529401084
+  * git changelog:
+  *  29f280e4 - Merge pull request #1681 from Shreeshrii/master
+  *  0e9929f2 - Update osd_test.cc
+  *  39ead95f - Update loadlang_test.cc
+  *  873586ec - Update apiexample_test.cc
+  *  cb01acef - add new unitest files to gitignore
+  *  90b29d9d - Add tesseract/ to API header file invocation
+  *  b1f7990d - Merge pull request #1678 from stweil/api
+  *  c1c87d73 - Require tesseract/ for API header files (fixes potential
+    name conflicts)
+  *  518192db - Merge pull request #1677 from Shreeshrii/loadlang
+  *  16e45d21 - Test load of all langs and scripts for all 3 tessdata
+    repos
+  *  87635c1e - Merge pull request #1669 from amitdo/amitdo-fix-1665
+  *  6f85de22 - WordFontAttributes: Check that word != nullptr earlier.
+    Fix #1665
+  *  8b64602a - Merge pull request #1660 from Shreeshrii/master
+  *  a27e91c4 - Update tesstrain_utils.sh
+  *  fdc243b3 - Change default width for images output by text2image
+  *  680b172a - Merge pull request #1659 from stweil/api
+  *  fcdcba70 - Remove some header files from public API
+  *  e5d11b52 - Merge pull request #1658 from Shreeshrii/master
+  *  053698bb - update .gitignore
+  *  4753d8cb - correct script for eng, remove new reports from
+    distribution
   *  a4241c98 - Merge pull request #1655 from stweil/scanedg
   *  7b62e5c7 - Merge pull request #1656 from stweil/unittest
   *  37dadbe4 - Merge pull request #1657 from Shreeshrii/master
@@ -81,7 +171,7 @@
   *  a5147658 - Merge pull request #1644 from Shreeshrii/gitignore
   *  68c6b428 - modify to avoid line continuations
   *  df09d0db - delete lines relating to vs2010
-  *  1b681536 - remove generated files commited by error
+  *  1b681536 - remove generated files committed by error
   *  7a9fef96 - reformat EXTRA_DIST in makefile
   *  29304a41 - Merge pull request #1642 from stweil/unlvtests
   *  1309749a - Merge pull request #1643 from Shreeshrii/unlv
@@ -158,7 +248,7 @@
   *  58e85381 - Add more std::unique_ptr
   *  df49d470 - Use std::unique_ptr instead of manual memory management.
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 09 Jun 2018 21:20:09 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 19 Jun 2018 21:17:23 +0300
 
 tesseract (4.00~git2481-555f6ffc-1) unstable; urgency=medium
 
