@@ -88,6 +88,15 @@
         <loc>https://notesalexp.org/packages/en/artful/amd64/eiskaltdcpp-sounds/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/amd64/fatrat-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/artful/amd64/freecad/</loc>
     </url>
     <url>
@@ -955,6 +964,15 @@
         <loc>https://notesalexp.org/packages/en/artful/i386/eiskaltdcpp-sounds/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/artful/i386/fatrat-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/artful/i386/freecad/</loc>
     </url>
     <url>
@@ -1819,6 +1837,15 @@
         <loc>https://notesalexp.org/packages/en/bionic/amd64/eiskaltdcpp-sounds/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/fatrat-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/freecad/</loc>
     </url>
     <url>
@@ -2600,6 +2627,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/fatrat-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/freecad/</loc>
@@ -3386,6 +3422,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/fatrat-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/gimp/</loc>
@@ -4184,6 +4229,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/fatrat-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/gimp/</loc>
@@ -7822,6 +7876,15 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp-sounds/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/fatrat-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/freecad/</loc>
     </url>
     <url>
@@ -8621,6 +8684,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/fatrat-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/freecad/</loc>

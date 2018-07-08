@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.00~git2649-6f23ed38-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.00~git2790-e9cd6024-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,166 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in xenial of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.00~git2649-6f23ed38-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.00~git2790-e9cd6024-1) unstable; urgency=medium
 
   * Compile
+  * fix patch - man.diff, helptext
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: 6f23ed380a09b08484518ed04efabcb31ac2c269
-  * Date: 1529948706
+  * Commit: e9cd6024d7491f266040e79c3e347abb5dcaffa1
+  * Date: 1530993317
   * git changelog:
+  *  e9cd6024 - Merge pull request #1767 from stweil/unused
+  *  249ca526 - Merge pull request #1766 from stweil/tprintf
+  *  0d497593 - Replace tprintf_internal by tprintf and clean tprintf
+    code
+  *  24bf8c33 - Add include statements (needed for following commit)
+  *  8bd95673 - Fix some comments
+  *  44415a70 - Remove unused EXTERN macros
+  *  7e80a850 - Remove unused macros
+  *  609edd46 - Add missing include statement
+  *  cfa787d9 - Merge pull request #1765 from stweil/includes
+  *  55f0ca58 - Add missing include statements and clean some include
+    statements
+  *  71bb9c37 - Merge pull request #1761 from srdg/patch-1
+  *  446453a3 - Merge pull request #1762 from stweil/typo
+  *  cdc7db70 - unlvtests: Fix typo in documentation (found by
+    codespell)
+  *  0eb239ee - Fix typo in comments
+  *  001f536c - Fixed "Invalid F spec" error while building
+    FullyConnected layer.
+  *  ab1f2176 - Merge pull request #1760 from stweil/cov
+  *  18edac40 - Fix CID 1164623 (Uninitialized scalar field)
+  *  66b71e6b - Fix CID 1164621 (Uninitialized scalar field)
+  *  8582ee09 - Fix CID 1164618 (Uninitialized scalar field)
+  *  37f82824 - Fix CID 1164616 (Uninitialized scalar field)
+  *  430dc5c0 - Fix CID 1164612 (Uninitialized scalar field)
+  *  19a99450 - Fix CID 1164611 (Uninitialized scalar field)
+  *  d16e5183 - Merge pull request #1759 from stweil/cov
+  *  4bb41b89 - Fix CID 1164693 (Untrusted value as argument)
+  *  992031e8 - Fix CID 1164702 (Untrusted value as argument)
+  *  c1da5fba - Fix CID 1164704 (Untrusted value as argument)
+  *  8871f4d6 - Fix CID 1164686 (Use of untrusted scalar value)
+  *  92e2ad04 - Fix CID 1164703 (Untrusted value as argument)
+  *  a078ce02 - Merge pull request #1756 from stweil/cov
+  *  f2f9bed4 - Merge pull request #1755 from stweil/clean
+  *  bfe2a795 - Fix CID 1164566 (Dereference after null check)
+  *  036c72ca - Fix CID 1164733 (Resource leak)
+  *  8d60a184 - Remove unused iterator
+  *  3ea9cff1 - Merge pull request #1752 from stweil/api
+  *  09f4179e - Merge pull request #1754 from stweil/fix
+  *  023635e8 - Merge pull request #1753 from stweil/break
+  *  d2febafd - Fix compiler warnings [-Wmissing-prototypes]
+  *  8ad7f049 - Fix empty statements
+  *  ffb50193 - Fix prototype for API function
+    TessBaseGetBlockTextOrientations
+  *  790b410f - Remove unused API function TessBaseAPIDetectOS
+  *  4ca452d9 - Merge pull request #1750 from stweil/fix
+  *  f107f116 - Fix compiler warnings [-Wconditional-uninitialized]
+  *  a74d467e - Fix compiler warnings [-Wcomma]
+  *  296a836f - Fix compiler warnings [-Wunused-const-variable]
+  *  d27f5b58 - Merge pull request #1747 from stweil/fix
+  *  787bde56 - Fix syntax errors introduced by last commit (regression)
+  *  cf6c79d8 - Merge pull request #1746 from stweil/fix
+  *  d960a50c - Fix compiler warning [-Wshadow-field-in-constructor]
+  *  c1be1024 - Fix compiler warning [-Wtautological-undefined-compare]
+  *  52d392da - Fix compiler warning [-Wunused-function]
+  *  6cc35646 - Fix compiler warning [-Wunreachable-code-break]
+  *  a24d7cf8 - Merge pull request #1745 from stweil/nullptr
+  *  bdf09f40 - Fix compiler warnings [-Wzero-as-null-pointer-constant]
+  *  d1e0a4b9 - Merge pull request #1744 from stweil/fix
+  *  60fcff5e - Fix build with legacy engine disabled (part 2)
+  *  081793ff - Fix build with legacy engine disabled
+  *  20e53b11 - Merge pull request #1742 from stweil/casts
+  *  c8b5a29c - Remove unneeded type casts
+  *  6d3b6b1f - Merge pull request #1740 from amitdo/disable-legacy
+  *  62c7b796 - Merge branch 'master' into disable-legacy
+  *  15fb491b - Add missing #ifdef in tesseractmain.cpp
+  *  134779f7 - Fix duplicate #ifndef in blobclass.cpp
+  *  b502bbf5 - Merge pull request #1738 from stweil/whitespace
+  *  aa9f4b48 - Add an option to compile tesseract without the code of
+    the legacy OCR engine
+  *  6d170a15 - Replace tabs by blanks in source code
+  *  c9efe5f5 - Merge pull request #1737 from stweil/nwmain
+  *  626a229c - Remove nwmain.h
+  *  f8684cb0 - Fix syntax error (regression)
+  *  4b26b8d9 - Merge pull request #1735 from stweil/pdblock
+  *  04e0273a - Merge pull request #1736 from stweil/comments
+  *  bb7bb1f0 - Remove old comments for exceptions
+  *  889f7eaa - Remove blckerr.h
+  *  b0c9d5b4 - Merge pull request #1734 from stweil/danerror
+  *  87281324 - Replace function DoError and remove danerror.cpp,
+    danerror.h
+  *  412186b3 - Merge pull request #1733 from stweil/cutil
+  *  6a553f9f - Clean up cutil.h
+  *  a0ed0b49 - Merge pull request #1732 from stweil/headerfiles
+  *  7437a036 - Merge pull request #1728 from Ranigad/patch-1
+  *  66ea6c44 - Merge pull request #1730 from stweil/pi
+  *  58b1755b - Merge pull request #1731 from stweil/cutil
+  *  9325fbe3 - Remove unused include files
+  *  2cd2d320 - Remove functions open_file, exists_file
+  *  84f315db - Update tesseract.1.asc
+  *  cbd7b157 - Remove unneeded macro definition for M_PI
+  *  a0291c76 - Merge pull request #1727 from stweil/pi
+  *  f7b61891 - Replace macro PI by macro M_PI
+  *  c323312c - Merge pull request #1725 from stweil/doerror
+  *  22274743 - Merge pull request #1726 from stweil/rand
+  *  3840a769 - Remove unused function long_rand
+  *  b57afc7c - Replace Efopen by fopen and remove efio.cpp, efio.h
+  *  909af5d9 - Merge pull request #1724 from stweil/float
+  *  faae87be - Replace FLOAT32 by float data type
+  *  f6c3c8cf - Replace MAX_FLOAT32 by standard FLT_MAX and remove
+    unused MIN_FLOAT32
+  *  7ec337d9 - Merge pull request #1723 from stweil/double
+  *  919901eb - Replace FLOAT64 by double data type
+  *  1a181a31 - Merge pull request #1722 from stweil/cov
+  *  abbd78a0 - Fix CID 1340271, 1340272, 1340273, 1340274 (Use after
+    free)
+  *  52b44c5e - Fix CID 1164530 (Logically dead code)
+  *  57970443 - Fix CID 1393661 (Arguments in wrong order)
+  *  09da044a - Fix CID 1164553 (Division or modulo by float zero)
+  *  1b303e5d - Fix CID 1393662 Resource leak
+  *  d3c4642d - Fix CID 1393662 (Resource leak)
+  *  98758fb3 - opencl: Use std::vector and clean code
+  *  53795a88 - Fix CID 1158180 Argument cannot be negative
+  *  13ec8a74 - Merge pull request #1720 from stweil/clang-format
+  *  a67dc132 - Merge pull request #1721 from stweil/pdfrenderer
+  *  68010853 - pdfrenderer: Fix ClipBaseline and optimize code
+  *  1011e001 - Update rules for clang-format
+  *  a414443f - Merge pull request #1719 from stweil/cov-baseapi
+  *  e8e94d37 - Fix CID 1340287 (Unchecked return value)
+  *  a49b8f1d - Fix CID 1297960 (Dereference after null check)
+  *  86eb4dfc - Fix CID 1164646 (Uninitialized pointer field)
+  *  b970fae2 - Merge pull request #1559 from stweil/autoconf
+  *  6b250b58 - Remove autoconf-archive dependency
+  *  5b141214 - Merge pull request #1718 from stweil/opencl
+  *  de072cc0 - Format OpenCL code
+  *  5bb06618 - Merge pull request #1716 from stweil/cov
+  *  ad5df5bc - Merge pull request #1717 from stweil/cov-java
+  *  368fa189 - Fix CID 1386106 (Explicit null dereferenced)
+  *  740a821c - Fix CID 1393673 (Ignoring number of bytes read)
+  *  075dc984 - Fix CID 1393671 (Uninitialized scalar variable)
+  *  8f33d10b - Fix CID 1393670 (Resource leak)
+  *  12a601ff - Fix CID 1393669 (Resource leak)
+  *  1de55c86 - Fix CID 1393668 (Uninitialized scalar variable)
+  *  1e1f35cd - Fix CID 1393667 (Copy into fixed size buffer)
+  *  85794ca1 - Fix CID 1393666 (Big parameter passed by value)
+  *  3d2f7350 - Fix CID 1393665 (Uninitialized scalar variable)
+  *  a95917a6 - Fix CID 1393664 (Uninitialized scalar variable)
+  *  c9737c7f - Fix CID 1393663 (Big parameter passed by value)
+  *  53596f78 - Fix CID 1393662 (Resource leak)
+  *  fcff2f2c - Fix CID 1242849 (Unused value)
+  *  eabd10d8 - Fix CID 1158180 (Argument cannot be negative) and clean
+    code a bit
+  *  4cc103cd - Fix CID 1157757 (Logically dead code)
+  *  36c985b7 - Fix CID 1164746 (Big parameter passed by value)
+  *  b24b2c2c - Merge pull request #1715 from stweil/cov
+  *  244b54bf - Fix CID 1386083 (Dereference null return value)
+  *  2a30d77d - Fix CID 1386104 (Dereference null return value)
+  *  4bebf3a5 - Fix CID 1386098 (Dubious method used)
+  *  0686cbed - Fix CID 1386094 (Unread field)
+  *  5fdaa479 - Merge pull request #1711 from ofirkris/patch-1
+  *  93a9a9dc - Update VERSION
   *  6f23ed38 - Merge pull request #1707 from stweil/includes
   *  20cd6d23 - dotproductsse: Fix include statements
   *  a9369ffa - Merge pull request #1705 from stweil/memory
@@ -103,7 +255,7 @@
   *  cb6b1c11 - Merge pull request #1686 from stweil/api
   *  e87e8967 - Remove more header files from public API
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 25 Jun 2018 23:27:36 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 08 Jul 2018 09:57:47 +0300
 
 tesseract (4.00~git2601-29f280e4-1) unstable; urgency=medium
 
