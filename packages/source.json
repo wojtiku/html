@@ -878,18 +878,18 @@
     },
     "solvespace": 
     {
-      "version": "3.0.0~git1267-2b4c484-1",
+      "version": "3.0.0~git1276-42bc7ef-1",
       "description": " parametric 2d/3d CAD",
       "sourceurl": "https://notesalexp.org/source/main/s/solvespace",
-      "sourcefile": "solvespace_3.0.0~git1267-2b4c484-1.debian.tar.xz solvespace_3.0.0~git1267-2b4c484-1.dsc solvespace_3.0.0~git1267-2b4c484.orig.tar.xz ",
+      "sourcefile": "solvespace_3.0.0~git1276-42bc7ef-1.debian.tar.xz solvespace_3.0.0~git1276-42bc7ef-1.dsc solvespace_3.0.0~git1276-42bc7ef.orig.tar.xz ",
       "homepage": "http://solvespace.com",
       "depends": "debhelper(>=9) cmake libpng-dev zlib1g-dev libjson-c-dev libfontconfig1-dev libgtkmm-3.0-dev(>=3.22) libpangomm-1.4-dev libgl-dev libglu-dev libglew-dev libspnav-dev libfreetype6-dev ",
       "binary": "solvespace solvespace-dbg libslvs1 libslvs1-dev libslvs1-dbg",
       "description_solvespace": "parametric 2d/3d CAD",
       "description_libslvs1": "SolveSpace geometric kernel",
       "description_libslvs1dev": "SolveSpace geometric kernel (development files)",
-      "md5": " d71244884b2020d4a45c3dec9dad54b6 7a4fe9f36866ef7d76c89492f7b13104 239b4faf4f236145547b6df887912e1b",
-      "size": " 16_KiB  4_KiB  20.46_MiB "
+      "md5": " a44e94ec620ce46b15dfd27e52a05e1d 79cfafb31b9840307de40ac46191ac31 867518e896e726823f212eb62185123a",
+      "size": " 16_KiB  4_KiB  20.57_MiB "
     },
     "sz81": 
     {
