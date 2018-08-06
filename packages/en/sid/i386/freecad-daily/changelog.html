@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package freecad-daily_0.17+git14016-5f63f9f23-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package freecad-daily_0.17+git14224-8068150c6-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,296 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package freecad-daily in sid of architecture i386</h5>
-<div class="highlight"><pre><span></span>freecad-daily (0.17+git14016-5f63f9f23-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>freecad-daily (0.17+git14224-8068150c6-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/FreeCAD/FreeCAD.git
+  * Branch: master
+  * Commit: 8068150c64b71981ec2f12b5a718a86da46b9e54
+  * Date: 1533404269
+  * git changelog:
+  *  8068150c6 - [WIP] add box selection to select individual faces
+  *  70e5b9fec - fix explosion of face colors dialog if too many faces
+    are selected
+  *  272c89b00 - add protected default constructor of
+    SelectionFilterGate to simplifiy writing of sub-classes
+  *  123e9d210 - Draft: Allow to turn off Draft verbose output in
+    preferences
+  *  1d81fd66b - AddonManager: expand dialog window
+  *  48641c2b9 - replace Qt's OpenGL buffer with own implementation
+    based on Coin3d API
+  *  53c2058e0 - AddonManager: Support for Mario's template for
+    externally hosted macros
+  *  b40b50a30 - Arch: Fixed orientation of CTH profile
+  *  ee517cf18 - Draft: better tooltip for copy mode option
+  *  5d2a889a8 - Fixed issue #3506: Certain alias names with a number at
+    the end caused exceptions when deleting cells in a spreadsheet.
+  *  20d3ebca8 - Update Draft.py
+  *  5162f4e57 - Arch: support of stacked groups in IFC and added
+    Internal property to Spaces
+  *  269a4a558 - Arch: Fixed export to IFC of standalone axes
+  *  0865c8ae6 - Arch: small bugfix in material creation
+  *  d2f9ab6a1 - Spreadsheet: Fixed issue #3361.
+  *  13da3dd83 - Revert "fixes #0003361: Spreadsheet: Inserting Row
+    Cause Crash - FC Daily v0.17"
+  *  cd0b26a69 - Fix text position in Diamter Dim
+  *  4046b001b - Fix default Vertex color
+  *  ee607d36a - Fix iso View position in AutoDistribute
+  *  1f4ab25d9 - add option to resize datum planes manually
+  *  9c57ae56a - add cmake file for thumbnail provider
+  *  9a3f0bc25 - improve exception handling in
+    ViewProvider::eventCallback
+  *  36fa72488 - comment out unused icons (to fix C2603 MSVC error)
+  *  3d4c5eda2 - Sketcher: Fix typos
+  *  de7bab2f4 - Sketcher: Fix Radius/Diameter shortcut
+  *  c84fe5fa3 - Sketcher: Add diameter constraint to the menu and the
+    toolbar
+  *  26f93eef9 - Sketcher: Geometry Element Widget Support for Diameter
+    Constraint shortcuts
+  *  1414f986d - Sketcher: Constraint Widget support for the diameter
+    constraint
+  *  6ce8dcdfc - Sketcher: Support for editing datum dialog
+  *  314769101 - Sketcher: Diameter Constraint Property representation
+  *  a582da50b - Sketcher: New command to add a Diameter Constraint
+  *  1fbdc7c1d - Sketcher: Diameter constraint art
+  *  de3da8129 - Sketcher: ViewProvider representation of the Diameter
+    Constraint
+  *  2e33aba01 - Sketcher: Double arrow label for Diameter Constraint
+  *  f41c1a969 - Sketcher: Python SketchObject support
+  *  103260872 - Sketcher: Diameter support for Sketch Object
+  *  1e2df1054 - Solver: Support for Diameter constraint
+  *  424d68085 - GCS: Diameter constraint emulation through
+    ConstraintEqual
+  *  dcdb66470 - GCS: Extension of ConstraintEqual to allow for a
+    proportionality factor
+  *  4ae2692fe - Sketcher: Diameter Constraint Python support
+  *  4bbc7ea78 - Sketcher: New Sketcher Constraint Diameter
+  *  8ef330d19 - add missing export macro
+  *  1899987e8 - Sketcher: Add command to delete all constraints to menu
+  *  74a5a066c - Sketcher: UI command to delete all the constraints at
+    once
+  *  cd5aa8975 - Sketcher: Python command to delete all the constraints
+    at once
+  *  0024d1b0c - Sketcher: Python SketchObject implementation
+  *  527c814dd - Sketcher: SketchObject adaptation to Sketch Analysis
+  *  3dfb20238 - Sketcher: Make use of Sketch Analysis for Sketch
+    Validation - refactoring
+  *  de9e7cc94 - Part: Improvement to closest parameter determination
+    when the projection does not exist in the trimmer curve
+  *  97f375296 - Sketcher: Sketch Analysis tool and autoconstraining
+    algorithms
+  *  b40c1f16b - add a missing check for OCC version
+  *  3c049e44f - cleanup of defeaturing in Part Gui
+  *  d5db3ff58 - add OCC defeaturing to PartWB Gui
+  *  1f63d6a10 - add python binding of OCC defeaturing
+  *  4a0ea3c0e - add OCC defeaturing to TopoShape
+  *  e6658ed3f - expose methods to Python to change navi cube settings
+  *  c2ada8eac - Fix for issue #3541: Normalize xDir vector for Hole
+    feature to correct hole diameter.
+  *  2ca81da42 - fixes #0003538: MacOSX 10.13 not in the 'About FreeCAD'
+    dialog
+  *  23b30518b - PartDesign: fixes for Qt 5.11
+  *  c6c55cb6c - Change method of counting commits
+  *  9d419b8a4 - Add libspnav to fedora spec
+  *  61a6fbe6d - fix -Wunused
+  *  c2ab3f02c - remove undesired dependency of Mesh to Part module
+  *  039e972a4 - implement fast mesh rendering for Qt5 port (7x faster)
+  *  db4f47cf2 - Arch: other small bugfix in IFC exporter
+  *  ee154d920 - Arch: Fixed storey height bug in IFC export
+  *  057652414 - Misc. code comment typo fixes
+  *  4c188ec0f - Fixed DAE export of groups including sub-groups and sub-
+    parts
+  *  e267eac7b - Fix #3329 globalPosition in Stl export
+  *  e45a3674f - Arch: bugfixes in IFC exporter
+  *  c28f95d9f - Export DocObjectPy/TopoShapePy to Dxf (Import module)
+  *  6cc1524a0 - Mesh improvements: + support of Simple Model Format
+    (smf) + improve reading of STL files (reduce by ~70%)
+  *  98af9aabd - Draft: Snap to BuildingPart base points
+  *  78fea6704 - Arch: bugfix in IFC exporter
+  *  d4987d088 - add option to drag at cursor instead of view center
+  *  6e8b60589 - add brnading option to show full version number in
+    splash screen
+  *  6c51cdd66 - minor changes
+  *  fa89e3b95 - add url handler to handle certains protocols
+    differently
+  *  d3ef6905f - + add option to switch off precompiled header
+  *  08fcd58e9 - + raise exception instead of crashing when trying to
+    access curvature info via Python
+  *  6b9a3bf93 - fix possible crash in Quarter viewer
+  *  b7ac2807f - Merge branch 'master' of
+    https://github.com/FreeCAD/FreeCAD
+  *  65879dfe6 - + Improve mesh selection (precompute projection matrix
+    and use polygon bounding box)
+  *  2b04db09e - Merge branch 'master' of github.com:FreeCAD/FreeCAD
+  *  d034c0083 - Draft: Added variable to be able to start Move command
+    in copy mode
+  *  f6fdad4d0 - Part: Fixed wording in ShapeBuilder messages
+  *  1fcfbcf1a - + move implementation of Base::ifstream and
+    Base::ofstream to header and remove export macro.   This is needed
+    for VS 2013 to avoid that it exports methods of the base class and
+    thus causing linker errors for modules that link FreeCADBase
+  *  3b3e4fd4c - minor fix
+  *  806ad88c5 - + implement a faster method to multiply vector with
+    matrix + add convenience method to transform a point array
+  *  b298e63bc - + implement direct and queued mode in console class
+  *  b13f1562a - handling of UTF-8 in zipios++ on Win32
+  *  6b6bde1ba - use correct spelling of Windows header
+  *  188503613 - Arch: Added preference option for screen helpers color
+    (axes, grids, etc...)
+  *  111c0496b - Draft: Minor bugfix
+  *  64c760f53 - Added Standard Code property to all components
+  *  439486279 - Arch: Reorganizing structural profiles + added eurocode
+    timber sizes
+  *  7bac2a610 - Arch: minor bugfix
+  *  acf18c193 - Arch: Minor fixes in Materials
+  *  d37519e3e - Dxf Boilerplate files not installed
+  *  441850296 - Add ANSIB Template
+  *  2cc80b613 - Add preference settings
+  *  8ba4cd105 - Add support for alternate LineGroup file
+  *  5a39efa77 - Fix typo
+  *  d48d014eb - Fix Detail view orientation
+  *  2b08754c1 - Fixed default HideUnits option to FALSE
+  *  d7e5534d5 - Added code to strip units from display string
+  *  b9767f003 - Updated hide units GUI option with more text
+  *  f8327a009 - WIP. Moving to other machine.
+  *  4c2e36b64 - WIP. Added logic to not hide non-base units.
+  *  841dfeadb - WIP. Moved code to hide units to seperate function
+  *  da41c0071 - Add getPresentationValue function prototype
+  *  3f1216a58 - WIP. Added logic to hide units on distance dimensions.
+  *  5e3ce0331 - Added option to hide units in sketch
+  *  548f63fd0 - fix -Winconsistent-missing-override
+  *  8272abf5a - Arch: Added edit mode task panel to arch profiles +
+    added American Wide Flange (W) profiles
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 05 Aug 2018 02:21:58 +0300
+
+freecad-daily (0.17+git14109-4aa91d62e-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/FreeCAD/FreeCAD.git
+  * Branch: master
+  * Commit: 4aa91d62e2b5bf59371d0ffe1dbdd954e281e548
+  * Date: 1532128526
+  * git changelog:
+  *  4aa91d62e - Part: Added 'Wire from Edges' option to Part
+    ShapeBuilder
+  *  a91f9e981 - Arch: Enable materials hierarchy
+  *  a077a6d1a - Tweak Linear Dim Cosmetics
+  *  97ebbf27c - fixed mod Assembly for Qt 5.11
+  *  4249ddf64 - building fixes of mod Assembly
+  *  068073656 - fixes in mod Assembly for python3
+  *  473c86626 - Arch: misc improvements to IFC importer
+  *  e92d1018b - PEP8 cleanup
+  *  024ce84da - Using PropertyVectorDistance
+  *  c93ff200c - Part: Allow to disable progress bar in brep string
+    reader
+  *  cc0fb2a5a - Arch: Fixed bug in display of axis systems
+  *  0c33d00bf - Arch: Fixed visibility of BuildingPart
+  *  50a10a202 - Arch: Support of shared profiles in extrusions imported
+    from IFC
+  *  9bfd118f3 - Fix includes for M_PI on Win
+  *  9c60b4190 - Fix "use of deleted function" error on streams
+  *  0790e3c92 - Add support for Dxf Export R14 spec
+  *  24a9ab73a - Arch: Improved compression of IFC files
+  *  56c6e3f0f - Arch: Fixed wrong Floor height on IFC import
+  *  d940fd344 - Arch: Enable compression when exporting IFC files
+    (reuse similar vectors, colors, etc)
+  *  a7c8a4677 - Arch: Support for IfcGrid
+  *  fa32af702 - convert tabs to spaces
+  *  dc79a93dd - save current color so it can be reverted on cancel
+  *  1cb114e25 - handle user cancel color dialog
+  *  3d09e6543 - Fix for coverity CID 168953
+  *  2c74bcddd - Merge pull request #1553 from luzpaz/source-typo
+  *  49b3fbab5 - Source typo fix
+  *  07d1abb38 - Fixed import and coverity issue in rml_post.
+  *  7e781bcfd - Revise multiple solids message
+  *  c74ea1d99 - Fix PD Pocket Through All Unit Test
+  *  883a726d5 - Fix #3401 warning on multiple solid
+  *  c6b394970 - Arch: Building now derives from BuildingPart
+  *  be5e93ddf - Misc. typo & whitespace fixes
+  *  c9b29dc63 - Revert "Added support in DraftGui.todo.delay function
+    to accept any number of arguments."
+  *  63f085dd7 - Extended global marker size to be used for Sketcher
+  *  dc15e8f07 - Extended global marker size to be used for Path
+  *  348ae5177 - Extended global marker size to be used for other modes
+  *  101fac6c1 - Material: recreated materials files with the bash tools
+  *  4627ad585 - Material: properties, add ultimate strain
+  *  35b92641d - Material: properties, remove Elasticity because it is a
+    theory and not a property
+  *  3416a26d7 - FEM: analysis group meshing, deactivate by default
+  *  96ed5404a - FEM: material task panel, typo
+  *  d990fb15f - py3: <generator>.next -> next(<generator>) reported:
+    https://github.com/FreeCAD/FreeCAD_Conda/issues/16 ref1:
+    https://stackoverflow.com/questions/12274606/theres-no-next-function-
+    in-a-yield-generator-in-python-3
+  *  860ad6b91 - Use Stroker to generate Edge selection area
+  *  545bed8b1 - Fix arcs on outer angle dimensions
+  *  091482995 - Fix initial placement of linear dims
+  *  ae4961244 - Fixes for coverity CID 176063 and 176065.
+  *  062fd6735 - Detect OCCT at new Debian location
+  *  dc4fa6e80 - Added support in DraftGui.todo.delay function to accept
+    any number of arguments.
+  *  c4fc02cbc - Arch: fixed bug in non-GUI mode
+  *  74a399e6b - Arch: added IfcPRoperties to BuildingParts
+  *  b54661c09 - Arch: Added IFC properties editor to edit mode of all
+    Arch objects
+  *  0ff2c72ab - allow to disable version number in window title
+  *  5f63a7764 - Arch: using basic object names for all arch objects
+  *  d7d4489da - Change StepOver to PropertyPercent
+  *  097f73afc - Path: Surface op improvements for drop cutter algo
+  *  56cd69918 - Fix mod JtReader with python3
+  *  f469c9a2c - Another fix to compile against qt5 with python2
+    (detection of shiboken2)
+  *  1a952af89 - Make sure the offset wire is oriented predictably.
+  *  41ca2b3b6 - Changed OpTools and unit tests to not rely on Part.Face
+    creation to determine wire orientation.
+  *  d2efdc408 - Some tests to figure out Travis failures
+  *  c4426c28e - Fixed chamfer UI
+  *  c4c30fba9 - Renamed PathGeomOp to PathOpTools.
+  *  57ee12df6 - Prevent user from adding stock features to chamfer.
+  *  3652cee94 - Fixed holding tags unit tests.
+  *  c75fc99cf - Added chamfer selection guard to allow edges and faces.
+  *  ebf84ff15 - Fixed holding tags issue with Path's at the same height
+    as the tag top.
+  *  b8b1c6afe - More holding tags robustifying.
+  *  559d48045 - Fixed direction for offsetting holes.
+  *  664b2da2e - Fixed flipping of an arc if the arc is rotated.
+  *  1574d0bd4 - Robustify holding tags a bit.
+  *  c4ae92cf3 - Fixed open wire offsetting and orienting.
+  *  4a8653b1c - Refactored geom functions into PathGeomOp.
+  *  34aaeff31 - Extracted and added tests for chamfer tool depth and
+    offset calculations.
+  *  028d76f00 - More chamfer unit tests.
+  *  324a30831 - Fixed wire offsetting and orientation and added more
+    test cases.
+  *  bf7f0a69e - Corrected cutting edge angle input for v-bits.
+  *  ee56fc92d - Set default log level back to INFO for all modules.
+  *  c559544cd - Fixed missing stock exception in ProfileContour.
+  *  97ef1bb62 - Work around for offsetting a circle with Placement.
+  *  1b6d14a8d - Added basic chamfer test case for offsetting a wire.
+  *  a605b6ea7 - Fixed flipping of b-spline and enabled unit test for
+    it.
+  *  d101111f6 - Added flipping of edge to PathGeom.
+  *  8130b5794 - Moved functions out of class for simpler testability
+  *  135ede46f - Get the outline of the syntesized shape for PocketShape
+    before extruding. This greatly improves the robustness of the
+    algorithm and gives PathArea less chances to mess it up.
+  *  5fa725c18 - Always use climb milling for closed wires.
+  *  0a7074cd1 - Added join to chamfer properties and UI.
+  *  8657632d1 - Combined engrave ops in a command group.
+  *  6920a618d - Fixed chamfer depth and cleaned up properties.
+  *  ce7f28811 - Rebase chamfer op on engrave-base and enable path
+    generation.
+  *  57ff80fb0 - Split Engrave into base implementation and Engrave
+    specific pieces.
+  *  63200c00e - Offsetting edges for chamfer op.
+  *  ec0e9d1d9 - Basic chamfer op framework.
+  *  0c71bc9f9 - Consolidated path tool editor and added customized
+    support for endmill, drill and v-bit.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 22 Jul 2018 04:24:11 +0300
+
+freecad-daily (0.17+git14016-5f63f9f23-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/FreeCAD/FreeCAD.git
