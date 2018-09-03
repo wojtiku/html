@@ -5,35 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://notesalexp.org/html/</loc>
-<lastmod>2018-08-19T09:41:12-00:00</lastmod>
+<lastmod>2018-09-03T23:05:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://notesalexp.org/html/</loc>
-<lastmod>2018-08-19T09:41:12-00:00</lastmod>
+<lastmod>2018-09-03T23:05:54-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://notesalexp.org/html/update.html</loc>
-<lastmod>2018-08-19T09:41:12-00:00</lastmod>
+<lastmod>2018-09-03T23:05:54-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://notesalexp.org/html/faq.html</loc>
-<lastmod>2018-08-19T09:41:12-00:00</lastmod>
+<lastmod>2018-09-03T23:05:54-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://notesalexp.org/html/donate.html</loc>
-<lastmod>2018-08-19T09:41:12-00:00</lastmod>
+<lastmod>2018-09-03T23:05:54-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://notesalexp.org/html/2018/09/03/20180903/</loc>
+<lastmod>2018-09-03T21:25:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -250,7 +257,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://notesalexp.org/html/category/repozitorii</loc>
-<lastmod>2018-08-19T09:38:00+02:30</lastmod>
+<lastmod>2018-09-03T21:25:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -264,21 +271,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://notesalexp.org/html/tag/deb</loc>
-<lastmod>2018-08-19T09:38:00+02:30</lastmod>
+<lastmod>2018-09-03T21:25:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://notesalexp.org/html/tag/reps</loc>
-<lastmod>2018-08-19T09:38:00+02:30</lastmod>
+<lastmod>2018-09-03T21:25:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://notesalexp.org/html/tag/update</loc>
-<lastmod>2018-08-19T09:38:00+02:30</lastmod>
+<lastmod>2018-09-03T21:25:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
