@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract4_4.00~git2994-59e42fce-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract4_4.00~git3032-6ee7f4ea-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,61 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract4 in buster of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.00~git2994-59e42fce-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.00~git3032-6ee7f4ea-1) unstable; urgency=medium
 
   * Compile
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: 59e42fcef617a683abb5290991b5375d76d20f38
-  * Date: 1536816397
+  * Commit: 6ee7f4eac262a4ad69419b344c64bb846467dd32
+  * Date: 1538229865
   * git changelog:
+  *  6ee7f4ea - Fix typo.
+  *  14b83d30 - use tprintf instead of printf to be able disable
+    messages by quiet option (issue #1240)
+  *  d9372662 - add "sudo ldconfig" to install instruction. fixes #1212
+  *  d5b62228 - Merge pull request #1935 from stweil/style
+  *  4ec9c862 - unittest: Replace NULL by nullptr
+  *  9e66fb91 - unittest: Format code
+  *  1a096441 - tesseract app: check if input file exists; fixes #1023
+  *  0f3206d5 - Format code (replace ( xxx ) by (xxx))
+  *  63f87cac - Simplify boolean expressions
+  *  abe40f17 - Win32: use the ISO C and C++ conformant name "_putenv"
+    instead of deprecated "putenv"
+  *  a0564fd4 - Allow user to specify dpi for input image
+  *  345e5ee1 - prefer to use FreeType for pango_cairo_font_map
+  *  5fe13907 - remove alpha channel from png: issue #1914
+  *  971fe500 - fixed #714: use binary mode when generating pdf to
+    stdout on Windows
+  *  5dfce747 - fix #1889: part 2
+  *  e1245f5c - Merge pull request #1929 from DevelopAlex/patch-1
+  *  f69af96d - Only print "Merging rows..." in debug mode
+  *  ea007d5b - fix version info for cmake build
+  *  c003a604 - remove outdated scripts/contrib dir
+  *  01cf7402 - add header guard
+  *  02f9d8d9 - Merge pull request #1923 from stweil/errhandling
+  *  63674d32 - Merge branch 'master' of https://github.com/tesseract-
+    ocr/tesseract
+  *  5338a5a8 - Don't trigger a deliberate SIGSEGV for fatal errors in
+    release code
+  *  4ca179d3 - remove condition because fontsize is always > 0
+  *  cefb62b6 - Merge pull request #1920 from stweil/errhandling
+  *  5f45f73d - Merge pull request #1919 from stweil/clean
+  *  741ea00d - Don't call exit when parameter in file is unknown
+  *  d586b978 - Remove duplicate include statements
+  *  a2612f28 - Merge pull request #1918 from stweil/doc
+  *  3038d66c - Merge pull request #1917 from cyanfish/master
+  *  a387e1f7 - Add documentation for lists of images to the tesseract
+    man page
+  *  d6d6f3d0 - Fix typo in cppan.yml affecting /openmp
+  *  5d22fdfe - replace deprecated C++ headers (reported by clan-tidy) -
+    partially supersedes PR #1605
+  *  62a5e8cf - Merge pull request #1265 from
+    picturae/jpg_quality_option
+  *  c98391d3 - fix #1192 bbox as the entire page
+  *  92e29125 - Fix missing default parameter value cause compile to
+    fail.
+  *  31aeb534 - Fix merge conflicts Merge branch 'master' into
+    jpg_quality_option
   *  59e42fce - fix issue #1889
   *  aa47a844 - Add badges for download , licence and lgtm
   *  209372f8 - Merge pull request #1896 from Shreeshrii/newjava
@@ -150,7 +197,7 @@
   *  f24426cd - Convert CRLF line endings to LF
   *  63965bd7 - Fix new whitespace issues
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 15 Sep 2018 10:28:21 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 29 Sep 2018 22:08:09 +0300
 
 tesseract (4.00~git2904-07acc2b2-1) unstable; urgency=medium
 
