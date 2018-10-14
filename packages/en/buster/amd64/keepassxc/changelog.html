@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package keepassxc_2.3.3-1+nmu1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package keepassxc_2.3.4-2_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,12 +41,29 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package keepassxc in buster of architecture amd64</h5>
-<div class="highlight"><pre><span></span>keepassxc (2.3.3-1+nmu1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>keepassxc (2.3.4-2) unstable; urgency=medium
 
   * Non-maintainer upload.
-  * Backport to https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc
+  * Bacports from PPA https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 10 May 2018 21:47:24 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 03 Oct 2018 23:20:07 +0300
+
+keepassxc (2.3.4-1ppa1~bionic1) bionic; urgency=medium
+
+  * Show all URL schemes in entry view [#1768]
+  * Disable merge when database is locked [#1975]
+  * Fix intermittent crashes with favorite icon downloads [#1980]
+  * Provide potential crash warning to Qt 5.5.x users [#2211]
+  * Disable apply button when creating new entry/group to prevent data loss [#2204]
+  * Allow for 12 hour timeout to lock idle database [#2173]
+  * Multiple SSH Agent fixes [#1981, #2117]
+  * Multiple Browser Integration enhancements [#1993, #2003, #2055, #2116, #2159, #2174, #2185]
+  * Fix browser proxy application not closing properly [#2142]
+  * Add real names and Patreon supporters to about dialog [#2214]
+  * Add settings button to toolbar, Donate button, and Report a Bug button to help menu [#2214]
+  * Enhancements to release-tool to appsign intermediate build products [#2101]
+
+ -- KeePassXC Team &lt;censored&gt;  Thu, 23 Aug 2018 19:44:28 +0200
 
 keepassxc (2.3.3-1ppa1~bionic1) bionic; urgency=medium
 
