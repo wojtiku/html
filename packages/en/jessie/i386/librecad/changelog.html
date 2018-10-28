@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package librecad_2.1.2+git4443-d90dbd2b-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package librecad_2.1.2+git4460-3d878346-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,38 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package librecad in jessie of architecture i386</h5>
-<div class="highlight"><pre><span></span>librecad (2.1.2+git4443-d90dbd2b-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>librecad (2.1.2+git4460-3d878346-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/LibreCAD/LibreCAD.git
+  * Branch: master
+  * Commit: 3d8783462d9f6ea230747fc630620a34512e5a00
+  * Date: 1540470248
+  * git changelog:
+  *  3d878346 - fixed #932, polyline was exploded, when selected while
+    pasting
+  *  2d8e0259 - improved RS_Undo startUndoCycle() and endUndoCycle()
+  *  a65452d3 - fixed asking to save drawing, when closing unmodified
+    drawing
+  *  3fe68cd0 - gitignore Unnamed, the autosaved default document
+  *  7903c8ba - fixed #1002, rotating multiple entities needed multiple
+    undos, for each entity
+  *  589e4f26 - fixed #993, crashed after cut, paste, undo
+  *  a035ef4d - revert 35c23aca and cleanup RS_Undoable class
+  *  7806f415 - removed unused rs_actionparisdebugcreatecontainer files
+  *  11bd3537 - fixed Windows build with MinGW for divide plugin
+  *  8b43ebbb - fixed build with divide plugin improvment
+  *  1f67158c - Update dividedlg.h
+  *  37bc17da - Update dividedlg.cpp
+  *  1c99344f - Update divide.h
+  *  293efb11 - Update divide.cpp
+  *  3a218543 - uncheck 'Print to file' checkbox in QPrinterDialog
+  *  0e8927d8 - fixed #1021, oversized layer list icons for print and
+    construction
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 27 Oct 2018 06:54:44 +0300
+
+librecad (2.1.2+git4443-d90dbd2b-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/LibreCAD/LibreCAD.git
