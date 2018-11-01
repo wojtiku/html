@@ -162,6 +162,19 @@
       "md5": " 4a563f72cf6825fd55318aaac0e95dc3 671aa9cfd0e5eb63df4445c3b8cf9264 f07b4f13307d2cad092a79edc704f529",
       "size": " 4_KiB  4_KiB  16_KiB "
     },
+    "deadbeefopusplugin": 
+    {
+      "version": "0.8+git82-fd9333b-1",
+      "description": " Ogg Opus plugin for DeaDBeeF-player",
+      "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+      "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+      "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+      "depends": "debhelper(>=9) deadbeef-dev libopusfile-dev libopus-dev libogg-dev libssl-dev ",
+      "binary": "deadbeef-opus-plugin ",
+      "description_deadbeefopusplugin": "Ogg Opus plugin for DeaDBeeF-player",
+      "md5": " 58d42e23f7f07327890d18855e159061 05945594950d6b7b70767ca19cd7d8df 9bddda83ce2cbb42d45408cbe7a7ba9a",
+      "size": " 4_KiB  4_KiB  240_KiB "
+    },
     "eigen3": 
     {
       "version": "3.3.0-1+nmu1",

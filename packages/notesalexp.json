@@ -5516,6 +5516,24 @@
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
         },
+        "deadbeefopusplugin_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/jessie/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_amd64.deb",
+          "size": "24_KiB ",
+          "sizebyt": "23322",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "57_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "8df8d7f5faa707f7a0cbd58c12d63094",
+          "sha256": "0b293973812afb98e4b448ddbd5d709d14f62affc3cb01a64a48c18df2ada431",
+          "depends": "libc6(>=2.4) libogg0(>=1.3.0) libopus0(>=1.1) libopusfile0(>=0.5) libssl1.0.0(>=1.0.0) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
+        },
         "eiskaltdcppdaemon_amd64": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/e/eiskaltdcpp-devel/eiskaltdcpp-daemon_2.2.10+git5096-b964c2d0-1_amd64.deb",
@@ -11804,6 +11822,24 @@
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
         },
+        "deadbeefopusplugin_i386": 
+        {
+          "packageurl": "https://notesalexp.org/jessie/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_i386.deb",
+          "size": "24_KiB ",
+          "sizebyt": "23746",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "56_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "e2a507d62e13be1a2e0133e6fbe19aa4",
+          "sha256": "ec0e5c6148ece70ae4720fbd9d38d5d876ea7ef5d1d9ee56f42c3672f214ae78",
+          "depends": "libc6(>=2.4) libogg0(>=1.3.0) libopus0(>=1.1) libopusfile0(>=0.5) libssl1.0.0(>=1.0.0) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
+        },
         "eiskaltdcppdaemon_i386": 
         {
           "packageurl": "https://notesalexp.org/jessie/main/e/eiskaltdcpp-devel/eiskaltdcpp-daemon_2.2.10+git5096-b964c2d0-1_i386.deb",
@@ -13719,6 +13755,24 @@
           "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-mpris2-plugin",
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
+        },
+        "deadbeefopusplugin_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/stretch/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_amd64.deb",
+          "size": "24_KiB ",
+          "sizebyt": "22512",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "67_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "2f0fdef91080c886596e2160be4507d3",
+          "sha256": "bde10dceeee75b57f3fff18d26c7dd98ed3cb92c97d51a72c134d136fa895a8b",
+          "depends": "libc6(>=2.4) libogg0(>=1.3.0) libopus0(>=1.1) libopusfile0(>=0.5) libssl1.1(>=1.1.0) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
         },
         "eiskaltdcppdaemon_amd64": 
         {
@@ -19586,6 +19640,24 @@
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
         },
+        "deadbeefopusplugin_i386": 
+        {
+          "packageurl": "https://notesalexp.org/stretch/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_i386.deb",
+          "size": "24_KiB ",
+          "sizebyt": "23334",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "62_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "c54539c9d67379b99ef5f7720006af05",
+          "sha256": "8e1a553804d29989a6b2cb8a6c31764a4ad444dfc62a7efce10c4354a315066a",
+          "depends": "libc6(>=2.4) libogg0(>=1.3.0) libopus0(>=1.1) libopusfile0(>=0.5) libssl1.1(>=1.1.0) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
+        },
         "eiskaltdcppdaemon_i386": 
         {
           "packageurl": "https://notesalexp.org/stretch/main/e/eiskaltdcpp-devel/eiskaltdcpp-daemon_2.2.10+git5096-b964c2d0-1_i386.deb",
@@ -21271,6 +21343,24 @@
           "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-mpris2-plugin",
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
+        },
+        "deadbeefopusplugin_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/buster/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_amd64.deb",
+          "size": "24_KiB ",
+          "sizebyt": "23136",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "71_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "aed15a53812974fc8f975cc849c521e2",
+          "sha256": "12ea93726cd93dc23da7132e9c48c721fd4fb1ae0b71909dc5f012ea14e29f91",
+          "depends": "libc6(>=2.27) libogg0(>=1.3.0) libopus0(>=1.1) libopusfile0(>=0.5) libssl1.1(>=1.1.0) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
         },
         "eiskaltdcppdaemon_amd64": 
         {
@@ -26673,6 +26763,24 @@
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
         },
+        "deadbeefopusplugin_i386": 
+        {
+          "packageurl": "https://notesalexp.org/buster/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_i386.deb",
+          "size": "24_KiB ",
+          "sizebyt": "23792",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "66_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "e2ca36347f1bd4c3ddcea4bb9a4ec959",
+          "sha256": "6df73cd44526f34eba95a461348b13073c9840a76e8fd6c2126b2e1aab86374d",
+          "depends": "libc6(>=2.27) libogg0(>=1.3.0) libopus0(>=1.1) libopusfile0(>=0.5) libssl1.1(>=1.1.0) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
+        },
         "eiskaltdcppdaemon_i386": 
         {
           "packageurl": "https://notesalexp.org/buster/main/e/eiskaltdcpp-devel/eiskaltdcpp-daemon_2.2.10+git5096-b964c2d0-1_i386.deb",
@@ -27945,6 +28053,24 @@
           "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-mpris2-plugin",
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
+        },
+        "deadbeefopusplugin_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/sid/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_amd64.deb",
+          "size": "24_KiB ",
+          "sizebyt": "23136",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "71_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "aed15a53812974fc8f975cc849c521e2",
+          "sha256": "12ea93726cd93dc23da7132e9c48c721fd4fb1ae0b71909dc5f012ea14e29f91",
+          "depends": "libc6(>=2.27) libogg0(>=1.3.0) libopus0(>=1.1) libopusfile0(>=0.5) libssl1.1(>=1.1.0) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
         },
         "eiskaltdcppdaemon_amd64": 
         {
@@ -33351,6 +33477,24 @@
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
         },
+        "deadbeefopusplugin_i386": 
+        {
+          "packageurl": "https://notesalexp.org/sid/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_i386.deb",
+          "size": "24_KiB ",
+          "sizebyt": "23792",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "66_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "e2ca36347f1bd4c3ddcea4bb9a4ec959",
+          "sha256": "6df73cd44526f34eba95a461348b13073c9840a76e8fd6c2126b2e1aab86374d",
+          "depends": "libc6(>=2.27) libogg0(>=1.3.0) libopus0(>=1.1) libopusfile0(>=0.5) libssl1.1(>=1.1.0) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
+        },
         "eiskaltdcppdaemon_i386": 
         {
           "packageurl": "https://notesalexp.org/sid/main/e/eiskaltdcpp-devel/eiskaltdcpp-daemon_2.2.10+git5096-b964c2d0-1_i386.deb",
@@ -38254,6 +38398,24 @@
           "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-mpris2-plugin",
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
+        },
+        "deadbeefopusplugin_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/trusty/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_amd64.deb",
+          "size": "24_KiB ",
+          "sizebyt": "22796",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "57_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "b7da41f60d4f55550b428567dd593a0a",
+          "sha256": "fe6635e0b68dcc70f718de8eb7e1ae0a4dee415b45721ce7944c31ffbaeb13f2",
+          "depends": "libc6(>=2.4) libogg0(>=1.3.0) libopusfile0(>=0.5) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
         },
         "eiskaltdcppdaemon_amd64": 
         {
@@ -43776,6 +43938,24 @@
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
         },
+        "deadbeefopusplugin_i386": 
+        {
+          "packageurl": "https://notesalexp.org/trusty/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_i386.deb",
+          "size": "24_KiB ",
+          "sizebyt": "23200",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "52_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "3f6f426d780f0fef3515fb837be2bcc4",
+          "sha256": "932b31c7748bf75468c1acfa65dd1caaac67a8fe8f0ab67ab001d99f850b323d",
+          "depends": "libc6(>=2.4) libogg0(>=1.3.0) libopusfile0(>=0.5) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
+        },
         "eiskaltdcppdaemon_i386": 
         {
           "packageurl": "https://notesalexp.org/trusty/main/e/eiskaltdcpp-devel/eiskaltdcpp-daemon_2.2.10+git5096-b964c2d0-1_i386.deb",
@@ -45162,6 +45342,24 @@
           "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-mpris2-plugin",
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
+        },
+        "deadbeefopusplugin_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/xenial/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_amd64.deb",
+          "size": "24_KiB ",
+          "sizebyt": "22614",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "67_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "874820d5e3a3295528158f053ab21689",
+          "sha256": "4f6af31b84fa83fb9bff96e15e7caf9aaa33cdc09a5ab7cca15695631ff213a9",
+          "depends": "libc6(>=2.4) libogg0(>=1.3.0) libopusfile0(>=0.5) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
         },
         "eiskaltdcppdaemon_amd64": 
         {
@@ -51291,6 +51489,24 @@
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
         },
+        "deadbeefopusplugin_i386": 
+        {
+          "packageurl": "https://notesalexp.org/xenial/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_i386.deb",
+          "size": "24_KiB ",
+          "sizebyt": "23268",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "62_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "83fc52278200a3346d85b16ca903a643",
+          "sha256": "58825a0fc39283de2d96999ea80f3b4ef502bd3f0730f36c2f44ebb107422ea0",
+          "depends": "libc6(>=2.4) libogg0(>=1.3.0) libopusfile0(>=0.5) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
+        },
         "eiskaltdcppdaemon_i386": 
         {
           "packageurl": "https://notesalexp.org/xenial/main/e/eiskaltdcpp-devel/eiskaltdcpp-daemon_2.2.10+git5096-b964c2d0-1_i386.deb",
@@ -53171,6 +53387,24 @@
           "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-mpris2-plugin",
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
+        },
+        "deadbeefopusplugin_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/bionic/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_amd64.deb",
+          "size": "24_KiB ",
+          "sizebyt": "22936",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "67_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "53372c70bc316225187d6382dec5bc5d",
+          "sha256": "17f4172daf965fcc96615aad985d94e3b68cb77362cd05f7bbc0a90d07425d63",
+          "depends": "libc6(>=2.27) libogg0(>=1.3.0) libopusfile0(>=0.5) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
         },
         "eiskaltdcppdaemon_amd64": 
         {
@@ -58489,6 +58723,24 @@
           "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-mpris2-plugin",
           "sourcefile": "deadbeef-mpris2-plugin_1.11+git20181026-1.debian.tar.xz deadbeef-mpris2-plugin_1.11+git20181026-1.dsc deadbeef-mpris2-plugin_1.11+git20181026.orig.tar.xz ",
           "description": "MPRISv2 plugin for DeaDBeeF-player"
+        },
+        "deadbeefopusplugin_i386": 
+        {
+          "packageurl": "https://notesalexp.org/bionic/main/d/deadbeef-opus-plugin/deadbeef-opus-plugin_0.8+git82-fd9333b-1_i386.deb",
+          "size": "24_KiB ",
+          "sizebyt": "23496",
+          "version": "0.8+git82-fd9333b-1",
+          "isize": "62_KiB ",
+          "section": "sound",
+          "priority": "optional",
+          "homepage": "https://bitbucket.org/Lithopsian/deadbeef-opus/overview",
+          "md5": "5ee856d7100989fedcc13eb46003c483",
+          "sha256": "21ceb2f8ab3033a1e5773273ce3889523f113ccbd518299ead5e49933521a0e2",
+          "depends": "libc6(>=2.27) libogg0(>=1.3.0) libopusfile0(>=0.5) ",
+          "source": "deadbeef-opus-plugin",
+          "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-opus-plugin",
+          "sourcefile": "deadbeef-opus-plugin_0.8+git82-fd9333b-1.debian.tar.xz deadbeef-opus-plugin_0.8+git82-fd9333b-1.dsc deadbeef-opus-plugin_0.8+git82-fd9333b.orig.tar.xz ",
+          "description": "Ogg Opus plugin for DeaDBeeF-player"
         },
         "eiskaltdcppdaemon_i386": 
         {

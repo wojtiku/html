@@ -52,6 +52,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/amd64/deadbeef-mpris2-plugin/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/deadbeef-opus-plugin/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -842,6 +845,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/deadbeef-opus-plugin/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/eiskaltdcpp/</loc>
@@ -1637,6 +1643,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/deadbeef-opus-plugin/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp/</loc>
@@ -2444,6 +2453,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/deadbeef-opus-plugin/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp/</loc>
@@ -3266,6 +3278,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/amd64/deadbeef-opus-plugin/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/eiskaltdcpp/</loc>
@@ -4238,6 +4253,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/jessie/i386/deadbeef-opus-plugin/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/i386/eiskaltdcpp/</loc>
@@ -6091,6 +6109,9 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/deadbeef-mpris2-plugin/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/deadbeef-opus-plugin/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -6901,6 +6922,9 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/deadbeef-mpris2-plugin/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/deadbeef-opus-plugin/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -7702,6 +7726,9 @@
         <loc>https://notesalexp.org/packages/en/source/deadbeef-mpris2-plugin/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/deadbeef-opus-plugin/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/eigen3/</loc>
     </url>
     <url>
@@ -7919,6 +7946,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/deadbeef-opus-plugin/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp/</loc>
@@ -8804,6 +8834,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/deadbeef-opus-plugin/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp/</loc>
@@ -9700,6 +9733,9 @@
         <loc>https://notesalexp.org/packages/en/trusty/amd64/deadbeef-mpris2-plugin/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/trusty/amd64/deadbeef-opus-plugin/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/trusty/amd64/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -10547,6 +10583,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/trusty/i386/deadbeef-opus-plugin/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/trusty/i386/eiskaltdcpp/</loc>
@@ -12652,6 +12691,9 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/deadbeef-mpris2-plugin/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/deadbeef-opus-plugin/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -13583,6 +13625,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/deadbeef-opus-plugin/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/eiskaltdcpp/</loc>
@@ -14726,6 +14771,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2018/10/28/20181028/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/10/30/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/10/30/20181030/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
