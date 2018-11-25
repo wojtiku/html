@@ -803,7 +803,7 @@
       "description": " qt viewer for comic book archives (cbr/cbz/cba/cbg/cbb)",
       "sourceurl": "https://notesalexp.org/source/main/q/qcomicbook",
       "sourcefile": "qcomicbook_0.9.1+git476-d0fc37d-1.debian.tar.xz qcomicbook_0.9.1+git476-d0fc37d-1.dsc qcomicbook_0.9.1+git476-d0fc37d.orig.tar.xz ",
-      "homepage": "http://qcomicbook.org/",
+      "homepage": "https://github.com/stolowski/QComicBook",
       "depends": "debhelper(>=8) qtbase5-dev libimlib2-dev autotools-dev pkg-config cmake quilt(>=0.46-7~) libpoppler-qt5-dev qttools5-dev qttools5-dev-tools libqt5x11extras5-dev ",
       "binary": "qcomicbook ",
       "description_qcomicbook": "qt viewer for comic book archives (cbr/cbz/cba/cbg/cbb)",

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://notesalexp.org/packages/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/</loc>
     </url>
     <url>
@@ -3215,6 +3212,348 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/znotes/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/audacity/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/audacity-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/deadbeef/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/deadbeef-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/deadbeef-gtk2/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/deadbeef-gtk3/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/deadbeef-opus-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/eiskaltdcpp/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/eiskaltdcpp-cli/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/eiskaltdcpp-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/eiskaltdcpp-daemon/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/eiskaltdcpp-emoticons/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/eiskaltdcpp-gtk/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/eiskaltdcpp-gtk-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/eiskaltdcpp-qt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/eiskaltdcpp-qt-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/eiskaltdcpp-scripts/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/freecad-daily/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/freecad-daily-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/gimp-devel/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/gimp-devel-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/gimp-devel-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/goaccess/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/goldendict/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/kvirc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/kvirc-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/libeiskaltdcpp2.4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/libeiskaltdcpp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/libkvilib5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/librecad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/librecad-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/libslvs1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/libslvs1-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/libtesseract4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/libtesseract-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/llpp/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/notesalexp-keyring/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus-icons-nonfree/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus-plugins/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus-skins/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus-webkit/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/qcad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/qcad-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/smplayer/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/smplayer-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/solvespace/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/tesseract-ocr/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/tesseract-ocr-all/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/audacity/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/audacity-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/deadbeef/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/deadbeef-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/deadbeef-gtk2/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/deadbeef-gtk3/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/deadbeef-opus-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/eiskaltdcpp/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/eiskaltdcpp-cli/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/eiskaltdcpp-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/eiskaltdcpp-daemon/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/eiskaltdcpp-emoticons/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/eiskaltdcpp-gtk/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/eiskaltdcpp-gtk-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/eiskaltdcpp-qt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/eiskaltdcpp-qt-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/eiskaltdcpp-scripts/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/freecad-daily/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/freecad-daily-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/gimp-devel/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/gimp-devel-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/gimp-devel-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/goaccess/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/goldendict/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/kvirc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/kvirc-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/libeiskaltdcpp2.4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/libeiskaltdcpp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/libkvilib5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/librecad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/librecad-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/libslvs1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/libslvs1-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/libtesseract4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/libtesseract-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/llpp/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/notesalexp-keyring/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus-icons-nonfree/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus-plugins/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus-skins/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus-webkit/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/qcad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/qcad-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/smplayer/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/smplayer-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/solvespace/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/tesseract-ocr/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/tesseract-ocr-all/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/</loc>
@@ -11431,43 +11770,19 @@
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/deadbeef-gtk3/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-cli/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-common/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-daemon/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-emoticons/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-gtk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-gtk-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-gtk-data-unstable/</loc>
@@ -11476,16 +11791,7 @@
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-qt/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-qt-data/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-qt-mini/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-qt-mini-unstable/</loc>
@@ -11494,13 +11800,7 @@
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-qt-unstable/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-scripts/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-sounds/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/eiskaltdcpp-sounds-unstable/</loc>
@@ -11728,16 +12028,10 @@
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/libcuneiform0.4-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/libeiskaltdcpp2.2-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/libeiskaltdcpp2.3-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/amd64/libeiskaltdcpp-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/amd64/libeiskaltdcpp-dev-unstable/</loc>
@@ -12061,43 +12355,19 @@
         <loc>https://notesalexp.org/packages/en/wheezy/i386/deadbeef-gtk3/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-cli/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-cli-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-common/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-common-unstable/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-daemon/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-daemon-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-emoticons/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-emoticons-unstable/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-gtk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-gtk3/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-gtk3-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-gtk-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-gtk-data-unstable/</loc>
@@ -12106,16 +12376,7 @@
         <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-gtk-unstable/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-qt/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-qt-data/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-qt-data-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-qt-mini/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-qt-mini-unstable/</loc>
@@ -12124,13 +12385,7 @@
         <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-qt-unstable/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-scripts/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-scripts-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-sounds/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/i386/eiskaltdcpp-sounds-unstable/</loc>
@@ -12358,16 +12613,10 @@
         <loc>https://notesalexp.org/packages/en/wheezy/i386/libcuneiform0.4-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/libeiskaltdcpp2.2/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/wheezy/i386/libeiskaltdcpp2.2-unstable/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/i386/libeiskaltdcpp2.3-unstable/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/wheezy/i386/libeiskaltdcpp-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/wheezy/i386/libeiskaltdcpp-dev-unstable/</loc>
@@ -14777,6 +15026,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2018/10/30/20181030/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/11/10/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/11/10/20181110/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
