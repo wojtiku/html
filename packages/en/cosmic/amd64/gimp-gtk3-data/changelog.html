@@ -1,0 +1,1587 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | ChangeLog of package gimp-gtk3-data_2.99.0+git42513-7ce5abd35e-1_all.deb </title>
+    <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
+    <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="https://notesalexp.org/packages/css/package.css" type="text/css" />
+    <meta name="generator"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://notesalexp.org/html/">Home</a></li>
+                <li><a href="https://notesalexp.org/html/update.html">Update</a></li>
+                <li><a href="https://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li><a href="https://notesalexp.org/html/donate.html">Donate</a></li>
+                <li><a href="https://notesalexp.org/packages/en/contact.html">Contact</a></li>
+                <li class="selected" ><a href="https://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="https://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="https://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+        <div id="pnavbar">
+            &nbsp;&#x2F;<a href="https://notesalexp.org/packages">Packages</a>
+            &nbsp;&#x2F;<a href="https://notesalexp.org/packages/en/cosmic/amd64">cosmic&nbsp;&#x2F;amd64</a>
+            &nbsp;&#x2F;<a href="https://notesalexp.org/packages/en/cosmic/amd64/gimp-gtk3-data"> gimp-gtk3-data </a>
+            &nbsp;&#x2F; ChangeLog
+        </div> <!-- end navbar -->
+    </header>
+    <div id="wrapper">
+        <div id="content">
+<div class="page">
+<h5>ChangeLog of package gimp-gtk3-data in cosmic of architecture amd64</h5>
+<div class="highlight"><pre><span></span>gimp-gtk3 (2.99.0+git42513-7ce5abd35e-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: 7ce5abd35e6c02288196ab966a009fb4314ff6f3
+  * Date: 1543055925
+  * git changelog:
+  *  7ce5abd35e - plug-ins: remove now useless code under
+    GTK_CHECK_VERSION(3, 0, 0).
+  *  ec78a7e419 - app: gdk_test_simulate_key() Win32 replacement code
+    unneeded on master.
+  *  28d376ae3e - tests: OSX - activate GIMP window when tests are
+    running
+  *  7921b24a89 - tests: implement gimp_test_utils_synthesize_key_event
+    on OSX/QUARTZ
+  *  4e3441137e - tests: fix clang compilation error on test-eevl.c
+  *  0a123a81a3 - Issue #2553 - Can't Move Imported or Pasted Path
+  *  ea2c9eefb3 - app: do not activate OSX menu if tests are running to
+    prevent crash
+  *  53f0f93556 - add  to fix test link on OSX
+  *  eb042e6c87 - app: add "line-art-max-grow" property to the bucket
+    fill options.
+  *  dd3d9ab3dd - app: make sure we reset tool modifier state before
+    saving options.
+  *  5a4754f32b - app: properly (bucket) fill created splines and
+    segments in line art.
+  *  3467acf096 - app: replace gegl:watershed-transform with custom
+    algorithm.
+  *  8304d2b5b7 - Issue #1025 - Place taken by expanded "Advanced Color
+    Options"...
+  *  36c885a6df - app: fix a line art leak in bucket fill tool.
+  *  963eef8207 - app: priority map now unneeded for gegl:watershed-
+    transform.
+  *  c288b28ac8 - libgimpbase, libgimp, app: pass misc. GEGL config to
+    plug-ins
+  *  77c24ca16c - libgimpbase: add _gimp_wire_{read,write}_int64()
+  *  9afa42ab91 - libgimpbase: don't leak GPConfig::icon_theme_dir
+  *  b4e12fbbbb - app: add
+    gimp_pickable_contiguous_region_prepare_line_art_async() ...
+  *  663a6c7011 - app: in bucket-fill tool, cancel async on tool
+    destruction
+  *  62baffed98 - app: in gimp-parallel, boost priority of waited-upon
+    asyncs
+  *  965da12b35 - app: add GimpAsync::waiting signal
+  *  2e45c4c8c8 - app: in bucket-fill tool, fix potential leak when
+    computing line-art
+  *  4575949cdf - app: in the bucket-fill tool, avoid CRITICALs when
+    computing line-art ...
+  *  03a928409a - libgimpwidgets: install gimpspinbutton.h
+  *  79571231c5 - app: end point detection uses both the end point rate
+    and clamped value.
+  *  047265333c - app: better handle drawable and image update for line
+    art computation.
+  *  3f58a38574 - app: remove now useless erosion size option.
+  *  a29f73bd9a - Issue #2224 - Use the "Swap folder" setting for the
+    GEGL cache
+  *  9d34e9334f - Update Polish translation
+  *  b00037b850 - app: improve end point detection for smart
+    colorization.
+  *  287d90ba9e - app: force the image flush after a selection fill.
+  *  72c6749634 - Update Spanish translation
+  *  3821ce4bcd - configure.ac: require babl >= 0.1.60
+  *  786bfa5171 - app: in scale tool, scale around center even when
+    using numeric input
+  *  255f2e1cdf - app: fix uninitialized variables.
+  *  05a4437d9a - app: more gimp-parallel fixes
+  *  115fc174f2 - app: indentation fix in gimp-parallel.cc
+  *  2736cee577 - app: remove gimp_parallel_distribute(); use
+    gegl_parallel_distribute()
+  *  43e3939d4a - configure.ac: require GEGL >= 0.4.13
+  *  afe1de950f - Issue #2501: Confusing wording in "Export Image as
+    PDF" dialog.
+  *  969143c436 - app: recompute line art if needed after a bucket fill
+    commit.
+  *  824af12438 - app: edit the bucket fill tool options with new line
+    art options.
+  *  e1c4050617 - app: bucket fill tool with a "paint-style"
+    interaction.
+  *  a3cda4abbe - app: make line art pre-computation in threads.
+  *  f246f40494 - app: compute line art in advance.
+  *  b9de1076ed - devel-docs: small update for GEGL buffer leak
+    debugging.
+  *  93a49951a0 - app: fix line art labellization.
+  *  c4ff81540d - app: better use GeglBufferIterator!
+  *  f02993fb9c - app: directly update the mask buffer with
+    gegl_node_blit_buffer().
+  *  410c747509 - app: create a simple priority map for line art
+    selection flooding.
+  *  e905ea7ba2 - app: with recent gegl:watershed-transform, no need for
+    intermediate...
+  *  0c80f8a718 - app: use char array for temporary data (rather than a
+    GEGL buffer).
+  *  f975f15ec0 - app: use simpler allocated variables.
+  *  f19181dcf8 - app: make visited into single-level allocated array.
+  *  910d7934f5 - app: fix stroke labels in
+    gimp_lineart_estimate_stroke_width().
+  *  1822ea399a - app: use more GeglBufferIterator.
+  *  041a8f1eec - app: use GeglBufferIterator rather than
+    gegl_buffer_sample|set().
+  *  fcd038eb16 - app: babl types returned by choose_format() must be
+    float!
+  *  8502b4e743 - app: implement second step for line art
+    selection/filling.
+  *  8ed12b1b98 - app, libgimpbase: add GIMP_SELECT_CRITERION_LINE_ART
+    selection type.
+  *  85e6700aac - Help menu: various updates
+  *  a2da1cd596 - Issue #2489 - Gimp 2.10.8 layer menu text along path
+  *  0c20d2bf55 - Update Czech translation
+  *  c0b107531e - configure.ac: escape backslash chars in compiler
+    version string
+  *  45fc30caa7 - Issue #2473 - Transforming a layer doesn't properly
+    transform its mask
+  *  658d9f3a82 - Issue #2470 - Spacing between grid lines does not stay
+    at 1px ...
+  *  7ab9ee2686 - libgimpwidgets: add GimpSpinButton
+  *  84227fbfec - tools: in performance-log-viewer.py, fix "function()"
+    predicate ...
+  *  c7f1730702 - app: in performance logs, add new-lines between
+    variable definitions
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 24 Nov 2018 21:36:59 +0300
+
+gimp-gtk3 (2.99.0+git42443-c61138f8f0-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: c61138f8f0c4273bd9c27fabed7e72d8417122d9
+  * Date: 1541748193
+  * git changelog:
+  *  c61138f8f0 - tools: add performance-log-coalesce.py to EXTRA_DIST
+  *  662636041c - devel-docs: another typo fix in performance-logs.md
+    TOC
+  *  5a077649f9 - devel-docs: fix typo in performance-logs.md TOC
+  *  ba98b98f58 - Issue #2431: After coloring a selection and exporting
+    to PDF, file...
+  *  49375a3def - devel-docs: fix typo in performance-issue screenshot
+  *  df4e35a846 - Issue #2454: recent libwmf uses pkg-config.
+  *  baa8aadc83 - devel-docs: fix typo in performance-logs/Makefile.am
+  *  a75c57f2cd - configure.ac: add devel-docs/performance-logs/Makefile
+  *  e3b6c8e877 - .gitlab: add "performance" issue template
+  *  fa9161e4f2 - devel-docs: add performance-logs documentation
+  *  a29d040db5 - app: a few improvements to the GimpBacktrace Linux
+    backend
+  *  0b2d41635a - tools: a few improvements in performance-log-viewer.py
+  *  fb95d3b86e - tools: in performance-log-expand.py, preserve threads
+    with empty stacks
+  *  eec1e1f189 - app: a few fixes to performance-log backtrace output
+  *  2c4831f90b - desktop: update release date.
+  *  56920dcdbf - app: don't let image component mask affect channel
+    colors
+  *  963322fdd4 - app: avoid allocating empty tempbuf for drawable
+    previews
+  *  21b36cd864 - tools: in performance-log-viewer.py, show variable
+    descriptions
+  *  646208eff0 - app: include variable descriptions in performance logs
+  *  8009ea342a - app: simplify drawable preview rendering
+  *  0cdbe91e5a - Issue #2436 - Crash after downsizing canvas
+  *  3dea26b6ee - Update Spanish translation
+  *  5d319b77bf - Issue #2160: Exporting to PCX results in a warped
+    file.
+  *  a181372795 - build: sync the nightly flatpak manifest with the
+    stable one.
+  *  6f31272c87 - Update Polish translation
+  *  34376c7abf - app: propagate space in gimp_layer_mode_get_format
+  *  c55f2308e1 - Issue #2379 - Crash on saving
+  *  026fe766cd - devel-docs: add "step" blending function to GGR format
+    spec
+  *  bfcb7fc593 - file-pnm: Remove clamping when loading PFM files
+  *  0fa2230e86 - Update Spanish translation
+  *  4113aaad69 - app: fix tests for new show-tabs option
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 10 Nov 2018 06:56:33 +0300
+
+gimp-gtk3 (2.99.0+git42412-c271992aa0-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: c271992aa01dc8d565524ade8f511f4932c307fd
+  * Date: 1540613687
+  * git changelog:
+  *  c271992aa0 - Issue #2405 - Rotation center shifts by half a pixel
+    ...
+  *  fbee6a6582 - Update Swedish translation
+  *  7b2fb4a38c - Update Polish translation
+  *  ae9d84dd22 - Issue #2235 - Color reset/swap keyboard shortcuts not
+    discoverable...
+  *  231b82a7fe - themes: draw a wider border around GimpFgBgColor's
+    active color
+  *  8ba81c8848 - Some small fixes in Italian installer translation
+  *  bd48996933 - Fix compilation on Mac 10.6 and 10.7 (#2112)
+  *  1cc3c3e5a4 - Update Polish translation
+  *  7a146de71d - Update Polish translation
+  *  298cc57042 - Issue #2345 - Add xyY to color sample readouts
+  *  a39b4abfbc - configure/app: depend on GEGL 0.4.12
+  *  1ca2d74411 - app: Add option in the windows menu to hide the image
+    tab bar.
+  *  1915c17584 - Issue #2226 - Assigning wrong color profile results in
+    error reporting dialog
+  *  38dcb73bfc - Issue #2386 - Pattern fill with selection is shifted
+    in 2.10
+  *  8421221b60 - Issue #2388 - CRITICAL: XMP Toolkit error 4: Invalid
+    UTF-8 data byte
+  *  2880f08044 - plug-ins: fix some new strncpy() warnings
+  *  582c692010 - plug-ins: make curve-bend build again, and undeprecate
+    it a bit
+  *  6bb8c74a46 - plug-ins: kill GtkAlignment in all plug-ins which are
+    currently built
+  *  f8ce6b7440 - libgimpcolor: remove deprecated integer RGB <-> HSL
+    conversion functions
+  *  07f5527998 - plug-ins: stop using gimp_rgb_to_hsl_int(),
+    gimp_hsl_to_rgb_int()
+  *  40df58011f - libgimpcolor: remove gimp_rgb_to_hsv_int() and
+    gimp_hsv_to_rgb_int() cruft
+  *  befe80bd08 - plug-ins: don't use gimp_rgb_to_hsv_int() and
+    gimp_hsv_to_rgb_int()
+  *  075ba4eccc - Update Spanish translation
+  *  e8b2e0e103 - Update Spanish translation
+  *  1d43e2ff37 - Issue #2332 - Marching ants from one image displayed
+    on every tab
+  *  4664fa73fb - tools: in performance-log-viewer.py, allow sorting
+    profile by function name
+  *  27dc9b815d - tools: in performance-log-viewer.py, fix percentage
+    cell renderer
+  *  dac5be6108 - plug-ins: kill GtkAlignment in cml-explorer
+  *  0b99fc8194 - plug-ins, pdb: remove the fractal-trace plug-in and
+    add a PDB compat proc
+  *  643004af06 - plug-ins: kill some deprecated GtkAlignments
+  *  5866e48f8a - docs, etc: regenerate system gimprc and its manpage
+  *  2e4b3ae05a - Issue #1371 - Add title printf-like expando for export-
+    clean and export-dirty
+  *  f5f3573337 - plug-ins: kill deprecated GtkAlignment in file-xmc
+  *  ac282f2045 - Misc. typos
+  *  450843baa7 - Replace deprecated CGColorSpaceCopyICCProfile with
+    CGColorSpaceCopyICCData
+  *  26ea334825 - tools: in performance-log-viewer.py, visualize
+    percentage in profile viewer
+  *  2987f012f9 - Issue #2087 - Issues discovered by coverity scan
+  *  0f88830a00 - configure.ac: the list of required versions is now
+    alphabetically ordered
+  *  ac26671eb6 - Fix plugin focus issues on osx
+  *  0102ebe0ac - Update German translation
+  *  3a73fb848f - Update Spanish translation
+  *  e879343012 - Update Polish translation
+  *  d885ef34f5 - configure/app: depend on GEGL 0.4.10
+  *  e26a220a6f - Issue #2237 - export as, select file type (by
+    extention) list problem
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 27 Oct 2018 08:36:35 +0300
+
+gimp-gtk3 (2.99.0+git42368-7adb6c26e5-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: 7adb6c26e5913b70decfcd7119354a4f59feb216
+  * Date: 1539366956
+  * git changelog:
+  *  7adb6c26e5 - Issue #2210 - GIMP crashes on startup if usb mouse is
+    present
+  *  43b492ff83 - tools: fix performance-log viewer profile thread-
+    filter
+  *  72fc01742b - app: always use libunwind for symbol names in
+    GimpBacktrace Linux backend
+  *  85b16b9eaa - app: fix gimp_wait() deadlock
+  *  cb51ea981a - tools: add performance-log-coalesce.py; use in
+    performance-log-viewer
+  *  52772cf3ff - app: in GimpBacktrace Windows backend, avoid bogus
+    symbol addresses
+  *  52908f397f - app: in GimpBacktrace Windows backend, set main-thread
+    name
+  *  ca6e4eb460 - app: improve description comment of GimpAsync
+  *  5e6e979a00 - Issue #2339 - Error while executing script-fu-ripply-
+    anim
+  *  4969d75785 - app: allow progressive execution of parallel async
+    operations
+  *  1c9775d7bd - libgimpbase: just remove a small typo in a doc
+    comment.
+  *  ea2c3d2cea - Update Romanian translation
+  *  74efea7e34 - app: fix tooltips on the toolbox' color and image
+    areas
+  *  c399b894a8 - app: remove the image's "Enable Color Management"
+    toggle
+  *  c483beadb3 - Update Hungarian translation
+  *  30d7599389 - Update Hungarian translation
+  *  e5f312335e - Update Hungarian translation
+  *  ca6e22f0f8 - app/configure: depend on babl-0.1.58
+  *  3eaae58595 - Issue #2308 - Strange behavior when switching active
+    layer during transform
+  *  84066ca26a - app: use "step" blending function in "FG to BG
+    (Hardedge)" gradient
+  *  68bf99e806 - Issue #2303 - Please add Constant type of gradient
+    interpolation ...
+  *  be84c6e766 - Update Swedish translation
+  *  3e579efae0 - Remove extra newline character in zh_HK translation
+  *  97392b9e15 - Update German translation
+  *  d853f56203 - Update Dutch translation
+  *  3c92b5e00b - plug-ins: fix a datasourcetype does not shown in
+    metadata-editor.
+  *  e46fdc714e - app: in gimp-parallel, cancel ongoing async operations
+    upon exit
+  *  6bc0b3b8ad - app: add gimp_data_factory_data_cancel()
+  *  50bab438ce - app: don't depend on GimpData sort order for
+    identifying internal data
+  *  5ac267820f - INSTALL: update mypaint-brushes repository (finally
+    upstream!).
+  *  88438c5055 - tools: in performance-log-viewer.py, add annotated
+    source view
+  *  b672f20075 - tools: in performance-log-view.py, don't change call-
+    graph path ...
+  *  97498017c0 - tools: in performance-log-viewer.py, cache source file
+    lookups
+  *  0f38709259 - tools: in performance-log-viewer.py, allow viewing
+    source files ...
+  *  cb892aa0e6 - plug-ins: add more generated files in .gitignore.
+  *  1e7d714f0a - plug-ins: pygimp: Add autogenerated python files to
+    .gitignore
+  *  04688c3111 - Use the "with" keyword when dealing with file objects
+  *  263b4722ca - Use assignment operator
+  *  6090fd654f - "Generator Expressions" improvements
+  *  82e59a951d - Use list comprehensions
+  *  09d1a3c82f - Comparision to None should be done with "is" or "is
+    not"
+  *  46e5e4d478 - tools: in performance-log-viewer.py, handle infinities
+    in sample graph
+  *  a21667821c - app: avoid double-initialization of operation tools
+    when changing layers
+  *  d12dd3fb35 - app: don't commit trivial warp transform
+  *  ed20393f0e - Issue #1180 - Warp tool aborts changes to layer A when
+    ...
+  *  1742e76144 - Updated Danish translation of gimp-windows-installer
+  *  4ad04cdef8 - Updated Danish translation of gimp-plug-ins
+  *  242c556ff9 - Updated Danish translation
+  *  8895c20a90 - Updated Danish translation of gimp-libgimp
+  *  ae3c006293 - app: avoid applying buffer to drawable if application
+    region is empty
+  *  a782acab57 - Issue #2287 - Weird things happen with dodge tool ...
+  *  ae628a8664 - Issue #2222 - Warp Transform doesn't commit changes
+    upon saving ...
+  *  fca05065e1 - tools: in performance-log-viewer.py, retain call-graph
+    path
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 13 Oct 2018 23:28:56 +0300
+
+gimp-gtk3 (2.99.0+git42315-6ad3dbdb17-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: 6ad3dbdb17d1cc419b15dbb84a144545d695bf4a
+  * Date: 1538166657
+  * git changelog:
+  *  6ad3dbdb17 - app: in performance-log-viewer.py, add undo support
+  *  e6b92dbbc6 - Update Polish translation
+  *  fb0b04e8d9 - build: bump some dependencies in nightly flatpak.
+  *  ba53a833b2 - desktop: prepare release of GIMP 2.10.8.
+  *  c1347a7f26 - app: construct tool-options GUI lazily
+  *  d33fb0e7b8 - tools: various improvements in gimp-performance-log-
+    viewer.py
+  *  9a2999a553 - plug-ins: in script-fu, don't query PDB procedures'
+    info on startup
+  *  72b80213bc - Update Brazilian Portuguese translation
+  *  a5baba5539 - Issue #2272 - Crash when using the intelligent-
+    scissors tool ...
+  *  53964dcb92 - Revert "app: add "perspective correction" option to
+    the measure tool"
+  *  bf2ea81fcc - app: use gimp_dialog_set_alternative_button_order()
+  *  24fb597196 - app: tweak focus behavior of GimpToolWidgetGroup when
+    removing widget
+  *  d31725a9cd - app: add "perspective correction" option to the
+    measure tool
+  *  95d2c92ff2 - app: in GimpToolWidgetGroup, improve focus behavior
+    when adding/removing widgets
+  *  5b217b3ad4 - app: in GimpToolWidgetGroup, calculate hover widget at
+    button press
+  *  20a6a3583b - app: confirm transforms that result in very large
+    items
+  *  2ae823ba2b - app: add gimp_drawable_transform_get_effective_clip()
+  *  2c52bba071 - app: indentation fix in gimpdrawable-transform.[ch]
+  *  51d9934942 - tools: in performance-log-viewer.py, right-align
+    backtrace frame number column
+  *  407e9f36ca - tools: in performance-log-viewer.py, set thread filter
+    search column
+  *  3f630378b0 - tools: in performance-log-viewer.py, add thread filter
+    to profile
+  *  a7afbe13ec - tools: in performance-log-viewer.py, defer UI updates
+    util needed
+  *  0245775346 - configure.ac: fix libbacktrace test
+  *  7cdd1ebeef - app: add source location information to the Linux
+    GimpBacktrace backend
+  *  2c8e3f8e0a - tools: only show object/source basename in performance-
+    log backtraces
+  *  c7a4eb4602 - tools: replace performance-log viewer call-graph
+    direction icons
+  *  c537341d35 - tools: a few improvements in performance-log-viewer.py
+  *  4dc45f9658 - libgimpmath: fix typo in various places:
+    s/orthognal/orthogonal/.
+  *  a1b08a503d - Revert "app: disable parallel asynchronous operations
+    when GEGL_THREADS=1"
+  *  6a5023a38a - Issue #2179: Get rid of the win32_use_hkcu flag.
+  *  f7ac033777 - libgimpwidgets: fix accidential double G_ADD_PRIVATE
+  *  a5c8dd5c73 - app: fix incompatible pointer type warning in
+    gimpviewrendererdrawable.c
+  *  a84b57e67e - app: fix unhandled enumeration value warning in
+    gimptextlayer.c
+  *  3b0040c043 - app, libgimp*, modules: don't use
+    g_type_class_add_private() ...
+  *  d5586ed9d0 - Updated Italian translation
+  *  7bfd22ca68 - Fixed small typo
+  *  ef8042e812 - icons: fix icons!
+  *  97247f41ea - app: don't sanity check for "gegl:matting-levin".
+  *  9560a653c5 - configure: check presence of "gegl:matting-levin" with
+    `gegl --exists`.
+  *  386587736f - Misc. typo fixes
+  *  64b00b5c7f - plug-ins: add the "msf1" brand for HEIF files.
+  *  f8dd444e98 - tools: in performance-log-viewer.py, fix profile
+    viewer search column
+  *  3601c9189b - tools: add performance-log-viewer.py and driver
+  *  7e186f3e5d - tools: add performance-log-deduce.py
+  *  87999d17db - Update Polish translation
+  *  4ad3993eca - Issue #2209: more accurate magic for HEIF files.
+  *  2c6b5c371e - app: add more information to performance logs
+  *  e8c1cd79ba - app: in gimpbacktrace-linux, use SA_RESTART for the
+    backtrace signal
+  *  6038f405bf - Updated Greek translation
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 29 Sep 2018 06:52:05 +0300
+
+gimp-gtk3 (2.99.0+git42266-dc9a30446b-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: dc9a30446ba9a27f10cc37c7627dfd11f6ac9c88
+  * Date: 1536996189
+  * git changelog:
+  *  dc9a30446b - devel-docs: add the package maintainers in the release-
+    howto.
+  *  ff56a3af8d - build: update the flatpak cron file.
+  *  d738d2f645 - Issue #2209: HEIF: Invalid input: No 'ftyp' box.
+  *  a654ecbd70 - build: assume yes to questions when updating flatpak
+    runtimes.
+  *  573d817539 - Issue #2055: make save dialog compatibility
+    information understandable.
+  *  0fa2ef9118 - app: add a reason string for internal zlib compression
+    in GIMP 2.10.
+  *  7448c7f811 - libgimpwidgets: do not assume a GimpFrame has a child.
+  *  ea67537d85 - app: conditionnally free new profile in
+    gimp_image_convert_precision().
+  *  6c6a7514a4 - app: some cleanup in gimppaintcore-loops
+  *  6fca9959c7 - plug-ins: migrate pagecurl to new iterator api
+  *  cc10af72cc - plug-ins: migrate screenshot-x11 to new iterator api
+  *  49c53568d7 - plug-ins: migrate print-draw-page to new iterator api
+  *  8edbc0d491 - plug-ins: migrate ifs compose to new iterator api
+  *  29f63616d2 - plug-ins: migrate file-tiff-load to new iterator api
+  *  3a2014984d - plug-ins: migrate psd plug-ins to new iterator api
+  *  ee48ec6877 - plug-ins: migrate gradient-map to new iterator api
+  *  4165a315d5 - plug-ins: migrate qbist to new iterator api
+  *  764085278f - plug-ins: migrate file-png to new iterator-api
+  *  b7633c722e - plug-ins: compose migrated to new iterator api
+  *  6ab12061b7 - plug-ins: colormap-remap migrated to new iterator api
+  *  754a3c5b18 - plug-ins: border-average migrated to new iterator api
+  *  22b4b647bd - plug-ins: decompose migrated to new iterator api
+  *  55b3438328 - app: migrate gimpoperationmaskcomponents to new
+    iterator api
+  *  c6d23add65 - app: migrate gimpoperationgradient to new iterator api
+  *  f03a84d607 - app: migrate gimpoperationcagetransform to new
+    iterator api
+  *  822f9f0d2b - app: migrate gimpoperationcagecoefcalc to new iterator
+    api
+  *  95358ca1fa - app: migrate operationbuffersourcevalidate to new
+    iterator api
+  *  cdda37f4ee - libgimpcolor: migrate to new iterator api
+  *  41e8035635 - modules: migrate display filters to new iterator api
+  *  6761da42b2 - modules: migrate aces-rrt filter to new iterator api
+  *  fb5d7832a8 - app: migrate paintcore loops to new iterator api
+  *  97ed7817d8 - app: migrate gimpmybrushsurface to new iterator api
+  *  46e9036578 - app: migrate brush core to new iterator api
+  *  ea9c5e6a49 - app: migrate ink paint core to iterator api
+  *  24fbdfb591 - app: migrate heal to new iterator api
+  *  beb4ecb238 - app: migrate iscissorstool to new iterator api
+  *  4b77831e03 - app: migrate gimp-gegl-mask to new iterator api
+  *  fcf113a39c - app: migrate gegl-mask-combine to new iterator api
+  *  567ffe94ff - app: migrate gegl-loops to new iterator api
+  *  d99cae4ab8 - app: gimpscanconvert: migrate to new buffer iterator
+  *  c56f543354 - app: pickable-contiguous-region migrated to new buffer
+    iterator
+  *  43c107aeab - app: palette-import migrated to new buffer iterator
+  *  9f481d3607 - app: image-convert-indexed migrated to new buffer
+    iterator
+  *  2c2d8d86fd - app: histogram migrated to new buffer iterator
+  *  972f232316 - app: gimpdrawable-transform migrated to new buffer
+    iterator
+  *  829ca6583d - Issue #2179: Make file_rawtherapee use the registry
+    value that is...
+  *  35c71348a9 - Update Spanish translation
+  *  2273ebd6dc - Update Polish translation
+  *  601c213c7a - app: don't change text-layer box mode after moving
+    using text tool
+  *  238c1035db - app: fix text tool frame position when undoing move
+    operation
+  *  a03183b266 - app: streamline text-tool drawing blocking/unblocking
+    logic
+  *  a1caa17531 - app: fix uninitialized variable warning in
+    gimptexttool.c
+  *  5483ea88e5 - app: avoid to rotate unattached vectors directory in
+    ...
+  *  1ff9487d00 - Revert "app: make unattached vectors enable to
+    rotate."
+  *  166c2c6a89 - Update Hungarian translation
+  *  b9f1ab8f53 - app: more cleanup in GimpBacktrace
+  *  644234e99d - app: GimpBacktrace Windows backend only available with
+    Dr. Mingw.
+  *  ad1f4f51bc - Update Finnish translation
+  *  c2666ae5b8 - configure, app: depend on babl-0.1.57
+  *  78adb7c900 - app, tools: add "running" thread attribute to
+    GimpBacktrace/performance-log
+  *  667efc221d - app: add Windows backend to GimpBacktrace
+  *  a6ec857123 - app: add source-location information to GimpBacktrace
+  *  422f6a55e4 - app: more GimpBacktrace tidying
+  *  2d415f53bf - app: make unattached vectors enable to rotate.
+  *  8dfe00fa17 - Issue #2064 - text along path not working with
+    vertical text.
+  *  c4d89bfe0b - app: remove unused #define in gimpbacktrace-linux.c
+  *  7ac87dc01e - app: rename gimp_backtrace_get_symbol_info() to
+    ..._get_address_info()
+  *  77746fd8fc - app: in gimpbacktrace-none.c, fix
+    gimp_backtrace_get_frame_address()
+  *  0d3647f854 - app: remove stray g_printerr() from gimpbacktrace-
+    linux.c
+  *  cb8dd047d0 - app: minor cleanup in GimpBacktrace
+  *  0e26525e65 - app: show error on attempt to subtract-from/intersect-
+    with empty selection
+  *  7a02859d32 - app: fix app/tests linking
+  *  0e04b77589 - po: add dashboard-commands.c to POTFILES.in
+  *  d7c74a615b - tools: add performance-log-related tools
+  *  36477bb287 - app, icons, menus: add performance-log recording to
+    the dashboard
+  *  80bf686c94 - app: add GimpBacktrace
+  *  a109a77db1 - app: add mnemonics to dashboard action labels
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 15 Sep 2018 18:53:13 +0300
+
+gimp-gtk3 (2.99.0+git42189-d03e5a90d3-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: d03e5a90d3707ce3e88ec44a951e35db129173e1
+  * Date: 1535826177
+  * git changelog:
+  *  d03e5a90d3 - Update Brazilian Portuguese translation
+  *  b839263372 - Update Spanish translation
+  *  1a20253b0c - app: use gimp_gtk_container_clear() in GimpDashboard
+  *  b3d27555ec - app: remove unused function prototype in GimpDashboard
+  *  e98255efc1 - Issue #2124 - The origin of vertical, right to left
+    text does not...
+  *  2bec4b0a0c - INSTALL: also add gexiv2 dependency in requirement
+    table.
+  *  7a7de5c61c - desktop: add missing filter in <release> notes.
+  *  c04544c3db - Update INSTALL.in - gexiv2 required version
+  *  3bf1c6a571 - configure: Simplify libjpeg detection
+  *  072d6b0d12 - Issue #2120 - Segmentation fault while using Levels to
+    white balance a layer
+  *  5dcee9ad37 - file-jpeg: Fix the copyright and license notices of
+    jpeg-icc.*
+  *  be668697cb - Update Polish translation
+  *  547190faa8 - Issue #2116 - bug: Image guide creation by dragging
+    does not allow ...
+  *  d210199da5 - app: fix dashboard swap read-throughput desc.; add
+    translator comment
+  *  f0cb8a6f6f - Update Polish translation
+  *  4c9d82aaff - Update German translation
+  *  e563845174 - Issue #2095 - Filter wavelet-decompose error with
+    layer Group option active
+  *  bcf9c94358 - app: s/sprintf/g_snprintf/ in xcf_save_image()
+  *  ec80a88513 - app: explicitly clear GUI when halting a filter tool
+  *  fd64aae47b - app: add gimp_gtk_container_clear()
+  *  717c183a3e - app: make GimpDeviceInfo more rubust against broken
+    device listings
+  *  5d937a237b - icons: make the gap of the broken chain larger in the
+    Color theme
+  *  49fc5e3034 - tools: invert-svg build tool no longer necessary.
+  *  96dc7da000 - devel-docs: document new debugging option --enable-
+    win32-debug-console.
+  *  a1706bbd29 - app: use adaptive chunk size when rendering
+    projections
+  *  105ffc787d - app: don't chunk update area when rendering projection
+    synchronously
+  *  b8d4ab4808 - configure: reorder the dependency version list.
+  *  9420805525 - Issue 2052 - Crash when using the flip tool
+  *  668fee966a - libgimp: in GimpTileBackendPlugin, use
+    gegl_tile_backend_command()
+  *  17e37ddf24 - INSTALL: add appstream-glib in the dependency list.
+  *  11cee13f62 - configure: more explicit error message for gtk-encode-
+    symbolic-svg.
+  *  bc3b076caf - libgimp: disable tile command range check in plug-in
+    tile backend
+  *  de11e3532c - Issue #1970: Python-fu missing in 2.10.4.
+  *  b67d7c4413 - app: fix "Bad interpreter" error messaging.
+  *  f1ff239d68 - configure.ac: require GEGL >= 0.4.9
+  *  5446163e1d - app: show swap read/write throughput in the dashboard
+  *  cd54457d46 - app: add "queued" field to the dashboard swap group
+  *  b6e552a74b - app: add "compression" field to the swap dashboard
+    group
+  *  8313a40fb5 - app: show horizontal scrollbar in dashboard when
+    necessary
+  *  1d555018ed - desktop: GIMP 2.10.6 is now planned to be released on
+    2018-08-19.
+  *  0b73a1bc93 - icons: fix build with vector icons (default).
+  *  6ad5d74565 - configure/app: depend on GEGL 0.4.8
+  *  b810590b44 - plug-ins: include the right python source in the
+    distribution.
+  *  9bbe950c00 - po-python: skip copied Python files from POTFILES.
+  *  babf74a3db - icons: generate PNG symbolic icons with `gtk-encode-
+    symbolic-svg`.
+  *  8cfe2df866 - app: allow GUI config property for icon style
+    preference.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 02 Sep 2018 07:14:05 +0300
+
+gimp-gtk3 (2.99.0+git42143-4c5cb92352-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: 4c5cb92352754cf8ef27cd0d3413a253d2b99428
+  * Date: 1534524242
+  * git changelog:
+  *  4c5cb92352 - Update German translation
+  *  bcdd575124 - Issue ##2000 - Linked and unlinked chain icons look
+    almost identical
+  *  d65f5eb9de - Update Brazilian Portuguese translation
+  *  67cab0a9cf - Update Brazilian Portuguese translation
+  *  b4f7a90afe - app: reorder function definitions/declarations.
+  *  ff4ce6b70b - Update Turkish translation
+  *  d5b0f71b4c - app: open the Windows console a bit earlier.
+  *  624edf9017 - Issue #1809: update DLL directory for 32-bit plug-in
+    run from 64-bit...
+  *  3d464e03b4 - configure/app: depend on babl 0.1.56
+  *  fb57133d55 - INSTALL, configure: replace Jasper with OpenJPEG.
+  *  ddeff31476 - app, configure: add a --enable-win32-debug-console
+    build option.
+  *  0832bbd771 - plug-ins: replace s/printf/g_printf/
+  *  8e453330c9 - configure: GLIB_COMPILE_RESOURCES is wrong when cross-
+    compiling.
+  *  f8a1d574ee - libgimpthumb: another missing link to libgimpbase.
+  *  1461496999 - tools: fix linking error.
+  *  04bbe941d5 - Issue #1999: Opening the Preferences dialogue triggers
+    Xcode warning.
+  *  ae19441ddc - app: small code cleaning.
+  *  4818e93686 - Updated Slovenian translation
+  *  442e71dbfe - Updated Slovenian translation
+  *  b7d614b330 - Update Latvian translation
+  *  49cebcb643 - Update Spanish translation
+  *  a6c65fe05f - Update German translation
+  *  fabc0ceaf7 - Update German translation
+  *  29a05ccfac - Update Swedish translation
+  *  fc2c640ca2 - app: fix group layer drawable update during size
+    change
+  *  2d63bc6e0a - app: fix projection update-area offset upon buffer
+    allocation/reisizing
+  *  0380ac82bf - Update Polish translation
+  *  537bf4ec6a - app: add gegl:long-shadow to the menus
+  *  b6c56a6ae9 - app: keep sanity/blacklist gegl op lists
+    alphabetically sorted
+  *  d4ef45bdbd - configure.ac: require GEGL >= 0.4.7
+  *  0b075b5692 - Update Latvian translation
+  *  3c483321ee - Updated Slovenian translation
+  *  0a42267d1e - Update Latvian translation
+  *  0e6364d583 - Update Latvian translation
+  *  c210a1f097 - Updated Slovenian translation
+  *  bd2e7d1805 - Updated Slovenian translation
+  *  0d696efe89 - Updated Slovenian translation
+  *  01ae843589 - Updated Slovenian translation
+  *  6938d11716 - Issue #1997 - Colors not properly converted to image's
+    color space
+  *  753523c4d1 - Issue #1953 - Crashes during color profile conversion
+  *  ef60a04a53 - Update Swedish translation
+  *  bbd5b66d65 - Update Swedish translation
+  *  6798f7d4cd - app: add precondition checks to
+    gimp_gegl_convert_color_profile()
+  *  3ff2f28b94 - Update Spanish translation
+  *  49dfc6143d - Issue #1662 - GIMP crashes while using cage transform
+    when selection is active
+  *  0169d48165 - Update Polish translation
+  *  549d880847 - app: display extension long description in the details
+    widget.
+  *  ab1bad23e3 - Update German translation
+  *  a4e0a8f96e - app: extensions can now install themes.
+  *  7d611e713c - app: extensions can now install splashes.
+  *  c7b5977637 - app: work with GIO in splash code.
+  *  5331e40042 - Update Spanish translation
+  *  b3add5109c - app: fix small leak.
+  *  f6d1380fcd - app: removing gimp_get_icon_size() now unused.
+  *  d1372c6c24 - libgimpwidgets, app: change "stock-size" property
+    of...
+  *  343bfbf259 - desktop: preparing release for GIMP 2.10.6.
+  *  9530b5cea3 - Issue #1980 - Color picker wrong results when picking
+    from non-sRGB...
+  *  f14ace2116 - Update Swedish translation
+  *  05226763ba - Update Swedish translation
+  *  a2fe90aa54 - Issue #1980 - Color picker wrong results when picking
+    from non-sRGB...
+  *  f0e585e7ff - Fix file-pdf-save exports broken vertical text.
+  *  2ac91e0fc3 - Issue #1125 - Transform tools temporarily disables
+    layer mask
+  *  2b90231844 - Update Spanish translation
+  *  79bfcabc81 - Update Spanish translation
+  *  afc8066630 - Update Spanish translation
+  *  8226265b12 - Issue #1954 - GIMP-2.99 color changes when converting
+    between...
+  *  d9737ba156 - Update Polish translation
+  *  b3c9089ea2 - Issue #1974: and again another memory leak.
+  *  50221e1438 - Issue #1974: another memory leak when saving a file.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 17 Aug 2018 22:31:24 +0300
+
+gimp-gtk3 (2.99.0+git42074-2912fe7c17-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: 2912fe7c1765dfc8d2e3f4858dc03ef4178e1c70
+  * Date: 1533380223
+  * git changelog:
+  *  2912fe7c17 - Issue #1974: Memory leak in gimpimage.c.
+  *  0ab682b0f5 - Issue #1974: Memory leak in gimpimage.c.
+  *  aafa925906 - Issue #1846 - "gitlab::" typo in the Windows installer
+  *  c6b8a4213c - app: short-circuit GimpProjection bounds-changed
+    handler if disjoint
+  *  bb5e3fd926 - app: fix gimp_projection_projectable_bounds_changed()
+  *  bd726c96bf - app: avoid re-rendering group layers upon resizing
+  *  3ff820a00a - app: avoid re-rendering group layers upon translation
+  *  1bb3e962f6 - app: use gimp_projectable_bounds_changed() when
+    resizing group layers
+  *  a4957c7c76 - app: stop idle projection rendering when flushing
+    group layers
+  *  26a8d141f6 - app: add "update" parameter to
+    gimp_drawable_set_buffer_full()
+  *  fbeae36118 - app: respond to GimpProjectable::bounds-changed in
+    GimpProjection
+  *  460c3d1349 - app: add GimpProjectable::bounds-changed signal
+  *  eeed4778a2 - app: add gimp_tile_handler_validate_buffer_copy()
+  *  12530e21b2 - app: add gimp_tile_handler_validate_unassign()
+  *  e1e4ba9c8b - app: in GimpTileHandlerValidate, clear data when
+    allocating tile
+  *  1a0185f7ef - Updated Slovenian translation
+  *  19076b133f - Updated Slovenian translation
+  *  a03dc0e772 - Updated Slovenian translation
+  *  79bdbfaab6 - Update German translation
+  *  1394af39ec - Updated Slovenian translation
+  *  3889a59197 - libgimpcolor: make
+    gimp_color_transform_process_buffer() thread-safer
+  *  0ce4db749d - app, libgimpbase: update vertical text labels
+    (shorten)
+  *  9cdedc98f8 - app, libgimpbase: update vertical text labels.
+  *  5c56f8cb3a - app: minor coding-style cleanup.
+  *  ee468b0024 - Fixed when texttool popup is shown first, it does not
+    have current text direction.
+  *  70945b8960 - Fixed that anchor position of text is shifted when
+    text direction is changed.
+  *  9c84d2375b - INSTALL: update gettext requirement.
+  *  8e6afe10a6 - configure: making xgettext recommended version a
+    requirement.
+  *  a03e52ea08 - app: add "cairo-ARGB32" to "R'G'B'A u8" in
+    gimp_babl_init_fishes().
+  *  79a5c304d2 - po: fix validation of Desktop file because of Marathi
+    keywords.
+  *  a826a19359 - Issue #1884 - Incorrect font when export to png
+  *  f38443f3b0 - app: copy the is-color-managed status when duplicating
+    an image
+  *  d7345a6a1f - Issue 1917 - GIMP-2.99 uses sRGB instead of the user-
+    selected monitor profile
+  *  b405b0364c - Modified a comment in more detail.
+  *  949912f5d6 - Misc. typos
+  *  b2d5920d7e - Update Spanish translation
+  *  5798728f98 - Update Spanish translation
+  *  e326faa77c - icons: update icons for new top-to-bottom text
+    feature.
+  *  587d9bbb03 - MR !19: Add support for vertical text writing.
+  *  712557e761 - Update Brazilian Portuguese translation
+  *  46f528131b - Issue 1652 - Empty toolbox has very large minimum
+    height in MWM
+  *  b70de60680 - Update Polish translation
+  *  1e5cf10585 - icons, app, libgimpwidgets: use Freedesktop standard
+    icons.
+  *  2ca55c8e36 - libgimpwidgets: fix gimp_monitor_get_color_profile()
+  *  9019512840 - Update Spanish translation
+  *  6b4b3bad13 - app: show relevant files only by default.
+  *  6369445874 - Issue #1160: file dialog view filter getting confused
+    with file...
+  *  193a49a6d1 - app: force the extra widget to take as much place as
+    possible.
+  *  9ae7827f9b - Issue #1160: file dialog view filter getting confused
+    with file...
+  *  fdaca0de80 - Update Spanish translation
+  *  3620baa24d - Update Spanish translation
+  *  1d9332e12d - Update Spanish translation
+  *  a5102a7dba - */Makefile.am: add *marshal.h files to BUILT_SOURCES
+  *  248199e997 - app: make replacing a drawable's format use almost no
+    undo memory
+  *  a76553fb62 - Updated Spanish translation
+  *  78abe756f1 - app: fix segafult when halting filter-tool with
+    controller
+  *  6976e87dac - app: in prop-GUI, use "direction" UI-meta of angle
+    props for dial
+  *  0c477564ad - app: in GimpDial, add "clockwise-angles" property ...
+  *  fdc3c84fc5 - build: move fribidi as a module of pango in flatpak
+    manifest.
+  *  cb132d2a97 - configure/app: depend on GEGL 0.4.6
+  *  5fdcc0dfbb - configure/app: depend on babl 0.1.54
+  *  550e2905dd - Update Polish translation
+  *  255e5a52a4 - modules: fix typos in ACES RRT’s translatable strings
+  *  2e6b8082c8 - Update POTFILES.in
+  *  768a4d439d - modules: rename filmic display filter to ACES RRT
+  *  9a03a7f6cd - icons: add missing Symbolic/24/gimp-color-space-non-
+    linear.png
+  *  97f6179281 - icons: add missing Symbolic/16/gimp-color-space-non-
+    linear.png
+  *  ce0d6b3799 - icons: add missing file 16/gimp-color-space-non-
+    linear.png
+  *  e09e563a70 - Initial space invasion commit in GIMP
+  *  5c94ebaed3 - libgimpwidgets, icons: add gimp-color-space-non-linear
+    icon
+  *  9b9ca43777 - Update Spanish translation
+  *  69100f7e6d - Update Spanish translation
+  *  955136e74b - app: do not show close button to extensions dialog.
+  *  e49cfd0e44 - Update Ukrainian translation
+  *  dec35b98e0 - Update Spanish translation
+  *  6b1d77b11c - Issue #1874 - Critical error after selecting "Edit
+    Text on Canvas" ...
+  *  dbb9555d2f - Issue #788: also install all python plug-ins in their
+    own directory.
+  *  1cd87e2e9a - Update Greek translation
+  *  534e8aa92c - app: improve file-handler sorting
+  *  530a2bd9a5 - INSTALL: add some recommended dependencies to GEGL.
+  *  c9a382f7bd - app: connect the switch to start/stop the extension.
+  *  d68a68c54d - app: add "running" property to extension.
+  *  acdf169d97 - app: set overrided system extensions as unsensitive.
+  *  4d745743e8 - app: functions to manage running extensions.
+  *  02aec4c3d6 - app: serialize and deserialize extensionrc from
+    GimpExtensionManager.
+  *  bc427479e0 - libgimpconfig: update some description comments.
+  *  3d6a9f3ab5 - Update POTFILES.in
+  *  fe14feaaff - modules: add a filmic proof display filter
+  *  b2a9bb4688 - app: fix dynamics editor "fade" curve color
+  *  bfc2681753 - app: indentation fix in gimppluginmanager-restore.c
+  *  0320126254 - Issue #1825 - PSD files are loaded as merged by
+    default ...
+  *  b4ac956859 - app, pdb: add gimp-register-file-handler-priority
+    procedure
+  *  e707e55f82 - app: update babl API usage
+  *  ac5f44eb74 - app: opaque in gimp_layer_new() is 1.0 not 255
+  *  ac57af58a2 - libgimpcolor: add gimp_color_profile_get_space()
+  *  a810c6b60b - app: update GimpToolCompass when display is
+    scaled/rotated
+  *  0f03f9e9f5 - app: in GimpToolCompass, add visual distinction
+    between angle lines
+  *  f026a3fc2d - app: keep display-enums.h (sort-of) alphabetically
+    sorted
+  *  2e08c9164a - Issue #1850 - Undoing the "straighten" operation in
+    the Measure tool ...
+  *  7a91aabf37 - app: bind "orientation" measure-tool option to compass
+  *  47a008be97 - Issue #1805 - Sample Points keep resetting themselves
+    to "Pixel"
+  *  cb3b7a1ba5 - Issue #1851 - Measure tool straighten rotation is
+    always to the horizontal.
+  *  d2f33cf1be - app: add "orientation" property to GimpToolCompass +
+    improvements
+  *  4fefab1798 - app: fix line-angle constraint when xres != yres
+  *  a0129504c8 - Issue #1805 - Sample Points keep resetting themselves
+    to "Pixel"
+  *  2aaa133442 - libgimpmodude: increment GIMP_MODULE_ABI_VERSION
+  *  f676f2aa79 - app: move GimpColorFrameMode to the core and name it
+    GimpColorPickMode
+  *  a7a277efe7 - app: sort core-enums.h alphabetically
+  *  827faa2a25 - app: minor cleanup in gimpguide.c
+  *  bac29b4d67 - Update Polish translation
+  *  18e0aedde3 - Update Ukrainian translation
+  *  2cd829eb85 - app: add GimpAuxItem as base class for GimpGuide and
+    GimpSamplePoint
+  *  b4c244b839 - app: turn GimpSamplePoint into a GObject, just like
+    GimpGuide
+  *  e76eb736d4 - app: some cosmetic cleanup in the guide code
+  *  b140b283dc - app: rename enum GimpColorPickMode to
+    GimpColorPickTarget
+  *  8b71d32659 - app: fix GimpControllerWheel for smooth scrolling
+    events
+  *  432a884715 - app: flush async-operations queue when setting async
+    thread count to 0
+  *  8dce3f3323 - Update Spanish translation
+  *  408540659f - app: disable parallel asynchronous operations when
+    GEGL_THREADS=1
+  *  719059fb4e - gimptoolpolygon.c source typo
+  *  732bcb463e - Misc. comment typos
+  *  680642e37c - plug-ins, pdb: remove the unsharp-mask plug-in and add
+    a PDB compat proc
+  *  bab75b7365 - Change a bazillion URLs to https://
+  *  c7272d779c - po-python: apparently I missed one bugzilla URL before
+  *  02160a26b0 - libgimpthumb: update the URL of the thumbnail spec
+  *  491ebb0619 - Update Brazilian Portuguese translation
+  *  0fa991fb5f - app: undeprecate gimpdisplayshell-selection.c
+  *  44b469e493 - Issue #1841 - Export As... mng swaps width and height
+  *  573ab95315 - build: add Wayland socket and bump LibRaw.
+  *  a88279ba4d - Update Brazilian Portuguese translation
+  *  149e4af170 - app: remove forgotten prototype from gui.c
+  *  ab30b9537c - app: include extensions-dialog.h in dialogs-
+    constructors.c
+  *  af44a5161d - libgimpwidgets: fix GimpIntComboBox popup-shown
+    appearance
+  *  03feba0f35 - libgimpbase, app: remove the plug-in menu_path compat
+    code
+  *  9ef39b507b - app: relax precondition checks in
+    gimp_operation_config_get_type()
+  *  fd29af341d - Update Spanish translation
+  *  9629fc8785 - app: small formatting fix in gimpfiltertool-widgets.c
+  *  55707166f5 - Update Brazilian Portuguese translation
+  *  ac8b70aa48 - Update Brazilian Portuguese translation
+  *  b5b48e51c8 - app: remove duplicate include in gimpcurvesconfig.c
+  *  a918437f81 - Update Brazilian Portuguese translation
+  *  397ae027ba - Issue #1834 - (gimp-context-get-gradient) could return
+    a gradient name...
+  *  c3d37140eb - Issue #1833 - (gimp-context-get-gradient-repeat-mode)
+    always warns...
+  *  829f12040d - Forgot two license links...
+  *  5f700549e7 - Change the license URL from
+    http://www.gnu.org/licenses/ to https://
+  *  8eb77376c4 - More bugzilla -> gitlab in various files
+  *  c3d6140f5b - Added Slovenian translation
+  *  1b386dfe04 - po*: change Report-Msgid-Bugs-To URL to
+    gitlab.gnome.org
+  *  fb73f46570 - Update Brazilian Portuguese translation
+  *  66c1199354 - Update Brazilian Portuguese translation
+  *  20efe74834 - Update Brazilian Portuguese translation
+  *  6e971a3fe2 - app: remove the <Toolbox> compat menu path for plug-
+    ins
+  *  238748c3ce - Update Polish translation
+  *  aeec0f7f49 - app: small improvement to previous GimpPaletteEditor
+    commit
+  *  ea27fd912c - app: add color index label to the palette editor.
+  *  de6f469c16 - Update Spanish translation
+  *  66d465abfc - Updated Spanish translation
+  *  eeb61e5b42 - Update Brazilian Portuguese translation
+  *  a6ee02b72b - Update Polish translation
+  *  a1f2464ed6 - libgimpwidgets: forgot one s/H/h/ in LCh
+  *  ac05d72072 - Update Polish translation
+  *  926dc070ef - app, libgimp*: make user visible color model labels
+    consistent
+  *  6c3b1112be - app: make the rectangle options a bit narrower, still
+    too wide...
+  *  3c96ba4d84 - Update German translation
+  *  370680f9bc - Issue #1805 - Sample Points keep resetting themselves
+    to "Pixel"
+  *  c6b63589c2 - Added Marathi translations
+  *  de649f4d7a - po: adding app/dialogs/extensions-dialog.c in
+    POTFILES.in.
+  *  a4c1d73b75 - icons: toilet paper should always be white!
+  *  56717f80cc - icons: fix symbolic icon gtk-select-color.
+  *  22099db280 - app: new GimpExtensionDetails widget.
+  *  869f345ff0 - app: new GimpExtensionList widget.
+  *  ff12c2d903 - app: a skeleton for the extension GUI.
+  *  20b399e9bf - app: add some GimpExtension and GimpExtensionManager
+    API.
+  *  b9b8676cb8 - app: use GIMP_VERSION for version comparison.
+  *  9fae08595d - plug-ins: help-browser Web view does not need a
+    scrolled window
+  *  aa2cdb2aa9 - Added Marathi translation
+  *  34a0c36602 - plug-ins: need to initialize "name" now in file-pat.c
+  *  49ca383fa4 - app, pdb: use gimp_babl_is_valid() in more places
+  *  a0a62656d2 - Issue #1792 - Xcf file crashing gimp-console-2.10 ...
+  *  8f63397ef7 - app: gimp:semi-flatten propagate babl space
+  *  11dd90eb89 - app: gimp:threshold-alpha propagate babl space
+  *  f3a757ff33 - app: gimp:set-alpha propagate space
+  *  045328c889 - app: gimp:grow propagate babl space
+  *  4d5a967d6a - app: gimp:shrink propagate bable space
+  *  df4f9e0d9b - app: propagate babl space in pointfilter base class
+  *  ae2c30ad0e - app: gimp:flood propagate babl space
+  *  38b1502024 - app: gimp:desaturate propagate babl space
+  *  0b4d41c2ee - app: gimp:compose-crop propagate babl space
+  *  5e8a5cf999 - app: gimp:border propagate babl space
+  *  1fc55c1572 - app: switch off overlay scrollbars in tool options
+  *  6a7a010769 - app: link tests against APPSTREAM_GLIB_LIBS
+  *  9b56ca8c1d - Issue #1730 - pat file that crashes gimp-2.10
+  *  8195a56261 - app, plug-ins: move GIMP_BRUSH_MAX_SIZE to gimpbrush-
+    header.h
+  *  e759ce3558 - app, plug-ins: clean up gimpbrush-header.h and
+    gimppattern-header.h
+  *  bd09e6d4ed - Update Spanish translation
+  *  2aa1d0c7cc - Update Spanish translation
+  *  5612b47f29 - Update Spanish translation
+  *  1e29f8bb8d - Update Spanish translation
+  *  fc9131cc7a - Update Spanish translation
+  *  ed033b1cb5 - app: properly shut down gimp-parallel in stable
+    versions
+  *  114d49510f - app: log actions upon activation before emitting
+    "selected" signal
+  *  b4aece8a27 - app: avoid CRITICAL when loading XCF with empty gimp-
+    text-layer parasite
+  *  e97f2510dc - app: avoid CRITICAL when loading XCF with empty
+    symmetry parasites
+  *  eafefc7d81 - libgimpbase: gracefully reject Exif/IPTC/XMP metadata
+    of invalid size
+  *  d4ff57c793 - app: avoid CRITICAL when loading XCF with empty gimp-
+    image-metadata parasite
+  *  b54256fbdc - app: avoid CRITICAL when loading XCF with empty gimp-
+    image-grid parasite
+  *  8e798e9cf2 - app: avoid CRITICAL when writing 0-length data to XCF
+  *  3b228afdbe - libgimpconfig: allow writing empty data in
+    gimp_config_writer_data()
+  *  10f33b080b - libgimpcolor, app: gracefully reject empty ICC
+    profiles
+  *  f384a0713d - Issue #1783 - Xcf file crashing gimp-console-2.10 ...
+  *  6ebadea7c1 - Issue #1783 - Xcf file crashing gimp-console-2.10 ...
+  *  6544ce4301 - app: fix potential segfault in
+    gimp_action_history_activate_callback()
+  *  a96264b1b7 - app: add gegl:stereographic-projection (little planet)
+    to the menus
+  *  450e61f853 - configure.ac: require GEGL >= 0.4.5
+  *  dc6c14c29f - build: sync nightly flatpak with recent changes on
+    stable one.
+  *  cb2ff238c3 - Update Swedish translation
+  *  e8bce41a0d - Updated Danish translation of gimp-plug-ins
+  *  b019f2fb24 - Updated Danish translation
+  *  8eef339ed5 - desktop: 2.10.4 release is today, earlier than
+    planned!
+  *  a62fdce55a - configure.ac: require GEGL >= 0.4.4
+  *  2cff76658a - Updated po-script-fu uk.po
+  *  e27e783f88 - Issue #1748 - Crash when parsing currupt tool preset
+  *  7db59e7af9 - Issue #1719 - GIMP crashes with an invalid pluginrc
+  *  17429c585f - app: undeprecate GimpDisplayXfer, no more
+    gdk_cairo_create()
+  *  716412a807 - app: undeprecate GimpStatusbar
+  *  ab17727d44 - app: use GdkRGBA instead of GdkColor for text tags
+  *  b6c099c4b9 - app: fix width of GimpThumbBox' thumbnail generation
+    progressbar
+  *  7efb8576a1 - app: prepare gimpdisplayshell-selection for
+    undeprecation
+  *  0968618590 - Update POTFILES.in
+  *  b8e08cddbc - app: fix GimpMeter history-graph painting when clipped
+  *  34181a93c2 - Update Ukrainian translation
+  *  67062a5867 - app: undeprecate gimpdisplayshell-layer-select
+  *  e05c20173a - Update Ukrainian translation
+  *  ea2bb13008 - Update Ukrainian translation
+  *  00d034a1d4 - app: fix signature of gimp_parallel_run_async()
+    function template
+  *  da1558d0c8 - app: add mnemonic to the layer-group previews
+    prefrences option
+  *  e6a59eba08 - app: fix drawable-preview offset
+  *  a411ee7c38 - libgimpconfig: forgot to update gimpconfig.def AGAIN!
+  *  4ac9543f72 - app: extensions can now contain plug-ins.
+  *  a8f1a18b11 - app: fix parent check for extension files.
+  *  87b17944e9 - app: adding extension requirement support.
+  *  a8a0408eb6 - app: extensions can now bundle various data.
+  *  b70424b20a - app: add base classes for the extension manager.
+  *  9c05f10368 - libgimpconfig: new API
+    gimp_config_build_system_path().
+  *  38e5a021ad - Sync USM menu entry to GEGL
+  *  7aa4273806 - configure.ac: require babl >= 0.1.52
+  *  a72f7f1ace - app: explicitly close output stream when saving
+    internal data
+  *  cb4d52159c - Update Polish translation
+  *  cbff90495a - Update Dutch translation
+  *  d30ee3a773 - app: adjust sessionrc-expected-multi-window, no
+    further comment...
+  *  aa382650a1 - app: add active async-operations counter to the
+    dashboard
+  *  30cc85fd63 - app: add config option to enable/disable layer-group
+    previews
+  *  5b9bc0aadd - app: make dependent options insensitive when "promote
+    imported" is unchecked
+  *  8a81bfd2f1 - app: render drawable previews asynchronously
+  *  d79e3fbd6f - app: add gimp_drawable_get_sub_preview_async()
+  *  b74e600c12 - app: add gimp_parallel_run_async_{full,independent}()
+  *  ff679c66a1 - app: in gimp-parallel, fix async-thread shutdown
+  *  8516aedade - app: on make check, search menu XML files in both
+    buildir and srcdir
+  *  e325503c81 - Update Polish translation
+  *  a38896c4cd - Update Latvian translation
+  *  3089a20167 - app: remove all calls to gdk_window_process_updated()
+  *  2ab5558b22 - Update Latvian translation
+  *  5e02d02707 - libgimpwidgets: remove calls to
+    gdk_window_process_[all]_updates()
+  *  847c923835 - Update Hungarian translation
+  *  2ed3859b4a - app: some cleanup in tool_manager and gimp-tool-
+    options-manager
+  *  584a2d18f5 - Update Catalan translation
+  *  29a9d19e59 - Update Chinese (Taiwan) translation
+  *  c3b05e7f8d - README: update for 2.99 dev version.
+  *  1ef7056324 - app: fix logic error in
+    tool_options_manager_paint_options_notify()
+  *  80c423ae40 - app: move the improved paint property copying code to
+    GimpPaintOptions
+  *  5299b1894d - app: indentation in gimp-tools.c
+  *  37f69457b7 - app: switch to using gimp-tool-options-manager
+  *  599f4bfd8b - app: fix .NOTPARALLEL: check target
+  *  c008ef7e85 - app: Prevent parallel builds for the tests
+  *  188fd773a5 - app: make sure the active tool options get saved in
+    devicerc
+  *  1b858eb4ad - app: more stuff in gimp-tool-options-manager.c
+  *  54257da7c4 - app: small fix in gimp-tool-options-manager.c
+  *  f294d5e1af - app: gimp_container_icon_view_select_item() must only
+    select one item
+  *  164de32998 - Update Hungarian translation
+  *  941058e0c6 - Update Hungarian translation
+  *  ef952f2926 - app: add gimp-tool-options-manager.[ch]
+  *  b5890e05b8 - app: a few async font loading fixes
+  *  92e1f785ce - INSTALL: WEBKIT_REQUIRED_VERSION renamed to
+    WEBKITGTK_REQUIRED_VERSION.
+  *  c543103783 - INSTALL: add --enable-relocatable-bundle in options
+    list.
+  *  7cbbb8cba8 - Issue #1740: Move tool has two identical options for
+    selection mode.
+  *  401ec556e1 - build: remove obsolete patch.
+  *  716510cb83 - app: allow multiple variables as input to dashboard
+    group-meter LED
+  *  b3de0bb7a5 - Issue #1731: gbr file that crashes gimp-2.10.
+  *  19f4abbbd6 - app: even more Windows-specific fixes in
+    gimpdashboard.c
+  *  4914103b5f - app: more Windows-specific fixes in gimpdashboard.c
+  *  d75e599431 - app: s/DAta/Data/ in gimpdashboard.c
+  *  0961ccf754 - Issue #1340 - Critical when editing input controllers
+  *  40b09952f0 - Update Swedish translation
+  *  1a8bf4bcaf - libgimpbase: forgot to add gimp_pixpipe_params_free()
+    in gimpbase.def.
+  *  c0480f502d - app: don't do any queue_resize() in the canvas' size-
+    allocate callback
+  *  478d18f6c5 - app: remove gdk_window_process_updates() from
+    gimp_overlay_box_scroll()
+  *  06282f28ed - app: Make GimpThumbBox pretty again
+  *  779de4bcf8 - libgimpbase: add gimp_pixpipe_params_free().
+  *  47163717ba - Issue #1723: gih file that crashes gimp-2.10.
+  *  6b71bf27c8 - build: build flatpak with new --with-icc-directory
+    option.
+  *  a89c4738cc - devel-docs: update macOS support to OSX 10.12 on
+    master.
+  *  2e076f8205 - plug-ins: wait one second before calling
+    webkit_web_view_get_snapshot()
+  *  4ff856f68d - plug-ins: lookup WMF fonts on same prefix when
+    relocatable bundle.
+  *  0084776002 - Update Swedish translation
+  *  8da2646372 - configure: replace --enable-bundled-mypaint-brushes
+    with...
+  *  a1989ff003 - Update Ukrainian translation
+  *  590b8bb4bf - .gitlab: adding a MR template.
+  *  a12cb58b7c - plug-ins: create the web-page image using
+    webkit_web_view_get_snapshot()
+  *  4fa5f61dae - desktop: tentative release for 2.10.4 on 2018-07-07.
+  *  1b9729d46d - app: replace Carbon/Carbon.h by
+    CoreGraphics/CoreGraphics.h.
+  *  c6aa613f9c - Issue #1719 - GIMP crashes with an invalid pluginrc
+  *  d37f352825 - plug-ins: port web-page to WebKitGTK+ 2
+  *  d34f46b3c4 - plug-ins: port help-browser to WebKitGTK+ 2
+  *  cb0e6c65d0 - Issue #1714 - When GIMP starts, default brush hardness
+    is always at 100
+  *  aad82d1a9b - app: add an assertion test on result of
+    gimp_widget_load_icon().
+  *  80d2a02b58 - app: reorganize a bit gimp_widget_load_icon().
+  *  5b6126146a - Fix screen resolution detection on OSX
+  *  49b4b1a5c2 - libgimpbase: fix declaration after statement and reset
+    safecheck...
+  *  559d9b89e3 - Fix empty lldb backtrace on OSX
+  *  792b27afe1 - libgimpwidgets: do not free the GtkAdjustment when
+    finalizing...
+  *  50bcc8db3c - Issue #1712: Add translator comment for string "Export
+    Exif...
+  *  25a6ec29a0 - Update Polish translation
+  *  6834af889e - app: fix typo in a translatable string (trnasferred)
+  *  b7685cc579 - app: remove check since gimp_widget_load_icon() now
+    always non-NULL.
+  *  a6e77355d8 - Revert "Issue #1608: Gimp 2.10.0 and 2.10.2 crash
+    immediately on start."
+  *  123dcc6f3f - app: gimp_widget_load_icon() should actually always
+    return a result.
+  *  80997a8646 - Remove most GTK_ADJUSTMENT() and (GtkAdjutment *)
+    casts
+  *  877c20f420 - app: even for fallback icons, it is better to check
+    lookup success.
+  *  352bc2160f - app: add a doc-comment to gimp_widget_load_icon().
+  *  ff9d41902e - app: load "gimp-wilber-eek" as fallback when an icon
+    fails to load.
+  *  7886bdc2a9 - Issue #1608: Gimp 2.10.0 and 2.10.2 crash immediately
+    on start.
+  *  b8e75a0201 - app: more GimpGradientEditor cleanup
+  *  025a13b519 - app: peek/poke much less in GimpGradientEditor
+    internals
+  *  acd3a6f169 - Clean up color selector styling
+  *  2b8b780b6a - app, libgimpwidgets: all GimpColorHexEntries should
+    have the same tooltip
+  *  ca3ffec111 - Issze #1711 - GIMP does not unref all
+    GLocalFileEnumerator it uses
+  *  72bc216f4a - app: make GimpFgBgEditor and GimpFgBgView honor border
+    and padding
+  *  c21eff4b03 - Issue #1689: create unique temporary file with
+    g_file_open_tmp().
+  *  b87d34bace - icons: work around dimension bug of librsvg for a
+    bunch of color icons.
+  *  199df5a128 - icons: complete color-scalable SVG.
+  *  8a36b786bc - tools: post-process SVG objects with "color-important"
+    label.
+  *  5e25cdc713 - Issue #1708: g_free() called instead of
+    gdk_device_free_history().
+  *  4c68d5dfc9 - icons: update various icons to account for librsvg
+    bugs.
+  *  8811b0d916 - icons: fix many icons for proper recoloring.
+  *  627d58dce1 - Issue #1706 - Typo in gimpgradientselect.h include
+    guard
+  *  5d5bbeb88b - icons: force colors on some icons.
+  *  fd46018203 - icons: fix various symbolic icons not properly
+    recolored.
+  *  3a23dc3849 - Update Swedish translation
+  *  6af2a4997b - app: flush image after selecting colormap color
+  *  f335ef7b61 - app: argh!
+  *  7c3191fdd0 - app: fix signature of
+    gimp_gegl_procedure_get_sensitive()
+  *  63817485c0 - app: when a plug-in procedure is not sensitive, show
+    the reason in the tooltip
+  *  51793b114a - app: fix dashboard swap read/write variable order
+  *  558641fe6c - app: move the gradient editor color dialog code to
+    GimpGradientEditor
+  *  8a881ca61a - app: properly handle NULL rectangle arguments in gimp-
+    gegl-loops
+  *  02b6ff24da - app: make gimp_gradient_editor_update() private
+  *  5edc0306f9 - app: move the colormap editor color dialog code to
+    GimpColormapEditor
+  *  fda671841c - app: more fixes to last dashboard commit
+  *  1c1dd2038e - app: move the palette editor color dialog code to
+    GimpPaletteEditor
+  *  ab9f70d95c - app: a few fixes to last commit
+  *  6b9aba3067 - app: add swap read/write fields to the dashboard
+  *  993bbd354e - Issue #1682 - Segfault when starting GIMP, due to
+    empty data files
+  *  3301c06163 - app: add gimp_ascii_strtoi() and gimp_ascii_strotod()
+  *  e090b910c0 - app: add gimp_data_input_stream_read_line_always()
+  *  669127dbd6 - app, menus: add new menu item Debug -> Start
+    GtkInspector
+  *  52204b74b1 - app: should --amend my commits after I fix
+    something...
+  *  bf66882878 - app: protect windows-actions.c against adding/removing
+    a GdkDisplay twice
+  *  1ae2b5d573 - Issue #1093 - Color dialog appears in the first
+    monitor...
+  *  a04f2f3b3a - libgimpwidgets: remove unused variable in
+    GimpColorButton
+  *  60dfc45700 - libgimpwidgets: finish GimpColorScale undeprecation,
+    and lots of cleanup
+  *  335023b127 - app: make sure the color picker tool is halted when
+    closing display
+  *  7b54272a01 - app, themes: make the color tag button in item
+    properties smaller
+  *  a5afb04501 - icons: larger spacing between broken chains.
+  *  dc6ea0a977 - app: in the dashboard, fix statm file-descriptor
+    initialization
+  *  9832f7129e - app: make the dashboard scrollable
+  *  8d0766c1fc - app: add memory group to the dashboard
+  *  a58fe8963a - Issue #1678 - CWE-120 - Don't use strcpy()
+  *  2bb8afd119 - icons: fixing more icons.
+  *  4b6869dd67 - icons: fix various icons broken when recoloring with
+    CSS.
+  *  45f46db815 - icons: make gimp-tool-ellipse-select symmetric.
+  *  6c506509b6 - app: remove gimp_layer_mask_new_from_buffer() and some
+    includes
+  *  f815a2d922 - Issue #1677 - Alpha channel copy / Layer Mask issues
+  *  89776dbff5 - app: fix drawing the focus around the selected color
+    in GimpPaletteView
+  *  5ebc7909a3 - plug-ins: clean up pagecurl build, update .gitignore
+  *  1d9a8a91ab - plug-ins: add support for loading merged image data
+    from PSD files
+  *  38295dcb82 - Replace #include .c -> #include .h
+    glib_compile_resources generate .c as sources and .h as headers
+  *  fe648c87bd - libgimp: remove gimp_gamma()
+  *  8c9c091021 - Issue #701 - Add the ability to embed the GIMP built-
+    in sRGB profile...
+  *  e0f46d1dc9 - app: cleanup in GimpClipboard
+  *  9c8d2a6e89 - themes: make stuff in GimpTextStyleEditor smaller
+  *  5ee48e9ef3 - app: undeprecate GimpTextStyleEditor, and set a CSS
+    name for themeing
+  *  f18fcd468e - Issue #1240 - The drive or unc share you selected does
+    not exist...
+  *  3a0c03a61c - plug-ins: clearer plug-in-screenshot parameter
+    description.
+  *  6d8128e3e0 - app: fix filename in gimppropgui-recursive-transform.c
+    license notice
+  *  56d15e83e9 - app: merge back gegl:recursive-transform-plus propgui
+    to recursive-transform
+  *  d94b954c2a - Issue #1611 - plug-in-screenshot does not work in non-
+    interactive run mode
+  *  5a07876c78 - Issue #1668 -- Smudge Tool - Wrong colors when
+    painting on an image ...
+  *  eaddef595e - app: make sure crash-saving of open images to XCF
+    doesn't call the GUI
+  *  e58e2ec5dc - Issue #1668 - Smudge Tool - Wrong colors when painting
+    on an image ...
+  *  3c608c6ba7 - Update Polish translation
+  *  93d28ceccc - Isse #1476 - strange behavior in Layer resize dialog
+  *  697ff4b423 - app: show the added tab in gimp_dockbook_page_added()
+  *  552a60b8bf - app: some g_return_if_fail() were missing or non-
+    standard in GimpContext
+  *  f06d0485e6 - app: don't g_return_if_fail() in
+    gimp_device_info_set_device()
+  *  4260fa3e78 - app: some cleanup in GimpContext
+  *  ed1e2b1524 - Issue #1213 - Text Tool Preset does not restore font
+    face/name...
+  *  b3690b48d9 - app: add GIMP_CONTEXT_PROP_MASK_TOOL_PRESET to
+    GIMP_CONTEXT_PROP_MASK_ALL
+  *  0af3ae81ff - app: also search interpreters executable in $PATH.
+  *  15075932be - Fix Python files: * Prefer python2 to python that may
+    point on python3 on modern installs. * Fix indent/spaces
+    consistency.
+  *  3c6f789ca5 - plug-ins: recognize "python2" env to launch the python
+    interpreter.
+  *  42b13216fc - m4macros, plug-ins: run more accurately the "python2"
+    interpreter.
+  *  c0cc5abe36 - app: gimp_interpreter_db_add_extension() should check
+    $PATH if needed.
+  *  51a8ff9c37 - app: actually resolve the interpreter through
+    extension as last resort.
+  *  1516bfc14b - app: fix scaling around center in scale tool; avoid
+    negative width/height
+  *  6a3fc6c1b9 - app: clean up GimpTransformGridTool; adapt subclasses
+  *  02edd1c8eb - Specify utf-8 for rc file.
+  *  8feb51954b - Fix encoding. The world should be utf-8.
+  *  79d55e09e4 - Issue #248: Python console doesn't support
+    input()/raw_input().
+  *  276d9b60b3 - configure, tools: actually use GIMP_PKGCONFIG_VERSION
+    and...
+  *  10480ef7c6 - tools: gimptool should check gimp*-3.0 pkg-config
+    file.
+  *  58c96f596e - Issue #1624 - Crashes when using Scissor Select Tool
+  *  756fed0cc2 - Issue #1450 - Transform tools don't add an alpha
+    channel in 'None' interpolation
+  *  541f730f44 - plug-ins: use g_fopen(filename, "w+b")...
+  *  c93727e791 - plug-ins: use g_fopen(filename, "w+b") instead of
+    "wb+" to fix SGI format export on the Microsoft Windows platforms
+  *  d3a3c35317 - Issue #1646 - Transform preview looks wrong with
+    selection
+  *  e15733236c - Issue #1613 - foreground select tool raises a CRITICAL
+    when committing
+  *  47b7e7be7d - Issue #1602 - Numeric selection size wrong after
+    switching tools
+  *  aeeddb7241 - desktop: start a <release> tag for 2.10.4.
+  *  55977d8413 - Update Swedish translation
+  *  33d2595d22 - app: make GimpCursorView fit narrow docks
+  *  0aa018dec2 - Issue #1633 - Palette Editor is much too wide on GIMP
+    2.99
+  *  c16c68e63e - app: make sure image colormaps always have at least
+    one color
+  *  4117c98655 - plug-ins: add busy-dialog plug-in in plugin-defs.pl.
+  *  2713bc4285 - plug-ins: fix individual install targets of common
+    plug-ins.
+  *  035cef696a - Issue #1612: Symmetry Painting dock needs a design
+    tweak.
+  *  e7a1b162e6 - build: improve and simplify flatpak building script.
+  *  3096fd295a - icons: clean the symbolic vector file.
+  *  ffcd2a0366 - app: undeprecate GimpGradientEditor, fix scrolling and
+    drawing
+  *  5674e31850 - Generate icon resources where they are needed, and
+    don't include .c files
+  *  de5babe943 - app: move -u gimp_tool_cursors_get_resource to
+    gimp_LDFLAGS
+  *  db08271d16 - Issue #1634 - PNG image opens as a blank one in GIMP
+  *  c42baf6676 - themes: fix the toolbox button selector, remove
+    special style
+  *  8d66e7eaa1 - libgimpwidgets: improve
+    gimp_scroll_adjustment_values()
+  *  e490aa8393 - themes: make tool buttons great again
+  *  0555eb7329 - Update Dutch translation
+  *  007bc5d8ae - libgimpwidgets: pack the cells in GimpPageSelector's
+    icon view manually
+  *  625aa514f6 - plug-ins: pack the file-heif load dialog's icon view
+    cells manually
+  *  76b83bebbf - plug-ins: put file-heif's icon view into a scrolled
+    window
+  *  683f76b1a3 - plug-ins: don't use the deprecated
+    gtk_hscale_new_with_range()
+  *  afd4045866 - plug-ins: undeprecate file-heif but only as much as
+    can be merged to 2.10
+  *  1dee517bc9 - Issue #1627 - Non-existing item ID error when loading
+    multiple-image HEIFs
+  *  acddb8e2d3 - Updated Italian translation
+  *  8a01866af0 - Issue #1621 - Alpha incorrectly exported in PSD
+  *  d5fb349e1b - themes: make the buttons in tool dialog header bars
+    slightly larger again
+  *  a00945d8ed - app: increase opacity of GimpTextTool's overlay
+    widget, it was unreadable
+  *  03d470074f - themes: use the same smaller styling we use for docks
+    for tool dialogs
+  *  5a7925c5dc - app: set CSS names on GimpToolDialog and
+    GimpOverlayDialog
+  *  cc3bc015f4 - themes: tweak some more widgets in space-critical
+    places
+  *  4cdb579f29 - app: fix styling in GimpEditor, put back
+    GtkWidget::style_updated()
+  *  0c555efb7d - app: set a CSS name on GimpColorHistory so it can be
+    individually themed
+  *  e7fa71cb75 - app: GimpToolPreset:
+    s/GimpTransformOptions/GimpTransformGridOptions/
+  *  50911fedfe - app: if --verbose, make GimpDataFactory print each
+    loaded and saved data
+  *  428e7d17da - Update Polish translation
+  *  f997106fb2 - all: make GimpDataLoaderFactory less static
+  *  cea6f1dc73 - Bug 759194 - Unified Transform Tool fails when layer
+    is hidden
+  *  360b25b9a8 - app: don't allow transforming invisible layers in
+    flip/measure tools
+  *  ea6d997e56 - Issue #1607 - Fatal Crash on ACT Palette File Import
+  *  845a19b785 - app: code cleanup in the measure tool
+  *  b0cf2e435a - app: derive GimpMeasureTool from GimpTransformTool
+  *  1dbe765905 - app: add GimpTransformGridTool; derive most transform
+    tools from it
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 05 Aug 2018 08:24:53 +0300
+
+gimp-gtk3 (2.99.0+git41604-8d6f023b41-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: 8d6f023b41190375664fcfe79115e9d44200366d
+  * Date: 1528479869
+  * git changelog:
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 08 Jun 2018 23:06:24 +0300
+
+gimp-gtk3 (2.10.0+git41170-b12904c879-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: gtk3-port
+  * Commit: b12904c879a0f829bf557e80f88f07bacc97af85
+  * Date: 1526132170
+  * git changelog:
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 12 May 2018 19:56:59 +0300
+
+gimp-gtk3 (2.9.8+git40211-8b3a6bcf5c-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: gtk3-port
+  * Commit: 8b3a6bcf5cee06f97c2603f3b9736607520d0532
+  * Date: 1518443182
+  * git changelog:
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 19 Mar 2018 11:46:10 +0300
+
+gimp-gtk3 (2.9.4+git39060-3762480-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: gtk3-port
+  * Commit: 3762480587a798997bf9779a3c10ef0d62b3c165
+  * Date: 1499894564
+  * git changelog:
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 20 Jul 2017 21:12:36 +0300
+
+gimp-gtk3 (2.9.4+git38620-9e9feac-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: gtk3-port
+  * Commit: 9e9feac5e2ac4346bb9b23e375cf9da1c370f13f
+  * Date: 1494366706
+  * git changelog:
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 14 May 2017 22:59:33 +0300
+
+gimp-gtk3 (2.9.4+git38404-218d561-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: gtk3-port
+  * Commit: 218d561ff8fda28e3ef68a083ad3d48eaee38a2f
+  * Date: 1488729108
+  * git changelog:
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 11 Mar 2017 21:05:53 +0300
+
+gimp-gtk3 (2.9.4+git38308-940126d-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: gtk3-port
+  * Commit: 940126d7d9f98a903f56b069e94e5ca746904377
+  * Date: 1486913670
+  * git changelog:
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 18 Feb 2017 18:10:04 +0300
+
+gimp-gtk3 (2.9.4+git38018-456bc62-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: gtk3-port
+  * Commit: 456bc62de75207db66862dd4d6a2f07e5bd88c2e
+  * Date: 1483914274
+  * git changelog:
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 21 Jan 2017 20:54:34 +0300
+
+gimp-gtk3 (2.9.4+git37883-447e734-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.gnome.org/gimp
+  * Branch: gtk3-port
+  * Commit: 447e73415dafe1cf8c2981d9b5be871aab87f8dc
+  * Date: 1479232010
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 01 Dec 2016 21:19:21 +0300
+
+gimp-gtk3 (2.9.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #123456)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 07 Nov 2016 22:09:05 +0300
+</pre></div>
+</div></div>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                <a href="https://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+                &middot;
+                <a href="https://t.me/notesalexp" rel="alternate">Telegram channel</a>
+                <p> © Alexander Pozdnyakov, 2010–2018
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-101010045-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
+

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.0.0-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.0.0+git3299-b08624ac-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,10 +41,68 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in trusty of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.0.0-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.0.0+git3299-b08624ac-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://github.com/tesseract-ocr/tesseract.git
+  * Branch: master
+  * Commit: b08624acc0fa4896abe2cf0e7f8d4bf2a50fca42
+  * Date: 1542926822
+  * git changelog:
+  *  b08624ac - Reapply: Add sw build system script (future cppan
+    replacement).
+  *  19580b18 - Revert "Add sw build system script (future cppan
+    replacement)."
+  *  b1e20043 - Add sw build system script (future cppan replacement).
+  *  9b783822 - Remove unused include statements for tprintf.h
+  *  a93426c9 - Fix wrong results from function streamtofloat
+  *  acca4fb9 - Fix some unbound variables and other small issues in
+    training shell scripts
+  *  a4b03fbb - Fix warning from shellcheck
+  *  bfe58aa5 - Fix unbound variable $FONTS
+  *  92b88338 - fix(configure) Don't add rt on Android
+  *  0915cbd5 - Simplify shell script using mktemp
+  *  edb76e28 - Simplify MKTEMP_DT logic
+  *  dbfc89f9 - Fix mktemp in tesstrain_utils.sh
+  *  ff5347c4 - Fix memory leak in osd_test
+  *  5209aa6c - Fix memory leak in loadlang_test
+  *  74f6d0e7 - Fix memory leak in apiexample_test
+  *  303ac971 - Fix memory leaks and typos in progress_test
+  *  ce88adbf - fix issue #1192
+  *  fae47eb8 - Update test submodule
+  *  72495716 - fix typo in non VS build
+  *  eb104f9f - VS build: fix warning C4996: The POSIX name for this
+    item is deprecated. Instead, use the ISO C and C++ conformant name.
+  *  cdfb7680 - move langtests and unlvtests from tesseract-ocr
+    repository to test repository
+  *  cbef2ebe - implement patches vcpkg tesseract
+  *  7a7f2262 - ocrclass: Remove unused macros
+  *  2dd753ee - replace VS implementation of gettimeofday with
+    std::chrono::steady_clock::now(); fixes #2038
+  *  f4ec5bee - Remove dummy test
+  *  73cefff3 - Include LICENSE file in distribution
+  *  61848929 - Remove redundant file COPYING
+  *  ad30f52e - Dockerfile: Delete the apt-get lists after installing
+  *  0869fdfd - Dockerfile: Replace deprecated MAINTAINER by LABEL
+  *  439dfaaf - un-fix one of the warnings
+  *  30be5aaa - fix a couple minor compiler warnings
+  *  422d1ca2 - Uses CMAKE_CURRENT_ variables instead of PROJECT_
+  *  58328405 - Adjusts CMAKE_MODULE_PATH instead of the include()'s
+  *  a4cb790e - Reverts change on EXECUTABLE_OUTPUT_PATH
+  *  e87dc5b1 - Uses PROJECT_ variables instead of CMAKE_ variables so
+    it can be included using add_subdirectory
+  *  6f8bd340 - Remove chopper.h
+  *  286dfb03 - Remove unused include statements
+  *  2098bb6d - Remove unused function ComputeOrientation
+  *  cad6ebb5 - LIST: Remove old comments
+  *  2a2bc8af - Update README.md
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 24 Nov 2018 10:27:25 +0300
+
+tesseract (4.0.0-1) unstable; urgency=medium
 
   * New upstream release.
-  * moved sh scripts to usr/share/tesseract-ocr/
+  * moved sh scripts to usr/share/tesseract-ocr/ (closes: #913017)
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
   * Commit: 51316994ccae0b48692d547030f26c0969308214
@@ -55,7 +113,7 @@
     process
   *  125fdc3f - Add debug configuration for LSTM
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 29 Oct 2018 19:51:59 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 06 Nov 2018 19:51:59 +0300
 
 tesseract (4.00~git3241-1066f696-1) unstable; urgency=medium
 

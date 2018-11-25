@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>https://notesalexp.org/packages/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/</loc>
     </url>
     <url>
@@ -3217,6 +3220,12 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/aegisub-l10n/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/audacity/</loc>
     </url>
     <url>
@@ -3295,6 +3304,18 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/gimp-devel-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/gimp-gtk3/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/gimp-gtk3-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/gimp-gtk3-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/gimp-plugin-bimp/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/goaccess/</loc>
     </url>
     <url>
@@ -3352,6 +3373,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus-icons-nonfree/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus-l10n/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus-plugins/</loc>
     </url>
     <url>
@@ -3386,6 +3410,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/aegisub-l10n/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/audacity/</loc>
@@ -3466,6 +3496,18 @@
         <loc>https://notesalexp.org/packages/en/cosmic/i386/gimp-devel-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/gimp-gtk3/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/gimp-gtk3-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/gimp-gtk3-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/gimp-plugin-bimp/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/goaccess/</loc>
     </url>
     <url>
@@ -3521,6 +3563,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus-icons-nonfree/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus-l10n/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus-plugins/</loc>
@@ -6529,6 +6574,9 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/gimp-gtk3-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/gimp-plugin-bimp/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/gir1.2-libmypaint-2.0/</loc>
     </url>
     <url>
@@ -7340,6 +7388,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/gimp-gtk3-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/gimp-plugin-bimp/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/gir1.2-libmypaint-2.0/</loc>
