@@ -3232,6 +3232,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/audacity-data/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/azpainter/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/balsa/</loc>
     </url>
     <url>
@@ -3422,6 +3425,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/audacity-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/azpainter/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/balsa/</loc>
@@ -15086,6 +15092,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2018/11/10/20181110/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/11/25/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/11/25/20181125/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
