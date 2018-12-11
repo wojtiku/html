@@ -3325,6 +3325,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/goldendict/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/gscan2pdf/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/kvirc/</loc>
     </url>
     <url>
@@ -3361,10 +3364,16 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/libtesseract-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/libvacuumutils37/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/llpp/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/notesalexp-keyring/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/ocrfeeder/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus/</loc>
@@ -3410,6 +3419,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/tesseract-ocr-all/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/vacuum/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/vacuum-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/</loc>
@@ -3520,6 +3535,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/i386/goldendict/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/gscan2pdf/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/kvirc/</loc>
     </url>
     <url>
@@ -3556,10 +3574,16 @@
         <loc>https://notesalexp.org/packages/en/cosmic/i386/libtesseract-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/libvacuumutils37/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/llpp/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/notesalexp-keyring/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/ocrfeeder/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus/</loc>
@@ -3605,6 +3629,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/tesseract-ocr-all/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/vacuum/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/vacuum-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/</loc>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.0.0+git3299-b08624ac-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.0.0+git3340-5b65982f-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,46 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in stretch of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.0.0+git3299-b08624ac-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.0.0+git3340-5b65982f-1) unstable; urgency=medium
 
   * Compile
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: b08624acc0fa4896abe2cf0e7f8d4bf2a50fca42
-  * Date: 1542926822
+  * Commit: 5b65982fa409ec8070ed13a8ae100c94eec84bce
+  * Date: 1544288855
   * git changelog:
+  *  81ab302d - FPRow: Remove three unused methods
+  *  404f9cd1 - SimpleStats: Remove unused method
+  *  2c044df9 - Fix wrong x_fsize in hOCR output (regression)
+  *  2ccc5810 - Add check whether compiler supports -march=native flag
+  *  c9e85ab7 - Fix wrong font attributes in hOCR output
+  *  0bdae8f8 - GENERIC_2D_ARRAY: Fix runtime error in assignment
+    operator
+  *  f0a4d041 - Add config variable for selection of dot product
+    function
+  *  1910b1a7 - SIMDDetect: Use tesseract namespace and format code
+  *  66d3275d - IntSimdMatrixSSE: Remove unused include statement and
+    simplify code
+  *  048eb349 - Add missing static attribute to local inline functions
+  *  b73370aa - Remove unneeded test for nullptr
+  *  e2419b19 - Fix potential crash in tprintf
+  *  6b6d9de4 - Fix potential crash in STRING class
+  *  59fb3370 - Use -ffast-math for calculation of dot product
+  *  fda3ba90 - IntSimdMatrixSSE: Fix comment
+  *  c59c45fb - Fix Amharic font list
+  *  57d0ae06 - Use Python3 for LGTM
+  *  b148644c - Make Python script executable
+  *  ed48b2a8 - Format new ALTO code with clang-format
+  *  e817d93e - Add configuration file for ALTO to installation
+  *  d7cee03a - Add support for ALTO output
+  *  3c047f0a - Optimize performance by using inline function DotProduct
+  *  e161501d - Optimize performance by using inline
+    MatrixDotVectorInternal
+  *  685b136d - Fix incorrect condition.
+  *  0223abcb - Add example in README.md
+  *  8aa25239 - Fix some of Codacy's complaints
+  *  9122e624 - Autoreformat code
+  *  d9ae7ecc - Pythonize tesstrain.sh -> tesstrain.py
   *  b08624ac - Reapply: Add sw build system script (future cppan
     replacement).
   *  19580b18 - Revert "Add sw build system script (future cppan
@@ -97,7 +129,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 24 Nov 2018 10:27:25 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 10 Dec 2018 12:32:45 +0300
 
 tesseract (4.0.0-1) unstable; urgency=medium
 

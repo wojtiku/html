@@ -5,35 +5,49 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://notesalexp.org/html/</loc>
-<lastmod>2018-11-25T20:04:03-00:00</lastmod>
+<lastmod>2018-12-11T17:49:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://notesalexp.org/html/</loc>
-<lastmod>2018-11-25T20:04:03-00:00</lastmod>
+<lastmod>2018-12-11T17:49:47-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://notesalexp.org/html/update.html</loc>
-<lastmod>2018-11-25T20:04:03-00:00</lastmod>
+<lastmod>2018-12-11T17:49:47-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://notesalexp.org/html/faq.html</loc>
-<lastmod>2018-11-25T20:04:03-00:00</lastmod>
+<lastmod>2018-12-11T17:49:47-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://notesalexp.org/html/donate.html</loc>
-<lastmod>2018-11-25T20:04:03-00:00</lastmod>
+<lastmod>2018-12-11T17:49:47-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://notesalexp.org/html/2018/12/11/20181211/</loc>
+<lastmod>2018-12-11T17:49:00+03:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://notesalexp.org/html/2018/11/29/20181129/</loc>
+<lastmod>2018-11-29T22:57:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -221,55 +235,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://notesalexp.org/html/2017/12/31/20171231/</loc>
-<lastmod>2017-12-31T16:01:00+03:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://notesalexp.org/html/2017/12/20/20171220/</loc>
-<lastmod>2017-12-20T22:25:00+03:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://notesalexp.org/html/2017/12/07/20171207/</loc>
-<lastmod>2017-12-07T22:26:00+03:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://notesalexp.org/html/2017/11/18/20171118/</loc>
-<lastmod>2017-11-18T22:47:00+03:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://notesalexp.org/html/2017/11/05/20171105/</loc>
-<lastmod>2017-11-05T18:49:00+03:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://notesalexp.org/html/2017/10/20/20171020/</loc>
-<lastmod>2017-10-20T23:10:00+03:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://notesalexp.org/html/2017/10/08/20171008/</loc>
-<lastmod>2017-10-08T20:26:00+03:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://notesalexp.org/html/2017/09/23/20170923/</loc>
 <lastmod>2017-09-23T14:07:00+03:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -306,7 +271,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://notesalexp.org/html/category/repozitorii</loc>
-<lastmod>2018-11-25T20:03:00+02:30</lastmod>
+<lastmod>2018-12-11T17:49:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -320,21 +285,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://notesalexp.org/html/tag/deb</loc>
-<lastmod>2018-11-25T20:03:00+02:30</lastmod>
+<lastmod>2018-12-11T17:49:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://notesalexp.org/html/tag/reps</loc>
-<lastmod>2018-11-25T20:03:00+02:30</lastmod>
+<lastmod>2018-12-11T17:49:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://notesalexp.org/html/tag/update</loc>
-<lastmod>2018-11-25T20:03:00+02:30</lastmod>
+<lastmod>2018-12-11T17:49:00+02:30</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
