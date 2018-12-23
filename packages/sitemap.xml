@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://notesalexp.org/packages/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/</loc>
     </url>
     <url>
@@ -1798,9 +1795,6 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/libvacuumutils37/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/amd64/linuxdcpp/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/llpp/</loc>
     </url>
     <url>
@@ -2608,9 +2602,6 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/libvacuumutils37/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/buster/i386/linuxdcpp/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/llpp/</loc>
     </url>
     <url>
@@ -3370,10 +3361,16 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/llpp/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/myrulib/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/notesalexp-keyring/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus/</loc>
@@ -3419,6 +3416,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/tesseract-ocr-all/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/uget/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/vacuum/</loc>
@@ -3580,10 +3580,16 @@
         <loc>https://notesalexp.org/packages/en/cosmic/i386/llpp/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/myrulib/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/notesalexp-keyring/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus/</loc>
@@ -3629,6 +3635,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/tesseract-ocr-all/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/uget/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/vacuum/</loc>
@@ -14887,57 +14896,6 @@
         <loc>https://notesalexp.org/html/2017/09/23/20170923/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/html/2017/10/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/10/08/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/10/08/20171008/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/10/20/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/10/20/20171020/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/11/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/11/05/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/11/05/20171105/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/11/18/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/11/18/20171118/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/12/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/12/07/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/12/07/20171207/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/12/20/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/12/20/20171220/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/12/31/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/html/2017/12/31/20171231/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/html/2018/</loc>
     </url>
     <url>
@@ -15128,6 +15086,21 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2018/11/25/20181125/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/11/29/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/11/29/20181129/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/12/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/12/11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/12/11/20181211/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>

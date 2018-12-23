@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract4_4.0.0+git3340-5b65982f-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract4_4.0.0+git3360-e3a39c35-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,32 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract4 in sid of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.0.0+git3340-5b65982f-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.0.0+git3360-e3a39c35-1) unstable; urgency=medium
 
   * Compile
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: 5b65982fa409ec8070ed13a8ae100c94eec84bce
-  * Date: 1544288855
+  * Commit: e3a39c3577f24cf3ede3aea948abcfb1f9297b1e
+  * Date: 1545147236
   * git changelog:
+  *  e3a39c35 - Revert "Switch windows builds to SW."
+  *  0967a324 - Switch windows builds to SW.
+  *  db9c7e03 - Use std::stringstream to generate hOCR output
+  *  c7e8d302 - Fix value for PHYSICAL_IMG_NR in ALTO output
+  *  fda0fa4e - Add new hocrrenderer.cpp to CMakeList.txt and Android.mk
+  *  457c5302 - Fix indentation of hOCR output
+  *  5de3fc47 - Format code in new file hocrrenderer.cpp
+  *  48713f7d - Move code for hOCR renderer to new file
+  *  e398601b - Include ALTO in list of supported output formats
+  *  1f5fb15a - remove setting constant resolution from
+    ImageThresholder::SetImage. Credible resolution with be set
+    afterward. Fixes #2080.
+  *  b8c4f1b9 - protos: Remove unused config variable
+  *  f35eeb3b - protos: Remove several unused macros, functions and
+    global variables
+  *  fbbbdb45 - Use std::stringstream to generate ALTO output and add
+    <SP> element
+  *  7ebd3153 - Fix several typos (most of them found by codespell)
   *  81ab302d - FPRow: Remove three unused methods
   *  404f9cd1 - SimpleStats: Remove unused method
   *  2c044df9 - Fix wrong x_fsize in hOCR output (regression)
@@ -129,7 +147,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 10 Dec 2018 12:32:45 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 21 Dec 2018 18:27:19 +0300
 
 tesseract (4.0.0-1) unstable; urgency=medium
 
