@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>https://notesalexp.org/packages/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/</loc>
     </url>
     <url>
@@ -15101,6 +15104,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2018/12/11/20181211/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/12/23/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2018/12/23/20181223/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>

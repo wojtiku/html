@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract4_4.0.0+git3360-e3a39c35-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract4_4.0.0+git3375-0aca6090-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,28 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract4 in jessie of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.0.0+git3360-e3a39c35-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.0.0+git3375-0aca6090-1) unstable; urgency=medium
 
   * Compile
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: e3a39c3577f24cf3ede3aea948abcfb1f9297b1e
-  * Date: 1545147236
+  * Commit: 0aca60906d4ce9d22c3ed1161f285b778656d063
+  * Date: 1546418743
   * git changelog:
+  *  91af0102 - Fix compiler warning
+  *  5dd606c6 - Replace NULL by nullptr
+  *  5f96ac1a - Update cmake compiler flags for new simdetect.cpp
+  *  d9600cd8 - Fix and simplify SIMD tests
+  *  d3065520 - fix 2 clang warnings
+  *  cb049133 - Fix compiler warning
+  *  b9a34d74 - add support for clang on windows (cmake&ninja)
+  *  3e6ec97a - Remove altorenderer.cpp from resource compiling (already
+    included in tesseract_src)
+  *  8885fe2c - provide info about compiled openmp version
+  *  993e56ff - Don't try to create text output if other renderers
+    failed (fix regression)
+  *  cc997b53 - add  missing the implementation for
+    TessBaseAPIGetAltoText method in C-API
   *  e3a39c35 - Revert "Switch windows builds to SW."
   *  0967a324 - Switch windows builds to SW.
   *  db9c7e03 - Use std::stringstream to generate hOCR output
@@ -147,7 +161,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 21 Dec 2018 18:27:19 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 02 Jan 2019 17:25:19 +0300
 
 tesseract (4.0.0-1) unstable; urgency=medium
 

@@ -477,10 +477,10 @@
     },
     "kvirc": 
     {
-      "version": "4:5.0.0~git-7366-84fbb9458-1",
+      "version": "4:5.0.0+git-7370-6bddd4482-1",
       "description": " Next generation IRC client with module support",
       "sourceurl": "https://notesalexp.org/source/main/k/kvirc",
-      "sourcefile": "kvirc_5.0.0~git-7366-84fbb9458-1.debian.tar.xz kvirc_5.0.0~git-7366-84fbb9458-1.dsc kvirc_5.0.0~git-7366-84fbb9458.orig.tar.xz ",
+      "sourcefile": "kvirc_5.0.0+git-7370-6bddd4482-1.debian.tar.xz kvirc_5.0.0+git-7370-6bddd4482-1.dsc kvirc_5.0.0+git-7370-6bddd4482.orig.tar.xz ",
       "homepage": "http://www.kvirc.de/",
       "depends": "debhelper(>=9) cmake(>=3.1) libperl-dev zlib1g-dev libx11-dev libxrender-dev libssl-dev qtbase5-dev qttools5-dev-tools libqt5x11extras5-dev libphonon4qt5-dev qttools5-dev libqt5svg5-dev qtmultimedia5-dev libqt5webkit5-dev libphonon4qt5experimental-dev pkg-config libxss-dev python-dev libenchant-dev ",
       "binary": "kvirc libkvilib5 kvirc-modules kvirc-data ",
@@ -488,7 +488,7 @@
       "description_libkvilib5": "KVIrc (IRC client) base library",
       "description_kvircmodules": "KVIrc (IRC client) modules",
       "description_kvircdata": "Data files for KVIrc",
-      "md5": " 8ff685730ae9462b63c1210f098aaf24 0b1a719a1e6fabc50d36c9315bdfa990 8b0a2defc56857d4779814dc600486f6",
+      "md5": " 2ae4929c284896066f56e8b4bf3b8789 bbb61636d6c25fdb045fb3311e1e8a4e e5961fc30ab9816a7afdafc1d0f9dcf2",
       "size": " 28_KiB  4_KiB  3.44_MiB "
     },
     "leptonlib": 
@@ -877,16 +877,16 @@
     },
     "smplayer": 
     {
-      "version": "18.10.0+svn9177-1",
+      "version": "18.10.0+svn9177-2",
       "description": " Complete front-end for MPlayer, MPlayer2 and mpv",
       "sourceurl": "https://notesalexp.org/source/main/s/smplayer",
-      "sourcefile": "smplayer_18.10.0+svn9177-1.debian.tar.xz smplayer_18.10.0+svn9177-1.dsc smplayer_18.10.0+svn9177.orig.tar.xz ",
+      "sourcefile": "smplayer_18.10.0+svn9177-2.debian.tar.xz smplayer_18.10.0+svn9177-2.dsc smplayer_18.10.0+svn9177.orig.tar.xz ",
       "homepage": "http://smplayer.sourceforge.net/",
       "depends": "debhelper(>=9) libqt4-dev zlib1g-dev subversion ",
       "binary": "smplayer smplayer-l10n ",
-      "description_smplayer": "Complete front-end for MPlayer, MPlayer2 and mpv",
-      "description_smplayerl10n": "Complete front-end for MPlayer, MPlayer2 and mpv - translation files",
-      "md5": " 8c000090103e86ac10ec19907f054258 f43aba6a0442e85094e2c568c1efb63b e8f64252e7e223456adfb3825adbb16e",
+      "description_smplayer": "Complete front-end for MPlayer and mpv",
+      "description_smplayerl10n": "Complete front-end for MPlayer and mpv - translation files",
+      "md5": " 121935ad808c6d3c69512b8620bb505d f68993f773f2da6d091579f3b1c52920 e8f64252e7e223456adfb3825adbb16e",
       "size": " 12_KiB  4_KiB  3.96_MiB "
     },
     "solvespace": 
@@ -919,10 +919,10 @@
     },
     "tesseract": 
     {
-      "version": "4.0.0+git3360-e3a39c35-1",
+      "version": "4.0.0+git3375-0aca6090-1",
       "description": " Open Source OCR Engine",
       "sourceurl": "https://notesalexp.org/source/main/t/tesseract",
-      "sourcefile": "tesseract_4.0.0+git3360-e3a39c35-1.debian.tar.xz tesseract_4.0.0+git3360-e3a39c35-1.dsc tesseract_4.0.0+git3360-e3a39c35.orig.tar.xz ",
+      "sourcefile": "tesseract_4.0.0+git3375-0aca6090-1.debian.tar.xz tesseract_4.0.0+git3375-0aca6090-1.dsc tesseract_4.0.0+git3375-0aca6090.orig.tar.xz ",
       "homepage": "https://github.com/tesseract-ocr/",
       "depends": "debhelper(>=9) libleptonica-dev(>=1.75.3) automake libtool libpango1.0-dev libcairo2-dev libicu-dev libpng-dev libjpeg-dev libtiff-dev zlib1g-dev git autoconf-archive asciidoc xsltproc docbook-xsl docbook-xml tesseract-ocr-eng(>=4.00~) ",
       "binary": "tesseract-ocr libtesseract-dev libtesseract4 tesseract-ocr-all ",
@@ -930,8 +930,8 @@
       "description_libtesseractdev": "Development files for the tesseract command line OCR tool",
       "description_libtesseract4": "Tesseract OCR library",
       "description_tesseractocrall": "Tesseract OCR with all language and script packages",
-      "md5": " 6edd7aed72ad1e17eb362ae3497c4c84 d8fb622578be79f67269a5a6fdecae20 e042029c00bc593a482db40f6fecb764",
-      "size": " 40_KiB  4_KiB  8.55_MiB "
+      "md5": " 06aa5847d299ecbb79fb2e4ff167d95e 1a5ace613b1da56347fd1f19f70e7548 d4aa8f364fa53de775551cdcb67d424b",
+      "size": " 40_KiB  4_KiB  10.10_MiB "
     },
     "tesseractlang": 
     {
