@@ -40,14 +40,26 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of source tesseract </h5>
-<div class="highlight"><pre><span></span>tesseract (4.0.0+git3375-0aca6090-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.0.0+git3391-c39a95ca-1) unstable; urgency=medium
 
   * Compile
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: 0aca60906d4ce9d22c3ed1161f285b778656d063
-  * Date: 1546418743
+  * Commit: c39a95ca573c7429035a4201de81e6ce1b3ad4f4
+  * Date: 1546793219
   * git changelog:
+  *  c39a95ca - try to fix appveyor
+  *  bd1c05c1 - remove old line
+  *  c41a80f1 - respect cmake -DCPPAN_BUILD=OFF
+  *  595bb7df - OpenCL: Remove unused code
+  *  b8de0643 - Ensure baseapi.h header is used by commontraining.h
+    regardless of autotools usage
+  *  cd34ee55 - Add necessary intproto.h header to protos.cpp
+  *  ff2535f8 - Avoid linking pthread on Android
+  *  62b635a7 - Remove unused functions from cluster.cpp
+  *  f76d8a14 - Remove unused code from oldlist
+  *  7719f801 - Add missing std namespace in tensorflow code
+  *  8a6fa452 - Fix build for architectures without CPUID
   *  91af0102 - Fix compiler warning
   *  5dd606c6 - Replace NULL by nullptr
   *  5f96ac1a - Update cmake compiler flags for new simdetect.cpp
@@ -160,7 +172,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 02 Jan 2019 17:25:19 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 06 Jan 2019 22:58:14 +0300
 
 tesseract (4.0.0-1) unstable; urgency=medium
 
@@ -2849,7 +2861,7 @@ tesseract (3.0+svn504-1) unstable; urgency=low
                 <a href="https://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
                 &middot;
                 <a href="https://t.me/notesalexp" rel="alternate">Telegram channel</a>
-                <p> © Alexander Pozdnyakov, 2010–2018
+                <p> © Alexander Pozdnyakov, 2010–2019
             </footer>
         </div>
         <div class="clear"></div>

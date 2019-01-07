@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package kvirc-data_5.0.0+git-7370-6bddd4482-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package kvirc-data_5.0.0+git-7407-8a8cb2a00-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,20 +41,54 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package kvirc-data in sid of architecture i386</h5>
-<div class="highlight"><pre><span></span>kvirc (4:5.0.0+git-7370-6bddd4482-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>kvirc (4:5.0.0+git-7407-8a8cb2a00-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/kvirc/KVIrc.git
   * Branch: master
-  * Commit: 6bddd448242c4e3a3ba10c20898ed802e3c8f12e
-  * Date: 1546386494
+  * Commit: 8a8cb2a0044377dda8bef3d9b130e93dca3f957e
+  * Date: 1546637264
   * git changelog:
+  *  8a8cb2a00 - Add missing override keywords
+  *  77f4a2b34 - KviToolBar: Adjust std::array style for Travis + clang
+    issue
+  *  546b69f40 - Revert "travis: revert clang upgrade and do gcc
+    instead"
+  *  27e1638f8 - travis: and another one
+  *  a4b899088 - travis: fix syntax
+  *  bb94db224 - travis: add more keyservers and remove CC setting
+  *  823203faa - travis: revert clang upgrade and do gcc instead
+  *  83b4e160b - travis: upgrade to a newer clang
+  *  fd1afd017 - KviTalIconAndRichTextItemDelegate: Fix missing override
+  *  7cc076f3a - Bump CMake requirements to 3.8, which supports C++17
+  *  c44eb5e81 - KviMainWindow: Update code
+  *  09c5fbdc5 - KviToolBar: Update code
+  *  ab729a1f6 - KviTextIconWindow: Update code
   *  6bddd4482 - Add release note to README
   *  a33d619d6 - travis: different key server format
   *  6b20ee0f4 - fix copy pasta
+  *  f1d64eb03 - travis: use ha.pool.sks-keyservers.net instead
   *  e7a4a6a49 - travis: install rvm keys in a different way
+  *  6df26cc53 - KviMenuBar: Update code
+  *  e7b130c2e - try gcc7
+  *  70635827d - fix gpg command and use both keys
+  *  42ec5daa8 - verify rvm key in a different way
+  *  a9a505c30 - install gpg2 on macOS
+  *  67e52720c - build_debian: small fix
+  *  ef02cd682 - build_debian: add option CMAKE_VERBOSE_MAKEFILE=False
+  *  9385a950a - Revert "build_debian: debuild stdout and stderr to
+    /dev/null"
+  *  20e1ae1eb - build_debian: debuild stdout and stderr to /dev/null
+  *  2538fd61e - build_debian: disable dh_verbose
+  *  9894dc96f - build_debian: add option preserve-env and prepend-path
+    when building in travis
+  *  180241f96 - build_debian: shellcheck fix
+  *  c9a9e3c77 - build_debian: fix regex
+  *  5f8e86de5 - update debian rules
+  *  c736c7e3b - update travis dist to precise and remove manual cmake
+    upgrade
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 02 Jan 2019 16:11:10 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 05 Jan 2019 10:09:30 +0300
 
 kvirc (4:5.0.0~git-7366-84fbb9458-1) unstable; urgency=medium
 
@@ -1543,7 +1577,7 @@ kvirc (4.0.0~svn3759-1) unstable; urgency=low
                 <a href="https://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
                 &middot;
                 <a href="https://t.me/notesalexp" rel="alternate">Telegram channel</a>
-                <p> © Alexander Pozdnyakov, 2010–2018
+                <p> © Alexander Pozdnyakov, 2010–2019
             </footer>
         </div>
         <div class="clear"></div>

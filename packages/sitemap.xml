@@ -3400,6 +3400,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus-webkit/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/q4wine/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/qcad/</loc>
     </url>
     <url>
@@ -3617,6 +3620,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus-webkit/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/q4wine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/qcad/</loc>
