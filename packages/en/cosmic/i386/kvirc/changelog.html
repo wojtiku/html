@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package kvirc_5.0.0+git-7407-8a8cb2a00-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package kvirc_5.0.0+git-7415-9403b352e-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,30 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package kvirc in cosmic of architecture i386</h5>
-<div class="highlight"><pre><span></span>kvirc (4:5.0.0+git-7407-8a8cb2a00-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>kvirc (4:5.0.0+git-7415-9403b352e-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/kvirc/KVIrc.git
+  * Branch: master
+  * Commit: 9403b352edf76eda168203b0a514773ad4c8e1b0
+  * Date: 1547671214
+  * git changelog:
+  *  9403b352e - KviControlCodes.cpp: Remove %16 when parsing colors
+  *  2c9ba2643 - Replace KVI_OPTION_MIRCCOLOR usage with getMircColor
+  *  0b1ea8aa9 - KviOptions.h: Add getMircColor
+  *  b00d45dfa - Add KviControlCodes::getExtendedColor
+  *  cb39c91a4 - KviOptions.h: Shift KVI_COLOR_EXT_USER_* up by 100
+  *  30be9006a - KviOptions.h: Define KVI_NUM_MIRCCOLOR_OPTIONS on top
+    of KVI_MIRCCOLOR_MAX
+  *  dc4d899e7 - Unify KVI_MIRCCOLOR_MAX_FOREGROUND/_BACKGROUND into a
+    single constant
+  *  290ac558f - update nsis plugin, remove pre-windows-7 version
+    detection and add some new ones appveyor part mostly refs #2418 for
+    build cache invalidation, update isn't really needed
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 18 Jan 2019 23:33:20 +0300
+
+kvirc (4:5.0.0+git-7407-8a8cb2a00-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/kvirc/KVIrc.git
@@ -65,30 +88,22 @@
   *  09c5fbdc5 - KviToolBar: Update code
   *  ab729a1f6 - KviTextIconWindow: Update code
   *  6bddd4482 - Add release note to README
-  *  a33d619d6 - travis: different key server format
-  *  6b20ee0f4 - fix copy pasta
-  *  f1d64eb03 - travis: use ha.pool.sks-keyservers.net instead
-  *  e7a4a6a49 - travis: install rvm keys in a different way
-  *  6df26cc53 - KviMenuBar: Update code
-  *  e7b130c2e - try gcc7
-  *  70635827d - fix gpg command and use both keys
-  *  42ec5daa8 - verify rvm key in a different way
-  *  a9a505c30 - install gpg2 on macOS
-  *  67e52720c - build_debian: small fix
-  *  ef02cd682 - build_debian: add option CMAKE_VERBOSE_MAKEFILE=False
-  *  9385a950a - Revert "build_debian: debuild stdout and stderr to
-    /dev/null"
-  *  20e1ae1eb - build_debian: debuild stdout and stderr to /dev/null
-  *  2538fd61e - build_debian: disable dh_verbose
-  *  9894dc96f - build_debian: add option preserve-env and prepend-path
-    when building in travis
-  *  180241f96 - build_debian: shellcheck fix
-  *  c9a9e3c77 - build_debian: fix regex
-  *  5f8e86de5 - update debian rules
-  *  c736c7e3b - update travis dist to precise and remove manual cmake
-    upgrade
 
  -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 05 Jan 2019 10:09:30 +0300
+
+kvirc (4:5.0.0-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/kvirc/KVIrc.git
+  * Branch: master
+  * Commit: 6bddd448242c4e3a3ba10c20898ed802e3c8f12e
+  * Date: 1546386494
+  * git changelog:
+  *  a33d619d6 - travis: different key server format
+  *  6b20ee0f4 - fix copy pasta
+  *  e7a4a6a49 - travis: install rvm keys in a different way
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 02 Jan 2019 11:57:22 +0300
 
 kvirc (4:5.0.0~git-7366-84fbb9458-1) unstable; urgency=medium
 
