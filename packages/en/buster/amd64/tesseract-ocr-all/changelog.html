@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.0.0+git3391-c39a95ca-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.0.0+git3515-9bcfa90c-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,118 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in buster of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.0.0+git3391-c39a95ca-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.0.0+git3515-9bcfa90c-1) unstable; urgency=medium
 
   * Compile
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: c39a95ca573c7429035a4201de81e6ce1b3ad4f4
-  * Date: 1546793219
+  * Commit: 9bcfa90c59cb799ce8007361ec4f79c4e891a7eb
+  * Date: 1549129180
   * git changelog:
+  *  32af6be4 - disable some subtests in resultiterator_test
+  *  ad223296 - use --xsize instead of --x_size
+  *  31c48a04 - fix travis
+  *  39ed30ad - Fix build rule for manpages
+  *  0e090cd2 - fix typo
+  *  114bc501 - improve cmake configuration
+  *  2106cba0 - Use universal location for docbook.xsl
+  *  66da4df1 - configure: Remove header check for ICU
+  *  7be04342 - Fix typo
+  *  b4980676 - Fix AVX2 support for Windows builds with MSC
+  *  fc55b587 - use AVX2 SSE for cmake&clang on Windows
+  *  fd881e44 - fix cmake PACKAGE_VERSION to behave same way as in
+    autotools
+  *  394839cd - Fix cmake compiler flags for AVX/SSE support
+  *  b60321e6 - Update test submodule
+  *  4d9bc11f - add --xsize as parameter for tesstrain
+  *  1ac76d88 - Partially fix and enable more unittests Add more
+    subtests to langmodel_test
+  *  eaf5deb6 - Disable ligature related subtest in stringrenderer
+  *  8f87ebb4 - Update test submodule
+  *  14d5547b - Update test submodule
+  *  b30e92fb - turn off openmp build for cmake (issue #263)
+  *  51604dd1 - Disable ligature related subtest in stringrenderer
+  *  dbb12d6f - more updates to lstm related unittests
+  *  86b0f362 - unittest: Skip test is traineddata is missing in
+    applybox_test
+  *  36906064 - Add LF to INFO msgs in lstm_test
+  *  87a4fbac - Update test submodule
+  *  14086af4 - unittest: Add missing Leptonica library for
+    stringrenderer_test
+  *  6b7f7db6 - Fix and enable shapetable_test
+  *  bbd23bbf - Fix and enable lstm related unittests (#2180)
+  *  9e6e3a02 - Fix memory leak for PNG images
+  *  1a398a5b - removed reference to unbound variable
+  *  daf61f75 - automake: Add missing dependency for "check" target (fix
+    parallel build)
+  *  ecf73f5b - training: Don't terminate after processing 8 fonts or 8
+    images
+  *  32e9d7c8 - training: Fix some compiler warnings (signed/unsigned)
+  *  e4b862d5 - pango_font_info: Fix runtime error messages from Pango
+  *  4b24d8cd - Fix and enable stringrenderer_test
+  *  a6da6423 - unittest: Fix and enable validate_myanmar_test
+  *  d67287a5 - unittest: Fix and enable validate_khmer_test
+  *  611d5e63 - unittest: Fix and enable validate_indic_test
+  *  d97f67da - unittest: Fix and enable validate_grapheme_test
+  *  a702f2d2 - unittest: Replace ABSL_ARRAYSIZE by ARRAYSIZE
+  *  77d0b6ce - fix WORDLIST filename
+  *  2c0ddb42 - Update file paths in dawg_test
+  *  57f74d2b - Fix file location for unicharset for mastertrainer_test
+  *  0ee4f630 - Formatting LOG messages from layout_test
+  *  4edc61fd - unittest: Add missing license headers for dawg_test and
+    layout_test
+  *  05cdbc7c - Fix and enable dawg_test
+  *  aec992eb - Update test submmodule and enable additional test in
+    layout_test
+  *  4b821b2c - Fix and enable layout_test
+  *  0d6d8108 - Add sources for layout_test and dawg_test to Makefile
+  *  0f0eaa9f - Partial fix for layout_test and dawg_test
+  *  564482db - Fix selection of IntSimdMatrix method
+  *  277457ff - Update appveyor.yml
+  *  0ae8fdc8 - Fix build for unicharcompress_test
+  *  66e31bfd - OpenCL: Fix alloc-dealloc mismatch
+  *  ad19183b - OpenCL: Fix heap buffer overflow
+  *  e67ad46f - fix typo
+  *  9e599e1e - Partial fix for unicharcompress_test
+  *  9b2bf103 - Fix build for unichar_test
+  *  20ed60b3 - Fix unicharset_test
+  *  db3ed5d6 - Run travis builds without cppan.
+  *  a1ec977f - Revert "Fix broken builds"
+  *  0c5f8194 - Fix broken builds
+  *  226694aa - Update appveyor.yml
+  *  3c52bccc - Update appveyor.yml
+  *  26e130a9 - Update appveyor.yml
+  *  771d5ebb - Update appveyor.yml
+  *  23b80367 - Update .travis.yml
+  *  3749d16e - Update appveyor.yml
+  *  27d6e9d3 - Fix sw build.
+  *  502bb624 - More optimisations for IntSimdMatrix
+  *  95606398 - Clean code for IntSimdMatrix
+  *  7fc7d28d - Compile files for AVX, AVX2 or SSE only when needed
+  *  a9a1035e - Move IntSimdMatrixNative from IntSimdMatrix to unittest
+  *  d36231e3 - Set best or user selected IntSimdMatrix
+  *  605b4d66 - Replace dynamically allocated IntSimdMatrix instances by
+    constants
+  *  26be7c5d - Use constructor with parameters for IntSimdMatrix
+  *  e237a384 - Add const attributes to IntSimMatrix multiplier
+  *  7c701477 - Move shaped weights from IntSimMatrix to WeightMatrix
+  *  ea4d0d35 - Format comment
+  *  c79d613b - Replace ASSERT_HOST by assert
+  *  c4de29d1 - unittest: Allow more time for apiexample_test when using
+    a debug build
+  *  e6775163 - unittest: Fix comment
+  *  a5283f29 - Add test for the C++ implementation of MatrixDotVector
+  *  9adf6e44 - Revert 59fb3370bbf36cf8db6b7aae557fe6fd5e297bf3 (-ffast-
+    math)
+  *  5d3d2512 - Fix build for unittest
+  *  ebbf907c - Fix typo in hocr character box output
+  *  4ce797b6 - Fix hocr character box info to use new hocr renderer
+    correctly
+  *  a0e6586e - Fix documentation for page segmentation mode 2
+  *  0fae848b - OpenCL: Add comments to users of openclwrapper.h
+  *  e0fc4f29 - Remove opencl_device_selection.h
+  *  62b85755 - [sw] Depend on leptonica-master.
+  *  7732f65b - Activate sw builds.
   *  c39a95ca - try to fix appveyor
   *  bd1c05c1 - remove old line
   *  c41a80f1 - respect cmake -DCPPAN_BUILD=OFF
@@ -173,7 +277,14 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 06 Jan 2019 22:58:14 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 02 Feb 2019 21:44:35 +0300
+
+tesseract (4.0.0-2) unstable; urgency=medium
+
+  * Honour DEB_BUILD_OPTIONS=nocheck. (Closes: #919810)
+  * Bump Standards-Version to 4.3.0
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 21 Jan 2019 19:40:07 +0300
 
 tesseract (4.0.0-1) unstable; urgency=medium
 

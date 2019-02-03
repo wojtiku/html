@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package deadbeef_0.7.2+git7963-52eac347-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package deadbeef_0.7.2+git8252-e3a723c3-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,32 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package deadbeef in buster of architecture amd64</h5>
-<div class="highlight"><pre><span></span>deadbeef (0.7.2+git7963-52eac347-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>deadbeef (0.7.2+git8252-e3a723c3-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/Alexey-Yakovenko/deadbeef.git
   * Branch: master
-  * Commit: 52eac347b27db679b41e9954d34d4c07219de521
-  * Date: 1547649074
+  * Commit: e3a723c3e7e07c6760cb53eafbce710831e16695
+  * Date: 1548763643
   * git changelog:
+  *  e3a723c3 - cocoaui: fixed tab text clipping
+  *  0a0f1279 - fixed osx/deps submodule ref
+  *  72f81dc6 - rg_scanner: fixed -Inf rg values
+  *  a1825a21 - update to latest deps
+  *  e01384c1 - osx: fixed deadbeef scheme for testing
+  *  3cfc32a4 - osx: converted to swift4
+  *  5e0fcb73 - gtkui: rebuilt interface from glade source
+  *  ea8684c1 - pulse: fixed draining the remaining samples at the end
+    of stream, fixes playback of short sounds at the end of queue
+  *  11acbb5f - osx: fix xcode test command
+  *  87bef813 - playlist: reedit windows-specific comments
+  *  c725541d - gtkui: fix switch-case identation
+  *  91c2df26 - gtkui: rewrite USE_GTK_NATIVE_FILE_CHOOSER selection
+  *  5a9c17e6 - osx: delete weird unused xcode schemes
+  *  3cce05be - mp3: allow up to 1MB of trash data between ID3v2 and
+    valid audio frames
+  *  28b231e7 - streamer: fix regression causing next track to play
+    instead of previous
   *  52eac347 - artwork: added relative path support in the image mask
   *  3463848f - force xcodebuild quiet output
   *  f674b226 - use xcode10.1 image on travis
@@ -59,7 +77,7 @@
   *  fb037af5 - streamer: fix regression in carrying previous track in
     the DB_EV_SONGCHANGED (fixes #2074)
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 18 Jan 2019 22:48:21 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 01 Feb 2019 20:02:48 +0300
 
 deadbeef (0.7.2+git7956-06de3d0a-1) unstable; urgency=medium
 
