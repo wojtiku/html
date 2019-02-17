@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.0.0+git3515-9bcfa90c-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.0.0+git3554-7f65afba-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,15 +41,49 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in bionic of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.0.0+git3515-9bcfa90c-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.0.0+git3554-7f65afba-1) unstable; urgency=medium
 
   * Compile
+  * disable patch - man.diff
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: 9bcfa90c59cb799ce8007361ec4f79c4e891a7eb
-  * Date: 1549129180
+  * Commit: 7f65afbaeb588befea84a8085415a2f3a593b82b
+  * Date: 1550249445
   * git changelog:
+  *  7f65afba - cmake check for avaible C++ standard. Mininum reqiered
+    standard is C++11
+  *  d35f119c - Fix a typo in Doxyfile
+  *  50f42ebb - Update test submodule
+  *  c0523ee5 - Fix compiler warning
+  *  35561524 - Compute function tables at compile time
+  *  fd6e281c - Use C++14 compiler if possible
+  *  b3327f4e - Remove unneeded checks for snprintf
+  *  f491eb61 - Simplify tanh and logistic functions and precompute
+    function tables
+  *  7ca27bb1 - Update appveyor.yml
+  *  31105368 - put common code in AddBoxToLSTM
+  *  b51c1bf0 - change to const char* as suggested by @stweil
+  *  86121703 - fix resultiterator_test for extra \n
+  *  0c9f7db5 - Fix compiler warning (-Wimplicit-fallthrough)
+  *  d91c316a - FontInfo: Make sure that deleted member variables can no
+    longer be used
+  *  877e62db - Fix compiler warning (-Wmaybe-uninitialized)
+  *  33f6dc2a - Fix compiler warnings (-Wformat-truncation=)
+  *  2a355ea1 - Fix compiler warnings (-Wimplicit-fallthrough)
+  *  aa2dcca2 - Fix compiler warnings (-Wstringop-truncation)
+  *  d42413dd - OpenCL: Remove PERF_COUNT framework
+  *  86b14c32 - Avoid gmake-specific pattern substitution in
+    Makefile.am. Resolves #2226
+  *  da279e42 - Tidy tesseract(1)
+  *  6dc48adf - Rename get.image config to get.images and install
+  *  0f42fd8c - change to use bbox coordinates for TEXTLINE for all
+    characters
+  *  9c89cd51 - Add a new renderer to create box files from images for
+    LSTM training
+  *  56725de8 - Update appveyor.yml
   *  32af6be4 - disable some subtests in resultiterator_test
+  *  d9590f8a - allow user specified box/tiff pairs with tesstrain.sh
+  *  323361b9 - allow user specified box/tiff pairs with tesstrain.sh
   *  ad223296 - use --xsize instead of --x_size
   *  31c48a04 - fix travis
   *  39ed30ad - Fix build rule for manpages
@@ -277,7 +311,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 02 Feb 2019 21:44:35 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 15 Feb 2019 21:06:13 +0300
 
 tesseract (4.0.0-2) unstable; urgency=medium
 
