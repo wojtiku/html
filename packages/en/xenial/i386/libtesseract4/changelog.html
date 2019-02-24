@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract4_4.0.0+git3554-7f65afba-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract4_4.0.0+git3592-8e83b209-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,17 +41,42 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract4 in xenial of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.0.0+git3554-7f65afba-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.0.0+git3592-8e83b209-1) unstable; urgency=medium
 
   * Compile
   * disable patch - man.diff
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: 7f65afbaeb588befea84a8085415a2f3a593b82b
-  * Date: 1550249445
+  * Commit: 8e83b209c6cdee354dd397f313047ad20d06b8d1
+  * Date: 1550942604
   * git changelog:
+  *  b3e355a6 - Remove whitespace at line endings
+  *  34e4d6b1 - Revert to 0 (50% percents of images inverted).
+  *  287d5341 - TODO
+  *  3e3e1ed5 - Remove commented Code
+  *  2aded47a - Implement distort_image in text2image - default false
+  *  49ed3a72 - implement PrepareDistortedPix as part of DegradeImage
+  *  9644b582 - Update appveyor.yml
+  *  2cbe723d - Fix doxygen comments
+  *  ef4d5b2e - Optimize calculation of dot product for double vectors
+    with AVX
+  *  b3bd23ed - Remove whitespace at line endings
+  *  38861be6 - Use __builtin_trap instead of null pointer dereference
+    to abort
+  *  4bd18c4c - Travis: Enable continuous integration build for macOS
+  *  a93ef8e0 - Release candidate 1 for 4.1.0
+  *  441779de - fix showing git tag for cmake build
+  *  a2481de9 - Revert "cmake workaround for #2246 for clang"
+  *  ddea230b - Don't compute function tables at compile time with clang
+  *  3480f1e5 - [sw] Fix clang-cl build.
+  *  4d8bbe2c - cmake workaround for #2246 for clang
+  *  7a1c6fe6 - Fix typo
+  *  6e37389f - doc: Don't fail if manpages fail to build
+  *  42ea4324 - configure: Check for xsltproc (needed to generate
+    manpages)
   *  7f65afba - cmake check for avaible C++ standard. Mininum reqiered
     standard is C++11
+  *  862322c1 - Fix check for images which are too small to scale
   *  d35f119c - Fix a typo in Doxyfile
   *  50f42ebb - Update test submodule
   *  c0523ee5 - Fix compiler warning
@@ -60,6 +85,7 @@
   *  b3327f4e - Remove unneeded checks for snprintf
   *  f491eb61 - Simplify tanh and logistic functions and precompute
     function tables
+  *  f3362a4b - Add renderer to create WordStr box files from images
   *  7ca27bb1 - Update appveyor.yml
   *  31105368 - put common code in AddBoxToLSTM
   *  b51c1bf0 - change to const char* as suggested by @stweil
@@ -74,6 +100,8 @@
   *  d42413dd - OpenCL: Remove PERF_COUNT framework
   *  86b14c32 - Avoid gmake-specific pattern substitution in
     Makefile.am. Resolves #2226
+  *  c3b18cfd - Improve description of configs and parameters in
+    tesseract(1)
   *  da279e42 - Tidy tesseract(1)
   *  6dc48adf - Rename get.image config to get.images and install
   *  0f42fd8c - change to use bbox coordinates for TEXTLINE for all
@@ -263,6 +291,8 @@
   *  8aa25239 - Fix some of Codacy's complaints
   *  9122e624 - Autoreformat code
   *  d9ae7ecc - Pythonize tesstrain.sh -> tesstrain.py
+  *  fc8a3d5b - combine condition with next
+  *  5c85d8e0 - add missed letters and symbols - 0x104a to 0x104f -
   *  b08624ac - Reapply: Add sw build system script (future cppan
     replacement).
   *  19580b18 - Revert "Add sw build system script (future cppan
@@ -311,7 +341,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 15 Feb 2019 21:06:13 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 23 Feb 2019 20:26:21 +0300
 
 tesseract (4.0.0-2) unstable; urgency=medium
 

@@ -891,18 +891,18 @@
     },
     "solvespace": 
     {
-      "version": "3.0.0~git1292-9e51288-1",
+      "version": "3.0.0~git1294-9d1601e-1",
       "description": " parametric 2d/3d CAD",
       "sourceurl": "https://notesalexp.org/source/main/s/solvespace",
-      "sourcefile": "solvespace_3.0.0~git1292-9e51288-1.debian.tar.xz solvespace_3.0.0~git1292-9e51288-1.dsc solvespace_3.0.0~git1292-9e51288.orig.tar.xz ",
+      "sourcefile": "solvespace_3.0.0~git1294-9d1601e-1.debian.tar.xz solvespace_3.0.0~git1294-9d1601e-1.dsc solvespace_3.0.0~git1294-9d1601e.orig.tar.xz ",
       "homepage": "http://solvespace.com",
       "depends": "debhelper(>=9) cmake libpng-dev zlib1g-dev libjson-c-dev libfontconfig1-dev libgtkmm-3.0-dev(>=3.22) libpangomm-1.4-dev libgl-dev libglu-dev libglew-dev libspnav-dev libfreetype6-dev ",
       "binary": "solvespace libslvs1 libslvs1-dev ",
       "description_solvespace": "parametric 2d/3d CAD",
       "description_libslvs1": "SolveSpace geometric kernel",
       "description_libslvs1dev": "SolveSpace geometric kernel (development files)",
-      "md5": " 76f57dd4af87e5c7019cee4c69c3c022 7753a539f23ca13795d1dca632fa6814 a998c62eacf7acb1ed0466fc496a6653",
-      "size": " 16_KiB  4_KiB  20.77_MiB "
+      "md5": " addab15ca01d15e5ff907bb04806ebe6 9f2527c5745da6bf46a5d55bfcfdbfc6 8fbe61f3c2864e577d5339f97114881a",
+      "size": " 16_KiB  4_KiB  20.81_MiB "
     },
     "sz81": 
     {
@@ -919,10 +919,10 @@
     },
     "tesseract": 
     {
-      "version": "4.0.0+git3554-7f65afba-1",
+      "version": "4.0.0+git3592-8e83b209-1",
       "description": " Open Source OCR Engine",
       "sourceurl": "https://notesalexp.org/source/main/t/tesseract",
-      "sourcefile": "tesseract_4.0.0+git3554-7f65afba-1.debian.tar.xz tesseract_4.0.0+git3554-7f65afba-1.dsc tesseract_4.0.0+git3554-7f65afba.orig.tar.xz ",
+      "sourcefile": "tesseract_4.0.0+git3592-8e83b209-1.debian.tar.xz tesseract_4.0.0+git3592-8e83b209-1.dsc tesseract_4.0.0+git3592-8e83b209.orig.tar.xz ",
       "homepage": "https://github.com/tesseract-ocr/",
       "depends": "debhelper(>=9) libleptonica-dev(>=1.75.3) automake libtool libpango1.0-dev libcairo2-dev libicu-dev libpng-dev libjpeg-dev libtiff-dev zlib1g-dev git autoconf-archive asciidoc xsltproc docbook-xsl docbook-xml tesseract-ocr-eng(>=4.00~) ",
       "binary": "tesseract-ocr libtesseract-dev libtesseract4 tesseract-ocr-all ",
@@ -930,8 +930,8 @@
       "description_libtesseractdev": "Development files for the tesseract command line OCR tool",
       "description_libtesseract4": "Tesseract OCR library",
       "description_tesseractocrall": "Tesseract OCR with all language and script packages",
-      "md5": " 02d6a918b8fa814586b827ba046f6e2c ff47dadb12dfa0e85b9a187a3c0a6518 f4b16e4f0fe45a6043e3e435bff1f14c",
-      "size": " 44_KiB  4_KiB  42.11_MiB "
+      "md5": " d6d99227754b29ce8b81ca5d27040476 e2fd2db73fe35468fadfe6f9530811e1 03a977b7ef030b63704b0f0264b2a273",
+      "size": " 44_KiB  4_KiB  49.66_MiB "
     },
     "tesseractlang": 
     {
