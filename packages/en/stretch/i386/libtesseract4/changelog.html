@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract4_4.0.0+git3592-8e83b209-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract4_4.0.0+git3626-38fac625-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,15 +41,37 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract4 in stretch of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.0.0+git3592-8e83b209-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.0.0+git3626-38fac625-1) unstable; urgency=medium
 
   * Compile
   * disable patch - man.diff
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: 8e83b209c6cdee354dd397f313047ad20d06b8d1
-  * Date: 1550942604
+  * Commit: 38fac625cd5e8fca4e69ddf0a25ed1b52979f579
+  * Date: 1551553308
   * git changelog:
+  *  38fac625 - Format new code with clang-format
+  *  9c90894f - PAGE_RES_IT: Optimize compare operators by using inline
+    code
+  *  295996ed - commandlineflags: Fix compiler warnings
+    (signed/unsigned)
+  *  eb14726a - ICOORD: Fix old type casts
+  *  fb0f1bcf - BoxChar: Fix compiler warnings (signed/unsigned)
+  *  0e1a1fc3 - Validator: Fix compiler warnings (signed/unsigned)
+  *  c7e8131e - Add TSV option to C-API
+  *  22c09934 - rename LSTMBOX to LSTMBox
+  *  c33f03e3 - Add lstmboxand wordstrbox to capi.h
+  *  76ec21df - Add lstmbox and wordstrbox to C-API
+  *  08e96516 - install lstmbox and wordstrbox config files
+  *  646b043d - use space instead of tab
+  *  5ee1deae - correct handling of 0BF0-0BFA Tamil numbers and symbols
+  *  c6cc54aa - Change option -l to --lang
+  *  14c4494f - Allow UTF-8 variant of C locale
+  *  98dd3b63 - Refactor class Network
+  *  25b02bf1 - Treat U_ARABIC_NUMBER as LTR
+  *  2f71fe28 - Use alternative way to comment a block of code (using
+    the c preprocessor).
+  *  449f1cd4 - Remove test for Word started with a combiner
   *  b3e355a6 - Remove whitespace at line endings
   *  34e4d6b1 - Revert to 0 (50% percents of images inverted).
   *  287d5341 - TODO
@@ -77,6 +99,7 @@
   *  7f65afba - cmake check for avaible C++ standard. Mininum reqiered
     standard is C++11
   *  862322c1 - Fix check for images which are too small to scale
+  *  a044f643 - fix Myanmar validation rules as per Unicode charts
   *  d35f119c - Fix a typo in Doxyfile
   *  50f42ebb - Update test submodule
   *  c0523ee5 - Fix compiler warning
@@ -341,7 +364,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 23 Feb 2019 20:26:21 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 02 Mar 2019 22:20:35 +0300
 
 tesseract (4.0.0-2) unstable; urgency=medium
 

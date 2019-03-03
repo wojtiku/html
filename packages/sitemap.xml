@@ -289,6 +289,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/amd64/solvespace/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/sqlitebrowser/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/sz81/</loc>
     </url>
     <url>
@@ -1084,6 +1087,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/i386/solvespace/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/sqlitebrowser/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/sz81/</loc>
     </url>
     <url>
@@ -1690,6 +1696,12 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/fatrat-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/freecad-daily/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/freecad-daily-doc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/gimp/</loc>
     </url>
     <url>
@@ -1886,6 +1898,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/solvespace/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/sqlitebrowser/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/sz81/</loc>
@@ -2497,6 +2512,12 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/fatrat-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/freecad-daily/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/freecad-daily-doc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/gimp/</loc>
     </url>
     <url>
@@ -2693,6 +2714,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/solvespace/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/sqlitebrowser/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/sz81/</loc>
@@ -3418,6 +3442,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/solvespace/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/sqlitebrowser/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/tesseract-ocr/</loc>
     </url>
     <url>
@@ -3638,6 +3665,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/solvespace/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/sqlitebrowser/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/tesseract-ocr/</loc>
@@ -6799,6 +6829,9 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/solvespace/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/sqlitebrowser/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/sz81/</loc>
     </url>
     <url>
@@ -7615,6 +7648,9 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/solvespace/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/sqlitebrowser/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/sz81/</loc>
     </url>
     <url>
@@ -8317,6 +8353,9 @@
         <loc>https://notesalexp.org/packages/en/source/solvespace/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/sqlitebrowser/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/sz81/</loc>
     </url>
     <url>
@@ -8714,6 +8753,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/solvespace/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/sqlitebrowser/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/sz81/</loc>
@@ -9602,6 +9644,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/solvespace/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/sqlitebrowser/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/sz81/</loc>
