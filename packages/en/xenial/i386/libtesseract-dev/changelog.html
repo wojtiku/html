@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract-dev_4.0.0+git3626-38fac625-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract-dev_4.0.0+git3696-ac7ea432-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,16 +41,87 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract-dev in xenial of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.0.0+git3626-38fac625-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.0.0+git3696-ac7ea432-1) unstable; urgency=medium
 
   * Compile
   * disable patch - man.diff
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: 38fac625cd5e8fca4e69ddf0a25ed1b52979f579
-  * Date: 1551553308
+  * Commit: ac7ea4322a23af46fa6ddccf23497bd06f1e2d38
+  * Date: 1552832854
   * git changelog:
+  *  26877ba7 - check min. python version; os.uname is not available on
+    windows
+  *  8891ba97 - add autotools options to cmake build
+  *  f8e85216 - Update tesstrain_utils.py
+  *  6fa8e1bb - Set max_workers=8
+  *  e21499e8 - Set default value for distort_image
+  *  ee2f9bf7 - Remove old comments in file headers
+  *  5f76a849 - Sort options alphabetically in tesseract man page
+  *  b55984fb - Add description for new --dpi option in tesseract man
+    page
+  *  26b4457b - Add description for new --psm values in tesseract man
+    page
+  *  a6981ae5 - Improve man page for tesseract
+  *  6b3c81c9 - Add rule for PDF documentation
+  *  d47b0d58 - Use LATIN_FONTS for kmr
+  *  3eee1d21 - Add kmr and kur_ara, remove kur from training scripts
+  *  b2ebf019 - Add kmr and kur_ara, remove kur from training scripts
+  *  37befdf6 - Add option for --distort_image
+  *  29389f71 - Fix appveyor artifacts.
+  *  e1479756 - Update documentation for supported languages
+  *  85d7feeb - Add missing documentation for --help-extra
+  *  4c2bbebe - Fix compiler warning (-Wunused-value)
+  *  ed84ba0a - Fix wrong comparison
+  *  bbbd262a - Added missing linker flags for MinGW.
+  *  1206362d - `accumulated_timesteps` is not a pointer but a vector
+    and in case we use ChoiceIterator without `lstm_choice_mode`
+    tesseract crashes (or similar) because the check is true and we
+    reference not existing item
+  *  3baf0d80 - Fix boolean assignments
+  *  8ad0489f - Remove svpaint.cpp from libtesseract
+  *  35a999f9 - Fix assertion caused by wrong unicharset
+  *  56a39bda - Fix float division by zero
+  *  5b3e2fe8 - Integrated accumulated Symbol Choice in the Choice
+    Iterator and made the api lstm_choice_mode independent
+  *  4c0b98bd - Replace undefined shift operations by multiplications
+  *  896698a4 - Fix runtime error (left shift of negative value)
+  *  5202208a - Remove globals.h
+  *  e78b5f2a - Update test submodule
+  *  bc2b9198 - Integrated Timesteps per symbol into ChoiceIterator
+  *  754e38d2 - Added the option to get the timesteps separated by the
+    suggested segmentation
+  *  d2c3309d - Update appveyor.yml
+  *  e8176072 - archive_version_details is available from libArchive
+    version 3.2.0
+  *  c4dd5372 - [cmake] Add visibility to all target_link_libraries
+    calls.
+  *  b0f61dfd - Propagate libarchive to tess users.
+  *  37b0c36e - Add libarchive dependency to cppan and sw builds.
+  *  02a1ffe8 - Report libArchive support
+  *  4ed44d70 - cmake: enable libArchive support for non_cppan build
+  *  b3aff7d6 - Fix Index-out-of-bounds in
+    IntegerMatcher::UpdateTablesForFeature
+  *  91d0a71d - Fix assertion caused by wrong unicharset (issue #2301)
+  *  71d4990c - Fix Heap-buffer-overflow in GenericVector<int>::size
+    (issue #2298)
+  *  b7279f6d - unittest: Remove tmp directory from repository and
+    create it during build
+  *  bd95c9d2 - unittest: Add missing libarchive
+  *  b20f8900 - unittest: Add another file from Abseil
+  *  a9d3efb6 - Document that configfile can be a file path
+  *  1c7e0061 - Add initial support for traineddata files in standard
+    archive formats
+  *  56b04d4e - Added the same --tmp_dir flag to tesstrain_utils.sh
+  *  25fa3928 - Added an additional optional --tmp_dir parameter to
+    specify the temporary directory in which tesstrain.py creates the
+    training temporary files. The main reason is due to the slow R/W on
+    HDD, if anyone wants to speed up this process can use as tmp_dir a
+    directory on an SSDrive
+  *  7fbde96a - Format new code with clang-format
   *  38fac625 - Format new code with clang-format
+  *  a0202bac - Rename function to TessBaseAPIGetTsvText to be
+    consistent to the Create method
   *  9c90894f - PAGE_RES_IT: Optimize compare operators by using inline
     code
   *  295996ed - commandlineflags: Fix compiler warnings
@@ -364,7 +435,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 02 Mar 2019 22:20:35 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 18 Mar 2019 07:51:11 +0300
 
 tesseract (4.0.0-2) unstable; urgency=medium
 

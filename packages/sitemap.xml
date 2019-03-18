@@ -1696,10 +1696,16 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/fatrat-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/freecad/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/freecad-daily/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/freecad-daily-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/freecad-doc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/gimp/</loc>
@@ -2512,10 +2518,16 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/fatrat-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/freecad/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/freecad-daily/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/freecad-daily-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/freecad-doc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/gimp/</loc>
@@ -3310,10 +3322,16 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/eiskaltdcpp-sounds/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/freecad/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/freecad-daily/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/freecad-daily-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/freecad-doc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/gimp-devel/</loc>
@@ -3535,10 +3553,16 @@
         <loc>https://notesalexp.org/packages/en/cosmic/i386/eiskaltdcpp-sounds/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/freecad/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/freecad-daily/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/freecad-daily-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/freecad-doc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/gimp-devel/</loc>
@@ -15194,6 +15218,27 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2019/02/17/20190217/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/02/24/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/02/24/20190224/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/03/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/03/03/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/03/03/20190303/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/03/18/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/03/18/20190318/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
