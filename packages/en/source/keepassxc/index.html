@@ -37,7 +37,7 @@
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Source Package: keepassxc ( 2.3.4-2 ) </h1>
+<h1>Source Package: keepassxc ( 2.4.0-2 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for keepassxc</strong></p>
 <p><strong>Resources:</strong></p>
@@ -62,60 +62,88 @@ The following binary packages are built from this source package:
         </tbody></table>
 <ul class="uldep">
 <li><dl>
-<dt><span><strong>dep:</strong> debhelper (&gt;=9)  </span></dt>
-<dt><span> helper programs for debian/rules</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> cmake (&gt;=3.1)  </span></dt>
+<dt><span><strong>dep:</strong> cmake </span></dt>
 <dt><span> cross-platform, open-source make system</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libgcrypt20-dev (&gt;=1.7)  </span></dt>
-<dt><span> LGPL Crypto library - development files</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> qtbase5-dev (&gt;=5.2)  </span></dt>
-<dt><span> Qt 5 base development files</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> qttools5-dev (&gt;=5.2)  </span></dt>
-<dt><span> Qt 5 tools development files</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> qttools5-dev-tools (&gt;=5.2)  </span></dt>
-<dt><span> Qt 5 development tools</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libqt5x11extras5-dev </span></dt>
-<dt><span> Qt 5 X11 extras development files</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> zlib1g-dev </span></dt>
-<dt><span> compression library - development</span></dt>
+<dt><span><strong>dep:</strong> debhelper (&gt;=9)  </span></dt>
+<dt><span> helper programs for debian/rules</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libargon2-0-dev </span></dt>
 <dt><span> memory-hard hashing function - development files</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libsodium-dev (&gt;=1.0.13)  </span></dt>
-<dt><span> Network communication, cryptography and signaturing library - headers</span></dt>
+<dt><span><strong>dep:</strong> libcurl4-gnutls-dev </span></dt>
+<dt><span> Development files and documentation for libcurl (GnuTLS)</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libxi-dev </span></dt>
-<dt><span> X11 Input extension library (development headers)</span></dt>
+<dt><span><strong>dep:</strong> libgcrypt20-dev </span></dt>
+<dt><span> LGPL Crypto library - development files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt5x11extras5-dev </span></dt>
+<dt><span> Qt 5 X11 extras development files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libsodium-dev </span></dt>
+<dt><span> Network communication, cryptography and signaturing library - headers</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libxtst-dev </span></dt>
 <dt><span> X11 Record extension library (development headers)</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libyubikey-dev (&gt;=1.13)  </span></dt>
+<dt><span><strong>dep:</strong> libykpers-1-dev </span></dt>
+<dt><span> Development files for the YubiKey OTP personalization library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libyubikey-dev </span></dt>
 <dt><span> Yubikey OTP library development files</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libykpers-1-dev </span></dt>
-<dt><span> Development files for the YubiKey OTP personalization library</span></dt>
+<dt><span><strong>dep:</strong> libzxcvbn-dev </span></dt>
+<dt><span> password strength estimation library - development files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> qtbase5-dev </span></dt>
+<dt><span> Qt 5 base development files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> qttools5-dev </span></dt>
+<dt><span> Qt 5 tools development files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> qttools5-dev-tools </span></dt>
+<dt><span> Qt 5 development tools</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqt5svg5-dev </span></dt>
+<dt><span> Qt 5 SVG module development files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libqrencode-dev </span></dt>
+<dt><span> QR Code encoding library -- development</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libquazip5-dev </span></dt>
+<dt><span> C++ wrapper for ZIP/UNZIP (development files, Qt5 build)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libquazip5-headers </span></dt>
+<dt><span> C++ wrapper for ZIP/UNZIP (development header files, Qt5 build)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> xauth </span></dt>
+<dt><span> X authentication utility</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> xvfb </span></dt>
+<dt><span> Virtual Framebuffer 'fake' X server</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> zlib1g-dev </span></dt>
+<dt><span> compression library - development</span></dt>
 </dl></li>
 </ul>
     </div>
@@ -128,19 +156,19 @@ The following binary packages are built from this source package:
         <th>MD5 checksum</th>
     </tr>
 <tr>
-    <th><a href="https://notesalexp.org/source/main/k/keepassxc/keepassxc_2.3.4-2.debian.tar.xz">keepassxc_2.3.4-2.debian.tar.xz</a></th>
+    <th><a href="https://notesalexp.org/source/main/k/keepassxc/keepassxc_2.4.0-2.debian.tar.xz">keepassxc_2.4.0-2.debian.tar.xz</a></th>
     <td class="size">8 KiB</td>
-    <td class="size">0626322d9bff72f3a7a610173e0a59b0</td>
+    <td class="size">b7649e5e25d677ba198c4ef8c366652d</td>
 </tr>
 <tr>
-    <th><a href="https://notesalexp.org/source/main/k/keepassxc/keepassxc_2.3.4-2.dsc">keepassxc_2.3.4-2.dsc</a></th>
+    <th><a href="https://notesalexp.org/source/main/k/keepassxc/keepassxc_2.4.0-2.dsc">keepassxc_2.4.0-2.dsc</a></th>
     <td class="size">4 KiB</td>
-    <td class="size">6e43220790bcc0b8aa5a8ebacf1e0b61</td>
+    <td class="size">895ae8e7f38402f01dee2d288942f7c0</td>
 </tr>
 <tr>
-    <th><a href="https://notesalexp.org/source/main/k/keepassxc/keepassxc_2.3.4.orig.tar.xz">keepassxc_2.3.4.orig.tar.xz</a></th>
-    <td class="size">3.94 MiB</td>
-    <td class="size">c8f8280cf4155c32d0b50c059d0a3edf</td>
+    <th><a href="https://notesalexp.org/source/main/k/keepassxc/keepassxc_2.4.0.orig.tar.xz">keepassxc_2.4.0.orig.tar.xz</a></th>
+    <td class="size">3.10 MiB</td>
+    <td class="size">6dea2395ba32e30f3f9a10239728d2b6</td>
 </tr>
 <tr>
         </tbody></table>

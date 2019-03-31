@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.0.0+git3696-ac7ea432-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.0.0+git3754-5767fe4a-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,15 +41,65 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in cosmic of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.0.0+git3696-ac7ea432-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.0.0+git3754-5767fe4a-1) unstable; urgency=medium
 
   * Compile
   * disable patch - man.diff
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: ac7ea4322a23af46fa6ddccf23497bd06f1e2d38
-  * Date: 1552832854
+  * Commit: 5767fe4ae81a732cf9904a7dd4531ffe1613892d
+  * Date: 1553875560
   * git changelog:
+  *  5767fe4a - Update appveyor.yml
+  *  ea36e94e - fix Could not parse bool from flag (#2359)
+  *  852598ee - Remove file tessedit.h
+  *  6e59abcc - Remove file cutil.h
+  *  3bbe4327 - fix #2344 libpthread under-linking on FreeBSD
+  *  4ccbb9f8 - configure: Check support of compile flags with -Werror
+  *  b6bfb20f - Improve readability of conditional code
+  *  36a1a30c - Remove some old type casts
+  *  59b90bd4 - Update googletest
+  *  2718b81a - fuzzer-api: Use environment variable TESSDATA_PREFIX if
+    set
+  *  7e9970b4 - Format fuzzer code with clang-format
+  *  270e466d - Add build rule for fuzzer-api
+  *  7cd012f3 - Move fuzzer-api.cpp to subdirectory unittest/fuzzers
+  *  b6b00083 - Use relative path to set TESSDATA_PREFIX
+  *  e9b72d8c - Add API fuzzer
+  *  a44bf41f - Modernize C++ loops
+  *  ed011670 - Modernize C++ code using bool literals
+  *  a0fd9058 - Modernize C++ code using auto
+  *  36f76885 - Modernize C++ code using override
+  *  d8d2f6f4 - Fix broken shell scripts for training
+  *  aaf8c50a - unittest: Use range-for-loops
+  *  631882a3 - Fix compiler warnings (signed / unsigned mismatch)
+  *  ecaad2ac - ccstruct/werd: Format code with clang-format
+  *  b1e305f3 - Simplify code which tests for non-empty StringParam
+  *  f9860cda - Optimize functions ResetFrom
+  *  41da5afe - UNICHARSET: Fix compiler warning (signed/unsigned
+    mismatch)
+  *  91e2b253 - Format modified code with clang-format
+  *  06acbaf9 - IntegerMatcher: Fix division by zero
+  *  da6305b6 - Fix compiler warnings caused by ASSERT_HOST
+  *  44a6d9f4 - intmatcher: Catch more out of bounds reads
+  *  5fd72284 - intmatcher: Catch out of bounds reads
+  *  509ee950 - IntegerMatcher: Fix data type of loop counters
+  *  f4f34a87 - WERD_RES: Fix uninitialized member variable
+  *  afc099b9 - intmatcher: Split data_table
+  *  8749f355 - LINEDATA=false
+  *  bcb7cf98 - sort arguments, use true/false instead of 1/0
+  *  2fcb483e - Update test submodule
+  *  9aadaaba - Fix automake rules for doc-clean and doc-pack
+  *  c2db2721 - Modify distort_image for Boolean
+  *  259d5af6 - Add PSM values to the definition
+  *  8eafec0d - Fix comments with current values of PSM codes
+  *  11e09bd4 - Update appveyor.yml
+  *  02f97c3f - Update appveyor.yml
+  *  e1e56d9d - Remove local function declarations from intmatcher.h
+  *  2ba194ca - Remove four unused parameters
+  *  dd79d56e - Remove unused parameter BlobLength
+  *  9b915d5e - add --distort_image
+  *  f7ffde99 - add --distort_image
   *  26877ba7 - check min. python version; os.uname is not available on
     windows
   *  8891ba97 - add autotools options to cmake build
@@ -66,11 +116,16 @@
   *  6b3c81c9 - Add rule for PDF documentation
   *  d47b0d58 - Use LATIN_FONTS for kmr
   *  3eee1d21 - Add kmr and kur_ara, remove kur from training scripts
+  *  297d7d86 - trying to add user words/patterns again:
   *  b2ebf019 - Add kmr and kur_ara, remove kur from training scripts
   *  37befdf6 - Add option for --distort_image
   *  29389f71 - Fix appveyor artifacts.
   *  e1479756 - Update documentation for supported languages
   *  85d7feeb - Add missing documentation for --help-extra
+  *  14346e56 - tesstrain: catch+handle SIGINT (to stop waiting on
+    subjobs)
+  *  6cbad17e - tesstrain: check all subjobs' retval
+  *  5316bcbb - tesstrain: check failure of subjobs
   *  4c2bbebe - Fix compiler warning (-Wunused-value)
   *  ed84ba0a - Fix wrong comparison
   *  bbbd262a - Added missing linker flags for MinGW.
@@ -435,7 +490,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 18 Mar 2019 07:51:11 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 29 Mar 2019 23:04:09 +0300
 
 tesseract (4.0.0-2) unstable; urgency=medium
 

@@ -3364,6 +3364,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/keepassxc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/kvirc/</loc>
     </url>
     <url>
@@ -3416,6 +3419,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/ocrodjvu/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/pinta/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/psi-plus/</loc>
@@ -3595,6 +3601,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/i386/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/keepassxc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/kvirc/</loc>
     </url>
     <url>
@@ -3647,6 +3656,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/ocrodjvu/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/pinta/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/psi-plus/</loc>
@@ -15239,6 +15251,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2019/03/18/20190318/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/03/30/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/03/30/20190330/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
