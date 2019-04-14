@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract-dev_4.0.0+git3754-5767fe4a-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract-dev_4.0.0+git3834-b1078dd6-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,15 +41,91 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract-dev in stretch of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.0.0+git3754-5767fe4a-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.0.0+git3834-b1078dd6-1) unstable; urgency=medium
 
   * Compile
   * disable patch - man.diff
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
-  * Commit: 5767fe4ae81a732cf9904a7dd4531ffe1613892d
-  * Date: 1553875560
+  * Commit: b1078dd6e55a1922887f27f6c6c5bb41548c732a
+  * Date: 1555258511
   * git changelog:
+  *  b1078dd6 - Poke sw build on appveyor.
+  *  a1ffcd36 - Use std::stringstream for add_str_double
+  *  aa64a63f - Use std::stringstream to generate PDF output
+  *  78a957b9 - Remove spaces a line endings
+  *  12ca2513 - Revert "e" flag for fopen
+  *  e32b3360 - Fix for MSVC
+  *  332a1a98 - Pass ssse/avx flags to all files to pacify VS ide.
+  *  f88a7f28 - fontinfo: Fix wrong delete
+  *  3dfe1b88 - classify: Modernize function UniformDensity
+  *  72c87414 - Modernize code by replacing C type casts
+  *  95a15a7a - fix cmake&clang build
+  *  f80508bc - added link to testing/README.md to dev rules
+  *  25a42ea4 - fixed failure report for tesstrain commands:
+  *  56427b89 - added minimal description to dev rules
+  *  d5584e79 - fixed failure report for tesstrain commands:
+  *  d35a6f2d - Modernize code (clang-tidy check modernize-deprecated-
+    headers)
+  *  20d5eedd - Modernize code (clang-tidy check modernize-loop-convert)
+  *  fab9a549 - Remove unneeded 'SUBDIRS=' from 3 Makefile.am files
+  *  66733479 - Change page to line in message
+  *  51c35353 - Always display GROUND TRUTH. BEST OCR and ALIGNED TRUTH
+    only if different for debug_level -1
+  *  84d4cc2e - Display OCR TEXT and GROUND TRUTH only when different
+    for debug_level = -1
+  *  546014ae - disable-legacy build: Do not include unused headers
+  *  98346c2c - Modernize and format code
+  *  613c2bf6 - Change pages to lines in message
+  *  e76d81a0 - Include src/training when exporting compile commands
+    with cmake
+  *  e262d71a - Modifiy formatting rules
+  *  3e7144e7 - Update appveyor.yml
+  *  af7cc1ce - Fix windows build.
+  *  81fbd878 - Add more missing include statements for Windows build
+  *  ab009fae - Remove macro WINDLLNAME
+  *  77a5f262 - Remove unused config variable tessedit_module_name
+  *  c150b983 - Add missing include statements for Windows build
+  *  802f42e8 - Remove BOOL8, TRUE, FALSE from host.h
+  *  be96b7b6 - bits16: Format code
+  *  146079f3 - api: Replace BOOL8, TRUE, FALSE by bool, true, false and
+    modernize code
+  *  4e0c726d - ccutil: replace TRUE, FALSE by true, false
+  *  da0c14ae - cutil: Replace TRUE, FALSE by true, false
+  *  87a97365 - classify: Replace BOOL8, TRUE, FALSE by bool, true,
+    false
+  *  30ee3afc - textord: Replace TRUE, FALSE by true, false and use bool
+    instead of BOOL8
+  *  bb52887c - unittest: Replace TRUE, FALSE by true, false
+  *  b391ab84 - wordrec: Replace TRUE, FALSE by true, false
+  *  cbb5e729 - classify: Use bool and replace TRUE, FALSE
+  *  46fa59aa - ccstruct: Replace BOOL8, TRUE, FALSE by bool, true,
+    false and modernize code
+  *  92b9f9f8 - ccmain: Replace TRUE, FALSE by true, false
+  *  7db25e15 - Remove unused config variable tessedit_single_match
+  *  ca2947a2 - blobclass: Remove unused macros
+  *  f2bd98e6 - PageIterator: Remove useless const
+  *  813b7803 - pgedit: Replace BOOL8 by bool
+  *  664811a8 - Replace BOOL8, TRUE, FALSE by bool, true, false
+  *  51a2c2ea - Format code with clang-format
+  *  95ea7787 - capi: Replace FALSE, TRUE and simplify and format code
+  *  89ba48b1 - strngs: Modernize and format code
+  *  127d0e31 - serialis: Modernize and format code
+  *  8b663e76 - helpers: Modernize and format code
+  *  5f064027 - python: optimize imports, reformat code
+  *  2e9fd69c - use 'import pathlib'; fix "TypeError: argument of type
+    'WindowsPath' is not iterable"
+  *  a0527b41 - fix LGTM reports for python
+  *  1948f0d5 - ocrclass: Modernize and format code
+  *  85957e96 - WERD: Don't print space character after "FALSE" at end
+    of line
+  *  83d4433d - Modernize and format unichar.h
+  *  ac0b191f - Modernize and format genericvector.h
+  *  36ed0863 - Modernize and format tesscallback.h
+  *  f47c7c92 - fix uninitialized variables in wordstrboxrenderer and
+    lstmboxrenderer; CID 1399132, 1399134, 1399135, 1399137, 1399140,
+    1399141, 1399142
+  *  497d1c54 - Update appveyor.yml
   *  5767fe4a - Update appveyor.yml
   *  ea36e94e - fix Could not parse bool from flag (#2359)
   *  852598ee - Remove file tessedit.h
@@ -160,10 +236,15 @@
   *  91d0a71d - Fix assertion caused by wrong unicharset (issue #2301)
   *  71d4990c - Fix Heap-buffer-overflow in GenericVector<int>::size
     (issue #2298)
+  *  3912cb1c - LSTM char_whitelist/blacklist (6ac2ff0): more robust
   *  b7279f6d - unittest: Remove tmp directory from repository and
     create it during build
   *  bd95c9d2 - unittest: Add missing libarchive
   *  b20f8900 - unittest: Add another file from Abseil
+  *  b4599908 - LSTM char_whitelist/blacklist (6ac2ff0): multi-code
+    chars
+  *  8012d5e6 - LSTM char_whitelist/blacklist (6ac2ff0): also sublangs
+  *  6ac2ff08 - trying to add tessedit_char_whitelist etc. again:
   *  a9d3efb6 - Document that configfile can be a file path
   *  1c7e0061 - Add initial support for traineddata files in standard
     archive formats
@@ -490,7 +571,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 29 Mar 2019 23:04:09 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 14 Apr 2019 20:10:19 +0300
 
 tesseract (4.0.0-2) unstable; urgency=medium
 

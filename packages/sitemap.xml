@@ -3376,6 +3376,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/kvirc-modules/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/leptonica-progs/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
@@ -3383,6 +3386,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/libkvilib5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/liblept5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/libleptonica-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/librecad/</loc>
@@ -3613,6 +3622,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/i386/kvirc-modules/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/leptonica-progs/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
@@ -3620,6 +3632,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/libkvilib5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/liblept5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/libleptonica-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/librecad/</loc>
@@ -15257,6 +15275,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2019/03/30/20190330/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/04/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/04/14/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/04/14/20190414/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
