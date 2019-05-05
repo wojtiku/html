@@ -136,6 +136,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/amd64/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/jbig2enc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/keepassxc/</loc>
     </url>
     <url>
@@ -164,6 +167,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/libgimp2.0-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/libjbig2enc0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/libjbig2enc-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/libkvilib5/</loc>
@@ -934,6 +943,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/i386/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/jbig2enc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/keepassxc/</loc>
     </url>
     <url>
@@ -962,6 +974,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/libgimp2.0-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/libjbig2enc0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/libjbig2enc-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/libkvilib5/</loc>
@@ -1654,6 +1672,9 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/deadbeef-opus-plugin/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/didjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -1747,6 +1768,9 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/jbig2enc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/keepassxc/</loc>
     </url>
     <url>
@@ -1775,6 +1799,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/libgimp2.0-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/libjbig2enc0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/libjbig2enc-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/libkvilib4/</loc>
@@ -2476,6 +2506,9 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/deadbeef-opus-plugin/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/didjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -2569,6 +2602,9 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/jbig2enc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/keepassxc/</loc>
     </url>
     <url>
@@ -2597,6 +2633,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/libgimp2.0-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/libjbig2enc0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/libjbig2enc-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/libkvilib4/</loc>
@@ -3364,6 +3406,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/jbig2enc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/keepassxc/</loc>
     </url>
     <url>
@@ -3383,6 +3428,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/libeiskaltdcpp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/libjbig2enc0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/libjbig2enc-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/libkvilib5/</loc>
@@ -3610,6 +3661,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/i386/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/jbig2enc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/keepassxc/</loc>
     </url>
     <url>
@@ -3629,6 +3683,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/libeiskaltdcpp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/libjbig2enc0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/libjbig2enc-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/libkvilib5/</loc>
@@ -6634,6 +6694,9 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/deadbeef-opus-plugin/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/didjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -6727,6 +6790,9 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/jbig2enc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/keepassxc/</loc>
     </url>
     <url>
@@ -6746,6 +6812,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/libeiskaltdcpp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/libjbig2enc0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/libjbig2enc-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/libkvilib4/</loc>
@@ -7453,6 +7525,9 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/deadbeef-opus-plugin/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/didjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -7546,6 +7621,9 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/jbig2enc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/keepassxc/</loc>
     </url>
     <url>
@@ -7565,6 +7643,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/libeiskaltdcpp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/libjbig2enc0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/libjbig2enc-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/libkvilib4/</loc>
@@ -8263,6 +8347,9 @@
         <loc>https://notesalexp.org/packages/en/source/deadbeef-opus-plugin/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/didjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/eigen3/</loc>
     </url>
     <url>
@@ -8312,6 +8399,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/gscan2pdf/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/jbig2enc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/keepassxc/</loc>
@@ -8488,6 +8578,9 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/deadbeef-opus-plugin/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/didjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -8575,6 +8668,9 @@
         <loc>https://notesalexp.org/packages/en/stretch/amd64/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/jbig2enc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/keepassxc/</loc>
     </url>
     <url>
@@ -8609,6 +8705,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libimage-sane-perl/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libjbig2enc0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libjbig2enc-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libkvilib4/</loc>
@@ -9379,6 +9481,9 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/deadbeef-opus-plugin/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/didjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -9466,6 +9571,9 @@
         <loc>https://notesalexp.org/packages/en/stretch/i386/gscan2pdf/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/jbig2enc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/keepassxc/</loc>
     </url>
     <url>
@@ -9500,6 +9608,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libimage-sane-perl/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libjbig2enc0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libjbig2enc-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libkvilib4/</loc>
@@ -15284,6 +15398,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2019/04/14/20190414/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/04/28/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/04/28/20190428/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.1.0~git3834-b1078dd6-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.1.0~git3883-c4bb4b93-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,21 +41,69 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in jessie of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.1.0~git3834-b1078dd6-1) unstable; urgency=medium
-
-  * Rebuild
-
- -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 23 Apr 2019 21:15:43 +0300
-
-tesseract (4.0.0+git3834-b1078dd6-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.1.0~git3883-c4bb4b93-1) unstable; urgency=medium
 
   * Compile
   * disable patch - man.diff
   * URL: git://github.com/tesseract-ocr/tesseract.git
-  * Branch: master
-  * Commit: b1078dd6e55a1922887f27f6c6c5bb41548c732a
-  * Date: 1555258511
+  * Branch: 4.1
+  * Commit: c4bb4b933b444b127328d8d47c1bcf977a507ba5
+  * Date: 1556973341
   * git changelog:
+  *  c4bb4b93 - correct tessdata comment in baseapi.h
+  *  78ed5ef8 - universalambigs: Add missing include file
+  *  a8c8a961 - commandlineflags: Replace strtod by std::stringstream
+  *  8831cbfe - paramsd: Replace strtod by std::stringstream
+  *  231da006 - clusttool: Replace strtof by std::stringstream
+  *  97f6711c - clusttool: Remove unused code and some global functions
+  *  1d14d159 - Fix some typos (most found and fixed by codespell)
+  *  ef33a06e - fix crash in case of missing PNG support in Leptonica
+    see #2333
+  *  b2fc3eba - fix documentation about datapath: ending "/" is not
+    relevant
+  *  52205ab4 - cmake: fix linux build
+  *  f70859f1 - fix #1900: intraword spacing for slightly better pdf
+    copy-paste performance
+  *  2746566e - Print info when uzn file is used.
+  *  d5f23a61 - cmake: fixes #2337 Android cross-build
+  *  0d132e40 - fix spelling
+  *  9132bc73 - remove unused variable
+  *  c1f70e27 - Fix build for Windows
+  *  cd2ff227 - cmake: remove host.h from installation, remove
+    definition of NOMINMAX and report used C++ standard
+  *  9587e170 - svutil.cpp: fix windows build
+  *  315bd3a9 - Only include windows.h using host.h
+  *  668f59f3 - Clean macros in platform.h
+  *  b7e31221 - svutil: Clean include file
+  *  c7744710 - Remove host.h from Tesseract API
+  *  57604ec5 - Fix Windows build
+  *  53dd6ca0 - Fix typo in description
+  *  6aa887d6 - fix the coordinates for EOL tab
+  *  08b6dc50 - remove unused includes
+  *  8ee5c865 - MSVS support inttypes.h from VS 2015
+  *  7fc245c3 - cmake: show configuration summary
+  *  b9f7bb2b - cmake: add detection of AVX, AVX2, SSE41
+  *  29ab1a42 - fix finding tiffio.h cmake&clang on windows
+  *  30078d8a - fix missing EOL
+  *  66e35c17 - Don't include windows.h from platform.h
+  *  86b62eeb - extend ignore list
+  *  89d09cf5 - Remove unneeded include statements for pgedit.h
+  *  1d6e57ad - pgedit: Remove unused global functions
+  *  afa2fff5 - pdfrenderer: Replace snprintf by std::stringstream
+  *  09cb0bcc - baseapi: Use std::stringstream to format float values
+  *  1eea24ea - Remove strtofloat
+  *  38f68aa6 - Replace sscanf by std::stringstream
+  *  9477eeab - unittest: Add missing unittests to Makefile.am as
+    comments
+  *  918d4664 - unittest: Fix and enable params_model_test
+  *  0df3aa7d - Revert "fix C-API compatibility with 4.0.0 version"
+  *  5b16530f - ETEXT_DESC: fix backwards compatibility with 4.0.0 API
+  *  224b1f6d - fix C-API compatibility with 4.0.0 version
+  *  86b90200 - Add some of the lstm_choice_mode functionality to
+    restore compatibility with the 4.0 Version
+  *  fa948d64 - Removed lstm_choice_mode for backwards compatibility in
+    4.1
+  *  d2816f33 - add removed function to fix API compatibility
   *  b1078dd6 - Poke sw build on appveyor.
   *  a1ffcd36 - Use std::stringstream for add_str_double
   *  aa64a63f - Use std::stringstream to generate PDF output
@@ -577,7 +625,7 @@ tesseract (4.0.0+git3834-b1078dd6-1) unstable; urgency=medium
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 14 Apr 2019 22:00:27 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 05 May 2019 16:57:23 +0300
 
 tesseract (4.0.0-2) unstable; urgency=medium
 
