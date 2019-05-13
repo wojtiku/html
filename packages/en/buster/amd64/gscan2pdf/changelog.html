@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package gscan2pdf_2.5.1+git2980-a8ed38d1-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package gscan2pdf_2.5.1+git3001-01bf1a60-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,47 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package gscan2pdf in buster of architecture amd64</h5>
-<div class="highlight"><pre><span></span>gscan2pdf (2.5.1+git2980-a8ed38d1-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>gscan2pdf (2.5.1+git3001-01bf1a60-1) unstable; urgency=medium
+
+  * Compile
+  * URL: git://git.code.sf.net/p/gscan2pdf/code
+  * Branch: master
+  * Commit: 01bf1a607a14d918d1e7d4b5b201c5761a311664
+  * Date: 1555930050
+  * git changelog:
+  *  01bf1a60 - Bumped version to 2.5.2
+  *  03128ede - Update to Czech translation
+  *  f00343d6 - Rename dpi->ppi (again) and us->μs, and don't use the
+    translations for units from the SANE project, as we don't know they
+    exist.
+  *  e11efa27 - Update to Hungarian translation
+  *  d45f8bf6 - Test that exec_command() can return more than 65535
+    bytes
+  *  acbfc19f - exec_command(): slurp output before waitpid, as if the
+    output is larger than 65535, waitpid hangs forever
+  *  d9f4f23e - Log messages for show_message_dialog() to make debugging
+    easier
+  *  bbeb978a - Create dummy pdf to test pdftk with tiff2pdf, not
+    directly imagemagick
+  *  78f2b502 - Decode UTF-8 in font names for PDFs in save dialog
+  *  62ddb5af - Wait for processes to finish to prevent zombies
+  *  b9bb6143 - Really update progress bar whilst analysing pages
+  *  2152e9e6 - Fix error taking log of 0
+  *  b45cc15d - Don't reapply scan options after reload if setting
+    returned SANE_INFO_INEXACT
+  *  7a351e7f - Fix test failure running 52_process_chain_udt.t
+  *  5bb0633d - + Gscan2pdf::Frontend::Image_Sane::decode_info()
+  *  229a9442 - Improve progress message whilst analysing pages
+  *  96549180 - Allow translations for message types in multiple message
+    window
+  *  8cdfe98d - Fix MANIFEST after autopkgtest changes
+  *  fdaa0622 - Set up autopkgtest
+  *  cc5797d3 - Get tests working in schroot
+  *  aace04b2 - Update to Hungarian translation
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 11 May 2019 16:23:57 +0300
+
+gscan2pdf (2.5.1+git2980-a8ed38d1-1) unstable; urgency=medium
 
   * Compile
   * URL: git://git.code.sf.net/p/gscan2pdf/code

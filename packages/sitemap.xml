@@ -277,6 +277,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/amd64/qcomicbook/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/qt-box-editor/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/rubyripper/</loc>
     </url>
     <url>
@@ -1082,6 +1085,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/qcomicbook/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/qt-box-editor/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/rubyripper/</loc>
@@ -1913,6 +1919,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/qcomicbook/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/qt-box-editor/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/rubyripper/</loc>
@@ -2749,6 +2758,9 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/qcomicbook/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/qt-box-editor/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/rubyripper/</loc>
     </url>
     <url>
@@ -3517,6 +3529,12 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/qcad-data/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/scantailor-universal/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/smplayer/</loc>
     </url>
     <url>
@@ -3770,6 +3788,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/qcad-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/smplayer/</loc>
@@ -15404,6 +15428,21 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2019/04/28/20190428/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/05/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/05/05/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/05/05/20190505/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/05/13/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/05/13/20190513/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
